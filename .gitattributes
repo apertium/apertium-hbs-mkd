@@ -16,6 +16,8 @@
 /apertium-sh-mk.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
+/mk-sh.prob -text svneol=unset#unset
 /modes.xml -text
+/sh-mk.prob -text svneol=unset#unset
 /sl.paradigms -text
 /sr.paradigms -text
