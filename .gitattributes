@@ -7,6 +7,7 @@
 /NEWS -text
 /README -text
 /TODO -text
+/alt.xsl -text
 /apertium-sh-mk.mk-sh.t1x -text
 /apertium-sh-mk.mk-sh.t2x -text
 /apertium-sh-mk.mk-sh.t3x -text
