@@ -23,5 +23,4 @@
 /mk-sh.prob -text svneol=unset#unset
 /modes.xml -text
 /sh-mk.prob -text svneol=unset#unset
-/sl.paradigms -text
 /sr.paradigms -text
