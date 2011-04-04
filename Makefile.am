@@ -132,15 +132,19 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 
 $(PREFIX1).mode: modes.xml
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2a).mode: modes.xml 
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2b).mode: modes.xml 
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 $(PREFIX2c).mode: modes.xml clean-dicts
 	apertium-gen-modes modes.xml
+	cp *.mode modes/
 
 clean-dicts:
 	touch $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(PREFIX1).dix
