@@ -18,10 +18,10 @@
 /apertium-sh-mk.sh-mk.t2x -text
 /apertium-sh-mk.sh-mk.t3x -text
 /apertium-sh-mk.sh.dix -text
-/apertium-sh-mk.sh.metadix -text
 /apertium-sh-mk.translit.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-sh-mk.sh.metadix -text
 /mk-sh.prob -text svneol=unset#unset
 /modes.xml -text
 /sh-mk.prob -text svneol=unset#unset
