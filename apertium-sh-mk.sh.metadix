@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Nastavi ili pejstaj nekam drugam -->
+<!-- Serbo-Croatian is an umbrella term for three standard languages (Bosnian, Croatian and Serbian).
+Since all three of them have been based on the same dialect, and are largely mutualy inteligible 
+it makes perfect sense for technical convenience to group them all into the same module  ... -->
 <dictionary>
-  <!-- The Serbo-Croatian alphabet, along with the letters x, y, w which are found in loan words -->
+  <!-- The modified latin alphabet used, along with the letters x, y, w which are found in loan words -->
   <alphabet>ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽabcčćddžđefghijklljmnnjoprsštuvzžwWxXyY</alphabet>  
+  <!-- Simboli, ovo je valjda kopirano s nekog općenitog popisa -->
   <sdefs>    
     <sdef n="n"       c="Noun"/>    
     <sdef n="m"       c="Masculine"/>    
@@ -93,7 +98,7 @@
     <sdef n="lp"      c="L-participle"/>    
     <sdef n="cni"     c="Conditional"/>    
     <sdef n="prs"     c="Present subjunctive"/>    
-    <sdef n="pis"     c="Pretério imperfecto de subjunctivo"/>    
+    <!--sdef n="pis"     c="Pretério imperfecto de subjunctivo"/-->    
     <sdef n="pos"     c="Possessive"/>    
     <sdef n="sent"    c="End of sentence"/>    
     <sdef n="cm"      c="Comma"/>    
@@ -134,64 +139,70 @@
       <e><re>[\)\]]</re><p><l/><r><s n="rpar"/></r></p></e>
     </pardef>
     <!-- ORTHOGRAPHIC PARADIGMS -->
-    <!-- Vowel change ~ Ekavian - Ijekavian -->
+
+    <!-- Vowel differences for long and short yat ~ Ekavian - Ijekavian -->
+    <!-- i.e. in Serbia both are reflected as mostly 'e', with differences only in length of the stress -->
+    <!-- while in Bosnia, Croatia and Montenegro it's mostly ije/je, or sometimes 'e' or 'i' -->
+    
+    
+    <!-- Work in progress, changed some labels -->
     <pardef n="e_je__yat">
       <group alt="sh">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>je</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/je</r></p></e>
+        <e r="LR"><p><l>je</l><r>e/je</r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>je</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/je</r></p></e>
+        <e><p><l>je</l><r>e/je</r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>je</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/je</r></p></e>
+        <e><p><l>je</l><r>e/je</r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>je</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/je</r></p></e>
+        <e r="LR"><p><l>je</l><r>e/je</r></p></e>
       </group>
     </pardef>
 
     <pardef n="e_ije__yat">
       <group alt="sh">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>ije</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/ije</r></p></e>
+        <e r="LR"><p><l>ije</l><r>e/ije</r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>ije</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/ije</r></p></e>
+        <e><p><l>ije</l><r>e/ije</r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>ije</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/ije</r></p></e>
+        <e><p><l>ije</l><r>e/ije</r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>ije</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/ije</r></p></e>
+        <e r="LR"><p><l>ije</l><r>e/ije</r></p></e>
       </group>
     </pardef>
     <pardef n="e_i__yat"> 
       <group alt="sh">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>i</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/i</r></p></e>
+        <e r="LR"><p><l>i</l><r>e/i</r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>i</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/i</r></p></e>
+        <e><p><l>i</l><r>e/i</r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r>e</r></p></e>
-        <e><p><l>i</l><r>e</r></p></e>
+        <e r="LR"><p><l>e</l><r>e/i</r></p></e>
+        <e><p><l>i</l><r>e/i</r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r>e</r></p></e>
-        <e r="LR"><p><l>i</l><r>e</r></p></e>
+        <e><p><l>e</l><r>e/i</r></p></e>
+        <e r="LR"><p><l>i</l><r>e/i</r></p></e>
       </group>
     </pardef>
 
-    <!-- conjunction paradigms -->
+    <!-- conjunction paradigms ima li tu ičega??-->
     <pardef n="i__cnjcoo">
       <e><p><l/><r><s n="cnjcoo"/></r></p></e>
     </pardef>
@@ -218,7 +229,8 @@
       <e><p><l>no</l><r>an<s n="num"/><s n="nt"/><s n="sp"/><s n="nom"/></r></p></e>
     </pardef>
     <!-- pronouns -->
-    <pardef n="personal_pronouns__enc">
+
+    <pardef n="personal_pronouns__enc"><!-- enclitics, unstressed forms -->
       <e><p><l>me</l><r>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>te</l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
       <e><p><l>ga</l><r>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -244,7 +256,7 @@
       <e><p><l>vam</l><r>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
       <e><p><l>im</l><r>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
     </pardef>
-    <pardef n="personal_pronouns__prn">
+    <pardef n="personal_pronouns__prn"><!--stressed forms-->
       <e><p><l>ja</l><r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ti</l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>on</l><r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -787,7 +799,7 @@
       <e><p><l>govima</l><r>g<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
       <e><p><l>govima</l><r>g<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
-    <pardef n="inženjer__n">
+    <pardef n="inženjer__n"><!--NOTE: u hrv je inžinjer-->
       <e><p><l/><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -966,10 +978,12 @@
       <e><p><l>om</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>i</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
     </pardef>
-        <!-- Adjectives -->
+        <!-- Adjectives --><!--NOTE: TODO: Long and short adjectives! Definite/indefinite, predicative/attributive
+        the symbols are already here... maybe it'd be more convenient to add definite/indefinite, since it translates
+        nicely to macedonian -->
     <pardef n="P__adj">
       <e><p><l>naj</l><r>naj<s n="pref"/><s n="adj"/><s n="sup"/><j/></r></p></e>
-      <!-- passthrough -->
+      <!-- passthrough- say what?-->
 <e><p><l/><r/></p></e>
     </pardef>
     <pardef n="nov/i__adj"><!-- masculine -->
@@ -1363,7 +1377,7 @@
       <e><p><l>ijim</l><r><s n="adj"/><s n="comp"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>ijim</l><r><s n="adj"/><s n="comp"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
-    <pardef n="leteč/i__adj"><!-- masculine -->
+    <pardef n="leteč/i__adj"><!-- masculine ; krivo, leteći-->
 <e><p><l/><r>i<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>og</l><r>i<s n="adj"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
       <e><p><l>om</l><r>i<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -1462,7 +1476,7 @@
       <e><p><l>smo</l><r>biti<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ste</l><r>biti<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>su</l><r>biti<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <!-- Participles -->
+      <!-- Participles, more accurately verbal adjectives-->
 <e><p><l>bio</l><r>biti<s n="vbser"/><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bila</l><r>biti<s n="vbser"/><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>bilo</l><r>biti<s n="vbser"/><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -1470,7 +1484,7 @@
       <e><p><l>bile</l><r>biti<s n="vbser"/><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>bila</l><r>biti<s n="vbser"/><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="ima/ti__vbhaver"><!-- Future forms are different between east and west -->
+    <pardef n="ima/ti__vbhaver"><!-- FutureI is written differently in different standards-->
 <group alt="sh">
       <e><p><l/><r>ti<s n="vbhaver"/><s n="inf"/></r></p><par n="C__ću"/></e>
         <e><p><l>t</l><r>ti<s n="vbhaver"/><s n="inf"/></r></p><par n="C__ću"/></e>
@@ -1670,7 +1684,7 @@
       <e><p><l>esemo</l><r>eti<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>esete</l><r>eti<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>esu</l><r>eti<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <!-- Participles -->
+      <!-- Participles --><!--NOTE: fali srednji rod?!-->
 <e>	<par n="e_i__yat"/><p><l>o</l><r>ti<s n="vblex"/><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
       <e>	<par n="e_je__yat"/><p><l>la</l><r>ti<s n="vblex"/><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
       <e>	<par n="e_je__yat"/><p><l>li</l><r>ti<s n="vblex"/><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1794,7 +1808,7 @@
     <e lm="rano"><i>rano</i><par n="ne__adv"/></e>
     <e lm="jedan"><i>jed</i><par n="jed/an__num"/></e>
     <!-- Acronyms -->
-<e lm="AVNOJ"><i>AVNOJ</i><par n="AVNOJ__n"/></e>
+<e lm="AVNOJ"><i>AVNOJ</i><par n="AVNOJ__n"/></e><!-- :D kaj -->
     <e lm="NATO"><i>NATO</i><par n="AVNOJ__n"/></e>
     <e lm="EK"><i>EK</i><par n="AVNOJ__n"/></e>
     <e lm="EC"><i>EC</i><par n="AVNOJ__n"/></e>
@@ -1961,7 +1975,7 @@
     <e lm="kava"><i>kav</i><par n="žen/a__n"/></e>
  <!-- This is the west variant -->
 <e lm="kahva" r="LR"><i>kahv</i><par n="žen/a__n"/></e>
- <!-- In Bosnia, this is a dialectal variation, /kafa/ is the standard -->
+ <!-- In Bosnia, this is a dialectal variation, /kafa/ is the standard . -->
 <e lm="zvezda"><i>zv</i><par n="e_ije__yat"/><i>zd</i><par n="žen/a__n"/></e>
          <e lm="mesto"><i>m</i><par n="e_je__yat"/><i>st</i><par n="mest/o__n"/></e>
     <e lm="jutro"><i>jut</i><par n="jut/ro__n"/></e>
