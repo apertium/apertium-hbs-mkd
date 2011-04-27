@@ -104,7 +104,7 @@
 <sdef n="itg" c="Interrogative" />
 <sdef n="dem" c="Demonstrative" />
 <sdef n="pos" c="Possesive" />
-<sdef n="rel" c="Reflexive" />
+<sdef n="ref" c="Reflexive" />
 <sdef n="dst" c="Distal" /><!--Some of these can be excluded-->
 <sdef n="pprep" c="Post preposition" />
 </sdefs>
