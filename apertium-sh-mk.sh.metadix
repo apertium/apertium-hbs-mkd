@@ -79,11 +79,6 @@
 <sdef n="p3" c="Person 3" />
 <sdef n="impersonal" c="Impersonal" />
 
-<!--Animacy--> <!--Note: not so important, has a role only in masculine accusative singular, covered by gender -->
-<sdef n="aa" c="Animate" />
-<sdef n="an" c="Animate/Inanimate" />
-<sdef n="nn" c="Inanimate" />
-
 <!--Adjectives-->
 <sdef n="synth" c="Synthetic" />
 <sdef n="pve" c="Positive" />
@@ -248,6 +243,25 @@ after prepositions-->
     <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
     <e><p><l>si</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
     <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+</pardef>
+
+<!--Verb to be-->
+<!--the clitic form-->
+<pardef n="biti__clt__vbser">
+    <e><p><l>sam</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>si</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e><p><l>je</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>smo</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>ste</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>su</l><r>clitic<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="biti__vbser">
+    <e><p><l>jesam</l><r>biti<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>jesi</l><r>biti<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e><p><l>jest</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>jesmo</l><r>biti<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>jeste</l><r>biti<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>jesu</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
 
 <!-- Noun paradigms -->
@@ -1463,6 +1477,9 @@ after prepositions-->
 <e lm="clitic"><i/><par n="personal_pronouns__clt__prn"/></e> 
 <e lm="free"><i/><par n="reflexive_pronouns__prn"/></e> 
 <e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e> 
+<!--Verb to be-->
+<e lm="clitic"><i/><par n="biti__clt__vbser"/></e> 
+<e lm="biti"><i/><par n="biti__vbser"/></e> 
 <!-- Nouns -->
 <e lm="Škot"><i>Škot</i><par n="Škot__n" /></e>
 <e lm="gram"><i>gram</i><par n="gram__n" /></e>

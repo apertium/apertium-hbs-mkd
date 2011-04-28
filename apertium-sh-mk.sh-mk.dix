@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
 
@@ -172,6 +172,7 @@
      <!-- SECTION: Pronouns -->
 
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
 
      <e><p><l>ko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
      <e><p><l>šta<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
@@ -516,7 +517,7 @@
      <e><p><l>ljudski<s n="adj"/></l><r>човечки<s n="adj"/></r></p></e> 
      <e><p><l>amerikanski<s n="adj"/></l><r>американски<s n="adj"/></r></p></e> 
      <e><p><l>tihi<s n="adj"/></l><r>тих<s n="adj"/></r></p></e> 
-     <e><p><l>sam<s n="adj"/></l><r>сам<s n="adj"/></r></p></e> 
+     <e><p><l>sam<s n="adj"/></l><r>сам<s n="adj"/></r></p></e>
      <e><p><l>politički<s n="adj"/></l><r>политички<s n="adj"/></r></p></e> 
      <e><p><l>ženski<s n="adj"/></l><r>женски<s n="adj"/></r></p></e> 
      <e><p><l>srpski<s n="adj"/></l><r>српски<s n="adj"/></r></p></e> 
@@ -1054,8 +1055,9 @@
 
 
      <!-- SECTION: Verbs -->
-
-     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>
+      <!-- the clitic verb to be, and the longer version, they perhaps should be arranged differently-->
+    <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
+    <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
