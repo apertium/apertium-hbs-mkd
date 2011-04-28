@@ -125,8 +125,10 @@ I have added those for the sake of analysis -->
      <e><p><l>meni</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="dat"/></r></p></e>
      <e><p><l>mene</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
      <e><p><l>meni</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="loc"/></r></p></e>
-     <e><p><l>mnom</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e><!--with a preposition-->
-     <e r="LR"><p><l>mnome</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e><!--without preposition-->
+     <e r="LR"><p><l>mnom</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="LR"><p><l>mnome</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="RL"><p><l><a/>mnome</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to mnom
+after prepositions-->
    
    <!-- 2nd person singular-->  
      <e><p><l>ti</l><r>free<s n="prn"/><s n="pers"/><s n="p2"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -145,8 +147,10 @@ I have added those for the sake of analysis -->
      <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
      <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
      <e r="LR"><p><l>njem</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
-     <e><p><l>njim</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e><!--with preposition i.e. the commitative meaning-->
      <e r="LR"><p><l>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="LR"><p><l>njim</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e>     
+     <e r="RL"><p><l><a/>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to njim after a preposition-->
+
      
  <!-- 3rd persons singular feminine-->    
      <e><p><l>ona</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -154,8 +158,9 @@ I have added those for the sake of analysis -->
      <e><p><l>njoj</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
      <e><p><l>nju</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
      <e><p><l>njoj</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-     <e><p><l>njom</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="LR"><p><l>njom</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
      <e r="LR"><p><l>njome</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="RL"><p><l><a/>njome</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to njom aftera a preposition-->
 
   <!-- 1st person plural -->
     <e><p><l>mi</l><r>free<s n="prn"/><s n="pers"/><s n="p1"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -202,15 +207,17 @@ I have added those for the sake of analysis -->
     <!-- 3rd person singular masculine and neuter--> 
      <e><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="gen"/></r></p></e>
      <e><p><l>mu</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="dat"/></r></p></e>
-     <e><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
-     <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--after a preposition i.e. za nj == za njega == for him-->
+     <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
+     <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e r="RL"><p><l><a/>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->
 
     <!-- 3rd person singular feminine--> 
      <e><p><l>je</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
      <e><p><l>joj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-     <e><p><l>ju</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-     <e><p><l>je</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-     <e><p><l>nju</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e><!--after prepositions-->
+     <e r="LR"><p><l>ju</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e r="LR"><p><l>je</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e r="LR"><p><l>nju</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e r="RL"><p><l><a/>ju</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e><!--changes to nju after prepositions. Note: Croatian standard recommends the 'je' form for accusative (not sure about Serbian and Bosnian) to be preffered, when it doesn't collide with the clitic to be ('je', 3rd person). 'ju' can also be used, it's just considered bad style -->               
               
     <!-- 1st person plural -->
      <e><p><l>nas</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p1"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
