@@ -38,7 +38,7 @@
 <sdef n="unc" c="Uncountable" />
 <!--Number -->
 <sdef n="sg" c="Singular" />
-<sdef n="dual" c="Dual" /> <!-- For everything that has declension, when in number 2,3 or 4, or quantified with 'oba'(=='both '). More useful in generation than analysis-->
+<sdef n="sp" c="Singular/Plural" />
 <sdef n="pl" c="Plural" />
 <sdef n="ND" c="Number to be Determined" />
 <!--Case-->
@@ -227,6 +227,22 @@ I have added those for the sake of analysis -->
      <e><p><l>im</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
      <e><p><l>ih</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>          
 </pardef>
+
+<!--Reflexive pronouns-->
+<pardef n="reflexive_pronouns__prn">
+    <e><p><l>sebe</l><r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+    <e><p><l>sebi</l><r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+    <e><p><l>sebe</l><r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+    <e><p><l>sebi</l><r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+    <e><p><l>sobom</l><r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+</pardef>
+<!-- Strangely, this is not marked with "clt" in the macedonian monodix, therefore I won't mark it in accord -->
+<pardef n="reflexive_pronouns__clt__prn">
+    <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+    <e><p><l>si</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+    <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+</pardef>
+
 <!-- Noun paradigms -->
     <!-- 1-syllable -->
     <pardef n="Škot__n"    >
@@ -1435,6 +1451,12 @@ I have added those for the sake of analysis -->
 </pardefs>
 
 <section id="main" type="standard">
+<!--Pronouns -->
+<e lm="free"><i/><par n="personal_pronouns__prn"/></e> 
+<e lm="clitic"><i/><par n="personal_pronouns__clt__prn"/></e> 
+<e lm="free"><i/><par n="reflexive_pronouns__prn"/></e> 
+<e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e> 
+<!-- Nouns -->
 <e lm="Škot"><i>Škot</i><par n="Škot__n" /></e>
 <e lm="gram"><i>gram</i><par n="gram__n" /></e>
 <e lm="Grk"><i>Gr</i><par n="Gr/k__n" /></e>
