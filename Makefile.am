@@ -14,7 +14,7 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME).$(LANG1c).dix \
 	$(PREFIX2a).autogen.bin $(PREFIX2b).autogen.bin $(PREFIX2c).autogen.bin \
-	$(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1)-$(LANG2).dix \
+	$(BASENAME).$(LANG1).dix \
 	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
 	$(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
@@ -22,30 +22,29 @@ TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME
 
 #    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin 
 
-$(BASENAME).$(LANG1a).dix:
+$(BASENAME).$(LANG1a).dix: $(BASENAME).$(LANG1).metadix
 	xsltproc --stringparam alt $(LANG1a) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2a).autogen.bin: $(BASENAME).$(LANG1a).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1a).dix
 	lt-comp rl $(BASENAME).$(LANG1a).dix $@
 
-$(BASENAME).$(LANG1b).dix:
+$(BASENAME).$(LANG1b).dix: $(BASENAME).$(LANG1).metadix
 	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2b).autogen.bin: $(BASENAME).$(LANG1b).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1b).dix
 	lt-comp rl $(BASENAME).$(LANG1b).dix $@
 
-$(BASENAME).$(LANG1c).dix:
+$(BASENAME).$(LANG1c).dix: $(BASENAME).$(LANG1).metadix
 	xsltproc --stringparam alt $(LANG1c) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2c).autogen.bin: $(BASENAME).$(LANG1c).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1c).dix
 	lt-comp rl $(BASENAME).$(LANG1c).dix $@
 
-$(BASENAME).$(LANG1).dix:
-	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix > dix.tmp 
-	mv dix.tmp $@
+$(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix
+	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -145,6 +144,8 @@ $(PREFIX2b).mode: modes.xml
 $(PREFIX2c).mode: modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
+
+modes: $(PREFIX1).mode
 
 apertium_sh_mkmodesdir=$(prefix)/share/apertium/modes/
 apertium_sh_mkdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
