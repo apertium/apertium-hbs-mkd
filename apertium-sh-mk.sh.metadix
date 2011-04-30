@@ -271,6 +271,59 @@ after prepositions-->
     <e><p><l>jesu</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
 
+<!-- Adjective paradigms--><!--Just one paradigm for sketching-->
+<!--Definiteness in Serbian and Croatian adjectives is analogous to the definitenes that Macedonian accomplished with articles?-->
+<!--therefore I am choosing the symbols def/ind (they are sometimes interchangeable(?) with pred/attr), to achieve better morpheme alignment-->
+<pardef n="zdrav__adj">
+<!-- Indefinite aspect -->
+<!-- Masculine--><!-- Clipped out animacy in ambiguous cases because it's not inherent to the adjective-->
+<!--Singular-->
+<e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>a</l><r><s n="adj"/><s n="mn"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+<e><p><l>u</l><r><s n="adj"/><s n="mn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e><p><l></l><r><s n="adj"/><s n="mi"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>a</l><r><s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+<e><p><l>u</l><r><s n="adj"/><s n="mn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+<e><p><l>im</l><r><s n="adj"/><s n="mn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Plural-->
+<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>ih</l><r><s n="adj"/><s n="mn"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+<e><p><l>im</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e><p><l>e</l><r><s n="adj"/><s n="ma"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>i</l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+<e><p><l>im</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e><p><l>im</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<!-- Feminine-->
+<!--Singular-->
+<e><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>e</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+<e><p><l>oj</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e><p><l>u</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>a</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+<e><p><l>oj</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+<e><p><l>om</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Plural-->
+<e><p><l>e</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>u</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>e</l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+<!-- Neuter-->
+<!--Singular-->
+<e><p><l>o</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>o</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>e</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+<!--Plural-->
+<e><p><l>a</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+<e><p><l>a</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+<e><p><l>a</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+<!-- Definite aspect --><!--Will be added later-->
+<!-- Comparative and superlative --> <!-- They are an extension of the definite aspect -->
+</pardef>
+
+
 <!-- Noun paradigms -->
     <!-- 1-syllable -->
     <pardef n="Škot__n"    >
