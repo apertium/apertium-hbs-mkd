@@ -108,6 +108,35 @@
 I have added those for the sake of analysis -->
 <!-- in generation the long plurals are default, which are allowed in all standards -->
 <pardefs>
+<!-- Closed speech categories -->
+<!-- Prepositions, see the section -->
+<pardef n="preposition__pr">
+<e><p><l/><r><s n="pr"/></r></p></e>
+</pardef>
+
+<pardef n="s(/a)__preposition__pr">
+  <e r="LR"><p><l>a</l><r><s n="pr"/></r></p></e>
+  <e r="RL"><p><l><a/></l><r><s n="pr"/></r></p></e>  
+</pardef>
+
+<!-- Conjunctions -->
+<pardef n="coordinating__cnj">
+<e><p><l/><r><s n="cnjcoo"/></r></p></e>
+</pardef>
+<pardef n="subordinating__cnj">
+<e><p><l/><r><s n="cnjsub"/></r></p></e>
+</pardef>
+
+<!-- Interjections -->
+<pardef n="interjection__ij">
+<e><p><l/><r><s n="ij"/></r></p></e>
+</pardef>
+
+<!--Particles -->
+<pardef n="particles__ij">
+<e><p><l/><r><s n="ij"/></r></p></e>
+</pardef>
+
 <!-- PRONOUNS -->
 
 	<!-- personal -->
@@ -273,7 +302,7 @@ after prepositions-->
 
 <!-- Adjective paradigms--><!--Just one paradigm for sketching-->
 <!--Definiteness in Serbian and Croatian adjectives is analogous to the definitenes that Macedonian accomplished with articles?-->
-<!--therefore I am choosing the symbols def/ind (they are sometimes interchangeable(?) with pred/attr), to achieve better morpheme alignment-->
+<!--therefore I am choosing the symbols def/ind (they are sometimes Ůnterchangeable(?) with pred/attr), to achieve better morpheme alignment-->
 <pardef n="zdrav__adj">
 <!-- Indefinite aspect -->
 <!-- Masculine--><!-- Clipped out animacy in ambiguous cases because it's not inherent to the adjective-->
@@ -1740,14 +1769,207 @@ after prepositions-->
 </pardefs>
 
 <section id="main" type="standard">
+<!--Prepositions--><!--Only from the Croatian grammar, any additional Serbian or Bosnian prepositions need to be added-->
+<!--That go with Genitive -->
+<e lm="u"><i>u</i><par n="preposition__pr" /></e><!--gen, acc, loc -->
+<e lm="za"><i>za</i><par n="preposition__pr" /></e><!--gen, acc, ins -->
+<e lm="na"><i>na</i><par n="preposition__pr" /></e><!--acc, loc -->
+<e lm="o"><i>o</i><par n="preposition__pr" /></e><!--acc, loc -->
+<e lm="po"><i>po</i><par n="preposition__pr" /></e><!--acc, loc -->
+<e lm="među"><i>među</i><par n="preposition__pr" /></e><!--acc, ins -->
+<e lm="nad"><i>nad</i><par n="s(/a)__preposition__pr" /></e><!--acc, ins -->
+<e lm="pod"><i>pod</i><par n="s(/a)__preposition__pr" /></e><!--acc, ins -->
+<e lm="pred"><i>pred</i><par n="s(/a)__preposition__pr" /></e><!--acc, ins -->
+<e lm="s(a)"><i>s</i><par n="s(/a)__preposition__pr" /></e><!--gen, ins -->
+<e lm="mimo"><i>mimo</i><par n="preposition__pr" /></e><!--gen, and very very rarely accusative  -->
+<!-- with Dative only -->
+<e lm="k"><i>k</i><par n="s(/a)__preposition__pr" /></e>
+<e lm="proti"><i>proti</i><par n="preposition__pr" /></e>
+<e lm="nadomak"><i>nadomak</i><par n="preposition__pr" /></e>
+<e lm="nasuprot"><i>nasuprot</i><par n="preposition__pr" /></e>
+<e lm="unatoč"><i>unatoč</i><par n="preposition__pr" /></e>
+<e lm="usprkos"><i>usprkos</i><par n="preposition__pr" /></e>
+<!-- with Accusative only -->
+<e lm="kroz"><i>kroz</i><par n="s(/a)__preposition__pr" /></e>
+<e lm="niz"><i>niz</i><par n="s(/a)__preposition__pr" /></e>
+<e lm="uz"><i>uz</i><par n="s(/a)__preposition__pr" /></e>
+<!-- with Locative only -->
+<e lm="pri"><i>pri</i><par n="preposition__pr" /></e>
+<e lm="prema"><i>prema</i><par n="preposition__pr" /></e>
+<!-- with Genitive only -->
+<e lm="bez"><i>bez</i><par n="preposition__pr" /></e>
+<e lm="blizu"><i>blizu</i><par n="preposition__pr" /></e>
+<e lm="čelo"><i>čelo</i><par n="preposition__pr" /></e>
+<e lm="do"><i>do</i><par n="preposition__pr" /></e>
+<e lm="duž"><i>duž</i><par n="preposition__pr" /></e>
+<e lm="ispred"><i>ispred</i><par n="preposition__pr" /></e>
+<e lm="ispod"><i>ispod</i><par n="preposition__pr" /></e>
+<e lm="iz"><i>iz</i><par n="preposition__pr" /></e>
+<e lm="iza"><i>iza</i><par n="preposition__pr" /></e>
+<e lm="između"><i>između</i><par n="preposition__pr" /></e>
+<e lm="iznad"><i>iznad</i><par n="preposition__pr" /></e>
+<e lm="izvan"><i>izvan</i><par n="preposition__pr" /></e>
+<e lm="kod"><i>kod</i><par n="preposition__pr" /></e>
+<e lm="kraj"><i>kraj</i><par n="preposition__pr" /></e>
+<e lm="mjesto"><i>mjesto</i><par n="preposition__pr" /></e><!--Yat-->
+<e lm="nakon"><i>nakon</i><par n="preposition__pr" /></e>
+<e lm="nakraj"><i>nakraj</i><par n="preposition__pr" /></e>
+<e lm="nasred"><i>nasred</i><par n="preposition__pr" /></e>
+<e lm="navrh"><i>navrh</i><par n="preposition__pr" /></e>
+<e lm="niže"><i>niže</i><par n="preposition__pr" /></e>
+<e lm="od"><i>od</i><par n="preposition__pr" /></e>
+<e lm="oko"><i>oko</i><par n="preposition__pr" /></e>
+<e lm="osim"><i>osim</i><par n="preposition__pr" /></e>
+<e lm="pokraj"><i>pokraj</i><par n="preposition__pr" /></e>
+<e lm="ponad"><i>ponad</i><par n="preposition__pr" /></e>
+<e lm="poput"><i>poput</i><par n="preposition__pr" /></e>
+<e lm="pozadi"><i>pozadi</i><par n="preposition__pr" /></e>
+<e lm="pored"><i>pored</i><par n="preposition__pr" /></e>
+<e lm="poslije"><i>poslije</i><par n="preposition__pr" /></e>
+<e lm="poviše"><i>poviđe</i><par n="preposition__pr" /></e>
+<e lm="preko"><i>preko</i><par n="preposition__pr" /></e><!--Yat--><!--Ekavian and Ijekavian-->
+<e lm="prijeko"><i>prijeko</i><par n="preposition__pr" /></e><!--Yat--><!--ijekavian only-->
+<e lm="prije"><i>prije</i><par n="preposition__pr" /></e>
+<e lm="protiv"><i>protiv</i><par n="preposition__pr" /></e>
+<e lm="put"><i>put</i><par n="preposition__pr" /></e>
+<e lm="radi"><i>radi</i><par n="preposition__pr" /></e>
+<e lm="sred"><i>sred</i><par n="preposition__pr" /></e>
+<e lm="ukraj"><i>ukraj</i><par n="preposition__pr" /></e>
+<e lm="umjesto"><i>umjesto</i><par n="preposition__pr" /></e><!--Yat-->
+<e lm="uoči"><i>uoči</i><par n="preposition__pr" /></e>
+<e lm="uvrh"><i>uvrh</i><par n="preposition__pr" /></e>
+<e lm="uzduž"><i>uzduž</i><par n="preposition__pr" /></e>
+<e lm="van"><i>van</i><par n="preposition__pr" /></e>
+<e lm="više"><i>više</i><par n="preposition__pr" /></e>
+<e lm="vrh"><i>vrh</i><par n="preposition__pr" /></e>
+<e lm="zarad"><i>zarad</i><par n="preposition__pr" /></e>
+<e lm="zaradi"><i>zaradi</i><par n="preposition__pr" /></e>
+<e lm="zbog"><i>zbog</i><par n="preposition__pr" /></e>
+<!--Conjunctions-->
+<!--Coordinating-->
+<e lm="i"><i>i</i><par n="coordinating__cnj"/></e>
+<e lm="pa"><i>pa</i><par n="coordinating__cnj"/></e>
+<e lm="pak"><i>pak</i><par n="coordinating__cnj"/></e>
+<e lm="te"><i>te</i><par n="coordinating__cnj"/></e>
+<e lm="ni"><i>ni</i><par n="coordinating__cnj"/></e>
+<e lm="niti"><i>niti</i><par n="coordinating__cnj"/></e>
+<e lm="ili"><i>ili</i><par n="coordinating__cnj"/></e>
+<e lm="a"><i>a</i><par n="coordinating__cnj"/></e>
+<e lm="ali"><i>ali</i><par n="coordinating__cnj"/></e>
+<e lm="dok"><i>dok</i><par n="coordinating__cnj"/></e>
+<e lm="no"><i>no</i><par n="coordinating__cnj"/></e>
+<e lm="nego"><i>nego</i><par n="coordinating__cnj"/></e>
+<e lm="već"><i>već</i><par n="coordinating__cnj"/></e>
+<e lm="kad li"><i>kad<b/>li</i><par n="coordinating__cnj"/></e>
+<e lm="kad ono"><i>kad<b/>ono</i><par n="coordinating__cnj"/></e>
+<e lm="kad to"><i>kad<b/>to</i><par n="coordinating__cnj"/></e>
+<e lm="a ono"><i>a<b/>ono</i><par n="coordinating__cnj"/></e>
+<e lm="a to"><i>a<b/>to</i><par n="coordinating__cnj"/></e>
+<e lm="samo"><i>samo</i><par n="coordinating__cnj"/></e>
+<e lm="samo što"><i>samo<b/>što</i><par n="coordinating__cnj"/></e>
+<e lm="tek"><i>tek</i><par n="coordinating__cnj"/></e>
+<e lm="tek što"><i>tek<b/>što</i><par n="coordinating__cnj"/></e>
+<e lm="jedino"><i>jedino</i><par n="coordinating__cnj"/></e>
+<e lm="jedino što"><i>jedino<b/>što</i><par n="coordinating__cnj"/></e>
+<e lm="osim"><i>osim</i><par n="coordinating__cnj"/></e>
+<e lm="osim što"><i>osim<b/>što</i><par n="coordinating__cnj"/></e>
+<e lm="zato"><i>zato</i><par n="coordinating__cnj"/></e>
+<e lm="dakle"><i>dakle</i><par n="coordinating__cnj"/></e>
+<e lm="stoga"><i>stoga</i><par n="coordinating__cnj"/></e>
+<!--Subordinating-->
+<e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
+<e lm="da li"><i>da<b/>li</i><par n="subordinating__cnj"/></e>
+<e lm="kako"><i>kako</i><par n="subordinating__cnj"/></e>
+<e lm="gdje"><i>gdje</i><par n="subordinating__cnj"/></e>
+<e lm="e"><i>e</i><par n="subordinating__cnj"/></e>
+<e lm="čim"><i>čim</i><par n="subordinating__cnj"/></e>
+<e lm="kada"><i>kada</i><par n="subordinating__cnj"/></e>
+<e lm="kad"><i>kad</i><par n="subordinating__cnj"/></e>
+<e lm="pošto"><i>pošto</i><par n="subordinating__cnj"/></e>
+<e lm="nakon što"><i>nakon<b/>što</i><par n="subordinating__cnj"/></e>
+<e lm="jer"><i>jer</i><par n="subordinating__cnj"/></e>
+<e lm="budući da"><i>budući<b/>da</i><par n="subordinating__cnj"/></e>
+<e lm="što"><i>što</i><par n="subordinating__cnj"/></e>
+<e lm="eda"><i>eda</i><par n="subordinating__cnj"/></e>
+<e lm="li"><i>li</i><par n="subordinating__cnj"/></e>
+<e lm="ne bih li"><i>ne<b/>bih<b/>li</i><par n="subordinating__cnj"/></e>
+<e lm="neka"><i>neka</i><par n="subordinating__cnj"/></e>
+<e lm="stoga"><i>stoga</i><par n="subordinating__cnj"/></e>
+<e lm="kao"><i>kao</i><par n="subordinating__cnj"/></e>
+<e lm="kao što"><i>kao<b/>što</i><par n="subordinating__cnj"/></e>
+<e lm="ako"><i>ako</i><par n="subordinating__cnj"/></e>
+<e lm="iako"><i>iako</i><par n="subordinating__cnj"/></e>
+<e lm="premda"><i>premda</i><par n="subordinating__cnj"/></e>
+<e lm="makar"><i>makar</i><par n="subordinating__cnj"/></e>
+<e lm="mada"><i>mada</i><par n="subordinating__cnj"/></e>
+<e lm="ako i"><i>ako i</i><par n="subordinating__cnj"/></e>
+<e lm="dok"><i>dok</i><par n="subordinating__cnj"/></e>
+<e lm="nego"><i>nego</i><par n="subordinating__cnj"/></e>
+<e lm="no"><i>no</i><par n="subordinating__cnj"/></e>
+<e lm="kad li"><i>kad<b/>li</i><par n="subordinating__cnj"/></e>
+
+<!--Interjections--><!--Note: The list of interjections in the book by which I am working is very comprehensive-->
+<e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
+<e lm="oh"><i>oh</i><par n="interjection__ij"/></e>
+<e lm="eh"><i>eh</i><par n="interjection__ij"/></e>
+<e lm="ih"><i>ih</i><par n="interjection__ij"/></e>
+<e lm="ah"><i>ah</i><par n="interjection__ij"/></e>
+<e lm="joj"><i>joj</i><par n="interjection__ij"/></e>
+<e lm="ijuju"><i>ijuju</i><par n="interjection__ij"/></e>
+<e lm="oho"><i>oho</i><par n="interjection__ij"/></e>
+<e lm="ej"><i>ej</i><par n="interjection__ij"/></e>
+<e lm="haj"><i>haj</i><par n="interjection__ij"/></e>
+<e lm="hoj"><i>hoj</i><par n="interjection__ij"/></e>
+<e lm="uf"><i>uf</i><par n="interjection__ij"/></e>
+<e lm="pi"><i>pi</i><par n="interjection__ij"/></e>
+<e lm="fuj"><i>fuj</i><par n="interjection__ij"/></e>
+<e lm="juhuhu"><i>juhuhu</i><par n="interjection__ij"/></e>
+<e lm="kuku"><i>kuku</i><par n="interjection__ij"/></e>
+<e lm="ao"><i>ao</i><par n="interjection__ij"/></e>
+<e lm="ua"><i>ua</i><par n="interjection__ij"/></e>
+<e lm="hej"><i>hej</i><par n="interjection__ij"/></e>
+<e lm="oj"><i>oj</i><par n="interjection__ij"/></e>
+<e lm="de"><i>de</i><par n="interjection__ij"/></e>
+<e lm="hajde"><i>hajde</i><par n="interjection__ij"/></e>
+<e lm="mac"><i>mac</i><par n="interjection__ij"/></e>
+<e lm="guc"><i>guc</i><par n="interjection__ij"/></e>
+<e lm="pi-pi-pi"><i>pi-pi-pi</i><par n="interjection__ij"/></e>
+<e lm="iš"><i>iš</i><par n="interjection__ij"/></e>
+<e lm="pis"><i>pis</i><par n="interjection__ij"/></e>
+<e lm="šic"><i>šic</i><par n="interjection__ij"/></e>
+<e lm="kuš"><i>kuš</i><par n="interjection__ij"/></e>
+<e lm="marš"><i>marš</i><par n="interjection__ij"/></e>
+<e lm="ehe"><i>ehe</i><par n="interjection__ij"/></e>
+<e lm="curik"><i>curik</i><par n="interjection__ij"/></e>
+<e lm="hojs"><i>hojs</i><par n="interjection__ij"/></e>
+<!--Some onomatopeic sounds -->
+<e lm="pljus"><i>pljus</i><par n="interjection__ij"/></e>
+<e lm="krc"><i>krc</i><par n="interjection__ij"/></e>
+<e lm="krah"><i>krah</i><par n="interjection__ij"/></e>
+<e lm="bum"><i>bum</i><par n="interjection__ij"/></e>
+<e lm="kvrc"><i>kvrc</i><par n="interjection__ij"/></e>
+<e lm="cin"><i>cin</i><par n="interjection__ij"/></e>
+<e lm="apciha"><i>apciha</i><par n="interjection__ij"/></e>
+<e lm="apćiha"><i>apćiha</i><par n="interjection__ij"/></e>
+<!--Animal sounds-->
+<e lm="mijau"><i>mijau</i><par n="interjection__ij"/></e>
+<e lm="vau-vau"><i>vau-vau</i><par n="interjection__ij"/></e>
+<e lm="vauvau"><i>vauvau</i><par n="interjection__ij"/></e>
+<e lm="vau vau"><i>vau<b/>vau</i><par n="interjection__ij"/></e>
+<e lm="kukuriku"><i>kukuriku</i><par n="interjection__ij"/></e>
+<e lm="kokodak"><i>kokodak</i><par n="interjection__ij"/></e>
+
+
 <!--Pronouns -->
 <e lm="free"><i/><par n="personal_pronouns__prn"/></e> 
 <e lm="clitic"><i/><par n="personal_pronouns__clt__prn"/></e> 
 <e lm="free"><i/><par n="reflexive_pronouns__prn"/></e> 
 <e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e> 
+
 <!--Verb to be-->
 <e lm="clitic"><i/><par n="biti__clt__vbser"/></e> 
 <e lm="biti"><i/><par n="biti__vbser"/></e> 
+
 <!-- Nouns -->
 <e lm="Škot"><i>Škot</i><par n="Škot__n" /></e>
 <e lm="gram"><i>gram</i><par n="gram__n" /></e>
