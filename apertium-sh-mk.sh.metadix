@@ -11,7 +11,7 @@
 <sdef n="vaux" c="Auxilliary verb"/>
 <sdef n="adj" c="Adjective"/>
 <sdef n="adv" c="Adverb"/>
-<sdef n="pre-adv" c="Preadverb"/>
+<sdef n="preadv" c="Preadverb"/>
 <sdef n="det" c="Determiner"/>
 <sdef n="prn" c="Pronoun"/>
 <sdef n="pers" c="Personal"/>
@@ -96,6 +96,7 @@
 <sdef n="acr" c="Acronym" />
 <sdef n="rel" c="Relative" />
 <sdef n="ind" c="Indefinite" />
+<sdef n="def" c="Definite" />
 <sdef n="itg" c="Interrogative" />
 <sdef n="dem" c="Demonstrative" />
 <sdef n="pos" c="Possesive" />
