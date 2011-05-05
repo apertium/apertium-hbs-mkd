@@ -369,12 +369,12 @@ after prepositions-->
 </pardef>
 
 <pardef n="imperfect_vblex"><!-- a.k.a. "h, še, še, smo, ste, hu" --><!--Note: it's usually also listed with "-ah, -aše, -aše", "-jah, -jaše..." and "-ijah,..." but this is the least common denominator -->
-        <e><p><l>h</l><r>biti<s n="vblex"/><s n="imp"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><p><l>še</l><r>biti<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><p><l>še</l><r>biti<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>smo</l><r>biti<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ste</l><r>biti<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-       <e><p><l>hu</l><r>biti<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>h</l><r>biti<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>še</l><r>biti<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>še</l><r>biti<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>smo</l><r>biti<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ste</l><r>biti<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+       <e><p><l>hu</l><r>biti<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
 
 <!-- Adjective paradigms--><!--Just one paradigm as a sketch, it's humongous for now-->
