@@ -81,7 +81,7 @@
 
 <!--Transitivity-->
 <sdef n="tv" c="Transitive" />
-<sdef n="itv" c="Intransitive" />
+<sdef n="iv" c="Intransitive" />
 
 <!-- Proper nouns -->
 <sdef n="p1" c="Person 1" />
@@ -402,24 +402,24 @@ after prepositions-->
 
 <pardef n="hod/ati__vblex">
 <!--Infinitive-->
-<e><p><l>ati</l><r>ati<s n="vblex"/><s n="inf"/><s n="imperf"/><s n="itv"/></r></p></e>
+<e><p><l>ati</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
 
 <!--Imperative-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="inf"/><s n="imperf"/><s n="itv"/></r></p><par n="imp__sfx__j__vblex" /></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex" /></e>
 
 <!--Present-->
-<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pres__sfx__am__vblex" /></e>
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex" /></e>
 
 <!--Imperfect-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="impf__sfx__vblex" /></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex" /></e>
 
 <!--Aorist-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="aor__sfx__vblex" /></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex" /></e>
 
 <!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="lp__sfx__vblex" /></e>
-   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pp__sfx__vblex" /></e>
-<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf" /><s n="itv"/><s n="pprs" /><s n="adv" /></r></p></e>
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__vblex" /></e>
+   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex" /></e>
+<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs" /><s n="adv" /></r></p></e>
 </pardef>
 
 <!--Verb to be-->
