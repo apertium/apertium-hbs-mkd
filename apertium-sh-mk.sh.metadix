@@ -81,7 +81,7 @@
 
 <!--Transitivity-->
 <sdef n="tv" c="Transitive" />
-<sdef n="iv" c="Intransitive" />
+<sdef n="itv" c="Intransitive" />
 
 <!-- Proper nouns -->
 <sdef n="p1" c="Person 1" />
@@ -299,7 +299,8 @@ after prepositions-->
 </pardef>-->
 
 <!--Verb paradigms-->
-<!--raw paradigms for tenses -->
+
+<!--Raw suffix paradigms -->
 
 <!--Suffixes for present, taken from the aforementioned grammar-->
 <pardef n="pres__sfx__em__vblex">
@@ -320,9 +321,9 @@ after prepositions-->
 </pardef>
 <pardef n="pres__sfx__am__vblex">
       <e><p><l>am</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><p><l>aš</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>aš</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>a</l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>amo</l><r><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e><p><l>amo</l><r><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
      <e><p><l>ate</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
      <e><p><l>aju</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
@@ -400,34 +401,99 @@ after prepositions-->
     <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="hod/ati__vblex">
-<!--Infinitive-->
-<e><p><l>ati</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
-
-<!--Imperative-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex" /></e>
-
-<!--Present-->
-<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex" /></e>
-
-<!--Imperfect-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex" /></e>
-
-<!--Aorist-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex" /></e>
-
-<!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__vblex" /></e>
-   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex" /></e>
-<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs" /><s n="adv" /></r></p></e>
+<pardef n="ću__clt">
+<!-- Clitic form if the verb 'ht(j)eti', used with the 'crippled' infinitive form to make the futureI tense -->
+<!-- In Serbian and Bosnian it works like a suffix -->
+<!-- In Croatian the same future formation works like a multiword -->
+<!-- This is just a template, which will be reused in the next paradigm -->
+   <e><p><l>ću</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>ćeš</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e><p><l>će</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>ćemo</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e><p><l>ćete</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e><p><l>će</l><r><j/>ht(j)eti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
+<pardef n="ht(j)eti__clt__vbmod">
+      <group alt="sh">
+        <e><i/><par n="ću__clt"/></e>
+        <e r="LR"><p><l><b/></l><r/></p><par n="ću__clt"/></e>
+      </group>
+      <group alt="sh_HR">
+        <e><p><l><b/></l><r/></p><par n="ću__clt"/></e>
+      </group>
+      <group alt="sh_SR">
+        <e><i/><par n="ću__clt"/></e>
+      </group>
+      <group alt="sh_BS">
+        <e><i/><par n="ću__clt"/></e>
+      </group>
+</pardef>
+
+<pardef n="inf+fiiI__sfx__tv_vblex">
+<group alt="sh">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+<e><p><l>t</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_BS">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_HR">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+<e><p><l>t</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_SR">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="tv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+</pardef>
+
+<pardef n="inf+fiiI__sfx__itv_vblex">
+<group alt="sh">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+<e><p><l>t</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_BS">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_HR">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+<e><p><l>t</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+<group alt="sh_SR">
+<e><p><l>ti</l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+</group>
+</pardef>
+
+<!--Auxilliary verbs-->
 
 <!--Verb to be-->
 <!--the clitic form-->
 <pardef n="biti__vbser">
-      <!--The infinitive, of course -->
-      <e><p><l>biti</l><r>biti<s n="vbser"/><s n="inf"/></r></p></e>
-
+      <!--The infinitive and the future -->
+        <group alt="sh">
+        <e><p><l>biti</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+        <e><p><l>bit</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+        <e><p><l>bi</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_BS">
+        <e><p><l>biti</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+        <e><p><l>bi</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_HR">
+        <e><p><l>biti</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+        <e><p><l>bit</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_SR">
+        <e><p><l>biti</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p></e>
+        <e><p><l>bi</l><r>biti<s n="vblex"/><s n="itv"/><s n="inf"/></r></p><par n="ht(j)eti__clt__vbmod"/></e>
+        </group>
+      
     <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
          <e><p><l>budi</l><r>biti<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
     <e><p><l>budimo</l><r>biti<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -496,6 +562,42 @@ after prepositions-->
     <e><p><l>budući</l><r>biti<s n="vbser"/><s n="imperf" /><s n="pprs" /><s n="adv" /></r></p></e>
      <!--TODO: check if this is true for the verb--> <e><p><l>bivši</l><r>biti<s n="vbser"/><s n="perf" /><s n="pprs" /><s n="adv" /></r></p></e>    
 </pardef>
+
+<!--Regular verb paradigms-->
+<pardef n="hod/ati__vblex">
+<!--Infinitive-->
+<e><p><l>a</l><r>a</r></p><par n="inf+fiiI__sfx__itv_vblex"/></e>
+<!--Imperative-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex" /></e>
+<!--Present-->
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pres__sfx__am__vblex" /></e>
+<!--Imperfect-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="impf__sfx__vblex" /></e>
+<!--Aorist-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="aor__sfx__vblex" /></e>
+<!--Participles-->
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="lp__sfx__vblex" /></e>
+   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pp__sfx__vblex" /></e>
+<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/><s n="pprs" /><s n="adv" /></r></p></e>
+</pardef>
+
+<pardef n="put/ovati__vblex">
+<!--Infinitive-->
+<e><p><l>ova</l><r>ova</r></p><par n="inf+fiiI__sfx__itv_vblex"/></e>
+<!--Imperative-->
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="inf"/><s n="imperf"/><s n="itv"/></r></p><par n="imp__sfx__j__vblex" /></e>
+<!--Present-->
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pres__sfx__jem__vblex" /></e>
+<!--Imperfect-->
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="impf__sfx__vblex" /></e>
+<!--Aorist-->
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="aor__sfx__vblex" /></e>
+<!--Participles-->
+    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="lp__sfx__vblex" /></e>
+   <e><p><l>ovan</l><r>ati<s n="vblex"/><s n="imperf"/><s n="itv"/></r></p><par n="pp__sfx__vblex" /></e>
+<e><p><l>ujući</l><r>ati<s n="vblex"/><s n="imperf" /><s n="itv"/><s n="pprs" /><s n="adv" /></r></p></e>
+</pardef>
+
 
 <!-- Adjective paradigms-->
 <!--The prefix for superlative-->
@@ -695,7 +797,7 @@ I am putting it in comments here, but it would save lot of extra entries if used
         <e><p><l>ih</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
         <e><p><l>im</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
 <e r="LR"><p><l>ima</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-       <e><p><l>im</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+        <e><p><l>im</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
 <e r="LR"><p><l>ima</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
         <e><p><l>im</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
 <e r="LR"><p><l>ima</l><r><s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
@@ -2431,11 +2533,16 @@ I am putting it in comments here, but it would save lot of extra entries if used
 <e lm="free"><i/><par n="reflexive_pronouns__prn"/></e> 
 <e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e> 
 
+<!--Verbs -->
 <!--Verb to be-->
 <e lm="biti"><i/><par n="biti__vbser"/></e> 
 
+<!--Modal verbs-->
+<e lm="ću_modal"><i/><par n="ću__clt"/></e>
 <!--Other verbs-->
+<e lm="bivati"><i>biv</i><par n="hod/ati__vblex"/></e> <!--This is the verb "to be being", sometimes used as aux in passive-->
 <e lm="hodati"><i>hod</i><par n="hod/ati__vblex"/></e> 
+<e lm="putovati"><i>hod</i><par n="put/ovati__vblex"/></e> 
 
 <!--Adjective (adjective quadruples) -->
 <e lm="zdrav"><i>zdrav</i><par n="zdrav__pos__adj"/></e>
