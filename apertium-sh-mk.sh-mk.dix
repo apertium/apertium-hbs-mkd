@@ -36,6 +36,7 @@
     <sdef n="imp"     c="Imperative"/>
 
     <sdef n="pref"    c="Prefix"/>
+    <sdef n="clt"     c="Clitic"/>
     <sdef n="part"    c="Particle"/>
 
     <sdef n="exp"     c="Expectative"/>
@@ -1058,6 +1059,7 @@
       <!-- the clitic verb to be, and the longer version, they perhaps should be arranged differently-->
     <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
+    <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
