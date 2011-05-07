@@ -11,7 +11,7 @@
 <sdef n="vaux" c="Auxilliary verb"/>
 <sdef n="adj" c="Adjective"/>
 <sdef n="adv" c="Adverb"/>
-<sdef n="pre-adv" c="Preadverb"/>
+<sdef n="preadv" c="Preadverb"/>
 <sdef n="det" c="Determiner"/>
 <sdef n="prn" c="Pronoun"/>
 <sdef n="pers" c="Personal"/>
@@ -72,7 +72,7 @@
 <sdef n="ftiII" c="Future II" /><!-- compound -->
 
 <sdef n="aff" c="Affirmative" />
-<sdef n="int" c="Interrogative" />
+<sdef n="itg" c="Interrogative" />
 <sdef n="neg" c="Negative" />
 
 <!--Aspect (for verbs) -->
@@ -87,7 +87,7 @@
 <sdef n="p1" c="Person 1" />
 <sdef n="p2" c="Person 2" />
 <sdef n="p3" c="Person 3" />
-<sdef n="impersonal" c="Impersonal" />
+<sdef n="impers" c="Impersonal" />
 
 <!--Adjectives-->
 <sdef n="sint" c="Synthetic" />
@@ -101,14 +101,12 @@
 <sdef n="def" c="Definite" /> <!--instead-->
 
 <!--The simbols in a different table under the adjectives on the symbols page-->
-<sdef n="detnt" c="Neuter determiner" />
 <sdef n="predet" c="Predeterminer" />
 <sdef n="qnt" c="Quantifier" />
 <sdef n="ord" c="Ordinal" />
 <sdef n="clt" c="Clitic" />
 <sdef n="acr" c="Acronym" />
 <sdef n="rel" c="Relative" />
-<sdef n="itg" c="Interrogative" />
 <sdef n="dem" c="Demonstrative" />
 <sdef n="pos" c="Possesive" />
 <sdef n="ref" c="Reflexive" />
@@ -116,7 +114,6 @@
 <sdef n="pprep" c="Post preposition" />
 
 <!--Stuff-->
-<sdef n="pref" c="Prefix" />
 <sdef n="part" c="Particle" />
 
 </sdefs>
@@ -406,12 +403,29 @@ after prepositions-->
 <!-- In Serbian and Bosnian it works like a suffix -->
 <!-- In Croatian the same future formation works like a multiword -->
 <!-- This is just a template, which will be reused in the next paradigm -->
+   <e r="RL"><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e r="RL"><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="RL"><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<group alt="sh">
    <e><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
   <e><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
    <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
  <e><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
  <e><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
    <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+</group>
+<group alt="sh-ek">
+   <e><p><l>ću</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>ćeš</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>ćemo</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e><p><l>ćete</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+</group>
 </pardef>
 
 <pardef n="htjeti__clt__vbmod">
@@ -574,7 +588,7 @@ after prepositions-->
 <!--Infinitive-->
 <e><p><l>ova</l><r>ova</r></p><par n="inf+fiiI__sfx__iv_vblex"/></e>
 <!--Imperative-->
-<e><p><l>u</l><r>ovati<s n="vblex"/><s n="inf"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex" /></e>
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex" /></e>
 <!--Present-->
 <e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex" /></e>
 <!--Imperfect-->
@@ -589,16 +603,6 @@ after prepositions-->
 
 
 <!-- Adjective paradigms-->
-<!--The prefix for superlative-->
-<pardef n="P__adj">
-  <!-- If it's this one + comparative then it's superlative--><!--TODO: This needs to be handled in a transfer rule -->
-  <e><p><l>naj</l><r>adj<s n="pref"/><s n="sup"/><j/></r></p></e>
-  <!-- If it's nothing, it just stays comparative-->
-  <e><p><l/><r></r></p></e>
-  <!--A Note: The absolute superlative "pre"+positive is I think of identical meaning in Bosnian/Croatian/Serbian and Macedonian (if not only analogous). 
-I am putting it in comments here, but it would save lot of extra entries if used. I am questioning this because it's usually not included in classical grammars -->
-  <!--e><p><l>pre</l><r>adj<s n="pref"/><s n="absolutive superlative, just a description"/><j/></r></p></e-->
-</pardef>
 
 <!--Definiteness in Serbian and Croatian adjectives is analogous to the definitenes that Macedonian accomplished with articles?-->
 <!--therefore I am choosing the symbols def/ind (they are sometimes interchangeable(?) with pred/attr), to achieve better morpheme alignment-->
@@ -2531,7 +2535,7 @@ I am putting it in comments here, but it would save lot of extra entries if used
 <!--Other verbs-->
 <e lm="bivati"><i>biv</i><par n="hod/ati__vblex"/></e> <!--This is the verb "to be being", sometimes used as aux in passive-->
 <e lm="hodati"><i>hod</i><par n="hod/ati__vblex"/></e> 
-<e lm="putovati"><i>hod</i><par n="put/ovati__vblex"/></e> 
+<e lm="putovati"><i>put</i><par n="put/ovati__vblex"/></e> 
 
 <!--Adjective (adjective quadruples) -->
 <e lm="zdrav"><i>zdrav</i><par n="zdrav__pos__adj"/></e>
