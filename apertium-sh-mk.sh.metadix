@@ -122,6 +122,70 @@
 I have added those for the sake of analysis -->
 <!-- in generation the long plurals are default, which are allowed in all standards -->
 <pardefs>
+
+    <!-- Vowel differences for long and short yat ~ Ekavian - Ijekavian -->
+    <!-- i.e. in Serbia both are reflected as mostly 'e', with differences only in length of the stress -->
+    <!-- while in Bosnia, Croatia and Montenegro it's mostly ije/je, or sometimes 'e' or 'i' -->
+    
+    <!--The idea is to be able to output ekavian and ijekavian analysis, based on the need of the user-->
+    <!--There's currently no xslt sheet handling this, so in the analyses these variants are ignored  -->
+	<!--TODO: implement the xslt -->
+    <pardef n="e_je__yat">
+      <group alt="sh">
+        <e><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+      </group>
+    </pardef>
+    <pardef n="e_ije__yat">
+      <group alt="sh">
+        <e><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+      </group>
+    </pardef>
+    <pardef n="e_i__yat"> 
+      <group alt="sh">
+        <e><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+      </group>
+    </pardef>
+
+
 <!-- Closed speech categories -->
 <!-- Prepositions, see the section -->
 <pardef n="preposition__pr">
@@ -379,19 +443,22 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for the participle -->
-<pardef n="lp__sfx__vblex"><!--Note, in macedonian this is marked as aorist and as imperfect...-->
-    <!-- There is more to this participle's story, this will be modified -->
+<pardef n="lp__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..." (TODO: find a better description of this case)-->
      <e><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
     <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> <!--i.e. "dva drveta su rasla" -->
     <e><p><l>li</l><r><s n="lp"/><s n="mfn"/><s n="pl"/></r></p></e>
     <e><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
     <!--This is also the form for optative-->    
      <e><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
     <e><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
     <e><p><l>li</l><r><s n="opt"/><s n="mfn"/><s n="pl"/></r></p></e>
     <e><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
@@ -430,7 +497,6 @@ after prepositions-->
 
 <pardef n="htjeti__clt__vbmod">
         <e><p><l/><r><j/></r></p><par n="ću__clt"/></e>
-
 </pardef>
 
 <pardef n="inf+fiiI__sfx__tv__vblex__imperf">
@@ -558,12 +624,20 @@ after prepositions-->
      <e><p><l>jesu</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <!-- The stressed perfective present form, used for compound future II (sidenote: The unstressed form exists in kajkavian) -->    
-     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    <!-- The normal analysis, when this is just the perfective form of 'to be' -->    
+     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!--The clitic aorist of to be--><!--Used in compound to make conditional-->
     <!-- SideNote: in everyday speech it's just 'bi' in all tenses (like macedonian), not sure if some less informal newspaper texts would use this style, but for now i'll just leave the more literary analysis --> 
@@ -590,13 +664,8 @@ after prepositions-->
          <e><p><l>bijahu</l><r>biti<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
    <e r="LR"><p><l>bjehu</l><r>biti<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     
-    <!-- The lp- or active past participle -->
-     <e><p><l>bio</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>bila</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>bilo</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><p><l>bili</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
-    <e><p><l>bile</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>bila</l><r>biti<s n="vbser"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="pl"/></r></p></e>
+    <!-- The lp or active past participle / optative -->
+     <e><p><l>bi</l><r>biti<s n="vbser"/></r></p><par n="lp__sfx"/></e>
     
     <!-- (no pp, past passive participle) -->
     
@@ -618,7 +687,7 @@ after prepositions-->
 <!--Aorist-->
 <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__vblex"/></e>
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
    <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
@@ -635,7 +704,7 @@ after prepositions-->
 <!--Aorist-->
 <e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__vblex"/></e>
+    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
    <e><p><l>ovan</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ujući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
@@ -2410,7 +2479,7 @@ after prepositions-->
 <e lm="izvan"><i>izvan</i><par n="preposition__pr"/></e>
 <e lm="kod"><i>kod</i><par n="preposition__pr"/></e>
 <e lm="kraj"><i>kraj</i><par n="preposition__pr"/></e>
-<e lm="mjesto"><i>mjesto</i><par n="preposition__pr"/></e><!--Yat-->
+<e lm="mjesto"><i>m</i><par n="e_je__yat"/><i>sto</i><par n="preposition__pr"/></e>
 <e lm="nakon"><i>nakon</i><par n="preposition__pr"/></e>
 <e lm="nakraj"><i>nakraj</i><par n="preposition__pr"/></e>
 <e lm="nasred"><i>nasred</i><par n="preposition__pr"/></e>
@@ -2426,15 +2495,14 @@ after prepositions-->
 <e lm="pored"><i>pored</i><par n="preposition__pr"/></e>
 <e lm="poslije"><i>poslije</i><par n="preposition__pr"/></e>
 <e lm="poviše"><i>poviđe</i><par n="preposition__pr"/></e>
-<e lm="preko"><i>preko</i><par n="preposition__pr"/></e><!--Yat--><!--Ekavian and Ijekavian-->
-<!--<e lm="prijeko"><i>prijeko</i><par n="preposition__pr"/></e>Yat--><!--ijekavian only-->
+<e lm="preko"><i>preko</i><par n="preposition__pr"/></e>
 <e lm="prije"><i>prije</i><par n="preposition__pr"/></e>
 <e lm="protiv"><i>protiv</i><par n="preposition__pr"/></e>
 <e lm="put"><i>put</i><par n="preposition__pr"/></e>
 <e lm="radi"><i>radi</i><par n="preposition__pr"/></e>
 <e lm="sred"><i>sred</i><par n="preposition__pr"/></e>
 <e lm="ukraj"><i>ukraj</i><par n="preposition__pr"/></e>
-<e lm="umjesto"><i>umjesto</i><par n="preposition__pr"/></e><!--Yat-->
+<e lm="umjesto"><i>um</i><par n="e_je__yat"/><i>sto</i><par n="preposition__pr"/></e>
 <e lm="uoči"><i>uoči</i><par n="preposition__pr"/></e>
 <e lm="uvrh"><i>uvrh</i><par n="preposition__pr"/></e>
 <e lm="uzduž"><i>uzduž</i><par n="preposition__pr"/></e>
@@ -2658,7 +2726,7 @@ after prepositions-->
 <e lm="veznik"><i>vezni</i><par n="čajni/k__n"/></e>
 <e lm="obruč"><i>obruč</i><par n="obruč__n"/></e>
 <e lm="oblik"><i>oblik</i><par n="čajni/k__n"/></e>
-<e lm="mjesec"><i>mjese</i><par n="mjese/c__n"/></e><!--Yat-->
+<e lm="mjesec"><i>m</i><par n="e_je__yat"/><i>se</i><par n="mjese/c__n"/></e>
 <e lm="slučaj"><i>slučaj</i><par n="slučaj__n"/></e>
 <e lm="lopov"><i>lopov</i><par n="crv__n"/></e>
 <e lm="naboj"><i>naboj</i><par n="medium__n"/></e>
@@ -2667,7 +2735,7 @@ after prepositions-->
 <e lm="nitkov"><i>nitkov</i><par n="nitkov__n"/></e>
 <e lm="pisar"><i>pisar</i><par n="pisar__n"/></e>
 <e lm="arhiv"><i>arhiv</i><par n="arhiv__n"/></e>
-<e lm="dječak"><i>dječa</i><par n="učeni/k__n"/></e><!--Yat-->
+<e lm="dječak"><i>d</i><par n="e_je__yat"/><i>ča</i><par n="učeni/k__n"/></e>
 <e lm="pomoćnik"><i>pomoćni</i><par n="učeni/k__n"/></e>
 <e lm="sumrak"><i>sumrak</i><par n="čajni/k__n"/></e>
 <e lm="orač"><i>orač</i><par n="orač__n"/></e>
