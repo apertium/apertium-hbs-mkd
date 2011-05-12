@@ -158,7 +158,7 @@
      <e><p><l>blizu<s n="pr"/></l><r>близу<s n="pr"/></r></p></e>
      <e><p><l>bez<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
      <e><p><l>ka<s n="pr"/></l><r>кај<s n="pr"/></r></p></e>
-     <e><p><l>dole<s n="pr"/></l><r>доле<s n="pr"/></r></p></e>
+     <e><p><l>dolje<s n="pr"/></l><r>доле<s n="pr"/></r></p></e>
      <e><p><l>kraj<s n="pr"/></l><r>крај<s n="pr"/></r></p></e>
      <e><p><l>iznad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
      <e><p><l>ka<s n="pr"/></l><r>накај<s n="pr"/></r></p></e>
@@ -205,10 +205,10 @@
      <e><p><l>jezik<s n="n"/><s n="mi"/></l><r>јазик<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>knjiga<s n="n"/><s n="f"/></l><r>книга<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>kolega<s n="n"/><s n="ma"/></l><r>колега<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>mesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>mjesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>olovka<s n="n"/><s n="f"/></l><r>молив<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>penkalo<s n="n"/><s n="nt"/></l><r>пенкало<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>rečnik<s n="n"/><s n="mi"/></l><r>речник<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>rječnik<s n="n"/><s n="mi"/></l><r>речник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>student<s n="n"/><s n="ma"/></l><r>студент<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>žena<s n="n"/><s n="f"/></l><r>жена<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>brat<s n="n"/><s n="ma"/></l><r>брат<s n="n"/><s n="m"/></r></p></e>
@@ -224,11 +224,11 @@
      <e><p><l>nož<s n="n"/><s n="mi"/></l><r>нож<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>ključ<s n="n"/><s n="mi"/></l><r>клуч<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>selo<s n="n"/><s n="nt"/></l><r>село<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>vetar<s n="n"/><s n="m"/></l><r>ветар<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>vjetar<s n="n"/><s n="m"/></l><r>ветар<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>srce<s n="n"/><s n="nt"/></l><r>срце<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>vatra<s n="n"/><s n="f"/></l><r>оган<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>ruka<s n="n"/><s n="f"/></l><r>рака<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>dečak<s n="n"/><s n="m"/></l><r>дете<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>dječak<s n="n"/><s n="m"/></l><r>дете<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>istraga<s n="n"/><s n="f"/></l><r>истрага<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>kost<s n="n"/><s n="f"/></l><r>коска<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>most<s n="n"/><s n="mi"/></l><r>мост<s n="n"/><s n="m"/></r></p></e>
@@ -237,10 +237,10 @@
      <e><p><l>spis<s n="n"/><s n="m"/></l><r>список<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>stolica<s n="n"/><s n="f"/></l><r>стол<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>noga<s n="n"/><s n="f"/></l><r>нога<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>predlog<s n="n"/><s n="m"/></l><r>предлог<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>prijedlog<s n="n"/><s n="m"/></l><r>предлог<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>prilog<s n="n"/><s n="m"/></l><r>прилог<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>drug<s n="n"/><s n="ma"/></l><r>другар<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>sneg<s n="n"/><s n="mi"/></l><r>снег<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>snijeg<s n="n"/><s n="mi"/></l><r>снег<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>život<s n="n"/><s n="mi"/></l><r>живот<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>gradonačelnik<s n="n"/><s n="m"/></l><r>градоначалник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>rakija<s n="n"/><s n="f"/></l><r>ракија<s n="n"/><s n="f"/></r></p></e>
@@ -262,7 +262,7 @@
      <e><p><l>cena<s n="n"/><s n="f"/></l><r>цена<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>činjenica<s n="n"/><s n="f"/></l><r>чинјеница<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>dan<s n="n"/><s n="m"/></l><r>дан<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>devojčica<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>djevojčica<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>dim<s n="n"/><s n="m"/></l><r>чад<s n="n"/><s n="m"/></r></p></e>
 
      <e><p><l>dlan<s n="n"/><s n="m"/></l><r>дланка<s n="n"/><s n="f"/></r></p></e>
@@ -299,7 +299,7 @@
      <e><p><l>kosilica<s n="n"/><s n="f"/></l><r>косилка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>krivica<s n="n"/><s n="f"/></l><r>кривица<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>kuhinja<s n="n"/><s n="f"/></l><r>кујна<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>lečnica<s n="n"/><s n="f"/></l><r>лекарка<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>liječnica<s n="n"/><s n="f"/></l><r>лекарка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>rudnik<s n="n"/><s n="m"/></l><r>рудник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>radnik<s n="n"/><s n="m"/></l><r>радник<s n="n"/><s n="m"/></r></p></e>
  
@@ -402,7 +402,7 @@
 
      <e><p><l>autor<s n="n"/><s n="ma"/></l><r>автор<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>bazen<s n="n"/><s n="ma"/></l><r>базен<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>beležnik<s n="n"/><s n="m"/></l><r>бележник<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>bilježnik<s n="n"/><s n="m"/></l><r>бележник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>bilten<s n="n"/><s n="m"/></l><r>билтен<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>biznis<s n="n"/><s n="m"/></l><r>бизнис<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>blagajnik<s n="n"/><s n="m"/></l><r>благајник<s n="n"/><s n="m"/></r></p></e>
@@ -425,7 +425,7 @@
      <e><p><l>želudac<s n="n"/><s n="m"/></l><r>желудник<s n="n"/><s n="m"/></r></p></e>
  
      <e><p><l>fakultet<s n="n"/><s n="m"/></l><r>факултет<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>mesec<s n="n"/><s n="m"/></l><r>месец<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>mjesec<s n="n"/><s n="m"/></l><r>месец<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>more<s n="n"/><s n="nt"/></l><r>море<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>burek<s n="n"/><s n="m"/></l><r>бурек<s n="n"/><s n="m"/></r></p></e>
 
@@ -503,7 +503,7 @@
      <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
      <e><p><l>zdrav<s n="adj"/></l><r>здрав<s n="adj"/></r></p></e>
      <e><p><l>rumen<s n="adj"/></l><r>румен<s n="adj"/></r></p></e>
-     <e><p><l>leteči<s n="adj"/></l><r>летачки<s n="adj"/></r></p></e>
+     <e><p><l>leteći<s n="adj"/></l><r>летачки<s n="adj"/></r></p></e>
      <e><p><l>novi<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
      <e><p><l>dobar<s n="adj"/></l><r>добар<s n="adj"/></r></p></e>
      <e><p><l>visok<s n="adj"/></l><r>висок<s n="adj"/></r></p></e>
@@ -512,17 +512,17 @@
      <e><p><l>parlamentaran<s n="adj"/></l><r>парламентарен<s n="adj"/></r></p></e> 
 
      <!-- check long short bollocks -->
-     <e><p><l>novi<s n="adj"/></l><r>нов<s n="adj"/></r></p></e> 
+     <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e> 
 
      <e><p><l>policijski<s n="adj"/></l><r>полициски<s n="adj"/></r></p></e> 
      <e><p><l>ljudski<s n="adj"/></l><r>човечки<s n="adj"/></r></p></e> 
      <e><p><l>amerikanski<s n="adj"/></l><r>американски<s n="adj"/></r></p></e> 
-     <e><p><l>tihi<s n="adj"/></l><r>тих<s n="adj"/></r></p></e> 
+     <e><p><l>tih<s n="adj"/></l><r>тих<s n="adj"/></r></p></e> 
      <e><p><l>sam<s n="adj"/></l><r>сам<s n="adj"/></r></p></e>
      <e><p><l>politički<s n="adj"/></l><r>политички<s n="adj"/></r></p></e> 
      <e><p><l>ženski<s n="adj"/></l><r>женски<s n="adj"/></r></p></e> 
      <e><p><l>srpski<s n="adj"/></l><r>српски<s n="adj"/></r></p></e> 
-     <e><p><l>opišan<s n="adj"/></l><r>опишан<s n="adj"/></r></p></e>
+     <e><p><l>opišan<s n="adj"/></l><r>опишан<s n="adj"/></r></p></e><!--?-->
 
      <!-- This is an alternative form used less frequently in both hr and sr -->
      <e r="LR"><p><l>srbijanski<s n="adj"/></l><r>српски<s n="adj"/></r></p></e> 
@@ -560,7 +560,7 @@
      <e><p><l>bankarski<s n="adj"/></l><r>банкарски<s n="adj"/></r></p></e> 
      <e><p><l>bavarski<s n="adj"/></l><r>баварски<s n="adj"/></r></p></e> 
      <e><p><l>beloruski<s n="adj"/></l><r>белоруски<s n="adj"/></r></p></e> 
-     <e><p><l>beo<s n="adj"/></l><r>бел<s n="adj"/></r></p></e> 
+     <e><p><l>beo<s n="adj"/></l><r>бел<s n="adj"/></r></p></e> <!--Bijel ijekavian beo ekavian! -->
      <e><p><l>berlinski<s n="adj"/></l><r>берлински<s n="adj"/></r></p></e> 
      <e><p><l>berzanski<s n="adj"/></l><r>берзански<s n="adj"/></r></p></e> 
      <e><p><l>bescarinski<s n="adj"/></l><r>бесцарински<s n="adj"/></r></p></e> 
