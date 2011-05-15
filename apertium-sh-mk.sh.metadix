@@ -189,6 +189,11 @@ I have added those for the sake of analysis -->
 
 
 <!-- Closed speech categories -->
+
+<!--Particles-->
+<!--See the section-->
+<!--end Particles-->
+
 <!-- Prepositions, see the section -->
 <pardef n="preposition__pr">
 <e><p><l/><r><s n="pr"/></r></p></e>
@@ -354,14 +359,813 @@ after prepositions-->
     <e><p><l>si</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
     <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 </pardef>
-
+<!--Interrogative pronouns-->
+<pardef n="tko__prn">
+<group alt="sh">
+    <e><p><l>tko</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+    <e><p><l>ko</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+</group>
+<group alt="sh_BS">
+    <e><p><l>ko</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+</group>
+<group alt="sh_HR">
+    <e><p><l>tko</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+</group>
+<group alt="sh_SR">
+    <e><p><l>ko</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+</group>
+           <e><p><l>koga</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+           <e><p><l>koga</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+    <e r="LR"><p><l>komu</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+           <e><p><l>kome</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+           <e><p><l>kome</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>kom</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>kim</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>kime</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="što__prn"><!--TODO Note: In serbian maybe što means why (Croatian zašto), in bosnian possibly as well, need to check-->
+	<group alt="sh">
+	    <e><p><l>što</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>što</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+            <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	</group>
+	<group alt="sh_BS">
+	    <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	</group>
+	<group alt="sh_HR">
+	    <e><p><l>što</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>što</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	</group>
+	<group alt="sh_SR">
+	    <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	</group>
+           <e><p><l>čega</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>čemu</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+           <e><p><l>čemu</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čem</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čim</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>čime</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+</pardef>
+<!--end Interrogative pronouns -->
 <!--Possesive pronouns -->
-<!--<pardef n="possesive_pronouns__prn">
-  <e><p><l>moj</l><r>moj<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e><p><l>tvoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e><p><l>njegov</l><r>njegov<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e>
-</pardef>-->
+<!--Note: Some of these can look like definite/indefinite adjectives, but it's not definiteness, it's just style (the short form is more posh) -->
+<!--Also, this is ginormous-->
+<pardef n="moj__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>moj</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>mojeg</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>mojega</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>mojeg</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>mojega</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>moj</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>mojeg</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>mojega</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>moj</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>moja</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>moju</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>mojoj</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>mojoj</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>mojom</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>mojeg</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>mojega</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>mojem</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e r="LR"><p><l>mojemu</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>moji</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>mojih</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>moji</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>mojih</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>mojih</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>moje</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>moja</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>mojih</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>moja</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>mojim</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>mojima</l><r>moj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="tvoj__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>tvoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>tvojeg</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>tvojega</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>tvojeg</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>tvojega</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>tvoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>tvojeg</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>tvojega</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>tvoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>tvoja</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoju</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojoj</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojom</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>tvojeg</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>tvojega</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojem</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojemu</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>tvoji</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>tvojih</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>tvoji</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>tvojih</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>tvojih</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoje</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>tvoja</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>tvojih</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>tvoja</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>tvojim</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>tvojima</l><r>tvoj<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="njegov__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>njegov</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njegovog</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njegovoga</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>njegovog</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>njegovoga</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>njegov</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njegovog</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njegovoga</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>njegov</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>njegove</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovoj</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovoj</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njegovo</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>njegovog</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njegovoga</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njegovo</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovom</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovomu</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovome</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njegovu</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>njegovi</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njegovih</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njegove</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>njegovi</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njegovih</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njegove</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njegove</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njegovih</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njegove</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njegovih</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njegova</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njegovim</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njegovima</l><r>njegov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
 
+<pardef n="njen__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>njen</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njenog</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njenoga</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>njenog</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>njenoga</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>njen</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njenog</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njenoga</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>njen</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>njene</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njenoj</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njenoj</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njeno</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>njenog</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njenoga</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njeno</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njenom</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenomu</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenome</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njenu</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>njeni</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njenih</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njene</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>njeni</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njenih</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njene</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njene</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njenih</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njene</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njenih</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njena</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njenim</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njenima</l><r>njen<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+
+
+<pardef n="njezin__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>njezin</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njezinog</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njezinoga</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>njezinog</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>njezinoga</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>njezin</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njezinog</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njezinoga</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>njezin</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>njezine</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinoj</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinoj</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njezino</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>njezinog</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njezinoga</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njezino</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinom</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinomu</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinome</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njezinu</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>njezini</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njezinih</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njezine</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>njezini</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njezinih</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njezine</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njezine</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njezinih</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njezine</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njezinih</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njezina</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njezinim</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njezinima</l><r>njezin<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+
+<pardef n="naš__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>naš</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>našeg</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>našega</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>našeg</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>našega</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>naš</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>našeg</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>našega</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>naš</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>naša</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>našu</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>našoj</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>našoj</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>našom</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>našeg</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>našega</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>našem</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našemu</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>naši</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>naših</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>naši</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>naših</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>naših</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>naše</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>naša</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>naših</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>naša</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>našim</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>našima</l><r>naš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+
+<pardef n="vaš__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>vaš</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>vašeg</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>vašega</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>vašeg</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>vašega</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>vaš</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>vašeg</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>vašega</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>vaš</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>vaša</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>vašu</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>vašoj</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>vašoj</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>vašom</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>vašeg</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>vašega</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>vašem</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašemu</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>vaši</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>vaših</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>vaši</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>vaših</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>vaših</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>vaše</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>vaša</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>vaših</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>vaša</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>vašim</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>vašima</l><r>vaš<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+
+
+<pardef n="njihov__pos__prn">
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+	  <e><p><l>njihov</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njihovog</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njihovoga</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>njihovog</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>njihovoga</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="LR"><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->  
+	  <e><p><l>njihov</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><p><l>njihovog</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njihovoga</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>njihov</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>njihove</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovoj</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovoj</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njihovo</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>njihovog</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>njihovoga</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>njihovo</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovom</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovomu</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovome</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  <e r="LR"><p><l>njihovu</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural--><!--A lot of redundancy here-->
+<!--Masculine-->
+<!--Animate-->
+         <e><p><l>njihovi</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njihovih</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njihove</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>njihovi</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njihovih</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njihove</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Feminine-->
+         <e><p><l>njihove</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njihovih</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njihove</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Neuter-->
+         <e><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>njihovih</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>njihova</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="possesive__pronouns__prn">
+<e lm="moj"><i/><par n="moj__pos__prn"/></e>
+<e lm="tvoj"><i/><par n="tvoj__pos__prn"/></e>
+<e lm="njegov"><i/><par n="njegov__pos__prn"/></e>
+<e lm="njen"><i/><par n="njen__pos__prn"/></e><e lm="njezin"><i/><par n="njezin__pos__prn"/></e>
+<e lm="naš"><i/><par n="naš__pos__prn"/></e>
+<e lm="vaš"><i/><par n="vaš__pos__prn"/></e>
+<e lm="njihov"><i/><par n="njihov__pos__prn"/></e>
+</pardef>
+<!--end Possesive pronouns -->
 <!--Verb paradigms-->
 
 <!--Raw suffix paradigms -->
@@ -2951,7 +3755,20 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 </pardefs>
 
 <section id="main" type="standard">
-<!--Prepositions--><!--Only from the Croatian grammar, any additional Serbian or Bosnian prepositions need to be added-->
+<!--Closed speech categories-->
+<!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
+<e lm="da"><p><l>da</l><r>affirmative<s n="part"/><s n="aff"/></r></p></e>
+<!--<e lm="da"><l>da</l><r>The subjunctive marker particle, can also mark a question, can mark a demand (sometimes optative)<s n="part"/></r></p></e>-->
+<!--e lm="neka"><l>neka</l><r>particle to express a demand, used to make imperative in cases where no synthetic imperative available</r></p></e>-->
+<e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
+<e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
+<e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/><s n="clt"/></r></p></e>
+<e lm="je li"><p><l>je<b/>li</l><r>je<b/>li<s n="part"/><s n="itg"/></r></p></e>
+<e lm="da li"><p><l>da<b/>li</l><r>da<b/>li<s n="part"/><s n="itg"/></r></p></e>
+<e lm="zar"><p><l>zar</l><r>zar<s n="part"/><s n="itg"/></r></p></e>
+<!--e lm="ta">ta</l><r>exclamatory particle<s n="part"/><s n="itg"/></r></e-->
+
+<!--Prepositions--><!--Only from the Croatian grammar, TODO: any additional Serbian or Bosnian prepositions need to be added-->
 <!--That go with Genitive -->
 <e lm="u"><i>u</i><par n="preposition__pr"/></e><!--gen, acc, loc -->
 <e lm="za"><i>za</i><par n="preposition__pr"/></e><!--gen, acc, ins -->
@@ -3145,8 +3962,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="free"><i/><par n="personal_pronouns__prn"/></e> 
 <e lm="clitic"><i/><par n="personal_pronouns__clt__prn"/></e> 
 <e lm="free"><i/><par n="reflexive_pronouns__prn"/></e> 
-<e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e> 
+<e lm="clitic"><i/><par n="reflexive_pronouns__clt__prn"/></e>
+<e lm="possesive"><i/><par n="possesive__pronouns__prn"/></e>  
+<!--End closeed speech categories-->
 
+<!--Open speech categories-->
 <!--Verbs -->
 <!--Verb to be-->
 <e lm="biti"><i/><par n="biti__vbser"/></e> 
@@ -3322,6 +4142,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ovrha"><i>ovr</i><par n="svr/ha__n"/></e>
 <e lm="muha"><i>mu</i><par n="mu/ha__n"/></e>
 <e lm="sinegdoha"><i>sinegdo</i><par n="sinegdo/ha__n"/></e>
-
+<!--end Nouns -->
+<!--end Closed speech categories -->
 </section>
 </dictionary>
