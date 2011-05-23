@@ -84,6 +84,10 @@
 <sdef n="iv" c="Intransitive"/>
 
 <!-- Proper nouns -->
+<sdef n="ant"     c="Antroponym"/>
+<sdef n="top"     c="Toponym"/>
+<sdef n="cog"     c="Surnames"/>
+
 <sdef n="p1" c="Person 1"/>
 <sdef n="p2" c="Person 2"/>
 <sdef n="p3" c="Person 3"/>
@@ -132,6 +136,24 @@ I have added those for the sake of analysis -->
     <!--The idea is to be able to output ekavian and ijekavian analysis, based on the need of the user-->
     <!--There's currently no xslt sheet handling this, so in the analyses these variants are ignored  -->
 	<!--TODO: implement the xslt -->
+   <pardef n="e_e__yat"> <!--this is to make life easier -->
+      <group alt="sh">
+        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+      </group>
+    </pardef>
     <pardef n="e_je__yat">
       <group alt="sh">
         <e><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
@@ -383,7 +405,7 @@ after prepositions-->
      <e r="LR"><p><l>kim</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
            <e><p><l>kime</l><r>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="što__prn"><!--TODO Note: In serbian maybe što means why (Croatian zašto), in bosnian possibly as well, need to check-->
+<pardef n="što__prn"><!--Note: in serbian and bosnian vernacular, 'što' can be equivalent to 'zašto', however i was told this is not the standard, so ommiting it -->
 	<group alt="sh">
 	    <e><p><l>što</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
 	    <e><p><l>šta</l><r>što<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
@@ -1645,7 +1667,7 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for the participle -->
-<pardef n="lp__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..." (TODO: find a better description of this case)-->
+<pardef n="lp__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
      <e><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
     <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3805,10 +3827,47 @@ after prepositions-->
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<!--Proper nouns-->
+<!--Toponyms-->
+<pardef n="Hrvat/ska__n"><!-- Without sibilarization, as if it's an adjective in the singular, as a noun in plural, it's highly dubious if plural exists at all-->
+   <e><p><l>ska</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><p><l>sku</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
+   <e><p><l>skoj</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><p><l>skoj</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>                
+   <e><p><l>ska</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><p><l>skom</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+   <!--e><p><l>ska</l><r>ja<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e--><!--Genitive simply cannot exist-->
+   <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>   
+   <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+   <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
+   <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+   <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="Srb/ija__n">
+	   <e><p><l>ija</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	   <e><p><l>ije</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	   <e><p><l>iju</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
+	   <e><p><l>iji</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	   <e><p><l>iji</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>                
+	   <e><p><l>ijo</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e r="LR"><p><l>ijo</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+          <e><p><l>ijom</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	   <e><p><l>ije</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+           <e><p><l>ija</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	   <e><p><l>jie</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>   
+	 <e><p><l>ijama</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	 <e><p><l>ijama</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
+ 	   <e><p><l>ije</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+         <e><p><l>ijama</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<!--end Toponyms-->
+<!--end Proper nouns-->
 <!--end Feminine nouns -->
 <!--Neuter nouns -->
 <!--ending in -o, -e and -0 -->
-<!--Without the 'inconsistent a' -->
+<!--Without the 'fleeting a' -->
 <pardef n="koljen/o__n"   >
     <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -3825,7 +3884,7 @@ after prepositions-->
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
 </pardef>
-<!--With the 'inconsistent a'-->
+<!--With the 'fleeting a'-->
 <pardef n="jed/ro__n"   >
     <e><p><l>ro</l><r>ro<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ro</l><r>ro<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -3842,6 +3901,75 @@ after prepositions-->
     <e><p><l>rima</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>rima</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
 </pardef>
+<!--With the 'fleeting a'-->
+<pardef n="društ/vo__n"   >
+    <e><p><l>vo</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>vo</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>vo</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>vu</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>vu</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+    <e><p><l>vom</l><r>vo<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ava</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
+    <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
+</pardef>
+<!--With the 'fleeting a'-->
+<pardef n="stak/lo__n"   >
+    <e><p><l>lo</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>lo</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>lo</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>lu</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>lu</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+    <e><p><l>lom</l><r>lo<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ala</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
+    <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
+</pardef>
+<!--With the 'fleeting a'-->
+<pardef n="pis/mo__n"   >
+    <e><p><l>mo</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>mo</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>mo</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>mu</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>mu</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+    <e><p><l>mom</l><r>mo<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ama</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
+    <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
+</pardef>
+<!--With the 'fleeting a'-->
+<pardef n="d/no__n"   > <!--Note: this is a funny one, i think that a rare few croats know that g.pl. of dno is dana -->
+    <e><p><l>no</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>no</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>no</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>nu</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>nu</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+    <e><p><l>nom</l><r>no<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ana</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
+    <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
+</pardef>
+
 <!--TODO: in translation maybe it'd be more practical to label the following three lemmas differently-->
 <pardef n="drv/o__wood__n"   >
     <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -3955,7 +4083,7 @@ after prepositions-->
  	 <e><p><l>ima</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
 	 <e><p><l>ima</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
 </pardef>
-<pardef n="sun/ce__n"   ><!--Inconsistent a-->
+<pardef n="sun/ce__n"   ><!--fleeting a-->
 	   <e><p><l>ce</l><r>ce<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>ce</l><r>ce<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
 	   <e><p><l>ce</l><r>ce<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -3990,7 +4118,7 @@ after prepositions-->
        <e><p><l>ima</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <!--Nouns with infixes -et, -en, -ev, -es -->
-<pardef n="tel/e__n"><!--This is a noun with collective plural-->
+<pardef n="tel/e__n"><!--Note: This is a noun with collective plural, it behaves like singular feminine but can be marked like plural neuter, without any problems -->
            <e><p><l>e</l><r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
            <e><p><l>e</l><r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
            <e><p><l>e</l><r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
@@ -4028,6 +4156,52 @@ after prepositions-->
         <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
           <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
+<pardef n="dijete__n"><!--This one is a handful, therefore the paradigm is as raw as can be-->
+            <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>teta</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+           <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+           <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>ca</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>ce</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>cu</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>co</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+           <e><i>d</i><par n="e_je__yat"/><p><l>com</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="ždrijebe__n"><!--Also raw, if needed I'll turn it into a more general paradigm-->
+              <e><i>ždr</i><par n="e_ije__yat"/><p><l>be</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>beta</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>beta</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	      <e><i>ždr</i><par n="e_ije__yat"/><p><l>be</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+              <e><i>ždr</i><par n="e_ije__yat"/><p><l>be</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>betu</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>betu</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>betu</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>betu</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>betom</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>betom</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>bad</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>bad</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>bad</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>bad</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+           <e><i>ždr</i><par n="e_e__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>badi</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_e__yat"/><p><l>bađu</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>bađu</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<!--Todo: also add ždrijebe/ždrebeta, vrijeme/vremena-->
 <!--Nouns with the infix -n -->
 <pardef n="rame__n">
    <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -4044,6 +4218,23 @@ after prepositions-->
 <e><p><l>nima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
 <e><p><l>nima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
   <e><p><l>na</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<pardef n="vrijeme__n">
+   <e><i>vr</i><par n="e_ije__yat" /><p><l>me</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><i>vr</i><par n="e_ije__yat" /><p><l>me</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+   <e><i>vr</i><par n="e_ije__yat" /><p><l>me</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menu</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menu</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+  <e><i>vr</i><par n="e_e__yat" /><p><l>menom</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+ <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
 </pardef>
 
 <!--Nouns with the infix -v -->
@@ -4485,8 +4676,53 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="namještaj"><i>namještaj</i><par n="namještaj__n"/></e>
 <e lm="očajnik"><i>očajni</i><par n="učeni/k__n"/></e>
 <e lm="nepravednik"><i>nepravedni</i><par n="učeni/k__n"/></e>
+<!--end Masculine nouns-->
 <!--Feminine nouns -->
-<!--none so far-->
+<e lm="žaba"><i>ža</i><par n="žab/a__n"/></e>
+<e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
+<e lm="vojska"><i>vojs</i><par n="vojs/ka__n"/></e>
+<e lm="tuga"><i>tu</i><par n="knji/ga__n"/></e>
+<e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
+<e lm="kvrga"><i>kvr</i><par n="kvr/ga__n"/></e>
+<e lm="svrha"><i>svr</i><par n="svr/ha__n"/></e>
+<e lm="ovrha"><i>ovr</i><par n="svr/ha__n"/></e>
+<e lm="muha"><i>mu</i><par n="mu/ha__n"/></e>
+<e lm="sinegdoha"><i>sinegdo</i><par n="sinegdo/ha__n"/></e>
+<e lm="utjeha"><i>utje</i><par n="sinegdo/ha__n"/></e>
+
+<!--Without sibilarisation of the root-->
+<e lm="baka"><i>ba</i><par n="ba/ka__n"/></e>
+<e lm="cika"><i>ci</i><par n="ba/ka__n"/></e>
+<e lm="kika"><i>ki</i><par n="ba/ka__n"/></e>
+<e lm="kuka"><i>ku</i><par n="ba/ka__n"/></e>
+<e lm="tuka"><i>tu</i><par n="ba/ka__n"/></e>
+<e lm="seka"><i>se</i><par n="ba/ka__n"/></e>
+<e lm="koka"><i>ko</i><par n="ba/ka__n"/></e>
+<e lm="figa"><i>fi</i><par n="fi/ga__n"/></e>
+<e lm="aga"><i>a</i><par n="fi/ga__n"/></e>
+<e lm="saga"><i>sa</i><par n="fi/ga__n"/></e>
+<e lm="omega"><i>ome</i><par n="fi/ga__n"/></e>
+<e lm="kaciga"><i>kaci</i><par n="fi/ga__n"/></e>
+<e lm="kečiga"><i>keči</i><par n="fi/ga__n"/></e>
+<e lm="papiga"><i>papi</i><par n="fi/ga__n"/></e>
+<e lm="intriga"><i>intri</i><par n="fi/ga__n"/></e>
+<e lm="siga"><i>si</i><par n="fi/ga__n"/></e>
+<e lm="kaštiga"><i>kašti</i><par n="fi/ga__n"/></e>
+<e lm="butiga"><i>buti</i><par n="fi/ga__n"/></e>
+<e lm="droga"><i>dro</i><par n="fi/ga__n"/></e>
+<e lm="doga"><i>do</i><par n="fi/ga__n"/></e>
+<!--e lm="baba-roga" multiword, perhaps-->
+<e lm="škrga"><i>škr</i><par n="fi/ga__n"/></e>
+<e lm="fuga"><i>fu</i><par n="fi/ga__n"/></e>
+<e lm="šuga"><i>šu</i><par n="fi/ga__n"/></e>
+<e lm="doga"><i>do</i><par n="fi/ga__n"/></e>
+<!--Toponyms and proper nouns-->
+<e lm="Hrvatska"><i>Hrvat</i><par n="Hrvat/ska__n"/></e>
+<e lm="Švicarska"><i>Švicar</i><par n="Hrvat/ska__n"/></e>
+<e lm="Švedska"><i>Šved</i><par n="Hrvat/ska__n"/></e>
+<e lm="Srbija"><i>Srb</i><par n="Srb/ija__n"/></e>
+<e lm="Srbija"><i>Jugoslav</i><par n="Srb/ija__n"/></e>
+<!--end Feminine nouns-->
 <!--Neuter nouns-->
 <e lm="koljeno"><i>koljen</i><par n="koljen/o__n"/></e>
 <e lm="jedro"><i>jedr</i><par n="jed/ro__n"/></e>
@@ -4507,6 +4743,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="janje"><i>janj</i><par n="tel/e__n"/></e>
 <e lm="puce"><i>puc</i><par n="tel/e__n"/></e>
 <e lm="dugme"><i>dugm</i><par n="tel/e__n"/></e>
+<e lm="pile"><i>pil</i><par n="tel/e__n"/></e>
 <e lm="rame"><i>rame</i><par n="rame__n"/></e>
 <e lm="ime"><i>ime</i><par n="rame__n"/></e>
 <e lm="ime"><i>prezime</i><par n="rame__n"/></e>
@@ -4515,8 +4752,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pleme"><i>pleme</i><par n="rame__n"/></e>
 <e lm="breme"><i>breme</i><par n="rame__n"/></e>
 <e lm="vime"><i>vime</i><par n="rame__n"/></e>
-<!--e lm="vrijeme"><i>vrijeme</i><par n="rame__n"/></e--><!--Irregular Yat, needs a separate paradigm-->
-<!--e lm="nevrijeme"><i>nevrijeme</i><par n="rame__n"/></e--><!--Irregular Yat, needs a separate paradigm-->
+<e lm="vrijeme"><i/><par n="vrijeme__n"/></e><!--Irregular Yat-->
+<e lm="nevrijeme"><i>ne</i><par n="vrijeme__n"/></e><!--Irregular Yat-->
 <e lm="podne"><i>podne</i><par n="podne__n"/></e>
 <e lm="dopodne"><i>dopodne</i><par n="podne__n"/></e>
 <e lm="popodne"><i>popodne</i><par n="podne__n"/></e>
@@ -4525,20 +4762,16 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="večer"><i/><par n="večer_veče__n"/></e>
 <e lm="večer"><i>pred</i><par n="večer_veče__n"/></e>
 <e lm="doba"><i/><par n="doba__n"/></e>
-
-<e lm="žaba"><i>ža</i><par n="žab/a__n"/></e>
-<e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
-<e lm="vojska"><i>vojs</i><par n="vojs/ka__n"/></e>
-<e lm="baka"><i>ba</i><par n="ba/ka__n"/></e>
-<e lm="tuga"><i>tu</i><par n="knji/ga__n"/></e>
-<e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
-<e lm="kvrga"><i>kvr</i><par n="kvr/ga__n"/></e>
-<e lm="figa"><i>fi</i><par n="fi/ga__n"/></e>
-<e lm="svrha"><i>svr</i><par n="svr/ha__n"/></e>
-<e lm="ovrha"><i>ovr</i><par n="svr/ha__n"/></e>
-<e lm="muha"><i>mu</i><par n="mu/ha__n"/></e>
-<e lm="sinegdoha"><i>sinegdo</i><par n="sinegdo/ha__n"/></e>
+<e lm="društvo"><i>društ</i><par n="društ/vo__n"/></e>
+<e lm="carstvo"><i>carst</i><par n="društ/vo__n"/></e>
+<e lm="kumstvo"><i>kumst</i><par n="društ/vo__n"/></e>
+<e lm="staklo"><i>stak</i><par n="stak/lo__n"/></e>
+<e lm="stablo"><i>stab</i><par n="stak/lo__n"/></e>
+<e lm="dno"><i>d</i><par n="d/no__n"/></e>
+<e lm="stegno"><i>steg</i><par n="d/no__n"/></e>
+<e lm="platno"><i>plat</i><par n="d/no__n"/></e>
+<e lm="pismo"><i>pis</i><par n="pis/mo__n"/></e>
+<!--end Neuter nouns -->
 <!--end Nouns -->
-<!--end Closed speech categories -->
 </section>
 </dictionary>
