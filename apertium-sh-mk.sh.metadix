@@ -809,7 +809,7 @@ after prepositions-->
         <e><p><l>čijim</l><r>čiji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 <e r="LR"><p><l>čijima</l><r>čiji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="interrogative__pronouns__prn">
+<pardef n="interrogative__pronouns__prn"><!--TODO : Make a separate mold paradigm for all of these so they can be used in compounds with ni-, ne-, sva-, malo-,-->
 	<e lm="tko"><i/><par n="tko__prn"/></e>
 	<e lm="što"><i/><par n="što__prn"/></e>
 	<e lm="koji"><i/><par n="koji__prn"/></e>
@@ -1564,15 +1564,7 @@ after prepositions-->
         <e><p><l>njihovim</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 <e r="LR"><p><l>njihovima</l><r>njihov<s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="interrogative__pronouns__prn">
-<e lm="moj"><i/><par n="moj__prn"/></e>
-<e lm="tvoj"><i/><par n="tvoj__prn"/></e>
-<e lm="njegov"><i/><par n="njegov__prn"/></e>
-<e lm="njen"><i/><par n="njen__prn"/></e><e lm="njezin"><i/><par n="njezin__prn"/></e>
-<e lm="naš"><i/><par n="naš__prn"/></e>
-<e lm="vaš"><i/><par n="vaš__prn"/></e>
-<e lm="njihov"><i/><par n="njihov__prn"/></e>
-</pardef>
+<!--Possesive pronouns-->
 <pardef n="possesive__pronouns__prn">
 <e lm="moj"><i/><par n="moj__prn"/></e>
 <e lm="tvoj"><i/><par n="tvoj__prn"/></e>
@@ -5181,14 +5173,14 @@ after prepositions-->
    <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>menu</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>menu</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
-  <e><i>vr</i><par n="e_e__yat" /><p><l>menom</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menom</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat" /><p><l>mena</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
- <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
- <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
- <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+   <e><i>vr</i><par n="e_e__yat" /><p><l>menima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
 </pardef>
 
@@ -5794,8 +5786,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="grudi"><i>grud</i><par n="grud/i__n"/></e> <!--Mostly pluralia tantum-->
 <e lm="prsi"><i>prs</i><par n="grud/i__n"/></e>
 <e lm="pleći"><i>pleći</i><par n="grud/i__n"/></e>
-
-
 <!--Toponyms and proper nouns-->
 <e lm="Hrvatska"><i>Hrvat</i><par n="Hrvat/ska__n"/></e>
 <e lm="Finska"><i>Fin</i><par n="Hrvat/ska__n"/></e>

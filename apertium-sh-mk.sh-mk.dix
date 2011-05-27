@@ -143,6 +143,8 @@
      <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
      <e><p><l>ili<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
      <e><p><l>pa<s n="cnjcoo"/></l><r>па<s n="cnjcoo"/></r></p></e>
+     <e><p><l>ni<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e>
+     <e><p><l>niti<s n="cnjcoo"/></l><r>ниту<s n="cnjcoo"/></r></p></e>
 
      <!-- SECTION: Prepositions -->
 
@@ -153,11 +155,11 @@
      <e><p><l>za<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
      <e><p><l>iz<s n="pr"/></l><r>од<s n="pr"/></r></p></e>
      <e><p><l>do<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
-     <e><p><l>sa<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
+     <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
 
      <e><p><l>blizu<s n="pr"/></l><r>близу<s n="pr"/></r></p></e>
      <e><p><l>bez<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
-     <e><p><l>ka<s n="pr"/></l><r>кај<s n="pr"/></r></p></e>
+     <e><p><l>k<s n="pr"/></l><r>кај<s n="pr"/></r></p></e>
      <e><p><l>dolje<s n="pr"/></l><r>доле<s n="pr"/></r></p></e>
      <e><p><l>kraj<s n="pr"/></l><r>крај<s n="pr"/></r></p></e>
      <e><p><l>iznad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
@@ -175,8 +177,9 @@
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
 
-     <e><p><l>ko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
-     <e><p><l>šta<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
+     <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
+     <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
+     <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
      <e><p><l>taj<s n="prn"/></l><r>тој<s n="prn"/></r></p></e>
 
      <!-- SECTION: Numerals -->
@@ -266,7 +269,7 @@
      <e><p><l>dim<s n="n"/><s n="m"/></l><r>чад<s n="n"/><s n="m"/></r></p></e>
 
      <e><p><l>dlan<s n="n"/><s n="m"/></l><r>дланка<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>reč<s n="n"/><s n="mi"/></l><r>реч<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>reč<s n="n"/><s n="f"/></l><r>реч<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>izbor<s n="n"/><s n="m"/></l><r>избор<s n="n"/><s n="m"/></r></p></e>
 
      <e><p><l>dokaz<s n="n"/><s n="m"/></l><r>доказ<s n="n"/><s n="m"/></r></p></e>
@@ -511,8 +514,7 @@
 
      <e><p><l>parlamentaran<s n="adj"/></l><r>парламентарен<s n="adj"/></r></p></e> 
 
-     <!-- check long short bollocks -->
-     <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e> 
+     <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
 
      <e><p><l>policijski<s n="adj"/></l><r>полициски<s n="adj"/></r></p></e> 
      <e><p><l>ljudski<s n="adj"/></l><r>човечки<s n="adj"/></r></p></e> 
@@ -998,7 +1000,7 @@
      <e><p><l>veliki<s n="adj"/></l><r>голем<s n="adj"/></r></p></e> 
      <e><p><l>velški<s n="adj"/></l><r>велшки<s n="adj"/></r></p></e> 
      <e><p><l>venecijanski<s n="adj"/></l><r>венецијански<s n="adj"/></r></p></e> 
-     <e><p><l>verski<s n="adj"/></l><r>верски<s n="adj"/></r></p></e> 
+     <e><p><l>vjerski<s n="adj"/></l><r>верски<s n="adj"/></r></p></e> 
      <e><p><l>vešt<s n="adj"/></l><r>вешт<s n="adj"/></r></p></e> 
      <e><p><l>veštački<s n="adj"/></l><r>вештачки<s n="adj"/></r></p></e> 
      <e><p><l>visok<s n="adj"/></l><r>висок<s n="adj"/></r></p></e> 
@@ -1051,7 +1053,7 @@
      <e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
      <e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e>
      <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>
-     <e><p><l>još uvek<s n="adv"/></l><r>се уште<s n="adv"/></r></p></e>
+     <e><p><l>još uvijek<s n="adv"/></l><r>се уште<s n="adv"/></r></p></e>
      <e><p><l>do sada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
 
 
@@ -1059,7 +1061,7 @@
       <!-- the clitic verb to be, and the longer version, they perhaps should be arranged differently-->
     <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
-    <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
+    <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> <!--Note: Is this neccessary? The clt form is in any case translated as e<vbser>. When it'll be going the other way around we'll have to decide if it's clitic or not, depending on the sentence-->
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
@@ -1075,6 +1077,13 @@
      <!-- <cabrilo> reći - to say
           <cabrilo> highly irregular though 
           <cabrilo> can't use it in present tense
+	 
+	  Note by krvoje: The issue here is that usually the 'kazati' is used instead of 'reći' in any form except infinitive and narrative aoirst/perfective present. 
+	  So 
+		I want to say == "Želim reći"
+		I am saying == "Kažem"
+		He said == "On reče"
+		...
        -->
      <e r="LR"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p></e>
      <e><p><l>kazati<s n="vblex"/></l><r>рече<s n="vblex"/></r></p></e>
@@ -1095,29 +1104,34 @@
      <e><p><l>stajati<s n="vblex"/></l><r>стои<s n="vblex"/></r></p></e>
      <e><p><l>prati<s n="vblex"/></l><r>пере<s n="vblex"/></r></p></e>
      <e><p><l>srati<s n="vblex"/></l><r>сере<s n="vblex"/></r></p></e>
-     <e><p><l>pevati<s n="vblex"/></l><r>пее<s n="vblex"/></r></p></e>
+     <e><p><l>pjevati<s n="vblex"/></l><r>пее<s n="vblex"/></r></p></e>
      <e><p><l>očekivati<s n="vblex"/></l><r>очекува<s n="vblex"/></r></p></e>
      <e><p><l>čekati<s n="vblex"/></l><r>чека<s n="vblex"/></r></p></e>
      <e><p><l>smetati<s n="vblex"/></l><r>смета<s n="vblex"/></r></p></e>
      <e><p><l>kalkulisati<s n="vblex"/></l><r>калкулира<s n="vblex"/></r></p></e>
+     <e><p><l>kalkulirati<s n="vblex"/></l><r>калкулира<s n="vblex"/></r></p></e>
      <e><p><l>igrati<s n="vblex"/></l><r>игра<s n="vblex"/></r></p></e>
-     <e><p><l>hteti<s n="vblex"/></l><r>сака<s n="vblex"/></r></p></e>
+     <e><p><l>htjeti<s n="vblex"/></l><r>сака<s n="vblex"/></r></p></e>
      <e><p><l>dobijati<s n="vblex"/></l><r>добива<s n="vblex"/></r></p></e>
-     <e><p><l>pobeđivati<s n="vblex"/></l><r>победува<s n="vblex"/></r></p></e>
+     <e><p><l>dobivati<s n="vblex"/></l><r>добива<s n="vblex"/></r></p></e>
+     <e><p><l>pobjeđivati<s n="vblex"/></l><r>победува<s n="vblex"/></r></p></e>
      <e><p><l>tražiti<s n="vblex"/></l><r>бара<s n="vblex"/></r></p></e>
      <e><p><l>ljubiti<s n="vblex"/></l><r>љуби<s n="vblex"/></r></p></e>
+     <!--<e><p><l>vikati<s n="vblex"/></l><r>вика<s n="vblex"/></r></p></e> Todo: check translation-->
      <e><p><l>povikati<s n="vblex"/></l><r>повика<s n="vblex"/></r></p></e>
 
-     <e><p><l>odneti<s n="vblex"/></l><r>однесе<s n="vblex"/></r></p></e>
-     <e><p><l>izbrati<s n="vblex"/></l><r>избра<s n="vblex"/></r></p></e>
-     <e><p><l>jebati<s n="vblex"/></l><r>ебе<s n="vblex"/></r></p></e>
+     <e><p><l>odnijeti<s n="vblex"/></l><r>однесе<s n="vblex"/></r></p></e>
+     <e><p><l>izbrati<s n="vblex"/></l><r>избра<s n="vblex"/></r></p></e><!--Note: check if this is a typo, I thought that in Serbian it's also 'izabrati'-->
+     <e><p><l>izabrati<s n="vblex"/></l><r>избра<s n="vblex"/></r></p></e>
+
+     <e><p><l>jebati<s n="vblex"/></l><r>ебе<s n="vblex"/></r></p></e><!--Ma nemoj-->
 
      <!-- check -->
      <e><p><l>začepiti<s n="vblex"/></l><r>блокира<s n="vblex"/></r></p></e>
 
      <!-- SECTION: Interjections -->
 
-     <e><p><l>da<s n="ij"/></l><r>да<s n="ij"/></r></p></e>
+     <e><p><l>da<s n="ij"/></l><r>да<s n="ij"/></r></p></e><!--Note: not sure if this is an interjection-->
     
      <!-- SECTION: Punctuation -->
 
@@ -1136,8 +1150,8 @@
    <section id="west" type="standard">
 
      <e><p><l>zračna luka<s n="n"/><s n="f"/></l><r>аеродром<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>lebdjelica<s n="n"/><s n="f"/></l><r>летало<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>lječnik<s n="n"/><s n="m"/></l><r>лекар<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>lebdjelica<s n="n"/><s n="f"/></l><r>летало<s n="n"/><s n="nt"/></r></p></e><!--I'm not sure what this word is. A hovercraft??-->
+     <e><p><l>liječnik<s n="n"/><s n="m"/></l><r>лекар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>otok<s n="n"/><s n="m"/></l><r>остров<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>europeizacija<s n="n"/><s n="f"/></l><r>европеизација<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>sveučilište<s n="n"/><s n="nt"/></l><r>универзитет<s n="n"/><s n="m"/></r></p></e>
@@ -1172,7 +1186,7 @@
    <section id="east" type="standard">
 
      <e><p><l>aerodrom<s n="n"/><s n="m"/></l><r>аеродром<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>hoverkraft<s n="n"/><s n="m"/></l><r>летало<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>hoverkraft<s n="n"/><s n="m"/></l><r>летало<s n="n"/><s n="nt"/></r></p></e><!--Yep, it's a hovercraft-->
      <e><p><l>lekar<s n="n"/><s n="m"/></l><r>лекар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>evropeizacija<s n="n"/><s n="f"/></l><r>европеизација<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>prečnik<s n="n"/><s n="f"/></l><r>пречник<s n="n"/><s n="f"/></r></p></e>
@@ -1205,7 +1219,7 @@
 
    <section id="cent" type="standard">
 
-     <e><p><l>kahva<s n="n"/><s n="f"/></l><r>кафе<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>kahva<s n="n"/><s n="f"/></l><r>кафе<s n="n"/><s n="nt"/></r></p></e><!--Note: This is maybe not neccesary, it's dialect-->
 
    </section>
 
