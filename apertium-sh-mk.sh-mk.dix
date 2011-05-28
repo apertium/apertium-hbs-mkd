@@ -174,14 +174,56 @@
 
      <!-- SECTION: Pronouns -->
 
+
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
+     <!--Possesive-->
 
+     <!--Interrogative-->
      <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
      <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
-     <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
-     <e><p><l>taj<s n="prn"/></l><r>тој<s n="prn"/></r></p></e>
+     <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e><!--In the macedonian analysis the form corresponding to croatian possesive is analysed as genitive-->
+     <e><p><l>kakav<s n="prn"/></l><r>каков<s n="prn"/></r></p></e>
+     <e><p><l>čiji<s n="prn"/></l><r>чиј<s n="prn"/></r></p></e><!--The corresponding form in macedonian is analysed as genitive of koj? So a transfer rule neccessary? this is an incorrect entry like this-->
+     <e><p><l>koliki<s n="prn"/></l><r>колкав<s n="prn"/></r></p></e>
+     <!--Relative-->
+     <!--Covered already by the interrogative, though there are more to cover-->
+     <!--<e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>колкав<s n="prn"/><s n="rel"/></r></p></e>--><!--Note: no corresponding form in the mk monodix-->
+     <!--Indefinite-->
+     <e><p><l>netko<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
+     <e><p><l>nekakav<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
+     <!--not yet implemented <e><p><l>nekoliko<s n="prn"/><s n="rel"/></l><r>неколку<s n="prn"/><s n="rel"/></r></p></e>-->
+     <!--this is a noun <e><p><l>nekolicina<s n="prn"/><s n="rel"/></l><r>неколицина<s n="prn"/><s n="rel"/></r></p></e>--><!--Note: The pronouns on the sh side are done in more detail-->
+     <!--Negative-->
+     <e><p><l>nitko<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
+     <e><p><l>nikoji<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
+     <e><p><l>ničiji<s n="prn"/></l><r>ничиј<s n="prn"/></r></p></e>
+     <!--<e><p><l>ниkoliki<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
+     <e><p><l>nikakav<s n="prn"/><s n="rel"/></l><r>никаков<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>ništa<s n="prn"/><s n="rel"/></l><r>ништо<s n="prn"/><s n="rel"/></r></p></e>
 
+     <!--Totalising-->
+     <e><p><l>svatko<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>svakoji<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>svaki<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e><!--TODO: check this-->
+     <e><p><l>svašta<s n="prn"/><s n="rel"/></l><r>сешто<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>svakakav<s n="prn"/><s n="rel"/></l><r>секаков<s n="prn"/><s n="rel"/></r></p></e>
+     <!--<e><p><l>svačiji<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
+     <!--<e><p><l>svakoliki<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
+
+     <!--Demonstrative-->
+     <e><p><l>ovaj<s n="prn"/></l><r>овој<s n="prn"/></r></p></e>
+     <e><p><l>ovakav<s n="prn"/></l><r>ваков<s n="prn"/></r></p></e>
+     <e><p><l>ovolik<s n="prn"/></l><r>олкав<s n="prn"/></r></p></e>
+     <e><p><l>taj<s n="prn"/></l><r>тој<s n="prn"/></r></p></e>
+     <e><p><l>takav<s n="prn"/></l><r>таков<s n="prn"/></r></p></e>
+     <e><p><l>tolik<s n="prn"/></l><r>толкав<s n="prn"/></r></p></e>
+     <e><p><l>onaj<s n="prn"/></l><r>оној<s n="prn"/></r></p></e>
+     <e><p><l>onakav<s n="prn"/></l><r>онаков<s n="prn"/></r></p></e>
+     <e><p><l>onolik<s n="prn"/></l><r>онолкав<s n="prn"/></r></p></e>
+
+
+     <!--end Pronouns-->
      <!-- SECTION: Numerals -->
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
