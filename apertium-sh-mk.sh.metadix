@@ -4438,90 +4438,98 @@ after prepositions-->
 
 <!-- Pronoun collective entries-->
 <pardef n="possesive__pronouns__prn">
-<e lm="moj"><i/><par n="moj__prn"/></e>
-<e lm="tvoj"><i/><par n="tvoj__prn"/></e>
-<e lm="njegov"><i/><par n="njegov__prn"/></e>
-<e lm="njen"><i/><par n="njen__prn"/></e><e lm="njezin"><i/><par n="njezin__prn"/></e>
-<e lm="naš"><i/><par n="naš__prn"/></e>
-<e lm="vaš"><i/><par n="vaš__prn"/></e>
-<e lm="njihov"><i/><par n="njihov__prn"/></e>
+	<e><i/><par n="moj__prn"/></e>
+	<e><i/><par n="tvoj__prn"/></e>
+	<e><i/><par n="njegov__prn"/></e>
+	<e><i/><par n="njen__prn"/></e><e lm="njezin"><i/><par n="njezin__prn"/></e>
+	<e><i/><par n="naš__prn"/></e>
+	<e><i/><par n="vaš__prn"/></e>
+	<e><i/><par n="njihov__prn"/></e>
 </pardef>
 <pardef n="interrogative__pronouns__prn">
-	<e lm="tko"><i/><par n="tko__itg__prn"/></e>
-	<e lm="što"><i/><par n="što__itg__prn"/></e>
-	<e lm="koji"><i/><par n="koji__itg__prn"/></e>
-	<e lm="kakav"><i/><par n="kakav__itg__prn"/></e>
-	<e lm="čiji"><i/><par n="čiji__itg__prn"/></e>
-	<e lm="koliki"><i/><par n="koliki__itg__prn"/></e>
+	<e><i/><par n="tko__itg__prn"/></e>
+	<e><i/><par n="što__itg__prn"/></e>
+	<e><i>za</i><par n="što__itg__prn"/></e><!--TODO: determine if this is a pronoun-->
+	<e><i/><par n="koji__itg__prn"/></e>
+	<e><i/><par n="kakav__itg__prn"/></e>
+	<e><i/><par n="čiji__itg__prn"/></e>
+	<e><i/><par n="koliki__itg__prn"/></e>
 </pardef>
 <pardef n="relative__pronouns__prn">
-	<e lm="tko"><i/><par n="tko__rel__prn"/></e>
-	<e lm="što"><i/><par n="što__rel__prn"/></e>
-	<e lm="koji"><i/><par n="koji__rel__prn"/></e>
-	<e lm="kakav"><i/><par n="kakav__rel__prn"/></e>
-	<e lm="čiji"><i/><par n="čiji__rel__prn"/></e>
-	<e lm="koliki"><i/><par n="koliki__rel__prn"/></e>
+	<e><i/><par n="tko__rel__prn"/></e>
+	<e><i/><par n="što__rel__prn"/></e>
+	<e><i/><par n="koji__rel__prn"/></e>
+	<e><i/><par n="kakav__rel__prn"/></e>
+	<e><i/><par n="čiji__rel__prn"/></e>
+	<e><i/><par n="koliki__rel__prn"/></e>
 </pardef>
-<pardef n="indefinite__pronouns__prn"><!--TODO: the suffix -god, it's not so often used as a suffix in the target domain, i think-->
-	<e lm="netko"><i>ne</i><par n="ne/tko__ind__prn"/></e>
-	<e lm="itko"><i>i</i><par n="ne/tko__ind__prn"/></e>
+<pardef n="indefinite__pronouns__prn"><!--TODO: the suffix -god, it's for now implemented as a particle-->
+	<e><i>ne</i><par n="ne/tko__ind__prn"/></e>
+	<e><i>i</i><par n="ne/tko__ind__prn"/></e>
 
- 	 <e lm="nešto"><i>ne</i><par n="ne/što__ind__prn"/></e>
-       <e lm="ponešto"><i>pone</i><par n="ne/što__ind__prn"/></e>
-          <e lm="išta"><i>i</i><par n="i/šta__ind__prn"/></e>
-        <e lm="štošta"><i>što</i><par n="i/šta__ind__prn"/></e>
-       <e lm="koješta"><i>koje</i><par n="i/šta__ind__prn"/></e>
+ 	 <e><i>ne</i><par n="ne/što__ind__prn"/></e>
+       <e><i>pone</i><par n="ne/što__ind__prn"/></e>
+          <e><i>i</i><par n="i/šta__ind__prn"/></e>
+        <e><i>što</i><par n="i/šta__ind__prn"/></e>
+       <e><i>koje</i><par n="i/šta__ind__prn"/></e>
 
-	<e lm="nekoji"><i>ne</i><par n="ne/koji__ind__prn"/></e>
-	<e lm="ikoji"><i>i</i><par n="ne/koji__ind__prn"/></e>
-	<e lm="pokoji"><i>po</i><par n="ne/koji__ind__prn"/></e>
-	<e lm="gdjekoji"><i>gdje</i><par n="ne/koji__ind__prn"/></e>
+	<e><i>ne</i><par n="ne/koji__ind__prn"/></e>
+	<e><i>i</i><par n="ne/koji__ind__prn"/></e>
+	<e><i>po</i><par n="ne/koji__ind__prn"/></e>
+	<e><i>gd</i><par n="e_je__yat"/><par n="ne/koji__ind__prn"/></e>
 
-        <e lm="neki"><i>ne</i><par n="ne/ki__ind__prn"/></e>
-        <e lm="poneki"><i>pone</i><par n="ne/ki__ind__prn"/></e>
+        <e><i>ne</i><par n="ne/ki__ind__prn"/></e>
+        <e><i>pone</i><par n="ne/ki__ind__prn"/></e>
 
-	<e lm="nekakav"><i>ne</i><par n="ne/kakav__ind__prn"/></e>
-	<e lm="ikakav"><i>i</i><par n="ne/kakav__ind__prn"/></e>
-	<e lm="kojekakav"><i>koje</i><par n="ne/kakav__ind__prn"/></e>
+	<e><i>ne</i><par n="ne/kakav__ind__prn"/></e>
+	<e><i>i</i><par n="ne/kakav__ind__prn"/></e>
+	<e><i>koje</i><par n="ne/kakav__ind__prn"/></e>
 <!--TODO : nekoliko, zajedno s ostalim upitnim-->
-	<e lm="nečiji"><i>ne</i><par n="ne/čiji__ind__prn"/></e>
-	<e lm="ičiji"><i>ne</i><par n="ne/čiji__ind__prn"/></e>
-	<e lm="ponečiji"><i>pone</i><par n="ne/čiji__ind__prn"/></e>
 
-	<e lm="ikoliki"><i>i</i><par n="ne/koliki__ind__prn"/></e>
+	<e><i>ne</i><par n="ne/čiji__ind__prn"/></e>
+	<e><i>i</i><par n="ne/čiji__ind__prn"/></e>
+	<e><i>pone</i><par n="ne/čiji__ind__prn"/></e>
+
+	<e><i>i</i><par n="ne/koliki__ind__prn"/></e>
 
 </pardef>
 <pardef n="negative__pronouns__prn">
-	<e lm="nitko"><i>ni</i><par n="ni/tko__neg__prn"/></e>
-	<e lm="ništa"><i>ni</i><par n="ni/šta__neg__prn"/></e>
-	<e lm="nikoji"><i>ni</i><par n="ni/koji__neg__prn"/></e>
-	<e lm="nikakav"><i>ni</i><par n="ni/kakav__neg__prn"/></e>
-	<e lm="ničiji"><i>ni</i><par n="ni/čiji__neg__prn"/></e>
-	<e lm="nikoliki"><i>ni</i><par n="ni/koliki__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/tko__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/šta__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/koji__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/kakav__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/čiji__neg__prn"/></e>
+	<e><i>ni</i><par n="ni/koliki__neg__prn"/></e>
 </pardef>
 <pardef n="totalising__pronouns__prn">
-	<e lm="svatko"><i>sva</i><par n="sva/tko__tot__prn"/></e>
-	<e lm="svašta"><i>sva</i><par n="sva/šta__tot__prn"/></e>
-	<e lm="svakoji"><i>sva</i><par n="sva/koji__tot__prn"/></e>
-	<e lm="svaki"><i>sva</i><par n="sva/ki__tot__prn"/></e>
-	<e lm="svakakav"><i>sva</i><par n="sva/kakav__tot__prn"/></e>
-	<e lm="svačiji"><i>sva</i><par n="sva/čiji__tot__prn"/></e>
-	<e lm="svakoliki"><i>sva</i><par n="sva/koliki__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/tko__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/šta__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/koji__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/ki__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/kakav__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/čiji__tot__prn"/></e>
+	<e><i>sva</i><par n="sva/koliki__tot__prn"/></e>
+
 </pardef>
 <pardef n="demonstrative__pronouns__prn">
-	<e lm="ovaj"><i/><par n="ovaj__dem__prn"/></e>
-	<e lm="ovakav"><i/><par n="ovakav__dem__prn"/></e>
-	<e lm="ovolik"><i/><par n="ovolik__dem__prn"/></e>
+	<e><i/><par n="ovaj__dem__prn"/></e>
+	<e><i/><par n="ovakav__dem__prn"/></e>
+	<e><i/><par n="ovolik__dem__prn"/></e>
 
-	<e lm="taj"><i/><par n="taj__dem__prn"/></e>
-	<e lm="takav"><i/><par n="takav__dem__prn"/></e>
-	<e lm="tolik"><i/><par n="tolik__dem__prn"/></e>
+	<e><i/><par n="taj__dem__prn"/></e>
+	<e><i/><par n="takav__dem__prn"/></e>
+	<e><i/><par n="tolik__dem__prn"/></e>
 
-	<e lm="onaj"><i/><par n="onaj__dem__prn"/></e>
-	<e lm="onakav"><i/><par n="onakav__dem__prn"/></e>
-	<e lm="onolik"><i/><par n="onolik__dem__prn"/></e>
+	<e><i/><par n="onaj__dem__prn"/></e>
+	<e><i/><par n="onakav__dem__prn"/></e>
+	<e><i/><par n="onolik__dem__prn"/></e>
 </pardef>
 <!--end Pronoun collective entries-->
+<!--Adverbs-->
+<pardef n="danas__adv">
+<e><p><l/><r><s n="adv"/></r></p></e>
+</pardef>
+<!--end Adverbs-->
 <!--end Closed speech categories-->
 <!--Verb paradigms-->
 
@@ -4814,7 +4822,7 @@ after prepositions-->
 
    <!--big TODO: check the serbian imperfect exactly, it should contain an additional ekavian variant --> 
    <!--Imperfect--><!--Used in compound sometimes instead of regular perfect to make plusquamperfect (very archaic) -->
-   <!-- TODO: pay attention to the tags, since <pii> is used with perfect and imperfect -->
+   <!-- Note: pay attention to the tags, since <pii> is used with perfect and imperfect -->
           <e><p><l>bijah</l><r>biti<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>bjeh</l><r>biti<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
          <e><p><l>bijaše</l><r>biti<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -4835,7 +4843,7 @@ after prepositions-->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
     <e><p><l>budući</l><r>biti<s n="vbser"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
-     <!--TODO: check if this is true for the verb--> <e><p><l>bivši</l><r>biti<s n="vbser"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>    
+    <e><p><l>bivši</l><r>biti<s n="vbser"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>    
 </pardef>
 
 <!--Regular verb paradigms-->
@@ -5904,8 +5912,7 @@ after prepositions-->
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<!-- TODO: bol can be masculine inanimate, or feminine, this is the masculine variant, will be updated with the feminine information later-->
-<pardef n="bol__n"    >
+<pardef n="bol__n">
     <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
@@ -6598,7 +6605,7 @@ after prepositions-->
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<!-- The -o declension for masculine--><!--TODO: add more paradigms when needed -->
+<!-- The -o declension for masculine-->
 <pardef n="zek/o__n"   >
     <e><p><l>o</l><r>o<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>e</l><r>o<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -7864,7 +7871,7 @@ after prepositions-->
     <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
 </pardef>
 
-<!--TODO: in translation maybe it'd be more practical to label the following three lemmas differently-->
+<!--Note: in translation maybe it'd be more practical to label the following three lemmas differently-->
 <pardef n="drv/o__wood__n"   >
     <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -8095,7 +8102,6 @@ after prepositions-->
     <e r="LR"><i>ždr</i><par n="e_e__yat"/><p><l>bađu</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
     <e r="LR"><i>ždr</i><par n="e_je__yat"/><p><l>bađu</l><r>be<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<!--Todo: also add ždrijebe/ždrebeta, vrijeme/vremena-->
 <!--Nouns with the infix -n -->
 <pardef n="rame__n">
    <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -8358,7 +8364,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
 <e lm="da li"><i>da<b/>li</i><par n="subordinating__cnj"/></e>
 <e lm="kako"><i>kako</i><par n="subordinating__cnj"/></e>
-<e lm="gdje"><i>gdje</i><par n="subordinating__cnj"/></e>
+<e lm="gdje"><i>gd</i><par n="e_je__yat"/><par n="subordinating__cnj"/></e>
 <e lm="e"><i>e</i><par n="subordinating__cnj"/></e>
 <e lm="čim"><i>čim</i><par n="subordinating__cnj"/></e>
 <e lm="kada"><i>kada</i><par n="subordinating__cnj"/></e>
@@ -8449,7 +8455,21 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="indefinite"><i/><par n="indefinite__pronouns__prn"/></e>
 <e lm="negative"><i/><par n="negative__pronouns__prn"/></e>    
 <e lm="totalising"><i/><par n="totalising__pronouns__prn"/></e>  
-<e lm="demonstrative"><i/><par n="demonstrative__pronouns__prn"/></e>  
+<e lm="demonstrative"><i/><par n="demonstrative__pronouns__prn"/></e>
+
+
+<!--Todo: add the compounds "radi čega", "zbog čega"... in the mk monodix there are some translations for them, though not all-->
+<!--Adverbs (the closed subset) -->
+<!--TODO: add the adverbs that look like demonstrative, total and other prns (i've done some entries, but undone them, since they weren't correct). See how they're analyised in the mk monodix-->
+<e lm="danas"><i>danas</i><par n="danas__adv"/></e>
+<e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>
+<e lm="ljetos"><i>l</i><par n="e_je__yat"/><i>tos</i><par n="danas__adv"/></e>
+<e lm="zimus"><i>zimus</i><par n="danas__adv"/></e>
+<e lm="jesenas"><i>jesenas</i><par n="danas__adv"/></e>                                                                
+<e lm="proljetos"><i>prol</i><par n="e_je__yat"/><i>tos</i><par n="danas__adv"/></e>                                
+<e lm="podnevos"><i>podnevos</i><par n="danas__adv"/></e>        
+<e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>        
+<!--end Adverbs (the closed subset)-->
 <!--end Closed speech categories-->
 
 <!--Open speech categories-->
@@ -8592,7 +8612,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="groteska"><i>grotes</i><par n="das/ka__n"/></e>
 <e lm="puš"><i>puš</i><par n="das/ka__n"/></e>
 <e lm="zagonetka"><i>zagonet</i><par n="das/ka__n"/></e>
-<e lm="pripovijetka"><i>pripov</i><par n="e_ije__yat"/><i>tka</i><par n="pripovije/tka__n"/></e><!--Yat, TODO: but check if at all it exists in serbian.-->
+<e lm="pripovijetka"><i>pripov</i><par n="e_ije__yat"/><i>tka</i><par n="pripovije/tka__n"/></e><!--Yat-->
 <e lm="krletka"><i>krlet</i><par n="das/ka__n"/></e>
 <e lm="polutka"><i>polut</i><par n="das/ka__n"/></e>
 <e lm="tvrtka"><i>tvrt</i><par n="das/ka__n"/></e>
@@ -8680,7 +8700,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="patka"><i>pat</i><par n="pat/ka__n"/></e>
 <e lm="daska"><i>das</i><par n="pat/ka__n"/></e>
 <e lm="četka"><i>čet</i><par n="das/ka__n"/></e>
-<e lm="klijetka"><i>klijet</i><par n="das/ka__n"/></e><!--Yat, TODO: Check if exists in Serbian-->
+<e lm="klijetka"><i>klijet</i><par n="das/ka__n"/></e><!--Yat, but doesn't exist in serbian. TODO: group under HR specific entries-->
 <e lm="mačka"><i>mač</i><par n="pat/ka__n"/></e>
 <e lm="voćka"><i>voć</i><par n="das/ka__n"/></e>
 <e lm="kocka"><i>koc</i><par n="das/ka__n"/></e>

@@ -178,6 +178,14 @@
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
      <!--Possesive-->
+     <e><p><l>moj<s n="prn"/></l><r>мој<s n="prn"/></r></p></e>
+     <e><p><l>tvoj<s n="prn"/></l><r>твој<s n="prn"/></r></p></e>
+     <e r="LR"><p><l>njezin<s n="prn"/></l><r>нејзин<s n="prn"/></r></p></e>
+     <e><p><l>njen<s n="prn"/></l><r>нејзин<s n="prn"/></r></p></e>
+     <e><p><l>njegov<s n="prn"/></l><r>негов<s n="prn"/></r></p></e>
+     <e><p><l>naš<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>vaš<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>njihov<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
 
      <!--Interrogative-->
      <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
@@ -186,14 +194,24 @@
      <e><p><l>kakav<s n="prn"/></l><r>каков<s n="prn"/></r></p></e>
      <e><p><l>čiji<s n="prn"/></l><r>чиј<s n="prn"/></r></p></e><!--The corresponding form in macedonian is analysed as genitive of koj? So a transfer rule neccessary? this is an incorrect entry like this-->
      <e><p><l>koliki<s n="prn"/></l><r>колкав<s n="prn"/></r></p></e>
+     <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
+     <e><p><l>zašto<s n="prn"/></l><r>зошто<s n="prn"/></r></p></e>
+     <e><p><l>koliko<s n="prn"/></l><r>колку<s n="prn"/></r></p></e><!--TODO: This is ambiguous how much == koliko, how large (nt) == koliko-->
+     <e><p><l>kada<s n="prn"/></l><r>кога<s n="prn"/></r></p></e>
+     <e><p><l>kako<s n="prn"/></l><r>како<s n="prn"/></r></p></e><!--TODO: chech if/when this means 'how' or 'like' -->
+     <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
      <!--Relative-->
      <!--Covered already by the interrogative, though there are more to cover-->
+     <!--TODO: check which words are missing for this paradigm, and add them-->
      <!--<e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>колкав<s n="prn"/><s n="rel"/></r></p></e>--><!--Note: no corresponding form in the mk monodix-->
+
      <!--Indefinite-->
      <e><p><l>netko<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
      <e><p><l>nekakav<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
      <!--not yet implemented <e><p><l>nekoliko<s n="prn"/><s n="rel"/></l><r>неколку<s n="prn"/><s n="rel"/></r></p></e>-->
-     <!--this is a noun <e><p><l>nekolicina<s n="prn"/><s n="rel"/></l><r>неколицина<s n="prn"/><s n="rel"/></r></p></e>--><!--Note: The pronouns on the sh side are done in more detail-->
+     <!--this is a noun <e><p><l>nekolicina<s n="prn"/><s n="rel"/></l><r>неколицина<s n="prn"/><s n="rel"/></r></p></e>-->
+     <!--Note: The pronouns on the sh side are done in more detail I think-->
+
      <!--Negative-->
      <e><p><l>nitko<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
      <e><p><l>nikoji<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
@@ -240,7 +258,7 @@
      <e><p><l>grad<s n="n"/><s n="mi"/></l><r>град<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>kontinent<s n="n"/><s n="mi"/></l><r>континент<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>veteran<s n="n"/><s n="ma"/></l><r>ветеран<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>veće<s n="n"/><s n="nt"/></l><r>собрание<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>veče<s n="n"/><s n="nt"/></l><r>собрание<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>lider<s n="n"/><s n="ma"/></l><r>водач<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>požar<s n="n"/><s n="mi"/></l><r>пожар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>grupa<s n="n"/><s n="f"/></l><r>група<s n="n"/><s n="f"/></r></p></e>
@@ -1091,7 +1109,7 @@
      <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
      <e><p><l>gde<s n="adv"/></l><r>каде<s n="adv"/></r></p></e>
      <e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
-     <e><p><l>koga<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
+     <!--<e><p><l>koga<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>--><!--This is wrong-->
      <e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
      <e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e>
      <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>
