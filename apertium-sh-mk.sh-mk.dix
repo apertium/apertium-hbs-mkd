@@ -1107,14 +1107,17 @@
      <!-- SECTION: Adverbs -->
 
      <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
-     <e><p><l>gde<s n="adv"/></l><r>каде<s n="adv"/></r></p></e>
+     <e><p><l>gdje<s n="adv"/></l><r>каде<s n="adv"/></r></p></e>
      <e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
-     <!--<e><p><l>koga<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>--><!--This is wrong-->
+     <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
+     <e r="LR"><p><l>kad<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>-->
      <e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
-     <e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e>
-     <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>
+     <!--<e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e><!--Note: these will be redone, since they are made of nt adjectives, and have a comparative and superlative-->
+     <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>-->
      <e><p><l>još uvijek<s n="adv"/></l><r>се уште<s n="adv"/></r></p></e>
-     <e><p><l>do sada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+     <e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+     <e r="LR"><p><l>dosada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+     <e r="LR"><p><l>do<b/>sad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
 
 
      <!-- SECTION: Verbs -->

@@ -4527,7 +4527,7 @@ after prepositions-->
 <!--end Pronoun collective entries-->
 <!--Adverbs-->
 <pardef n="danas__adv">
-<e><p><l/><r><s n="adv"/></r></p></e>
+	<e><p><l/><r><s n="adv"/></r></p></e>
 </pardef>
 <!--end Adverbs-->
 <!--end Closed speech categories-->
@@ -8460,15 +8460,99 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 
 <!--Todo: add the compounds "radi čega", "zbog čega"... in the mk monodix there are some translations for them, though not all-->
 <!--Adverbs (the closed subset) -->
-<!--TODO: add the adverbs that look like demonstrative, total and other prns (i've done some entries, but undone them, since they weren't correct). See how they're analyised in the mk monodix-->
+<e lm="kamo"><i>kamo</i><par n="danas__adv"/></e>
+<e lm="nekamo"><i>nekamo</i><par n="danas__adv"/></e>
+<e lm="nikamo"><i>nikamo</i><par n="danas__adv"/></e>
+<e lm="ikamo"><i>ikamo</i><par n="danas__adv"/></e>
+<e lm="svakamo"><i>svakamo</i><par n="danas__adv"/></e>
+<e lm="ovamo"><i>ovamo</i><par n="danas__adv"/></e>
+<e lm="tamo"><i>tamo</i><par n="danas__adv"/></e>
+<e lm="onamo"><i>onamo</i><par n="danas__adv"/></e>
+
+<e lm="kud"><i>kud</i><par n="danas__adv"/></e>
+<e lm="kuda"><i>kuda</i><par n="danas__adv"/></e>
+<e lm="otkud"><i>otkud</i><par n="danas__adv"/></e>
+<e lm="otkuda"><i>otkuda</i><par n="danas__adv"/></e>
+<e lm="dokud"><i>dokud</i><par n="danas__adv"/></e>
+<e lm="dokuda"><i>dokuda</i><par n="danas__adv"/></e>
+<e lm="odakle"><i>odakle</i><par n="danas__adv"/></e>
+<e lm="dokle"><i>dokle</i><par n="danas__adv"/></e>
+<e lm="nekud"><i>nekud</i><par n="danas__adv"/></e>
+<e lm="nekuda"><i>nekuda</i><par n="danas__adv"/></e>
+<e lm="nikud"><i>nikud</i><par n="danas__adv"/></e>
+<e lm="nikuda"><i>nikuda</i><par n="danas__adv"/></e>
+<e lm="svakud"><i>svakud</i><par n="danas__adv"/></e><!--Note: svakuda does not exist, not a typo-->
+<e lm="ikud"><i>ikud</i><par n="danas__adv"/></e>
+<e lm="ikuda"><i>ikuda</i><par n="danas__adv"/></e>
+<e lm="ovud"><i>ovud</i><par n="danas__adv"/></e>
+<e lm="ovuda"><i>ovuda</i><par n="danas__adv"/></e>
+<e lm="tud"><i>tud</i><par n="danas__adv"/></e>
+<e lm="tuda"><i>tuda</i><par n="danas__adv"/></e>
+<e lm="onud"><i>onud</i><par n="danas__adv"/></e>
+<e lm="onuda"><i>onuda</i><par n="danas__adv"/></e>
+
+<e lm="gdje"><i>gdje</i><par n="danas__adv"/></e>
+<e lm="negdje"><i>negdje</i><par n="danas__adv"/></e>
+<e lm="nigdje"><i>nigdje</i><par n="danas__adv"/></e>
+<e lm="igdje"><i>igdje</i><par n="danas__adv"/></e>
+<e lm="svagdje"><i>svagdje</i><par n="danas__adv"/></e>
+<e lm="ovdje"><i>ovdje</i><par n="danas__adv"/></e>
+<e lm="tu"><i>tu</i><par n="danas__adv"/></e>
+<e lm="ondje"><i>ondje</i><par n="danas__adv"/></e>
+
+<e lm="kako"><i>kako</i><par n="danas__adv"/></e>
+<e lm="otkako"><i>otkako</i><par n="danas__adv"/></e>
+<e lm="nekako"><i>nekako</i><par n="danas__adv"/></e>
+<e lm="nikako"><i>nikako</i><par n="danas__adv"/></e>
+<e lm="ikako"><i>ikako</i><par n="danas__adv"/></e>
+<e lm="svakako"><i>svakako</i><par n="danas__adv"/></e>
+
+<!--Note: perhaps there are more nuances to these words, if some variant pops out, I'll add it-->
+<e lm="kad"><i>kad</i><par n="danas__adv"/></e>
+<e lm="kada"><i>kada</i><par n="danas__adv"/></e>
+<e lm="otkad"><i>otkad</i><par n="danas__adv"/></e>
+<e lm="otkada"><i>otkada</i><par n="danas__adv"/></e>
+<e lm="nekad"><i>nekad</i><par n="danas__adv"/></e>
+<e lm="nekada"><i>nekada</i><par n="danas__adv"/></e>
+<e lm="ponekad"><i>ponekad</i><par n="danas__adv"/></e>
+<e lm="katkad"><i>katkad</i><par n="danas__adv"/></e>
+<e lm="nikad"><i>nikad</i><par n="danas__adv"/></e>
+<e lm="nikada"><i>nikada</i><par n="danas__adv"/></e>
+<e lm="svakad"><i>svakad</i><par n="danas__adv"/></e><!--Note: svakada does not exist, not a typo-->
+<e lm="svagda"><i>svagda</i><par n="danas__adv"/></e>
+<e lm="ikad"><i>ikad</i><par n="danas__adv"/></e>
+<e lm="ikada"><i>ikada</i><par n="danas__adv"/></e>
+<e lm="sad"><i>sad</i><par n="danas__adv"/></e>
+<e lm="sada"><i>sada</i><par n="danas__adv"/></e>
+<e lm="tad"><i>tad</i><par n="danas__adv"/></e>
+<e lm="tada"><i>tada</i><par n="danas__adv"/></e>
+<e lm="dosad"><i>dosad</i><par n="danas__adv"/></e>
+<e lm="dosada"><i>dosada</i><par n="danas__adv"/></e>
+<e lm="dotad"><i>dotad</i><par n="danas__adv"/></e>
+<e lm="dotada"><i>dotada</i><par n="danas__adv"/></e>
+<e lm="sad"><i>sad</i><par n="danas__adv"/></e>
+<e lm="sada"><i>sada</i><par n="danas__adv"/></e>
+<e lm="otad"><i>otad</i><par n="danas__adv"/></e>
+<e lm="otada"><i>otada</i><par n="danas__adv"/></e>
+<e lm="onda"><i>onda</i><par n="danas__adv"/></e>
+<e lm="odonda"><i>onda</i><par n="danas__adv"/></e>
+<e lm="onomad"><i>onomad</i><par n="danas__adv"/></e>
+
+<e lm="prekjučer"><i>prekjučer</i><par n="danas__adv"/></e><!--Todo: group under prekjuče/prekjučer (prikjuče?)-->
+<e lm="jučer"><i>jučer</i><par n="danas__adv"/></e><!--Todo: group under juče/jučer-->
 <e lm="danas"><i>danas</i><par n="danas__adv"/></e>
+<e lm="sutra"><i>sutra</i><par n="danas__adv"/></e>
+<e lm="prekosutra"><i>prekosutra</i><par n="danas__adv"/></e>
+<e lm="preksutra"><i>preksutra</i><par n="danas__adv"/></e>
 <e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>
 <e lm="ljetos"><i>l</i><par n="e_je__yat"/><i>tos</i><par n="danas__adv"/></e>
 <e lm="zimus"><i>zimus</i><par n="danas__adv"/></e>
 <e lm="jesenas"><i>jesenas</i><par n="danas__adv"/></e>                                                                
 <e lm="proljetos"><i>prol</i><par n="e_je__yat"/><i>tos</i><par n="danas__adv"/></e>                                
 <e lm="podnevos"><i>podnevos</i><par n="danas__adv"/></e>        
-<e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>        
+<e lm="večeras"><i>večeras</i><par n="danas__adv"/></e>
+
+<e lm="još"><i>još</i><par n="danas__adv"/></e>                
 <!--end Adverbs (the closed subset)-->
 <!--end Closed speech categories-->
 
