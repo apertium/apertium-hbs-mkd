@@ -8253,85 +8253,564 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <pardef n="cometa">
       <e>        <p><l>'</l><r>'<s n="apos"/></r></p></e>
     </pardef>
-
     <pardef n="numeros"><!--TODO: this is just an incomplete sketch, other cases need to be added, possibly just an adjectival paradigm appended at the end-->
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l/>          <r><s n="num"/></r></p></e>
-      <e><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9]</re><p><l>/</l><r>\/</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l/><r><s n="num"/></r></p></e>
+      <e><re>[0-9][0-9].</re><p><l>-/</l><r>\/</r></p><re>[0-9][0-9].</re><p><l>-/</l><r>\/</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l/><r><s n="num"/></r></p></e>
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l><b/>г.</l> <r><b/>г.<s n="num"/></r></p></e>
       <e>        <re>[0-9]+</re>        <p>          <l><b/>godina</l> <r><b/>godina<s n="num"/></r></p></e>
 
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-mo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8]</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--me</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--me</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mu</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mog</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tu</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-toj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-toj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,4,5,6,9].</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,4,5,6,9].</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćeg</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćega</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćeg</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćega</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćeg</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćega</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*3.</re><p><l>-ća</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ću</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ća</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćej</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćej</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ći</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćeg</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćega</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-će</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćem</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćemu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ća</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ća</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ća</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*3.</re><p><l>-ćim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*3.</re><p><l>-ćima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
 
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,3,4,5,6,9]</re><p><l>ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 
-	<e><re>[0-9]*11</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*11</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*11</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*11</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 
-	<e><re>[0-9]*12</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*12</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*12</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*12</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]*.</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tu</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-toj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-toj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ti</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-te</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tog</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-toga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*(11|12|13|17|18).</re><p><l>-tim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*(11|12|13|17|18).</re><p><l>-tima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-goga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-goga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ge</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-goga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ge</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ga</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ge</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gu</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ga</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-goj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-goj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gi</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ge</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ge</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-go</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gog</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-goga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-go</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-go</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-ga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*2.</re><p><l>-gim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*2.</re><p><l>-gima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-voga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-voga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-ve</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-voga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-ve</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-va</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-ve</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vu</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-va</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-voj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-voj</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vi</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vih</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-ve</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-ve</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vog</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-voga</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vo</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vom</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vomu</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vome</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-va</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vih</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-va</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-va</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*1.</re><p><l>-vim</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*1.</re><p><l>-vima</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
 
-	<e><re>[0-9]*17</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*17</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*17</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*17</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]+.</re><p><l></l><r><s n="num"/><s n="ord"/></r></p></e>
 
-	<e><re>[0-9]*18</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*18</re><p><l>-ta</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*18</re><p><l>-to</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*18</re><p><l>ti</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<!--Todo: finish this, these are basically all definite adjectives-->
+	<e><re>[0-9]+.</re><i>-godišnji</i><par n="zdrav__pos__adj"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>годиш</l><r>-годиш</r></p><par n="zdrav__pos__adj"/></e>
 
-	<e><re>[0-9]*00</re><p><l>-ен</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*00</re><p><l>-на</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*00</re><p><l>-но</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*00</re><p><l>-ни</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]+.</re><p><l>-процент</l><r>-процент</r></p><par n="zdrav__pos__adj"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>процент</l><r>-процент</r></p><par n="zdrav__pos__adj"/></e>
 
-	<e><re>[0-9]*[0,2-9]*2</re><p><l>-ри</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*2</re><p><l>-ра</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*2</re><p><l>-ро</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*2</re><p><l>-ри</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]+.</re><p><l>-днев</l><r>-днев</r></p><par n="zdrav__pos__adj"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>днев</l><r>-днев</r></p><par n="zdrav__pos__adj"/></e>
 
-	<e><re>[0-9]*[0,2-9]*1</re><p><l>-ви</l><r><s n="num"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*1</re><p><l>-ва</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*1</re><p><l>-во</l><r><s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*1</re><p><l>-ви</l><r><s n="num"/><s n="ord"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+	<e><re>[0-9]+.</re><p><l>-минут</l><r>-минут</r></p><par n="zdrav__pos__adj"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>минут</l><r>-минут</r></p><par n="zdrav__pos__adj"/></e>
 
-	<e><re>[0-9]+</re><p><l>-годиш</l><r>-годиш</r></p><par n="zdrav__pos__adj"/></e>
-	<e r="LR"><re>[0-9]+</re><p><l><b/>годиш</l><r>-годиш</r></p><par n="zdrav__pos__adj"/></e>
-
-	<e><re>[0-9]+</re><p><l>-процент</l><r>-процент</r></p><par n="zdrav__pos__adj"/></e>
-	<e r="LR"><re>[0-9]+</re><p><l><b/>процент</l><r>-процент</r></p><par n="zdrav__pos__adj"/></e>
-
-	<e><re>[0-9]+</re><p><l>-днев</l><r>-днев</r></p><par n="zdrav__pos__adj"/></e>
-	<e r="LR"><re>[0-9]+</re><p><l><b/>днев</l><r>-днев</r></p><par n="zdrav__pos__adj"/></e>
-
-	<e><re>[0-9]+</re><p><l>-минут</l><r>-минут</r></p><par n="zdrav__pos__adj"/></e>
-	<e r="LR"><re>[0-9]+</re><p><l><b/>минут</l><r>-минут</r></p><par n="zdrav__pos__adj"/></e>
-
-	<e><re>[0-9]+</re><p><l>-секунд</l><r>-секунд</r></p><par n="zdrav__pos__adj"/></e>
-	<e r="LR"><re>[0-9]+</re><p><l><b/>секунд</l><r>-секунд</r></p><par n="zdrav__pos__adj"/></e>
+	<e><re>[0-9]+.</re><p><l>-секунд</l><r>-секунд</r></p><par n="zdrav__pos__adj"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>секунд</l><r>-секунд</r></p><par n="zdrav__pos__adj"/></e>
 
 
     </pardef>
+
 </pardefs>
 
 <section id="main" type="standard">
 <!--Closed speech categories-->
+<!--Numbers-->
+<e lm="brojevi"><i/><par n="numeros"/></e>
+<!--end Numbers-->
 <!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
 <e lm="da"><p><l>da</l><r>affirmative<s n="part"/><s n="aff"/></r></p></e>
 <!--<e lm="da"><l>da</l><r>The subjunctive marker particle, can also mark a question, can mark a demand (sometimes optative)<s n="part"/></r></p></e>-->
