@@ -567,7 +567,7 @@
      <e><p><l>zdrav<s n="adj"/></l><r>здрав<s n="adj"/></r></p></e>
      <e><p><l>rumen<s n="adj"/></l><r>румен<s n="adj"/></r></p></e>
      <e><p><l>leteći<s n="adj"/></l><r>летачки<s n="adj"/></r></p></e>
-     <e><p><l>novi<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
+     <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
      <e><p><l>dobar<s n="adj"/></l><r>добар<s n="adj"/></r></p></e>
      <e><p><l>visok<s n="adj"/></l><r>висок<s n="adj"/></r></p></e>
      <e><p><l>lep<s n="adj"/></l><r>убав<s n="adj"/></r></p></e>
@@ -622,7 +622,7 @@
      <e><p><l>bankarski<s n="adj"/></l><r>банкарски<s n="adj"/></r></p></e> 
      <e><p><l>bavarski<s n="adj"/></l><r>баварски<s n="adj"/></r></p></e> 
      <e><p><l>beloruski<s n="adj"/></l><r>белоруски<s n="adj"/></r></p></e> 
-     <e><p><l>beo<s n="adj"/></l><r>бел<s n="adj"/></r></p></e> <!--Bijel ijekavian beo ekavian! -->
+     <e><p><l>beo<s n="adj"/></l><r>бел<s n="adj"/></r></p></e> <!--Note: Bijel ijekavian beo ekavian! -->
      <e><p><l>berlinski<s n="adj"/></l><r>берлински<s n="adj"/></r></p></e> 
      <e><p><l>berzanski<s n="adj"/></l><r>берзански<s n="adj"/></r></p></e> 
      <e><p><l>bescarinski<s n="adj"/></l><r>бесцарински<s n="adj"/></r></p></e> 
@@ -1087,7 +1087,7 @@
      <e><p><l>češki<s n="adj"/></l><r>чешки<s n="adj"/></r></p></e> 
      <e><p><l>čileanski<s n="adj"/></l><r>чилеански<s n="adj"/></r></p></e> 
      <e><p><l>čist<s n="adj"/></l><r>чист<s n="adj"/></r></p></e> 
-     <e><p><l>čovekov<s n="adj"/></l><r>човеков<s n="adj"/></r></p></e> 
+     <e><p><l>čovjekov<s n="adj"/></l><r>човеков<s n="adj"/></r></p></e> 
      <e><p><l>šahovski<s n="adj"/></l><r>шаховски<s n="adj"/></r></p></e> 
      <e><p><l>šampionski<s n="adj"/></l><r>шампионски<s n="adj"/></r></p></e> 
      <e><p><l>šengenski<s n="adj"/></l><r>шенгенски<s n="adj"/></r></p></e> 
@@ -1097,9 +1097,10 @@
      <e><p><l>škotski<s n="adj"/></l><r>шкотски<s n="adj"/></r></p></e> 
      <e><p><l>šumarski<s n="adj"/></l><r>шумарски<s n="adj"/></r></p></e> 
      <e><p><l>šumski<s n="adj"/></l><r>шумски<s n="adj"/></r></p></e> 
-     <e><p><l>švajcarski<s n="adj"/></l><r>швајцарски<s n="adj"/></r></p></e> 
+     <e><p><l>švajcarski<s n="adj"/></l><r>швајцарски<s n="adj"/></r></p></e>
+     <e><p><l>švicarski<s n="adj"/></l><r>швајцарски<s n="adj"/></r></p></e>  
      <e><p><l>švedski<s n="adj"/></l><r>шведски<s n="adj"/></r></p></e> 
-     <e><p><l>železnički<s n="adj"/></l><r>железнички<s n="adj"/></r></p></e> 
+     <e><p><l>željeznički<s n="adj"/></l><r>железнички<s n="adj"/></r></p></e> 
      <e><p><l>ženevski<s n="adj"/></l><r>женевски<s n="adj"/></r></p></e> 
      <e><p><l>žestok<s n="adj"/></l><r>жесток<s n="adj"/></r></p></e> 
      <e><p><l>živ<s n="adj"/></l><r>жив<s n="adj"/></r></p></e> 
@@ -1110,10 +1111,11 @@
      <e><p><l>gdje<s n="adv"/></l><r>каде<s n="adv"/></r></p></e>
      <e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
      <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
-     <e r="LR"><p><l>kad<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>-->
+     <e r="LR"><p><l>kad<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
-     <!--<e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e><!--Note: these will be redone, since they are made of nt adjectives, and have a comparative and superlative-->
-     <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>-->
+     <!-- <e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e> -->
+     <!-- TODO: see what to do with comparative and superlative of adjectives, since apparently they're not yet added in the mk monodix -->
+     <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>
      <e><p><l>još uvijek<s n="adv"/></l><r>се уште<s n="adv"/></r></p></e>
      <e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
      <e r="LR"><p><l>dosada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
@@ -1124,7 +1126,6 @@
       <!-- the clitic verb to be, and the longer version, they perhaps should be arranged differently-->
     <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
-    <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> <!--Note: Is this neccessary? The clt form is in any case translated as e<vbser>. When it'll be going the other way around we'll have to decide if it's clitic or not, depending on the sentence-->
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
@@ -1180,7 +1181,7 @@
      <e><p><l>pobjeđivati<s n="vblex"/></l><r>победува<s n="vblex"/></r></p></e>
      <e><p><l>tražiti<s n="vblex"/></l><r>бара<s n="vblex"/></r></p></e>
      <e><p><l>ljubiti<s n="vblex"/></l><r>љуби<s n="vblex"/></r></p></e>
-     <!--<e><p><l>vikati<s n="vblex"/></l><r>вика<s n="vblex"/></r></p></e> Todo: check translation-->
+     <!-- <e><p><l>vikati<s n="vblex"/></l><r>вика<s n="vblex"/></r></p></e> Todo: check translation -->
      <e><p><l>povikati<s n="vblex"/></l><r>повика<s n="vblex"/></r></p></e>
 
      <e><p><l>odnijeti<s n="vblex"/></l><r>однесе<s n="vblex"/></r></p></e>
