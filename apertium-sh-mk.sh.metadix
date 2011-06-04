@@ -68,8 +68,8 @@
 
 <sdef n="cni" c="Imperfect"/><!--Note: Regarding conditional, it's compound, and there're two types of it -->
 
-<sdef n="ftiI" c="Future I"/> <!-- compound -->
-<sdef n="ftiII" c="Future II"/><!-- compound -->
+<sdef n="futI" c="Future I"/> <!-- compound -->
+<sdef n="futII" c="Future II"/><!-- compound -->
 
 <sdef n="aff" c="Affirmative"/>
 <sdef n="itg" c="Interrogative"/>
@@ -4676,28 +4676,28 @@ after prepositions-->
 <!-- In Serbian and Bosnian it works like a suffix -->
 <!-- In Croatian the same future formation works like a multiword -->
 <!-- This is just a template, which will be reused in the next paradigm -->
-   <e r="RL"><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
-   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
- <e r="RL"><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
- <e r="RL"><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
-   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e r="RL"><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="RL"><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
 
 <group alt="sh">
-   <e><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
-   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
- <e><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
- <e><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
-   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+   <e><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
 </group>
 <group alt="sh-ek">
-   <e><p><l>ću</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e><p><l>ćeš</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="sg"/></r></p></e>
-   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="sg"/></r></p></e>
- <e><p><l>ćemo</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p1"/><s n="pl"/></r></p></e>
- <e><p><l>ćete</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p2"/><s n="pl"/></r></p></e>
-   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="ftiI"/><s n="p3"/><s n="pl"/></r></p></e>
+   <e><p><l>ću</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>ćeš</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>ćemo</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e><p><l>ćete</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e><p><l>će</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
 </group>
 </pardef>
 
@@ -4830,12 +4830,12 @@ after prepositions-->
      <e><p><l>jesu</l><r>biti<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <!-- The stressed perfective present form, used for compound future II (sidenote: The unstressed form exists in kajkavian) -->    
-     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="ftiII"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <!-- The normal analysis, when this is just the perfective form of 'to be' -->    
      <e><p><l>budem</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -12607,6 +12607,46 @@ after prepositions-->
          <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
 <!--end 'prezimen/ski'-->
+<!--Common noun paradigm 'Bulgako/v'-->
+<pardef n="Bulgako/v__cog__np">
+<!--Masculine-->
+<!--Singular-->
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>va</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+        <e><p><l>vu</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>vu</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>va</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>ve</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>vom</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l>vi</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>va</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>vima</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>vima</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>vima</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>ve</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>vi</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+
+<!-- Feminine-->
+<!--Singular-->
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<!--end 'Bulgako/v'-->
+
 <!--end surnames-->
 <!--end Antroponyms-->
 <!--end Proper nouns-->
@@ -19520,6 +19560,25 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Ščekić"><i>Šček</i><par n="prezimen/ić__cog__np"/></e>
 <e lm="Ščepanović"><i>Ščepanov</i><par n="prezimen/ić__cog__np"/></e>
 <!--end Cognames ending in -ić-->
+<!--Surnames ending in -ov/-ev-->
+	<e lm="Samokov"><i>Samoko</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Svištov"><i>Svišto</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Popov"><i>Popo</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Borisov"><i>Boriso</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Kostov"><i>Kosto</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Lavrov"><i>Lavro</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Parvanov"><i>Parvano</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Dimitrov"><i>Dimitro</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Ivanov"><i>Ivano</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Petkov"><i>Petko</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Petrov"><i>Petro</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Goce Delčev"><i>Goce<b/>Delče</i><par n="Bulgako/v__cog__np"/></e><!--TODO: Multiword-->
+	<e lm="Velčev"><i>Velče</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Stanišev"><i>Staniše</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Botev"><i>Bote</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Georgiev"><i>Georgie</i><par n="Bulgako/v__cog__np"/></e>
+	<e lm="Žečev"><i>Žeče</i><par n="Bulgako/v__cog__np"/></e>
+<!--end Surnames ending in -ov/-ev-->
 <!--Cognames ending in -ski-->
 <e lm="Boškovski"><i>Boškov</i><par n="prezimen/ski__cog__np"/></e>
 	<e lm="Gruevski"><i>Gruev</i><par n="prezimen/ski__cog__np"/></e>
