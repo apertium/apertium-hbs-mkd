@@ -3166,29 +3166,223 @@
 
      <!-- SECTION: Adverbs -->
      <!-- TODO: see what to do with comparative and superlative of adverbs, since they're not yet added in the mk monodix -->
+     <!--Adverbs that are incomparable-->
+<!--Note and a TODO: There are some discrepancies in the analysis already in the mk monodix and the analysis in the sh monodix, if something's a pronoun, adverb etc. they should be resolved, or alternatively, if the words are the same or analogous (which is often the case), just discard the analysis and transfer words-->
+	<e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
+	<e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e> <!--Note: this can be an adverb or a preposition. It makes little difference in this language pair-->
+	<e><p><l>dolje<s n="adv"/></l><r>долу<s n="adv"/></r></p></e> <!--TODO: This needs to be added to the mk monodix, and the mk-bg monodix (phps mk-en monodix)-->
+	<e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e><!--Note: not in the monodix-->
+	<e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
+	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e><!--TODO: add this to the sh monodix--> <!--TODO: in translation from macedonian; kako and kao have distinct meanings, needs to be handled in transfer-->
+	<e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
+	<e><p><l>oko<s n="adv"/></l><r>околу<s n="adv"/></r></p></e>
+	<e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+ <e r="LR"><p><l>dosada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+ <e r="LR"><p><l>do<b/>sad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+ <e r="LR"><p><l>do<b/>sada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>се<b/>уште<s n="adv"/></r></p></e>
+	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>сеуште<s n="adv"/></r></p></e>
+	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>сѐ<b/>уште<s n="adv"/></r></p></e>
+	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>сѐуште<s n="adv"/></r></p></e>
+	<e><p><l>u<b/>prosjeku<s n="adv"/></l><r>во<b/>просек<s n="adv"/></r></p></e>
+	<e><p><l>podjednako<s n="adv"/></l><r>подеднакво<s n="adv"/></r></p></e>
+	<e><p><l>nego<s n="adv"/></l><r>отколку<s n="adv"/></r></p></e>
+	<e><p><l>ako<s n="adv"/></l><r>доколку<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ukoliko<s n="adv"/></l><r>доколку<s n="adv"/></r></p></e>
+	<e><p><l>tako<s n="adv"/></l><r>така<s n="adv"/></r></p></e>
+	<e><p><l>godišnje<s n="adv"/></l><r>годишно<s n="adv"/></r></p></e>
+	<e><p><l>izgleda<s n="adv"/></l><r>изгледа<s n="adv"/></r></p></e>
+	<e><p><l>po<b/>redu<s n="adv"/></l><r>по<b/>ред<s n="adv"/></r></p></e>
+	<e><p><l>toliko<s n="adv"/></l><r>толку<s n="adv"/></r></p></e>
+	<e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>
+	<e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
+	<e><p><l>čak<s n="adv"/></l><r>дури<s n="adv"/></r></p></e>
+	<e><p><l>negdje<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+	<e><p><l>kod<b/>kuće<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>doma<s n="adv"/></l><r>дома<s n="adv"/></r></p></e><!--Note: 'doma' is more of a regionalism in Croatian (probably Serbian2), less in the standard-->
+	<e r="LR"><p><l>kući<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
+	<e><p><l>eventualno<s n="adv"/></l><r>евентуално<s n="adv"/></r></p></e><!--Note: This does not mean eventually :) -->
+	<e><p><l>isto<s n="adv"/></l><r>исто<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>jednako<s n="adv"/></l><r>исто<s n="adv"/></r></p></e>
+	<e><p><l>isto<b/>tako<s n="adv"/></l><r>исто<b/>така<s n="adv"/></r></p></e>
+	<e><p><l>jednako<b/>tako<s n="adv"/></l><r>исто<b/>така<s n="adv"/></r></p></e>
+	<e><p><l>istovremeno<s n="adv"/></l><r>истовремено<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>istodobno<s n="adv"/></l><r>истовремено<s n="adv"/></r></p></e>
+	<e><p><l>uživo<s n="adv"/></l><r>лајв<s n="adv"/></r></p></e>
+	<e><p><l>trenutno<s n="adv"/></l><r>моментно<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>trenutačno<s n="adv"/></l><r>моментно<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>momentalno<s n="adv"/></l><r>моментно<s n="adv"/></r></p></e>
+	<e><p><l>odnosno<s n="adv"/></l><r>односно<s n="adv"/></r></p></e>
+	<e><p><l>online<s n="adv"/></l><r>онлајн<s n="adv"/></r></p></e>
+	<e><p><l>onlajn<s n="adv"/></l><r>онлајн<s n="adv"/></r></p></e><!--TODO: separate into modules-->
+	<e><p><l>odsto<s n="adv"/></l><r>отсто<s n="adv"/></r></p></e><!--TODO: Serbian and Bosnian-->
+	<e><p><l>posto<s n="adv"/></l><r>отсто<s n="adv"/></r></p></e><!--TODO: Serbian and Bosnian-->
+	<e><p><l>dokasna<s n="adv"/></l><r>подоцна<s n="adv"/></r></p></e>
+	<e><p><l>ipak<s n="adv"/></l><r>сепак<s n="adv"/></r></p></e>
+	<e><p><l>potpuno<s n="adv"/></l><r>целосно<s n="adv"/></r></p></e>
+	<e><p><l>pretežno<s n="adv"/></l><r>предимно<s n="adv"/></r></p></e><!--TODO: check more translations-->
+	<e><p><l>barem<s n="adv"/></l><r>барем<s n="adv"/></r></p></e>
+	<e><p><l>površno<s n="adv"/></l><r>бегло<s n="adv"/></r></p></e>
+	<e><p><l>odjednom<s n="adv"/></l><r>веднаш<s n="adv"/></r></p></e>
 
-     <e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle-->
+	<e><p><l>večeras<s n="adv"/></l><r>вечер<s n="adv"/></r></p></e><!--TODO: this is strange, needs to be checked-->
 
-     <e><p><l>dolje<s n="pr"/></l><r>долу<s n="pr"/></r></p></e>
+	<e><p><l>uključujući<s n="adv"/></l><r>вклучително<s n="adv"/></r></p></e>
+	<e><p><l>zapravo<s n="adv"/></l><r>всушност<s n="adv"/></r></p></e>
+	<e><p><l>večeras<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
+	<e><p><l>dvaput<s n="adv"/></l><r>дваж<s n="adv"/></r></p></e>
+	<e><p><l>danju<s n="adv"/></l><r>денем<s n="adv"/></r></p></e> <!--TODO and Note: this is bulgarian, macedonian would bi 'denski, preko den, denje'-->
+	<e><p><l>danas<s n="adv"/></l><r>денес<s n="adv"/></r></p></e>
+	<e><p><l>tek<s n="adv"/></l><r>допрва<s n="adv"/></r></p></e><!--TODO: check -->
+	<e><p><l>kasno<s n="adv"/></l><r>доцна<s n="adv"/></r></p></e>
+	<e><p><l>jednom<s n="adv"/></l><r>еднаш<s n="adv"/></r></p></e>
+	<e><p><l>zajedno<s n="adv"/></l><r>заедно<s n="adv"/></r></p></e>
+	<e><p><l>zasad<s n="adv"/></l><r>засега<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>zasada<s n="adv"/></l><r>засега<s n="adv"/></r></p></e>
+	<e><p><l>zato<s n="adv"/></l><r>затоа<s n="adv"/></r></p></e>
+	<e><p><l>izjutra<s n="adv"/></l><r>изутрина<s n="adv"/></r></p></e><!--big TODO: check translation-->
 
-     <e><p><l>gdje<s n="adv"/></l><r>каде<s n="adv"/></r></p></e>
-     <e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
-<e r="LR"><p><l>kad<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
-     <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
+	<!--big TODO: check if this cluster is correct-->
+	<e><p><l>kadgod<s n="adv"/></l><r>кога-годе<s n="adv"/></r></p></e>
+	<e><p><l>kad<b/>god<s n="adv"/></l><r>кога<b/>годе<s n="adv"/></r></p></e>
+	<e><p><l>koliko<b/>god<s n="adv"/></l><r>колку-годе<s n="adv"/></r></p></e>
+	<e><p><l>koliko<b/>god<s n="adv"/></l><r>колку<b/>годе<s n="adv"/></r></p></e>
+	<e><p><l>gdjegod<s n="adv"/></l><r>каде-годе<s n="adv"/></r></p></e>
+	<e><p><l>gdje<b/>god<s n="adv"/></l><r>каде<b/>годе<s n="adv"/></r></p></e>
+	<!-- -->
 
-     <e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
-     <e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e> <!--Note: this can be an adverb or a preposition. It makes little difference in this language pair, TODO: check this fact :)-->
+	<e><p><l>malo-pomalo<s n="adv"/></l><r>лека-полека<s n="adv"/></r></p></e>
+	<e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>
+	<e><p><l>možda<s n="adv"/></l><r>можеби<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>valjda<s n="adv"/></l><r>можеби<s n="adv"/></r></p></e>
+	<e><p><l>vrlo<s n="adv"/></l><r>мошне<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>veoma<s n="adv"/></l><r>мошне<s n="adv"/></r></p></e>
 
-     <e><p><l>dolje<s n="adv"/></l><r>долу<s n="adv"/></r></p></e> <!--TODO: check if the meaning is equivalent-->
+	<e><p><l>zbilja<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
+	<e><p><l>zaista<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
+	<e><p><l>doista<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
+	<e><p><l>uistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
+	<e><p><l>vaistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
+	<e><p><l>odista<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
 
-     <e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e>
-     <e><p><l>još<b/>uvijek<s n="adv"/></l><r>се<b/>уште<s n="adv"/></r></p></e>
+	<e><p><l>nadvoje-natroje<s n="adv"/></l><r>надве-натри<s n="adv"/></r></p></e>
 
-     <e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
-     <e r="LR"><p><l>dosada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
-     <e r="LR"><p><l>do<b/>sad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
-     <e r="LR"><p><l>do<b/>sada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
+	<e><p><l>napolje<s n="adv"/></l><r>надвор<s n="adv"/></r></p></e>
+	<e><p><l>van<s n="adv"/></l><r>надвор<s n="adv"/></r></p></e>
 
+	<e><p><l>ujedno<s n="adv"/></l><r>наедно<s n="adv"/></r></p></e>
+
+	<e r="LR"><p><l>namjesto<s n="adv"/></l><r>наместо<s n="adv"/></r></p></e>
+	<e><p><l>umjesto<s n="adv"/></l><r>наместо<s n="adv"/></r></p></e>
+
+	<e><p><l>nasilu<s n="adv"/></l><r>насила<s n="adv"/></r></p></e>
+
+	<e><p><l>uskoro<s n="adv"/></l><r>наскоро<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>naskoro<s n="adv"/></l><r>наскоро<s n="adv"/></r></p></e>
+
+	<e><p><l>najprije<s n="adv"/></l><r>најпрво<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>isprva<s n="adv"/></l><r>најпрво<s n="adv"/></r></p></e>
+
+	<e><p><l>negdje<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+
+	<e><p><l>nekad<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e> <!--TODO: check-->
+	<e r="LR"><p><l>nekada<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
+
+	<!--<e><p><l><s n="adv"/></l><r>немај-каде<s n="adv"/></r></p></e>TODO and note: this is a strange expression, used: i.e. "си појдов дома од немај-каде", "I went home because I had no other option" -->
+
+	<e><p><l>nedavno<s n="adv"/></l><r>неодамна<s n="adv"/></r></p></e>
+
+	<e><p><l>ponešto<s n="adv"/></l><r>нешто<s n="adv"/></r></p></e><!--TODO: This is very elusive, check more alternative meanings-->
+
+	<e><p><l>nigdje<s n="adv"/></l><r>никаде<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>nikud<s n="adv"/></l><r>никаде<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>nikuda<s n="adv"/></l><r>никаде<s n="adv"/></r></p></e>
+
+	<e><p><l>nikad<s n="adv"/></l><r>никогаш<s n="adv"/></r></p></e>
+	<e><p><l>nikada<s n="adv"/></l><r>никогаш<s n="adv"/></r></p></e>
+	<e><p><l>odonda<s n="adv"/></l><r>оттогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>otad<s n="adv"/></l><r>оттогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>otada<s n="adv"/></l><r>оттогаш<s n="adv"/></r></p></e>
+	<e><p><l>pak<s n="adv"/></l><r>пак<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>pa<s n="adv"/></l><r>пак<s n="adv"/></r></p></e>
+	<e><p><l>pješice<s n="adv"/></l><r>пеш<s n="adv"/></r></p></e>
+	<e><p><l>pješke<s n="adv"/></l><r>пеш<s n="adv"/></r></p></e>
+<!--	<e><p><l><s n="adv"/></l><r>пеша<s n="adv"/></r></p></e> TODO: check if this is same as previous-->
+	<e><p><l>više<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>većma<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>radije<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
+	<e><p><l>već<s n="adv"/></l><r>веќе<s n="adv"/></r></p></e>
+	<e><p><l>dalje<s n="adv"/></l><r>понатаму<s n="adv"/></r></p></e>
+	<e><p><l>ranije<s n="adv"/></l><r>порано<s n="adv"/></r></p></e>
+	<e><p><l>pored<s n="adv"/></l><r>поред<s n="adv"/></r></p></e> <!--TODO: check if true -->
+	<e><p><l>potom<s n="adv"/></l><r>потоа<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>zatim<s n="adv"/></l><r>потоа<s n="adv"/></r></p></e>
+	<e><p><l>pravo<s n="adv"/></l><r>право<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ravno<s n="adv"/></l><r>право<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>uspravno<s n="adv"/></l><r>право<s n="adv"/></r></p></e>
+<!--	<e><p><l><s n="adv"/></l><r>предвид<s n="adv"/></r></p></e>-->
+	<e><p><l>većinom<s n="adv"/></l><r>предимно<s n="adv"/></r></p></e>
+	<e><p><l>previše<s n="adv"/></l><r>премногу<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>odveć<s n="adv"/></l><r>премногу<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>suviše<s n="adv"/></l><r>премногу<s n="adv"/></r></p></e>
+	<e><p><l>samo<s n="adv"/></l><r>само<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>tek<s n="adv"/></l><r>само<s n="adv"/></r></p></e>
+	<e><p><l>sad<s n="adv"/></l><r>сега<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>sada<s n="adv"/></l><r>сега<s n="adv"/></r></p></e>
+	<e><p><l>svud<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>
+	<e><p><l>svuda<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>
+	<e><p><l>uvijek<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>vazda<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>svagda<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>vječito<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e><p><l>sasvim<s n="adv"/></l><r>сосема<s n="adv"/></r></p></e>
+	<e><p><l>tako<s n="adv"/></l><r>така<s n="adv"/></r></p></e>
+	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>tuda<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
+	<e><p><l>ovdje-ondje<s n="adv"/></l><r>тек-тук<s n="adv"/></r></p></e>
+	<e><p><l>ovdje<b/>ondje<s n="adv"/></l><r>тек<b/>тук"<s n="adv"/></r></p></e>
+	<e><p><l>ovdje-ondje<s n="adv"/></l><r>овде-онде<s n="adv"/></r></p></e>
+	<e><p><l>ovdje<b/>ondje<s n="adv"/></l><r>овде<b/>онде<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>tad<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>
+	<e><p><l>tada<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>
+	<e><p><l>triput<s n="adv"/></l><r>триж<s n="adv"/></r></p></e>
+	<e><p><l>tu<s n="adv"/></l><r>тука<s n="adv"/></r></p></e>
+	<e><p><l>sutra<s n="adv"/></l><r>утре<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>sutradan<s n="adv"/></l><r>утре<s n="adv"/></r></p></e>
+	<e><p><l>često<s n="adv"/></l><r>често<s n="adv"/></r></p></e>
+	<e><p><l>ovdje<s n="adv"/></l><r>овде<s n="adv"/></r></p></e>
+	<e><p><l>međutim<s n="adv"/></l><r>меѓутоа<s n="adv"/></r></p></e>
+	<!--<e><p><l>često<b/>puta<s n="adv"/></l><r>честопати<s n="adv"/></r></p></e> this is bad grammar :) -->
+	<e><p><l>katkad<s n="adv"/></l><r>чат-пат<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>katkada<s n="adv"/></l><r>чат-пат<s n="adv"/></r></p></e>
+	<e><p><l>ponekad<s n="adv"/></l><r>чат-пат<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ponekada<s n="adv"/></l><r>чат-пат<s n="adv"/></r></p></e>
+	<e><p><l>katkad<s n="adv"/></l><r>чат<b/>пат<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>katkada<s n="adv"/></l><r>чат<b/>пат<s n="adv"/></r></p></e>
+	<e><p><l>ponekad<s n="adv"/></l><r>чат<b/>пат<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ponekada<s n="adv"/></l><r>чат<b/>пат<s n="adv"/></r></p></e>
+	<e><p><l>u<b/>međuvremenu<s n="adv"/></l><r>во<b/>меѓувреме<s n="adv"/></r></p></e>
+<!--	<e><p><l><s n="adv"/></l><r>за<b/>првпат<s n="adv"/></r></p></e> TODO: See the translation
+	<e><p><l><s n="adv"/></l><r>за прв<b/>пат<s n="adv"/></r></p></e> -->
+	<e r="LR"><p><l>većinom<s n="adv"/></l><r>повеќето<s n="adv"/></r></p></e>
+	<e><p><l>većim<b/>dijelom<s n="adv"/></l><r>повеќето<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>više<b/>njih<s n="adv"/></l><r>повеќето<s n="adv"/></r></p></e>
+	<e><p><l>namjerno<s n="adv"/></l><r>намерно<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>hotimično<s n="adv"/></l><r>намерно<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>hotimice<s n="adv"/></l><r>намерно<s n="adv"/></r></p></e>
+	<e><p><l>uopće<s n="adv"/></l><r>воопшто<s n="adv"/></r></p></e>
+	<e><p><l>uopšte<s n="adv"/></l><r>воопшто<s n="adv"/></r></p></e>
+	<e><p><l>dotad<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>dotada<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>do<b/>tad<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>do<b/>tada<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>dotle<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
+     <!--end Adverbs that are incomparable-->
+     <!--Adverbs that are comparable (neuter adjectives)-->
+     <!--end Adverbs that are comparable (neuter adjectives)-->
+     <!--end Adverbs-->
+    
 
      <!-- SECTION: Verbs -->
      <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
