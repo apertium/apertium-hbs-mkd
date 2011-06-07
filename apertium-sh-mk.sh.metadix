@@ -4545,24 +4545,6 @@ after prepositions-->
 <pardef n="ssup__adv">
 	<e><p><l/><r><s n="adv"/><s n="comp"/></r></p></e>
 </pardef>
-
-<pardef n="dobro__adv"> <!--irregular-->
-	<e><p><l>dobro</l><r>dobro<s n="adv"/><s n="pst"/></r></p></e>
-	<e><p><l>bolje</l><r>dobro<s n="adv"/><s n="comp"/></r></p></e>
-	<e><p><l>najbolje</l><r>dobro<s n="adv"/><s n="sup"/></r></p></e>
-	<e><p><l>predobro</l><r>dobro<s n="adv"/><s n="ssup"/></r></p></e>
-</pardef>
-<pardef n="zlo__adv"> <!--irregular-->
-	<e><p><l>zlo</l><r>zlo<s n="adv"/><s n="pst"/></r></p></e>
-	<e><p><l>gore</l><r>dobro<s n="adv"/><s n="comp"/></r></p></e>
-	<e><p><l>najgore</l><r>dobro<s n="adv"/><s n="sup"/></r></p></e>
-</pardef>
-<pardef n="lo/še__adv">
-	<e><p><l>še</l><r>še<s n="adv"/><s n="pst"/></r></p></e>
-	<e><p><l>šije</l><r>še<s n="adv"/><s n="comp"/></r></p></e>
-	<!--Note: for superlative some vodoo with the prefix needs to be done-->
-	<!--For absolutive superlative as well-->
-</pardef>
 <!--end Adverbs  and adverb paradigms-->
 <!--end Closed speech categories-->
 
@@ -4572,7 +4554,7 @@ after prepositions-->
 <!--Raw suffix paradigms -->
 
 <!--Suffixes for present, taken from the aforementioned grammar-->
-<pardef n="pres__sfx__adj__em__vblex">
+<pardef n="pres__sfx__em__vblex">
       <e><p><l>em</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>eš</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>e</l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4580,7 +4562,7 @@ after prepositions-->
      <e><p><l>ete</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
      <e><p><l>u</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="pres__sfx__adj__jem__vblex">
+<pardef n="pres__sfx__jem__vblex">
       <e><p><l>jem</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>ješ</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>je</l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4588,7 +4570,7 @@ after prepositions-->
      <e><p><l>jete</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
      <e><p><l>ju</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="pres__sfx__adj__am__vblex">
+<pardef n="pres__sfx__am__vblex">
       <e><p><l>am</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>aš</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>a</l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4596,7 +4578,7 @@ after prepositions-->
      <e><p><l>ate</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
      <e><p><l>aju</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="pres__sfx__adj__im__vblex">
+<pardef n="pres__sfx__im__vblex">
       <e><p><l>im</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>iš</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>i</l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4606,7 +4588,7 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for aorist and imperfect-->
-<pardef n="aor__sfx__adj__vblex"><!-- a.k.a. "h, ništa, ništa, smo, ste, še" -->
+<pardef n="aor__sfx__vblex"><!-- a.k.a. "h, ništa, ništa, smo, ste, še" -->
       <e><p><l>h</l><r><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l></l><r><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l></l><r><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4614,7 +4596,7 @@ after prepositions-->
      <e><p><l>ste</l><r><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
      <e><p><l>še</l><r><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="impf__sfx__adj__vblex"><!-- a.k.a. "h, še, še, smo, ste, hu" --><!--Note: it's usually also listed with "-ah, -aše, -aše", "-jah, -jaše..." and "-ijah,..." but this is the least common denominator -->
+<pardef n="impf__sfx__vblex"><!-- a.k.a. "h, še, še, smo, ste, hu" --><!--Note: it's usually also listed with "-ah, -aše, -aše", "-jah, -jaše..." and "-ijah,..." but this is the least common denominator -->
         <e><p><l>h</l><r><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>še</l><r><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>še</l><r><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4624,23 +4606,23 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for the imperative -->
-<pardef n="imp__sfx__adj__0__vblex">
+<pardef n="imp__sfx__0__vblex">
        <e><p><l></l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>mo</l><r><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>te</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="imp__sfx__adj__i__vblex">
+<pardef n="imp__sfx__i__vblex">
        <e><p><l>i</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>imo</l><r><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ite</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
-<pardef n="imp__sfx__adj__j__vblex">
+<pardef n="imp__sfx__j__vblex">
        <e><p><l>j</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>jmo</l><r><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>jte</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="pp__sfx__adj__vblex">
+<pardef n="pp__sfx__vblex">
        <e><p><l></l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>o</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4651,7 +4633,7 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for the participle -->
-<pardef n="lp__sfx__adj"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
+<pardef n="lp__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
      <e><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
     <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4707,7 +4689,7 @@ after prepositions-->
         <e><p><l/><r><j/></r></p><par n="ću__clt"/></e>
 </pardef>
 
-<pardef n="inf+fiiI__sfx__adj__tv__vblex__imperf">
+<pardef n="inf+fiiI__sfx__tv__vblex__imperf">
 <group alt="sh">
 <e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
 <e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
@@ -4727,7 +4709,7 @@ after prepositions-->
 </group>
 </pardef>
 
-<pardef n="inf+fiiI__sfx__adj__tv__vblex__perf">
+<pardef n="inf+fiiI__sfx__tv__vblex__perf">
 <group alt="sh">
 <e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
 <e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
@@ -4747,7 +4729,7 @@ after prepositions-->
 </group>
 </pardef>
 
-<pardef n="inf+fiiI__sfx__adj__iv__vblex__perf">
+<pardef n="inf+fiiI__sfx__iv__vblex__perf">
 <group alt="sh">
 <e><p><l>ti</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
 <e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
@@ -4767,7 +4749,7 @@ after prepositions-->
 </group>
 </pardef>
 
-<pardef n="inf+fiiI__sfx__adj__iv__vblex__imperf">
+<pardef n="inf+fiiI__sfx__iv__vblex__imperf">
 <group alt="sh">
 <e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
 <e><p><l>t<b/></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
@@ -4873,7 +4855,7 @@ after prepositions-->
    <e r="LR"><p><l>bjehu</l><r>biti<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!-- The lp or active past participle / optative -->
-     <e><p><l>bi</l><r>biti<s n="vbser"/></r></p><par n="lp__sfx__adj"/></e>
+     <e><p><l>bi</l><r>biti<s n="vbser"/></r></p><par n="lp__sfx"/></e>
     
     <!-- (no pp, past passive participle) -->
     
@@ -4885,35 +4867,35 @@ after prepositions-->
 <!--Regular verb paradigms-->
 <pardef n="hod/ati__vblex">
 <!--Infinitive-->
-<e><p><l>a</l><r>a</r></p><par n="inf+fiiI__sfx__adj__iv__vblex__imperf"/></e>
+<e><p><l>a</l><r>a</r></p><par n="inf+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__adj__j__vblex"/></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__adj__am__vblex"/></e>
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
 <!--Imperfect-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__adj__vblex"/></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
 <!--Aorist-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__adj__vblex"/></e>
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__adj"/></e>
-   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__adj__vblex"/></e>
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
+   <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="put/ovati__vblex">
 <!--Infinitive-->
-<e><p><l>ova</l><r>ova</r></p><par n="inf+fiiI__sfx__adj__iv__vblex__imperf"/></e>
+<e><p><l>ova</l><r>ova</r></p><par n="inf+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__adj__j__vblex"/></e>
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__adj__jem__vblex"/></e>
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
 <!--Imperfect-->
-<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__adj__vblex"/></e>
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
 <!--Aorist-->
-<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__adj__vblex"/></e>
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx__adj"/></e>
-   <e><p><l>ovan</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__adj__vblex"/></e>
+    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
+   <e><p><l>ovan</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
   <e><p><l>ujući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
@@ -4926,10 +4908,10 @@ after prepositions-->
 <!--Irregular paradigms-->
 
 <!--Adjective paradigm 'dobar'--><!--with fleeting a-->
-<pardef n="dobar__pst__sfx__adj">
+<pardef n="dobar__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
-<!--arimate-->
+<!--Animate-->
 <!--Singular-->
        <e><p><l>dobar</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>dobra</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
@@ -4950,7 +4932,7 @@ after prepositions-->
 <e r="LR"><p><l>dobrima</l><r><s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
          <e><p><l>dobre</l><r><s n="ma"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
          <e><p><l>dobri</l><r><s n="ma"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
-<!--Inarimate-->
+<!--Inanimate-->
 <!--Singular-->
        <e><p><l>dobar</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>dobra</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
@@ -5017,7 +4999,7 @@ after prepositions-->
 <!-- Definite aspect -->
 <!--Masculine-->
 <!--Singular-->
-<!--arimate-->
+<!--Animate-->
          <e><p><l>dobri</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
  <e r="LR"><p><l>dobrog</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
        <e><p><l>dobroga</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
@@ -5031,7 +5013,7 @@ after prepositions-->
        <e><p><l>dobroga</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
          <e><p><l>dobri</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
         <e><p><l>dobrim</l><r><s n="ma"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
-<!--Inarimate-->
+<!--Inanimate-->
          <e><p><l>dobri</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
  <e r="LR"><p><l>dobrog</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
        <e><p><l>dobroga</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
@@ -5045,7 +5027,7 @@ after prepositions-->
          <e><p><l>dobri</l><r><s n="mi"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
         <e><p><l>dobrim</l><r><s n="mi"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
 <!--Plural-->
-<!--arimate-->
+<!--Animate-->
          <e><p><l>dobri</l><r><s n="ma"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
         <e><p><l>dobrih</l><r><s n="ma"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
         <e><p><l>dobrim</l><r><s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
@@ -5057,7 +5039,7 @@ after prepositions-->
          <e><p><l>dobre</l><r><s n="ma"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
          <e><p><l>dobri</l><r><s n="ma"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 
-<!--Inarimate-->
+<!--Inanimate-->
          <e><p><l>dobri</l><r><s n="mi"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
         <e><p><l>dobrih</l><r><s n="mi"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
         <e><p><l>dobrim</l><r><s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
@@ -5118,11 +5100,11 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="dobar__comp__sfx__adj">
+<pardef n="dobar__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevart only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
-<!--arimate-->
+<!--Animate-->
          <e><p><l>bolji</l><r><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
  <e r="LR"><p><l>boljeg</l><r><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
        <e><p><l>boljega</l><r><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -5134,7 +5116,7 @@ after prepositions-->
        <e><p><l>boljega</l><r><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
          <e><p><l>bolji</l><r><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
         <e><p><l>boljim</l><r><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-<!--Inarimate-->
+<!--Inanimate-->
          <e><p><l>bolji</l><r><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
  <e r="LR"><p><l>boljeg</l><r><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
        <e><p><l>boljega</l><r><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -5146,7 +5128,7 @@ after prepositions-->
          <e><p><l>bolji</l><r><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
         <e><p><l>boljim</l><r><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
 <!--Plural-->
-<!--arimate-->
+<!--Animate-->
          <e><p><l>bolji</l><r><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
         <e><p><l>boljih</l><r><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
         <e><p><l>boljim</l><r><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -5158,7 +5140,7 @@ after prepositions-->
          <e><p><l>bolje</l><r><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
          <e><p><l>bolji</l><r><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
 
-<!--Inarimate-->
+<!--Inanimate-->
          <e><p><l>bolji</l><r><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
         <e><p><l>boljih</l><r><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
         <e><p><l>boljim</l><r><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -5218,19 +5200,23 @@ after prepositions-->
 </pardef>
 
 <pardef n="dobar__ssup__adj">
-         <e><p><l></l><r>dobar<s n="adj"/><s n="ssup"/></r></p><par n="dobar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>dobar<s n="adj"/><s n="ssup"/></r></p><par n="dobar__pst__sfx"/></e>
+         <e><p><l>dobro</l><r>dobro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="dobar__sup__adj">
-         <e><p><l></l><r>dobar<s n="adj"/><s n="sup"/></r></p><par n="dobar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>dobar<s n="adj"/><s n="sup"/></r></p><par n="dobar__comp__sfx"/></e>
+         <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="dobar__comp__adj">
-         <e><p><l></l><r>dobar<s n="adj"/><s n="comp"/></r></p><par n="dobar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>dobar<s n="adj"/><s n="comp"/></r></p><par n="dobar__comp__sfx"/></e>
+         <e><p><l>bolje</l><r>dobro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="dobar__pst__adj">
-         <e><p><l></l><r>dobar<s n="adj"/><s n="pst"/></r></p><par n="dobar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>dobar<s n="adj"/><s n="pst"/></r></p><par n="dobar__pst__sfx"/></e>
+         <e><p><l>dobro</l><r>dobro<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'dobar'-->
-<pardef n="zao__pst__sfx__adj">
+<pardef n="zao__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--animate-->
@@ -5422,7 +5408,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="zao__comp__sfx__adj">
+<pardef n="zao__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevart only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -5522,21 +5508,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="zao__ssup__adj">
-         <e><p><l></l><r>zao<s n="adj"/><s n="ssup"/></r></p><par n="zao__pst__sfx__adj"/></e>
+         <e><p><l></l><r>zao<s n="adj"/><s n="ssup"/></r></p><par n="zao__pst__sfx"/></e>
+         <e><p><l>zlo</l><r>zlo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zao__sup__adj">
-         <e><p><l></l><r>zao<s n="adj"/><s n="sup"/></r></p><par n="zao__comp__sfx__adj"/></e>
+         <e><p><l></l><r>zao<s n="adj"/><s n="sup"/></r></p><par n="zao__comp__sfx"/></e>
+         <e><p><l>gore</l><r>zlo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zao__comp__adj">
-         <e><p><l></l><r>zao<s n="adj"/><s n="comp"/></r></p><par n="zao__comp__sfx__adj"/></e>
+         <e><p><l></l><r>zao<s n="adj"/><s n="comp"/></r></p><par n="zao__comp__sfx"/></e>
+         <e><p><l>gore</l><r>zlo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zao__pst__adj">
-         <e><p><l></l><r>zao<s n="adj"/><s n="pst"/></r></p><par n="zao__pst__sfx__adj"/></e>
+         <e><p><l></l><r>zao<s n="adj"/><s n="pst"/></r></p><par n="zao__pst__sfx"/></e>
+         <e><p><l>zlo</l><r>zlo<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'zao'-->
 
 <!--Adjective paradigm 'loš'-->
-<pardef n="loš__pst__sfx__adj"><!--irregular-->
+<pardef n="loš__pst__sfx"><!--irregular-->
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--animate-->
@@ -5726,7 +5716,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="loš__comp__sfx__adj">
+<pardef n="loš__comp__sfx">
 <!-- Comparative -->
 <!--Two possible variants, the other (gori) is more often (in my ear) used with zao/gori/najgori. It's not neccesarily true, however i need to make something default...-->
 <!--Singular-->
@@ -5920,23 +5910,27 @@ after prepositions-->
 </pardef>
 
 <pardef n="loš__ssup__adj">
-         <e><p><l/><r>loš<s n="adj"/><s n="ssup"/></r></p><par n="loš__pst__sfx__adj"/></e>
+         <e><p><l/><r>loš<s n="adj"/><s n="ssup"/></r></p><par n="loš__pst__sfx"/></e>
+         <e><p><l>loše</l><r>loše<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="loš__sup__adj">
-         <e><p><l/><r>loš<s n="adj"/><s n="sup"/></r></p><par n="loš__comp__sfx__adj"/></e>
+         <e><p><l/><r>loš<s n="adj"/><s n="sup"/></r></p><par n="loš__comp__sfx"/></e>
+         <e><p><l>lošije</l><r>loše<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="loš__comp__adj">
-         <e><p><l/><r>loš<s n="adj"/><s n="comp"/></r></p><par n="loš__comp__sfx__adj"/></e>
+         <e><p><l/><r>loš<s n="adj"/><s n="comp"/></r></p><par n="loš__comp__sfx"/></e>
+         <e><p><l>lošije</l><r>loše<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="loš__pst__adj">
-         <e><p><l/><r>loš<s n="adj"/><s n="pst"/></r></p><par n="loš__pst__sfx__adj"/></e>
+         <e><p><l/><r>loš<s n="adj"/><s n="pst"/></r></p><par n="loš__pst__sfx"/></e>
+         <e><p><l>loše</l><r>loše<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'loš'-->
 <!--end irregular paradigms-->
 <!--Regular adjective paradigms-->
 
 <!--Adjective paradigm 'zdrav'-->
-<pardef n="zdrav__pst__sfx__adj">
+<pardef n="zdrav__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -6128,7 +6122,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="zdrav__comp__sfx__adj">
+<pardef n="zdrav__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -6227,21 +6221,25 @@ after prepositions-->
 <!--Absolute Superlative--><!-- "pre"+comparative, explained somewhere in this document-->
 </pardef>
 <pardef n="zdrav__ssup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="zdrav__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="zdrav__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zdrav__sup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
+         <e><p><l>ije</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zdrav__comp__adj">
-         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
+         <e><p><l>ije</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zdrav__pst__adj">
-         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="zdrav__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="zdrav__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'zdrav'-->
 
 <!--Adjective paradigm 'zre/o'--><!--fleeting a--><!--iotation-->
-<pardef n="zre/o__pst__sfx__adj">
+<pardef n="zre/o__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -6433,7 +6431,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="zre/o__comp__sfx__adj">
+<pardef n="zre/o__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -6533,21 +6531,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="zre/o__ssup__adj">
-         <e><p><l></l><r>o<s n="adj"/><s n="ssup"/></r></p><par n="zre/o__pst__sfx__adj"/></e>
+         <e><p><l></l><r>o<s n="adj"/><s n="ssup"/></r></p><par n="zre/o__pst__sfx"/></e>
+         <e><p><l>lo</l><r>lo<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zre/o__sup__adj">
-         <e><p><l></l><r>o<s n="adj"/><s n="sup"/></r></p><par n="zre/o__comp__sfx__adj"/></e>
+         <e><p><l></l><r>o<s n="adj"/><s n="sup"/></r></p><par n="zre/o__comp__sfx"/></e>
+         <e><p><l>lije</l><r>lo<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zre/o__comp__adj">
-         <e><p><l></l><r>o<s n="adj"/><s n="comp"/></r></p><par n="zre/o__comp__sfx__adj"/></e>
+         <e><p><l></l><r>o<s n="adj"/><s n="comp"/></r></p><par n="zre/o__comp__sfx"/></e>
+         <e><p><l>lije</l><r>lo<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="zre/o__pst__adj">
-         <e><p><l></l><r>o<s n="adj"/><s n="pst"/></r></p><par n="zre/o__pst__sfx__adj"/></e>
+         <e><p><l></l><r>o<s n="adj"/><s n="pst"/></r></p><par n="zre/o__pst__sfx"/></e>
+         <e><p><l>lo</l><r>lo<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!-- end 'zre/o'-->
 
 <!--Adjective paradigm 'tup'-->
-<pardef n="tup__pst__sfx__adj">
+<pardef n="tup__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -6739,7 +6741,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="tup__comp__sfx__adj">
+<pardef n="tup__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -6839,20 +6841,24 @@ after prepositions-->
 </pardef>
 
 <pardef n="tup__ssup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="tup__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="tup__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tup__sup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="tup__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="tup__comp__sfx"/></e>
+         <e><p><l>lje</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tup__comp__adj">
-         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="tup__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="tup__comp__sfx"/></e>
+         <e><p><l>lje</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tup__pst__adj">
-         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="tup__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="tup__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'tup'-->
 <!--Adjective paradigm 'mek'-->
-<pardef n="mek__pst__sfx__adj">
+<pardef n="mek__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -7044,7 +7050,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="mek__comp__sfx__adj">
+<pardef n="mek__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -7144,21 +7150,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="mek__ssup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="mek__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="mek__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mek__sup__adj">
-         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="mek__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="mek__comp__sfx"/></e>
+         <e><p><l>še</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mek__comp__adj">
-         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="mek__comp__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="mek__comp__sfx"/></e>
+         <e><p><l>še</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mek__pst__adj">
-         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="mek__pst__sfx__adj"/></e>
+         <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="mek__pst__sfx"/></e>
+         <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'mek'-->
 
 <!--Adjective paradigm 'ruž/an'--><!--with fleeting a-->
-<pardef n="ruž/an__pst__sfx__adj">
+<pardef n="ruž/an__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -7350,7 +7360,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="ruž/an__comp__sfx__adj">
+<pardef n="ruž/an__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -7450,20 +7460,24 @@ after prepositions-->
 </pardef>
 
 <pardef n="ruž/an__ssup__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="ruž/an__pst__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="ruž/an__pst__sfx"/></e>
+         <e><p><l>no</l><r>no<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="ruž/an__sup__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="ruž/an__comp__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="ruž/an__comp__sfx"/></e>
+         <e><p><l>nije</l><r>no<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="ruž/an__comp__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="ruž/an__comp__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="ruž/an__comp__sfx"/></e>
+         <e><p><l>nije</l><r>no<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="ruž/an__pst__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="ruž/an__pst__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="ruž/an__pst__sfx"/></e>
+         <e><p><l>no</l><r>no<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'ruž/an'-->
 <!--Adjective paradigm 'od/an'--><!--without fleeting a-->
-<pardef n="od/an__pst__sfx__adj">
+<pardef n="od/an__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -7655,7 +7669,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="od/an__comp__sfx__adj">
+<pardef n="od/an__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -7755,21 +7769,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="od/an__ssup__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="od/an__pst__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="ssup"/></r></p><par n="od/an__pst__sfx"/></e>
+         <e><p><l>ano</l><r>ano<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="od/an__sup__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="od/an__comp__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="sup"/></r></p><par n="od/an__comp__sfx"/></e>
+         <e><p><l>anije</l><r>ano<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="od/an__comp__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="od/an__comp__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="comp"/></r></p><par n="od/an__comp__sfx"/></e>
+         <e><p><l>anije</l><r>ano<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="od/an__pst__adj">
-         <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="od/an__pst__sfx__adj"/></e>
+         <e><p><l></l><r>an<s n="adj"/><s n="pst"/></r></p><par n="od/an__pst__sfx"/></e>
+         <e><p><l>ano</l><r>ano<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'od/an'-->
 
 <!--Adjective paradigm 'mud/ar'--><!--with fleeting a-->
-<pardef n="mud/ar__pst__sfx__adj">
+<pardef n="mud/ar__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--animate-->
@@ -7960,7 +7978,7 @@ after prepositions-->
          <e><p><l>ra</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
  
 </pardef>
-<pardef n="mud/ar__comp__sfx__adj">
+<pardef n="mud/ar__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevart only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -8060,20 +8078,24 @@ after prepositions-->
 </pardef>
 
 <pardef n="mud/ar__ssup__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="mud/ar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="mud/ar__pst__sfx"/></e>
+         <e><p><l>ro</l><r>ro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mud/ar__sup__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="mud/ar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="mud/ar__comp__sfx"/></e>
+         <e><p><l>rije</l><r>ro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mud/ar__comp__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="mud/ar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="mud/ar__comp__sfx"/></e>
+         <e><p><l>rije</l><r>ro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="mud/ar__pst__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="mud/ar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="mud/ar__pst__sfx"/></e>
+         <e><p><l>ro</l><r>ro<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'mud/ar'-->
 <!--Adjective paradigm 'st/ar'-->
-<pardef n="st/ar__pst__sfx__adj">
+<pardef n="st/ar__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--animate-->
@@ -8264,7 +8286,7 @@ after prepositions-->
          <e><p><l>ara</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
  
 </pardef>
-<pardef n="st/ar__comp__sfx__adj"><!--Without fleeting a-->
+<pardef n="st/ar__comp__sfx"><!--Without fleeting a-->
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevart only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -8364,21 +8386,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="st/ar__ssup__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="st/ar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="ssup"/></r></p><par n="st/ar__pst__sfx"/></e>
+         <e><p><l>aro</l><r>aro<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="st/ar__sup__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="st/ar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="sup"/></r></p><par n="st/ar__comp__sfx"/></e>
+         <e><p><l>arije</l><r>aro<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="st/ar__comp__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="st/ar__comp__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="comp"/></r></p><par n="st/ar__comp__sfx"/></e>
+         <e><p><l>arije</l><r>aro<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="st/ar__pst__adj">
-         <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="st/ar__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ar<s n="adj"/><s n="pst"/></r></p><par n="st/ar__pst__sfx"/></e>
+         <e><p><l>aro</l><r>aro<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'st/ar'-->
 
 <!--Adjective paradigm 'kra/tak'--><!--fleeting a--><!--iotation-->
-<pardef n="kra/tak__pst__sfx__adj">
+<pardef n="kra/tak__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -8570,7 +8596,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="kra/tak__comp__sfx__adj">
+<pardef n="kra/tak__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -8670,20 +8696,24 @@ after prepositions-->
 </pardef>
 
 <pardef n="kra/tak__ssup__adj">
-         <e><p><l></l><r>tak<s n="adj"/><s n="ssup"/></r></p><par n="kra/tak__pst__sfx__adj"/></e>
+         <e><p><l></l><r>tak<s n="adj"/><s n="ssup"/></r></p><par n="kra/tak__pst__sfx"/></e>
+         <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="kra/tak__sup__adj">
-         <e><p><l></l><r>tak<s n="adj"/><s n="sup"/></r></p><par n="kra/tak__comp__sfx__adj"/></e>
+         <e><p><l></l><r>tak<s n="adj"/><s n="sup"/></r></p><par n="kra/tak__comp__sfx"/></e>
+         <e><p><l>će</l><r>tko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="kra/tak__comp__adj">
-         <e><p><l></l><r>tak<s n="adj"/><s n="comp"/></r></p><par n="kra/tak__comp__sfx__adj"/></e>
+         <e><p><l></l><r>tak<s n="adj"/><s n="comp"/></r></p><par n="kra/tak__comp__sfx"/></e>
+         <e><p><l>će</l><r>tko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="kra/tak__pst__adj">
-         <e><p><l></l><r>tak<s n="adj"/><s n="pst"/></r></p><par n="kra/tak__pst__sfx__adj"/></e>
+         <e><p><l></l><r>tak<s n="adj"/><s n="pst"/></r></p><par n="kra/tak__pst__sfx"/></e>
+         <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'kra/tak'-->
 <!--Adjective paradigm 'sla/dak'--><!--fleeting a--><!--iotation-->
-<pardef n="sla/dak__pst__sfx__adj">
+<pardef n="sla/dak__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -8875,7 +8905,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="sla/dak__comp__sfx__adj">
+<pardef n="sla/dak__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -8974,21 +9004,25 @@ after prepositions-->
 <!--Absolute Superlative--><!-- "pre"+comparative, explained somewhere in this document-->
 </pardef>
 <pardef n="sla/dak__ssup__adj">
-         <e><p><l></l><r>dak<s n="adj"/><s n="ssup"/></r></p><par n="sla/dak__pst__sfx__adj"/></e>
+         <e><p><l></l><r>dak<s n="adj"/><s n="ssup"/></r></p><par n="sla/dak__pst__sfx"/></e>
+         <e><p><l>tko</l><r>tko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="sla/dak__sup__adj">
-         <e><p><l></l><r>dak<s n="adj"/><s n="sup"/></r></p><par n="sla/dak__comp__sfx__adj"/></e>
+         <e><p><l></l><r>dak<s n="adj"/><s n="sup"/></r></p><par n="sla/dak__comp__sfx"/></e>
+         <e><p><l>đe</l><r>tko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="sla/dak__comp__adj">
-         <e><p><l></l><r>dak<s n="adj"/><s n="comp"/></r></p><par n="sla/dak__comp__sfx__adj"/></e>
+         <e><p><l></l><r>dak<s n="adj"/><s n="comp"/></r></p><par n="sla/dak__comp__sfx"/></e>
+         <e><p><l>đe</l><r>tko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="sla/dak__pst__adj">
-         <e><p><l></l><r>dak<s n="adj"/><s n="pst"/></r></p><par n="sla/dak__pst__sfx__adj"/></e>
+         <e><p><l></l><r>dak<s n="adj"/><s n="pst"/></r></p><par n="sla/dak__pst__sfx"/></e>
+         <e><p><l>tko</l><r>tko<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'sla/dak'-->
 
 <!--Adjective paradigm 'tvr/d'--><!--fleeting a--><!--iotation-->
-<pardef n="tvr/d__pst__sfx__adj">
+<pardef n="tvr/d__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -9180,7 +9214,7 @@ after prepositions-->
  
 </pardef>
 
-<pardef n="tvr/d__comp__sfx__adj">
+<pardef n="tvr/d__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -9279,21 +9313,25 @@ after prepositions-->
 <!--Absolute Superlative--><!-- "pre"+comparative, explained somewhere in this document-->
 </pardef>
 <pardef n="tvr/d__ssup__adj">
-         <e><p><l></l><r>d<s n="adj"/><s n="ssup"/></r></p><par n="tvr/d__pst__sfx__adj"/></e>
+         <e><p><l></l><r>d<s n="adj"/><s n="ssup"/></r></p><par n="tvr/d__pst__sfx"/></e>
+         <e><p><l>do</l><r>do<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tvr/d__sup__adj">
-         <e><p><l></l><r>d<s n="adj"/><s n="sup"/></r></p><par n="tvr/d__comp__sfx__adj"/></e>
+         <e><p><l></l><r>d<s n="adj"/><s n="sup"/></r></p><par n="tvr/d__comp__sfx"/></e>
+         <e><p><l>đe</l><r>do<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tvr/d__comp__adj">
-         <e><p><l></l><r>d<s n="adj"/><s n="comp"/></r></p><par n="tvr/d__comp__sfx__adj"/></e>
+         <e><p><l></l><r>d<s n="adj"/><s n="comp"/></r></p><par n="tvr/d__comp__sfx"/></e>
+         <e><p><l>đe</l><r>do<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="tvr/d__pst__adj">
-         <e><p><l></l><r>d<s n="adj"/><s n="pst"/></r></p><par n="tvr/d__pst__sfx__adj"/></e>
+         <e><p><l></l><r>d<s n="adj"/><s n="pst"/></r></p><par n="tvr/d__pst__sfx"/></e>
+         <e><p><l>do</l><r>do<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'tvr/d'-->
 
 <!--Adjective paradigm 'u/zak'--><!--fleeting a--><!--iotation-->
-<pardef n="u/zak__pst__sfx__adj">
+<pardef n="u/zak__pst__sfx">
 <!-- Indefinite aspect -->
 <!-- Masculine-->
 <!--Animate-->
@@ -9484,7 +9522,7 @@ after prepositions-->
          <e><p><l>ska</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
  
 </pardef>
-<pardef n="u/zak__comp__sfx__adj">
+<pardef n="u/zak__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
 <!--Singular-->
@@ -9584,21 +9622,25 @@ after prepositions-->
 </pardef>
 
 <pardef n="u/zak__ssup__adj">
-         <e><p><l/><r>zak<s n="adj"/><s n="ssup"/></r></p><par n="u/zak__pst__sfx__adj"/></e>
+         <e><p><l/><r>zak<s n="adj"/><s n="ssup"/></r></p><par n="u/zak__pst__sfx"/></e>
+         <e><p><l>sko</l><r>sko<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="u/zak__sup__adj">
-         <e><p><l/><r>zak<s n="adj"/><s n="sup"/></r></p><par n="u/zak__comp__sfx__adj"/></e>
+         <e><p><l/><r>zak<s n="adj"/><s n="sup"/></r></p><par n="u/zak__comp__sfx"/></e>
+         <e><p><l>že</l><r>sko<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="u/zak__comp__adj">
-         <e><p><l/><r>zak<s n="adj"/><s n="comp"/></r></p><par n="u/zak__comp__sfx__adj"/></e>
+         <e><p><l/><r>zak<s n="adj"/><s n="comp"/></r></p><par n="u/zak__comp__sfx"/></e>
+         <e><p><l>že</l><r>sko<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="u/zak__pst__adj">
-         <e><p><l/><r>zak<s n="adj"/><s n="pst"/></r></p><par n="u/zak__pst__sfx__adj"/></e>
+         <e><p><l/><r>zak<s n="adj"/><s n="pst"/></r></p><par n="u/zak__pst__sfx"/></e>
+         <e><p><l>sko</l><r>sko<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'u/zak'-->
 
 <!--Adjective paradigm 'pridjevs/ki'-->
-<pardef n="pridjevs/ki__pst__sfx__adj">
+<pardef n="pridjevs/ki__pst__sfx">
 <!--No indefinite aspect-->
 <!-- Definite aspect -->
 <!--Masculine-->
@@ -9703,22 +9745,24 @@ after prepositions-->
          <e><p><l>ka</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 </pardef>
 <pardef n="pridjevs/ki__ssup__adj">
-         <e><p><l></l><r>ki<s n="adj"/><s n="ssup"/></r></p><par n="pridjevs/ki__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ki<s n="adj"/><s n="ssup"/></r></p><par n="pridjevs/ki__pst__sfx"/></e>
+         <e><p><l>ki</l><r>ki<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="pridjevs/ki__sup__adj">
-         <e><p><l>k</l><r>ki<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l>k</l><r>ki<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="pridjevs/ki__comp__adj">
-         <e><p><l>k</l><r>ki<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l>k</l><r>ki<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="pridjevs/ki__pst__adj">
-         <e><p><l></l><r>ki<s n="adj"/><s n="pst"/></r></p><par n="pridjevs/ki__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ki<s n="adj"/><s n="pst"/></r></p><par n="pridjevs/ki__pst__sfx"/></e>
+         <e><p><l>ki</l><r>ki<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--No comparative-->
 <!--No superlative-->
 <!--end 'pridjevs/ki'-->
 <!--adjective paradigm 'garant/ni'-->
-<pardef n="garant/ni__pst__sfx__adj">
+<pardef n="garant/ni__pst__sfx">
 <!--No indefinite aspect-->
 <!-- Definite aspect -->
 <!--Masculine-->
@@ -9823,22 +9867,24 @@ after prepositions-->
          <e><p><l>na</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 </pardef>
 <pardef n="garant/ni__ssup__adj">
-         <e><p><l></l><r>ni<s n="adj"/><s n="ssup"/></r></p><par n="garant/ni__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ni<s n="adj"/><s n="ssup"/></r></p><par n="garant/ni__pst__sfx"/></e>
+         <e><p><l>no</l><r>no<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="garant/ni__sup__adj">
-         <e><p><l>n</l><r>ni<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l>n</l><r>ni<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="garant/ni__comp__adj">
-         <e><p><l>n</l><r>ni<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l>n</l><r>ni<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="garant/ni__pst__adj">
-         <e><p><l></l><r>ni<s n="adj"/><s n="pst"/></r></p><par n="garant/ni__pst__sfx__adj"/></e>
+         <e><p><l></l><r>ni<s n="adj"/><s n="pst"/></r></p><par n="garant/ni__pst__sfx"/></e>
+         <e><p><l>no</l><r>no<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--No comparative-->
 <!--No superlative-->
 <!--end 'garant/ni'-->
 <!--adjective paradigm 'vodeć/i'-->
-<pardef n="vodeć/i__pst__sfx__adj">
+<pardef n="vodeć/i__pst__sfx">
 <!--No indefinite aspect-->
 <!-- Definite aspect -->
 <!--Masculine-->
@@ -9938,16 +9984,18 @@ after prepositions-->
          <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 </pardef>
 <pardef n="vodeć/i__ssup__adj">
-         <e><p><l></l><r>i<s n="adj"/><s n="ssup"/></r></p><par n="vodeć/i__pst__sfx__adj"/></e>
+         <e><p><l></l><r>i<s n="adj"/><s n="ssup"/></r></p><par n="vodeć/i__pst__sfx"/></e>
+         <e><p><l>e</l><r>e<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="vodeć/i__sup__adj">
-         <e><p><l></l><r>i<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l></l><r>i<s n="adj"/><s n="sup"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="vodeć/i__comp__adj">
-         <e><p><l></l><r>i<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx__adj"/></e>
+         <e><p><l></l><r>i<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
 <pardef n="vodeć/i__pst__adj">
-         <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="vodeć/i__pst__sfx__adj"/></e>
+         <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="vodeć/i__pst__sfx"/></e>
+         <e><p><l>e</l><r>e<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--No comparative-->
 <!--No superlative-->
@@ -13669,20 +13717,20 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><re>[0-9]+.</re><p><l></l><r><s n="num"/><s n="ord"/></r></p></e>
 
 	<!--Todo: finish this, these are basically all definite adjectives-->
-	<e><re>[0-9]+.</re><i>-godišnji</i><par n="zdrav__pst__sfx__adj"/></e>
-	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>годиш</l><r>-годиш</r></p><par n="zdrav__pst__sfx__adj"/></e>
+	<e><re>[0-9]+.</re><i>-godišnji</i><par n="zdrav__pst__sfx"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>годиш</l><r>-годиш</r></p><par n="zdrav__pst__sfx"/></e>
 
-	<e><re>[0-9]+.</re><p><l>-процент</l><r>-процент</r></p><par n="zdrav__pst__sfx__adj"/></e>
-	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>процент</l><r>-процент</r></p><par n="zdrav__pst__sfx__adj"/></e>
+	<e><re>[0-9]+.</re><p><l>-процент</l><r>-процент</r></p><par n="zdrav__pst__sfx"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>процент</l><r>-процент</r></p><par n="zdrav__pst__sfx"/></e>
 
-	<e><re>[0-9]+.</re><p><l>-днев</l><r>-днев</r></p><par n="zdrav__pst__sfx__adj"/></e>
-	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>днев</l><r>-днев</r></p><par n="zdrav__pst__sfx__adj"/></e>
+	<e><re>[0-9]+.</re><p><l>-днев</l><r>-днев</r></p><par n="zdrav__pst__sfx"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>днев</l><r>-днев</r></p><par n="zdrav__pst__sfx"/></e>
 
-	<e><re>[0-9]+.</re><p><l>-минут</l><r>-минут</r></p><par n="zdrav__pst__sfx__adj"/></e>
-	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>минут</l><r>-минут</r></p><par n="zdrav__pst__sfx__adj"/></e>
+	<e><re>[0-9]+.</re><p><l>-минут</l><r>-минут</r></p><par n="zdrav__pst__sfx"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>минут</l><r>-минут</r></p><par n="zdrav__pst__sfx"/></e>
 
-	<e><re>[0-9]+.</re><p><l>-секунд</l><r>-секунд</r></p><par n="zdrav__pst__sfx__adj"/></e>
-	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>секунд</l><r>-секунд</r></p><par n="zdrav__pst__sfx__adj"/></e>
+	<e><re>[0-9]+.</re><p><l>-секунд</l><r>-секунд</r></p><par n="zdrav__pst__sfx"/></e>
+	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>секунд</l><r>-секунд</r></p><par n="zdrav__pst__sfx"/></e>
 
 
     </pardef>
@@ -14284,7 +14332,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="mek"><i>mek</i><par n="mek__pst__adj"/></e>
 <e lm="mek"><i>mek</i><par n="mek__comp__adj"/></e>
 <e lm="mek"><p><l>najmek</l><r>mek</r></p><par n="mek__sup__adj"/></e>
-<!--<e lm="mek"><p><l>premek</l><r>mek</r></p><par n="mek__ssup__adj"/></e>--><!--Note: premekan is the only form for this meaning -->
+<e lm="mek"><p><l>premek</l><r>mek</r></p><par n="mek__ssup__adj"/></e>
 
 <e lm="kratak"><i>kra</i><par n="kra/tak__pst__adj"/></e>
 <e lm="kratak"><i>kra</i><par n="kra/tak__comp__adj"/></e>
@@ -14314,6 +14362,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="garantni"><i>garant</i><par n="garant/ni__pst__adj"/></e>
 	<e lm="garantni"><p><l>garant</l><r>garant</r></p><par n="garant/ni__comp__adj"/></e>
 	<e lm="garantni"><p><l>najgarant</l><r>garant</r></p><par n="garant/ni__sup__adj"/></e>
+	<e lm="garantni"><p><l>pregarant</l><r>garant</r></p><par n="garant/ni__ssup__adj"/></e>
 
 <!--adjectives ending in -ski-->
 <!--WARNING: NO POINT IN EDITING, automatically generated from a list obtained from the mk monodix. -->
@@ -16301,6 +16350,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="akcionerski"><p><l>akcioners</l><r>akcioners</r></p><par n="pridjevs/ki__comp__adj"/></e>
 	<e lm="akcionerski"><p><l>najakcioners</l><r>akcioners</r></p><par n="pridjevs/ki__sup__adj"/></e>
 	<e lm="akcionerski"><p><l>preakcioners</l><r>akcioners</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="dioničarski"><i>dioničars</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="dioničarski"><p><l>dioničars</l><r>akcioners</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="dioničarski"><p><l>najdioničars</l><r>akcioners</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="dioničarski"><p><l>predioničars</l><r>akcioners</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 	
 	<e lm="akcijski"><i>akcijs</i><par n="pridjevs/ki__pst__adj"/></e>
 	<e lm="akcijski"><p><l>akcijs</l><r>akcijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
