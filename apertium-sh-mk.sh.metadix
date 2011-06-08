@@ -214,6 +214,79 @@ I have added those for the sake of analysis -->
         <e r="LR"><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
       </group>
     </pardef>
+<!--this is pure forbidden magic -->
+   <pardef n="e_e_left__yat"> 
+      <group alt="sh">
+        <e><p><l>e</l><r/></p></e>
+        <e><p><l>e</l><r/></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>e</l><r/></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>e</l><r/></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>e</l><r/></p></e>
+      </group>
+    </pardef>
+    <pardef n="e_je_left__yat">
+      <group alt="sh">
+        <e><p><l>e</l><r/></p></e>
+        <e><p><l>je</l><r/></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>je</l><r/></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>je</l><r/></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>je</l><r/></p></e>
+      </group>
+    </pardef>
+    <pardef n="e_ije_left__yat">
+      <group alt="sh">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>ije</l><r/></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>ije</l><r/></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>ije</l><r/></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>ije</l><r/></p></e>
+      </group>
+    </pardef>
+    <pardef n="e_i_left__yat"> 
+      <group alt="sh">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>i</l><r/></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>i</l><r/></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>e</l><r/></p></e>
+        <e><p><l>i</l><r/></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>e</l><r/></p></e>
+        <e r="LR"><p><l>i</l><r/></p></e>
+      </group>
+    </pardef>
 
 
 <!-- Closed speech categories -->
@@ -4633,7 +4706,7 @@ after prepositions-->
 </pardef>
 
 <!--Suffixes for the participle -->
-<pardef n="lp__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
+<pardef n="lp_ti__sfx"><!--Note, in macedonian this is marked as aorist and as imperfect, in SC it cannot stand by itself. If it does, it's either optative, or used in a construction analogous to english "whether X, or Y ..."-->
      <e><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> <!--i.e. "dva čovjeka su hodala" -->
     <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4654,26 +4727,68 @@ after prepositions-->
     <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
+<pardef n="lp_iti__sfx"><!--BIG BIG TODO: this is buggy, needs to be fixed-->
+    <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> 
+    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="lp"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
+    <!--This is also the form for optative-->    
+     <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="opt"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="lp_ći__sfx">
+    <e><p><l>ao</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>li</l><r><s n="lp"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
+    <!--This is also the form for optative-->    
+    <e><p><l>ao</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><p><l>li</l><r><s n="opt"/><s n="mfn"/><s n="pl"/></r></p></e>
+    <e><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+</pardef>
 
 <pardef n="ću__clt">
 <!-- Clitic form if the verb 'htjeti', used with the 'crippled' infinitive form to make the futureI tense -->
 <!-- In Serbian and Bosnian it works like a suffix -->
 <!-- In Croatian the same future formation works like a multiword -->
 <!-- This is just a template, which will be reused in the next paradigm -->
-   <e r="RL"><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
-   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
- <e r="RL"><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
- <e r="RL"><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
-   <e r="RL"><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>ću</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ćeš</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e r="RL"><p><l>ćemo</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="RL"><p><l>ćete</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e r="RL"><p><l>će</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
 
 <group alt="sh">
-   <e><p><l>ću</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e><p><l>ćeš</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
-   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
- <e><p><l>ćemo</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
- <e><p><l>ćete</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
-   <e><p><l>će</l><r>htjeti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
+   <e><p><l>ću</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e><p><l>ćeš</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="sg"/></r></p></e>
+   <e><p><l>će</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>ćemo</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e><p><l>ćete</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p2"/><s n="pl"/></r></p></e>
+   <e><p><l>će</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p3"/><s n="pl"/></r></p></e>
 </group>
 <group alt="sh-ek">
    <e><p><l>ću</l><r>hteti<s n="vbmod"/><s n="clt"/><s n="futI"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4688,7 +4803,173 @@ after prepositions-->
 <pardef n="htjeti__clt__vbmod">
         <e><p><l/><r><j/></r></p><par n="ću__clt"/></e>
 </pardef>
+<pardef n="moći__vbmod">
+<!--Double aspect-->
+<!--imperfective-->
+      <!--The infinitive and the future -->
+        <group alt="sh">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_BS">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_HR">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_SR">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+      
+    <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
+   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+ <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+    
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    
+      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 
+          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
+        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    
+    <!-- The lp or active past participle / optative -->
+     <e><p><l>mog</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ći__sfx"/></e>
+    
+    <!-- (pp, is by some accounts moguć, moguće, moguća... but this is more of an <adj> than <pp> -->
+    
+    <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
+    <e><p><l>mogući</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
+
+<!--Perfective-->
+      <!--The infinitive and the future -->
+        <group alt="sh">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_BS">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_HR">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+        <group alt="sh_SR">
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        </group>
+      
+    <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
+   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+ <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+    
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+    
+      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+
+          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
+        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    
+    <!-- The lp or active past participle / optative -->
+     <e><p><l>mog</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ći__sfx"/></e>
+    
+    <!-- (pp, is by some accounts moguć, moguće, moguća... but this is more of an <adj> than <pp> -->
+    
+    <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
+    <e><p><l>mogavši</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>        
+</pardef>
+<!--end Modal verb moći-->
+<!--Modal verb htjeti-->
+<pardef n="htjeti__vbmod"><!--big TODO: add the ekavian analysis of hteti-->
+      <!--The infinitive and the future -->
+        <group alt="sh">
+
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>t</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_BS">
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_HR">
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>t</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        </group>
+        <group alt="sh_SR">
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        </group>
+      
+    <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dni</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnimo</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnite</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                 
+
+    <e><p><l>hoću</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>hoćeš</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e><p><l>hoće</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>hoćemo</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>hoćete</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>hoće</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    <!-- The normal analysis, when this is just the perfective form of 'to be' -->    
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnem</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dneš</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dne</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnemo</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnete</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnu</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+<!--Note: six different imperfect forms (no aorist since it's imperfective). However they are quite literary, and are unlikely to appear anywhere outside very archaic text. I'll just put in the most common one-->
+          <e><p><l>hotijah</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>hotijaše</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>hotijaše</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>hotijasmo</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>hotijaste</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>hotijahu</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    
+    <!-- The lp or active past participle / optative -->
+     <e><p><l>ht</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+    
+    <!-- (no pp, past passive participle) -->
+    
+    <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
+    <e><p><l>hoteći</l><r>ht<group alt="ijek">je</group><group alt="ek">e</group>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>    
+</pardef>
+<!--end Modal verb htjeti-->
 <pardef n="inf+fiiI__sfx__tv__vblex__imperf">
 <group alt="sh">
 <e><p><l>ti</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
@@ -4770,7 +5051,6 @@ after prepositions-->
 </pardef>
 
 <!--Auxilliary verbs-->
-
 <!--Verb to be-->
 <pardef n="biti__vbser">
       <!--The infinitive and the future -->
@@ -4855,7 +5135,7 @@ after prepositions-->
    <e r="LR"><p><l>bjehu</l><r>biti<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!-- The lp or active past participle / optative -->
-     <e><p><l>bi</l><r>biti<s n="vbser"/></r></p><par n="lp__sfx"/></e>
+     <e><p><l>bi</l><r>biti<s n="vbser"/></r></p><par n="lp_ti__sfx"/></e>
     
     <!-- (no pp, past passive participle) -->
     
@@ -4863,6 +5143,25 @@ after prepositions-->
     <e><p><l>budući</l><r>biti<s n="vbser"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
     <e><p><l>bivši</l><r>biti<s n="vbser"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>    
 </pardef>
+
+<!--Modal verbs morati and trebati--><!--Note: they're put here, and not earlier, because of the suffixes-->
+<pardef n="mor/ati__vbmod">
+<!--Infinittve-->
+<e><p><l>a</l><r>a</r></p><par n="inf+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperattve-->
+<e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>an</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>ajući</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<!--end Modal verbs morati and trebati-->
 
 <!--Regular verb paradigms-->
 <pardef n="hod/ati__vblex">
@@ -4877,7 +5176,7 @@ after prepositions-->
 <!--Aorist-->
 <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
    <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
@@ -4894,7 +5193,7 @@ after prepositions-->
 <!--Aorist-->
 <e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp__sfx"/></e>
+    <e><p><l>ova</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
    <e><p><l>ovan</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
   <e><p><l>ujući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
@@ -14248,6 +14547,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 
 <!--Modal verbs-->
 <e lm="ću_modal"><i/><par n="ću__clt"/></e>
+<e lm="htjeti"><i/><par n="htjeti__vbmod"/></e>
+<e lm="moći"><i/><par n="moći__vbmod"/></e>
+<e lm="morati"><i>mor</i><par n="mor/ati__vbmod"/></e>
+<e lm="trebati"><i>treb</i><par n="mor/ati__vbmod"/></e>  
 <!--Other verbs-->
 <e lm="bivati"><i>biv</i><par n="hod/ati__vblex"/></e> <!--This is the verb "to be being", sometimes used as aux in passive-->
 <e lm="hodati"><i>hod</i><par n="hod/ati__vblex"/></e>
