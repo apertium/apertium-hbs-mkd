@@ -3479,7 +3479,7 @@
 	<e><p><l>duvati<s n="vblex"/></l><r>дува<s n="vblex"/></r></p></e><!--SR-->
 	<e><p><l>puhati<s n="vblex"/></l><r>дува<s n="vblex"/></r></p></e><!--HR-->
 	<e r="LR"><p><l>duhati<s n="vblex"/></l><r>дува<s n="vblex"/></r></p></e>
-	<e><p><l>lovi<s n="vblex"/></l><r>ловува<s n="vblex"/></r></p></e>
+	<e><p><l>loviti<s n="vblex"/></l><r>ловува<s n="vblex"/></r></p></e>
 	<e><p><l>udarati<s n="vblex"/></l><r>удира<s n="vblex"/></r></p></e>
 	<e><p><l>okarakterizirati<s n="vblex"/></l><r>окарактеризира<s n="vblex"/></r></p></e>
 	<e><p><l>pljuvati<s n="vblex"/></l><r>плука<s n="vblex"/></r></p></e>
@@ -3502,7 +3502,7 @@
 	<e><p><l>sazdati<s n="vblex"/></l><r>создаде<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>stvoriti<s n="vblex"/></l><r>создаде<s n="vblex"/></r></p></e>
 	<e><p><l>jesti<s n="vblex"/></l><r>јаде<s n="vblex"/></r></p></e>
-	<e><p><l>dodijeli<s n="vblex"/></l><r>додели<s n="vblex"/></r></p></e>
+	<e><p><l>dodijeliti<s n="vblex"/></l><r>додели<s n="vblex"/></r></p></e>
 	<e><p><l>izdati<s n="vblex"/></l><r>издаде<s n="vblex"/></r></p></e>
 	<e><p><l>podnijeti<s n="vblex"/></l><r>поднесе<s n="vblex"/></r></p></e>
 	<e><p><l>predati<s n="vblex"/></l><r>предаде<s n="vblex"/></r></p></e>
@@ -3555,7 +3555,7 @@
 	<e><p><l>misliti<s n="vblex"/></l><r>мисли<s n="vblex"/></r></p></e>
 	<e><p><l>plašiti<s n="vblex"/></l><r>плаши<s n="vblex"/></r></p></e>
 	<e><p><l>pomagati<s n="vblex"/></l><r>помага<s n="vblex"/></r></p></e>
-	<e><p><l>pristiže<s n="vblex"/></l><r>пристига<s n="vblex"/></r></p></e>
+	<e><p><l>pristizati<s n="vblex"/></l><r>пристига<s n="vblex"/></r></p></e>
 	<e><p><l>zbivati<s n="vblex"/></l><r>случува<s n="vblex"/></r></p></e>
 	<e><p><l>sudarati<s n="vblex"/></l><r>судрува<s n="vblex"/></r></p></e>
 	<e><p><l>uhapsiti<s n="vblex"/></l><r>уапси<s n="vblex"/></r></p></e>
@@ -3732,7 +3732,7 @@
 	<e><p><l>smjenjivati<s n="vblex"/></l><r>сменува<s n="vblex"/></r></p></e>
 	<e><p><l>davati<s n="vblex"/></l><r>дава<s n="vblex"/></r></p></e>
 	<e><p><l>vježbati<s n="vblex"/></l><r>вежба<s n="vblex"/></r></p></e>
-	<e><p><l>izdravati<s n="vblex"/></l><r>издава<s n="vblex"/></r></p></e>
+	<e><p><l>izdavati<s n="vblex"/></l><r>издава<s n="vblex"/></r></p></e>
 	<e><p><l>stvarati<s n="vblex"/></l><r>создава<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>tvoriti<s n="vblex"/></l><r>создава<s n="vblex"/></r></p></e>
 	<e><p><l>produživati<s n="vblex"/></l><r>продолжува<s n="vblex"/></r></p></e>
