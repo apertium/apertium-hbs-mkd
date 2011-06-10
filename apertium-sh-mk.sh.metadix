@@ -55,7 +55,7 @@
 <sdef n="pmp" c="Plusquamperfect"/><!--Note: Compound, can be made in two different ways (aorist/imperfect of ' to be' plus participle, or perfect of 'to be+participle-->
 <sdef n="imp" c="Imperative"/>
 <sdef n="inf" c="Infinitive"/>
-<sdef n="pp" c="Past participle"/><!--In the mk dictionary this is used to mark the passive participle, so i'll use it here accordingly -->
+<sdef n="pp" c="Passive"/><!--In the mk dictionary this is used to mark the passive participle, so i'll use it here accordingly -->
                                     <!--Note: passive is compound and a bit complicated, it can look like a reflexive verb, or verb 'biti/bivati'--> 
                                     <!--+ verbal adjective passive -->
 <sdef n="lp" c="L-participle"/><!--Note: this is the active verbal adjective-->
@@ -5243,6 +5243,111 @@ after prepositions-->
 <!--end Modal verbs morati and trebati-->
 
 <!--Regular verb paradigms-->
+
+<pardef n="imperf_iv_d/avati__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>a</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>a</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>avan</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>ajući</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_iv_d/avati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_d/avati__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>avan</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_d/avati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_d/avati__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>avan</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_d/avati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_d/avati__vblex">
+<!--Infinitive-->
+<e><p><l>ava</l><r>ava</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ava</l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>avan</l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>ajući</l><r>avati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+
 <pardef n="imperf_iv_vu/ći__vblex">
 <!--Infinitive-->
 <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
@@ -5282,8 +5387,6 @@ after prepositions-->
 <e><p><l>c</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
 <e><p><l>č</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
 <!--Aorist-->
 <e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
@@ -5298,8 +5401,6 @@ after prepositions-->
 <e><p><l>c</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
 <e><p><l>č</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
 <!--Aorist-->
 <e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
@@ -5326,7 +5427,24 @@ after prepositions-->
    <e><p><l>gnut</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
-
+<pardef n="perf_iv_le/ći-pp__vblex">
+<!--Infinitive-->
+<e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>z</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l>gn</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Aorist-->
+<e><p><l>goh</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>gosmo</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>goste</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>goše</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<!--Participles-->
+    <e><p><l>g</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ći__sfx"/></e>
+  <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 <pardef n="perf_tv_le/ći__vblex">
 <!--Infinitive-->
 <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__tv__vblex__imperf"/></e>
@@ -5364,6 +5482,24 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ći__sfx"/></e>
    <e><p><l>đen</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_u/ći-pp__vblex">
+<!--Infinitive-->
+<e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>đ</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l>đ</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Aorist-->
+<e><p><l>đoh</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>đosmo</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>đoste</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>đoše</l><r>ći<s n="aor"/><s n="vblex"/><s n="imperf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<!--Participles-->
+    <e><p><l>š</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ći__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
@@ -5422,6 +5558,257 @@ after prepositions-->
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
+<pardef n="imperf_iv_di/zati__vblex">
+<!--Infinitive-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>zan</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_iv_di/zati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_di/zati__vblex">
+<!--Infinittve-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperattve-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>zan</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_di/zati-pp__vblex">
+<!--Infinittve-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperattve-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_di/zati__vblex">
+<!--Infinittve-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperattve-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>zan</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_di/zati-pp__vblex">
+<!--Infinittve-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperattve-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_di/zati__vblex">
+<!--Infinitive-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>zan</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_di/zati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+
+
+<pardef n="imperf_iv_pi/sati__vblex">
+<!--Infinitive-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>san</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_iv_pi/sati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_pi/sati__vblex">
+<!--Infinittve-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperattve-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>san</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_pi/sati-pp__vblex">
+<!--Infinittve-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperattve-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_pi/sati__vblex">
+<!--Infinittve-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperattve-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>san</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_pi/sati-pp__vblex">
+<!--Infinittve-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperattve-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_pi/sati__vblex">
+<!--Infinitive-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>san</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_pi/sati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>sa</l><r>sa</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>š</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--perfect-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>sa</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+  <e><p><l>šući</l><r>sati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+
 <pardef n="imperf_iv/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
@@ -5438,7 +5825,21 @@ after prepositions-->
    <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
-
+<pardef n="imperf_iv/ati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 <pardef n="imperf_tv/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
@@ -5455,7 +5856,21 @@ after prepositions-->
    <e><p><l>an</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
-
+<pardef n="imperf_tv/ati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 <pardef n="perf_iv/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
@@ -5470,7 +5885,19 @@ after prepositions-->
    <e><p><l>an</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
-
+<pardef n="perf_iv/ati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<!--Aorist-->
+<e><p><l>a</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>a</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>ajući</l><r>ati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 <pardef n="perf_tv/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
@@ -5486,6 +5913,213 @@ after prepositions-->
 <e><p><l>ajući</l><r>ati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
+<pardef n="imperf_iv_si/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_iv_si/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_si/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_si/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_si/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_si/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_si/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="imperf_iv_počin/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_iv_počin/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_počin/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_tv_počin/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_počin/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_iv_počin/jati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="perf_tv_počin/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>j</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ti__sfx"/></e>
+   <e><p><l>jan</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 
 <pardef n="imperf_iv/ovati__vblex">
 <!--Infinitive-->
@@ -5501,6 +6135,22 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
    <e><p><l>ovan</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pp__sfx__vblex"/></e>
+  <e><p><l>ujući</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="imperf_iv/ovati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ova</l><r>ova</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>u</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="impf__sfx__vblex"/></e>
+<!--Aorist-->
+<e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>ova</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ti__sfx"/></e>
   <e><p><l>ujući</l><r>ovati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
@@ -14939,11 +15589,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="trebati"><i>treb</i><par n="mor/ati__vbmod"/></e>  
 <!--Other verbs-->
 <e lm="bivati"><i>biv</i><par n="imperf_iv/ati__vblex"/></e> <!--This is the verb "to be being", sometimes used as aux in passive-->
-<e lm="hodati"><i>hod</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="hodati"><i>hod</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="gledati"><i>gled</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="gledati"><i>gled</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="plivati"><i>pliv</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="zbivati"><i>zbiv</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="plivati"><i>pliv</i><par n="imperf_iv/ati-pp__vblex"/></e>
+<e lm="zbivati"><i>zbiv</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="dobivati"><i>dobiv</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="dobivati"><i>dobiv</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="umivati"><i>umiv</i><par n="imperf_iv/ati__vblex"/></e>
@@ -14956,7 +15606,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="masirati"><i>masir</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="masirati"><i>masir</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="birati"><i>bir</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="putovati"><i>put</i><par n="imperf_iv/ovati__vblex"/></e>
+<e lm="putovati"><i>put</i><par n="imperf_iv/ovati-pp__vblex"/></e>
 <e lm="proputovati"><i>proput</i><par n="perf_iv/ovati__vblex"/></e>  
 <e lm="dugovati"><i>dug</i><par n="imperf_iv/ovati__vblex"/></e>
 <e lm="prezentovati"><i>prezent</i><par n="imperf_tv/ovati__vblex"/></e>
@@ -14983,23 +15633,21 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="smjenjivati"><i>smjenj</i><par n="imperf_tv/ivati__vblex"/></e>
 <e lm="produživati"><i>produž</i><par n="imperf_tv/ivati__vblex"/></e>
 <e lm="pokazivati"><i>pokaz</i><par n="imperf_tv/ivati__vblex"/></e>
-<e lm="otkrivati"><i>otkriv</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="dobivati"><i>dobiv</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="pozivati"><i>poziv</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="davati"><i>dav</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="davati"><i>dav</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="izdavati"><i>izdav</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="izdavati"><i>izdav</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="davati"><i>d</i><par n="imperf_tv_d/avati__vblex"/></e>
+<e lm="davati"><i>d</i><par n="imperf_iv_d/avati__vblex"/></e>
+<e lm="izdavati"><i>izd</i><par n="imperf_tv_d/avati__vblex"/></e>
+<e lm="izdavati"><i>izd</i><par n="imperf_iv_d/avati__vblex"/></e>
 <e lm="suočavati"><i>suočav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="dozvoljavati"><i>dozvoljav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="zasipavati"><i>zasipav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="zavaravati"><i>zavarav</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="dodavati"><i>dodav</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="dodavati"><i>dod</i><par n="imperf_iv_d/avati__vblex"/></e>
 <e lm="naglašavati"><i>naglašav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="podržavati"><i>podržav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="završavati"><i>završav</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="rješavati"><i>r</i><par n="e_je__yat"/><i>šav</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="završavati"><i>završav</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="izvršavati"><i>izvršav</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="proglašavati"><i>proglašav</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="sadržavati"><i>sadržav</i><par n="imperf_tv/ati__vblex"/></e>
@@ -15010,36 +15658,36 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="reći"><i>re</i><par n="perf_tv_vu/ći__vblex"/></e>
 <e lm="reći"><i>re</i><par n="perf_iv_vu/ći__vblex"/></e>
 <e lm="povući"><i>povu</i><par n="perf_tv_vu/ći__vblex"/></e>
-<e lm="leći"><i>le</i><par n="perf_iv_le/ći__vblex"/></e>
+<e lm="leći"><i>le</i><par n="perf_iv_le/ći-pp__vblex"/></e>
 <e lm="uleći"><i>ule</i><par n="perf_iv_le/ći__vblex"/></e>
-<e lm="pomoći"><i>pomo</i><par n="perf_iv_le/ći__vblex"/></e>
-<e lm="ući"><i>u</i><par n="perf_iv_u/ći__vblex"/></e>
-<e lm="izaći"><i>iza</i><par n="perf_iv_u/ći__vblex"/></e>
-<e lm="izići"><i>izi</i><par n="perf_iv_u/ći__vblex"/></e>
-<e lm="proizaći"><i>proiza</i><par n="perf_iv_u/ći__vblex"/></e>
-<e lm="doći"><i>do</i><par n="perf_iv_u/ći__vblex"/></e>
-<e lm="proći"><i>pro</i><par n="perf_iv_u/ći__vblex"/></e>
+<e lm="pomoći"><i>pomo</i><par n="perf_iv_le/ći-pp__vblex"/></e>
+<e lm="ući"><i>u</i><par n="perf_iv_u/ći-pp__vblex"/></e>
+<e lm="izaći"><i>iza</i><par n="perf_iv_u/ći-pp__vblex"/></e>
+<e lm="izići"><i>izi</i><par n="perf_iv_u/ći-pp__vblex"/></e>
+<e lm="proizaći"><i>proiza</i><par n="perf_iv_u/ći-pp__vblex"/></e>
+<e lm="doći"><i>do</i><par n="perf_iv_u/ći-pp__vblex"/></e>
+<e lm="proći"><i>pro</i><par n="perf_iv_u/ći-pp__vblex"/></e>
 <e lm="češati"><i>češ</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="češati"><i>češ</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="kopati"><i>kop</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="kopati"><i>kop</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="ležati"><i>lež</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="padati"><i>pad</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="ležati"><i>lež</i><par n="imperf_iv/ati-pp__vblex"/></e>
+<e lm="padati"><i>pad</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="stiskati"><i>stisk</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="brisati"><i>bris</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="brisati"><i>bris</i><par n="imperf_tv/ati__vblex"/></e>
+<e lm="brisati"><i>bris</i><par n="imperf_iv_pi/sati__vblex"/></e>
+<e lm="brisati"><i>bris</i><par n="imperf_tv_pi/sati__vblex"/></e>
 <e lm="gurati"><i>gur</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="gurati"><i>gur</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="turati"><i>tur</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="turati"><i>tur</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="čitati"><i>čit</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="čitati"><i>čit</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="disati"><i>dis</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="udisati"><i>udis</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="disati"><i>dis</i><par n="imperf_iv_pi/sati-pp__vblex"/></e>
+<e lm="udisati"><i>udis</i><par n="imperf_iv_pi/sati__vblex"/></e>
 <e lm="grebati"><i>greb</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="grebati"><i>greb</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="duvati"><i>duv</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="puhati"><i>puh</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="duvati"><i>duv</i><par n="imperf_iv/ati-pp__vblex"/></e>
+<e lm="puhati"><i>puh</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="udarati"><i>udar</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="udarati"><i>udar</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="pljuvati"><i>pljuv</i><par n="imperf_iv/ati__vblex"/></e>
@@ -15054,43 +15702,43 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="predati"><i>pred</i><par n="perf_iv_d/ati__vblex"/></e>
 <e lm="prodati"><i>prod</i><par n="perf_tv_d/ati__vblex"/></e>
 <e lm="prodati"><i>prod</i><par n="perf_iv_d/ati__vblex"/></e>
-<e lm="ostati"><i>ost</i><par n="perf_iv/ati__vblex"/></e>
-<e lm="stati"><i>st</i><par n="perf_iv/ati__vblex"/></e>
+<e lm="ostati"><i>ost</i><par n="perf_iv/ati-pp__vblex"/></e>
+<e lm="stati"><i>st</i><par n="perf_iv/ati-pp__vblex"/></e>
 <e lm="pozvati"><i>pozv</i><par n="perf_tv/ati__vblex"/></e>
 <e lm="pozvati"><i>pozv</i><par n="perf_iv/ati__vblex"/></e>
-<e lm="pisati"><i>pis</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="pisati"><i>pis</i><par n="imperf_iv_pi/sati__vblex"/></e>
 <e lm="predlagati"><i>predlag</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="primati"><i>prim</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="primati"><i>prim</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="ostavljati"><i>ostavlj</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="slušati"><i>sluš</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="slušati"><i>sluš</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="mirisati"><i>miris</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="mirisati"><i>miris</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="mirisati"><i>miris</i><par n="imperf_tv_pi/sati-pp__vblex"/></e>
+<e lm="mirisati"><i>miris</i><par n="imperf_iv_pi/sati-pp__vblex"/></e>
 <e lm="pomagati"><i>pomag</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="pomagati"><i>pomag</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="pristizati"><i>pristiz</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="sudarati"><i>sudar</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="opisati"><i>opis</i><par n="perf_tv/ati__vblex"/></e>
-<e lm="opisati"><i>opis</i><par n="perf_iv/ati__vblex"/></e>
-<e lm="potpisati"><i>potpis</i><par n="perf_iv/ati__vblex"/></e>
+<e lm="pristizati"><i>pristi</i><par n="imperf_iv_di/zati-pp__vblex"/></e>
+<e lm="sudarati"><i>sudar</i><par n="imperf_iv/ati-pp__vblex"/></e>
+<e lm="opisati"><i>opis</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="opisati"><i>opis</i><par n="perf_iv_pi/sati__vblex"/></e>
+<e lm="potpisati"><i>potpis</i><par n="perf_iv_pi/sati__vblex"/></e>
 <e lm="vjenčati"><i>vjenč</i><par n="perf_tv/ati__vblex"/></e>
 <e lm="vjenčati"><i>vjenč</i><par n="perf_iv/ati__vblex"/></e>
-<e lm="rezati"><i>rez</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="rezati"><i>rez</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="povezati"><i>povez</i><par n="perf_tv/ati__vblex"/></e>
-<e lm="povezati"><i>povez</i><par n="perf_iv/ati__vblex"/></e>
+<e lm="rezati"><i>re</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="rezati"><i>re</i><par n="imperf_iv_di/zati__vblex"/></e>
+<e lm="povezati"><i>pove</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="povezati"><i>pove</i><par n="perf_iv_di/zati__vblex"/></e>
 <e lm="znati"><i>zn</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="znati"><i>zn</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="vladati"><i>vlad</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="sijati"><i>sij</i><par n="imperf_tv/ati__vblex"/></e>
+<e lm="vladati"><i>vlad</i><par n="imperf_iv/ati-pp__vblex"/></e>
+<e lm="sijati"><i>si</i><par n="imperf_tv_si/jati__vblex"/></e>
 <e lm="trljati"><i>trlj</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="plesati"><i>ples</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="plesati"><i>ples</i><par n="imperf_iv_pi/sati-pp__vblex"/></e>
 <e lm="odigrati"><i>odigr</i><par n="perf_tv/ati__vblex"/></e>
 <e lm="odigrati"><i>odigr</i><par n="perf_iv/ati__vblex"/></e>
 <e lm="osvajati"><i>osvaj</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="čestitati"><i>čestit</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="kretati"><i>kret</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="kretati"><i>kret</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="ispitati"><i>ispit</i><par n="perf_tv/ati__vblex"/></e>
 <e lm="ispitati"><i>ispit</i><par n="perf_iv/ati__vblex"/></e>
 <e lm="olakšati"><i>olakš</i><par n="perf_iv/ati__vblex"/></e>
@@ -15122,17 +15770,17 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="mijenjati"><i>mijenj</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="suprotstavljati"><i>suprotstavlj</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="suprotstavljati"><i>suprotstavlj</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="razmišljati"><i>razmišlj</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="razmišljati"><i>razmišlj</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <e lm="vježbati"><i>vježb</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="vježbati"><i>vježb</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="stvarati"><i>stvar</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="kazati"><i>kaz</i><par n="perf_tv/ati__vblex"/></e>
-<e lm="kazati"><i>kaz</i><par n="perf_iv/ati__vblex"/></e>
+<e lm="kazati"><i>ka</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="kazati"><i>ka</i><par n="perf_iv_di/zati__vblex"/></e>
 <e lm="odbijati"><i>odbij</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="kušati"><i>kuš</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="kušati"><i>kuš</i><par n="perf_tv/ati__vblex"/></e>
-<e lm="započinjati"><i>započinj</i><par n="imperf_tv/ati__vblex"/></e>
-<e lm="započinjati"><i>započinj</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="započinjati"><i>započin</i><par n="imperf_tv_počin/jati__vblex"/></e>
+<e lm="započinjati"><i>započin</i><par n="imperf_iv_počin/jati__vblex"/></e>
 <e lm="održati"><i>održ</i><par n="perf_iv/ati__vblex"/></e>
 <e lm="napuštati"><i>napušt</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="smetati"><i>smet</i><par n="imperf_tv/ati__vblex"/></e>
@@ -15143,7 +15791,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="čekati"><i>ček</i><par n="imperf_iv/ati__vblex"/></e>
 <e lm="plaćati"><i>plać</i><par n="imperf_tv/ati__vblex"/></e>
 <e lm="plaćati"><i>plać</i><par n="imperf_iv/ati__vblex"/></e>
-<e lm="sukljati"><i>suklj</i><par n="imperf_iv/ati__vblex"/></e>
+<e lm="sukljati"><i>suklj</i><par n="imperf_iv/ati-pp__vblex"/></e>
 <!--end verbs section-->
 
 <!--Adjective (adjective quadruples) -->
