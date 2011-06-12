@@ -19362,7 +19362,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="akcijski"><p><l>najakcijs</l><r>akcijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
 	<e lm="akcijski"><p><l>preakcijs</l><r>akcijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 	
-	<e lm="aleksandrijski"><i>aleksandrijs</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="aleksandrijski"><i>aleksandrijs</i><par n="pridjevs/ki__pst__adj"/></e><!--TODO: these can be adverbs only when it's not a capital letter-->
 	<e lm="aleksandrijski"><p><l>aleksandrijs</l><r>aleksandrijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
 	<e lm="aleksandrijski"><p><l>najaleksandrijs</l><r>aleksandrijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
 	<e lm="aleksandrijski"><p><l>prealeksandrijs</l><r>aleksandrijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
