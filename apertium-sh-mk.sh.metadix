@@ -14993,7 +14993,7 @@ after prepositions-->
    <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="Srb/ija__n">
+<pardef n="Jugoslav/ija__n">
 	   <e><p><l>ija</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>ije</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 	   <e><p><l>iju</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
@@ -23373,9 +23373,41 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Francuska"><i>Francu</i><par n="Hrvat/ska__n"/></e>
 <e lm="Švicarska"><i>Švicar</i><par n="Hrvat/ska__n"/></e><e lm="Švicarska"><i>Švicar</i><par n="Hrvat/ska__n"/></e><!--TODO: group these into modules-->
 <e lm="Švedska"><i>Šved</i><par n="Hrvat/ska__n"/></e>
-<e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__n"/></e><e lm="Španija"><i>Špan</i><par n="Srb/ija__n"/></e><!--TODO: group these into modules-->
-<e lm="Srbija"><i>Srb</i><par n="Srb/ija__n"/></e>
-<e lm="Jugoslavija"><i>Jugoslav</i><par n="Srb/ija__n"/></e>
+<e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__n"/></e><e lm="Španija"><i>Špan</i><par n="Jugoslav/ija__n"/></e><!--TODO: group these into modules-->
+<e lm="Srbija"><i>Srb</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Jugoslavija"><i>Jugoslav</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Albanija"><i>Alban</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Makedonija"><i>Makedon</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Rumunija"><i>Rumun</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Belgija"><i>Belg</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Holandija"><i>Holand</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Rusija"><i>Rus</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Slovenija"><i>Sloven</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Italija"><i>Ital</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Britanija"><i>Britan</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Austrija"><i>Austr</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Sofija"><i>Sof</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Libija"><i>Lib</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Moldavija"><i>Moldav</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Estonija"><i>Eston</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Australija"><i>Austral</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Litvanija"><i>Litvan</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Dalmacija"><i>Dalmac</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Nikozija"><i>Nikoz</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Letonija"><i>Leton</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Anatolija"><i>Anatol</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Arabija"><i>Arab</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Indija"><i>Ind</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Sirija"><i>Sir</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Kolumbija"><i>Kolumb</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Tripolija"><i>Tripol</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Transilvanija"><i>Transilvan</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Nigerija"><i>Niger</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Belorusija"><i>Belorus</i><par n="Jugoslav/ija__n"/></e>
+<e lm="Tbilisija"><i>Tbilis</i><par n="Jugoslav/ija__n"/></e>
+
+
+
 <e lm="Bačka"><i>Ba</i><par n="Ba/čka__n"/></e>
 <e lm="Njemačka"><i>N</i><par n="e_je__yat"/><i>ma</i><par n="Ba/čka__n"/></e>
 <e lm="Meka"><i>Me</i><par n="Me/ka__n"/></e>
