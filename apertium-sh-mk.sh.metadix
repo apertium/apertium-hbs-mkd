@@ -963,7 +963,7 @@ after prepositions-->
 <e r="LR"><p><l>kojima</l><r>koji<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 <!--Neuter-->
          <e><p><l>koja</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-   <e r="LR"><p><l>što</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	 <e r="LR"><p><l>što</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
         <e><p><l>kojih</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
          <e><p><l>koja</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
         <e><p><l>kojim</l><r>koji<s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
