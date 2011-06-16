@@ -15863,6 +15863,22 @@ after prepositions-->
  	   <e><p><l>ije</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
          <e><p><l>ijama</l><r>ija<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<pardef n="Portugal__n">
+	   <e><p><l></l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	   <e><p><l>a</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	   <e><p><l></l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>   
+	   <e><p><l>u</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	   <e><p><l>u</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>                
+	   <e><p><l>e</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+          <e><p><l>om</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	   <e><p><l>i</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+           <e><p><l>a</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	   <e><p><l>e</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>   
+	 <e><p><l>ima</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	 <e><p><l>ima</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>                
+ 	   <e><p><l>i</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+         <e><p><l>ima</l><r><s n="np"/><s n="top"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
 <pardef n="Ba/čka__n">
 	   <e><p><l>čka</l><r>čka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>čke</l><r>čka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -24230,6 +24246,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Nigerija"><i>Niger</i><par n="Srb/ija__n"/></e>
 <e lm="Bjelorusija"><i>B</i><par n="e_je__yat"/><i>lorus</i><par n="Srb/ija__n"/></e>
 <e lm="Gruzija"><i>Gruz</i><par n="Srb/ija__n"/></e>
+<e lm="Portugalija"><i>Portugal</i><par n="Srb/ija__n"/></e>
+<e lm="Portugal"><i>Portugal</i><par n="Portugal__n"/></e><!--Note: apparently both are used in Serbian, with preference of the former in the literary language-->
 
 
 
