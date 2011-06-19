@@ -1,4 +1,3 @@
-<!--Note: the marks are HR: SR: BS: in the lemma, to be separated with a script. The exclamation mark signifies that special attention needs to be given to the translation -->
 	<e><p><l>potpisivati</l><r>потпишува</r></p></e>
 	<e><p><l>skupljati</l><r>собира</r></p></e>
 	<e><p><l>ubijati</l><r>убива</r></p></e>
@@ -185,12 +184,11 @@
 	<e><p><l>preporučiti</l><r>препорача</r></p></e>
 	<e><p><l>čitati</l><r>чита</r></p></e>
 	<e><p><l>pisati</l><r>пишува</r></p></e>
-	
-		<e><p><l>igrati</l><r>игра</r></p></e>
+	<e><p><l>igrati</l><r>игра</r></p></e>
 	<e r="LR"><p><l>plesati</l><r>игра</r></p></e>
 	<e><p><l>zalagati</l><r>залага</r></p></e>
-	<e><p><l>SR:BS:sarađivati</l><r>соработува</r></p></e>
-	<e><p><l>HR:surađivati</l><r>соработува</r></p></e>
+	<e><p><l>sarađivati</l><r>соработува</r></p></e>
+	<e><p><l>surađivati</l><r>соработува</r></p></e>
 	<e><p><l>pregovarati</l><r>преговара</r></p></e>
 	<e><p><l>vježbati</l><r>вежба</r></p></e>
 	<e><p><l>produživati</l><r>продолжува</r></p></e>
@@ -203,8 +201,8 @@
 	<e><p><l>potpisivati</l><r>потпишува</r></p></e>
 	<e><p><l>gledati</l><r>гледа</r></p></e>
 	<e><p><l>glasati</l><r>гласа</r></p></e>
-	<e><p><l>HR:diskutirati</l><r>дискутира</r></p></e>
-	<e><p><l>SR:BS:diskutovati</l><r>дискутира</r></p></e>
+	<e><p><l>diskutirati</l><r>дискутира</r></p></e>
+	<e><p><l>diskutovati</l><r>дискутира</r></p></e>
 	<e><p><l>eksplodirati</l><r>експлодира</r></p></e>
 	<e><p><l>izbivati</l><r>избива</r></p></e>
 	<e><p><l>investirati</l><r>инвестира</r></p></e>
@@ -219,13 +217,13 @@
 	<e><p><l>ustati</l><r>станува</r></p></e>
 	<e><p><l>ostajati</l><r>останува</r></p></e>
 	<e><p><l>dolaziti</l><r>доаѓа</r></p></e>
-	<e><p><l>SR:BS:učestvovati</l><r>учествува</r></p></e>
-	<e><p><l>HR:sudjelovati</l><r>учествува</r></p></e>
+	<e><p><l>učestvovati</l><r>учествува</r></p></e>
+	<e><p><l>sudjelovati</l><r>учествува</r></p></e>
 	<e><p><l>ulaziti</l><r>влегува</r></p></e>
 	<e><p><l>izlaziti</l><r>излегува</r></p></e>
 	<e><p><l>vjerovati</l><r>верува</r></p></e>
-	<e><p><l>HR:BS:djelovati</l><r>дејствува</r></p></e>
-	<e><p><l>SR:dejstvovati</l><r>дејствува</r></p></e>
+	<e><p><l>djelovati</l><r>дејствува</r></p></e>
+	<e><p><l>dejstvovati</l><r>дејствува</r></p></e>
 	<e><p><l>crkavati</l><r>загинува</r></p></e>
 	<e><p><l>odlaziti</l><r>заминува</r></p></e>
 	<e><p><l>nadati</l><r>надева</r></p></e>
@@ -239,22 +237,22 @@
 	<e><p><l>prisustvovati</l><r>присуствува</r></p></e>
 	<e><p><l>proizlaziti</l><r>произлегува</r></p></e>
 	<e><p><l>odvijati</l><r>одвива</r></p></e>
-	<e><p><l>SR:BS:usaglašavati</l><r>согласува</r></p></e>
-	<e><p><l>HR:usuglašavati</l><r>согласува</r></p></e>
+	<e><p><l>usaglašavati</l><r>согласува</r></p></e>
+	<e><p><l>usuglašavati</l><r>согласува</r></p></e>
 	<e><p><l>sumnjati</l><r>сомнева</r></p></e>
 	<e><p><l>stupati</l><r>стапува</r></p></e>
 	<e><p><l>uspijevati</l><r>успева</r></p></e>
 	<e><p><l>izgledati</l><r>изгледа</r></p></e>
 	<e><p><l>uživati</l><r>ужива</r></p></e>
-	<e><p><l>HR:rezultirati</l><r>резултира</r></p></e>
-	<e><p><l>SR:BSrezultovati</l><r>резултира</r></p></e>
+	<e><p><l>rezultirati</l><r>резултира</r></p></e>
+	<e><p><l>rezultovati</l><r>резултира</r></p></e>
 	<e><p><l>formirati</l><r>формира</r></p></e>
 	<e><p><l>kompletirati</l><r>комплетира</r></p></e>
 	<e r="LR"><p><l>upotpuniti</l><r>комплетира</r></p></e>
 	<e><p><l>ubrzati</l><r>забрза</r></p></e>
 	<e><p><l>implementirati</l><r>имплементира</r></p></e>
-	<e><p><l>HR:interesirati</l><r>интензивира</r></p></e>
-	<e><p><l>SR:BS:interesovati</l><r>интензивира</r></p></e>
+	<e><p><l>interesirati</l><r>интензивира</r></p></e>
+	<e><p><l>interesovati</l><r>интензивира</r></p></e>
 	<e><p><l>stavljati</l><r>става</r></p></e>
 	<e><p><l>sazvati</l><r>свика</r></p></e>
 	<e><p><l>odnijeti</l><r>однесе</r></p></e>
@@ -306,8 +304,8 @@
 	<e><p><l>govoriti</l><r>говори</r></p></e>
 	<e><p><l>suditi</l><r>суди</r></p></e>
 	<e><p><l>boriti</l><r>бори</r></p></e>
-	<e><p><l>SR:BS:zavisiti</l><r>зависи</r></p></e>
-	<e><p><l>HR:ovisiti</l><r>зависи</r></p></e>
+	<e><p><l>zavisiti</l><r>зависи</r></p></e>
+	<e><p><l>ovisiti</l><r>зависи</r></p></e>
 	<e><p><l>zahvaliti</l><r>заблагодари</r></p></e>
 	<e><p><l>zahvaljivati</l><r>благодари</r></p></e>
 	<e><p><l>protiviti</l><r>противи</r></p></e>
@@ -315,13 +313,12 @@
 	<e><p><l>značiti</l><r>значи</r></p></e>
 	<e><p><l>slijediti</l><r>следи</r></p></e>
 	<e><p><l>činiti</l><r>чини</r></p></e>
-	<e><p><l>BS:SR:važiti</l><r>важи</r></p></e>
-	<e><p><l>HR:vrijediti</l><r>важи</r></p></e>
+	<e><p><l>važiti</l><r>важи</r></p></e>
+	<e><p><l>vrijediti</l><r>важи</r></p></e>
 	<e><p><l>navijestiti</l><r>навести</r></p></e>
 	<e><p><l>naznačiti</l><r>назначи</r></p></e>
 	<e><p><l>ohrabriti</l><r>охрабри</r></p></e>
 	<e><p><l>promijeniti</l><r>промени</r></p></e>
-	<e><p><l>veliti!</l><r>вели</r></p></e>
 	<e><p><l>objediniti</l><r>обедини</r></p></e>
 	<e><p><l>objelodaniti</l><r>обелодени</r></p></e>
 	<e><p><l>otpustiti</l><r>отпушти</r></p></e>
@@ -348,8 +345,8 @@
 	<e><p><l>zabilježiti</l><r>одбележи</r></p></e>
 	<e r="LR"><p><l>ubilježiti</l><r>одбележи</r></p></e>
 	<e><p><l>priskrbiti</l><r>осигури</r></p></e>
-	<e><p><l>HR:saopćiti</l><r>соопшти</r></p></e>
-	<e><p><l>SR:BS:saopštiti</l><r>соопшти</r></p></e>
+	<e><p><l>saopćiti</l><r>соопшти</r></p></e>
+	<e><p><l>saopštiti</l><r>соопшти</r></p></e>
 	<e><p><l>potvrditi</l><r>потврди</r></p></e>
 	<e><p><l>ojačati</l><r>засили</r></p></e>
 	<e><p><l>napraviti</l><r>направи</r></p></e>
@@ -426,16 +423,16 @@
 	<e><p><l>upisivati</l><r>впишува</r></p></e>
 	<e><p><l>urezivati</l><r>врежува</r></p></e>
 	<e><p><l>gladovati</l><r>гладува</r></p></e>
-	<e><p><l>HR:emitirati</l><r>емитува</r></p></e>
-	<e><p><l>BS:SR:emitovati</l><r>емитува</r></p></e>
+	<e><p><l>emitirati</l><r>емитува</r></p></e>
+	<e><p><l>emitovati</l><r>емитува</r></p></e>
 	<e><p><l>žrtvovati</l><r>жртвува</r></p></e>
 	<e><p><l>oprašta</l><r>збогува</r></p></e>
 	<e><p><l>govoriti</l><r>зборува</r></p></e>
 	<e r="LR"><p><l>zboriti</l><r>зборува</r></p></e>
 	<e><p><l>izučavati</l><r>изучува</r></p></e>
 	<e><p><l>imenovati</l><r>именува</r></p></e>
-	<e><p><l>HR:nominirati</l><r>номинира</r></p></e>
-	<e><p><l>SR:BS:nominovati</l><r>номинира</r></p></e>
+	<e><p><l>nominirati</l><r>номинира</r></p></e>
+	<e><p><l>nominovati</l><r>номинира</r></p></e>
 	<e><p><l>iseljavati</l><r>иселува</r></p></e>
 	<e><p><l>kažnjavati</l><r>казнува</r></p></e>
 	<e><p><l>linčovati</l><r>линчува</r></p></e>
@@ -451,8 +448,8 @@
 	<e><p><l>slijetati</l><r>слетува</r></p></e>
 	<e><p><l>smirivati</l><r>смирува</r></p></e>
 	<e r="LR"><p><l>umirivati</l><r>смирува</r></p></e>
-	<e><p><l>HR:spašavati</l><r>спасува</r></p></e>
-	<e><p><l>SR:BS:spasavati</l><r>спасува</r></p></e>
+	<e><p><l>spašavati</l><r>спасува</r></p></e>
+	<e><p><l>spasavati</l><r>спасува</r></p></e>
 	<e><p><l>spajati</l><r>спојува</r></p></e>
 	<e><p><l>rušiti</l><r>срушува</r></p></e>
 	<e><p><l>plesati</l><r>танцува</r></p></e>
@@ -489,9 +486,8 @@
 	<e><p><l>nagliti</l><r>избрзува</r></p></e>
 	<e><p><l>izvoditi</l><r>изведува</r></p></e>
 	<e><p><l>izvoziti</l><r>извезува</r></p></e>
-	<e><p><l>BS:SR:izvinjavati</l><r>извинува</r></p></e>
-	<e><p><l>HR:ispričavati</l><r>извинува</r></p></e>
-	<e><p><l>izvoziti!</l><r>извозува</r></p></e>
+	<e><p><l>izvinjavati</l><r>извинува</r></p></e>
+	<e><p><l>ispričavati</l><r>извинува</r></p></e>
 	<e><p><l>izvojevati</l><r>извојува</r></p></e>
 	<e><p><l>izdržavati</l><r>издржува</r></p></e>
 	<e><p><l>iziskivati</l><r>изискува</r></p></e>
@@ -569,15 +565,14 @@
 	<e><p><l>raseljavati</l><r>раселува</r></p></e>
 	<e><p><l>kvariti</l><r>расипува</r></p></e>
 	<e r="LR"><p><l>prolijevati</l><r>расипува</r></p></e>
-	<e><p><l>HR:riskirati</l><r>ризикува</r></p></e>
-	<e><p><l>SR:BS:rizikovati</l><r>ризикува</r></p></e>
+	<e><p><l>riskirati</l><r>ризикува</r></p></e>
+	<e><p><l>rizikovati</l><r>ризикува</r></p></e>
 	<e><p><l>sklapati</l><r>склучува</r></p></e>
 	<e><p><l>skraćivati</l><r>скратува</r></p></e>
 	<e><p><l>smještati</l><r>сместува</r></p></e>
 	<e><p><l>snabdijevati</l><r>снабдува</r></p></e>
 	<e><p><l>obarati</l><r>соборува</r></p></e>
 	<e><p><l>savjetovati</l><r>советува</r></p></e>
-	<e><p><l>baviti se sportom!</l><r>спортува</r></p></e>
 	<e><p><l>sužavati</l><r>стеснува</r></p></e>
 	<e><p><l>strahovati</l><r>стравува</r></p></e>
 	<e><p><l>ublažavati</l><r>ублажува</r></p></e>
@@ -592,7 +587,7 @@
 	<e><p><l>odgajati</l><r>воспитува</r></p></e>
 	<e><p><l>izobražavati</l><r>воспитува</r></p></e>
 	<e><p><l>naobražavati</l><r>воспитува</r></p></e>
-	<e><p><l>SR:vaspitati</l><r>воспитува</r></p></e>
+	<e><p><l>vaspitati</l><r>воспитува</r></p></e>
 	<e><p><l>približavati</l><r>доближува</r></p></e>
 	<e><p><l>dopunjavati</l><r>дополнува</r></p></e>
 	<e><p><l>zabrinjavati</l><r>загрижува</r></p></e>
@@ -627,14 +622,14 @@
 	<e><p><l>istrebljivati</l><r>истребува</r></p></e>
 	<e><p><l>ispucavati</l><r>истрелува</r></p></e>
 	<e><p><l>iščezavati</l><r>исчезнува</r></p></e>
-	<e><p><l>HR:komandirati</l><r>командува</r></p></e>
-	<e><p><l>SR:BS:komandovati</l><r>командува</r></p></e>
-	<e><p><l>SR:BS:krunisati</l><r>крунисува</r></p></e>
-	<e><p><l>HR:okrunjivati</l><r>крунисува</r></p></e>
+	<e><p><l>komandirati</l><r>командува</r></p></e>
+	<e><p><l>komandovati</l><r>командува</r></p></e>
+	<e><p><l>krunisati</l><r>крунисува</r></p></e>
+	<e><p><l>okrunjivati</l><r>крунисува</r></p></e>
 	<e><p><l>bližiti</l><r>наближува</r></p></e>
 	<e><p><l>nabrajati</l><r>набројува</r></p></e>
 	<e><p><l>promatrati</l><r>набљудува</r></p></e>
-	<e><p><l>BS:SR:posmatrati</l><r>набљудува</r></p></e>
+	<e><p><l>posmatrati</l><r>набљудува</r></p></e>
 	<e><p><l>navodnjavati</l><r>наводнува</r></p></e>
 	<e r="LR"><p><l>plaviti</l><r>наводнува</r></p></e>
 	<e><p><l>vrijeđati</l><r>навредува</r></p></e>
@@ -651,7 +646,7 @@
 	<e><p><l>odbrojavati</l><r>одбројува</r></p></e>
 	<e><p><l>odvlačiti</l><r>одвлекува</r></p></e>
 	<e><p><l>odgajati</l><r>одгледува</r></p></e>
-	<e><p><l>SR:odgajivati</l><r>одгледува</r></p></e>
+	<e><p><l>odgajivati</l><r>одгледува</r></p></e>
 	<e><p><l>oduživati</l><r>оддолжува</r></p></e>
 	<e><p><l>odmrzavati</l><r>одмрзнува</r></p></e>
 	<e><p><l>ozdravljivati</l><r>оздравува</r></p></e>
@@ -717,8 +712,8 @@
 	<e><p><l>protjecati</l><r>протекува</r></p></e>
 	<e><p><l>procurivati</l><r>протечува</r></p></e>
 	<e><p><l>pročitati</l><r>прочитува</r></p></e>
-	<e><p><l>SR:BS:publikovati</l><r>публикува</r></p></e>
-	<e><p><l>HR:publicirati</l><r>публикува</r></p></e>
+	<e><p><l>publikovati</l><r>публикува</r></p></e>
+	<e><p><l>publicirati</l><r>публикува</r></p></e>
 	<e><p><l>objelodaniti</l><r>публикува</r></p></e>
 	<e><p><l>razgorivati</l><r>разгорува</r></p></e>
 	<e><p><l>razdjeljivati</l><r>разделува</r></p></e>
@@ -732,17 +727,17 @@
 	<e><p><l>sastavljati</l><r>составува</r></p></e>
 	<e><p><l>dijeliti</l><r>споделува</r></p></e>
 	<e><p><l>spominjati</l><r>споменува</r></p></e>
-	<e><p><l>BS:SR:upoređivati</l><r>споредува</r></p></e>
-	<e><p><l>HR:uspoređivati</l><r>споредува</r></p></e>
+	<e><p><l>upoređivati</l><r>споредува</r></p></e>
+	<e><p><l>uspoređivati</l><r>споредува</r></p></e>
 	<e><p><l>usložnjavati</l><r>усложнува</r></p></e>
 	<e><p><l>osjećati</l><r>чувствува</r></p></e>
 	<e><p><l>ćutjeti</l><r>чувствува</r></p></e>
-	<e><p><l>BS:SR:ćuvstvovati</l><r>чувствува</r></p></e>
-	<e><p><l>HR:štrajkati</l><r>штрајкува</r></p></e>
-	<e><p><l>SR:BS:štrajkovati</l><r>штрајкува</r></p></e>
+	<e><p><l>ćuvstvovati</l><r>чувствува</r></p></e>
+	<e><p><l>štrajkati</l><r>штрајкува</r></p></e>
+	<e><p><l>štrajkovati</l><r>штрајкува</r></p></e>
 	<e><p><l>posredovati</l><r>посредува</r></p></e>
-	<e><p><l>HR:verificirati</l><r>верификува</r></p></e>
-	<e><p><l>SR:BSverificirati</l><r>верификува</r></p></e>
+	<e><p><l>verificirati</l><r>верификува</r></p></e>
+	<e><p><l>verificirati</l><r>верификува</r></p></e>
 	<e><p><l>zabilježivati</l><r>забележува</r></p></e>
 	<e><p><l>zadovoljavati</l><r>задоволува</r></p></e>
 	<e r="LR"><p><l>ozdravljivati</l><r>заздравува</r></p></e>
@@ -761,13 +756,13 @@
 	<e><p><l>iskorjenjivati</l><r>искоренува</r></p></e>
 	<e><p><l>ispražnjavati</l><r>испразнува</r></p></e>
 	<e r="LR"><p><l>prazniti</l><r>испразнува</r></p></e>
-	<e><p><l>BS:SR:komplikovati</l><r>компликува</r></p></e>
-	<e><p><l>HR:komplicirati</l><r>компликува</r></p></e>
-	<e><p><l>BS:SR:konfiskovati</l><r>конфискува</r></p></e>
-	<e><p><l>HR:konfiscirati</l><r>конфискува</r></p></e>
+	<e><p><l>komplikovati</l><r>компликува</r></p></e>
+	<e><p><l>komplicirati</l><r>компликува</r></p></e>
+	<e><p><l>konfiskovati</l><r>конфискува</r></p></e>
+	<e><p><l>konfiscirati</l><r>конфискува</r></p></e>
 	<e><p><l>zaplijeniti</l><r>конфискува</r></p></e>
-	<e><p><l>BS:SR:modifikovati</l><r>модификува</r></p></e>
-	<e><p><l>HR:modificirati</l><r>модификува</r></p></e>
+	<e><p><l>modifikovati</l><r>модификува</r></p></e>
+	<e><p><l>modificirati</l><r>модификува</r></p></e>
 	<e><p><l>nagrađivati</l><r>надградува</r></p></e>
 	<e><p><l>obrađivati</l><r>обработува</r></p></e>
 	<e><p><l>udaljavati</l><r>оддалечува</r></p></e>
@@ -784,10 +779,9 @@
 	<e><p><l>pothranjivati</l><r>потхранува</r></p></e>
 	<e><p><l>osjetiti</l><r>почувстува</r></p></e>
 	<e r="LR"><p><l>oćutjeti</l><r>почувстува</r></p></e>
-	<e><p><l>HR:prakticirati</l><r>практикува</r></p></e>
-	<e><p><l>BS:SR:praktikovati</l><r>практикува</r></p></e>
+	<e><p><l>prakticirati</l><r>практикува</r></p></e>
+	<e><p><l>praktikovati</l><r>практикува</r></p></e>
 	<e><p><l>prebrojavati</l><r>пребројува</r></p></e>
-	<e><p><l>ponovno glasati!</l><r>прегласува</r></p></e>
 	<e><p><l>pregledavati</l><r>прегледува</r></p></e>
 	<e><p><l>preimenovati</l><r>преименува</r></p></e>
 	<e><p><l>premještati</l><r>преместува</r></p></e>
@@ -804,7 +798,7 @@
 	<e><p><l>proslavljivati</l><r>прославува</r></p></e>
 	<e><p><l>pročišćavati</l><r>прочистува</r></p></e>
 	<e><p><l>uzburkati</l><r>разбранува</r></p></e>
-	<e><p><l>BS:SR:zatalasati</l><r>разбранува</r></p></e>
+	<e><p><l>zatalasati</l><r>разбранува</r></p></e>
 	<e><p><l>razdvajati</l><r>раздвојува</r></p></e>
 	<e><p><l>razmještati</l><r>разместува</r></p></e>
 	<e><p><l>razoružavati</l><r>разоружува</r></p></e>
@@ -812,18 +806,18 @@
 	<e><p><l>uljepšavati</l><r>разубавува</r></p></e>
 	<e><p><l>razjašnjavati</l><r>разјаснува</r></p></e>
 	<e><p><l>raščišćavati</l><r>расчистува</r></p></e>
-	<e><p><l>HR:ratificirati</l><r>ратифукува</r></p></e>
-	<e><p><l>BS:SR:ratifikovati</l><r>ратифукува</r></p></e>
+	<e><p><l>ratificirati</l><r>ратифукува</r></p></e>
+	<e><p><l>ratifikovati</l><r>ратифукува</r></p></e>
 	<e><p><l>upotrebljavati</l><r>употребува</r></p></e>
-	<e><p><l>HR:usuglašavati</l><r>усогласува</r></p></e>
-	<e><p><l>SR:BS:usaglašavati</l><r>усогласува</r></p></e>
+	<e><p><l>usuglašavati</l><r>усогласува</r></p></e>
+	<e><p><l>usaglašavati</l><r>усогласува</r></p></e>
 	<e><p><l>uznemiravati</l><r>вознемирува</r></p></e>
 	<e><p><l>oduševljavati</l><r>воодушевува</r></p></e>
 	<e><p><l>doprinositi</l><r>допринесува</r></p></e>
 	<e><p><l>zaobilaziti</l><r>заобиколува</r></p></e>
 	<e><p><l>iskorištavati</l><r>искористува</r></p></e>
-	<e><p><l>HR:kvalificirati</l><r>квалификува</r></p></e>
-	<e><p><l>SR:BSkvalifikovati</l><r>квалификува</r></p></e>
+	<e><p><l>kvalificirati</l><r>квалификува</r></p></e>
+	<e><p><l>kvalifikovati</l><r>квалификува</r></p></e>
 	<e><p><l>obeštećivati</l><r>обесштетува</r></p></e>
 	<e><p><l>obrazlagati</l><r>образложува</r></p></e>
 	<e><p><l>osjećati</l><r>почувствува</r></p></e>
@@ -840,21 +834,20 @@
 	<e><p><l>razrađivati</l><r>разработува</r></p></e>
 	<e><p><l>raspoloživati</l><r>расположува</r></p></e>
 	<e><p><l>rasterećivati</l><r>растоварува</r></p></e>
-	<e><p><l>HR:suosjećati</l><r>сочувствува</r></p></e>
-	<e><p><l>SR:BS:saosjećati</l><r>сочувствува</r></p></e>
-	<e><p><l>BS:SR:gazdovati</l><r>стопанисува</r></p></e>
+	<e><p><l>suosjećati</l><r>сочувствува</r></p></e>
+	<e><p><l>saosjećati</l><r>сочувствува</r></p></e>
+	<e><p><l>gazdovati</l><r>стопанисува</r></p></e>
 	<e><p><l>šefovati</l><r>стопанисува</r></p></e>
-	<e><p><l>BS:SR:falsifikovati</l><r>фалсификува</r></p></e>
-	<e><p><l>HR:falsificirati</l><r>фалсификува</r></p></e>
+	<e><p><l>falsifikovati</l><r>фалсификува</r></p></e>
+	<e><p><l>falsificirati</l><r>фалсификува</r></p></e>
 	<e><p><l>blagoslivljati</l><r>благословува</r></p></e>
-	<e><p><l>opskrbljivati vodom!</l><r>водоснабдува</r></p></e>
-	<e><p><l>SR:BS:identifikovati</l><r>идентификува</r></p></e>
-	<e><p><l>HR:identificirati</l><r>идентификува</r></p></e>
+	<e><p><l>identifikovati</l><r>идентификува</r></p></e>
+	<e><p><l>identificirati</l><r>идентификува</r></p></e>
 	<e><p><l>nadmetati</l><r>натпреварува</r></p></e>
 	<e><p><l>obeshrabrivati</l><r>обесхрабрува</r></p></e>
 	<e><p><l>onemogućavati</l><r>оневозможува</r></p></e>
-	<e><p><l>HR:osuvremenjivati</l><r>осовременува</r></p></e>
-	<e><p><l>BS:osavremenjivati</l><r>осовременува</r></p></e>
+	<e><p><l>osuvremenjivati</l><r>осовременува</r></p></e>
+	<e><p><l>osavremenjivati</l><r>осовременува</r></p></e>
 	<e><p><l>predstavljati</l><r>претстатвува</r></p></e>
 	<e><p><l>preuveličavati</l><r>преувеличува</r></p></e>
 	<e><p><l>prilagođavati</l><r>приспособува</r></p></e>
@@ -864,11 +857,10 @@
 	<e><p><l>zloupotrebljavati</l><r>злоупотребува</r></p></e>
 	<e><p><l>odugovlačiti</l><r>одолговлекува</r></p></e>
 	<e><p><l>pojednostavljivati</l><r>поедноставува</r></p></e>
-	<e><p><l>HR:diskvalificirati</l><r>дисквалификува</r></p></e>
-	<e><p><l>SR:BSdiskvalifikovati</l><r>дисквалификува</r></p></e>
+	<e><p><l>diskvalificirati</l><r>дисквалификува</r></p></e>
+	<e><p><l>diskvalifikovati</l><r>дисквалификува</r></p></e>
 	<e><p><l>preraspodjeljivati</l><r>прераспоредува</r></p></e>
 	<e><p><l>rasprostranjivati</l><r>распространува</r></p></e>
-	<e><p><l>neodgovara!</l><r>несоодветствува</r></p></e>
 	<e><p><l>predsjedati</l><r>претседателствува</r></p></e>
 	<e><p><l>zadavati</l><r>задава</r></p></e>
 	<e><p><l>zauzimati</l><r>зазема</r></p></e>
@@ -912,7 +904,6 @@
 	<e><p><l>pogledati</l><r>погледа</r></p></e>
 	<e><p><l>sagledati</l><r>согледа</r></p></e>
 	<e><p><l>pomagati</l><r>спомага</r></p></e>
-	<e><p><l>htjeti!</l><r>присака</r></p></e>
 	<e><p><l>pričekati</l><r>причека</r></p></e>
 	<e><p><l>zagledati</l><r>загледа</r></p></e>
 	<e><p><l>nagledati</l><r>нагледа</r></p></e>
@@ -940,18 +931,18 @@
 	<e><p><l>pretplaćivati</l><r>претплаќа</r></p></e>
 	<e><p><l>proputovati</l><r>пропатува</r></p></e>
 	<e><p><l>pripovijedati</l><r>раскажува</r></p></e>
-	<e><p><l>HR:deblokirati</l><r>деблокира</r></p></e>
-	<e><p><l>SR:BSdeblokovati</l><r>деблокира</r></p></e>
+	<e><p><l>deblokirati</l><r>деблокира</r></p></e>
+	<e><p><l>deblokovati</l><r>деблокира</r></p></e>
 	<e><p><l>prekriti</l><r>допокрива</r></p></e>
 	<e r="RL"><p><l>pogledati</l><r>позагледа</r></p></e>
 	<e><p><l>pretplaćivati</l><r>претплаќа</r></p></e>
-	<e><p><l>ubijati<s n="imperf"/><s n="refl"/></l><r>самоубива<s n="imperf"/><s n="iv"/></r></p></e>
+	<e><p><l>ubijati<s n="imperf"/><s n="ref"/></l><r>самоубива<s n="imperf"/><s n="iv"/></r></p></e>
 	<e><p><l>potpomagati</l><r>потпомага</r></p></e>
 	<e><p><l>isplanirati</l><r>испланира</r></p></e>
 	<e><p><l>nadirati</l><r>навлегува</r></p></e>
 	<e><p><l>nastajati</l><r>настанува</r></p></e>
-	<e><p><l>HR:odblokirati</l><r>одблокира</r></p></e>
-	<e><p><l>BS:SR:odblokovati</l><r>одблокира</r></p></e>
+	<e><p><l>odblokirati</l><r>одблокира</r></p></e>
+	<e><p><l>odblokovati</l><r>одблокира</r></p></e>
 	<e><p><l>odstupati</l><r>отстапува</r></p></e>
 	<e><p><l>postupati</l><r>постапува</r></p></e>
 	<e><p><l>previdjeti</l><r>недогледа</r></p></e>
@@ -963,8 +954,8 @@
 	<e><p><l>razuvjeravati</l><r>разубедува</r></p></e>
 	<e><p><l>defokusirati</l><r>дефокусира</r></p></e>
 	<e><p><l>doreći</l><r>доискажува</r></p></e>
-	<e><p><l>HR:redefinirati</l><r>редефинира</r></p></e>
-	<e><p><l>SR:BS:redefinisati</l><r>редефинира</r></p></e>
+	<e><p><l>redefinirati</l><r>редефинира</r></p></e>
+	<e><p><l>redefinisati</l><r>редефинира</r></p></e>
 	<e><p><l>razgledati</l><r>доразгледа</r></p></e>
 	<e><p><l>izrecitirati</l><r>изрецитира</r></p></e>
 	<e><p><l>prestajati</l><r>престанува</r></p></e>
@@ -978,39 +969,39 @@
 	<e><p><l>izgraditi</l><r>доизградува</r></p></e>
 	<e><p><l>objasniti</l><r>дообјаснува</r></p></e>
 	<e><p><l>kofinancirati</l><r>кофинансира</r></p></e>
-	<e><p><l>HR:podiskutira</l><r>подискутира</r></p></e>
-	<e><p><l>BS:SRpodiskutuje</l><r>подискутира</r></p></e>
+	<e><p><l>podiskutira</l><r>подискутира</r></p></e>
+	<e><p><l>podiskutuje</l><r>подискутира</r></p></e>
 	<e><p><l>reinvestirati</l><r>реинвестира</r></p></e>
 	<e><p><l>suprotstavljati</l><r>сопоставува</r></p></e>
 	<e><p><l>zapričati</l><r>заприкажува</r></p></e>
 	<e><p><l>napričati</l><r>наприкажува</r></p></e>
 	<e><p><l>popričati</l><r>поприкажува</r></p></e>
-	<e><p><l>SR:BS:izdejstvovati</l><r>издејствува</r></p></e>
+	<e><p><l>izdejstvovati</l><r>издејствува</r></p></e>
 	<e r="LR"><p><l>isposlovati</l><r>издејствува</r></p></e>
 	<e r="LR"><p><l>izraditi</l><r>издејствува</r></p></e>
-	<e><p><l>BS:SR:iskritikovati</l><r>искритикува</r></p></e>
-	<e><p><l>HR:iskritikovati</l><r>искритикува</r></p></e>
-	<e><p><l>HR:prodiskutirati</l><r>подискутира</r></p></e>
-	<e><p><l>HR:SR:prodiskutovati</l><r>подискутира</r></p></e>
+	<e><p><l>iskritikovati</l><r>искритикува</r></p></e>
+	<e><p><l>iskritikovati</l><r>искритикува</r></p></e>
+	<e><p><l>prodiskutirati</l><r>подискутира</r></p></e>
+	<e><p><l>prodiskutovati</l><r>подискутира</r></p></e>
 	<e><p><l>reinvestirati</l><r>реинвестира</r></p></e>
-	<e><p><l>BS:SR:saučestvovati</l><r>соучествува</r></p></e>
+	<e><p><l>saučestvovati</l><r>соучествува</r></p></e>
 	<e><p><l>sudjelovati</l><r>соучествува</r></p></e>
 	<e><p><l>porazgovarati</l><r>поразговара</r></p></e>
 	<e><p><l>prepričavati</l><r>прераскажува</r></p></e>
 	<e><p><l>preobražavati</l><r>видоизменува</r></p></e>
-	<e><p><l>HR:dezinformirati</l><r>дезинформира</r></p></e>
-	<e><p><l>SR:BS:dezinformisati</l><r>дезинформира</r></p></e>
+	<e><p><l>dezinformirati</l><r>дезинформира</r></p></e>
+	<e><p><l>dezinformisati</l><r>дезинформира</r></p></e>
 	<e><p><l>prenaglašavati</l><r>пренагласува</r></p></e>
-	<e><p><l>HR:reorganizirati</l><r>реорганизира</r></p></e>
-	<e><p><l>SR:BS:reorganizovati</l><r>реорганизира</r></p></e>
+	<e><p><l>reorganizirati</l><r>реорганизира</r></p></e>
+	<e><p><l>reorganizovati</l><r>реорганизира</r></p></e>
 	<e r="LR"><p><l>samooptuživati</l><r>самообвинува</r></p></e>
 	<e><p><l>samookrivljavati</l><r>самообвинува</r></p></e>
 	<e><p><l>samoupravljati</l><r>самоуправува</r></p></e>
 	<e><p><l>djelovati</l><r>воздејствува</r></p></e>
 	<e><p><l>potpomagati</l><r>потпомогнува</r></p></e>
 	<e><p><l>pretpostavljati</l><r>претпоставува</r></p></e>
-	<e><p><l>HR:dezorganizirati</l><r>дезорганизира</r></p></e>
-	<e><p><l>SR:BS:dezorganizovati</l><r>дезорганизира</r></p></e>
+	<e><p><l>dezorganizirati</l><r>дезорганизира</r></p></e>
+	<e><p><l>dezorganizovati</l><r>дезорганизира</r></p></e>
 	<e><p><l>ispričati</l><r>изнаприкажува</r></p></e>
 	<e><p><l>samozaštićivati</l><r>самозаштитува</r></p></e>
 	<e><p><l>samoizgrađivati</l><r>самоизградува</r></p></e>
@@ -1018,9 +1009,7 @@
 	<e><p><l>samoograničavati</l><r>самоограничува</r></p></e>
 	<e><p><l>samoopredjeljivati</l><r>самоопределува</r></p></e>
 	<e><p><l>doznati</l><r>узнае</r></p></e>
-	<e><p><l>počne ići!</l><r>заоди</r></p></e>
 	<e><p><l>zasijati</l><r>засее</r></p></e>
-	<e><p><l>prehodati!</l><r>изоди</r></p></e>
 	<e><p><l>zasijati</l><r>насее</r></p></e>
 	<e><p><l>zasijati</l><r>отсее</r></p></e>
 	<e><p><l>prehodati</l><r>пооди</r></p></e>
@@ -1145,28 +1134,28 @@
 	<e><p><l>samoopredijeliti</l><r>самоопредели</r></p></e>
 	<e><p><l>odlučiti</l><r>одлучи</r></p></e>
 	<e><p><l>staviti</l><r>стави</r></p></e>
-	<e><p><l>BS:SR:obezbjeđivati</l><r>обезбедува</r></p></e>
-	<e><p><l>BS:SR:osiguravati</l><r>обезбедува</r></p></e>
+	<e><p><l>obezbjeđivati</l><r>обезбедува</r></p></e>
+	<e><p><l>osiguravati</l><r>обезбедува</r></p></e>
 	<e><p><l>izjasniti</l><r>изјасни</r></p></e>
 	<e><p><l>odlučiti</l><r>одлучи</r></p></e>
 	<e><p><l>usvajati</l><r>усвојува</r></p></e>
 	<e><p><l>postizati</l><r>постигнува</r></p></e>
 	<e><p><l>založiti</l><r>заложи</r></p></e>
-	<e><p><l>HR:kontrolirati</l><r>контролира</r></p></e>
-	<e><p><l>SR:BS:kontrolisati</l><r>контролира</r></p></e>
+	<e><p><l>kontrolirati</l><r>контролира</r></p></e>
+	<e><p><l>kontrolisati</l><r>контролира</r></p></e>
 	<e><p><l>odvojiti</l><r>одвои</r></p></e>
 	<e><p><l>ubiti</l><r>убие</r></p></e>
-	<e><p><l>HR:eliminirati</l><r>елиминира</r></p></e>
-	<e><p><l>SR:BS:eliminisati</l><r>елиминира</r></p></e>
-	<e><p><l>HR:regulirati</l><r>регулира</r></p></e>
-	<e><p><l>SR:BS:regulisati</l><r>регулира</r></p></e>
-	<e><p><l>HR:reformirati</l><r>реформира</r></p></e>
-	<e><p><l>SR:BS:reformisati</l><r>реформира</r></p></e>
+	<e><p><l>eliminirati</l><r>елиминира</r></p></e>
+	<e><p><l>eliminisati</l><r>елиминира</r></p></e>
+	<e><p><l>regulirati</l><r>регулира</r></p></e>
+	<e><p><l>regulisati</l><r>регулира</r></p></e>
+	<e><p><l>reformirati</l><r>реформира</r></p></e>
+	<e><p><l>reformisati</l><r>реформира</r></p></e>
 	<e><p><l>položiti</l><r>положи</r></p></e>
 	<e><p><l>podići</l><r>подигне</r></p></e>
 	<e><p><l>izglasati</l><r>изгласа</r></p></e>
-	<e><p><l>HR:koordinirati</l><r>координира</r></p></e>
-	<e><p><l>BS:SR:koordinisati</l><r>координира</r></p></e>
+	<e><p><l>koordinirati</l><r>координира</r></p></e>
+	<e><p><l>koordinisati</l><r>координира</r></p></e>
 	<e><p><l>bojkotirati</l><r>бојкотира</r></p></e>
 	<e><p><l>dozvoliti</l><r>дозволи</r></p></e>
 	<e><p><l>svjedočiti</l><r>сведочи</r></p></e>
@@ -1178,16 +1167,16 @@
 	<e><p><l>doživjeti</l><r>доживее</r></p></e>
 	<e><p><l>preživjeti</l><r>преживее</r></p></e>
 	<e><p><l>bazirati</l><r>базира</r></p></e>
-	<e><p><l>HR:finalizirati</l><r>финализира</r></p></e>
-	<e><p><l>HR:finalizovati</l><r>финализира</r></p></e>
+	<e><p><l>finalizirati</l><r>финализира</r></p></e>
+	<e><p><l>finalizovati</l><r>финализира</r></p></e>
 	<e><p><l>prati</l><r>пере</r></p></e>
 	<e><p><l>zabilježiti</l><r>забележи</r></p></e>
-	<e><p><l>HR:realizirati</l><r>реализира</r></p></e>
-	<e><p><l>SR:BS:realizovati</l><r>реализира</r></p></e>
-	<e><p><l>HR:apelirati</l><r>апелира</r></p></e>
-	<e><p><l>SR:BS:apelovati</l><r>апелира</r></p></e>
-	<e><p><l>HR:tolerirati</l><r>толерира</r></p></e>
-	<e><p><l>SR:BS:tolerisati</l><r>толерира</r></p></e>
+	<e><p><l>realizirati</l><r>реализира</r></p></e>
+	<e><p><l>realizovati</l><r>реализира</r></p></e>
+	<e><p><l>apelirati</l><r>апелира</r></p></e>
+	<e><p><l>apelovati</l><r>апелира</r></p></e>
+	<e><p><l>tolerirati</l><r>толерира</r></p></e>
+	<e><p><l>tolerisati</l><r>толерира</r></p></e>
 	<e><p><l>aplicirati</l><r>аплицира</r></p></e>
 	<e><p><l>presjeći</l><r>пресече</r></p></e>
 	<e><p><l>raniti</l><r>рани</r></p></e>
@@ -1196,8 +1185,8 @@
 	<e><p><l>iščeznuti</l><r>исчезне</r></p></e>
 	<e><p><l>inicirati</l><r>иницира</r></p></e>
 	<e><p><l>zamrznuti</l><r>замрзне</r></p></e>
-	<e><p><l>HR:harmonizirati</l><r>хармонизира</r></p></e>
-	<e><p><l>SR:BS:harmonizovati</l><r>хармонизира</r></p></e>
+	<e><p><l>harmonizirati</l><r>хармонизира</r></p></e>
+	<e><p><l>harmonizovati</l><r>хармонизира</r></p></e>
 	<e><p><l>donirati</l><r>донира</r></p></e>
 	<e><p><l>zakazati</l><r>закаже</r></p></e>
 	<e><p><l>zabaviti</l><r>забави</r></p></e>
@@ -1205,3 +1194,340 @@
 	<e><p><l>raspolagati</l><r>располага</r></p></e>
 	<e><p><l>odgovarati</l><r>одговара</r></p></e>
 	<e><p><l>nametnuti</l><r>наметне</r></p></e>
+	<e><p><l>duvati</l><r>дува</r></p></e>
+	<e><p><l>garantirati</l><r>гарантира</r></p></e>
+	<e><p><l>garantovati</l><r>гарантира</r></p></e>
+	<e><p><l>raditi</l><r>прави</r></p></e><!--Note 'praviti' and 'raditi' are both equaly often used in ,  and RS, however-->
+	<e><p><l>praviti</l><r>прави</r></p></e><!-- in this case these are the preferences -->
+	<e><p><l>složiti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>согласи<b/>се<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	<e><p><l>saglasiti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>согласи<b/>се<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	<e><p><l>prezentirati</l><r>презентира</r></p></e>
+	<e><p><l>prezentovati</l><r>презентира</r></p></e>
+	<e><p><l>češati</l><r>чеша</r></p></e>
+	<e><p><l>kopati</l><r>копа</r></p></e>
+	<e><p><l>plivati</l><r>плива</r></p></e>
+	<e><p><l>letjeti</l><r>лета</r></p></e>
+	<e><p><l>ležati</l><r>лежи</r></p></e>
+	<e><p><l>sjediti</l><r>седи</r></p></e>
+	<e><p><l>vrtjeti</l><r>врти</r></p></e>
+	<e><p><l>padati</l><r>паѓа</r></p></e>
+	<e><p><l>stiskati</l><r>стиска</r></p></e>
+	<e><p><l>brisati</l><r>брише</r></p></e>
+	<e><p><l>vući</l><r>влече</r></p></e>
+	<e><p><l>gurati</l><r>турка</r></p></e>
+	<e><p><l>baciti</l><r>фрла</r></p></e>
+	<e r="LR"><p><l>šiti</l><r>шие</r></p></e>
+	<e><p><l>šivati</l><r>шие</r></p></e>
+	<e><p><l>ploviti</l><r>плови</r></p></e>
+	<e><p><l>teći</l><r>тече</r></p></e>
+	<e r="LR"><p><l>curiti</l><r>тече</r></p></e>
+	<e r="LR"><p><l>strujati</l><r>тече</r></p></e>
+	<e><p><l>čitati</l><r>чита</r></p></e>
+	<e><p><l>disati</l><r>дише</r></p></e>
+	<e><p><l>udisati</l><r>вдишува</r></p></e>
+	<e><p><l>grebati</l><r>гребе</r></p></e>
+	<e><p><l>puhati</l><r>дува</r></p></e>
+	<e><p><l>duvati</l><r>дува</r></p></e>
+	<e r="LR"><p><l>duhati</l><r>дува</r></p></e>
+	<e><p><l>loviti</l><r>ловува</r></p></e>
+	<e><p><l>udarati</l><r>удира</r></p></e>
+	<e><p><l>okarakterizirati</l><r>окарактеризира</r></p></e>
+	<e><p><l>pljuvati</l><r>плука</r></p></e>
+	<e><p><l>donijeti</l><r>донесе</r></p></e>
+	<e><p><l>nazvati</l><r>нарече</r></p></e>
+	<e><p><l>privući</l><r>привлече</r></p></e>
+	<e><p><l>reći</l><r>рече</r></p></e>
+	<e><p><l>ući</l><r>влезе</r></p></e>
+	<e r="LR"><p><l>uleći</l><r>влезе</r></p></e>
+	<e><p><l>izaći</l><r>излезе</r></p></e>
+	<e r="LR"><p><l>izići</l><r>излезе</r></p></e>
+	<e><p><l>proizaći</l><r>произлезе</r></p></e>
+	<e><p><l>ostvariti</l><r>оствари</r></p></e>
+	<e><p><l>oštetiti</l><r>оштети</r></p></e>
+	<e><p><l>suočiti</l><r>соочи</r></p></e>
+	<e><p><l>dati</l><r>даде</r></p></e>
+	<e><p><l>sazdati</l><r>создаде</r></p></e>
+	<e r="LR"><p><l>stvoriti</l><r>создаде</r></p></e>
+	<e><p><l>jesti</l><r>јаде</r></p></e>
+	<e><p><l>dodijeliti</l><r>додели</r></p></e>
+	<e><p><l>izdati</l><r>издаде</r></p></e>
+	<e><p><l>podnijeti</l><r>поднесе</r></p></e>
+	<e><p><l>predati</l><r>предаде</r></p></e>
+	<e><p><l>prodati</l><r>продаде</r></p></e>
+	<e><p><l>doći</l><r>дојде</r></p></e>
+	<e><p><l>ukinuti</l><r>укине</r></p></e>
+	<e><p><l>poginuti</l><r>загине</r></p></e>
+	<e r="LR"><p><l>izgubiti</l><r>загине</r></p></e><!--Ambiguity-->
+	<e><p><l>otići</l><r>замине</r></p></e>
+	<e><p><l>ostati</l><r>остане</r></p></e>
+	<e><p><l>pasti</l><r>падне</r></p></e>
+	<e><p><l>pomoći</l><r>помогне</r></p></e>
+	<e><p><l>proći</l><r>помине</r></p></e>
+	<e r="LR"><p><l>provesti</l><r>помине</r></p></e>
+	<e><p><l>počinuti</l><r>почине</r></p></e>
+	<e><p><l>stati</l><r>стане</r></p></e>
+	<e><p><l>sjesti</l><r>седне</r></p></e>
+	<e><p><l>pozvati</l><r>повика</r></p></e>
+	<e><p><l>vratiti</l><r>врати</r></p></e>
+	<e r="LR"><p><l>uzvratiti</l><r>врати</r></p></e>
+	<e><p><l>započeti</l><r>започне</r></p></e>
+	<e><p><l>otpočeti</l><r>отпочне</r></p></e>
+	<e><p><l>napasti</l><r>нападне</r></p></e>
+	<e><p><l>napustiti</l><r>напушти</r></p></e>
+	<e><p><l>obrnuti</l><r>обрне</r></p></e>
+	<e r="LR"><p><l>izvrnuti</l><r>обрне</r></p></e>
+	<e r="LR"><p><l>okrenuti</l><r>обрне</r></p></e>
+	<e r="LR"><p><l>obratiti</l><r>обрне</r></p></e>
+	<e r="LR"><p><l>prevrnuti</l><r>обрне</r></p></e>
+	<e><p><l>početi</l><r>почне</r></p></e>
+	<e><p><l>rasporediti</l><r>распореди</r></p></e>
+	<e><p><l>pisati</l><r>пишува</r></p></e>
+	<e><p><l>suočavati</l><r>соочува</r></p></e>
+	<e><p><l>rješavati</l><r>решава</r></p></e>
+	<e><p><l>otkazivati</l><r>откажува</r></p></e>
+	<e><p><l>otkrivati</l><r>открива</r></p></e>
+	<e><p><l>objavljivati</l><r>објавува</r></p></e>
+	<e><p><l>predlagati</l><r>предлага</r></p></e>
+	<e><p><l>dozvoljavati</l><r>дозволува</r></p></e>
+	<e><p><l>osnaživati</l><r>засилува</r></p></e>
+	<e><p><l>potvrđivati</l><r>потврдува</r></p></e>
+	<e><p><l>primati</l><r>прима</r></p></e>
+	<e><p><l>ostavljati</l><r>остава</r></p></e>
+	<e><p><l>slušati</l><r>слуша</r></p></e>
+	<e><p><l>mirisati</l><r>мириса</r></p></e>
+	<e><p><l>smrdjeti</l><r>смрди</r></p></e>
+	<e><p><l>misliti</l><r>мисли</r></p></e>
+	<e><p><l>plašiti</l><r>плаши</r></p></e>
+	<e><p><l>pomagati</l><r>помага</r></p></e>
+	<e><p><l>pristizati</l><r>пристига</r></p></e>
+	<e><p><l>događati</l><r>случува</r></p></e>
+	<e r="LR"><p><l>zbivati</l><r>случува</r></p></e>
+	<e><p><l>sudarati</l><r>судрува</r></p></e>
+	<e><p><l>uhapsiti</l><r>уапси</r></p></e>
+	<e><p><l>opisati</l><r>опише</r></p></e>
+	<e><p><l>potpisati</l><r>потпише</r></p></e>
+	<e><p><l>prevariti</l><r>излаже</r></p></e>
+	<e><p><l>vjenčati</l><r>маже</r></p></e><!--TODO check this-->
+	<e><p><l>rezati</l><r>реже</r></p></e>
+	<e><p><l>povezati</l><r>поврзе</r></p></e>
+	<e><p><l>prekinuti</l><r>прекине</r></p></e>
+	<e><p><l>znati</l><r>знае</r></p></e>
+	<e><p><l>živjeti</l><r>живее</r></p></e>
+	<e><p><l>vladati</l><r>владее</r></p></e>
+	<e><p><l>sijati</l><r>сее</r></p></e>
+	<e><p><l>kriti</l><r>крие</r></p></e>
+	<e><p><l>prati</l><r>мие</r></p></e>
+	<e r="LR"><p><l>umivati</l><r>мие</r></p></e>
+	<e><p><l>trljati</l><r>трие</r></p></e>
+	<e r="LR"><p><l>trti</l><r>трие</r></p></e>
+	<e r="LR"><p><l>masirati</l><r>трие</r></p></e>
+	<e><p><l>plesati</l><r>игра</r></p></e>
+	<e r="LR"><p><l>igrati</l><r>игра</r></p></e><!--Note disambiguation needed RL-->
+	<e><p><l>odigrati</l><r>одигра</r></p></e>
+	<e><p><l>užlijebiti</l><r>вработи</r></p></e>
+	<e><p><l>uzeti</l><r>земе</r></p></e>
+	<e><p><l>zauzeti</l><r>заземе</r></p></e>
+	<e><p><l>preuzeti</l><r>преземе</r></p></e>
+	<e><p><l>usvojiti</l><r>усвои</r></p></e>
+	<e r="LR"><p><l>prihvatiti</l><r>усвои</r></p></e>
+	<e><p><l>nositi</l><r>носи</r></p></e>
+	<e r="LR"><p><l>raditi</l><r>работи</r></p></e>
+	<e><p><l>poslovati</l><r>работи</r></p></e>
+	<e><p><l>tražiti</l><r>бара</r></p></e>
+	<e><p><l>voditi</l><r>води</r></p></e>
+	<e><p><l>govoriti</l><r>говори</r></p></e>
+	<e><p><l>osvajati</l><r>освојува</r></p></e>
+	<e><p><l>pozivati</l><r>поканува</r></p></e>
+	<e><p><l>pohvaljivati</l><r>пофалува</r></p></e>
+	<e r="LR"><p><l>činiti</l><r>прави</r></p></e>
+	<e r="LR"><p><l>izrađivati</l><r>прави</r></p></e>
+	<e><p><l>suditi</l><r>суди</r></p></e>
+	<e><p><l>dijeliti</l><r>дели</r></p></e>
+	<e><p><l>čestitati</l><r>честита</r></p></e>
+	<e><p><l>pokretati</l><r>движи</r></p></e>
+	<e><p><l>vršiti</l><r>врши</r></p></e>
+	<e><p><l>produžiti</l><r>продолжи</r></p></e>
+	<e><p><l>prekršiti</l><r>прекрши</r></p></e>
+	<e><p><l>ugroziti</l><r>загрози</r></p></e>
+	<e><p><l>pridružiti</l><r>придружи</r></p></e>
+	<e><p><l>odlučiti</l><r>реши</r></p></e>
+	<e><p><l>riješiti</l><r>реши</r></p></e><!--note to 'decide' is odlučiti in Croatian, r(ij)ešiti in Serbi and Bosnian (odlučiti is more rare). To solve is r(ij)ešiti in all three variants-->
+	<e><p><l>uništiti</l><r>уништи</r></p></e>
+	<e><p><l>uključiti</l><r>вклучи</r></p></e>
+	<e><p><l>zaključiti</l><r>заклучи</r></p></e>
+	<e><p><l>izvršiti</l><r>изврши</r></p></e>
+	<e><p><l>ispitati</l><r>испита</r></p></e>
+	<e><p><l>odgoditi</l><r>одложи</r></p></e>
+	<e r="LR"><p><l>odložiti</l><r>одложи</r></p></e>
+	<e><p><l>ukazati</l><r>посочи</r></p></e>
+	<e><p><l>predložiti</l><r>предложи</r></p></e>
+	<e><p><l>izgraditi</l><r>изгради</r></p></e>
+	<e><p><l>usposatviti</l><r>воспостави</r></p></e>
+	<e><p><l>opredijeliti</l><r>определи</r></p></e>
+	<e><p><l>odrediti</l><r>одреди</r></p></e>
+	<e><p><l>zabraniti</l><r>забрани</r></p></e>
+	<e><p><l>zamijeniti</l><r>замени</r></p></e>
+	<e><p><l>zaplijeniti</l><r>заплени</r></p></e>
+	<e><p><l>zaštititi</l><r>заштити</r></p></e>
+	<e><p><l>štititi</l><r>штити</r></p></e>
+	<e><p><l>izvijestiti</l><r>извести</r></p></e>
+	<e><p><l>izmijeniti</l><r>измени</r></p></e>
+	<e><p><l>izraziti</l><r>изрази</r></p></e>
+	<e><p><l>naglasiti</l><r>нагласи</r></p></e>
+	<e><p><l>smanjiti</l><r>намали</r></p></e>
+	<e r="LR"><p><l>umanjiti</l><r>намали</r></p></e>
+	<e r="LR"><p><l>popustiti</l><r>намали</r></p></e>
+	<e r="LR"><p><l>sniziti</l><r>намали</r></p></e>
+	<e r="LR"><p><l>ublažiti</l><r>намали</r></p></e>
+	<e r="LR"><p><l>skresati</l><r>намали</r></p></e>
+	<e><p><l>naslijediti</l><r>наследи</r></p></e>
+	<e><p><l>usliejditi</l><r>уследи</r></p></e>
+	<e><p><l>okriviti</l><r>обвини</r></p></e>
+	<e r="LR"><p><l>optužiti</l><r>обвини</r></p></e>
+	<e><p><l>proglasiti</l><r>прогласи</r></p></e>
+	<e><p><l>objasniti</l><r>објасни</r></p></e>
+	<e><p><l>omogućiti</l><r>овозможи</r></p></e>
+	<e><p><l>odobriti</l><r>одобри</r></p></e>
+	<e><p><l>olakšati</l><r>олесни</r></p></e>
+	<e r="LR"><p><l>laknuti</l><r>олесни</r></p></e>
+	<e r="LR"><p><l>odlanuti</l><r>олесни</r></p></e>
+	<e><p><l>osigurati</l><r>обезбеди</r></p></e>
+	<e><p><l>osloboditi</l><r>ослободи</r></p></e>
+	<e><p><l>odstraniti</l><r>отстрани</r></p></e>
+	<e><p><l>pobijediti</l><r>победи</r></p></e>
+	<e><p><l>utvrditi</l><r>утврди</r></p></e>
+	<e r="LR"><p><l>upozoriti</l><r>предупреди</r></p></e>
+	<e><p><l>opomenuti</l><r>предупреди</r></p></e>
+	<e r="LR"><p><l>preduprediti</l><r>предупреди</r></p></e>
+	<e><p><l>priključiti</l><r>приклучи</r></p></e>
+	<e><p><l>provjeriti</l><r>провери</r></p></e>
+	<e><p><l>procijeniti</l><r>процени</r></p></e>
+	<e><p><l>ocijeniti</l><r>оцени</r></p></e>
+	<e><p><l>proširiti</l><r>прошири</r></p></e>
+	<e><p><l>smijeniti</l><r>смени</r></p></e>
+	<e><p><l>najaviti</l><r>најави</r></p></e>
+	<e><p><l>spriječiti</l><r>спречи</r></p></e>
+	<e><p><l>uvjeriti</l><r>убеди</r></p></e>
+	<e><p><l>ubijediti</l><r>убеди</r></p></e>
+	<e><p><l>uvjeriti</l><r>увери</r></p></e>
+	<e><p><l>dodati</l><r>додаде</r></p></e>
+	<e><p><l>dostaviti</l><r>достави</r></p></e>
+	<e><p><l>izgubiti</l><r>изгуби</r></p></e>
+	<e><p><l>ispuniti</l><r>исполни</r></p></e>
+	<e><p><l>isprati</l><r>испрати</r></p></e>
+	<e><p><l>kupiti</l><r>купи</r></p></e>
+	<e><p><l>počiniti</l><r>стори</r></p></e>
+	<e><p><l>osvojiti</l><r>освои</r></p></e>
+	<e><p><l>ostaviti</l><r>остави</r></p></e>
+	<e><p><l>osuditi</l><r>осуди</r></p></e>
+	<e><p><l>otvoriti</l><r>отвори</r></p></e>
+	<e><p><l>odbaciti</l><r>отфрли</r></p></e>
+	<e><p><l>povući</l><r>повлече</r></p></e>
+	<e><p><l>ponoviti</l><r>повтори</r></p></e>
+	<e><p><l>pogoditi</l><r>погоди</r></p></e>
+	<e><p><l>pripremiti</l><r>подготви</r></p></e>
+	<e><p><l>pozvati</l><r>покани</r></p></e>
+	<e><p><l>posjetiti</l><r>посети</r></p></e>
+	<e><p><l>predvidjeti</l><r>предвиди</r></p></e>
+	<e><p><l>proslaviti</l><r>прослави</r></p></e>
+	<e><p><l>suprotstaviti</l><r>спротивстави</r></p></e>
+	<e><p><l>uputiti</l><r>упати</r></p></e>
+	<e><p><l>vidjeti</l><r>види</r></p></e>
+	<e><p><l>dugovati</l><r>должи</r></p></e>
+	<e><p><l>držati</l><r>држи</r></p></e>
+	<e><p><l>tvrditi</l><r>тврди</r></p></e>
+	<e><p><l>opredjeljivati</l><r>определува</r></p></e>
+	<e><p><l>dodavati</l><r>додава</r></p></e>
+	<e><p><l>donositi</l><r>донесува</r></p></e>
+	<e><p><l>dobavljati</l><r>доставува</r></p></e>
+	<e><p><l>zamjenjivati</l><r>заменува</r></p></e>
+	<e><p><l>zapljenjivati</l><r>запленува</r></p></e>
+	<e><p><l>zatvarati</l><r>затвара</r></p></e>
+	<e><p><l>izmjenjivati</l><r>изменува</r></p></e>
+	<e><p><l>iznositi</l><r>изнесува</r></p></e>
+	<e><p><l>naglašavati</l><r>нагласува</r></p></e>
+	<e><p><l>nuditi</l><r>нуди</r></p></e>
+	<e><p><l>odvajati</l><r>одвојува</r></p></e>
+	<e><p><l>odnositi</l><r>однесува</r></p></e>
+	<e><p><l>otvarati</l><r>отвара</r></p></e>
+	<e><p><l>odbacivati</l><r>отфрлува</r></p></e>
+	<e><p><l>povlačiti</l><r>повлекува</r></p></e>
+	<e><p><l>ponavljati</l><r>повторува</r></p></e>
+	<e><p><l>pogađati</l><r>погодува</r></p></e>
+	<e><p><l>pripremati</l><r>подготвува</r></p></e>
+	<e><p><l>podržavati</l><r>поддржува</r></p></e>
+	<e><p><l>postavljati</l><r>поставува</r></p></e>
+	<e><p><l>prenositi</l><r>пренесува</r></p></e>
+	<e><p><l>mijenjati</l><r>променува</r></p></e>
+	<e><p><l>suprotstavljati</l><r>спротивставува</r></p></e>
+	<e><p><l>razmišljati</l><r>размислува</r></p></e>
+	<e><p><l>smjenjivati</l><r>сменува</r></p></e>
+	<e><p><l>davati</l><r>дава</r></p></e>
+	<e><p><l>vježbati</l><r>вежба</r></p></e>
+	<e><p><l>izdavati</l><r>издава</r></p></e>
+	<e><p><l>stvarati</l><r>создава</r></p></e>
+	<e r="LR"><p><l>tvoriti</l><r>создава</r></p></e>
+	<e><p><l>produživati</l><r>продолжува</r></p></e>
+	<e><p><l>prolaziti</l><r>поминува</r></p></e>
+	<e><p><l>dobivati</l><r>добива</r></p></e>
+	<e><p><l>odlučivati</l><r>одлучува</r></p></e>
+	<e><p><l>kazivati</l><r>кажува</r></p></e>
+	<e><p><l>pokazivati</l><r>покажува</r></p></e>
+	<e><p><l>odbijati</l><r>одбива</r></p></e>
+	<e><p><l>pronalaziti</l><r>пронајдува</r></p></e>
+	<e><p><l>kušati</l><r>обидува</r></p></e>
+	<e r="LR"><p><l>probavati</l><r>обидува</r></p></e>
+	<e><p><l>započinjati</l><r>започнува</r></p></e>
+	<e><p><l>završavati</l><r>завршува</r></p></e>
+	<e><p><l>izvršavati</l><r>извршува</r></p></e>
+	<e><p><l>proglašavati</l><r>прогласува</r></p></e>
+	<e><p><l>nuditi</l><r>понудува</r></p></e>
+	<e><p><l>sprovoditi</l><r>спроведува</r></p></e>
+	<e><p><l>sadržavati</l><r>содржи</r></p></e>
+	<e><p><l>održati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>одржи<b/>е<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	<e><p><l>održavati<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>одржува<b/>се<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
+	<e><p><l>napuštati</l><r>напушта</r></p></e>
+	<e><p><l>smetati</l><r>смета</r></p></e>
+	<e><p><l>susretati</l><r>сретнува</r></p></e>
+	<e><p><l>vraćati</l><r>враќа</r></p></e>
+	<e><p><l>nalaziti</l><r>наоѓа</r></p></e>
+	<e><p><l>čekati</l><r>чека</r></p></e>
+	<e><p><l>razumjeti</l><r>разбира</r></p></e>
+	<e><p><l>plaćati</l><r>плаќа</r></p></e>
+	<e><p><l>očekivati</l><r>очекува</r></p></e>
+	<e><p><l>birati</l><r>избира</r></p></e>
+	<e><p><l>izbijati</l><r>избива</r></p></e>
+	<e><p><l>nositi</l><r>справува</r></p></e>
+	<e><p><l>dovesti</l><r>доведе</r></p></e>
+	<e><p><l>okrenuti</l><r>обрне</r></p></e>
+	<e><p><l>raditi</l><r>работи</r></p></e>
+	<e><p><l>ići</l><r>оди</r></p></e>
+	<e><p><l>unositi</l><r>внесува</r></p></e>
+	<e><p><l>mesti</l><r>сметува</r></p></e>
+	<e><p><l>čuvati</l><r>запазува</r></p></e>
+	<e><p><l>sačuvati</l><r>зачувува</r></p></e>
+	<e><p><l>ojačavati</l><r>зајакува</r></p></e>
+	<e><p><l>izmučivati</l><r>измачува</r></p></e>
+	<e r="LR"><p><l>moriti</l><r>измачува</r></p></e>
+	<e r="LR"><p><l>tištiti</l><r>измачува</r></p></e>
+	<e><p><l>željeti</l><r>посакува</r></p></e>
+	<e r="LR"><p><l>poželjeti</l><r>посакува</r></p></e>
+	<e><p><l>potkopavati</l><r>поткпува</r></p></e>
+	<e><p><l>ushićivati</l><r>восхитува</r></p></e>
+	<e><p><l>zaplašivati</l><r>заплашува</r></p></e>
+	<e><p><l>zagrtati</l><r>запретува</r></p></e>
+	<e><p><l>naklanjati</l><r>наклонува</r></p></e>
+	<e><p><l>potresati</l><r>разнишува</r></p></e>
+	<e><p><l>odgovarati</l><r>соодветствува</r></p></e>
+	<e><p><l>zavoljeti</l><r>засака</r></p></e>
+	<e><p><l>dočekati</l><r>исчека</r></p></e>
+	<e><p><l>načekati</l><r>начека</r></p></e>
+	<e><p><l>pretiskavati</l><r>преиздава</r></p></e>
+	<e><p><l>preispitati</l><r>преразгледа</r></p></e>
+	<e><p><l>djelovati</l><r>подејствува</r></p></e>
+	<e><p><l>bogoslužiti</l><r>богослужи</r></p></e>
+	<e><p><l>izvoziti</l><r>извозува</r></p></e>
+	<e><p><l>poželjeti</l><r>присака</r></p></e>
+	<e><p><l>prohodati</l><r>заоди</r></p></e>
+	<e><p><l>prehodati</l><r>изоди</r></p></e>
+	<e><p><l>veli</l><r>вели</r></p></e><!--Note defective verb, no infinitive, to speak-->

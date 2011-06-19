@@ -1,0 +1,9 @@
+	<e><p><l>baviti se sportom</l><r>спортува</r></p></e>
+	<e><p><l>ponovno glasati</l><r>прегласува</r></p></e>
+	<e><p><l>opskrbljivati vodom</l><r>водоснабдува</r></p></e>
+	<e><p><l>ne biti u skladu sa</l><r>несоодветствува</r></p></e>
+	<e><p><l>biti članom</l><r>членува</r></p></e><!--Note: to be a member, translates as passive-->
+	<e><p><l>uzeti više nego što treba</l><r>надзема</r></p></e>
+	<e><p><l>maybe bulgarian</l><r>поддава</r></p></e>
+	<e><p><l>ponovno birati</l><r>преизбира</r></p></e>
+

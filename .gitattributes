@@ -22,9 +22,12 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-sh-mk.sh.metadix -text
-dev/bidix.verbs.translated.pending_check.txt -text
-dev/bidix.verbs.translated.unseparated.txt -text
-dev/bidix.verbs.untranslated.txt -text
+dev/vblex/bidix.vblex.special_care.txt -text
+dev/vblex/bidix.vblex.untranslated.txt -text
+dev/vblex/bidix.vblex_BS.txt -text
+dev/vblex/bidix.vblex_HR.txt -text
+dev/vblex/bidix.vblex_SR.txt -text
+dev/vblex/bidix.vblex_sh.txt -text
 /mk-sh.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text

@@ -5505,6 +5505,17 @@ after prepositions-->
 </pardef>
 <!--end Modal verbs morati and trebati-->
 
+<!--Defective verb paradigms-->
+<pardef n="veli__vblex">
+<!--Only present, it is otherwise defective-->
+<e><p><l>vel</l><r>veli<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><p><l>vel</l><r>veli<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><p><l>vel</l><r>veli<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><p><l>vel</l><r>veli<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+</pardef>
+<!-- end defective verb paradigms-->
+
+
 <!--Regular verb paradigms-->
 
 <pardef n="perf_ref_ogul/iti__vblex">
@@ -17711,6 +17722,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="moći"><i/><par n="moći__vbmod"/></e>
 <e lm="morati"><i>mor</i><par n="mor/ati__vbmod"/></e>
 <e lm="trebati"><i>treb</i><par n="mor/ati__vbmod"/></e>  
+<!--The defective verb-->
+<e lm="veli"><i/><par n="veli__vblex"/></e>  
 <!--Other verbs-->
 <e lm="bivati"><i>biv</i><par n="imperf_iv_bir/ati__vblex"/></e> <!--This is the verb "to be being", sometimes used as aux in passive-->
 <e lm="hodati"><i>hod</i><par n="imperf_iv_bir/ati-pp__vblex"/></e>
