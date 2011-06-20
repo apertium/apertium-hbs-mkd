@@ -25,7 +25,7 @@
 	<e><p><l>stizati</l><r>стигнува</r></p></e>
 	<e><p><l>eksplodirati</l><r>експлодира</r></p></e>
 	<e><p><l>ekstradirati</l><r>екстрадира</r></p></e>
-	<e><p><l>zapranjivati</l><r>забранува</r></p></e>
+	<e><p><l>zabranjivati</l><r>забранува</r></p></e>
 	<e><p><l>zavezuje</l><r>забрзува</r></p></e>
 	<e><p><l>ugrožavati</l><r>загрозува</r></p></e>
 	<e><p><l>zaključivati</l><r>заклучува</r></p></e>
@@ -469,7 +469,7 @@
 	<e><p><l>dovršavati</l><r>довршува</r></p></e>
 	<e><p><l>doživljavati</l><r>доживува</r></p></e>
 	<e><p><l>zabavljati</l><r>забавува</r></p></e>
-	<e><p><l>oboljavati</l><r>заболува</r></p></e>
+	<e><p><l>obolijevati</l><r>заболува</r></p></e>
 	<e><p><l>zagađivati</l><r>загадува</r></p></e>
 	<e><p><l>gušiti</l><r>задушува</r></p></e>
 	<e><p><l>zaživljavati</l><r>заживува</r></p></e>
@@ -561,7 +561,6 @@
 	<e><p><l>proučavat</l><r>проучува</r></p></e>
 	<e><p><l>razarati</l><r>разорува</r></p></e>
 	<e r="LR"><p><l>razorivati</l><r>разорува</r></p></e>
-	<e r="LR"><p><l>razoravati</l><r>разорува</r></p></e>
 	<e><p><l>raseljavati</l><r>раселува</r></p></e>
 	<e><p><l>kvariti</l><r>расипува</r></p></e>
 	<e r="LR"><p><l>prolijevati</l><r>расипува</r></p></e>

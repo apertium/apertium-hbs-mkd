@@ -3747,7 +3747,7 @@
    </section>
 
    <section id="common" type="standard">
-		<e><p><l>potpisivati</l><r>потпишува</r></p></e>
+	<e><p><l>potpisivati</l><r>потпишува</r></p></e>
 	<e><p><l>skupljati</l><r>собира</r></p></e>
 	<e><p><l>ubijati</l><r>убива</r></p></e>
 	<e><p><l>gledati</l><r>гледа</r></p></e>
@@ -3774,7 +3774,7 @@
 	<e><p><l>stizati</l><r>стигнува</r></p></e>
 	<e><p><l>eksplodirati</l><r>експлодира</r></p></e>
 	<e><p><l>ekstradirati</l><r>екстрадира</r></p></e>
-	<e><p><l>zapranjivati</l><r>забранува</r></p></e>
+	<e><p><l>zabranjivati</l><r>забранува</r></p></e>
 	<e><p><l>zavezuje</l><r>забрзува</r></p></e>
 	<e><p><l>ugrožavati</l><r>загрозува</r></p></e>
 	<e><p><l>zaključivati</l><r>заклучува</r></p></e>
