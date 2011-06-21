@@ -962,7 +962,7 @@
 	<e><p><l>otpočivati</l><r>отпочинува</r></p></e>
 	<e><p><l>razgledati</l><r>доразгледа</r></p></e>
 	<e><p><l>razgledati</l><r>поразгледа</r></p></e>
-	<e><p><l>pretskazivati</l><r>претскажува</r></p></e>
+	<e><p><l>predskazivati</l><r>претскажува</r></p></e>
 	<e><p><l>presretati</l><r>пресретнува</r></p></e>
 	<e><p><l>proistjecati</l><r>проистекува</r></p></e>
 	<e><p><l>izgraditi</l><r>доизградува</r></p></e>

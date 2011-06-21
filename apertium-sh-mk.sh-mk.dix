@@ -3678,71 +3678,15 @@
 	<e><p><l>prezentovati<s n="vblex"/></l><r>презентира<s n="vblex"/></r></p></e>
 	<e><p><l>duvati<s n="vblex"/></l><r>дува<s n="vblex"/></r></p></e>
 	<e><p><l>ubijediti<s n="vblex"/></l><r>убеди<s n="vblex"/></r></p></e>
+	<e><p><l>prodiskutovati<s n="vblex"/></l><r>подискутира<s n="vblex"/></r></p></e>
 
    </section>
 
    <section id="cent" type="standard">
-		<e><p><l>sarađivati</l><r>соработува</r></p></e>
-	<e><p><l>diskutovati</l><r>дискутира</r></p></e>
-	<e><p><l>učestvovati</l><r>учествува</r></p></e>
-	<e><p><l>djelovati</l><r>дејствува</r></p></e>
-	<e><p><l>usaglašavati</l><r>согласува</r></p></e>
-	<e><p><l>interesovati</l><r>интензивира</r></p></e>
-	<e><p><l>zavisiti</l><r>зависи</r></p></e>
-	<e><p><l>važiti</l><r>важи</r></p></e>
-	<e><p><l>saopštiti</l><r>соопшти</r></p></e>
-	<e><p><l>emitovati</l><r>емитува</r></p></e>
-	<e><p><l>nominovati</l><r>номинира</r></p></e>
-	<e><p><l>spasavati</l><r>спасува</r></p></e>
-	<e><p><l>izvinjavati</l><r>извинува</r></p></e>
-	<e><p><l>rizikovati</l><r>ризикува</r></p></e>
-	<e><p><l>komandovati</l><r>командува</r></p></e>
-	<e><p><l>krunisati</l><r>крунисува</r></p></e>
-	<e><p><l>posmatrati</l><r>набљудува</r></p></e>
-	<e><p><l>publikovati</l><r>публикува</r></p></e>
-	<e><p><l>upoređivati</l><r>споредува</r></p></e>
-	<e><p><l>ćuvstvovati</l><r>чувствува</r></p></e>
-	<e><p><l>štrajkovati</l><r>штрајкува</r></p></e>
-	<e><p><l>komplikovati</l><r>компликува</r></p></e>
-	<e><p><l>konfiskovati</l><r>конфискува</r></p></e>
-	<e><p><l>modifikovati</l><r>модификува</r></p></e>
-	<e><p><l>praktikovati</l><r>практикува</r></p></e>
-	<e><p><l>zatalasati</l><r>разбранува</r></p></e>
-	<e><p><l>ratifikovati</l><r>ратифукува</r></p></e>
-	<e><p><l>usaglašavati</l><r>усогласува</r></p></e>
-	<e><p><l>saosjećati</l><r>сочувствува</r></p></e>
-	<e><p><l>gazdovati</l><r>стопанисува</r></p></e>
-	<e><p><l>falsifikovati</l><r>фалсификува</r></p></e>
-	<e><p><l>identifikovati</l><r>идентификува</r></p></e>
-	<e><p><l>osavremenjivati</l><r>осовременува</r></p></e>
-	<e><p><l>odblokovati</l><r>одблокира</r></p></e>
-	<e><p><l>redefinisati</l><r>редефинира</r></p></e>
-	<e><p><l>podiskutuje</l><r>подискутира</r></p></e>
-	<e><p><l>izdejstvovati</l><r>издејствува</r></p></e>
-	<e><p><l>iskritikovati</l><r>искритикува</r></p></e>
-	<e><p><l>saučestvovati</l><r>соучествува</r></p></e>
-	<e><p><l>dezinformisati</l><r>дезинформира</r></p></e>
-	<e><p><l>reorganizovati</l><r>реорганизира</r></p></e>
-	<e><p><l>dezorganizovati</l><r>дезорганизира</r></p></e>
-	<e><p><l>obezbjeđivati</l><r>обезбедува</r></p></e>
-	<e><p><l>osiguravati</l><r>обезбедува</r></p></e>
-	<e><p><l>kontrolisati</l><r>контролира</r></p></e>
-	<e><p><l>eliminisati</l><r>елиминира</r></p></e>
-	<e><p><l>regulisati</l><r>регулира</r></p></e>
-	<e><p><l>reformisati</l><r>реформира</r></p></e>
-	<e><p><l>koordinisati</l><r>координира</r></p></e>
-	<e><p><l>realizovati</l><r>реализира</r></p></e>
-	<e><p><l>apelovati</l><r>апелира</r></p></e>
-	<e><p><l>tolerisati</l><r>толерира</r></p></e>
-	<e><p><l>harmonizovati</l><r>хармонизира</r></p></e>
-	<e><p><l>duvati</l><r>дува</r></p></e>
-	<e><p><l>garantovati</l><r>гарантира</r></p></e>
-	<e><p><l>praviti</l><r>прави</r></p></e><!-- in this case these are the preferences -->
-	<e><p><l>saglasiti<s n="vblex"/><s n="perf"/><s n="ref"/></l><r>согласи<b/>се<s n="vblex"/><s n="perf"/><s n="iv"/></r></p></e>
-	<e><p><l>prezentovati</l><r>презентира</r></p></e>
-	<e><p><l>duvati</l><r>дува</r></p></e>
-	<e><p><l>ubijediti</l><r>убеди</r></p></e>
+   	<e><p><l>prodiskutovati<s n="vblex"/></l><r>подискутира<s n="vblex"/></r></p></e>
 
+
+	<e><p><l>prodiskutovati<s n="vblex"/></l><r>подискутира<s n="vblex"/></r></p></e>
 		<e><p><l>sarađivati<s n="vblex"/></l><r>соработува<s n="vblex"/></r></p></e>
 	<e><p><l>diskutovati<s n="vblex"/></l><r>дискутира<s n="vblex"/></r></p></e>
 	<e><p><l>učestvovati<s n="vblex"/></l><r>учествува<s n="vblex"/></r></p></e>
@@ -3762,7 +3706,7 @@
 	<e><p><l>posmatrati<s n="vblex"/></l><r>набљудува<s n="vblex"/></r></p></e>
 	<e><p><l>publikovati<s n="vblex"/></l><r>публикува<s n="vblex"/></r></p></e>
 	<e><p><l>upoređivati<s n="vblex"/></l><r>споредува<s n="vblex"/></r></p></e>
-	<e><p><l>ćuvstvovati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
+	<e><p><l>čuvstvovati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
 	<e><p><l>štrajkovati<s n="vblex"/></l><r>штрајкува<s n="vblex"/></r></p></e>
 	<e><p><l>komplikovati<s n="vblex"/></l><r>компликува<s n="vblex"/></r></p></e>
 	<e><p><l>konfiskovati<s n="vblex"/></l><r>конфискува<s n="vblex"/></r></p></e>
@@ -3807,6 +3751,12 @@
    </section>
 
    <section id="common" type="standard">
+   	<e><p><l>prodiskutirati<s n="vblex"/></l><r>подискутира<s n="vblex"/></r></p></e>
+   	<e><p><l>proučavati<s n="vblex"/></l><r>проучува<s n="vblex"/></r></p></e>
+   	<e><p><l>prevaljivati<s n="vblex"/></l><r>изминува<s n="vblex"/></r></p></e>
+   	<e><p><l>pogoršavati<s n="vblex"/></l><r>влошува<s n="vblex"/></r></p></e>
+   	<e><p><l>zavezivati<s n="vblex"/></l><r>забрзува<s n="vblex"/></r></p></e>
+   	<e><p><l>ovlašćivati<s n="vblex"/></l><r>овластува<s n="vblex"/></r></p></e>
 	<e><p><l>potpisivati<s n="vblex"/></l><r>потпишува<s n="vblex"/></r></p></e>
 	<e><p><l>skupljati<s n="vblex"/></l><r>собира<s n="vblex"/></r></p></e>
 	<e><p><l>ubijati<s n="vblex"/></l><r>убива<s n="vblex"/></r></p></e>
@@ -4541,7 +4491,7 @@
 	<e><p><l>usložnjavati<s n="vblex"/></l><r>усложнува<s n="vblex"/></r></p></e>
 	<e><p><l>osjećati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
 	<e><p><l>ćutjeti<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
-	<e><p><l>ćuvstvovati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
+	<e><p><l>čuvstvovati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
 	<e><p><l>štrajkati<s n="vblex"/></l><r>штрајкува<s n="vblex"/></r></p></e>
 	<e><p><l>štrajkovati<s n="vblex"/></l><r>штрајкува<s n="vblex"/></r></p></e>
 	<e><p><l>posredovati<s n="vblex"/></l><r>посредува<s n="vblex"/></r></p></e>
