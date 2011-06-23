@@ -3841,12 +3841,12 @@
 	<e><p><l>kriviti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>teretiti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p></e>
 	<e><p><l>objedinjavati<s n="vblex"/></l><r>обединува<s n="vblex"/></r></p></e>
-	<e><p><l>obijelodaniti<s n="vblex"/></l><r>обелоденува<s n="vblex"/></r></p></e>
+	<e><p><l>objelodaniti<s n="vblex"/></l><r>обелоденува<s n="vblex"/></r></p></e>
 	<e><p><l>obraćati<s n="vblex"/></l><r>обраќа<s n="vblex"/></r></p></e>
 	<e><p><l>objašnjavati<s n="vblex"/></l><r>објаснува<s n="vblex"/></r></p></e>
 	<e><p><l>sputavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>ograničavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
-	<e><p><l>ubiležiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
+	<e><p><l>ubilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>zabilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>odlagati<s n="vblex"/></l><r>одложува<s n="vblex"/></r></p></e>
 	<e><p><l>odobravati<s n="vblex"/></l><r>одобрува<s n="vblex"/></r></p></e>
@@ -4169,7 +4169,6 @@
 	<e><p><l>silovati<s n="vblex"/></l><r>силува<s n="vblex"/></r></p></e>
 	<e><p><l>sanjati<s n="vblex"/></l><r>сонува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>snivati<s n="vblex"/></l><r>сонува<s n="vblex"/></r></p></e>
-	<e r="LR"><p><l>sniti<s n="vblex"/></l><r>сонува<s n="vblex"/></r></p></e>
 	<e><p><l>sačuvati<s n="vblex"/></l><r>сочува<s n="vblex"/></r></p></e>
 	<e><p><l>tugovati<s n="vblex"/></l><r>тагува<s n="vblex"/></r></p></e>
 	<e><p><l>trgovati<s n="vblex"/></l><r>тргува<s n="vblex"/></r></p></e>
@@ -5123,7 +5122,7 @@
 	<e><p><l>ukazati<s n="vblex"/></l><r>посочи<s n="vblex"/></r></p></e>
 	<e><p><l>predložiti<s n="vblex"/></l><r>предложи<s n="vblex"/></r></p></e>
 	<e><p><l>izgraditi<s n="vblex"/></l><r>изгради<s n="vblex"/></r></p></e>
-	<e><p><l>usposatviti<s n="vblex"/></l><r>воспостави<s n="vblex"/></r></p></e>
+	<e><p><l>uspostaviti<s n="vblex"/></l><r>воспостави<s n="vblex"/></r></p></e>
 	<e><p><l>opredijeliti<s n="vblex"/></l><r>определи<s n="vblex"/></r></p></e>
 	<e><p><l>odrediti<s n="vblex"/></l><r>одреди<s n="vblex"/></r></p></e>
 	<e><p><l>zabraniti<s n="vblex"/></l><r>забрани<s n="vblex"/></r></p></e>
