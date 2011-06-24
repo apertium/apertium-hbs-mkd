@@ -15878,6 +15878,7 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="dat"></s></r></p></e>    
     <e><p><l></l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="acc"></s></r></p></e>
     <e><p><l>e</l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="voc"></s></r></p></e>
+    <e r="LR"><p><l>u</l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="voc"></s></r></p></e>
     <e><p><l>u</l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="loc"></s></r></p></e>
     <e><p><l>om</l><r><s n="n"></s><s n="mi"></s><s n="sg"></s><s n="ins"></s></r></p></e>
     <e><p><l>i</l><r><s n="n"></s><s n="mi"></s><s n="pl"></s><s n="nom"></s></r></p></e>
@@ -26946,6 +26947,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="majstor"><i>majstor</i><par n="majstor__n"></par></e>
 <e lm="domaćin"><i>domaćin</i><par n="majstor__n"></par></e>
 <e lm="odmor"><i>odmor</i><par n="odmor__n"></par></e>
+<e lm="požar"><i>požar</i><par n="odmor__n"></par></e>
 <e lm="narod"><i>narod</i><par n="odmor__n"></par></e>
 <e lm="lupež"><i>lupež</i><par n="lupež__n"></par></e>
 <e lm="gospodičić"><i>gospodičić</i><par n="gospodičić__n"></par></e>
