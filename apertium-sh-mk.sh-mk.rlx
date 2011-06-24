@@ -1,0 +1,121 @@
+# =========================================================================== #
+#    Table of contents                                                        #
+# =========================================================================== #
+#    # Delimiters
+#    # Lists 
+#    ## Categories
+#    ## Tag groups 
+#    ## Lexicalised lists
+#    # Sets
+#    ## Boundary sets 
+#    # Disambiguation 
+#    ## NP-internal disambiguation
+#    ## PP disambiguation
+#    ## Lexicalised rules
+# =========================================================================== #
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+
+SOFT-DELIMITERS = "<,>" ;
+
+# =========================================================================== #
+
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+LIST N = n ; 
+LIST A = adj ; 
+LIST V = vblex ; 
+LIST Adv = adv ; 
+LIST Num = num ; 
+LIST Det = det ; 
+LIST Prop = np ;
+LIST Pron = prn ; 
+LIST Pr = pr ; 
+LIST CS = cnjsub ;
+LIST CC = cnjcoo ;
+LIST Interr = itg ;
+LIST Interj = ij ;
+LIST Cm = (",") (cm) ;
+
+# =========================================================================== #
+
+LIST Msc = m ma mi ;
+LIST Fem = f ; 
+LIST Neu = nt ; 
+
+LIST Anim = ma ; 
+LIST Inanim = mi ; 
+
+LIST Acc = acc ; 
+LIST Loc = loc ; 
+LIST Gen = gen ; 
+LIST Nom = nom ; 
+LIST Dat = dat ; 
+LIST Ins = ins ;
+LIST Voc = voc ;
+
+# =========================================================================== #
+
+LIST ACC-OR-LOC-PREP = "na" ; 
+
+# =========================================================================== #
+
+LIST GENDER = ma mi f nt mf mfn ;
+LIST NUMBER = sg pl sp ;
+LIST NGDAILV = nom gen dat acc ins loc voc ;
+
+# =========================================================================== #
+
+SET NOT-ACC-LOC = NGDAILV - Acc - Loc ; 
+
+# Common ambiguities 
+
+SET A-OR-ADV = A | Adv ; 
+SET ANIM-OR-INANIM = Anim | Inanim ; 
+
+# All possible word categories
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+
+# Categories that can come before the head noun in an NP 
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; 
+
+SET MARK =  Cm | ("\\") | ("\;") ;
+
+SET WORDMARK = WORD | MARK ;
+
+# Categories which cannot be part of a noun phrase 
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+# Phrase member sets, and complements
+SET NP-MEMBER = PRE-N | N | Pron ;
+SET PP-MEMBER = NP-MEMBER | Pr ; 
+
+SET NOT-NP-MEMBER = WORDMARK - NP-MEMBER ; 
+SET NOT-PP-MEMBER = WORDMARK - PP-MEMBER ; 
+
+# Categories which can be the head of a noun phrase
+SET NP-HEAD = N | Pron | Prop ; 
+
+SET S-BOUNDARY = CS | Interr | (n voc) ; 
+
+# =========================================================================== #
+
+SECTION
+# =========================================================================== #
+#   NP-internal disambiguation                                                #
+# =========================================================================== #
+
+REMOVE $$NGDAILV IF (0C A-OR-ADV) (NOT 1* N + $$NGDAILV BARRIER NPNHA) ;
+    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+
+# =========================================================================== #
+#   PP disambiguation                                                         #
+# =========================================================================== #
+
+REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
+    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.

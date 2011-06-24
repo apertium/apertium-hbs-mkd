@@ -27040,6 +27040,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zabavnik"><i>zabavni</i><par n="učeni/k__n"></par></e>
 <e lm="namještaj"><i>nam</i><par n="e_je__yat"></par><i>štaj</i><par n="namještaj__n"></par></e>
 <e lm="očajnik"><i>očajni</i><par n="učeni/k__n"></par></e>
+<e lm="čajnik"><i>čajni</i><par n="čajni/k__n"></par></e>
+<e lm="otok"><i>oto</i><par n="čajni/k__n"></par></e>
 <e lm="nepravednik"><i>nepravedni</i><par n="učeni/k__n"></par></e>
 <!-- -o declension -->
 <e lm="zeko"><i>zek</i><par n="zek/o__n"></par></e>

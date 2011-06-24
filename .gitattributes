@@ -14,6 +14,7 @@
 /apertium-sh-mk.mk.dix -text
 /apertium-sh-mk.post-sh.dix -text
 /apertium-sh-mk.sh-mk.dix -text
+/apertium-sh-mk.sh-mk.rlx -text
 /apertium-sh-mk.sh-mk.t1x -text
 /apertium-sh-mk.sh-mk.t2x -text
 /apertium-sh-mk.sh-mk.t3x -text
