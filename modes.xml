@@ -133,6 +133,32 @@
   </mode>
 
 
+  <mode name="sh-mk-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="sh-mk.prob"/>
+      </program> 
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sh-mk.sh-mk.t1x"/>
+        <file name="sh-mk.t1x.bin"/>
+        <file name="sh-mk.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-sh-mk.sh-mk.t2x"/>
+        <file name="sh-mk.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-sh-mk.sh-mk.t3x"/>
+        <file name="sh-mk.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 
   <mode name="sh-mk" install="yes">
     <pipeline>

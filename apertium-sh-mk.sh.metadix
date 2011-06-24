@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">
+<!--<!DOCTYPE dictionary SYSTEM "/usr/share/apertium/dix.dtd">-->
 <dictionary>
 <alphabet>ABCČĆDDžĐEFGHIJKLLjMNNjOPRSŠTUVZŽabcčćddžđefghijklljmnnjoprsštuvwxyzž</alphabet>
 <sdefs>
