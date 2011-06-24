@@ -22,6 +22,8 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-sh-mk.sh.metadix -text
+dev/generation-summary.sh-mk.txt -text
+dev/generation-test.py -text
 dev/vblex/bidix.vblex.special_care.txt -text
 dev/vblex/bidix.vblex.untranslated.txt -text
 dev/vblex/bidix.vblex_BS.txt -text
