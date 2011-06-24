@@ -7328,6 +7328,19 @@ after prepositions-->
    <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
+<pardef n="perf_tv_ogul/iti-pp__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="pres__sfx__im__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
 <pardef n="perf_ref_ogul/iti__vblex">
 <!--Infinitive-->
 <e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
@@ -7342,6 +7355,19 @@ after prepositions-->
    <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
+<pardef n="perf_ref_ogul/iti-pp__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pres__sfx__im__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
 <pardef n="perf_iv_ogul/iti__vblex">
 <!--Infinitive-->
 <e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"></par></e>
@@ -7354,6 +7380,19 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
    <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+<e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_iv_ogul/iti-pp__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>i</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pres__sfx__im__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -21135,26 +21174,26 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="posjetiti"><i>posje</i><par n="perf_tv_vra/titi__vblex"/></e>
 <e lm="uputiti"><i>upu</i><par n="perf_tv_vra/titi__vblex"/></e>
 <e lm="uputiti"><i>upu</i><par n="perf_ref_vra/titi__vblex"/></e>
-<e lm="zahvaliti"><i>zahva</i><par n="perf_tv_ogu/liti-pp__vblex"/></e>
-<e lm="zahvaliti"><i>zahva</i><par n="perf_ref_ogu/liti-pp__vblex"/></e>
-<e lm="pohvaliti"><i>pohva</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="pohvaliti"><i>pohva</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="nagliti"><i>nag</i><par n="imperf_iv_gu/liti-pp__vblex"/></e>
-<e lm="podijeliti"><i>podije</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="podijeliti"><i>podije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="dijeliti"><i>dije</i><par n="imperf_tv_gu/liti__vblex"/></e>
-<e lm="dijeliti"><i>dije</i><par n="imperf_ref_gu/liti__vblex"/></e>
-<e lm="odijeliti"><i>odije</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="odijeliti"><i>odije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="razdijeliti"><i>razdije</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="razdijeliti"><i>razdije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="podijeliti"><i>podije</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="podijeliti"><i>podije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="samoopredijeliti"><i>samoopredije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="dozvoliti"><i>dozvo</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="dodijeliti"><i>dodije</i><par n="perf_tv_ogu/liti__vblex"/></e>
-<e lm="dodijeliti"><i>dodije</i><par n="perf_ref_ogu/liti__vblex"/></e>
-<e lm="opredijeliti"><i>opredije</i><par n="perf_ref_ogu/liti__vblex"/></e>
+<e lm="zahvaliti"><i>zahva</i><par n="perf_tv_ogul/iti-pp__vblex"/></e>
+<e lm="zahvaliti"><i>zahva</i><par n="perf_ref_ogul/iti-pp__vblex"/></e>
+<e lm="pohvaliti"><i>pohva</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="pohvaliti"><i>pohva</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="nagliti"><i>nag</i><par n="imperf_iv_gul/iti-pp__vblex"/></e>
+<e lm="podijeliti"><i>podije</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="podijeliti"><i>podije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="dijeliti"><i>dije</i><par n="imperf_tv_gul/iti__vblex"/></e>
+<e lm="dijeliti"><i>dije</i><par n="imperf_ref_gul/iti__vblex"/></e>
+<e lm="odijeliti"><i>odije</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="odijeliti"><i>odije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="razdijeliti"><i>razdije</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="razdijeliti"><i>razdije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="podijeliti"><i>podije</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="podijeliti"><i>podije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="samoopredijeliti"><i>samoopredije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="dozvoliti"><i>dozvo</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="dodijeliti"><i>dodije</i><par n="perf_tv_ogul/iti__vblex"/></e>
+<e lm="dodijeliti"><i>dodije</i><par n="perf_ref_ogul/iti__vblex"/></e>
+<e lm="opredijeliti"><i>opredije</i><par n="perf_ref_ogul/iti__vblex"/></e>
 <!--end verbs section-->
 
 <!--Adjective (adjective quadruples) -->
