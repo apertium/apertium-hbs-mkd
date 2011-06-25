@@ -5668,7 +5668,6 @@ after prepositions-->
 <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
       <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>divši</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5686,7 +5685,6 @@ after prepositions-->
 <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ivan</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_istraž/iti__vblex">
@@ -5700,7 +5698,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Partiiples-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>en</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5717,7 +5714,6 @@ after prepositions-->
 <e><p><l>ga</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ga</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>gan</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_la/gati__vblex">
@@ -5749,7 +5745,6 @@ after prepositions-->
 <e><p><l>ga</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ga</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>gan</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>gati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5766,7 +5761,6 @@ after prepositions-->
 <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>avan</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ajući</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_di/zati__vblex">
@@ -5782,7 +5776,6 @@ after prepositions-->
 <e><p><l>za</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>za</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>zan</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5799,7 +5792,6 @@ after prepositions-->
 <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ivan</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_tr/ovati__vblex">
@@ -5815,7 +5807,6 @@ after prepositions-->
 <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ovan</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5832,7 +5823,6 @@ after prepositions-->
 <e><p><l>ca</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ca</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>can</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>čući</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_mi/cati-pp__vblex">
@@ -5879,7 +5869,6 @@ after prepositions-->
 <e><p><l>ca</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ca</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>can</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>čući</l><r>cati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_mi/cati-pp__vblex">
@@ -5926,7 +5915,6 @@ after prepositions-->
 <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>san</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šući</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_pra/titi__vblex">
@@ -5942,7 +5930,6 @@ after prepositions-->
 <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>teći</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_ra/diti__vblex">
@@ -5958,7 +5945,6 @@ after prepositions-->
 <e><p><l>di</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
       <e><p><l>di</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>deći</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -5975,9 +5961,63 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
+
+<pardef n="imperf_tv_t/rti__vblex">
+<!--Infinitive-->
+<e><p><l>r</l><r>r</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>tr</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
+    <e><p><l>rt</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+    <e r="LR"><p><l>rven</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+   <e><p><l>arući</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_ref_t/rti__vblex">
+<!--Infinitive-->
+<e><p><l>r</l><r>r</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>tr</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+   <e><p><l>arući</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_iv_t/rti__vblex">
+<!--Infinitive-->
+<e><p><l>r</l><r>r</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ar</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<e r="LR"><p><l>r</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ra</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>tr</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+   <e><p><l>arući</l><r>rti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+
 
 <pardef n="perf_tv_izbi/ti__vblex">
 <!--Infinitive-->
@@ -6004,7 +6044,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
    <e><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_izbi/ti__vblex">
@@ -6018,7 +6057,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
    <e><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6051,7 +6089,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_bi/ti__vblex">
@@ -6067,7 +6104,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6101,8 +6137,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e r="LR"><p><l>t</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_pi/ti__vblex">
@@ -6118,8 +6152,6 @@ after prepositions-->
 <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e r="LR"><p><l>t</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6136,7 +6168,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>en</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6154,7 +6185,6 @@ after prepositions-->
 <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_vr/tjeti-pp__vblex">
@@ -6217,7 +6247,6 @@ after prepositions-->
 <e><p><l>ko</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ći</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kući</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_vu/ći-pp__vblex">
@@ -6279,7 +6308,6 @@ after prepositions-->
 <e><p><l>ko</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ći</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kući</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_vu/ći-pp__vblex">
@@ -6309,8 +6337,6 @@ after prepositions-->
 <e><p><l>ado</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e r="LR"><p><l>at</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>avši</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6327,7 +6353,6 @@ after prepositions-->
 <e><p><l>za</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>za</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>zan</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6343,8 +6368,6 @@ after prepositions-->
 <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
    <e><p><l>n</l><r>n</r></p><par n="e_ije_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_ijeti__sfx"></par></e>
-   <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l>t</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>   	      	 <e><p><l>nesen</l><r>n</r></p><par n="e_ije_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 </pardef>
 <pardef n="perf_iv_do/nijeti__vblex">
 <!--Infinitive-->
@@ -6358,9 +6381,6 @@ after prepositions-->
 <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
    <e><p><l>n</l><r>n</r></p><par n="e_ije_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_ijeti__sfx"></par></e>
-      <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l>t</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>   	      	
-   <e><p><l>nesen</l><r>n</r></p><par n="e_ije_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e><p><l>n</l><r>n</r></p><par n="e_ije__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 </pardef>
 <pardef n="perf_tv_do/nijeti__vblex">
 <!--Infinitive-->
@@ -6390,7 +6410,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Partiiples-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>en</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_izra/ziti__vblex">
@@ -6404,7 +6423,6 @@ after prepositions-->
 <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>žen</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>zivši</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_izra/ziti__vblex">
@@ -6418,7 +6436,6 @@ after prepositions-->
 <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>žen</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>zivši</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6433,7 +6450,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ljen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_le/ći-pp__vblex">
@@ -6470,7 +6486,6 @@ after prepositions-->
 <e><p><l>goše</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="aor"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>gnut</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6490,7 +6505,6 @@ after prepositions-->
 <e><p><l>koše</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="aor"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>k</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>knut</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_ista/ći__vblex">
@@ -6528,7 +6542,6 @@ after prepositions-->
 <e><p><l>koše</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="aor"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>k</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>knut</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6543,7 +6556,6 @@ after prepositions-->
 <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ovan</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_nagla/siti__vblex">
@@ -6557,7 +6569,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sivši</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_obja/sniti__vblex">
@@ -6571,7 +6582,6 @@ after prepositions-->
 <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šnjen</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>snivši</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_obja/sniti__vblex">
@@ -6585,7 +6595,6 @@ after prepositions-->
 <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šnjen</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>snivši</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_pi/sati__vblex">
@@ -6601,7 +6610,6 @@ after prepositions-->
 <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>san</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šući</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6616,7 +6624,6 @@ after prepositions-->
 <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
       <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>divši</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6631,23 +6638,9 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
-<pardef n="perf_ref_ukin/uti__vblex">
-<!--Infinitive-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
-<!--Imperative-->
-<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
-<!--Present-->
-<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
-<!--Aorist-->
-<e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
-<!--Participles-->
-    <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ut</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
- <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
-</pardef>
+
 <pardef n="perf_ref_uz/eti__vblex">
 <!--Infinitive-->
 <e><p><l>e</l><r>e</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
@@ -6659,7 +6652,6 @@ after prepositions-->
 <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>et</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>evši</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_vi/djeti__vblex">
@@ -6673,7 +6665,6 @@ after prepositions-->
 <e><i>d</i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i>d</i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>d</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i>d</i><par n="e_je__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_vra/titi__vblex">
@@ -6687,7 +6678,6 @@ after prepositions-->
 <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>tivši</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6702,7 +6692,6 @@ after prepositions-->
 <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6719,7 +6708,6 @@ after prepositions-->
 <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>avan</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ajući</l><r>avati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_d/avati-pp__vblex">
@@ -6779,7 +6767,6 @@ after prepositions-->
 <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ava</l><r>avati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>avan</l><r>avati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ajući</l><r>avati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_d/avati-pp__vblex">
@@ -6823,7 +6810,6 @@ after prepositions-->
 <e><p><l>ko</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ći</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kući</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_i/ći-pp__vblex">
@@ -6884,7 +6870,6 @@ after prepositions-->
 <e><p><l></l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx_koh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ka</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_povu/ći__vblex">
@@ -6898,7 +6883,6 @@ after prepositions-->
 <e><p><l></l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx_koh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ka</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>kavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_povu/ći__vblex">
@@ -6932,7 +6916,6 @@ after prepositions-->
 <e><p><l>goše</l><r>ći<s n="aor"></s><s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>gnut</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_le/ći-pp__vblex">
@@ -6969,7 +6952,6 @@ after prepositions-->
 <e><p><l>goše</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="aor"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>gnut</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -6989,7 +6971,6 @@ after prepositions-->
 <e><p><l>đoše</l><r>ći<s n="aor"></s><s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>đen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_do/ći__vblex">
@@ -7008,7 +6989,6 @@ after prepositions-->
 <e><p><l>đoše</l><r>ći<s n="aor"></s><s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="p3"></s><s n="pl"></s></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>đen</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_do/ći-pp__vblex">
@@ -7062,8 +7042,6 @@ after prepositions-->
 <e><p><l>ado</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
-   <e r="LR"><p><l>at</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_d/ati__vblex"><!--Dadoh, izdadoh-->
@@ -7109,7 +7087,6 @@ after prepositions-->
 <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>tivši</l><r>titi<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_pra/titi__vblex">
@@ -7141,7 +7118,6 @@ after prepositions-->
 <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ti</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>teći</l><r>titi<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7174,7 +7150,6 @@ after prepositions-->
 <e><p><l>šlja</l><r>sliti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sli</l><r>sliti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šljen</l><r>sliti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sleći</l><r>sliti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7203,7 +7178,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sivši</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7236,7 +7210,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>seći</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_ga/siti__vblex">
@@ -7252,7 +7225,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>seći</l><r>siti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_ga/siti-pp__vblex">
@@ -7296,7 +7268,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>seći</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_uga/siti__vblex">
@@ -7310,7 +7281,6 @@ after prepositions-->
 <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šen</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>seći</l><r>siti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7352,7 +7322,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_ogul/iti-pp__vblex">
@@ -7379,7 +7348,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_ogul/iti-pp__vblex">
@@ -7409,7 +7377,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_gul/iti__vblex">
@@ -7425,7 +7392,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_gul/iti__vblex">
@@ -7483,7 +7449,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ljen</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_isplov/iti-pp__vblex">
@@ -7529,7 +7494,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ljen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_isplov/iti__vblex">
@@ -7545,7 +7509,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ljen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7574,7 +7537,6 @@ after prepositions-->
 <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sni</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šnjen</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>snivši</l><r>sniti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_ba/citi__vblex">
@@ -7602,7 +7564,6 @@ after prepositions-->
 <e><p><l>ci</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ci</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>civši</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_ba/citi__vblex">
@@ -7616,7 +7577,6 @@ after prepositions-->
 <e><p><l>ci</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ci</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>čen</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>civši</l><r>citi<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7648,7 +7608,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_razum/jeti-pp__vblex">
@@ -7678,7 +7637,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je_left__yat"></par><par n="e_je_right__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_razum/jeti-pp__vblex">
@@ -7723,7 +7681,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>ljen</l><r></r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7740,7 +7697,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je__yat"></par><p><l>eći</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_žel/jeti__vblex">
@@ -7756,7 +7712,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je__yat"></par><p><l>eći</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_žel/jeti__vblex">
@@ -7786,7 +7741,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je__yat"></par><p><l>evši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_požel/jeti__vblex">
@@ -7800,7 +7754,6 @@ after prepositions-->
 <e><i></i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i></i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i></i><par n="e_je__yat"></par><p><l>evši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_požel/jeti__vblex">
@@ -7830,7 +7783,6 @@ after prepositions-->
 <e><i>d</i><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><i>d</i><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>d</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><i>d</i><par n="e_je__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_vi/djeti__vblex">
@@ -7893,7 +7845,6 @@ after prepositions-->
 <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>teći</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7922,7 +7873,6 @@ after prepositions-->
 <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>t</l><r>t</r></p><par n="e_i_left__yat"></par><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ćen</l><r>t</r></p><par n="e_je_right__yat"></par><p><l></l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>t</l><r>t</r></p><par n="e_je__yat"></par><p><l>vši</l><r>ti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7951,7 +7901,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Partiiples-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>en</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -7984,7 +7933,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>en</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8013,7 +7961,6 @@ after prepositions-->
 <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>zi</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>žen</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>zivši</l><r>ziti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8061,7 +8008,6 @@ after prepositions-->
 <e><p><l>zi</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>žen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>zeći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_vo/ziti__vblex">
@@ -8077,7 +8023,6 @@ after prepositions-->
 <e><p><l>zi</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>žen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>zeći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_vo/ziti-pp__vblex">
@@ -8140,7 +8085,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_gul/iti-pp__vblex">
@@ -8171,7 +8115,6 @@ after prepositions-->
 <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>si</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jen</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>eći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_gul/iti-pp__vblex">
@@ -8289,7 +8232,6 @@ after prepositions-->
 <e><p><l>s</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>s</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>sen</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_tre/sti__vblex">
@@ -8305,7 +8247,6 @@ after prepositions-->
 <e><p><l>s</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>s</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>sen</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_tre/sti__vblex">
@@ -8336,7 +8277,6 @@ after prepositions-->
 <e><p><l>s</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>s</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>sen</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sući</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_potre/sti__vblex">
@@ -8350,7 +8290,6 @@ after prepositions-->
 <e><p><l>s</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>s</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_ao__sfx"></par></e>
-   <e><p><l>sen</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>sući</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_potre/sti__vblex">
@@ -8396,7 +8335,6 @@ after prepositions-->
 <e><p><l>t</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ten</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>tući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_me/sti__vblex">
@@ -8428,7 +8366,6 @@ after prepositions-->
 <e><p><l>t</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ten</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>tući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8443,7 +8380,6 @@ after prepositions-->
 <e><p><l>t</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ten</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>tavši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_pome/sti__vblex">
@@ -8457,7 +8393,6 @@ after prepositions-->
 <e><p><l>t</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ten</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>tavši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_pome/sti__vblex">
@@ -8488,7 +8423,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>den</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>dući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_poje/sti__vblex">
@@ -8502,7 +8436,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>den</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
    <e><p><l>vši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8519,7 +8452,6 @@ after prepositions-->
 <e><p><l>s</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l>s</l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_ao__sfx"></par></e>
-    <e><p><l>sen</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>sući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_pa/sti__vblex"><!--Travu pasti-->
@@ -8568,7 +8500,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>den</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>dući</l><r>sti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_poje/sti__vblex">
@@ -8596,7 +8527,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>den</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
    <e><p><l>vši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8625,7 +8555,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>dnut</l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>vši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_posje/sti__vblex">
@@ -8639,7 +8568,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>dnut</l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>vši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8694,7 +8622,6 @@ after prepositions-->
 <e><p><l>d</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx_oh__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>sti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>dnut</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>vši</l><r>sti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8712,17 +8639,12 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>sti</l><r>stiti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
     <group alt="sh">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_BS">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_HR">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_SR">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <e><p><l>steći</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
@@ -8768,17 +8690,12 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>sti</l><r>stiti</r></p><p><l></l><r><s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
     <group alt="sh">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_BS">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_HR">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_SR">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <e><p><l>steći</l><r>stiti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
@@ -8795,17 +8712,12 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>sti</l><r>stiti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
     <group alt="sh">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_BS">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_HR">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_SR">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <e><p><l>stivši</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
@@ -8847,17 +8759,12 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>sti</l><r>stiti</r></p><p><l></l><r><s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
     <group alt="sh">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_BS">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_HR">
-    <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <group alt="sh_SR">
-    <e><p><l>šćen</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     </group>
     <e><p><l>stivši</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
@@ -8888,7 +8795,6 @@ after prepositions-->
 <e><p><l>sti</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sti</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>stivši</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_pu/stiti__vblex">
@@ -8902,7 +8808,6 @@ after prepositions-->
 <e><p><l>sti</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sti</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>šten</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>stivši</l><r>stiti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8917,8 +8822,46 @@ after prepositions-->
 <e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ut</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
  <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_iv_ukin/uti-pp__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+ <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_ref_ukin/uti__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+ <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_ref_ukin/uti-pp__vblex">
+<!--Infinitive-->
+<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+ <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_ukin/uti__vblex">
 <!--Infinuttve-->
@@ -8932,6 +8875,19 @@ after prepositions-->
 <!--Participles-->
     <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
    <e><p><l>ut</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+ <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_tv_ukin/uti-pp__vblex">
+<!--Infinuttve-->
+<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"></par></e>
+<!--Imperative-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>u</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l></l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
  <e><p><l>uvši</l><r>uti<s n="vblex"></s><s n="perf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -8948,7 +8904,6 @@ after prepositions-->
 <e><p><l>ija</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>iven</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ijući</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_š/iti__vblex">
@@ -8964,7 +8919,6 @@ after prepositions-->
 <e><p><l>ija</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>iven</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ijući</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_š/iti__vblex">
@@ -8995,7 +8949,6 @@ after prepositions-->
 <e><p><l>ija</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>iven</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_ref_saš/iti__vblex">
@@ -9009,7 +8962,6 @@ after prepositions-->
 <e><p><l>ija</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>i</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>iven</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ivši</l><r>iti<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_tv_saš/iti__vblex">
@@ -9041,7 +8993,6 @@ after prepositions-->
 <e><p><l>di</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
       <e><p><l>di</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>deći</l><r>diti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_tv_ra/diti__vblex">
@@ -9071,7 +9022,6 @@ after prepositions-->
 <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
       <e><p><l>di</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-    <e><p><l>đen</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
     <e><p><l>divši</l><r>diti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_izra/diti-pp__vblex">
@@ -9115,7 +9065,6 @@ after prepositions-->
 <e><p><l>za</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>za</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>zan</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>zati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_di/zati-pp__vblex">
@@ -9208,7 +9157,6 @@ after prepositions-->
 <e><p><l>za</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>za</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>zan</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>žući</l><r>zati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_di/zati-pp__vblex">
@@ -9241,7 +9189,6 @@ after prepositions-->
 <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>san</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šući</l><r>sati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_pi/sati-pp__vblex">
@@ -9334,7 +9281,6 @@ after prepositions-->
 <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>sa</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>san</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>šući</l><r>sati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_pi/sati-pp__vblex">
@@ -9367,6 +9313,94 @@ after prepositions-->
     <e><p><l>deći</l><r>iti<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
+<pardef n="imperf_iv_/slati__vblex">
+<!--Infinitive-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>šaljući</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_ref_/slati__vblex">
+<!--Infinitive-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>šaljući</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_tv_/slati__vblex">
+<!--Infinittve-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"></par></e>
+<!--Imperattve-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
+   <e><p><l>slan</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+<e><p><l>šaljući</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+
+<pardef n="perf_tv_po/slati__vblex">
+<!--Infinitive-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
+   <e><p><l>slan</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+ <e><p><l>slavši</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_ref_po/slati__vblex">
+<!--Infinitive-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+ <e><p><l>slavši</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="perf_iv_po/slati__vblex">
+<!--Infinitive-->
+<e><p><l>sla</l><r>sla</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>a</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__j__vblex"></par></e>
+<!--Present-->
+<e><p><l>šalj</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>sla</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+ <e><p><l>slavši</l><r>slati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+
 <pardef n="perf_ref_izabr/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"></par></e>
@@ -9378,9 +9412,9 @@ after prepositions-->
 <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
+
 <pardef n="imperf_iv_bir/ati__vblex">
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
@@ -9394,7 +9428,6 @@ after prepositions-->
 <e><p><l>a</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_ref_bir/ati__vblex">
@@ -9410,7 +9443,6 @@ after prepositions-->
 <e><p><l>a</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>ajući</l><r>ati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_bir/ati-pp__vblex">
@@ -9485,8 +9517,84 @@ after prepositions-->
 <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>a</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>an</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>avši</l><r>ati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+
+<pardef n="imperf_iv_name/tati__vblex">
+<!--Infinitive-->
+<e><p><l>ta</l><r>ta</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+  <e><p><l>ćući</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_iv_name/tati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ta</l><r>ta</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
+  <e><p><l>ćući</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_ref_name/tati__vblex">
+<!--Infinitive-->
+<e><p><l>ta</l><r>ta</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>ćući</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_ref_name/tati-pp__vblex">
+<!--Infinitive-->
+<e><p><l>ta</l><r>ta</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s></r></p><par n="lp_o__sfx"></par></e>
+<e><p><l>ćući</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="ref"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
+</pardef>
+<pardef n="imperf_tv_name/tati__vblex">
+<!--Infinitive-->
+<e><p><l>ta</l><r>ta</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"></par></e>
+<!--Imperative-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="inf"></s></r></p><par n="imp__sfx__i__vblex"></par></e>
+<!--Present-->
+<e><p><l>ć</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pres__sfx__em__vblex"></par></e>
+<!--Imperfect-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="imperf__sfx__vblex"></par></e>
+<!--Aorist-->
+<e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="aor__sfx__vblex"></par></e>
+<!--Participles-->
+    <e><p><l>ta</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="lp_o__sfx"></par></e>
+   <e><p><l>tan</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s></r></p><par n="pp__sfx__vblex"></par></e>
+<e><p><l>ćući</l><r>tati<s n="vblex"></s><s n="imperf"></s><s n="tv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
 <pardef n="perf_iv_st/ati-pp__vblex">
@@ -9542,7 +9650,6 @@ after prepositions-->
 <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>et</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>evši</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_uz/eti-pp__vblex">
@@ -9585,7 +9692,6 @@ after prepositions-->
 <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>e</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>et</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>evši</l><r>eti<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_poč/eti-pp__vblex">
@@ -9630,7 +9736,6 @@ after prepositions-->
 <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jan</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_si/jati-pp__vblex">
@@ -9690,7 +9795,6 @@ after prepositions-->
 <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jan</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_si/jati-pp__vblex">
@@ -9734,7 +9838,6 @@ after prepositions-->
 <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jan</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>jati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="imperf_iv_počin/jati-pp__vblex">
@@ -9794,7 +9897,6 @@ after prepositions-->
 <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ja</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>jan</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
 <e><p><l>jući</l><r>jati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 <pardef n="perf_iv_počin/jati-pp__vblex">
@@ -9838,7 +9940,6 @@ after prepositions-->
 <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ovan</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ovati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -9886,7 +9987,6 @@ after prepositions-->
 <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>ova</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ovan</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ovati<s n="vblex"></s><s n="perf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -9918,7 +10018,6 @@ after prepositions-->
 <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="aor__sfx__vblex"></par></e>
 <!--Participles-->
     <e><p><l>iva</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="lp_o__sfx"></par></e>
-   <e><p><l>ivan</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s></r></p><par n="pp__sfx__vblex"></par></e>
   <e><p><l>ujući</l><r>ivati<s n="vblex"></s><s n="imperf"></s><s n="iv"></s><s n="pprs"></s><s n="adv"></s></r></p></e>
 </pardef>
 
@@ -19522,8 +19621,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="odigrati"><i>odigr</i><par n="perf_iv_izabr/ati__vblex"></par></e>
 <e lm="osvajati"><i>osvaj</i><par n="imperf_tv_bir/ati__vblex"></par></e>
 <e lm="čestitati"><i>čestit</i><par n="imperf_iv_bir/ati__vblex"></par></e>
-<e lm="kretati"><i>kret</i><par n="imperf_iv_bir/ati-pp__vblex"></par></e>
-<e lm="kretati"><i>kret</i><par n="imperf_ref_bir/ati-pp__vblex"></par></e>
+<e lm="kretati"><i>kre</i><par n="imperf_iv_name/tati-pp__vblex"></par></e>
+<e lm="kretati"><i>kre</i><par n="imperf_ref_name/tati-pp__vblex"></par></e>
 <e lm="ispitati"><i>ispit</i><par n="perf_tv_izabr/ati__vblex"></par></e>
 <e lm="ispitati"><i>ispit</i><par n="perf_ref_izabr/ati__vblex"></par></e>
 <e lm="olakšati"><i>olakš</i><par n="perf_iv_izabr/ati__vblex"></par></e>
@@ -19573,8 +19672,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="napuštati"><i>napušt</i><par n="imperf_tv_bir/ati__vblex"></par></e>
 <e lm="smetati"><i>smet</i><par n="imperf_tv_bir/ati__vblex"></par></e>
 <e lm="smetati"><i>smet</i><par n="imperf_iv_bir/ati__vblex"></par></e>
-<e lm="susretati"><i>susret</i><par n="imperf_tv_bir/ati__vblex"></par></e>
-<e lm="susretati"><i>susret</i><par n="imperf_ref_bir/ati__vblex"></par></e>
+<e lm="susretati"><i>susre</i><par n="imperf_tv_name/tati__vblex"></par></e>
+<e lm="susretati"><i>susre</i><par n="imperf_ref_name/tati__vblex"></par></e>
 <e lm="vraćati"><i>vrać</i><par n="imperf_tv_bir/ati__vblex"></par></e>
 <e lm="vraćati"><i>vrać</i><par n="imperf_ref_bir/ati__vblex"></par></e>
 <e lm="čekati"><i>ček</i><par n="imperf_iv_bir/ati__vblex"></par></e>
@@ -19587,6 +19686,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="početi"><i>poč</i><par n="perf_tv_poč/eti__vblex"></par></e>
 <e lm="uzeti"><i>uz</i><par n="perf_tv_uz/eti__vblex"></par></e>
 <e lm="uzeti"><i>uz</i><par n="perf_ref_uz/eti__vblex"></par></e>
+<e lm="obuzeti"><i>obuz</i><par n="perf_tv_uz/eti__vblex"></par></e>
+<e lm="izuzeti"><i>izuz</i><par n="perf_tv_uz/eti__vblex"></par></e>
+<e lm="izuzeti"><i>izuz</i><par n="perf_ref_uz/eti__vblex"></par></e>
 <e lm="zauzeti"><i>zauz</i><par n="perf_tv_uz/eti__vblex"></par></e>
 <e lm="zauzeti"><i>zauz</i><par n="perf_ref_uz/eti__vblex"></par></e>
 <e lm="preuzeti"><i>preuz</i><par n="perf_tv_uz/eti__vblex"></par></e>
@@ -21388,6 +21490,78 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="moriti"><i>mor</i><par n="imperf_tv_traž/iti__vblex"/></e>
 <e lm="moriti"><i>mor</i><par n="imperf_ref_traž/iti__vblex"/></e>
 <e lm="bogoslužiti"><i>bogosluž</i><par n="perf_tv_istraž/iti__vblex"/></e>
+<e lm="trti"><i>t</i><par n="imperf_tv_t/rti__vblex"/></e>
+<e lm="trti"><i>t</i><par n="imperf_ref_t/rti__vblex"/></e>
+<e lm="istaknuti"><i>istakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="istaknuti"><i>istakn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="spomenuti"><i>spomen</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="spomenuti"><i>spomen</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="prekinuti"><i>prekin</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="prekinuti"><i>prekin</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="pokrenuti"><i>pokren</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="pokrenuti"><i>pokren</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="potaknuti"><i>potakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="potaknuti"><i>potakn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="umaknuti"><i>umakn</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="primaknuti"><i>primakn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="primaknuti"><i>primakn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="minuti"><i>min</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="jurnuti"><i>jurn</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="okrznuti"><i>okrzn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="okrznuti"><i>okrzn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="buknuti"><i>bukn</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="otpočinuti"><i>otpočin</i><par n="perf_iv_ukin/uti__vblex"/></e>
+<e lm="iščeznuti"><i>iščezn</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="zamrznuti"><i>zamrzn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="zamrznuti"><i>zamrzn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="zamrznuti"><i>zamrzn</i><par n="perf_iv_ukin/uti__vblex"/></e>
+<e lm="nametnuti"><i>nametn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="nametnuti"><i>nametn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="ukinuti"><i>ukin</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="poginuti"><i>pogin</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="počinuti"><i>počin</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="obrnuti"><i>obrn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="obrnuti"><i>obrn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="izvrnuti"><i>izvrn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="izvrnuti"><i>izvrn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="okrenuti"><i>okren</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="okrenuti"><i>okren</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="prevrnuti"><i>prevrn</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="prevrnuti"><i>prevrn</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="laknuti"><i>lakn</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="odlanuti"><i>odlan</i><par n="perf_iv_ukin/uti-pp__vblex"/></e>
+<e lm="opomenuti"><i>opomen</i><par n="perf_tv_ukin/uti__vblex"/></e>
+<e lm="opomenuti"><i>opomen</i><par n="perf_ref_ukin/uti__vblex"/></e>
+<e lm="slati"><i/><par n="imperf_tv_/slati__vblex"/></e>
+<e lm="slati"><i/><par n="imperf_ref_/slati__vblex"/></e>
+<e lm="poslati"><i>po</i><par n="perf_tv_po/slati__vblex"/></e>
+<e lm="poslati"><i>po</i><par n="perf_ref_po/slati__vblex"/></e>
+<e lm="izaslati"><i>iza</i><par n="perf_tv_po/slati__vblex"/></e>
+<e lm="odlagati"><i>odla</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="zalagati"><i>zala</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="zalagati"><i>zala</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="pomagati"><i>poma</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="pomagati"><i>poma</i><par n="imperf_iv_la/gati__vblex"/></e>
+<e lm="pomagati"><i>poma</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="lagati"><i>la</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="lagati"><i>la</i><par n="imperf_iv_la/gati__vblex"/></e>
+<e lm="ulagati"><i>ula</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="ulagati"><i>ula</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="izlagati"><i>izla</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="izlagati"><i>izla</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="nalagati"><i>nala</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="obrazlagati"><i>obrazla</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="obrazlagati"><i>obrazla</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="potpomagati"><i>potpoma</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="potpomagati"><i>potpoma</i><par n="imperf_ref_la/gati__vblex"/></e>
+<e lm="raspolagati"><i>raspola</i><par n="imperf_iv_la/gati__vblex"/></e>
+<e lm="predlagati"><i>predla</i><par n="imperf_tv_la/gati__vblex"/></e>
+<e lm="nametati"><i>name</i><par n="imperf_tv_name/tati__vblex"/></e>
+<e lm="nadmetati"><i>nadme</i><par n="imperf_ref_name/tati-pp__vblex"/></e>
+<e lm="umetati"><i>ume</i><par n="imperf_tv_name/tati__vblex"/></e>
+<e lm="umetati"><i>ume</i><par n="imperf_ref_name/tati__vblex"/></e>
+<e lm="podmetati"><i>podme</i><par n="imperf_tv_name/tati__vblex"/></e>
+<e lm="podmetati"><i>podme</i><par n="imperf_ref_name/tati__vblex"/></e>
 <!--end verbs section-->
 
 <!--Adjective (adjective quadruples) -->
