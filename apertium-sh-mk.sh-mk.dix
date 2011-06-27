@@ -8,6 +8,7 @@
     <sdef n="f"       c="Feminine"/>
     <sdef n="nt"      c="Neuter"/>
     <sdef n="mf"      c="Masculine-Feminine"/>
+    <sdef n="mfn"      c="Masculine-Feminine-Neuter"/>
 
     <sdef n="mi"      c="Masculine (inanimate)"/>
     <sdef n="ma"      c="Masculine (animate)"/>
@@ -42,6 +43,8 @@
     <sdef n="exp"     c="Expectative"/>
     <sdef n="sbj"     c="Subjunctive"/>
     <sdef n="opt"     c="Optative"/>
+
+    <sdef n="cog"     c="Cognomen"/>
 
     <sdef n="aff"     c="Affirmative"/>
     <sdef n="int"     c="Interrogative"/>
@@ -138,6 +141,13 @@
     <sdef n="iv" c="Intransitive"/>
 
   </sdefs>
+  <pardefs>
+    <pardef n="cog_mf_cog_mfn">
+      <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+    </pardef>
+  </pardefs>
 
    <section id="main" type="standard">
 
@@ -541,13 +551,13 @@
 	<e><p><l>Mladić<s n="np"/></l><r>Младиќ<s n="np"/></r></p></e>
 	<e><p><l>Nikolić<s n="np"/></l><r>Николиќ<s n="np"/></r></p></e>
 	<e><p><l>Radić<s n="np"/></l><r>Радиќ<s n="np"/></r></p></e>
-	<e><p><l>Radovanović<s n="np"/></l><r>Радовановиќ<s n="np"/></r></p></e>
+	<e><p><l>Radovanović<s n="np"/></l><r>Радовановиќ<s n="np"/></r></p><par n="cog_mf_cog_mfn"/></e>
 	<e><p><l>Samardžić<s n="np"/></l><r>Самарџиќ<s n="np"/></r></p></e>
 	<e><p><l>Svilanović<s n="np"/></l><r>Свилановиќ<s n="np"/></r></p></e>
 	<e><p><l>Silajdžić<s n="np"/></l><r>Силајџиќ<s n="np"/></r></p></e>
 	<e><p><l>Stanišić<s n="np"/></l><r>Станишиќ<s n="np"/></r></p></e>
-	<e><p><l>Stanković<s n="np"/></l><r>Станковиќ<s n="np"/></r></p></e>
-	<e><p><l>Tadić<s n="np"/></l><r>Тадиќ<s n="np"/></r></p></e>
+	<e><p><l>Stanković<s n="np"/></l><r>Станковиќ<s n="np"/></r></p><par n="cog_mf_cog_mfn"/></e>
+	<e><p><l>Tadić<s n="np"/></l><r>Тадиќ<s n="np"/></r></p><par n="cog_mf_cog_mfn"/></e>
 	<e><p><l>Terzić<s n="np"/></l><r>Терзиќ<s n="np"/></r></p></e>
 	<e><p><l>Tihić<s n="np"/></l><r>Тихиќ<s n="np"/></r></p></e>
 	<e><p><l>Hadžić<s n="np"/></l><r>Хаџиќ<s n="np"/></r></p></e>

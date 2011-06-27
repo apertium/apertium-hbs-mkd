@@ -104,10 +104,25 @@
     </pipeline>
   </mode>
 
+  <mode name="sh-mk-constraints" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sh-mk.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="sh-mk-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sh-mk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sh-mk.prob"/>
@@ -119,6 +134,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sh-mk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sh-mk.prob"/>
@@ -137,6 +155,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sh-mk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sh-mk.prob"/>
@@ -164,6 +185,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sh-mk.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sh-mk.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sh-mk.prob"/>

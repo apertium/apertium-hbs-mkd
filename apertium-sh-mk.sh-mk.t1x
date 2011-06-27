@@ -4,7 +4,6 @@
 <section-def-cats>
   <def-cat n="nom">
      <cat-item tags="n.*"/>
-     <cat-item tags="np.*"/>
   </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
