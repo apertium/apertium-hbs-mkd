@@ -49,13 +49,14 @@ LIST Neu = nt ;
 LIST Anim = ma ; 
 LIST Inanim = mi ; 
 
-LIST Acc = acc ; 
-LIST Loc = loc ; 
-LIST Gen = gen ; 
 LIST Nom = nom ; 
+LIST Gen = gen ; 
 LIST Dat = dat ; 
-LIST Ins = ins ;
+LIST Acc = acc ; 
 LIST Voc = voc ;
+LIST Loc = loc ; 
+LIST Ins = ins ;
+
 
 # =========================================================================== #
 
@@ -111,11 +112,11 @@ SECTION
 # =========================================================================== #
 
 REMOVE $$NGDAILV IF (0C A-OR-ADV) (NOT 1* N + $$NGDAILV BARRIER NPNHA) ;
-    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
 
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
-    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
