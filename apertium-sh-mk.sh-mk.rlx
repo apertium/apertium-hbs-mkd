@@ -12,7 +12,9 @@
 #    ## NP-internal disambiguation
 #    ## PP disambiguation
 #    ## Verb chain disambiguation
+#    ## Sentence level disambiguation
 #    ## Lexicalised rules
+#    # Syntactic function labelling
 # =========================================================================== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
@@ -135,6 +137,12 @@ REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER) ;
 REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
+SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
+                         (0 NP-HEAD + $$NUMBER + Fem)
+                         (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + Fem BARRIER S-BOUNDARY) ;
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+                                    
+
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
@@ -157,4 +165,18 @@ REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 
+# =========================================================================== #
+#   Sentence level disambiguation                                             #
+# =========================================================================== #
+
+
+SELECT Lp + $$GENDER + $$NUMBER IF
+                     (-1C* NP-HEAD + $$GENDER + $$NUMBER BARRIER S-BOUNDARY) ; 
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+
+SECTION
+# =========================================================================== #
+#   Syntactic function labelling                                              #
+# =========================================================================== #
 
