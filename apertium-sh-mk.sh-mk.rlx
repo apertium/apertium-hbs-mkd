@@ -11,6 +11,7 @@
 #    # Disambiguation 
 #    ## NP-internal disambiguation
 #    ## PP disambiguation
+#    ## Verb chain disambiguation
 #    ## Lexicalised rules
 # =========================================================================== #
 
@@ -27,7 +28,7 @@ LIST EOS = (<<<) ;
 
 LIST N = n ; 
 LIST A = adj ; 
-LIST V = vblex ; 
+LIST V = vblex vbser ; 
 LIST Adv = adv ; 
 LIST Num = num ; 
 LIST Det = det ; 
@@ -41,6 +42,10 @@ LIST Interj = ij ;
 LIST Cm = (",") (cm) ;
 
 # =========================================================================== #
+
+LIST Clt = clt ; 
+LIST Lp = lp ; 
+LIST Opt = opt ; 
 
 LIST Msc = m ma mi ;
 LIST Fem = f ; 
@@ -57,20 +62,26 @@ LIST Voc = voc ;
 LIST Loc = loc ; 
 LIST Ins = ins ;
 
-
 # =========================================================================== #
 
-LIST ACC-OR-LOC-PREP = "na" ; 
+LIST ACC-OR-LOC-PREP = "na" "u"; 
+
+LIST V-COP = "biti" ; 
 
 # =========================================================================== #
 
 LIST GENDER = ma mi f nt mf mfn ;
 LIST NUMBER = sg pl sp ;
 LIST NGDAILV = nom gen dat acc ins loc voc ;
+LIST FIN-TEMPS = pres past ; 
 
 # =========================================================================== #
 
 SET NOT-ACC-LOC = NGDAILV - Acc - Loc ; 
+
+SET PRON-CLT = Pron + Clt ; 
+
+SET V-FIN = FIN-TEMPS + V ;
 
 # Common ambiguities 
 
@@ -112,11 +123,38 @@ SECTION
 # =========================================================================== #
 
 REMOVE $$NGDAILV IF (0C A-OR-ADV) (NOT 1* N + $$NGDAILV BARRIER NPNHA) ;
-## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+
+# =========================================================================== #
+#   NP-agreement disambiguation                                               #
+# =========================================================================== #
+
+REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER) ;
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
 
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
-## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+
+REMOVE Loc (-1 BOS) ; 
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+
+# =========================================================================== #
+#   Verb chain disambiguation                                                 #
+# =========================================================================== #
+
+REMOVE PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ; 
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ; 
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+
+
