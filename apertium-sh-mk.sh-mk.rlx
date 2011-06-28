@@ -66,7 +66,7 @@ LIST Ins = ins ;
 
 # =========================================================================== #
 
-LIST ACC-OR-LOC-PREP = "na" "u"; 
+LIST ACC-OR-LOC-PREP = "na" "u" "o"; 
 
 LIST V-COP = "biti" ; 
 
