@@ -180,6 +180,7 @@
      <e><p><l>po<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
      <e><p><l>za<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
      <e><p><l>iz<s n="pr"/></l><r>од<s n="pr"/></r></p></e>
+     <e><p><l>od<s n="pr"/></l><r>од<s n="pr"/></r></p></e>
      <e><p><l>do<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
      <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
 
@@ -5322,6 +5323,7 @@
     <!-- SECTION: Punctuation -->
 
     <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+([., ][0-9]+)?.</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
 
    </section>
 </dictionary>
