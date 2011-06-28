@@ -53,7 +53,20 @@
 	"žena" n f pl acc
 	"žena" n f pl voc
 "<borbena>"
-	"borbena" ukjent
+	"borben" adj pst ma sg gen ind
+	"borben" adj pst ma sg acc ind
+	"borben" adj pst mi sg gen ind
+	"borben" adj pst nt sg gen ind
+	"borben" adj pst nt pl nom ind
+	"borben" adj pst nt pl nom def
+	"borben" adj pst nt pl acc ind
+	"borben" adj pst nt pl acc def
+	"borben" adj pst nt pl voc ind
+	"borben" adj pst nt pl voc def
+	"borben" adj pst f sg nom ind
+	"borben" adj pst f sg nom def
+	"borben" adj pst f sg voc ind
+	"borben" adj pst f sg voc def
 "<letača>"
 	"letač" n ma sg gen
 	"letač" n ma sg acc
@@ -204,7 +217,37 @@
 	"manevrirati" vblex imperf tv aor p2 sg
 	"manevrirati" vblex imperf tv aor p3 sg
 "<borbenim>"
-	"borbenim" ukjent
+	"borben" adj comp nt sg ins
+	"borben" adj pst ma sg ins ind
+	"borben" adj pst ma sg ins def
+	"borben" adj pst ma pl dat ind
+	"borben" adj pst ma pl dat def
+	"borben" adj pst ma pl loc ind
+	"borben" adj pst ma pl loc def
+	"borben" adj pst ma pl ins ind
+	"borben" adj pst ma pl ins def
+	"borben" adj pst mi sg ins ind
+	"borben" adj pst mi sg ins def
+	"borben" adj pst mi pl dat ind
+	"borben" adj pst mi pl dat def
+	"borben" adj pst mi pl loc ind
+	"borben" adj pst mi pl loc def
+	"borben" adj pst mi pl ins ind
+	"borben" adj pst mi pl ins def
+	"borben" adj pst f pl dat ind
+	"borben" adj pst f pl dat def
+	"borben" adj pst f pl loc ind
+	"borben" adj pst f pl loc def
+	"borben" adj pst f pl ins ind
+	"borben" adj pst f pl ins def
+	"borben" adj pst nt sg ins ind
+	"borben" adj pst nt sg ins def
+	"borben" adj pst nt pl dat ind
+	"borben" adj pst nt pl dat def
+	"borben" adj pst nt pl loc ind
+	"borben" adj pst nt pl loc def
+	"borben" adj pst nt pl ins ind
+	"borben" adj pst nt pl ins def
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins
 "<pri>"
@@ -217,9 +260,9 @@
 "<700>"
 	"700" num
 "<km>"
-	"km" ukjent
+	"km" abbr
 "<h>"
-	"h" ukjent
+	"h" abbr
 "<na>"
 	"na" pr
 "<visini>"
@@ -298,7 +341,8 @@
 "<na>"
 	"na" pr
 "<posljednjoj>"
-	"posljednjoj" ukjent
+	"posljeednji" adj pst f sg dat def
+	"posljeednji" adj pst f sg loc def
 "<godini>"
 	"godina" n f sg dat
 	"godina" n f sg loc
@@ -316,7 +360,12 @@
 	"zrakoplovstvo" n nt pl acc
 	"zrakoplovstvo" n nt pl voc
 "<Vojne>"
-	"Vojne" ukjent
+	"Vojni" adj pst ma pl acc def
+	"Vojni" adj pst mi pl acc def
+	"Vojni" adj pst f pl nom def
+	"Vojni" adj pst f pl acc def
+	"Vojni" adj pst f pl voc def
+	"Vojni" adj pst f sg gen def
 "<akademije>"
 	"akademija" n f sg gen
 	"akademija" n f pl nom
@@ -376,7 +425,10 @@
 "<Do>"
 	"Do" pr
 "<prijemnog>"
-	"prijemnog" ukjent
+	"prijemni" adj pst ma sg gen def
+	"prijemni" adj pst ma sg acc def
+	"prijemni" adj pst mi sg gen def
+	"prijemni" adj pst nt sg gen def
 "<testa>"
 	"test" n mi sg gen
 "<nikada>"
@@ -545,7 +597,21 @@
 	"žena" n f pl acc
 	"žena" n f pl voc
 "<borbeni>"
-	"borbeni" ukjent
+	"borben" adj pst ma sg nom def
+	"borben" adj pst ma sg voc ind
+	"borben" adj pst ma sg voc def
+	"borben" adj pst ma pl nom ind
+	"borben" adj pst ma pl nom def
+	"borben" adj pst ma pl voc ind
+	"borben" adj pst ma pl voc def
+	"borben" adj pst mi sg nom def
+	"borben" adj pst mi sg acc def
+	"borben" adj pst mi sg voc ind
+	"borben" adj pst mi sg voc def
+	"borben" adj pst mi pl nom ind
+	"borben" adj pst mi pl nom def
+	"borben" adj pst mi pl voc ind
+	"borben" adj pst mi pl voc def
 "<piloti>"
 	"pilot" n ma pl nom
 	"pilot" n ma pl voc
@@ -608,9 +674,39 @@
 "<Krneta>"
 	"Krneta" ukjent
 "<borbenim>"
-	"borbenim" ukjent
+	"borben" adj comp nt sg ins
+	"borben" adj pst ma sg ins ind
+	"borben" adj pst ma sg ins def
+	"borben" adj pst ma pl dat ind
+	"borben" adj pst ma pl dat def
+	"borben" adj pst ma pl loc ind
+	"borben" adj pst ma pl loc def
+	"borben" adj pst ma pl ins ind
+	"borben" adj pst ma pl ins def
+	"borben" adj pst mi sg ins ind
+	"borben" adj pst mi sg ins def
+	"borben" adj pst mi pl dat ind
+	"borben" adj pst mi pl dat def
+	"borben" adj pst mi pl loc ind
+	"borben" adj pst mi pl loc def
+	"borben" adj pst mi pl ins ind
+	"borben" adj pst mi pl ins def
+	"borben" adj pst f pl dat ind
+	"borben" adj pst f pl dat def
+	"borben" adj pst f pl loc ind
+	"borben" adj pst f pl loc def
+	"borben" adj pst f pl ins ind
+	"borben" adj pst f pl ins def
+	"borben" adj pst nt sg ins ind
+	"borben" adj pst nt sg ins def
+	"borben" adj pst nt pl dat ind
+	"borben" adj pst nt pl dat def
+	"borben" adj pst nt pl loc ind
+	"borben" adj pst nt pl loc def
+	"borben" adj pst nt pl ins ind
+	"borben" adj pst nt pl ins def
 "<helikopterom>"
-	"helikopterom" ukjent
+	"helikopter" n mi sg ins
 "<Gazela>"
 	"Gazela" ukjent
 "<Tri>"
@@ -636,7 +732,12 @@
 	"zrakoplovstvo" n nt pl acc
 	"zrakoplovstvo" n nt pl voc
 "<Vojne>"
-	"Vojne" ukjent
+	"Vojni" adj pst ma pl acc def
+	"Vojni" adj pst mi pl acc def
+	"Vojni" adj pst f pl nom def
+	"Vojni" adj pst f pl acc def
+	"Vojni" adj pst f pl voc def
+	"Vojni" adj pst f sg gen def
 "<akademije>"
 	"akademija" n f sg gen
 	"akademija" n f pl nom
@@ -720,7 +821,12 @@
 	"put" n mi sg nom
 	"put" n mi sg acc
 "<poletjela>"
-	"poletjela" ukjent
+	"poletjeeti" vblex perf iv lp nt pl
+	"poletjeeti" vblex perf iv lp f sg
+	"poletjeeti" vblex perf iv lp m pl
+	"poletjeeti" vblex perf iv opt nt pl
+	"poletjeeti" vblex perf iv opt f sg
+	"poletjeeti" vblex perf iv opt m pl
 "<s>"
 	"s" pr
 "<piste>"
@@ -783,9 +889,23 @@
 	"manevriranje" n nt sg acc
 	"manevriranje" n nt sg voc
 "<jakom>"
-	"jakom" ukjent
+	"jak" adj pst ma sg dat def
+	"jak" adj pst ma sg loc def
+	"jak" adj pst mi sg dat def
+	"jak" adj pst mi sg loc def
+	"jak" adj pst f sg ins ind
+	"jak" adj pst f sg ins def
+	"jak" adj pst nt sg dat def
+	"jak" adj pst nt sg loc def
 "<velikom>"
-	"velikom" ukjent
+	"velik" adj pst ma sg dat def
+	"velik" adj pst ma sg loc def
+	"velik" adj pst mi sg dat def
+	"velik" adj pst mi sg loc def
+	"velik" adj pst f sg ins ind
+	"velik" adj pst f sg ins def
+	"velik" adj pst nt sg dat def
+	"velik" adj pst nt sg loc def
 "<pticom>"
 	"ptica" n f sg ins
 "<bilo>"
@@ -812,7 +932,11 @@
 	"clitic" prn pers clt p3 f sg gen
 	"clitic" prn pers clt p3 f sg acc
 "<prekrasan>"
-	"prekrasan" ukjent
+	"krasan" adj ssup ma sg nom ind
+	"krasan" adj ssup ma sg voc ind
+	"krasan" adj ssup mi sg nom ind
+	"krasan" adj ssup mi sg acc ind
+	"krasan" adj ssup mi sg voc ind
 "<doživljaj>"
 	"doživljaj" n mi sg nom
 	"doživljaj" n mi sg acc
@@ -890,7 +1014,10 @@
 "<godinu>"
 	"godina" n f sg acc
 "<vojnog>"
-	"vojnog" ukjent
+	"vojni" adj pst ma sg gen def
+	"vojni" adj pst ma sg acc def
+	"vojni" adj pst mi sg gen def
+	"vojni" adj pst nt sg gen def
 "<zrakoplovstva>"
 	"zrakoplovstvo" n nt sg gen
 	"zrakoplovstvo" n nt pl nom
@@ -994,7 +1121,13 @@
 	"clitic" prn pers clt p3 f sg gen
 	"clitic" prn pers clt p3 f sg acc
 "<teško>"
-	"teško" ukjent
+	"teško" adv
+	"težak" adj pst nt sg nom ind
+	"težak" adj pst nt sg nom def
+	"težak" adj pst nt sg voc ind
+	"težak" adj pst nt sg voc def
+	"težak" adj pst nt sg acc ind
+	"težak" adj pst nt sg acc def
 "<jer>"
 	"jer" cnjsub
 "<sam>"
@@ -1098,7 +1231,7 @@
 	"pozvati" vblex perf tv opt f sg
 	"pozvati" vblex perf tv opt m pl
 "<rođake>"
-	"rođake" ukjent
+	"rođak" n ma pl acc
 "<i>"
 	"i" cnjcoo
 "<prijatelje>"
@@ -1185,7 +1318,7 @@
 	"raditi" vblex imperf iv inf
 	"raditi" vblex imperf tv inf
 "<posao>"
-	"posao" ukjent
+	"posao" n mi sg nom
 "<za>"
 	"za" pr
 "<koji>"
@@ -1212,7 +1345,11 @@
 	"clitic" prn pers clt p3 f sg gen
 	"clitic" prn pers clt p3 f sg acc
 "<opasan>"
-	"opasan" ukjent
+	"opasan" adj pst ma sg nom ind
+	"opasan" adj pst ma sg voc ind
+	"opasan" adj pst mi sg nom ind
+	"opasan" adj pst mi sg acc ind
+	"opasan" adj pst mi sg voc ind
 
 
 "<Moji>"
@@ -1222,7 +1359,10 @@
 	"roditelj" n ma pl nom
 	"roditelj" n ma pl voc
 "<nadali>"
-	"nadali" ukjent
+	"nadati" vblex imperf ref lp mfn pl
+	"nadati" vblex imperf ref lp m pl
+	"nadati" vblex imperf ref opt mfn pl
+	"nadati" vblex imperf ref opt m pl
 "<su>"
 	"biti" vbser clt pres p3 pl
 "<se>"
@@ -1242,9 +1382,18 @@
 "<niti>"
 	"niti" cnjcoo
 "<prijemni>"
-	"prijemni" ukjent
+	"prijemni" adj pst ma sg nom def
+	"prijemni" adj pst ma sg voc def
+	"prijemni" adj pst ma pl nom def
+	"prijemni" adj pst ma pl voc def
+	"prijemni" adj pst mi sg nom def
+	"prijemni" adj pst mi sg acc def
+	"prijemni" adj pst mi sg voc def
+	"prijemni" adj pst mi pl nom def
+	"prijemni" adj pst mi pl voc def
 "<ispit>"
-	"ispit" ukjent
+	"ispit" n mi sg nom
+	"ispit" n mi sg acc
 "<kaže>"
 	"kazati" vblex perf iv pres p3 sg
 	"kazati" vblex perf tv pres p3 sg
@@ -1307,7 +1456,7 @@
 	"tek" cnjcoo
 	"tek" adv
 "<kasnije>"
-	"kasnije" ukjent
+	"kasnije" pr
 "<smije>"
 	"smjeeti" vblex perf tv pres p3 sg
 "<se>"
@@ -1436,7 +1585,7 @@
 	"Trema" n f sg nom
 	"Trema" n f pl gen
 "<nestane>"
-	"nestane" ukjent
+	"nestati" vblex perf iv pres p3 sg
 "<letimo>"
 	"letjeeti" vblex imperf iv pres p1 pl
 	"letjeeti" vblex imperf iv inf imp p1 pl
@@ -1470,7 +1619,7 @@
 
 
 "<Kapetan>"
-	"Kapetan" ukjent
+	"Kapetan" n ma sg nom
 "<Nikola>"
 	"Nikola" ukjent
 "<Stanković>"
@@ -1506,7 +1655,14 @@
 "<devetoro>"
 	"devetoro" ukjent
 "<mladih>"
-	"mladih" ukjent
+	"mlad" adj pst ma pl gen ind
+	"mlad" adj pst ma pl gen def
+	"mlad" adj pst mi pl gen ind
+	"mlad" adj pst mi pl gen def
+	"mlad" adj pst f pl gen ind
+	"mlad" adj pst f pl gen def
+	"mlad" adj pst nt pl gen ind
+	"mlad" adj pst nt pl gen def
 "<pilota>"
 	"pilot" n ma sg gen
 	"pilot" n ma sg acc
@@ -1520,9 +1676,37 @@
 "<su>"
 	"biti" vbser clt pres p3 pl
 "<vrijedni>"
-	"vrijedni" ukjent
+	"vrijeedan" adj pst ma sg nom def
+	"vrijeedan" adj pst ma sg voc ind
+	"vrijeedan" adj pst ma sg voc def
+	"vrijeedan" adj pst ma pl nom ind
+	"vrijeedan" adj pst ma pl nom def
+	"vrijeedan" adj pst ma pl voc ind
+	"vrijeedan" adj pst ma pl voc def
+	"vrijeedan" adj pst mi sg nom def
+	"vrijeedan" adj pst mi sg acc def
+	"vrijeedan" adj pst mi sg voc ind
+	"vrijeedan" adj pst mi sg voc def
+	"vrijeedan" adj pst mi pl nom ind
+	"vrijeedan" adj pst mi pl nom def
+	"vrijeedan" adj pst mi pl voc ind
+	"vrijeedan" adj pst mi pl voc def
 "<motivirani>"
-	"motivirani" ukjent
+	"motiviran" adj pst ma sg voc ind
+	"motiviran" adj pst ma sg voc def
+	"motiviran" adj pst ma sg nom def
+	"motiviran" adj pst ma pl voc ind
+	"motiviran" adj pst ma pl voc def
+	"motiviran" adj pst ma pl nom ind
+	"motiviran" adj pst ma pl nom def
+	"motiviran" adj pst mi sg voc ind
+	"motiviran" adj pst mi sg voc def
+	"motiviran" adj pst mi sg nom def
+	"motiviran" adj pst mi sg acc def
+	"motiviran" adj pst mi pl voc ind
+	"motiviran" adj pst mi pl voc def
+	"motiviran" adj pst mi pl nom ind
+	"motiviran" adj pst mi pl nom def
 "<ne>"
 	"ne" adv
 	"ne" part neg
@@ -1560,7 +1744,8 @@
 	"dobar" adj pst nt sg voc def
 	"dobro" adv
 "<uvježbani>"
-	"uvježbani" ukjent
+	"uvjeežbati" vblex perf tv pp mfn pl
+	"uvjeežbati" vblex perf tv pp m pl
 "<Bilježimo>"
 	"Bieljeežiti" vblex imperf ref pres p1 pl
 	"Bieljeežiti" vblex imperf tv pres p1 pl
@@ -1615,7 +1800,8 @@
 	"prijateljski" adj pst mi pl nom def
 	"prijateljski" adj pst mi pl voc def
 "<odnos>"
-	"odnos" ukjent
+	"odnos" n mi sg nom
+	"odnos" n mi sg acc
 "<oni>"
 	"onaj" prn dem ma pl nom
 	"onaj" prn dem mi pl nom
@@ -1655,7 +1841,11 @@
 
 
 "<Vojna>"
-	"Vojna" ukjent
+	"Vojni" adj pst f sg nom def
+	"Vojni" adj pst f sg voc def
+	"Vojni" adj pst nt pl nom def
+	"Vojni" adj pst nt pl acc def
+	"Vojni" adj pst nt pl voc def
 "<akademija>"
 	"akademija" n f sg nom
 	"akademija" n f pl gen
@@ -1669,7 +1859,7 @@
 "<160>"
 	"160" num
 "<godišnju>"
-	"godišnju" ukjent
+	"godišnji" adj pst f sg acc def
 "<povijest>"
 	"povijeest" n f sg nom
 	"povijeest" n f sg acc
@@ -1689,7 +1879,16 @@
 	"clitic" prn pers clt p3 f sg gen
 	"clitic" prn pers clt p3 f sg acc
 "<veće>"
-	"veće" ukjent
+	"velik" adj comp ma pl acc
+	"velik" adj comp mi pl acc
+	"velik" adj comp f pl nom
+	"velik" adj comp f pl acc
+	"velik" adj comp f pl voc
+	"velik" adj comp f sg gen
+	"velik" adj comp nt sg nom
+	"velik" adj comp nt sg acc
+	"velik" adj comp nt sg voc
+	"veliko" adv comp
 "<zanimanje>"
 	"zanimanje" n nt sg nom
 	"zanimanje" n nt sg acc
