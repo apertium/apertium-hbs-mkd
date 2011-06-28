@@ -147,6 +147,13 @@
       <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
       <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
     </pardef>
+    <pardef n="m_f_nt_mfn">
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mfn"/></r></p></e>
+    </pardef>
+
   </pardefs>
 
    <section id="main" type="standard">
@@ -263,6 +270,8 @@
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
+
+     <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
 
      <!-- SECTION: Nouns -->
 
@@ -3403,7 +3412,7 @@
 
      <!-- SECTION: Verbs -->
      <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
-     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
+     <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
@@ -5007,7 +5016,7 @@
 	<e><p><l>nazvati<s n="vblex"/></l><r>нарече<s n="vblex"/></r></p></e>
 	<e><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p></e>
 	<e><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p></e>
-	<e><p><l>ući<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
+	<e><p><l>ući<s n="vblex"/><s n="imperf"/></l><r>влезе<s n="vblex"/><s n="perf"/></r></p></e>
 	<e r="LR"><p><l>uleći<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
 	<e><p><l>izaći<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>izići<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
