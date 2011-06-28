@@ -277,7 +277,10 @@
      <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
 
      <!-- SECTION: Nouns -->
-
+     
+     <e><p><l>povijeest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>pilot<s n="n"/><s n="f"/></l><r>пилот<s n="n"/><s n="f"/></r></p></e>
+     
      <e><p><l>zgrada<s n="n"/><s n="f"/></l><r>зграда<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>igra<s n="n"/><s n="f"/></l><r>игра<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>klub<s n="n"/><s n="mi"/></l><r>клуб<s n="n"/><s n="m"/></r></p></e>
