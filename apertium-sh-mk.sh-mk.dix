@@ -3418,7 +3418,9 @@
 
      <!-- SECTION: Verbs -->
      <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
-     <e><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
+     <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
+     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
+	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
 
@@ -4058,7 +4060,6 @@
 	<e><p><l>umirati<s n="vblex"/></l><r>умира<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>obamirati<s n="vblex"/></l><r>умира<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>mrijeti<s n="vblex"/></l><r>умира<s n="vblex"/></r></p></e>
-	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>tući<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>udarati<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 	<e><p><l>izbije<s n="vblex"/></l><r>избие<s n="vblex"/></r></p></e>
