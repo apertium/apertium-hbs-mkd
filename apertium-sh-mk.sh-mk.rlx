@@ -142,6 +142,8 @@ SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
                          (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + Fem BARRIER S-BOUNDARY) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
                                     
+SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 # =========================================================================== #
 #   PP disambiguation                                                         #

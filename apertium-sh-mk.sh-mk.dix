@@ -148,10 +148,13 @@
       <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
     </pardef>
     <pardef n="m_f_nt_mfn">
-      <e r="LR"><p><l><s n="m"/></l><r><s n="mfn"/></r></p></e>
-      <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
-      <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
-      <e r="RL"><p><l><s n="GD"/></l><r><s n="mfn"/></r></p></e>
+      <e><p><l><s n="m"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="f"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="nt"/><s n="sg"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/><s n="pl"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
   </pardefs>
