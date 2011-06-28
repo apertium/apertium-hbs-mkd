@@ -15468,6 +15468,22 @@ after prepositions-->
       <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
       <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
   </pardef>
+  <pardef n="zrakoplov__n">
+      <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
+      <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+      <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
+      <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
+      <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+      <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+  </pardef>
   <pardef n="pop__n">
     <e><p><l></l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -18487,52 +18503,52 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l><b></b>г.</l> <r><b></b>г.<s n="num"/></r></p></e>
       <e>        <re>[0-9]+</re>        <p>          <l><b></b>godina</l> <r><b></b>godina<s n="num"/></r></p></e>
 
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
- 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--me</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mog</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moga</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mih</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 <!--Inanimate-->
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--moga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
- 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--me</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
- <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>--mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mog</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-moga</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mom</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mome</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-momu</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mih</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mi</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mim</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+ <e r="LR"><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-mima</l><r><s n="num"/><s n="ord"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 
 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-ma</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e><re>[0-9]*[0,2-9]*[7,8].</re><p><l>-me</l><r><s n="num"/><s n="ord"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -27611,6 +27627,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="očuh"><i>oču</i><par n="oču/h__n"/></e>
 <e lm="govor"><i>govor</i><par n="govor__n"/></e>
 <e lm="pilot"><i>pilot</i><par n="govor__n"/></e>
+<e lm="zrakoplov"><i>zrakoplov</i><par n="zrakoplov__n"/></e>
 <e lm="medij"><i>medij</i><par n="medij__n"/></e>
 <e lm="medij"><p><l>medij</l><r>medij:1</r></p><par n="medium__n"/></e>
 <e lm="sokol"><i>sokol</i><par n="sokol__n"/></e>
