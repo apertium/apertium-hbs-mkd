@@ -47,6 +47,10 @@
 "<tri>"
 	"trti" vblex imperf ref inf imp p2 sg
 	"trti" vblex imperf tv inf imp p2 sg
+	"tri" num nt sg nom
+	"tri" num f sg nom
+	"tri" num ma sg nom
+	"tri" num mi sg nom
 "<žene>"
 	"žena" n f sg gen
 	"žena" n f pl nom
@@ -362,10 +366,10 @@
 "<Vojne>"
 	"Vojni" adj pst ma pl acc def
 	"Vojni" adj pst mi pl acc def
+	"Vojni" adj pst f sg gen def
 	"Vojni" adj pst f pl nom def
 	"Vojni" adj pst f pl acc def
 	"Vojni" adj pst f pl voc def
-	"Vojni" adj pst f sg gen def
 "<akademije>"
 	"akademija" n f sg gen
 	"akademija" n f pl nom
@@ -381,6 +385,10 @@
 "<tri>"
 	"trti" vblex imperf ref inf imp p2 sg
 	"trti" vblex imperf tv inf imp p2 sg
+	"tri" num nt sg nom
+	"tri" num f sg nom
+	"tri" num ma sg nom
+	"tri" num mi sg nom
 "<godine>"
 	"godina" n f sg gen
 	"godina" n f pl nom
@@ -425,10 +433,10 @@
 "<Do>"
 	"Do" pr
 "<prijemnog>"
+	"prijemni" adj pst nt sg gen def
 	"prijemni" adj pst ma sg gen def
 	"prijemni" adj pst ma sg acc def
 	"prijemni" adj pst mi sg gen def
-	"prijemni" adj pst nt sg gen def
 "<testa>"
 	"test" n mi sg gen
 "<nikada>"
@@ -590,7 +598,7 @@
 "<još>"
 	"još" adv
 "<dvije>"
-	"dvije" ukjent
+	"dva" num f sg nom
 "<žene>"
 	"žena" n f sg gen
 	"žena" n f pl nom
@@ -712,6 +720,10 @@
 "<Tri>"
 	"Trti" vblex imperf ref inf imp p2 sg
 	"Trti" vblex imperf tv inf imp p2 sg
+	"Tri" num nt sg nom
+	"Tri" num f sg nom
+	"Tri" num ma sg nom
+	"Tri" num mi sg nom
 "<žene>"
 	"žena" n f sg gen
 	"žena" n f pl nom
@@ -734,10 +746,10 @@
 "<Vojne>"
 	"Vojni" adj pst ma pl acc def
 	"Vojni" adj pst mi pl acc def
+	"Vojni" adj pst f sg gen def
 	"Vojni" adj pst f pl nom def
 	"Vojni" adj pst f pl acc def
 	"Vojni" adj pst f pl voc def
-	"Vojni" adj pst f sg gen def
 "<akademije>"
 	"akademija" n f sg gen
 	"akademija" n f pl nom
@@ -981,7 +993,21 @@
 	"što" prn itg mfn sp ins
 	"što" prn rel mfn sp ins
 "<drugim>"
-	"drugim" ukjent
+	"drugi" num ord nt sg ins
+	"drugi" num ord nt pl dat
+	"drugi" num ord nt pl loc
+	"drugi" num ord nt pl ins
+	"drugi" num ord f pl dat
+	"drugi" num ord f pl loc
+	"drugi" num ord f pl ins
+	"drugi" num ord ma sg ins
+	"drugi" num ord ma pl dat
+	"drugi" num ord ma pl loc
+	"drugi" num ord ma pl ins
+	"drugi" num ord mi sg ins
+	"drugi" num ord mi pl dat
+	"drugi" num ord mi pl loc
+	"drugi" num ord mi pl ins
 
 
 "<Zajedno>"
@@ -991,13 +1017,20 @@
 "<tri>"
 	"trti" vblex imperf ref inf imp p2 sg
 	"trti" vblex imperf tv inf imp p2 sg
+	"tri" num nt sg nom
+	"tri" num f sg nom
+	"tri" num ma sg nom
+	"tri" num mi sg nom
 "<žene>"
 	"žena" n f sg gen
 	"žena" n f pl nom
 	"žena" n f pl acc
 	"žena" n f pl voc
 "<šest>"
-	"šest" ukjent
+	"šest" num nt sg nom
+	"šest" num f sg nom
+	"šest" num ma sg nom
+	"šest" num mi sg nom
 "<muškaraca>"
 	"muškar" n ma pl gen
 "<polazi>"
@@ -1010,14 +1043,14 @@
 	"polaiti" vblex imperf tv aor p2 sg
 	"polaiti" vblex imperf tv aor p3 sg
 "<četvrtu>"
-	"četvrtu" ukjent
+	"četvrti" num ord f sg acc
 "<godinu>"
 	"godina" n f sg acc
 "<vojnog>"
+	"vojni" adj pst nt sg gen def
 	"vojni" adj pst ma sg gen def
 	"vojni" adj pst ma sg acc def
 	"vojni" adj pst mi sg gen def
-	"vojni" adj pst nt sg gen def
 "<zrakoplovstva>"
 	"zrakoplovstvo" n nt sg gen
 	"zrakoplovstvo" n nt pl nom
@@ -1070,7 +1103,8 @@
 "<na>"
 	"na" pr
 "<trećoj>"
-	"trećoj" ukjent
+	"treći" num ord f sg dat
+	"treći" num ord f sg loc
 "<godini>"
 	"godina" n f sg dat
 	"godina" n f sg loc
@@ -1091,12 +1125,25 @@
 	"clitic" prn ref pers mfn sp acc
 "<jednom>"
 	"jednom" adv
+	"jedan" num nt sg dat
+	"jedan" num nt sg loc
+	"jedan" num f sg ins
+	"jedan" num ma sg dat
+	"jedan" num ma sg loc
+	"jedan" num mi sg dat
+	"jedan" num mi sg loc
 "<od>"
 	"od" pr
 "<pet>"
-	"pet" ukjent
+	"pet" num nt sg nom
+	"pet" num f sg nom
+	"pet" num ma sg nom
+	"pet" num mi sg nom
 "<ostalih>"
-	"ostalih" ukjent
+	"ostali" adj pst ma pl gen def
+	"ostali" adj pst mi pl gen def
+	"ostali" adj pst f pl gen def
+	"ostali" adj pst nt pl gen def
 "<akademskih>"
 	"akademski" adj pst ma pl gen def
 	"akademski" adj pst mi pl gen def
@@ -1653,7 +1700,7 @@
 	"taj" prn dem ma pl gen
 	"taj" prn dem mi pl gen
 "<devetoro>"
-	"devetoro" ukjent
+	"devetoro" num coll ma sg nom
 "<mladih>"
 	"mlad" adj pst ma pl gen ind
 	"mlad" adj pst ma pl gen def
@@ -1841,11 +1888,11 @@
 
 
 "<Vojna>"
-	"Vojni" adj pst f sg nom def
-	"Vojni" adj pst f sg voc def
 	"Vojni" adj pst nt pl nom def
 	"Vojni" adj pst nt pl acc def
 	"Vojni" adj pst nt pl voc def
+	"Vojni" adj pst f sg nom def
+	"Vojni" adj pst f sg voc def
 "<akademija>"
 	"akademija" n f sg nom
 	"akademija" n f pl gen
@@ -1968,9 +2015,17 @@
 "<niti>"
 	"niti" cnjcoo
 "<jedna>"
-	"jedna" ukjent
+	"jedan" num nt pl nom
+	"jedan" num nt pl acc
+	"jedan" num nt pl voc
+	"jedan" num f sg nom
+	"jedan" num f sg voc
 "<druga>"
-	"druga" ukjent
+	"drugi" num ord nt pl nom
+	"drugi" num ord nt pl acc
+	"drugi" num ord nt pl voc
+	"drugi" num ord f sg nom
+	"drugi" num ord f sg voc
 "<žena>"
 	"žena" n f sg nom
 	"žena" n f pl gen
