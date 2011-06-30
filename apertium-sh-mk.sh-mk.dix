@@ -279,6 +279,14 @@
 
      <!-- SECTION: Nouns -->
      
+     <e><p><l>sastav<s n="n"/><s n="m"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vojska<s n="n"/><s n="f"/></l><r>војска<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>armija<s n="n"/><s n="f"/></l><r>армија<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>letač<s n="n"/><s n="m"/></l><r>летач<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vodnik<s n="n"/><s n="m"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vodnica<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="m"/></r></p></e> <!--TODO: Check this-->
+     <e><p><l>klasa<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="f"/></r></p></e>
+     
      <e><p><l>povijeest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>pilot<s n="n"/><s n="m"/></l><r>пилот<s n="n"/><s n="m"/></r></p></e>
      
@@ -524,11 +532,19 @@
      <e><p><l>mjesec<s n="n"/><s n="m"/></l><r>месец<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>more<s n="n"/><s n="nt"/></l><r>море<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>burek<s n="n"/><s n="m"/></l><r>бурек<s n="n"/><s n="m"/></r></p></e>
+     
+     <e><p><l>zrakoplov<s n="n"/><s n="m"/></l><r>авион<s n="n"/><s n="m"/></r></p></e>
 
 
   
      <!-- SECTION: Proper nouns -->
-
+     
+     <!--Proper Names-->
+	<e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/></r></p></e><!--Tu sam stao-->
+     
+    <!--Proper Names-->
+	<e><p><l>Sandra<s n="np"/></l><r>Сандра<s n="np"/></r></p></e><!--Tu sam stao-->
+	
      <!--Surnames ending in -ić-->
 	<e><p><l>Kirković<s n="np"/></l><r>Kирковиќ<s n="np"/></r></p></e><!--Tu sam stao-->
 	<e><p><l>Keleketić<s n="np"/></l><r>Kелекетиќ<s n="np"/></r></p></e>
@@ -2311,6 +2327,7 @@
      <e><p><l>parlamentaran<s n="adj"/></l><r>парламентарен<s n="adj"/></r></p></e> 
 
      <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
+     <e><p><l>star<s n="adj"/></l><r>стар<s n="adj"/></r></p></e>
 
      <e><p><l>policijski<s n="adj"/></l><r>полициски<s n="adj"/></r></p></e> 
      <e><p><l>ljudski<s n="adj"/></l><r>човечки<s n="adj"/></r></p></e> 
@@ -3424,6 +3441,7 @@
 	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
+      <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
 
      <e><p><l>gledati<s n="vblex"/></l><r>гледа<s n="vblex"/></r></p></e>
      <e><p><l>znati<s n="vblex"/></l><r>знае<s n="vblex"/></r></p></e>
@@ -3433,6 +3451,7 @@
      <e><p><l>misliti<s n="vblex"/></l><r>мисли<s n="vblex"/></r></p></e>
      <e><p><l>vidjeti<s n="vblex"/></l><r>види<s n="vblex"/></r></p></e>
      <e><p><l>tresti<s n="vblex"/></l><r>тресе<s n="vblex"/></r></p></e>
+     
 
      <!-- <cabrilo> reći - to say
           <cabrilo> highly irregular though 
@@ -3530,6 +3549,8 @@
 
      <e><p><l>Švicarska<s n="np"/></l><r>Швајцарија<s n="np"/></r></p></e>
      <e><p><l>Europa<s n="np"/></l><r>Европа<s n="np"/></r></p></e>
+
+     <e><p><l>borben<s n="adj"/></l><r>борбен<s n="adj"/></r></p></e> 
 
      <e><p><l>španjolski<s n="adj"/></l><r>шпански<s n="adj"/></r></p></e> 
      <e><p><l>zainteresiran<s n="adj"/></l><r>заинтересиран<s n="adj"/></r></p></e> 
@@ -4993,7 +5014,7 @@
 	<e><p><l>češati<s n="vblex"/></l><r>чеша<s n="vblex"/></r></p></e>
 	<e><p><l>kopati<s n="vblex"/></l><r>копа<s n="vblex"/></r></p></e>
 	<e><p><l>plivati<s n="vblex"/></l><r>плива<s n="vblex"/></r></p></e>
-	<e><p><l>letjeti<s n="vblex"/></l><r>лета<s n="vblex"/></r></p></e>
+	<e><p><l>letjeeti<s n="vblex"/></l><r>лета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->
 	<e><p><l>ležati<s n="vblex"/></l><r>лежи<s n="vblex"/></r></p></e>
 	<e><p><l>sjediti<s n="vblex"/></l><r>седи<s n="vblex"/></r></p></e>
 	<e><p><l>vrtjeti<s n="vblex"/></l><r>врти<s n="vblex"/></r></p></e>

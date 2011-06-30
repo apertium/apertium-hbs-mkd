@@ -33,7 +33,6 @@ dev/vblex/bidix.vblex_SR.txt -text
 dev/vblex/bidix.vblex_sh.txt -text
 midterm/article.mk.original.txt -text svneol=unset#application/octet-stream
 midterm/article.sh-mk.txt -text
-midterm/article.sh.analyised.txt -text
 midterm/article.sh.analysed.txt -text
 midterm/article.sh.txt -text
 midterm/obradi.sh -text
