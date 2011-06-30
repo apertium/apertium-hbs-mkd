@@ -99,6 +99,7 @@
 	"klasa" n f pl voc
 "<Sandra>"
 	"Sandra" np ant f sg nom
+	"Sandra" np ant f pl gen
 "<Radovanović>"
 	"Radovanović" np cog f sg nom
 	"Radovanović" np cog f sg gen
@@ -147,10 +148,9 @@
 	"upravljati" vblex imperf tv aor p3 sg
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins
-"<Super>"
-	"Super" ukjent
-"<Galeb>"
-	"Galeb" ukjent
+"<Super Galeb>"
+	"Super Galeb" np al mi sg nom
+	"Super Galeb" np al mi sg acc
 "<G>"
 	"G" ukjent
 "<4>"
@@ -169,7 +169,9 @@
 	"Dok" cnjcoo
 	"Dok" cnjsub
 "<mnoge>"
-	"mnoge" ukjent
+	"mnogi" pst adj f pl nom def
+	"mnogi" pst adj f pl acc def
+	"mnogi" pst adj f pl voc def
 "<djevojke>"
 	"djeevojka" n f sg gen
 	"djeevojka" n f pl nom
@@ -264,8 +266,8 @@
 "<700>"
 	"700" num
 "<km>"
-	"km" abbr
-"<h>"
+	"h" 
+	"km" 
 	"h" abbr
 "<na>"
 	"na" pr
@@ -544,12 +546,23 @@
 "<samo>"
 	"samo" cnjcoo
 	"samo" adv
+	"sam" nt sg nom ind
+	"sam" nt sg nom def
+	"sam" nt sg acc ind
+	"sam" nt sg acc def
+	"sam" nt sg voc ind
+	"sam" nt sg voc def
 "<da>"
 	"da" cnjsub
 	"davati" vblex imperf iv pres p3 sg
 	"davati" vblex imperf tv pres p3 sg
 	"affirmative" part aff
 "<sam>"
+	"sam" ma sg nom ind
+	"sam" ma sg voc ind
+	"sam" mi sg nom ind
+	"sam" mi sg acc ind
+	"sam" mi sg voc ind
 	"biti" vbser clt pres p1 sg
 "<letjela>"
 	"letjeeti" vblex imperf iv lp nt pl
@@ -562,6 +575,11 @@
 	"već" cnjcoo
 	"već" adv
 "<sam>"
+	"sam" ma sg nom ind
+	"sam" ma sg voc ind
+	"sam" mi sg nom ind
+	"sam" mi sg acc ind
+	"sam" mi sg voc ind
 	"biti" vbser clt pres p1 sg
 "<skakala>"
 	"skakati" vblex imperf tv lp nt pl
@@ -594,7 +612,7 @@
 	"Radovanović" np cog ma sg nom
 	"Radovanović" np cog ma sg voc
 "<postoje>"
-	"postoje" ukjent
+	"postojati" vblex imperf iv pres p3 pl
 "<još>"
 	"još" adv
 "<dvije>"
@@ -637,6 +655,7 @@
 
 "<Ana>"
 	"Ana" np ant f sg nom
+	"Ana" np ant f pl gen
 "<Tadić>"
 	"Tadić" np cog f sg nom
 	"Tadić" np cog f sg gen
@@ -657,7 +676,7 @@
 "<22>"
 	"22" num
 "<također>"
-	"također" ukjent
+	"također" adv
 "<upravlja>"
 	"upravljati" vblex imperf ref pres p3 sg
 	"upravljati" vblex imperf tv pres p3 sg
@@ -667,10 +686,9 @@
 	"upravljati" vblex imperf tv aor p3 sg
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins
-"<Super>"
-	"Super" ukjent
-"<Galeb>"
-	"Galeb" ukjent
+"<Super Galeb>"
+	"Super Galeb" np al mi sg nom
+	"Super Galeb" np al mi sg acc
 "<G>"
 	"G" ukjent
 "<4>"
@@ -679,8 +697,11 @@
 	"a" cnjcoo
 "<Anja>"
 	"Anja" np ant f sg nom
+	"Anja" np ant f pl gen
 "<Krneta>"
-	"Krneta" ukjent
+	"Krneta" np cog ma sg nom
+	"Krneta" np cog ma sg voc
+	"Krneta" np cog ma pl gen
 "<borbenim>"
 	"borben" adj comp nt sg ins
 	"borben" adj pst ma sg ins ind
@@ -716,7 +737,9 @@
 "<helikopterom>"
 	"helikopter" n mi sg ins
 "<Gazela>"
-	"Gazela" ukjent
+	"Gazela" np al f sg nom
+	"Gazela" np al f sg voc
+	"Gazela" np al f pl gen
 "<Tri>"
 	"Trti" vblex imperf ref inf imp p2 sg
 	"Trti" vblex imperf tv inf imp p2 sg
@@ -816,6 +839,11 @@
 	"kada" cnjsub
 	"kada" adv
 "<sam>"
+	"sam" ma sg nom ind
+	"sam" ma sg voc ind
+	"sam" mi sg nom ind
+	"sam" mi sg acc ind
+	"sam" mi sg voc ind
 	"biti" vbser clt pres p1 sg
 "<prvi>"
 	"prvi" num ord f pl nom
@@ -1064,7 +1092,9 @@
 	"kolega" n ma sg nom
 	"kolega" n ma pl gen
 "<Nemanja>"
-	"Nemanja" ukjent
+	"Nemanja" np ant ma sg nom
+	"Nemanja" np ant ma sg voc
+	"Nemanja" np ant ma pl gen
 "<Ružić>"
 	"Ružić" np cog f sg nom
 	"Ružić" np cog f sg gen
@@ -1155,7 +1185,7 @@
 
 
 "<Naravno>"
-	"Naravno" ukjent
+	"Naravno" adv
 "<bilo>"
 	"biti" vbser lp nt sg
 	"biti" vbser opt nt sg
@@ -1178,6 +1208,11 @@
 "<jer>"
 	"jer" cnjsub
 "<sam>"
+	"sam" ma sg nom ind
+	"sam" ma sg voc ind
+	"sam" mi sg nom ind
+	"sam" mi sg acc ind
+	"sam" mi sg voc ind
 	"biti" vbser clt pres p1 sg
 "<pao>"
 	"pasti" vblex perf iv lp m sg
@@ -1546,7 +1581,20 @@
 "<i>"
 	"i" cnjcoo
 "<sama>"
-	"sama" ukjent
+	"sam" ma sg gen ind
+	"sam" ma sg acc ind
+	"sam" mi sg gen ind
+	"sam" nt sg gen ind
+	"sam" nt pl nom ind
+	"sam" nt pl nom def
+	"sam" nt pl acc ind
+	"sam" nt pl acc def
+	"sam" nt pl voc ind
+	"sam" nt pl voc def
+	"sam" f sg nom ind
+	"sam" f sg nom def
+	"sam" f sg voc ind
+	"sam" f sg voc def
 "<ima>"
 	"imati" vbhaver imperf ref pres p3 sg
 	"imati" vbhaver imperf tv pres p3 sg
@@ -1636,10 +1684,9 @@
 "<letimo>"
 	"letjeeti" vblex imperf iv pres p1 pl
 	"letjeeti" vblex imperf iv inf imp p1 pl
-"<Super>"
-	"Super" ukjent
-"<Galeb>"
-	"Galeb" ukjent
+"<Super Galeb>"
+	"Super Galeb" np al mi sg nom
+	"Super Galeb" np al mi sg acc
 "<i>"
 	"i" cnjcoo
 "<ja>"
@@ -1668,7 +1715,9 @@
 "<Kapetan>"
 	"Kapetan" n ma sg nom
 "<Nikola>"
-	"Nikola" ukjent
+	"Nikola" np ant ma sg nom
+	"Nikola" np ant ma sg voc
+	"Nikola" np ant ma pl gen
 "<Stanković>"
 	"Stanković" np cog f sg nom
 	"Stanković" np cog f sg gen
@@ -2006,12 +2055,15 @@
 	"primiti" vblex perf tv pp m pl
 "<Sandra>"
 	"Sandra" np ant f sg nom
+	"Sandra" np ant f pl gen
 "<Ana>"
 	"Ana" np ant f sg nom
+	"Ana" np ant f pl gen
 "<i>"
 	"i" cnjcoo
 "<Anja>"
 	"Anja" np ant f sg nom
+	"Anja" np ant f pl gen
 "<niti>"
 	"niti" cnjcoo
 "<jedna>"
