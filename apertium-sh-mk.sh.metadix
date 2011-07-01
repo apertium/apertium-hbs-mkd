@@ -32134,4 +32134,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Neuter nouns -->
 <!--end Nouns -->
 </section>
+<section id="final" type="inconditional">
+<e><par n="coma"/></e>
+<e><par n="guionet"/></e>
+</section>
 </dictionary>
