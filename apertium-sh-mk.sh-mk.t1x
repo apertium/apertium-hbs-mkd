@@ -84,6 +84,8 @@
   </def-attr>
 
   <def-attr n="gen">
+     <attr-item tags="mi"/>
+     <attr-item tags="ma"/>
      <attr-item tags="m"/>
      <attr-item tags="f"/>
      <attr-item tags="nt"/>
@@ -126,7 +128,21 @@
           <test>
             <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="loc"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="dat"/></let>
+            <let><clip pos="1" side="tl" part="cas"/><lit-tag v="dat"/></let>
+        </when>
+      </choose>
+    </def-macro>  
+
+    <def-macro n="mima_to_m" npar="1">
+      <choose>
+        <when>
+          <test>
+          <or>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mi"/></equal>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="ma"/></equal>
+          </or>
+          </test>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
         </when>
       </choose>
     </def-macro>  
@@ -134,6 +150,7 @@
 </section-def-macros>
 
 <section-rules>
+
 <!-- Sintagmas nominales -->
 
   <rule comment="regla: num">
