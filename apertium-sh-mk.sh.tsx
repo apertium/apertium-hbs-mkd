@@ -5,1087 +5,1084 @@
   1806 single tags
   158 multiple tags
 -->
-  <def-label name="" closed="true">
-    <tags-item tags=""/>
-  </def-label>
-  <def-label name="abbr" closed="true">
+  <def-label name="abbr">
     <tags-item tags="abbr"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.acc" closed="true">
+  <def-label name="adj.comp.f.pl.acc">
     <tags-item tags="adj.comp.f.pl.acc"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.dat" closed="true">
+  <def-label name="adj.comp.f.pl.dat">
     <tags-item tags="adj.comp.f.pl.dat"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.gen" closed="true">
+  <def-label name="adj.comp.f.pl.gen">
     <tags-item tags="adj.comp.f.pl.gen"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.ins" closed="true">
+  <def-label name="adj.comp.f.pl.ins">
     <tags-item tags="adj.comp.f.pl.ins"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.loc" closed="true">
+  <def-label name="adj.comp.f.pl.loc">
     <tags-item tags="adj.comp.f.pl.loc"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.nom" closed="true">
+  <def-label name="adj.comp.f.pl.nom">
     <tags-item tags="adj.comp.f.pl.nom"/>
   </def-label>
-  <def-label name="adj.comp.f.pl.voc" closed="true">
+  <def-label name="adj.comp.f.pl.voc">
     <tags-item tags="adj.comp.f.pl.voc"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.acc" closed="true">
+  <def-label name="adj.comp.f.sg.acc">
     <tags-item tags="adj.comp.f.sg.acc"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.dat" closed="true">
+  <def-label name="adj.comp.f.sg.dat">
     <tags-item tags="adj.comp.f.sg.dat"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.gen" closed="true">
+  <def-label name="adj.comp.f.sg.gen">
     <tags-item tags="adj.comp.f.sg.gen"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.ins" closed="true">
+  <def-label name="adj.comp.f.sg.ins">
     <tags-item tags="adj.comp.f.sg.ins"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.loc" closed="true">
+  <def-label name="adj.comp.f.sg.loc">
     <tags-item tags="adj.comp.f.sg.loc"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.nom" closed="true">
+  <def-label name="adj.comp.f.sg.nom">
     <tags-item tags="adj.comp.f.sg.nom"/>
   </def-label>
-  <def-label name="adj.comp.f.sg.voc" closed="true">
+  <def-label name="adj.comp.f.sg.voc">
     <tags-item tags="adj.comp.f.sg.voc"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.acc" closed="true">
+  <def-label name="adj.comp.ma.pl.acc">
     <tags-item tags="adj.comp.ma.pl.acc"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.dat" closed="true">
+  <def-label name="adj.comp.ma.pl.dat">
     <tags-item tags="adj.comp.ma.pl.dat"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.gen" closed="true">
+  <def-label name="adj.comp.ma.pl.gen">
     <tags-item tags="adj.comp.ma.pl.gen"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.ins" closed="true">
+  <def-label name="adj.comp.ma.pl.ins">
     <tags-item tags="adj.comp.ma.pl.ins"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.loc" closed="true">
+  <def-label name="adj.comp.ma.pl.loc">
     <tags-item tags="adj.comp.ma.pl.loc"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.nom" closed="true">
+  <def-label name="adj.comp.ma.pl.nom">
     <tags-item tags="adj.comp.ma.pl.nom"/>
   </def-label>
-  <def-label name="adj.comp.ma.pl.voc" closed="true">
+  <def-label name="adj.comp.ma.pl.voc">
     <tags-item tags="adj.comp.ma.pl.voc"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.acc" closed="true">
+  <def-label name="adj.comp.ma.sg.acc">
     <tags-item tags="adj.comp.ma.sg.acc"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.dat" closed="true">
+  <def-label name="adj.comp.ma.sg.dat">
     <tags-item tags="adj.comp.ma.sg.dat"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.gen" closed="true">
+  <def-label name="adj.comp.ma.sg.gen">
     <tags-item tags="adj.comp.ma.sg.gen"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.ins" closed="true">
+  <def-label name="adj.comp.ma.sg.ins">
     <tags-item tags="adj.comp.ma.sg.ins"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.loc" closed="true">
+  <def-label name="adj.comp.ma.sg.loc">
     <tags-item tags="adj.comp.ma.sg.loc"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.nom" closed="true">
+  <def-label name="adj.comp.ma.sg.nom">
     <tags-item tags="adj.comp.ma.sg.nom"/>
   </def-label>
-  <def-label name="adj.comp.ma.sg.voc" closed="true">
+  <def-label name="adj.comp.ma.sg.voc">
     <tags-item tags="adj.comp.ma.sg.voc"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.acc" closed="true">
+  <def-label name="adj.comp.mi.pl.acc">
     <tags-item tags="adj.comp.mi.pl.acc"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.dat" closed="true">
+  <def-label name="adj.comp.mi.pl.dat">
     <tags-item tags="adj.comp.mi.pl.dat"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.gen" closed="true">
+  <def-label name="adj.comp.mi.pl.gen">
     <tags-item tags="adj.comp.mi.pl.gen"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.ins" closed="true">
+  <def-label name="adj.comp.mi.pl.ins">
     <tags-item tags="adj.comp.mi.pl.ins"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.loc" closed="true">
+  <def-label name="adj.comp.mi.pl.loc">
     <tags-item tags="adj.comp.mi.pl.loc"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.nom" closed="true">
+  <def-label name="adj.comp.mi.pl.nom">
     <tags-item tags="adj.comp.mi.pl.nom"/>
   </def-label>
-  <def-label name="adj.comp.mi.pl.voc" closed="true">
+  <def-label name="adj.comp.mi.pl.voc">
     <tags-item tags="adj.comp.mi.pl.voc"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.acc" closed="true">
+  <def-label name="adj.comp.mi.sg.acc">
     <tags-item tags="adj.comp.mi.sg.acc"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.dat" closed="true">
+  <def-label name="adj.comp.mi.sg.dat">
     <tags-item tags="adj.comp.mi.sg.dat"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.gen" closed="true">
+  <def-label name="adj.comp.mi.sg.gen">
     <tags-item tags="adj.comp.mi.sg.gen"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.ins" closed="true">
+  <def-label name="adj.comp.mi.sg.ins">
     <tags-item tags="adj.comp.mi.sg.ins"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.loc" closed="true">
+  <def-label name="adj.comp.mi.sg.loc">
     <tags-item tags="adj.comp.mi.sg.loc"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.nom" closed="true">
+  <def-label name="adj.comp.mi.sg.nom">
     <tags-item tags="adj.comp.mi.sg.nom"/>
   </def-label>
-  <def-label name="adj.comp.mi.sg.voc" closed="true">
+  <def-label name="adj.comp.mi.sg.voc">
     <tags-item tags="adj.comp.mi.sg.voc"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.acc" closed="true">
+  <def-label name="adj.comp.nt.pl.acc">
     <tags-item tags="adj.comp.nt.pl.acc"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.dat" closed="true">
+  <def-label name="adj.comp.nt.pl.dat">
     <tags-item tags="adj.comp.nt.pl.dat"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.gen" closed="true">
+  <def-label name="adj.comp.nt.pl.gen">
     <tags-item tags="adj.comp.nt.pl.gen"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.ins" closed="true">
+  <def-label name="adj.comp.nt.pl.ins">
     <tags-item tags="adj.comp.nt.pl.ins"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.loc" closed="true">
+  <def-label name="adj.comp.nt.pl.loc">
     <tags-item tags="adj.comp.nt.pl.loc"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.nom" closed="true">
+  <def-label name="adj.comp.nt.pl.nom">
     <tags-item tags="adj.comp.nt.pl.nom"/>
   </def-label>
-  <def-label name="adj.comp.nt.pl.voc" closed="true">
+  <def-label name="adj.comp.nt.pl.voc">
     <tags-item tags="adj.comp.nt.pl.voc"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.acc" closed="true">
+  <def-label name="adj.comp.nt.sg.acc">
     <tags-item tags="adj.comp.nt.sg.acc"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.dat" closed="true">
+  <def-label name="adj.comp.nt.sg.dat">
     <tags-item tags="adj.comp.nt.sg.dat"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.gen" closed="true">
+  <def-label name="adj.comp.nt.sg.gen">
     <tags-item tags="adj.comp.nt.sg.gen"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.ins" closed="true">
+  <def-label name="adj.comp.nt.sg.ins">
     <tags-item tags="adj.comp.nt.sg.ins"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.loc" closed="true">
+  <def-label name="adj.comp.nt.sg.loc">
     <tags-item tags="adj.comp.nt.sg.loc"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.nom" closed="true">
+  <def-label name="adj.comp.nt.sg.nom">
     <tags-item tags="adj.comp.nt.sg.nom"/>
   </def-label>
-  <def-label name="adj.comp.nt.sg.voc" closed="true">
+  <def-label name="adj.comp.nt.sg.voc">
     <tags-item tags="adj.comp.nt.sg.voc"/>
   </def-label>
-  <def-label name="adj.pst.adv" closed="true">
+  <def-label name="adj.pst.adv">
     <tags-item tags="adj.pst.adv"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.acc.def" closed="true">
+  <def-label name="adj.pst.f.pl.acc.def">
     <tags-item tags="adj.pst.f.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.acc.ind" closed="true">
+  <def-label name="adj.pst.f.pl.acc.ind">
     <tags-item tags="adj.pst.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.dat.def" closed="true">
+  <def-label name="adj.pst.f.pl.dat.def">
     <tags-item tags="adj.pst.f.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.dat.ind" closed="true">
+  <def-label name="adj.pst.f.pl.dat.ind">
     <tags-item tags="adj.pst.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.gen.def" closed="true">
+  <def-label name="adj.pst.f.pl.gen.def">
     <tags-item tags="adj.pst.f.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.gen.ind" closed="true">
+  <def-label name="adj.pst.f.pl.gen.ind">
     <tags-item tags="adj.pst.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.ins.def" closed="true">
+  <def-label name="adj.pst.f.pl.ins.def">
     <tags-item tags="adj.pst.f.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.ins.ind" closed="true">
+  <def-label name="adj.pst.f.pl.ins.ind">
     <tags-item tags="adj.pst.f.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.loc.def" closed="true">
+  <def-label name="adj.pst.f.pl.loc.def">
     <tags-item tags="adj.pst.f.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.loc.ind" closed="true">
+  <def-label name="adj.pst.f.pl.loc.ind">
     <tags-item tags="adj.pst.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.nom.def" closed="true">
+  <def-label name="adj.pst.f.pl.nom.def">
     <tags-item tags="adj.pst.f.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.nom.ind" closed="true">
+  <def-label name="adj.pst.f.pl.nom.ind">
     <tags-item tags="adj.pst.f.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.voc.def" closed="true">
+  <def-label name="adj.pst.f.pl.voc.def">
     <tags-item tags="adj.pst.f.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.pl.voc.ind" closed="true">
+  <def-label name="adj.pst.f.pl.voc.ind">
     <tags-item tags="adj.pst.f.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.acc.def" closed="true">
+  <def-label name="adj.pst.f.sg.acc.def">
     <tags-item tags="adj.pst.f.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.acc.ind" closed="true">
+  <def-label name="adj.pst.f.sg.acc.ind">
     <tags-item tags="adj.pst.f.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.dat.def" closed="true">
+  <def-label name="adj.pst.f.sg.dat.def">
     <tags-item tags="adj.pst.f.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.dat.ind" closed="true">
+  <def-label name="adj.pst.f.sg.dat.ind">
     <tags-item tags="adj.pst.f.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.gen.def" closed="true">
+  <def-label name="adj.pst.f.sg.gen.def">
     <tags-item tags="adj.pst.f.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.gen.ind" closed="true">
+  <def-label name="adj.pst.f.sg.gen.ind">
     <tags-item tags="adj.pst.f.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.ins.def" closed="true">
+  <def-label name="adj.pst.f.sg.ins.def">
     <tags-item tags="adj.pst.f.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.ins.ind" closed="true">
+  <def-label name="adj.pst.f.sg.ins.ind">
     <tags-item tags="adj.pst.f.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.loc.def" closed="true">
+  <def-label name="adj.pst.f.sg.loc.def">
     <tags-item tags="adj.pst.f.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.loc.ind" closed="true">
+  <def-label name="adj.pst.f.sg.loc.ind">
     <tags-item tags="adj.pst.f.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.nom.def" closed="true">
+  <def-label name="adj.pst.f.sg.nom.def">
     <tags-item tags="adj.pst.f.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.nom.ind" closed="true">
+  <def-label name="adj.pst.f.sg.nom.ind">
     <tags-item tags="adj.pst.f.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.voc.def" closed="true">
+  <def-label name="adj.pst.f.sg.voc.def">
     <tags-item tags="adj.pst.f.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.f.sg.voc.ind" closed="true">
+  <def-label name="adj.pst.f.sg.voc.ind">
     <tags-item tags="adj.pst.f.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.acc.def" closed="true">
+  <def-label name="adj.pst.ma.pl.acc.def">
     <tags-item tags="adj.pst.ma.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.acc.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.acc.ind">
     <tags-item tags="adj.pst.ma.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.dat.def" closed="true">
+  <def-label name="adj.pst.ma.pl.dat.def">
     <tags-item tags="adj.pst.ma.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.dat.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.dat.ind">
     <tags-item tags="adj.pst.ma.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.gen.def" closed="true">
+  <def-label name="adj.pst.ma.pl.gen.def">
     <tags-item tags="adj.pst.ma.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.gen.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.gen.ind">
     <tags-item tags="adj.pst.ma.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.ins.def" closed="true">
+  <def-label name="adj.pst.ma.pl.ins.def">
     <tags-item tags="adj.pst.ma.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.ins.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.ins.ind">
     <tags-item tags="adj.pst.ma.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.loc.def" closed="true">
+  <def-label name="adj.pst.ma.pl.loc.def">
     <tags-item tags="adj.pst.ma.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.loc.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.loc.ind">
     <tags-item tags="adj.pst.ma.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.nom.def" closed="true">
+  <def-label name="adj.pst.ma.pl.nom.def">
     <tags-item tags="adj.pst.ma.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.nom.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.nom.ind">
     <tags-item tags="adj.pst.ma.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.voc.def" closed="true">
+  <def-label name="adj.pst.ma.pl.voc.def">
     <tags-item tags="adj.pst.ma.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.pl.voc.ind" closed="true">
+  <def-label name="adj.pst.ma.pl.voc.ind">
     <tags-item tags="adj.pst.ma.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.acc.def" closed="true">
+  <def-label name="adj.pst.ma.sg.acc.def">
     <tags-item tags="adj.pst.ma.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.acc.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.acc.ind">
     <tags-item tags="adj.pst.ma.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.dat.def" closed="true">
+  <def-label name="adj.pst.ma.sg.dat.def">
     <tags-item tags="adj.pst.ma.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.dat.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.dat.ind">
     <tags-item tags="adj.pst.ma.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.gen.def" closed="true">
+  <def-label name="adj.pst.ma.sg.gen.def">
     <tags-item tags="adj.pst.ma.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.gen.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.gen.ind">
     <tags-item tags="adj.pst.ma.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.ins.def" closed="true">
+  <def-label name="adj.pst.ma.sg.ins.def">
     <tags-item tags="adj.pst.ma.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.ins.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.ins.ind">
     <tags-item tags="adj.pst.ma.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.loc.def" closed="true">
+  <def-label name="adj.pst.ma.sg.loc.def">
     <tags-item tags="adj.pst.ma.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.loc.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.loc.ind">
     <tags-item tags="adj.pst.ma.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.nom.def" closed="true">
+  <def-label name="adj.pst.ma.sg.nom.def">
     <tags-item tags="adj.pst.ma.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.nom.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.nom.ind">
     <tags-item tags="adj.pst.ma.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.voc.def" closed="true">
+  <def-label name="adj.pst.ma.sg.voc.def">
     <tags-item tags="adj.pst.ma.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.ma.sg.voc.ind" closed="true">
+  <def-label name="adj.pst.ma.sg.voc.ind">
     <tags-item tags="adj.pst.ma.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.acc.def" closed="true">
+  <def-label name="adj.pst.mi.pl.acc.def">
     <tags-item tags="adj.pst.mi.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.acc.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.acc.ind">
     <tags-item tags="adj.pst.mi.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.dat.def" closed="true">
+  <def-label name="adj.pst.mi.pl.dat.def">
     <tags-item tags="adj.pst.mi.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.dat.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.dat.ind">
     <tags-item tags="adj.pst.mi.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.gen.def" closed="true">
+  <def-label name="adj.pst.mi.pl.gen.def">
     <tags-item tags="adj.pst.mi.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.gen.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.gen.ind">
     <tags-item tags="adj.pst.mi.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.ins.def" closed="true">
+  <def-label name="adj.pst.mi.pl.ins.def">
     <tags-item tags="adj.pst.mi.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.ins.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.ins.ind">
     <tags-item tags="adj.pst.mi.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.loc.def" closed="true">
+  <def-label name="adj.pst.mi.pl.loc.def">
     <tags-item tags="adj.pst.mi.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.loc.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.loc.ind">
     <tags-item tags="adj.pst.mi.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.nom.def" closed="true">
+  <def-label name="adj.pst.mi.pl.nom.def">
     <tags-item tags="adj.pst.mi.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.nom.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.nom.ind">
     <tags-item tags="adj.pst.mi.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.voc.def" closed="true">
+  <def-label name="adj.pst.mi.pl.voc.def">
     <tags-item tags="adj.pst.mi.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.pl.voc.ind" closed="true">
+  <def-label name="adj.pst.mi.pl.voc.ind">
     <tags-item tags="adj.pst.mi.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.acc.def" closed="true">
+  <def-label name="adj.pst.mi.sg.acc.def">
     <tags-item tags="adj.pst.mi.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.acc.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.acc.ind">
     <tags-item tags="adj.pst.mi.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.dat.def" closed="true">
+  <def-label name="adj.pst.mi.sg.dat.def">
     <tags-item tags="adj.pst.mi.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.dat.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.dat.ind">
     <tags-item tags="adj.pst.mi.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.gen.def" closed="true">
+  <def-label name="adj.pst.mi.sg.gen.def">
     <tags-item tags="adj.pst.mi.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.gen.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.gen.ind">
     <tags-item tags="adj.pst.mi.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.ins.def" closed="true">
+  <def-label name="adj.pst.mi.sg.ins.def">
     <tags-item tags="adj.pst.mi.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.ins.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.ins.ind">
     <tags-item tags="adj.pst.mi.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.loc.def" closed="true">
+  <def-label name="adj.pst.mi.sg.loc.def">
     <tags-item tags="adj.pst.mi.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.loc.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.loc.ind">
     <tags-item tags="adj.pst.mi.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.nom.def" closed="true">
+  <def-label name="adj.pst.mi.sg.nom.def">
     <tags-item tags="adj.pst.mi.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.nom.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.nom.ind">
     <tags-item tags="adj.pst.mi.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.voc.def" closed="true">
+  <def-label name="adj.pst.mi.sg.voc.def">
     <tags-item tags="adj.pst.mi.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.mi.sg.voc.ind" closed="true">
+  <def-label name="adj.pst.mi.sg.voc.ind">
     <tags-item tags="adj.pst.mi.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.acc.def" closed="true">
+  <def-label name="adj.pst.nt.pl.acc.def">
     <tags-item tags="adj.pst.nt.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.acc.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.acc.ind">
     <tags-item tags="adj.pst.nt.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.dat.def" closed="true">
+  <def-label name="adj.pst.nt.pl.dat.def">
     <tags-item tags="adj.pst.nt.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.dat.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.dat.ind">
     <tags-item tags="adj.pst.nt.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.gen.def" closed="true">
+  <def-label name="adj.pst.nt.pl.gen.def">
     <tags-item tags="adj.pst.nt.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.gen.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.gen.ind">
     <tags-item tags="adj.pst.nt.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.ins.def" closed="true">
+  <def-label name="adj.pst.nt.pl.ins.def">
     <tags-item tags="adj.pst.nt.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.ins.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.ins.ind">
     <tags-item tags="adj.pst.nt.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.loc.def" closed="true">
+  <def-label name="adj.pst.nt.pl.loc.def">
     <tags-item tags="adj.pst.nt.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.loc.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.loc.ind">
     <tags-item tags="adj.pst.nt.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.nom.def" closed="true">
+  <def-label name="adj.pst.nt.pl.nom.def">
     <tags-item tags="adj.pst.nt.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.nom.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.nom.ind">
     <tags-item tags="adj.pst.nt.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.voc.def" closed="true">
+  <def-label name="adj.pst.nt.pl.voc.def">
     <tags-item tags="adj.pst.nt.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.pl.voc.ind" closed="true">
+  <def-label name="adj.pst.nt.pl.voc.ind">
     <tags-item tags="adj.pst.nt.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.acc.def" closed="true">
+  <def-label name="adj.pst.nt.sg.acc.def">
     <tags-item tags="adj.pst.nt.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.acc.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.acc.ind">
     <tags-item tags="adj.pst.nt.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.dat.def" closed="true">
+  <def-label name="adj.pst.nt.sg.dat.def">
     <tags-item tags="adj.pst.nt.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.dat.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.dat.ind">
     <tags-item tags="adj.pst.nt.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.gen.def" closed="true">
+  <def-label name="adj.pst.nt.sg.gen.def">
     <tags-item tags="adj.pst.nt.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.gen.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.gen.ind">
     <tags-item tags="adj.pst.nt.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.ins.def" closed="true">
+  <def-label name="adj.pst.nt.sg.ins.def">
     <tags-item tags="adj.pst.nt.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.ins.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.ins.ind">
     <tags-item tags="adj.pst.nt.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.loc.def" closed="true">
+  <def-label name="adj.pst.nt.sg.loc.def">
     <tags-item tags="adj.pst.nt.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.loc.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.loc.ind">
     <tags-item tags="adj.pst.nt.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.nom.def" closed="true">
+  <def-label name="adj.pst.nt.sg.nom.def">
     <tags-item tags="adj.pst.nt.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.nom.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.nom.ind">
     <tags-item tags="adj.pst.nt.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.voc.def" closed="true">
+  <def-label name="adj.pst.nt.sg.voc.def">
     <tags-item tags="adj.pst.nt.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.pst.nt.sg.voc.ind" closed="true">
+  <def-label name="adj.pst.nt.sg.voc.ind">
     <tags-item tags="adj.pst.nt.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.acc.def" closed="true">
+  <def-label name="adj.ssup.f.pl.acc.def">
     <tags-item tags="adj.ssup.f.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.acc.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.acc.ind">
     <tags-item tags="adj.ssup.f.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.dat.def" closed="true">
+  <def-label name="adj.ssup.f.pl.dat.def">
     <tags-item tags="adj.ssup.f.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.dat.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.dat.ind">
     <tags-item tags="adj.ssup.f.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.gen.def" closed="true">
+  <def-label name="adj.ssup.f.pl.gen.def">
     <tags-item tags="adj.ssup.f.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.gen.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.gen.ind">
     <tags-item tags="adj.ssup.f.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.ins.def" closed="true">
+  <def-label name="adj.ssup.f.pl.ins.def">
     <tags-item tags="adj.ssup.f.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.ins.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.ins.ind">
     <tags-item tags="adj.ssup.f.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.loc.def" closed="true">
+  <def-label name="adj.ssup.f.pl.loc.def">
     <tags-item tags="adj.ssup.f.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.loc.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.loc.ind">
     <tags-item tags="adj.ssup.f.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.nom.def" closed="true">
+  <def-label name="adj.ssup.f.pl.nom.def">
     <tags-item tags="adj.ssup.f.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.nom.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.nom.ind">
     <tags-item tags="adj.ssup.f.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.voc.def" closed="true">
+  <def-label name="adj.ssup.f.pl.voc.def">
     <tags-item tags="adj.ssup.f.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.pl.voc.ind" closed="true">
+  <def-label name="adj.ssup.f.pl.voc.ind">
     <tags-item tags="adj.ssup.f.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.acc.def" closed="true">
+  <def-label name="adj.ssup.f.sg.acc.def">
     <tags-item tags="adj.ssup.f.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.acc.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.acc.ind">
     <tags-item tags="adj.ssup.f.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.dat.def" closed="true">
+  <def-label name="adj.ssup.f.sg.dat.def">
     <tags-item tags="adj.ssup.f.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.dat.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.dat.ind">
     <tags-item tags="adj.ssup.f.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.gen.def" closed="true">
+  <def-label name="adj.ssup.f.sg.gen.def">
     <tags-item tags="adj.ssup.f.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.gen.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.gen.ind">
     <tags-item tags="adj.ssup.f.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.ins.def" closed="true">
+  <def-label name="adj.ssup.f.sg.ins.def">
     <tags-item tags="adj.ssup.f.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.ins.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.ins.ind">
     <tags-item tags="adj.ssup.f.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.loc.def" closed="true">
+  <def-label name="adj.ssup.f.sg.loc.def">
     <tags-item tags="adj.ssup.f.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.loc.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.loc.ind">
     <tags-item tags="adj.ssup.f.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.nom.def" closed="true">
+  <def-label name="adj.ssup.f.sg.nom.def">
     <tags-item tags="adj.ssup.f.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.nom.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.nom.ind">
     <tags-item tags="adj.ssup.f.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.voc.def" closed="true">
+  <def-label name="adj.ssup.f.sg.voc.def">
     <tags-item tags="adj.ssup.f.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.f.sg.voc.ind" closed="true">
+  <def-label name="adj.ssup.f.sg.voc.ind">
     <tags-item tags="adj.ssup.f.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.acc.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.acc.def">
     <tags-item tags="adj.ssup.ma.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.acc.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.acc.ind">
     <tags-item tags="adj.ssup.ma.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.dat.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.dat.def">
     <tags-item tags="adj.ssup.ma.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.dat.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.dat.ind">
     <tags-item tags="adj.ssup.ma.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.gen.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.gen.def">
     <tags-item tags="adj.ssup.ma.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.gen.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.gen.ind">
     <tags-item tags="adj.ssup.ma.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.ins.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.ins.def">
     <tags-item tags="adj.ssup.ma.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.ins.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.ins.ind">
     <tags-item tags="adj.ssup.ma.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.loc.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.loc.def">
     <tags-item tags="adj.ssup.ma.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.loc.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.loc.ind">
     <tags-item tags="adj.ssup.ma.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.nom.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.nom.def">
     <tags-item tags="adj.ssup.ma.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.nom.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.nom.ind">
     <tags-item tags="adj.ssup.ma.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.voc.def" closed="true">
+  <def-label name="adj.ssup.ma.pl.voc.def">
     <tags-item tags="adj.ssup.ma.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.pl.voc.ind" closed="true">
+  <def-label name="adj.ssup.ma.pl.voc.ind">
     <tags-item tags="adj.ssup.ma.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.acc.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.acc.def">
     <tags-item tags="adj.ssup.ma.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.acc.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.acc.ind">
     <tags-item tags="adj.ssup.ma.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.dat.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.dat.def">
     <tags-item tags="adj.ssup.ma.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.dat.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.dat.ind">
     <tags-item tags="adj.ssup.ma.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.gen.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.gen.def">
     <tags-item tags="adj.ssup.ma.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.gen.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.gen.ind">
     <tags-item tags="adj.ssup.ma.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.ins.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.ins.def">
     <tags-item tags="adj.ssup.ma.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.ins.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.ins.ind">
     <tags-item tags="adj.ssup.ma.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.loc.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.loc.def">
     <tags-item tags="adj.ssup.ma.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.loc.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.loc.ind">
     <tags-item tags="adj.ssup.ma.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.nom.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.nom.def">
     <tags-item tags="adj.ssup.ma.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.nom.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.nom.ind">
     <tags-item tags="adj.ssup.ma.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.voc.def" closed="true">
+  <def-label name="adj.ssup.ma.sg.voc.def">
     <tags-item tags="adj.ssup.ma.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.ma.sg.voc.ind" closed="true">
+  <def-label name="adj.ssup.ma.sg.voc.ind">
     <tags-item tags="adj.ssup.ma.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.acc.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.acc.def">
     <tags-item tags="adj.ssup.mi.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.acc.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.acc.ind">
     <tags-item tags="adj.ssup.mi.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.dat.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.dat.def">
     <tags-item tags="adj.ssup.mi.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.dat.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.dat.ind">
     <tags-item tags="adj.ssup.mi.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.gen.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.gen.def">
     <tags-item tags="adj.ssup.mi.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.gen.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.gen.ind">
     <tags-item tags="adj.ssup.mi.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.ins.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.ins.def">
     <tags-item tags="adj.ssup.mi.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.ins.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.ins.ind">
     <tags-item tags="adj.ssup.mi.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.loc.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.loc.def">
     <tags-item tags="adj.ssup.mi.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.loc.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.loc.ind">
     <tags-item tags="adj.ssup.mi.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.nom.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.nom.def">
     <tags-item tags="adj.ssup.mi.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.nom.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.nom.ind">
     <tags-item tags="adj.ssup.mi.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.voc.def" closed="true">
+  <def-label name="adj.ssup.mi.pl.voc.def">
     <tags-item tags="adj.ssup.mi.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.pl.voc.ind" closed="true">
+  <def-label name="adj.ssup.mi.pl.voc.ind">
     <tags-item tags="adj.ssup.mi.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.acc.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.acc.def">
     <tags-item tags="adj.ssup.mi.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.acc.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.acc.ind">
     <tags-item tags="adj.ssup.mi.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.dat.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.dat.def">
     <tags-item tags="adj.ssup.mi.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.dat.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.dat.ind">
     <tags-item tags="adj.ssup.mi.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.gen.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.gen.def">
     <tags-item tags="adj.ssup.mi.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.gen.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.gen.ind">
     <tags-item tags="adj.ssup.mi.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.ins.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.ins.def">
     <tags-item tags="adj.ssup.mi.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.ins.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.ins.ind">
     <tags-item tags="adj.ssup.mi.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.loc.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.loc.def">
     <tags-item tags="adj.ssup.mi.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.loc.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.loc.ind">
     <tags-item tags="adj.ssup.mi.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.nom.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.nom.def">
     <tags-item tags="adj.ssup.mi.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.nom.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.nom.ind">
     <tags-item tags="adj.ssup.mi.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.voc.def" closed="true">
+  <def-label name="adj.ssup.mi.sg.voc.def">
     <tags-item tags="adj.ssup.mi.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.mi.sg.voc.ind" closed="true">
+  <def-label name="adj.ssup.mi.sg.voc.ind">
     <tags-item tags="adj.ssup.mi.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.acc.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.acc.def">
     <tags-item tags="adj.ssup.nt.pl.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.acc.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.acc.ind">
     <tags-item tags="adj.ssup.nt.pl.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.dat.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.dat.def">
     <tags-item tags="adj.ssup.nt.pl.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.dat.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.dat.ind">
     <tags-item tags="adj.ssup.nt.pl.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.gen.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.gen.def">
     <tags-item tags="adj.ssup.nt.pl.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.gen.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.gen.ind">
     <tags-item tags="adj.ssup.nt.pl.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.ins.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.ins.def">
     <tags-item tags="adj.ssup.nt.pl.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.ins.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.ins.ind">
     <tags-item tags="adj.ssup.nt.pl.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.loc.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.loc.def">
     <tags-item tags="adj.ssup.nt.pl.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.loc.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.loc.ind">
     <tags-item tags="adj.ssup.nt.pl.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.nom.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.nom.def">
     <tags-item tags="adj.ssup.nt.pl.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.nom.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.nom.ind">
     <tags-item tags="adj.ssup.nt.pl.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.voc.def" closed="true">
+  <def-label name="adj.ssup.nt.pl.voc.def">
     <tags-item tags="adj.ssup.nt.pl.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.pl.voc.ind" closed="true">
+  <def-label name="adj.ssup.nt.pl.voc.ind">
     <tags-item tags="adj.ssup.nt.pl.voc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.acc.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.acc.def">
     <tags-item tags="adj.ssup.nt.sg.acc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.acc.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.acc.ind">
     <tags-item tags="adj.ssup.nt.sg.acc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.dat.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.dat.def">
     <tags-item tags="adj.ssup.nt.sg.dat.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.dat.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.dat.ind">
     <tags-item tags="adj.ssup.nt.sg.dat.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.gen.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.gen.def">
     <tags-item tags="adj.ssup.nt.sg.gen.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.gen.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.gen.ind">
     <tags-item tags="adj.ssup.nt.sg.gen.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.ins.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.ins.def">
     <tags-item tags="adj.ssup.nt.sg.ins.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.ins.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.ins.ind">
     <tags-item tags="adj.ssup.nt.sg.ins.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.loc.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.loc.def">
     <tags-item tags="adj.ssup.nt.sg.loc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.loc.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.loc.ind">
     <tags-item tags="adj.ssup.nt.sg.loc.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.nom.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.nom.def">
     <tags-item tags="adj.ssup.nt.sg.nom.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.nom.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.nom.ind">
     <tags-item tags="adj.ssup.nt.sg.nom.ind"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.voc.def" closed="true">
+  <def-label name="adj.ssup.nt.sg.voc.def">
     <tags-item tags="adj.ssup.nt.sg.voc.def"/>
   </def-label>
-  <def-label name="adj.ssup.nt.sg.voc.ind" closed="true">
+  <def-label name="adj.ssup.nt.sg.voc.ind">
     <tags-item tags="adj.ssup.nt.sg.voc.ind"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.acc" closed="true">
+  <def-label name="adj.sup.f.pl.acc">
     <tags-item tags="adj.sup.f.pl.acc"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.dat" closed="true">
+  <def-label name="adj.sup.f.pl.dat">
     <tags-item tags="adj.sup.f.pl.dat"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.gen" closed="true">
+  <def-label name="adj.sup.f.pl.gen">
     <tags-item tags="adj.sup.f.pl.gen"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.ins" closed="true">
+  <def-label name="adj.sup.f.pl.ins">
     <tags-item tags="adj.sup.f.pl.ins"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.loc" closed="true">
+  <def-label name="adj.sup.f.pl.loc">
     <tags-item tags="adj.sup.f.pl.loc"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.nom" closed="true">
+  <def-label name="adj.sup.f.pl.nom">
     <tags-item tags="adj.sup.f.pl.nom"/>
   </def-label>
-  <def-label name="adj.sup.f.pl.voc" closed="true">
+  <def-label name="adj.sup.f.pl.voc">
     <tags-item tags="adj.sup.f.pl.voc"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.acc" closed="true">
+  <def-label name="adj.sup.f.sg.acc">
     <tags-item tags="adj.sup.f.sg.acc"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.dat" closed="true">
+  <def-label name="adj.sup.f.sg.dat">
     <tags-item tags="adj.sup.f.sg.dat"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.gen" closed="true">
+  <def-label name="adj.sup.f.sg.gen">
     <tags-item tags="adj.sup.f.sg.gen"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.ins" closed="true">
+  <def-label name="adj.sup.f.sg.ins">
     <tags-item tags="adj.sup.f.sg.ins"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.loc" closed="true">
+  <def-label name="adj.sup.f.sg.loc">
     <tags-item tags="adj.sup.f.sg.loc"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.nom" closed="true">
+  <def-label name="adj.sup.f.sg.nom">
     <tags-item tags="adj.sup.f.sg.nom"/>
   </def-label>
-  <def-label name="adj.sup.f.sg.voc" closed="true">
+  <def-label name="adj.sup.f.sg.voc">
     <tags-item tags="adj.sup.f.sg.voc"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.acc" closed="true">
+  <def-label name="adj.sup.ma.pl.acc">
     <tags-item tags="adj.sup.ma.pl.acc"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.dat" closed="true">
+  <def-label name="adj.sup.ma.pl.dat">
     <tags-item tags="adj.sup.ma.pl.dat"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.gen" closed="true">
+  <def-label name="adj.sup.ma.pl.gen">
     <tags-item tags="adj.sup.ma.pl.gen"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.ins" closed="true">
+  <def-label name="adj.sup.ma.pl.ins">
     <tags-item tags="adj.sup.ma.pl.ins"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.loc" closed="true">
+  <def-label name="adj.sup.ma.pl.loc">
     <tags-item tags="adj.sup.ma.pl.loc"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.nom" closed="true">
+  <def-label name="adj.sup.ma.pl.nom">
     <tags-item tags="adj.sup.ma.pl.nom"/>
   </def-label>
-  <def-label name="adj.sup.ma.pl.voc" closed="true">
+  <def-label name="adj.sup.ma.pl.voc">
     <tags-item tags="adj.sup.ma.pl.voc"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.acc" closed="true">
+  <def-label name="adj.sup.ma.sg.acc">
     <tags-item tags="adj.sup.ma.sg.acc"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.dat" closed="true">
+  <def-label name="adj.sup.ma.sg.dat">
     <tags-item tags="adj.sup.ma.sg.dat"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.gen" closed="true">
+  <def-label name="adj.sup.ma.sg.gen">
     <tags-item tags="adj.sup.ma.sg.gen"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.ins" closed="true">
+  <def-label name="adj.sup.ma.sg.ins">
     <tags-item tags="adj.sup.ma.sg.ins"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.loc" closed="true">
+  <def-label name="adj.sup.ma.sg.loc">
     <tags-item tags="adj.sup.ma.sg.loc"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.nom" closed="true">
+  <def-label name="adj.sup.ma.sg.nom">
     <tags-item tags="adj.sup.ma.sg.nom"/>
   </def-label>
-  <def-label name="adj.sup.ma.sg.voc" closed="true">
+  <def-label name="adj.sup.ma.sg.voc">
     <tags-item tags="adj.sup.ma.sg.voc"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.acc" closed="true">
+  <def-label name="adj.sup.mi.pl.acc">
     <tags-item tags="adj.sup.mi.pl.acc"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.dat" closed="true">
+  <def-label name="adj.sup.mi.pl.dat">
     <tags-item tags="adj.sup.mi.pl.dat"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.gen" closed="true">
+  <def-label name="adj.sup.mi.pl.gen">
     <tags-item tags="adj.sup.mi.pl.gen"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.ins" closed="true">
+  <def-label name="adj.sup.mi.pl.ins">
     <tags-item tags="adj.sup.mi.pl.ins"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.loc" closed="true">
+  <def-label name="adj.sup.mi.pl.loc">
     <tags-item tags="adj.sup.mi.pl.loc"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.nom" closed="true">
+  <def-label name="adj.sup.mi.pl.nom">
     <tags-item tags="adj.sup.mi.pl.nom"/>
   </def-label>
-  <def-label name="adj.sup.mi.pl.voc" closed="true">
+  <def-label name="adj.sup.mi.pl.voc">
     <tags-item tags="adj.sup.mi.pl.voc"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.acc" closed="true">
+  <def-label name="adj.sup.mi.sg.acc">
     <tags-item tags="adj.sup.mi.sg.acc"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.dat" closed="true">
+  <def-label name="adj.sup.mi.sg.dat">
     <tags-item tags="adj.sup.mi.sg.dat"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.gen" closed="true">
+  <def-label name="adj.sup.mi.sg.gen">
     <tags-item tags="adj.sup.mi.sg.gen"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.ins" closed="true">
+  <def-label name="adj.sup.mi.sg.ins">
     <tags-item tags="adj.sup.mi.sg.ins"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.loc" closed="true">
+  <def-label name="adj.sup.mi.sg.loc">
     <tags-item tags="adj.sup.mi.sg.loc"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.nom" closed="true">
+  <def-label name="adj.sup.mi.sg.nom">
     <tags-item tags="adj.sup.mi.sg.nom"/>
   </def-label>
-  <def-label name="adj.sup.mi.sg.voc" closed="true">
+  <def-label name="adj.sup.mi.sg.voc">
     <tags-item tags="adj.sup.mi.sg.voc"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.acc" closed="true">
+  <def-label name="adj.sup.nt.pl.acc">
     <tags-item tags="adj.sup.nt.pl.acc"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.dat" closed="true">
+  <def-label name="adj.sup.nt.pl.dat">
     <tags-item tags="adj.sup.nt.pl.dat"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.gen" closed="true">
+  <def-label name="adj.sup.nt.pl.gen">
     <tags-item tags="adj.sup.nt.pl.gen"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.ins" closed="true">
+  <def-label name="adj.sup.nt.pl.ins">
     <tags-item tags="adj.sup.nt.pl.ins"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.loc" closed="true">
+  <def-label name="adj.sup.nt.pl.loc">
     <tags-item tags="adj.sup.nt.pl.loc"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.nom" closed="true">
+  <def-label name="adj.sup.nt.pl.nom">
     <tags-item tags="adj.sup.nt.pl.nom"/>
   </def-label>
-  <def-label name="adj.sup.nt.pl.voc" closed="true">
+  <def-label name="adj.sup.nt.pl.voc">
     <tags-item tags="adj.sup.nt.pl.voc"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.acc" closed="true">
+  <def-label name="adj.sup.nt.sg.acc">
     <tags-item tags="adj.sup.nt.sg.acc"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.dat" closed="true">
+  <def-label name="adj.sup.nt.sg.dat">
     <tags-item tags="adj.sup.nt.sg.dat"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.gen" closed="true">
+  <def-label name="adj.sup.nt.sg.gen">
     <tags-item tags="adj.sup.nt.sg.gen"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.ins" closed="true">
+  <def-label name="adj.sup.nt.sg.ins">
     <tags-item tags="adj.sup.nt.sg.ins"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.loc" closed="true">
+  <def-label name="adj.sup.nt.sg.loc">
     <tags-item tags="adj.sup.nt.sg.loc"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.nom" closed="true">
+  <def-label name="adj.sup.nt.sg.nom">
     <tags-item tags="adj.sup.nt.sg.nom"/>
   </def-label>
-  <def-label name="adj.sup.nt.sg.voc" closed="true">
+  <def-label name="adj.sup.nt.sg.voc">
     <tags-item tags="adj.sup.nt.sg.voc"/>
   </def-label>
-  <def-label name="adv" closed="true">
+  <def-label name="adv">
     <tags-item tags="adv"/>
   </def-label>
-  <def-label name="adv.comp" closed="true">
+  <def-label name="adv.comp">
     <tags-item tags="adv.comp"/>
   </def-label>
-  <def-label name="adv.ssup" closed="true">
+  <def-label name="adv.ssup">
     <tags-item tags="adv.ssup"/>
   </def-label>
-  <def-label name="adv.sup" closed="true">
+  <def-label name="adv.sup">
     <tags-item tags="adv.sup"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p1.pl" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p1.pl">
     <tags-item tags="aor.vblex.imperf.iv.p1.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p1.sg" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p1.sg">
     <tags-item tags="aor.vblex.imperf.iv.p1.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p2.pl" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p2.pl">
     <tags-item tags="aor.vblex.imperf.iv.p2.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p2.sg" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p2.sg">
     <tags-item tags="aor.vblex.imperf.iv.p2.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p3.pl" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p3.pl">
     <tags-item tags="aor.vblex.imperf.iv.p3.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.iv.p3.sg" closed="true">
+  <def-label name="aor.vblex.imperf.iv.p3.sg">
     <tags-item tags="aor.vblex.imperf.iv.p3.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p1.pl" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p1.pl">
     <tags-item tags="aor.vblex.imperf.ref.p1.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p1.sg" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p1.sg">
     <tags-item tags="aor.vblex.imperf.ref.p1.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p2.pl" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p2.pl">
     <tags-item tags="aor.vblex.imperf.ref.p2.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p2.sg" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p2.sg">
     <tags-item tags="aor.vblex.imperf.ref.p2.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p3.pl" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p3.pl">
     <tags-item tags="aor.vblex.imperf.ref.p3.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.ref.p3.sg" closed="true">
+  <def-label name="aor.vblex.imperf.ref.p3.sg">
     <tags-item tags="aor.vblex.imperf.ref.p3.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p1.pl" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p1.pl">
     <tags-item tags="aor.vblex.imperf.tv.p1.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p1.sg" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p1.sg">
     <tags-item tags="aor.vblex.imperf.tv.p1.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p2.pl" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p2.pl">
     <tags-item tags="aor.vblex.imperf.tv.p2.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p2.sg" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p2.sg">
     <tags-item tags="aor.vblex.imperf.tv.p2.sg"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p3.pl" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p3.pl">
     <tags-item tags="aor.vblex.imperf.tv.p3.pl"/>
   </def-label>
-  <def-label name="aor.vblex.imperf.tv.p3.sg" closed="true">
+  <def-label name="aor.vblex.imperf.tv.p3.sg">
     <tags-item tags="aor.vblex.imperf.tv.p3.sg"/>
   </def-label>
   <def-label name="cm" closed="true">
@@ -1097,856 +1094,856 @@
   <def-label name="cnjsub" closed="true">
     <tags-item tags="cnjsub"/>
   </def-label>
-  <def-label name="f.pl.acc.def" closed="true">
+  <def-label name="f.pl.acc.def">
     <tags-item tags="f.pl.acc.def"/>
   </def-label>
-  <def-label name="f.pl.acc.ind" closed="true">
+  <def-label name="f.pl.acc.ind">
     <tags-item tags="f.pl.acc.ind"/>
   </def-label>
-  <def-label name="f.pl.dat.def" closed="true">
+  <def-label name="f.pl.dat.def">
     <tags-item tags="f.pl.dat.def"/>
   </def-label>
-  <def-label name="f.pl.dat.ind" closed="true">
+  <def-label name="f.pl.dat.ind">
     <tags-item tags="f.pl.dat.ind"/>
   </def-label>
-  <def-label name="f.pl.gen.def" closed="true">
+  <def-label name="f.pl.gen.def">
     <tags-item tags="f.pl.gen.def"/>
   </def-label>
-  <def-label name="f.pl.gen.ind" closed="true">
+  <def-label name="f.pl.gen.ind">
     <tags-item tags="f.pl.gen.ind"/>
   </def-label>
-  <def-label name="f.pl.ins.def" closed="true">
+  <def-label name="f.pl.ins.def">
     <tags-item tags="f.pl.ins.def"/>
   </def-label>
-  <def-label name="f.pl.ins.ind" closed="true">
+  <def-label name="f.pl.ins.ind">
     <tags-item tags="f.pl.ins.ind"/>
   </def-label>
-  <def-label name="f.pl.loc.def" closed="true">
+  <def-label name="f.pl.loc.def">
     <tags-item tags="f.pl.loc.def"/>
   </def-label>
-  <def-label name="f.pl.loc.ind" closed="true">
+  <def-label name="f.pl.loc.ind">
     <tags-item tags="f.pl.loc.ind"/>
   </def-label>
-  <def-label name="f.pl.nom.def" closed="true">
+  <def-label name="f.pl.nom.def">
     <tags-item tags="f.pl.nom.def"/>
   </def-label>
-  <def-label name="f.pl.nom.ind" closed="true">
+  <def-label name="f.pl.nom.ind">
     <tags-item tags="f.pl.nom.ind"/>
   </def-label>
-  <def-label name="f.pl.voc.def" closed="true">
+  <def-label name="f.pl.voc.def">
     <tags-item tags="f.pl.voc.def"/>
   </def-label>
-  <def-label name="f.pl.voc.ind" closed="true">
+  <def-label name="f.pl.voc.ind">
     <tags-item tags="f.pl.voc.ind"/>
   </def-label>
-  <def-label name="f.sg.acc.def" closed="true">
+  <def-label name="f.sg.acc.def">
     <tags-item tags="f.sg.acc.def"/>
   </def-label>
-  <def-label name="f.sg.acc.ind" closed="true">
+  <def-label name="f.sg.acc.ind">
     <tags-item tags="f.sg.acc.ind"/>
   </def-label>
-  <def-label name="f.sg.dat.def" closed="true">
+  <def-label name="f.sg.dat.def">
     <tags-item tags="f.sg.dat.def"/>
   </def-label>
-  <def-label name="f.sg.dat.ind" closed="true">
+  <def-label name="f.sg.dat.ind">
     <tags-item tags="f.sg.dat.ind"/>
   </def-label>
-  <def-label name="f.sg.gen.def" closed="true">
+  <def-label name="f.sg.gen.def">
     <tags-item tags="f.sg.gen.def"/>
   </def-label>
-  <def-label name="f.sg.gen.ind" closed="true">
+  <def-label name="f.sg.gen.ind">
     <tags-item tags="f.sg.gen.ind"/>
   </def-label>
-  <def-label name="f.sg.ins.def" closed="true">
+  <def-label name="f.sg.ins.def">
     <tags-item tags="f.sg.ins.def"/>
   </def-label>
-  <def-label name="f.sg.ins.ind" closed="true">
+  <def-label name="f.sg.ins.ind">
     <tags-item tags="f.sg.ins.ind"/>
   </def-label>
-  <def-label name="f.sg.loc.def" closed="true">
+  <def-label name="f.sg.loc.def">
     <tags-item tags="f.sg.loc.def"/>
   </def-label>
-  <def-label name="f.sg.loc.ind" closed="true">
+  <def-label name="f.sg.loc.ind">
     <tags-item tags="f.sg.loc.ind"/>
   </def-label>
-  <def-label name="f.sg.nom.def" closed="true">
+  <def-label name="f.sg.nom.def">
     <tags-item tags="f.sg.nom.def"/>
   </def-label>
-  <def-label name="f.sg.nom.ind" closed="true">
+  <def-label name="f.sg.nom.ind">
     <tags-item tags="f.sg.nom.ind"/>
   </def-label>
-  <def-label name="f.sg.voc.def" closed="true">
+  <def-label name="f.sg.voc.def">
     <tags-item tags="f.sg.voc.def"/>
   </def-label>
-  <def-label name="f.sg.voc.ind" closed="true">
+  <def-label name="f.sg.voc.ind">
     <tags-item tags="f.sg.voc.ind"/>
   </def-label>
   <def-label name="guio" closed="true">
     <tags-item tags="guio"/>
   </def-label>
-  <def-label name="ij" closed="true">
+  <def-label name="ij">
     <tags-item tags="ij"/>
   </def-label>
-  <def-label name="ma.pl.acc.def" closed="true">
+  <def-label name="ma.pl.acc.def">
     <tags-item tags="ma.pl.acc.def"/>
   </def-label>
-  <def-label name="ma.pl.acc.ind" closed="true">
+  <def-label name="ma.pl.acc.ind">
     <tags-item tags="ma.pl.acc.ind"/>
   </def-label>
-  <def-label name="ma.pl.dat.def" closed="true">
+  <def-label name="ma.pl.dat.def">
     <tags-item tags="ma.pl.dat.def"/>
   </def-label>
-  <def-label name="ma.pl.dat.ind" closed="true">
+  <def-label name="ma.pl.dat.ind">
     <tags-item tags="ma.pl.dat.ind"/>
   </def-label>
-  <def-label name="ma.pl.gen.def" closed="true">
+  <def-label name="ma.pl.gen.def">
     <tags-item tags="ma.pl.gen.def"/>
   </def-label>
-  <def-label name="ma.pl.gen.ind" closed="true">
+  <def-label name="ma.pl.gen.ind">
     <tags-item tags="ma.pl.gen.ind"/>
   </def-label>
-  <def-label name="ma.pl.ins.def" closed="true">
+  <def-label name="ma.pl.ins.def">
     <tags-item tags="ma.pl.ins.def"/>
   </def-label>
-  <def-label name="ma.pl.ins.ind" closed="true">
+  <def-label name="ma.pl.ins.ind">
     <tags-item tags="ma.pl.ins.ind"/>
   </def-label>
-  <def-label name="ma.pl.loc.def" closed="true">
+  <def-label name="ma.pl.loc.def">
     <tags-item tags="ma.pl.loc.def"/>
   </def-label>
-  <def-label name="ma.pl.loc.ind" closed="true">
+  <def-label name="ma.pl.loc.ind">
     <tags-item tags="ma.pl.loc.ind"/>
   </def-label>
-  <def-label name="ma.pl.nom.def" closed="true">
+  <def-label name="ma.pl.nom.def">
     <tags-item tags="ma.pl.nom.def"/>
   </def-label>
-  <def-label name="ma.pl.nom.ind" closed="true">
+  <def-label name="ma.pl.nom.ind">
     <tags-item tags="ma.pl.nom.ind"/>
   </def-label>
-  <def-label name="ma.pl.voc.def" closed="true">
+  <def-label name="ma.pl.voc.def">
     <tags-item tags="ma.pl.voc.def"/>
   </def-label>
-  <def-label name="ma.pl.voc.ind" closed="true">
+  <def-label name="ma.pl.voc.ind">
     <tags-item tags="ma.pl.voc.ind"/>
   </def-label>
-  <def-label name="ma.sg.acc.def" closed="true">
+  <def-label name="ma.sg.acc.def">
     <tags-item tags="ma.sg.acc.def"/>
   </def-label>
-  <def-label name="ma.sg.acc.ind" closed="true">
+  <def-label name="ma.sg.acc.ind">
     <tags-item tags="ma.sg.acc.ind"/>
   </def-label>
-  <def-label name="ma.sg.dat.def" closed="true">
+  <def-label name="ma.sg.dat.def">
     <tags-item tags="ma.sg.dat.def"/>
   </def-label>
-  <def-label name="ma.sg.dat.ind" closed="true">
+  <def-label name="ma.sg.dat.ind">
     <tags-item tags="ma.sg.dat.ind"/>
   </def-label>
-  <def-label name="ma.sg.gen.def" closed="true">
+  <def-label name="ma.sg.gen.def">
     <tags-item tags="ma.sg.gen.def"/>
   </def-label>
-  <def-label name="ma.sg.gen.ind" closed="true">
+  <def-label name="ma.sg.gen.ind">
     <tags-item tags="ma.sg.gen.ind"/>
   </def-label>
-  <def-label name="ma.sg.ins.def" closed="true">
+  <def-label name="ma.sg.ins.def">
     <tags-item tags="ma.sg.ins.def"/>
   </def-label>
-  <def-label name="ma.sg.ins.ind" closed="true">
+  <def-label name="ma.sg.ins.ind">
     <tags-item tags="ma.sg.ins.ind"/>
   </def-label>
-  <def-label name="ma.sg.loc.def" closed="true">
+  <def-label name="ma.sg.loc.def">
     <tags-item tags="ma.sg.loc.def"/>
   </def-label>
-  <def-label name="ma.sg.loc.ind" closed="true">
+  <def-label name="ma.sg.loc.ind">
     <tags-item tags="ma.sg.loc.ind"/>
   </def-label>
-  <def-label name="ma.sg.nom.def" closed="true">
+  <def-label name="ma.sg.nom.def">
     <tags-item tags="ma.sg.nom.def"/>
   </def-label>
-  <def-label name="ma.sg.nom.ind" closed="true">
+  <def-label name="ma.sg.nom.ind">
     <tags-item tags="ma.sg.nom.ind"/>
   </def-label>
-  <def-label name="ma.sg.voc.def" closed="true">
+  <def-label name="ma.sg.voc.def">
     <tags-item tags="ma.sg.voc.def"/>
   </def-label>
-  <def-label name="ma.sg.voc.ind" closed="true">
+  <def-label name="ma.sg.voc.ind">
     <tags-item tags="ma.sg.voc.ind"/>
   </def-label>
-  <def-label name="mi.pl.acc.def" closed="true">
+  <def-label name="mi.pl.acc.def">
     <tags-item tags="mi.pl.acc.def"/>
   </def-label>
-  <def-label name="mi.pl.acc.ind" closed="true">
+  <def-label name="mi.pl.acc.ind">
     <tags-item tags="mi.pl.acc.ind"/>
   </def-label>
-  <def-label name="mi.pl.dat.def" closed="true">
+  <def-label name="mi.pl.dat.def">
     <tags-item tags="mi.pl.dat.def"/>
   </def-label>
-  <def-label name="mi.pl.dat.ind" closed="true">
+  <def-label name="mi.pl.dat.ind">
     <tags-item tags="mi.pl.dat.ind"/>
   </def-label>
-  <def-label name="mi.pl.gen.def" closed="true">
+  <def-label name="mi.pl.gen.def">
     <tags-item tags="mi.pl.gen.def"/>
   </def-label>
-  <def-label name="mi.pl.gen.ind" closed="true">
+  <def-label name="mi.pl.gen.ind">
     <tags-item tags="mi.pl.gen.ind"/>
   </def-label>
-  <def-label name="mi.pl.ins.def" closed="true">
+  <def-label name="mi.pl.ins.def">
     <tags-item tags="mi.pl.ins.def"/>
   </def-label>
-  <def-label name="mi.pl.ins.ind" closed="true">
+  <def-label name="mi.pl.ins.ind">
     <tags-item tags="mi.pl.ins.ind"/>
   </def-label>
-  <def-label name="mi.pl.loc.def" closed="true">
+  <def-label name="mi.pl.loc.def">
     <tags-item tags="mi.pl.loc.def"/>
   </def-label>
-  <def-label name="mi.pl.loc.ind" closed="true">
+  <def-label name="mi.pl.loc.ind">
     <tags-item tags="mi.pl.loc.ind"/>
   </def-label>
-  <def-label name="mi.pl.nom.def" closed="true">
+  <def-label name="mi.pl.nom.def">
     <tags-item tags="mi.pl.nom.def"/>
   </def-label>
-  <def-label name="mi.pl.nom.ind" closed="true">
+  <def-label name="mi.pl.nom.ind">
     <tags-item tags="mi.pl.nom.ind"/>
   </def-label>
-  <def-label name="mi.pl.voc.def" closed="true">
+  <def-label name="mi.pl.voc.def">
     <tags-item tags="mi.pl.voc.def"/>
   </def-label>
-  <def-label name="mi.pl.voc.ind" closed="true">
+  <def-label name="mi.pl.voc.ind">
     <tags-item tags="mi.pl.voc.ind"/>
   </def-label>
-  <def-label name="mi.sg.acc.def" closed="true">
+  <def-label name="mi.sg.acc.def">
     <tags-item tags="mi.sg.acc.def"/>
   </def-label>
-  <def-label name="mi.sg.acc.ind" closed="true">
+  <def-label name="mi.sg.acc.ind">
     <tags-item tags="mi.sg.acc.ind"/>
   </def-label>
-  <def-label name="mi.sg.dat.def" closed="true">
+  <def-label name="mi.sg.dat.def">
     <tags-item tags="mi.sg.dat.def"/>
   </def-label>
-  <def-label name="mi.sg.dat.ind" closed="true">
+  <def-label name="mi.sg.dat.ind">
     <tags-item tags="mi.sg.dat.ind"/>
   </def-label>
-  <def-label name="mi.sg.gen.def" closed="true">
+  <def-label name="mi.sg.gen.def">
     <tags-item tags="mi.sg.gen.def"/>
   </def-label>
-  <def-label name="mi.sg.gen.ind" closed="true">
+  <def-label name="mi.sg.gen.ind">
     <tags-item tags="mi.sg.gen.ind"/>
   </def-label>
-  <def-label name="mi.sg.ins.def" closed="true">
+  <def-label name="mi.sg.ins.def">
     <tags-item tags="mi.sg.ins.def"/>
   </def-label>
-  <def-label name="mi.sg.ins.ind" closed="true">
+  <def-label name="mi.sg.ins.ind">
     <tags-item tags="mi.sg.ins.ind"/>
   </def-label>
-  <def-label name="mi.sg.loc.def" closed="true">
+  <def-label name="mi.sg.loc.def">
     <tags-item tags="mi.sg.loc.def"/>
   </def-label>
-  <def-label name="mi.sg.loc.ind" closed="true">
+  <def-label name="mi.sg.loc.ind">
     <tags-item tags="mi.sg.loc.ind"/>
   </def-label>
-  <def-label name="mi.sg.nom.def" closed="true">
+  <def-label name="mi.sg.nom.def">
     <tags-item tags="mi.sg.nom.def"/>
   </def-label>
-  <def-label name="mi.sg.nom.ind" closed="true">
+  <def-label name="mi.sg.nom.ind">
     <tags-item tags="mi.sg.nom.ind"/>
   </def-label>
-  <def-label name="mi.sg.voc.def" closed="true">
+  <def-label name="mi.sg.voc.def">
     <tags-item tags="mi.sg.voc.def"/>
   </def-label>
-  <def-label name="mi.sg.voc.ind" closed="true">
+  <def-label name="mi.sg.voc.ind">
     <tags-item tags="mi.sg.voc.ind"/>
   </def-label>
-  <def-label name="n.f.pl.acc" closed="true">
+  <def-label name="n.f.pl.acc">
     <tags-item tags="n.f.pl.acc"/>
   </def-label>
-  <def-label name="n.f.pl.dat" closed="true">
+  <def-label name="n.f.pl.dat">
     <tags-item tags="n.f.pl.dat"/>
   </def-label>
-  <def-label name="n.f.pl.gen" closed="true">
+  <def-label name="n.f.pl.gen">
     <tags-item tags="n.f.pl.gen"/>
   </def-label>
-  <def-label name="n.f.pl.ins" closed="true">
+  <def-label name="n.f.pl.ins">
     <tags-item tags="n.f.pl.ins"/>
   </def-label>
-  <def-label name="n.f.pl.loc" closed="true">
+  <def-label name="n.f.pl.loc">
     <tags-item tags="n.f.pl.loc"/>
   </def-label>
-  <def-label name="n.f.pl.nom" closed="true">
+  <def-label name="n.f.pl.nom">
     <tags-item tags="n.f.pl.nom"/>
   </def-label>
-  <def-label name="n.f.pl.voc" closed="true">
+  <def-label name="n.f.pl.voc">
     <tags-item tags="n.f.pl.voc"/>
   </def-label>
-  <def-label name="n.f.sg.acc" closed="true">
+  <def-label name="n.f.sg.acc">
     <tags-item tags="n.f.sg.acc"/>
   </def-label>
-  <def-label name="n.f.sg.dat" closed="true">
+  <def-label name="n.f.sg.dat">
     <tags-item tags="n.f.sg.dat"/>
   </def-label>
-  <def-label name="n.f.sg.gen" closed="true">
+  <def-label name="n.f.sg.gen">
     <tags-item tags="n.f.sg.gen"/>
   </def-label>
-  <def-label name="n.f.sg.ins" closed="true">
+  <def-label name="n.f.sg.ins">
     <tags-item tags="n.f.sg.ins"/>
   </def-label>
-  <def-label name="n.f.sg.loc" closed="true">
+  <def-label name="n.f.sg.loc">
     <tags-item tags="n.f.sg.loc"/>
   </def-label>
-  <def-label name="n.f.sg.nom" closed="true">
+  <def-label name="n.f.sg.nom">
     <tags-item tags="n.f.sg.nom"/>
   </def-label>
-  <def-label name="n.f.sg.voc" closed="true">
+  <def-label name="n.f.sg.voc">
     <tags-item tags="n.f.sg.voc"/>
   </def-label>
-  <def-label name="n.ma.pl.acc" closed="true">
+  <def-label name="n.ma.pl.acc">
     <tags-item tags="n.ma.pl.acc"/>
   </def-label>
-  <def-label name="n.ma.pl.dat" closed="true">
+  <def-label name="n.ma.pl.dat">
     <tags-item tags="n.ma.pl.dat"/>
   </def-label>
-  <def-label name="n.ma.pl.gen" closed="true">
+  <def-label name="n.ma.pl.gen">
     <tags-item tags="n.ma.pl.gen"/>
   </def-label>
-  <def-label name="n.ma.pl.ins" closed="true">
+  <def-label name="n.ma.pl.ins">
     <tags-item tags="n.ma.pl.ins"/>
   </def-label>
-  <def-label name="n.ma.pl.loc" closed="true">
+  <def-label name="n.ma.pl.loc">
     <tags-item tags="n.ma.pl.loc"/>
   </def-label>
-  <def-label name="n.ma.pl.nom" closed="true">
+  <def-label name="n.ma.pl.nom">
     <tags-item tags="n.ma.pl.nom"/>
   </def-label>
-  <def-label name="n.ma.pl.voc" closed="true">
+  <def-label name="n.ma.pl.voc">
     <tags-item tags="n.ma.pl.voc"/>
   </def-label>
-  <def-label name="n.ma.sg.acc" closed="true">
+  <def-label name="n.ma.sg.acc">
     <tags-item tags="n.ma.sg.acc"/>
   </def-label>
-  <def-label name="n.ma.sg.dat" closed="true">
+  <def-label name="n.ma.sg.dat">
     <tags-item tags="n.ma.sg.dat"/>
   </def-label>
-  <def-label name="n.ma.sg.gen" closed="true">
+  <def-label name="n.ma.sg.gen">
     <tags-item tags="n.ma.sg.gen"/>
   </def-label>
-  <def-label name="n.ma.sg.ins" closed="true">
+  <def-label name="n.ma.sg.ins">
     <tags-item tags="n.ma.sg.ins"/>
   </def-label>
-  <def-label name="n.ma.sg.loc" closed="true">
+  <def-label name="n.ma.sg.loc">
     <tags-item tags="n.ma.sg.loc"/>
   </def-label>
-  <def-label name="n.ma.sg.nom" closed="true">
+  <def-label name="n.ma.sg.nom">
     <tags-item tags="n.ma.sg.nom"/>
   </def-label>
-  <def-label name="n.ma.sg.voc" closed="true">
+  <def-label name="n.ma.sg.voc">
     <tags-item tags="n.ma.sg.voc"/>
   </def-label>
-  <def-label name="n.mi.pl.acc" closed="true">
+  <def-label name="n.mi.pl.acc">
     <tags-item tags="n.mi.pl.acc"/>
   </def-label>
-  <def-label name="n.mi.pl.dat" closed="true">
+  <def-label name="n.mi.pl.dat">
     <tags-item tags="n.mi.pl.dat"/>
   </def-label>
-  <def-label name="n.mi.pl.gen" closed="true">
+  <def-label name="n.mi.pl.gen">
     <tags-item tags="n.mi.pl.gen"/>
   </def-label>
-  <def-label name="n.mi.pl.ins" closed="true">
+  <def-label name="n.mi.pl.ins">
     <tags-item tags="n.mi.pl.ins"/>
   </def-label>
-  <def-label name="n.mi.pl.loc" closed="true">
+  <def-label name="n.mi.pl.loc">
     <tags-item tags="n.mi.pl.loc"/>
   </def-label>
-  <def-label name="n.mi.pl.nom" closed="true">
+  <def-label name="n.mi.pl.nom">
     <tags-item tags="n.mi.pl.nom"/>
   </def-label>
-  <def-label name="n.mi.pl.voc" closed="true">
+  <def-label name="n.mi.pl.voc">
     <tags-item tags="n.mi.pl.voc"/>
   </def-label>
-  <def-label name="n.mi.sg.acc" closed="true">
+  <def-label name="n.mi.sg.acc">
     <tags-item tags="n.mi.sg.acc"/>
   </def-label>
-  <def-label name="n.mi.sg.dat" closed="true">
+  <def-label name="n.mi.sg.dat">
     <tags-item tags="n.mi.sg.dat"/>
   </def-label>
-  <def-label name="n.mi.sg.gen" closed="true">
+  <def-label name="n.mi.sg.gen">
     <tags-item tags="n.mi.sg.gen"/>
   </def-label>
-  <def-label name="n.mi.sg.ins" closed="true">
+  <def-label name="n.mi.sg.ins">
     <tags-item tags="n.mi.sg.ins"/>
   </def-label>
-  <def-label name="n.mi.sg.loc" closed="true">
+  <def-label name="n.mi.sg.loc">
     <tags-item tags="n.mi.sg.loc"/>
   </def-label>
-  <def-label name="n.mi.sg.nom" closed="true">
+  <def-label name="n.mi.sg.nom">
     <tags-item tags="n.mi.sg.nom"/>
   </def-label>
-  <def-label name="n.mi.sg.voc" closed="true">
+  <def-label name="n.mi.sg.voc">
     <tags-item tags="n.mi.sg.voc"/>
   </def-label>
-  <def-label name="n.m.sg.acc" closed="true">
+  <def-label name="n.m.sg.acc">
     <tags-item tags="n.m.sg.acc"/>
   </def-label>
-  <def-label name="n.m.sg.nom" closed="true">
+  <def-label name="n.m.sg.nom">
     <tags-item tags="n.m.sg.nom"/>
   </def-label>
-  <def-label name="n.nt.pl.acc" closed="true">
+  <def-label name="n.nt.pl.acc">
     <tags-item tags="n.nt.pl.acc"/>
   </def-label>
-  <def-label name="n.nt.pl.dat" closed="true">
+  <def-label name="n.nt.pl.dat">
     <tags-item tags="n.nt.pl.dat"/>
   </def-label>
-  <def-label name="n.nt.pl.gen" closed="true">
+  <def-label name="n.nt.pl.gen">
     <tags-item tags="n.nt.pl.gen"/>
   </def-label>
-  <def-label name="n.nt.pl.ins" closed="true">
+  <def-label name="n.nt.pl.ins">
     <tags-item tags="n.nt.pl.ins"/>
   </def-label>
-  <def-label name="n.nt.pl.loc" closed="true">
+  <def-label name="n.nt.pl.loc">
     <tags-item tags="n.nt.pl.loc"/>
   </def-label>
-  <def-label name="n.nt.pl.nom" closed="true">
+  <def-label name="n.nt.pl.nom">
     <tags-item tags="n.nt.pl.nom"/>
   </def-label>
-  <def-label name="n.nt.pl.voc" closed="true">
+  <def-label name="n.nt.pl.voc">
     <tags-item tags="n.nt.pl.voc"/>
   </def-label>
-  <def-label name="n.nt.sg.acc" closed="true">
+  <def-label name="n.nt.sg.acc">
     <tags-item tags="n.nt.sg.acc"/>
   </def-label>
-  <def-label name="n.nt.sg.dat" closed="true">
+  <def-label name="n.nt.sg.dat">
     <tags-item tags="n.nt.sg.dat"/>
   </def-label>
-  <def-label name="n.nt.sg.gen" closed="true">
+  <def-label name="n.nt.sg.gen">
     <tags-item tags="n.nt.sg.gen"/>
   </def-label>
-  <def-label name="n.nt.sg.ins" closed="true">
+  <def-label name="n.nt.sg.ins">
     <tags-item tags="n.nt.sg.ins"/>
   </def-label>
-  <def-label name="n.nt.sg.loc" closed="true">
+  <def-label name="n.nt.sg.loc">
     <tags-item tags="n.nt.sg.loc"/>
   </def-label>
-  <def-label name="n.nt.sg.nom" closed="true">
+  <def-label name="n.nt.sg.nom">
     <tags-item tags="n.nt.sg.nom"/>
   </def-label>
-  <def-label name="n.nt.sg.voc" closed="true">
+  <def-label name="n.nt.sg.voc">
     <tags-item tags="n.nt.sg.voc"/>
   </def-label>
-  <def-label name="np.al.f.pl.acc" closed="true">
+  <def-label name="np.al.f.pl.acc">
     <tags-item tags="np.al.f.pl.acc"/>
   </def-label>
-  <def-label name="np.al.f.pl.dat" closed="true">
+  <def-label name="np.al.f.pl.dat">
     <tags-item tags="np.al.f.pl.dat"/>
   </def-label>
-  <def-label name="np.al.f.pl.gen" closed="true">
+  <def-label name="np.al.f.pl.gen">
     <tags-item tags="np.al.f.pl.gen"/>
   </def-label>
-  <def-label name="np.al.f.pl.ins" closed="true">
+  <def-label name="np.al.f.pl.ins">
     <tags-item tags="np.al.f.pl.ins"/>
   </def-label>
-  <def-label name="np.al.f.pl.loc" closed="true">
+  <def-label name="np.al.f.pl.loc">
     <tags-item tags="np.al.f.pl.loc"/>
   </def-label>
-  <def-label name="np.al.f.pl.nom" closed="true">
+  <def-label name="np.al.f.pl.nom">
     <tags-item tags="np.al.f.pl.nom"/>
   </def-label>
-  <def-label name="np.al.f.pl.voc" closed="true">
+  <def-label name="np.al.f.pl.voc">
     <tags-item tags="np.al.f.pl.voc"/>
   </def-label>
-  <def-label name="np.al.f.sg.acc" closed="true">
+  <def-label name="np.al.f.sg.acc">
     <tags-item tags="np.al.f.sg.acc"/>
   </def-label>
-  <def-label name="np.al.f.sg.dat" closed="true">
+  <def-label name="np.al.f.sg.dat">
     <tags-item tags="np.al.f.sg.dat"/>
   </def-label>
-  <def-label name="np.al.f.sg.gen" closed="true">
+  <def-label name="np.al.f.sg.gen">
     <tags-item tags="np.al.f.sg.gen"/>
   </def-label>
-  <def-label name="np.al.f.sg.ins" closed="true">
+  <def-label name="np.al.f.sg.ins">
     <tags-item tags="np.al.f.sg.ins"/>
   </def-label>
-  <def-label name="np.al.f.sg.loc" closed="true">
+  <def-label name="np.al.f.sg.loc">
     <tags-item tags="np.al.f.sg.loc"/>
   </def-label>
-  <def-label name="np.al.f.sg.nom" closed="true">
+  <def-label name="np.al.f.sg.nom">
     <tags-item tags="np.al.f.sg.nom"/>
   </def-label>
-  <def-label name="np.al.f.sg.voc" closed="true">
+  <def-label name="np.al.f.sg.voc">
     <tags-item tags="np.al.f.sg.voc"/>
   </def-label>
-  <def-label name="np.al.mi.pl.acc" closed="true">
+  <def-label name="np.al.mi.pl.acc">
     <tags-item tags="np.al.mi.pl.acc"/>
   </def-label>
-  <def-label name="np.al.mi.pl.dat" closed="true">
+  <def-label name="np.al.mi.pl.dat">
     <tags-item tags="np.al.mi.pl.dat"/>
   </def-label>
-  <def-label name="np.al.mi.pl.gen" closed="true">
+  <def-label name="np.al.mi.pl.gen">
     <tags-item tags="np.al.mi.pl.gen"/>
   </def-label>
-  <def-label name="np.al.mi.pl.ins" closed="true">
+  <def-label name="np.al.mi.pl.ins">
     <tags-item tags="np.al.mi.pl.ins"/>
   </def-label>
-  <def-label name="np.al.mi.pl.loc" closed="true">
+  <def-label name="np.al.mi.pl.loc">
     <tags-item tags="np.al.mi.pl.loc"/>
   </def-label>
-  <def-label name="np.al.mi.pl.nom" closed="true">
+  <def-label name="np.al.mi.pl.nom">
     <tags-item tags="np.al.mi.pl.nom"/>
   </def-label>
-  <def-label name="np.al.mi.pl.voc" closed="true">
+  <def-label name="np.al.mi.pl.voc">
     <tags-item tags="np.al.mi.pl.voc"/>
   </def-label>
-  <def-label name="np.al.mi.sg.acc" closed="true">
+  <def-label name="np.al.mi.sg.acc">
     <tags-item tags="np.al.mi.sg.acc"/>
   </def-label>
-  <def-label name="np.al.mi.sg.dat" closed="true">
+  <def-label name="np.al.mi.sg.dat">
     <tags-item tags="np.al.mi.sg.dat"/>
   </def-label>
-  <def-label name="np.al.mi.sg.gen" closed="true">
+  <def-label name="np.al.mi.sg.gen">
     <tags-item tags="np.al.mi.sg.gen"/>
   </def-label>
-  <def-label name="np.al.mi.sg.ins" closed="true">
+  <def-label name="np.al.mi.sg.ins">
     <tags-item tags="np.al.mi.sg.ins"/>
   </def-label>
-  <def-label name="np.al.mi.sg.loc" closed="true">
+  <def-label name="np.al.mi.sg.loc">
     <tags-item tags="np.al.mi.sg.loc"/>
   </def-label>
-  <def-label name="np.al.mi.sg.nom" closed="true">
+  <def-label name="np.al.mi.sg.nom">
     <tags-item tags="np.al.mi.sg.nom"/>
   </def-label>
-  <def-label name="np.al.mi.sg.voc" closed="true">
+  <def-label name="np.al.mi.sg.voc">
     <tags-item tags="np.al.mi.sg.voc"/>
   </def-label>
-  <def-label name="np.ant.f.pl.acc" closed="true">
+  <def-label name="np.ant.f.pl.acc">
     <tags-item tags="np.ant.f.pl.acc"/>
   </def-label>
-  <def-label name="np.ant.f.pl.dat" closed="true">
+  <def-label name="np.ant.f.pl.dat">
     <tags-item tags="np.ant.f.pl.dat"/>
   </def-label>
-  <def-label name="np.ant.f.pl.gen" closed="true">
+  <def-label name="np.ant.f.pl.gen">
     <tags-item tags="np.ant.f.pl.gen"/>
   </def-label>
-  <def-label name="np.ant.f.pl.ins" closed="true">
+  <def-label name="np.ant.f.pl.ins">
     <tags-item tags="np.ant.f.pl.ins"/>
   </def-label>
-  <def-label name="np.ant.f.pl.loc" closed="true">
+  <def-label name="np.ant.f.pl.loc">
     <tags-item tags="np.ant.f.pl.loc"/>
   </def-label>
-  <def-label name="np.ant.f.pl.nom" closed="true">
+  <def-label name="np.ant.f.pl.nom">
     <tags-item tags="np.ant.f.pl.nom"/>
   </def-label>
-  <def-label name="np.ant.f.pl.voc" closed="true">
+  <def-label name="np.ant.f.pl.voc">
     <tags-item tags="np.ant.f.pl.voc"/>
   </def-label>
-  <def-label name="np.ant.f.sg.acc" closed="true">
+  <def-label name="np.ant.f.sg.acc">
     <tags-item tags="np.ant.f.sg.acc"/>
   </def-label>
-  <def-label name="np.ant.f.sg.dat" closed="true">
+  <def-label name="np.ant.f.sg.dat">
     <tags-item tags="np.ant.f.sg.dat"/>
   </def-label>
-  <def-label name="np.ant.f.sg.gen" closed="true">
+  <def-label name="np.ant.f.sg.gen">
     <tags-item tags="np.ant.f.sg.gen"/>
   </def-label>
-  <def-label name="np.ant.f.sg.ins" closed="true">
+  <def-label name="np.ant.f.sg.ins">
     <tags-item tags="np.ant.f.sg.ins"/>
   </def-label>
-  <def-label name="np.ant.f.sg.loc" closed="true">
+  <def-label name="np.ant.f.sg.loc">
     <tags-item tags="np.ant.f.sg.loc"/>
   </def-label>
-  <def-label name="np.ant.f.sg.nom" closed="true">
+  <def-label name="np.ant.f.sg.nom">
     <tags-item tags="np.ant.f.sg.nom"/>
   </def-label>
-  <def-label name="np.ant.f.sg.voc" closed="true">
+  <def-label name="np.ant.f.sg.voc">
     <tags-item tags="np.ant.f.sg.voc"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.acc" closed="true">
+  <def-label name="np.ant.ma.pl.acc">
     <tags-item tags="np.ant.ma.pl.acc"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.dat" closed="true">
+  <def-label name="np.ant.ma.pl.dat">
     <tags-item tags="np.ant.ma.pl.dat"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.gen" closed="true">
+  <def-label name="np.ant.ma.pl.gen">
     <tags-item tags="np.ant.ma.pl.gen"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.ins" closed="true">
+  <def-label name="np.ant.ma.pl.ins">
     <tags-item tags="np.ant.ma.pl.ins"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.loc" closed="true">
+  <def-label name="np.ant.ma.pl.loc">
     <tags-item tags="np.ant.ma.pl.loc"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.nom" closed="true">
+  <def-label name="np.ant.ma.pl.nom">
     <tags-item tags="np.ant.ma.pl.nom"/>
   </def-label>
-  <def-label name="np.ant.ma.pl.voc" closed="true">
+  <def-label name="np.ant.ma.pl.voc">
     <tags-item tags="np.ant.ma.pl.voc"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.acc" closed="true">
+  <def-label name="np.ant.ma.sg.acc">
     <tags-item tags="np.ant.ma.sg.acc"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.dat" closed="true">
+  <def-label name="np.ant.ma.sg.dat">
     <tags-item tags="np.ant.ma.sg.dat"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.gen" closed="true">
+  <def-label name="np.ant.ma.sg.gen">
     <tags-item tags="np.ant.ma.sg.gen"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.ins" closed="true">
+  <def-label name="np.ant.ma.sg.ins">
     <tags-item tags="np.ant.ma.sg.ins"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.loc" closed="true">
+  <def-label name="np.ant.ma.sg.loc">
     <tags-item tags="np.ant.ma.sg.loc"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.nom" closed="true">
+  <def-label name="np.ant.ma.sg.nom">
     <tags-item tags="np.ant.ma.sg.nom"/>
   </def-label>
-  <def-label name="np.ant.ma.sg.voc" closed="true">
+  <def-label name="np.ant.ma.sg.voc">
     <tags-item tags="np.ant.ma.sg.voc"/>
   </def-label>
-  <def-label name="np.cog.f.pl.acc" closed="true">
+  <def-label name="np.cog.f.pl.acc">
     <tags-item tags="np.cog.f.pl.acc"/>
   </def-label>
-  <def-label name="np.cog.f.pl.dat" closed="true">
+  <def-label name="np.cog.f.pl.dat">
     <tags-item tags="np.cog.f.pl.dat"/>
   </def-label>
-  <def-label name="np.cog.f.pl.gen" closed="true">
+  <def-label name="np.cog.f.pl.gen">
     <tags-item tags="np.cog.f.pl.gen"/>
   </def-label>
-  <def-label name="np.cog.f.pl.ins" closed="true">
+  <def-label name="np.cog.f.pl.ins">
     <tags-item tags="np.cog.f.pl.ins"/>
   </def-label>
-  <def-label name="np.cog.f.pl.loc" closed="true">
+  <def-label name="np.cog.f.pl.loc">
     <tags-item tags="np.cog.f.pl.loc"/>
   </def-label>
-  <def-label name="np.cog.f.pl.nom" closed="true">
+  <def-label name="np.cog.f.pl.nom">
     <tags-item tags="np.cog.f.pl.nom"/>
   </def-label>
-  <def-label name="np.cog.f.pl.voc" closed="true">
+  <def-label name="np.cog.f.pl.voc">
     <tags-item tags="np.cog.f.pl.voc"/>
   </def-label>
-  <def-label name="np.cog.f.sg.acc" closed="true">
+  <def-label name="np.cog.f.sg.acc">
     <tags-item tags="np.cog.f.sg.acc"/>
   </def-label>
-  <def-label name="np.cog.f.sg.dat" closed="true">
+  <def-label name="np.cog.f.sg.dat">
     <tags-item tags="np.cog.f.sg.dat"/>
   </def-label>
-  <def-label name="np.cog.f.sg.gen" closed="true">
+  <def-label name="np.cog.f.sg.gen">
     <tags-item tags="np.cog.f.sg.gen"/>
   </def-label>
-  <def-label name="np.cog.f.sg.ins" closed="true">
+  <def-label name="np.cog.f.sg.ins">
     <tags-item tags="np.cog.f.sg.ins"/>
   </def-label>
-  <def-label name="np.cog.f.sg.loc" closed="true">
+  <def-label name="np.cog.f.sg.loc">
     <tags-item tags="np.cog.f.sg.loc"/>
   </def-label>
-  <def-label name="np.cog.f.sg.nom" closed="true">
+  <def-label name="np.cog.f.sg.nom">
     <tags-item tags="np.cog.f.sg.nom"/>
   </def-label>
-  <def-label name="np.cog.f.sg.voc" closed="true">
+  <def-label name="np.cog.f.sg.voc">
     <tags-item tags="np.cog.f.sg.voc"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.acc" closed="true">
+  <def-label name="np.cog.ma.pl.acc">
     <tags-item tags="np.cog.ma.pl.acc"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.dat" closed="true">
+  <def-label name="np.cog.ma.pl.dat">
     <tags-item tags="np.cog.ma.pl.dat"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.gen" closed="true">
+  <def-label name="np.cog.ma.pl.gen">
     <tags-item tags="np.cog.ma.pl.gen"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.ins" closed="true">
+  <def-label name="np.cog.ma.pl.ins">
     <tags-item tags="np.cog.ma.pl.ins"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.loc" closed="true">
+  <def-label name="np.cog.ma.pl.loc">
     <tags-item tags="np.cog.ma.pl.loc"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.nom" closed="true">
+  <def-label name="np.cog.ma.pl.nom">
     <tags-item tags="np.cog.ma.pl.nom"/>
   </def-label>
-  <def-label name="np.cog.ma.pl.voc" closed="true">
+  <def-label name="np.cog.ma.pl.voc">
     <tags-item tags="np.cog.ma.pl.voc"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.acc" closed="true">
+  <def-label name="np.cog.ma.sg.acc">
     <tags-item tags="np.cog.ma.sg.acc"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.dat" closed="true">
+  <def-label name="np.cog.ma.sg.dat">
     <tags-item tags="np.cog.ma.sg.dat"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.gen" closed="true">
+  <def-label name="np.cog.ma.sg.gen">
     <tags-item tags="np.cog.ma.sg.gen"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.ins" closed="true">
+  <def-label name="np.cog.ma.sg.ins">
     <tags-item tags="np.cog.ma.sg.ins"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.loc" closed="true">
+  <def-label name="np.cog.ma.sg.loc">
     <tags-item tags="np.cog.ma.sg.loc"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.nom" closed="true">
+  <def-label name="np.cog.ma.sg.nom">
     <tags-item tags="np.cog.ma.sg.nom"/>
   </def-label>
-  <def-label name="np.cog.ma.sg.voc" closed="true">
+  <def-label name="np.cog.ma.sg.voc">
     <tags-item tags="np.cog.ma.sg.voc"/>
   </def-label>
-  <def-label name="np.top.f.pl.acc" closed="true">
+  <def-label name="np.top.f.pl.acc">
     <tags-item tags="np.top.f.pl.acc"/>
   </def-label>
-  <def-label name="np.top.f.pl.dat" closed="true">
+  <def-label name="np.top.f.pl.dat">
     <tags-item tags="np.top.f.pl.dat"/>
   </def-label>
-  <def-label name="np.top.f.pl.gen" closed="true">
+  <def-label name="np.top.f.pl.gen">
     <tags-item tags="np.top.f.pl.gen"/>
   </def-label>
-  <def-label name="np.top.f.pl.ins" closed="true">
+  <def-label name="np.top.f.pl.ins">
     <tags-item tags="np.top.f.pl.ins"/>
   </def-label>
-  <def-label name="np.top.f.pl.loc" closed="true">
+  <def-label name="np.top.f.pl.loc">
     <tags-item tags="np.top.f.pl.loc"/>
   </def-label>
-  <def-label name="np.top.f.pl.nom" closed="true">
+  <def-label name="np.top.f.pl.nom">
     <tags-item tags="np.top.f.pl.nom"/>
   </def-label>
-  <def-label name="np.top.f.pl.voc" closed="true">
+  <def-label name="np.top.f.pl.voc">
     <tags-item tags="np.top.f.pl.voc"/>
   </def-label>
-  <def-label name="np.top.f.sg.acc" closed="true">
+  <def-label name="np.top.f.sg.acc">
     <tags-item tags="np.top.f.sg.acc"/>
   </def-label>
-  <def-label name="np.top.f.sg.dat" closed="true">
+  <def-label name="np.top.f.sg.dat">
     <tags-item tags="np.top.f.sg.dat"/>
   </def-label>
-  <def-label name="np.top.f.sg.gen" closed="true">
+  <def-label name="np.top.f.sg.gen">
     <tags-item tags="np.top.f.sg.gen"/>
   </def-label>
-  <def-label name="np.top.f.sg.ins" closed="true">
+  <def-label name="np.top.f.sg.ins">
     <tags-item tags="np.top.f.sg.ins"/>
   </def-label>
-  <def-label name="np.top.f.sg.loc" closed="true">
+  <def-label name="np.top.f.sg.loc">
     <tags-item tags="np.top.f.sg.loc"/>
   </def-label>
-  <def-label name="np.top.f.sg.nom" closed="true">
+  <def-label name="np.top.f.sg.nom">
     <tags-item tags="np.top.f.sg.nom"/>
   </def-label>
-  <def-label name="np.top.f.sg.voc" closed="true">
+  <def-label name="np.top.f.sg.voc">
     <tags-item tags="np.top.f.sg.voc"/>
   </def-label>
-  <def-label name="np.top.mi.pl.acc" closed="true">
+  <def-label name="np.top.mi.pl.acc">
     <tags-item tags="np.top.mi.pl.acc"/>
   </def-label>
-  <def-label name="np.top.mi.pl.dat" closed="true">
+  <def-label name="np.top.mi.pl.dat">
     <tags-item tags="np.top.mi.pl.dat"/>
   </def-label>
-  <def-label name="np.top.mi.pl.gen" closed="true">
+  <def-label name="np.top.mi.pl.gen">
     <tags-item tags="np.top.mi.pl.gen"/>
   </def-label>
-  <def-label name="np.top.mi.pl.ins" closed="true">
+  <def-label name="np.top.mi.pl.ins">
     <tags-item tags="np.top.mi.pl.ins"/>
   </def-label>
-  <def-label name="np.top.mi.pl.loc" closed="true">
+  <def-label name="np.top.mi.pl.loc">
     <tags-item tags="np.top.mi.pl.loc"/>
   </def-label>
-  <def-label name="np.top.mi.pl.nom" closed="true">
+  <def-label name="np.top.mi.pl.nom">
     <tags-item tags="np.top.mi.pl.nom"/>
   </def-label>
-  <def-label name="np.top.mi.pl.voc" closed="true">
+  <def-label name="np.top.mi.pl.voc">
     <tags-item tags="np.top.mi.pl.voc"/>
   </def-label>
-  <def-label name="np.top.mi.sg.acc" closed="true">
+  <def-label name="np.top.mi.sg.acc">
     <tags-item tags="np.top.mi.sg.acc"/>
   </def-label>
-  <def-label name="np.top.mi.sg.dat" closed="true">
+  <def-label name="np.top.mi.sg.dat">
     <tags-item tags="np.top.mi.sg.dat"/>
   </def-label>
-  <def-label name="np.top.mi.sg.gen" closed="true">
+  <def-label name="np.top.mi.sg.gen">
     <tags-item tags="np.top.mi.sg.gen"/>
   </def-label>
-  <def-label name="np.top.mi.sg.ins" closed="true">
+  <def-label name="np.top.mi.sg.ins">
     <tags-item tags="np.top.mi.sg.ins"/>
   </def-label>
-  <def-label name="np.top.mi.sg.loc" closed="true">
+  <def-label name="np.top.mi.sg.loc">
     <tags-item tags="np.top.mi.sg.loc"/>
   </def-label>
-  <def-label name="np.top.mi.sg.nom" closed="true">
+  <def-label name="np.top.mi.sg.nom">
     <tags-item tags="np.top.mi.sg.nom"/>
   </def-label>
-  <def-label name="np.top.mi.sg.voc" closed="true">
+  <def-label name="np.top.mi.sg.voc">
     <tags-item tags="np.top.mi.sg.voc"/>
   </def-label>
-  <def-label name="nt.pl.acc.def" closed="true">
+  <def-label name="nt.pl.acc.def">
     <tags-item tags="nt.pl.acc.def"/>
   </def-label>
-  <def-label name="nt.pl.acc.ind" closed="true">
+  <def-label name="nt.pl.acc.ind">
     <tags-item tags="nt.pl.acc.ind"/>
   </def-label>
-  <def-label name="nt.pl.dat.def" closed="true">
+  <def-label name="nt.pl.dat.def">
     <tags-item tags="nt.pl.dat.def"/>
   </def-label>
-  <def-label name="nt.pl.dat.ind" closed="true">
+  <def-label name="nt.pl.dat.ind">
     <tags-item tags="nt.pl.dat.ind"/>
   </def-label>
-  <def-label name="nt.pl.gen.def" closed="true">
+  <def-label name="nt.pl.gen.def">
     <tags-item tags="nt.pl.gen.def"/>
   </def-label>
-  <def-label name="nt.pl.gen.ind" closed="true">
+  <def-label name="nt.pl.gen.ind">
     <tags-item tags="nt.pl.gen.ind"/>
   </def-label>
-  <def-label name="nt.pl.ins.def" closed="true">
+  <def-label name="nt.pl.ins.def">
     <tags-item tags="nt.pl.ins.def"/>
   </def-label>
-  <def-label name="nt.pl.ins.ind" closed="true">
+  <def-label name="nt.pl.ins.ind">
     <tags-item tags="nt.pl.ins.ind"/>
   </def-label>
-  <def-label name="nt.pl.loc.def" closed="true">
+  <def-label name="nt.pl.loc.def">
     <tags-item tags="nt.pl.loc.def"/>
   </def-label>
-  <def-label name="nt.pl.loc.ind" closed="true">
+  <def-label name="nt.pl.loc.ind">
     <tags-item tags="nt.pl.loc.ind"/>
   </def-label>
-  <def-label name="nt.pl.nom.def" closed="true">
+  <def-label name="nt.pl.nom.def">
     <tags-item tags="nt.pl.nom.def"/>
   </def-label>
-  <def-label name="nt.pl.nom.ind" closed="true">
+  <def-label name="nt.pl.nom.ind">
     <tags-item tags="nt.pl.nom.ind"/>
   </def-label>
-  <def-label name="nt.pl.voc.def" closed="true">
+  <def-label name="nt.pl.voc.def">
     <tags-item tags="nt.pl.voc.def"/>
   </def-label>
-  <def-label name="nt.pl.voc.ind" closed="true">
+  <def-label name="nt.pl.voc.ind">
     <tags-item tags="nt.pl.voc.ind"/>
   </def-label>
-  <def-label name="nt.sg.acc.def" closed="true">
+  <def-label name="nt.sg.acc.def">
     <tags-item tags="nt.sg.acc.def"/>
   </def-label>
-  <def-label name="nt.sg.acc.ind" closed="true">
+  <def-label name="nt.sg.acc.ind">
     <tags-item tags="nt.sg.acc.ind"/>
   </def-label>
-  <def-label name="nt.sg.dat.def" closed="true">
+  <def-label name="nt.sg.dat.def">
     <tags-item tags="nt.sg.dat.def"/>
   </def-label>
-  <def-label name="nt.sg.dat.ind" closed="true">
+  <def-label name="nt.sg.dat.ind">
     <tags-item tags="nt.sg.dat.ind"/>
   </def-label>
-  <def-label name="nt.sg.gen.def" closed="true">
+  <def-label name="nt.sg.gen.def">
     <tags-item tags="nt.sg.gen.def"/>
   </def-label>
-  <def-label name="nt.sg.gen.ind" closed="true">
+  <def-label name="nt.sg.gen.ind">
     <tags-item tags="nt.sg.gen.ind"/>
   </def-label>
-  <def-label name="nt.sg.ins.def" closed="true">
+  <def-label name="nt.sg.ins.def">
     <tags-item tags="nt.sg.ins.def"/>
   </def-label>
-  <def-label name="nt.sg.ins.ind" closed="true">
+  <def-label name="nt.sg.ins.ind">
     <tags-item tags="nt.sg.ins.ind"/>
   </def-label>
-  <def-label name="nt.sg.loc.def" closed="true">
+  <def-label name="nt.sg.loc.def">
     <tags-item tags="nt.sg.loc.def"/>
   </def-label>
-  <def-label name="nt.sg.loc.ind" closed="true">
+  <def-label name="nt.sg.loc.ind">
     <tags-item tags="nt.sg.loc.ind"/>
   </def-label>
-  <def-label name="nt.sg.nom.def" closed="true">
+  <def-label name="nt.sg.nom.def">
     <tags-item tags="nt.sg.nom.def"/>
   </def-label>
-  <def-label name="nt.sg.nom.ind" closed="true">
+  <def-label name="nt.sg.nom.ind">
     <tags-item tags="nt.sg.nom.ind"/>
   </def-label>
-  <def-label name="nt.sg.voc.def" closed="true">
+  <def-label name="nt.sg.voc.def">
     <tags-item tags="nt.sg.voc.def"/>
   </def-label>
-  <def-label name="nt.sg.voc.ind" closed="true">
+  <def-label name="nt.sg.voc.ind">
     <tags-item tags="nt.sg.voc.ind"/>
   </def-label>
   <def-label name="num.coll.ma.sg.nom" closed="true">
@@ -3794,169 +3791,169 @@
   <def-label name="pst.adj.f.pl.acc.def" closed="true">
     <tags-item tags="pst.adj.f.pl.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.dat.def" closed="true">
+  <def-label name="pst.adj.f.pl.dat.def">
     <tags-item tags="pst.adj.f.pl.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.gen.def" closed="true">
+  <def-label name="pst.adj.f.pl.gen.def">
     <tags-item tags="pst.adj.f.pl.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.ins.def" closed="true">
+  <def-label name="pst.adj.f.pl.ins.def">
     <tags-item tags="pst.adj.f.pl.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.loc.def" closed="true">
+  <def-label name="pst.adj.f.pl.loc.def">
     <tags-item tags="pst.adj.f.pl.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.nom.def" closed="true">
+  <def-label name="pst.adj.f.pl.nom.def">
     <tags-item tags="pst.adj.f.pl.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.f.pl.voc.def" closed="true">
+  <def-label name="pst.adj.f.pl.voc.def">
     <tags-item tags="pst.adj.f.pl.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.acc.def" closed="true">
+  <def-label name="pst.adj.f.sg.acc.def">
     <tags-item tags="pst.adj.f.sg.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.dat.def" closed="true">
+  <def-label name="pst.adj.f.sg.dat.def">
     <tags-item tags="pst.adj.f.sg.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.gen.def" closed="true">
+  <def-label name="pst.adj.f.sg.gen.def">
     <tags-item tags="pst.adj.f.sg.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.ins.def" closed="true">
+  <def-label name="pst.adj.f.sg.ins.def">
     <tags-item tags="pst.adj.f.sg.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.loc.def" closed="true">
+  <def-label name="pst.adj.f.sg.loc.def">
     <tags-item tags="pst.adj.f.sg.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.nom.def" closed="true">
+  <def-label name="pst.adj.f.sg.nom.def">
     <tags-item tags="pst.adj.f.sg.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.f.sg.voc.def" closed="true">
+  <def-label name="pst.adj.f.sg.voc.def">
     <tags-item tags="pst.adj.f.sg.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.acc.def" closed="true">
+  <def-label name="pst.adj.ma.pl.acc.def">
     <tags-item tags="pst.adj.ma.pl.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.dat.def" closed="true">
+  <def-label name="pst.adj.ma.pl.dat.def">
     <tags-item tags="pst.adj.ma.pl.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.gen.def" closed="true">
+  <def-label name="pst.adj.ma.pl.gen.def">
     <tags-item tags="pst.adj.ma.pl.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.ins.def" closed="true">
+  <def-label name="pst.adj.ma.pl.ins.def">
     <tags-item tags="pst.adj.ma.pl.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.loc.def" closed="true">
+  <def-label name="pst.adj.ma.pl.loc.def">
     <tags-item tags="pst.adj.ma.pl.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.nom.def" closed="true">
+  <def-label name="pst.adj.ma.pl.nom.def">
     <tags-item tags="pst.adj.ma.pl.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.pl.voc.def" closed="true">
+  <def-label name="pst.adj.ma.pl.voc.def">
     <tags-item tags="pst.adj.ma.pl.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.acc.def" closed="true">
+  <def-label name="pst.adj.ma.sg.acc.def">
     <tags-item tags="pst.adj.ma.sg.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.dat.def" closed="true">
+  <def-label name="pst.adj.ma.sg.dat.def">
     <tags-item tags="pst.adj.ma.sg.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.gen.def" closed="true">
+  <def-label name="pst.adj.ma.sg.gen.def">
     <tags-item tags="pst.adj.ma.sg.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.ins.def" closed="true">
+  <def-label name="pst.adj.ma.sg.ins.def">
     <tags-item tags="pst.adj.ma.sg.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.loc.def" closed="true">
+  <def-label name="pst.adj.ma.sg.loc.def">
     <tags-item tags="pst.adj.ma.sg.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.nom.def" closed="true">
+  <def-label name="pst.adj.ma.sg.nom.def">
     <tags-item tags="pst.adj.ma.sg.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.ma.sg.voc.def" closed="true">
+  <def-label name="pst.adj.ma.sg.voc.def">
     <tags-item tags="pst.adj.ma.sg.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.acc.def" closed="true">
+  <def-label name="pst.adj.mi.pl.acc.def">
     <tags-item tags="pst.adj.mi.pl.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.dat.def" closed="true">
+  <def-label name="pst.adj.mi.pl.dat.def">
     <tags-item tags="pst.adj.mi.pl.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.gen.def" closed="true">
+  <def-label name="pst.adj.mi.pl.gen.def">
     <tags-item tags="pst.adj.mi.pl.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.ins.def" closed="true">
+  <def-label name="pst.adj.mi.pl.ins.def">
     <tags-item tags="pst.adj.mi.pl.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.loc.def" closed="true">
+  <def-label name="pst.adj.mi.pl.loc.def">
     <tags-item tags="pst.adj.mi.pl.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.nom.def" closed="true">
+  <def-label name="pst.adj.mi.pl.nom.def">
     <tags-item tags="pst.adj.mi.pl.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.pl.voc.def" closed="true">
+  <def-label name="pst.adj.mi.pl.voc.def">
     <tags-item tags="pst.adj.mi.pl.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.acc.def" closed="true">
+  <def-label name="pst.adj.mi.sg.acc.def">
     <tags-item tags="pst.adj.mi.sg.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.dat.def" closed="true">
+  <def-label name="pst.adj.mi.sg.dat.def">
     <tags-item tags="pst.adj.mi.sg.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.gen.def" closed="true">
+  <def-label name="pst.adj.mi.sg.gen.def">
     <tags-item tags="pst.adj.mi.sg.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.ins.def" closed="true">
+  <def-label name="pst.adj.mi.sg.ins.def">
     <tags-item tags="pst.adj.mi.sg.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.loc.def" closed="true">
+  <def-label name="pst.adj.mi.sg.loc.def">
     <tags-item tags="pst.adj.mi.sg.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.nom.def" closed="true">
+  <def-label name="pst.adj.mi.sg.nom.def">
     <tags-item tags="pst.adj.mi.sg.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.mi.sg.voc.def" closed="true">
+  <def-label name="pst.adj.mi.sg.voc.def">
     <tags-item tags="pst.adj.mi.sg.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.acc.def" closed="true">
+  <def-label name="pst.adj.nt.pl.acc.def">
     <tags-item tags="pst.adj.nt.pl.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.dat.def" closed="true">
+  <def-label name="pst.adj.nt.pl.dat.def">
     <tags-item tags="pst.adj.nt.pl.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.gen.def" closed="true">
+  <def-label name="pst.adj.nt.pl.gen.def">
     <tags-item tags="pst.adj.nt.pl.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.ins.def" closed="true">
+  <def-label name="pst.adj.nt.pl.ins.def">
     <tags-item tags="pst.adj.nt.pl.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.loc.def" closed="true">
+  <def-label name="pst.adj.nt.pl.loc.def">
     <tags-item tags="pst.adj.nt.pl.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.nom.def" closed="true">
+  <def-label name="pst.adj.nt.pl.nom.def">
     <tags-item tags="pst.adj.nt.pl.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.pl.voc.def" closed="true">
+  <def-label name="pst.adj.nt.pl.voc.def">
     <tags-item tags="pst.adj.nt.pl.voc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.acc.def" closed="true">
+  <def-label name="pst.adj.nt.sg.acc.def">
     <tags-item tags="pst.adj.nt.sg.acc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.dat.def" closed="true">
+  <def-label name="pst.adj.nt.sg.dat.def">
     <tags-item tags="pst.adj.nt.sg.dat.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.gen.def" closed="true">
+  <def-label name="pst.adj.nt.sg.gen.def">
     <tags-item tags="pst.adj.nt.sg.gen.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.ins.def" closed="true">
+  <def-label name="pst.adj.nt.sg.ins.def">
     <tags-item tags="pst.adj.nt.sg.ins.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.loc.def" closed="true">
+  <def-label name="pst.adj.nt.sg.loc.def">
     <tags-item tags="pst.adj.nt.sg.loc.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.nom.def" closed="true">
+  <def-label name="pst.adj.nt.sg.nom.def">
     <tags-item tags="pst.adj.nt.sg.nom.def"/>
   </def-label>
-  <def-label name="pst.adj.nt.sg.voc.def" closed="true">
+  <def-label name="pst.adj.nt.sg.voc.def">
     <tags-item tags="pst.adj.nt.sg.voc.def"/>
   </def-label>
   <def-label name="vbhaver.imperf.ref.aor.p1.pl" closed="true">
