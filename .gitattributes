@@ -19,6 +19,7 @@
 /apertium-sh-mk.sh-mk.t2x -text
 /apertium-sh-mk.sh-mk.t3x -text
 /apertium-sh-mk.sh.metadix -text
+/apertium-sh-mk.sh.tsx -text
 /apertium-sh-mk.translit.dix -text
 /autogen.sh -text
 /configure.ac -text
