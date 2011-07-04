@@ -66,7 +66,12 @@ LIST Ins = ins ;
 
 # =========================================================================== #
 
-LIST ACC-OR-LOC-PREP = "na" "u" "o"; 
+LIST GEN-PREP = "bez" "blizu" "čelo" "do" "duž" "ispred" "ispod" "iz" "iza" "između" "iznad" "izvan" "kod" "kraj" "mjesto" "nakon" "nakraj" "nasred" "navrh" "niže" "od" "oko" "osim" "pokraj" "ponad" "poput" "pozadi" "pored" "poslije" "poviše" "preko" "prije" "kasnije" "protiv" "put" "radi" "sred" "ukraj" "umjesto" "uoči" "uvrh" "uzduž" "van" "više" "vrh" "zarad" "zaradi" "zbog" "u" "za" "sa" "mimo" ;
+LIST ACC-PREP = "kroz" "niz" "uz" "na" "o" "po" "u" "mimo" "među" "nad" "pod" "pred" "za"; 
+LIST DAT-PREP = "k" "prema" "pri";
+LIST LOC-PREP = "u" "na" "o" "po" "prema" "pri";
+LIST INS-PREP = "s" "pred" "za" "nad" "pod" "među";
+LIST ACC-OR-LOC-PREP = ACC-PREP | LOC-PREP ;
 
 LIST V-COP = "biti" ; 
 
@@ -74,12 +79,12 @@ LIST V-COP = "biti" ;
 
 LIST GENDER = ma mi f nt mf mfn ;
 LIST NUMBER = sg pl sp ;
-LIST NGDAILV = nom gen dat acc ins loc voc ;
-LIST FIN-TEMPS = pres past ; 
+LIST CASE = nom gen dat acc ins loc voc ;
+LIST FIN-TEMPS = pres aor pii; 
 
 # =========================================================================== #
 
-SET NOT-ACC-LOC = NGDAILV - Acc - Loc ; 
+SET NOT-ACC-LOC = CASE - Acc - Loc ; 
 
 SET PRON-CLT = Pron + Clt ; 
 
@@ -124,7 +129,7 @@ SECTION
 #   NP-internal disambiguation                                                #
 # =========================================================================== #
 
-REMOVE $$NGDAILV IF (0C A-OR-ADV) (NOT 1* N + $$NGDAILV BARRIER NPNHA) ;
+#REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
 # =========================================================================== #
@@ -134,7 +139,7 @@ REMOVE $$NGDAILV IF (0C A-OR-ADV) (NOT 1* N + $$NGDAILV BARRIER NPNHA) ;
 REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
-REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
+#REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
@@ -144,6 +149,13 @@ SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
                                     
 SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+    
+SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + $$NUMBER) ;
+    ## Žene lete...
+    
+SELECT $$NUMBER + $$CASE IF (0C PRE-N) (1 NP-MEMBER + $$NUMBER + $$CASE) ;
+
+SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
 
 # =========================================================================== #
 #   PP disambiguation                                                         #
@@ -152,7 +164,13 @@ SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-REMOVE Loc (-1 BOS) ; 
+SELECT Gen IF (-1C GEN-PREP OR (Pre-N Gen) );
+SELECT Dat IF (-1C DAT-PREP OR (Pre-N Dat) );
+SELECT Acc IF (-1C ACC-PREP OR (Pre-N Acc) );
+SELECT Loc IF (-1C LOC-PREP OR (Pre-N Loc) );
+SELECT Ins IF (-1C INS-PREP OR (Pre-N Ins) );
+
+REMOVE Loc (NOT -1C LOC-PREP BARRIER BOS) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 

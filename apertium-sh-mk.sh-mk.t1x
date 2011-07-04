@@ -8,6 +8,14 @@
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
+  <def-cat n="vbinf">
+     <cat-item tags="vblex.*.*.inf"/>
+     <cat-item tags="vbmod.*.*.inf"/>
+     <cat-item tags="vbhaver.*.*.inf"/>     
+  </def-cat>
+  <def-cat n="vbfutI">
+     <cat-item tags="vbmod.clt.futI.*"/>
+  </def-cat>
   <def-cat n="prn">
      <cat-item tags="prn.*"/>
   </def-cat>
@@ -79,6 +87,7 @@
      <attr-item tags="opt"/>
      <attr-item tags="imp"/>
      <attr-item tags="aor"/>
+     <attr-item tags="futI"/>
      <attr-item tags="fti"/>
      <attr-item tags="past"/>
   </def-attr>
@@ -150,6 +159,36 @@
 </section-def-macros>
 
 <section-rules>
+
+<!-- Future I tense to expectative-->
+<rule>
+<pattern>
+       <pattern-item n="vbinf"/>
+       <pattern-item n="vbfutI"/>
+</pattern>
+<action>
+    <out>
+        <chunk>
+         <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="2" side="tl" part="prs"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+             <tag><clip pos="2" side="tl" part="tns"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="prs" link-to="2"/>
+             <clip pos="2" side="tl" part="nbr" link-to="3"/>
+             <clip pos="2" side="tl" part="cas" link-to="5"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<!-- end Future I tense to expectative-->
 
 <!-- Sintagmas nominales -->
 
