@@ -20530,8 +20530,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <!--end Collective numerals-->
-      
-    <e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>četiri</l><r>četiri<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -20640,7 +20639,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>osamdeset</l><r>osamdeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devedeset</l><r>devedeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
         
-      	<!--Todo: Add the other numbers' declension-->
+  	<!--Todo: Add the other numbers' declension-->
+	<e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
 	<e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
  <e r="LR"><p><l>jednoga</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
 	<e><p><l>jednog</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -20728,6 +20728,34 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><p><l>jednim</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
  <e r="LR"><p><l>jednima</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
+	<e><p><l>triju</l><r>tri<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
+	<e><p><l>triju</l><r>tri<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
+	<e><p><l>triju</l><r>tri<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="dat"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="ins"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
+	<e><p><l>triju</l><r>tri<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
+	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
+	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
 
       
 <!--Ordinal numbers-->

@@ -69,14 +69,16 @@ LIST Ins = ins ;
 
 # =========================================================================== #
 
-LIST GEN-PREP = "bez" "blizu" "čelo" "do" "duž" "ispred" "ispod" "iz" "iza" "između" "iznad" "izvan" "kod" "kraj" "mjesto" "nakon" "nakraj" "nasred" "navrh" "niže" "od" "oko" "osim" "pokraj" "ponad" "poput" "pozadi" "pored" "poslije" "poviše" "preko" "prije" "kasnije" "protiv" "put" "radi" "sred" "ukraj" "umjesto" "uoči" "uvrh" "uzduž" "van" "više" "vrh" "zarad" "zaradi" "zbog" "u" "za" "sa" "mimo" ;
-LIST ACC-PREP = "kroz" "niz" "uz" "na" "o" "po" "u" "mimo" "među" "nad" "pod" "pred" "za"; 
-LIST DAT-PREP = "k" "prema" "pri";
-LIST LOC-PREP = "u" "na" "o" "po" "prema" "pri";
-LIST INS-PREP = "s" "pred" "za" "nad" "pod" "među";
+LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prijee"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "sa"i "mimo"i ;
+LIST ACC-PREP = "kroz"i "niz"i "uz"i "na"i "o"i "po"i "u"i "mimo"i "među"i "nad"i "pod"i "pred"i "za"i; 
+LIST DAT-PREP = "k"i ;
+LIST LOC-PREP = "u"i "na"i "o"i "po"i "prema"i "pri"i;
+LIST INS-PREP = "s"i "pred"i "za"i "nad"i "pod"i "među"i;
 LIST ACC-OR-LOC-PREP = ACC-PREP | LOC-PREP ;
 
-LIST V-COP = "biti" ; 
+LIST V-COP = "biti"i ; 
+
+LIST DualNum = "dva" "tri" "četiri" ;
 
 # =========================================================================== #
 
@@ -102,7 +104,7 @@ SET ANIM-OR-INANIM = Anim | Inanim ;
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 # Categories that can come before the head noun in an NP 
-SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; 
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | (prn dem); 
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
@@ -158,16 +160,17 @@ SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
 SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
+SELECT $$GENDER IF (1 NP-HEAD + $$GENDER OR A + $$GENDER);
+SELECT $$NUMBER IF (1 NP-HEAD + $$NUMBER OR A + $$NUMBER);
+    
 SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
     
-SELECT $$NUMBER + $$CASE IF (0C PRE-N) (1 NP-MEMBER + $$NUMBER + $$CASE) ;
+SELECT Acc IF (-1C V + (tv) );
 
-SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
+REMOVE Voc IF (NOT 1 Voc or Cm);
 
-SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
-    ## Select the gender of a noun modifier according to the next 
-    ## possible NP head to the right. We allow it to scan by any NP-member
+SELECT Gen IF (-1 DualNum + Nom)
 
 # =========================================================================== #
 #   PP disambiguation                                                         #
@@ -176,14 +179,12 @@ SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-SELECT Gen IF (-1C GEN-PREP OR PRE-N + Gen );
-SELECT Dat IF (-1C DAT-PREP OR PRE-N + Dat );
-SELECT Acc IF (-1C ACC-PREP OR PRE-N + Acc );
-SELECT Loc IF (-1C LOC-PREP OR PRE-N + Loc );
-SELECT Ins IF (-1C INS-PREP OR PRE-N + Ins );
-
-REMOVE Loc (NOT -1C LOC-PREP BARRIER BOS) ; 
-    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+SELECT Nom IF (-1C PRE-N + Nom);
+SELECT Gen IF (-1C GEN-PREP OR PRE-N + Gen);
+SELECT Dat IF (-1C DAT-PREP OR PRE-N + Dat);
+SELECT Acc IF (-1C ACC-PREP OR PRE-N + Acc);
+SELECT Loc IF (-1C LOC-PREP OR PRE-N + Loc);
+SELECT Ins IF (-1C INS-PREP OR PRE-N + Ins);
 
 
 # =========================================================================== #
@@ -201,12 +202,15 @@ REMOVE PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ;
 
 REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
-
+SELECT (vbser) IF (-1 (lp) );
+    ## This is perhaps fallable
 
 # =========================================================================== #
 #   Sentence level disambiguation                                             #
 # =========================================================================== #
 
+REMOVE (itg) IF (NOT 1* ("<?>") ) (NOT -1* (part itg) ) (NOT 1* (part itg) );
+    ## For direct questions
 
 SELECT Lp + $$GENDER + $$NUMBER IF
                      (-1C* NP-HEAD + $$GENDER + $$NUMBER BARRIER S-BOUNDARY) ; 
