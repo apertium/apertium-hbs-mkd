@@ -53,6 +53,9 @@ LIST Msc = m ma mi ;
 LIST Fem = f ; 
 LIST Neu = nt ; 
 
+LIST Ant = ant ; 
+LIST Cog = cog ; 
+
 LIST Anim = ma ; 
 LIST Inanim = mi ; 
 
@@ -131,6 +134,11 @@ SECTION
 
 REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+
+SELECT $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
+SELECT $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
+    ## Njihov kolega Nemanja Ružić pao je na testu letenja na trećoj godini akademije i okrenut će se jednom od pet ostalih akademskih programa.
 
 # =========================================================================== #
 #   NP-agreement disambiguation                                               #
