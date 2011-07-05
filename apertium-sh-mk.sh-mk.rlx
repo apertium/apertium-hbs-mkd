@@ -163,6 +163,12 @@ SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
 SELECT $$GENDER IF (1 NP-HEAD + $$GENDER OR A + $$GENDER);
 SELECT $$NUMBER IF (1 NP-HEAD + $$NUMBER OR A + $$NUMBER);
     
+SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
+
+SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
+    ## Select the gender of a noun modifier according to the next
+    ## possible NP head to the right. We allow it to scan by any NP-member
+    
 SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
     
