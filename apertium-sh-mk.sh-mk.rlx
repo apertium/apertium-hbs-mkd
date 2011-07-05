@@ -164,11 +164,11 @@ SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-SELECT Gen IF (-1C GEN-PREP OR (Pre-N Gen) );
-SELECT Dat IF (-1C DAT-PREP OR (Pre-N Dat) );
-SELECT Acc IF (-1C ACC-PREP OR (Pre-N Acc) );
-SELECT Loc IF (-1C LOC-PREP OR (Pre-N Loc) );
-SELECT Ins IF (-1C INS-PREP OR (Pre-N Ins) );
+SELECT Gen IF (-1C GEN-PREP OR PRE-N + Gen );
+SELECT Dat IF (-1C DAT-PREP OR PRE-N + Dat );
+SELECT Acc IF (-1C ACC-PREP OR PRE-N + Acc );
+SELECT Loc IF (-1C LOC-PREP OR PRE-N + Loc );
+SELECT Ins IF (-1C INS-PREP OR PRE-N + Ins );
 
 REMOVE Loc (NOT -1C LOC-PREP BARRIER BOS) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
