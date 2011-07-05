@@ -534,7 +534,6 @@ after prepositions-->
 </pardef>
 <!-- Strangely, this is not marked with "clt" in the macedonian monodix, therefore I won't mark it in accord -->
 <pardef n="reflexive_pronouns__clt__prn">
-    <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
     <e><p><l>si</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
     <e><p><l>se</l><r>clitic<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 </pardef>
@@ -8983,7 +8982,7 @@ after prepositions-->
 
 <pardef n="perf_iv_ukin/uti__vblex">
 <!--Infinitive-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -8996,7 +8995,7 @@ after prepositions-->
 </pardef>
 <pardef n="perf_iv_ukin/uti-pp__vblex">
 <!--Infinitive-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -9009,7 +9008,7 @@ after prepositions-->
 </pardef>
 <pardef n="perf_ref_ukin/uti__vblex">
 <!--Infinitive-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -9022,7 +9021,7 @@ after prepositions-->
 </pardef>
 <pardef n="perf_ref_ukin/uti-pp__vblex">
 <!--Infinitive-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -9035,7 +9034,7 @@ after prepositions-->
 </pardef>
 <pardef n="perf_tv_ukin/uti__vblex">
 <!--Infinuttve-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -9049,7 +9048,7 @@ after prepositions-->
 </pardef>
 <pardef n="perf_tv_ukin/uti-pp__vblex">
 <!--Infinuttve-->
-<e><p><l>i</l><r>u</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<e><p><l>u</l><r>u</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
 <!--Imperative-->
 <e><p><l></l><r>uti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
@@ -23071,9 +23070,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="km/h"><p><l>km/h</l><r>km/h<s n="abbr"/></r></p></e>
 <!--end Abbreviations-->
 <!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
-<e lm="da"><p><l>da</l><r>affirmative<s n="part"/><s n="aff"/></r></p></e>
-<!--<e lm="da"><l>da</l><r>The subjunctive marker particle, can also mark a question, can mark a demand (sometimes optative)<s n="part"/></r></p></e>-->
-<!--e lm="neka"><l>neka</l><r>particle to express a demand, used to make imperative in cases where no synthetic imperative available</r></p></e>-->
+<e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
+<e lm="neka"><p><l>neka</l><r>neka<s n="part"/></r></p></e>
 <e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
 <e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
 <e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/><s n="clt"/></r></p></e>
