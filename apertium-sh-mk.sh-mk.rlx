@@ -165,6 +165,10 @@ SELECT $$NUMBER + $$CASE IF (0C PRE-N) (1 NP-MEMBER + $$NUMBER + $$CASE) ;
 
 SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
 
+SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
+    ## Select the gender of a noun modifier according to the next 
+    ## possible NP head to the right. We allow it to scan by any NP-member
+
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
