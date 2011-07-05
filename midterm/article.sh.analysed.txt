@@ -14,20 +14,16 @@
 	"Vojska Srbije" np f sg gen 
 "<Srbijanska>"
 	"Srbijanski" adj pst f sg nom def SELECT:156 
-;	"Srbijanski" adj pst f sg voc def SELECT:156 
+;	"Srbijanski" adj pst f sg voc def REMOVE:132 
+;	"Srbijanski" adj pst nt pl acc def REMOVE:132 
+;	"Srbijanski" adj pst nt pl voc def REMOVE:132 
 ;	"Srbijanski" adj pst nt pl nom def SELECT:156 
-;	"Srbijanski" adj pst nt pl acc def SELECT:156 
-;	"Srbijanski" adj pst nt pl voc def SELECT:156 
 "<vojska>"
 	"vojska" n f sg nom SELECT:158 
 ;	"vojska" n f pl gen SELECT:158 
 "<ima>"
-	"imati" vbhaver imperf ref pres p3 sg 
 	"imati" vbhaver imperf tv pres p3 sg 
-	"imati" vbhaver imperf ref aor p2 sg 
-	"imati" vbhaver imperf ref aor p3 sg 
-	"imati" vbhaver imperf tv aor p2 sg 
-	"imati" vbhaver imperf tv aor p3 sg 
+;	"imati" vbhaver imperf ref pres p3 sg REMOVE:181 
 "<prve>"
 	"prvi" num ord f sg gen 
 	"prvi" num ord f pl acc 
@@ -50,16 +46,16 @@
 	"borben" adj pst ma sg gen ind SELECT:156 SELECT:158 
 	"borben" adj pst mi sg gen ind SELECT:156 SELECT:158 
 	"borben" adj pst nt sg gen ind SELECT:156 SELECT:158 
-;	"borben" adj pst nt pl nom ind SELECT:156 
-;	"borben" adj pst nt pl nom def SELECT:156 
+;	"borben" adj pst nt pl nom ind REMOVE:132 
+;	"borben" adj pst nt pl nom def REMOVE:132 
+;	"borben" adj pst nt pl voc ind REMOVE:132 
+;	"borben" adj pst nt pl voc def REMOVE:132 
+;	"borben" adj pst f sg nom ind REMOVE:132 
+;	"borben" adj pst f sg nom def REMOVE:132 
+;	"borben" adj pst f sg voc ind REMOVE:132 
+;	"borben" adj pst f sg voc def REMOVE:132 
 ;	"borben" adj pst nt pl acc ind SELECT:156 
 ;	"borben" adj pst nt pl acc def SELECT:156 
-;	"borben" adj pst nt pl voc ind SELECT:156 
-;	"borben" adj pst nt pl voc def SELECT:156 
-;	"borben" adj pst f sg nom ind SELECT:156 
-;	"borben" adj pst f sg nom def SELECT:156 
-;	"borben" adj pst f sg voc ind SELECT:156 
-;	"borben" adj pst f sg voc def SELECT:156 
 ;	"borben" adj pst ma sg acc ind SELECT:156 SELECT:158 
 "<letača>"
 	"letač" n ma sg gen SELECT:158 
@@ -67,10 +63,10 @@
 ;	"letač" n ma pl gen SELECT:158 
 "<Starija>"
 	"Star" adj comp f sg nom SELECT:156 
-;	"Star" adj comp nt pl voc SELECT:156 
+;	"Star" adj comp nt pl voc REMOVE:132 
+;	"Star" adj comp nt pl acc REMOVE:132 
+;	"Star" adj comp f sg voc REMOVE:132 
 ;	"Star" adj comp nt pl nom SELECT:156 
-;	"Star" adj comp nt pl acc SELECT:156 
-;	"Star" adj comp f sg voc SELECT:156 
 "<vodnica>"
 	"vodnica" n f sg nom SELECT:158 
 ;	"vodnica" n f pl gen SELECT:158 
@@ -132,12 +128,8 @@
 ;	"koji" prn rel nt pl nom SELECT:145 
 ;	"koji" prn rel nt pl acc SELECT:145 
 "<upravlja>"
-	"upravljati" vblex imperf ref pres p3 sg 
 	"upravljati" vblex imperf tv pres p3 sg 
-	"upravljati" vblex imperf ref aor p2 sg 
-	"upravljati" vblex imperf ref aor p3 sg 
-	"upravljati" vblex imperf tv aor p2 sg 
-	"upravljati" vblex imperf tv aor p3 sg 
+;	"upravljati" vblex imperf ref pres p3 sg REMOVE:181 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<Super Galeb>"
@@ -175,8 +167,8 @@
 ;	"generacija" n f pl nom SELECT:158 SELECT:158 
 ;	"generacija" n f pl acc SELECT:158 SELECT:158 
 "<uče>"
-	"učiti" vblex imperf ref pres p3 pl 
 	"učiti" vblex imperf tv pres p3 pl 
+;	"učiti" vblex imperf ref pres p3 pl REMOVE:181 
 "<kako>"
 	"kako" cnjsub 
 	"kako" adv 
@@ -206,8 +198,6 @@
 ;	"Radovanović" np cog ma sg voc SELECT:145 
 "<manevrira>"
 	"manevrirati" vblex imperf tv pres p3 sg 
-	"manevrirati" vblex imperf tv aor p2 sg 
-	"manevrirati" vblex imperf tv aor p3 sg 
 "<borbenim>"
 	"borben" adj comp nt sg ins SELECT:156 
 	"borben" adj pst ma sg ins ind SELECT:156 
@@ -216,28 +206,28 @@
 	"borben" adj pst mi sg ins def SELECT:156 
 	"borben" adj pst nt sg ins ind SELECT:156 
 	"borben" adj pst nt sg ins def SELECT:156 
-;	"borben" adj pst ma pl dat ind SELECT:156 
-;	"borben" adj pst ma pl dat def SELECT:156 
-;	"borben" adj pst ma pl loc ind SELECT:156 
-;	"borben" adj pst ma pl loc def SELECT:156 
+;	"borben" adj pst ma pl dat ind REMOVE:132 
+;	"borben" adj pst ma pl dat def REMOVE:132 
+;	"borben" adj pst ma pl loc ind REMOVE:132 
+;	"borben" adj pst ma pl loc def REMOVE:132 
+;	"borben" adj pst mi pl dat ind REMOVE:132 
+;	"borben" adj pst mi pl dat def REMOVE:132 
+;	"borben" adj pst mi pl loc ind REMOVE:132 
+;	"borben" adj pst mi pl loc def REMOVE:132 
+;	"borben" adj pst f pl dat ind REMOVE:132 
+;	"borben" adj pst f pl dat def REMOVE:132 
+;	"borben" adj pst f pl loc ind REMOVE:132 
+;	"borben" adj pst f pl loc def REMOVE:132 
+;	"borben" adj pst nt pl dat ind REMOVE:132 
+;	"borben" adj pst nt pl dat def REMOVE:132 
+;	"borben" adj pst nt pl loc ind REMOVE:132 
+;	"borben" adj pst nt pl loc def REMOVE:132 
 ;	"borben" adj pst ma pl ins ind SELECT:156 
 ;	"borben" adj pst ma pl ins def SELECT:156 
-;	"borben" adj pst mi pl dat ind SELECT:156 
-;	"borben" adj pst mi pl dat def SELECT:156 
-;	"borben" adj pst mi pl loc ind SELECT:156 
-;	"borben" adj pst mi pl loc def SELECT:156 
 ;	"borben" adj pst mi pl ins ind SELECT:156 
 ;	"borben" adj pst mi pl ins def SELECT:156 
-;	"borben" adj pst f pl dat ind SELECT:156 
-;	"borben" adj pst f pl dat def SELECT:156 
-;	"borben" adj pst f pl loc ind SELECT:156 
-;	"borben" adj pst f pl loc def SELECT:156 
 ;	"borben" adj pst f pl ins ind SELECT:156 
 ;	"borben" adj pst f pl ins def SELECT:156 
-;	"borben" adj pst nt pl dat ind SELECT:156 
-;	"borben" adj pst nt pl dat def SELECT:156 
-;	"borben" adj pst nt pl loc ind SELECT:156 
-;	"borben" adj pst nt pl loc def SELECT:156 
 ;	"borben" adj pst nt pl ins ind SELECT:156 
 ;	"borben" adj pst nt pl ins def SELECT:156 
 "<zrakoplovom>"
@@ -287,15 +277,15 @@
 ;	"Radovanović" np cog ma sg voc SELECT:145 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:181 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:181 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:187 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:187 
 "<ušla>"
-	"ući" vblex imperf iv lp f sg SELECT:193 
-;	"ući" vblex imperf iv opt nt pl REMOVE:184 
-;	"ući" vblex imperf iv opt f sg REMOVE:184 
-;	"ući" vblex imperf iv opt m pl REMOVE:184 
-;	"ući" vblex imperf iv lp nt pl SELECT:193 
-;	"ući" vblex imperf iv lp m pl SELECT:193 
+	"ući" vblex imperf iv lp f sg SELECT:199 
+;	"ući" vblex imperf iv opt nt pl REMOVE:190 
+;	"ući" vblex imperf iv opt f sg REMOVE:190 
+;	"ući" vblex imperf iv opt m pl REMOVE:190 
+;	"ući" vblex imperf iv lp nt pl SELECT:199 
+;	"ući" vblex imperf iv lp m pl SELECT:199 
 "<u>"
 	"u" pr 
 "<povijest>"
@@ -421,10 +411,10 @@
 "<Do>"
 	"Do" pr 
 "<prijemnog>"
-	"prijemni" adj pst nt sg gen def SELECT:156 
-	"prijemni" adj pst ma sg gen def SELECT:156 
-	"prijemni" adj pst mi sg gen def SELECT:156 
-;	"prijemni" adj pst ma sg acc def SELECT:156 
+	"prijemni" adj pst nt sg gen def 
+	"prijemni" adj pst ma sg gen def 
+	"prijemni" adj pst mi sg gen def 
+;	"prijemni" adj pst ma sg acc def REMOVE:132 
 "<testa>"
 	"test" n mi sg gen 
 "<nikada>"
@@ -435,9 +425,9 @@
 	"putovati" vblex imperf iv lp nt pl 
 	"putovati" vblex imperf iv lp f sg 
 	"putovati" vblex imperf iv lp m pl 
-;	"putovati" vblex imperf iv opt nt pl REMOVE:184 
-;	"putovati" vblex imperf iv opt f sg REMOVE:184 
-;	"putovati" vblex imperf iv opt m pl REMOVE:184 
+;	"putovati" vblex imperf iv opt nt pl REMOVE:190 
+;	"putovati" vblex imperf iv opt f sg REMOVE:190 
+;	"putovati" vblex imperf iv opt m pl REMOVE:190 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<,>"
@@ -477,24 +467,24 @@
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<bila>"
-	"biti" vbser lp f sg SELECT:193 
-	"biti" vblex imperf ref lp f sg SELECT:193 
-	"biti" vblex imperf tv lp f sg SELECT:193 
-;	"biti" vbser lp nt pl SELECT:193 
-;	"biti" vbser lp m pl SELECT:193 
-;	"biti" vbser opt nt pl SELECT:193 
-;	"biti" vbser opt f sg SELECT:193 
-;	"biti" vbser opt m pl SELECT:193 
-;	"biti" vblex imperf ref lp nt pl SELECT:193 
-;	"biti" vblex imperf ref lp m pl SELECT:193 
-;	"biti" vblex imperf ref opt nt pl SELECT:193 
-;	"biti" vblex imperf ref opt f sg SELECT:193 
-;	"biti" vblex imperf ref opt m pl SELECT:193 
-;	"biti" vblex imperf tv lp nt pl SELECT:193 
-;	"biti" vblex imperf tv lp m pl SELECT:193 
-;	"biti" vblex imperf tv opt nt pl SELECT:193 
-;	"biti" vblex imperf tv opt f sg SELECT:193 
-;	"biti" vblex imperf tv opt m pl SELECT:193 
+	"biti" vbser lp f sg SELECT:199 
+	"biti" vblex imperf tv lp f sg SELECT:199 
+;	"biti" vblex imperf ref lp nt pl REMOVE:181 
+;	"biti" vblex imperf ref lp f sg REMOVE:181 
+;	"biti" vblex imperf ref lp m pl REMOVE:181 
+;	"biti" vblex imperf ref opt nt pl REMOVE:181 
+;	"biti" vblex imperf ref opt f sg REMOVE:181 
+;	"biti" vblex imperf ref opt m pl REMOVE:181 
+;	"biti" vbser lp nt pl SELECT:199 
+;	"biti" vbser lp m pl SELECT:199 
+;	"biti" vbser opt nt pl SELECT:199 
+;	"biti" vbser opt f sg SELECT:199 
+;	"biti" vbser opt m pl SELECT:199 
+;	"biti" vblex imperf tv lp nt pl SELECT:199 
+;	"biti" vblex imperf tv lp m pl SELECT:199 
+;	"biti" vblex imperf tv opt nt pl SELECT:199 
+;	"biti" vblex imperf tv opt f sg SELECT:199 
+;	"biti" vblex imperf tv opt m pl SELECT:199 
 "<je>"
 	"biti" vbser clt pres p3 sg 
 	"clitic" prn pers clt p3 f sg gen 
@@ -518,8 +508,8 @@
 	"biti" vblex imperf tv pp mfn pl 
 	"biti" vblex imperf tv pp m pl 
 	"biti" vbser iv inf 
-	"biti" vblex imperf ref inf 
 	"biti" vblex imperf tv inf 
+;	"biti" vblex imperf ref inf REMOVE:181 
 "<primljena>"
 	"primiti" vblex perf tv pp m sg 
 	"primiti" vblex perf tv pp m pl 
@@ -625,11 +615,11 @@
 	"borben" adj pst mi pl nom def SELECT:156 
 	"borben" adj pst mi pl voc ind SELECT:156 
 	"borben" adj pst mi pl voc def SELECT:156 
+;	"borben" adj pst mi sg acc def REMOVE:132 
 ;	"borben" adj pst ma sg nom def SELECT:156 
 ;	"borben" adj pst ma sg voc ind SELECT:156 
 ;	"borben" adj pst ma sg voc def SELECT:156 
 ;	"borben" adj pst mi sg nom def SELECT:156 
-;	"borben" adj pst mi sg acc def SELECT:156 
 ;	"borben" adj pst mi sg voc ind SELECT:156 
 ;	"borben" adj pst mi sg voc def SELECT:156 
 "<piloti>"
@@ -669,12 +659,8 @@
 "<također>"
 	"također" adv 
 "<upravlja>"
-	"upravljati" vblex imperf ref pres p3 sg 
 	"upravljati" vblex imperf tv pres p3 sg 
-	"upravljati" vblex imperf ref aor p2 sg 
-	"upravljati" vblex imperf ref aor p3 sg 
-	"upravljati" vblex imperf tv aor p2 sg 
-	"upravljati" vblex imperf tv aor p3 sg 
+;	"upravljati" vblex imperf ref pres p3 sg REMOVE:181 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<Super Galeb>"
@@ -703,28 +689,28 @@
 	"borben" adj pst mi sg ins def SELECT:156 
 	"borben" adj pst nt sg ins ind SELECT:156 
 	"borben" adj pst nt sg ins def SELECT:156 
-;	"borben" adj pst ma pl dat ind SELECT:156 
-;	"borben" adj pst ma pl dat def SELECT:156 
-;	"borben" adj pst ma pl loc ind SELECT:156 
-;	"borben" adj pst ma pl loc def SELECT:156 
+;	"borben" adj pst ma pl dat ind REMOVE:132 
+;	"borben" adj pst ma pl dat def REMOVE:132 
+;	"borben" adj pst ma pl loc ind REMOVE:132 
+;	"borben" adj pst ma pl loc def REMOVE:132 
+;	"borben" adj pst mi pl dat ind REMOVE:132 
+;	"borben" adj pst mi pl dat def REMOVE:132 
+;	"borben" adj pst mi pl loc ind REMOVE:132 
+;	"borben" adj pst mi pl loc def REMOVE:132 
+;	"borben" adj pst f pl dat ind REMOVE:132 
+;	"borben" adj pst f pl dat def REMOVE:132 
+;	"borben" adj pst f pl loc ind REMOVE:132 
+;	"borben" adj pst f pl loc def REMOVE:132 
+;	"borben" adj pst nt pl dat ind REMOVE:132 
+;	"borben" adj pst nt pl dat def REMOVE:132 
+;	"borben" adj pst nt pl loc ind REMOVE:132 
+;	"borben" adj pst nt pl loc def REMOVE:132 
 ;	"borben" adj pst ma pl ins ind SELECT:156 
 ;	"borben" adj pst ma pl ins def SELECT:156 
-;	"borben" adj pst mi pl dat ind SELECT:156 
-;	"borben" adj pst mi pl dat def SELECT:156 
-;	"borben" adj pst mi pl loc ind SELECT:156 
-;	"borben" adj pst mi pl loc def SELECT:156 
 ;	"borben" adj pst mi pl ins ind SELECT:156 
 ;	"borben" adj pst mi pl ins def SELECT:156 
-;	"borben" adj pst f pl dat ind SELECT:156 
-;	"borben" adj pst f pl dat def SELECT:156 
-;	"borben" adj pst f pl loc ind SELECT:156 
-;	"borben" adj pst f pl loc def SELECT:156 
 ;	"borben" adj pst f pl ins ind SELECT:156 
 ;	"borben" adj pst f pl ins def SELECT:156 
-;	"borben" adj pst nt pl dat ind SELECT:156 
-;	"borben" adj pst nt pl dat def SELECT:156 
-;	"borben" adj pst nt pl loc ind SELECT:156 
-;	"borben" adj pst nt pl loc def SELECT:156 
 ;	"borben" adj pst nt pl ins ind SELECT:156 
 ;	"borben" adj pst nt pl ins def SELECT:156 
 "<helikopterom>"
@@ -756,28 +742,28 @@
 ;	"smjer" n mi sg nom SELECT:169 
 "<zrakoplovstva>"
 	"zrakoplovstvo" n nt sg gen 
-	"zrakoplovstvo" n nt pl nom 
 	"zrakoplovstvo" n nt pl acc 
 	"zrakoplovstvo" n nt pl voc 
+;	"zrakoplovstvo" n nt pl nom REMOVE:139 
 "<Vojne>"
 	"Vojni" adj pst ma pl acc def 
 	"Vojni" adj pst mi pl acc def 
 	"Vojni" adj pst f sg gen def 
-	"Vojni" adj pst f pl nom def 
 	"Vojni" adj pst f pl acc def 
 	"Vojni" adj pst f pl voc def 
+;	"Vojni" adj pst f pl nom def REMOVE:139 
 "<akademije>"
 	"akademija" n f sg gen 
-	"akademija" n f pl nom 
 	"akademija" n f pl acc 
 	"akademija" n f pl voc 
+;	"akademija" n f pl nom REMOVE:139 
 "<2007.>"
 	"2007." num ord 
 "<godine>"
 	"godina" n f sg gen 
-	"godina" n f pl nom 
 	"godina" n f pl acc 
 	"godina" n f pl voc 
+;	"godina" n f pl nom REMOVE:139 
 "<,>"
 	"," cm 
 "<kada>"
@@ -791,32 +777,32 @@
 	"akademija" n f sg nom 
 	"akademija" n f pl gen 
 "<otvorila>"
-	"otvoriti" vblex perf ref lp nt pl 
-	"otvoriti" vblex perf ref lp f sg 
-	"otvoriti" vblex perf ref lp m pl 
-	"otvoriti" vblex perf ref opt nt pl 
-	"otvoriti" vblex perf ref opt f sg 
-	"otvoriti" vblex perf ref opt m pl 
-	"otvoriti" vblex perf tv lp nt pl 
-	"otvoriti" vblex perf tv lp f sg 
-	"otvoriti" vblex perf tv lp m pl 
-	"otvoriti" vblex perf tv opt nt pl 
-	"otvoriti" vblex perf tv opt f sg 
-	"otvoriti" vblex perf tv opt m pl 
+	"otvoriti" vblex perf ref lp nt pl SELECT:185 
+	"otvoriti" vblex perf ref lp f sg SELECT:185 
+	"otvoriti" vblex perf ref lp m pl SELECT:185 
+	"otvoriti" vblex perf ref opt nt pl SELECT:185 
+	"otvoriti" vblex perf ref opt f sg SELECT:185 
+	"otvoriti" vblex perf ref opt m pl SELECT:185 
+;	"otvoriti" vblex perf tv lp nt pl SELECT:185 
+;	"otvoriti" vblex perf tv lp f sg SELECT:185 
+;	"otvoriti" vblex perf tv lp m pl SELECT:185 
+;	"otvoriti" vblex perf tv opt nt pl SELECT:185 
+;	"otvoriti" vblex perf tv opt f sg SELECT:185 
+;	"otvoriti" vblex perf tv opt m pl SELECT:185 
 "<svoja>"
-	"svoj" prn ref pos nt pl nom 
 	"svoj" prn ref pos nt pl acc 
 	"svoj" prn ref pos f sg nom 
+;	"svoj" prn ref pos nt pl nom REMOVE:139 
 "<vrata>"
-	"vrata" n f pl nom SELECT:158 
 	"vrata" n f pl acc SELECT:158 
+;	"vrata" n f pl nom REMOVE:139 
 ;	"vrata" n f pl gen SELECT:158 
 ;	"vrata" n f pl voc SELECT:158 
 "<za>"
 	"za" pr 
 "<žene>"
 	"žena" n f sg gen SELECT:167 
-;	"žena" n f pl nom SELECT:167 
+;	"žena" n f pl nom REMOVE:139 
 ;	"žena" n f pl acc SELECT:167 
 ;	"žena" n f pl voc SELECT:167 
 "<Nikada>"
@@ -842,12 +828,12 @@
 	"prvi" num ord ma sg nom SELECT:156 
 	"prvi" num ord mi sg nom SELECT:156 
 	"prvi" num ord mi sg acc SELECT:156 
-;	"prvi" num ord f pl nom SELECT:156 
+;	"prvi" num ord f pl nom REMOVE:139 
+;	"prvi" num ord ma pl nom REMOVE:139 
+;	"prvi" num ord mi pl nom REMOVE:139 
 ;	"prvi" num ord ma sg voc SELECT:156 
-;	"prvi" num ord ma pl nom SELECT:156 
 ;	"prvi" num ord ma pl voc SELECT:156 
 ;	"prvi" num ord mi sg voc SELECT:156 
-;	"prvi" num ord mi pl nom SELECT:156 
 ;	"prvi" num ord mi pl voc SELECT:156 
 "<put>"
 	"put" pr 
@@ -863,8 +849,7 @@
 "<s>"
 	"s" pr 
 "<piste>"
-	"piti" vblex imperf iv aor p2 pl 
-	"piti" vblex imperf tv aor p2 pl 
+	"piste" ukjent 
 "<,>"
 	"," cm 
 "<kaže>"
@@ -901,10 +886,10 @@
 "<bio>"
 	"biti" vbser lp m sg 
 	"biti" vbser opt m sg 
-	"biti" vblex imperf ref lp m sg 
-	"biti" vblex imperf ref opt m sg 
 	"biti" vblex imperf tv lp m sg 
 	"biti" vblex imperf tv opt m sg 
+;	"biti" vblex imperf ref lp m sg REMOVE:181 
+;	"biti" vblex imperf ref opt m sg REMOVE:181 
 "<je>"
 	"biti" vbser clt pres p3 sg 
 	"clitic" prn pers clt p3 f sg gen 
@@ -937,23 +922,23 @@
 "<,>"
 	"," cm 
 "<velikom>"
-	"velik" adj pst f sg ins ind SELECT:156 
-	"velik" adj pst f sg ins def SELECT:156 
-;	"velik" adj pst ma sg dat def SELECT:156 
-;	"velik" adj pst ma sg loc def SELECT:156 
-;	"velik" adj pst mi sg dat def SELECT:156 
-;	"velik" adj pst mi sg loc def SELECT:156 
-;	"velik" adj pst nt sg dat def SELECT:156 
-;	"velik" adj pst nt sg loc def SELECT:156 
+	"velik" adj pst f sg ins ind 
+	"velik" adj pst f sg ins def 
+;	"velik" adj pst ma sg dat def REMOVE:132 
+;	"velik" adj pst ma sg loc def REMOVE:132 
+;	"velik" adj pst mi sg dat def REMOVE:132 
+;	"velik" adj pst mi sg loc def REMOVE:132 
+;	"velik" adj pst nt sg dat def REMOVE:132 
+;	"velik" adj pst nt sg loc def REMOVE:132 
 "<pticom>"
 	"ptica" n f sg ins 
 "<bilo>"
-	"biti" vbser lp nt sg SELECT:193 
-	"biti" vblex imperf ref lp nt sg SELECT:193 
-	"biti" vblex imperf tv lp nt sg SELECT:193 
-;	"biti" vbser opt nt sg SELECT:193 
-;	"biti" vblex imperf ref opt nt sg SELECT:193 
-;	"biti" vblex imperf tv opt nt sg SELECT:193 
+	"biti" vbser lp nt sg SELECT:199 
+	"biti" vblex imperf ref lp nt sg SELECT:199 
+	"biti" vblex imperf tv lp nt sg SELECT:199 
+;	"biti" vbser opt nt sg SELECT:199 
+;	"biti" vblex imperf ref opt nt sg SELECT:199 
+;	"biti" vblex imperf tv opt nt sg SELECT:199 
 "<je>"
 	"biti" vbser clt pres p3 sg 
 	"clitic" prn pers clt p3 f sg gen 
@@ -971,11 +956,11 @@
 	"clitic" prn pers clt p3 f sg gen 
 	"clitic" prn pers clt p3 f sg acc 
 "<prekrasan>"
-	"krasan" adj ssup mi sg acc ind SELECT:156 SELECT:158 
-;	"krasan" adj ssup ma sg voc ind SELECT:156 
-;	"krasan" adj ssup mi sg voc ind SELECT:156 
-;	"krasan" adj ssup ma sg nom ind SELECT:156 SELECT:158 
-;	"krasan" adj ssup mi sg nom ind SELECT:156 SELECT:158 
+	"krasan" adj ssup mi sg acc ind SELECT:158 
+;	"krasan" adj ssup ma sg voc ind REMOVE:132 
+;	"krasan" adj ssup mi sg voc ind REMOVE:132 
+;	"krasan" adj ssup ma sg nom ind SELECT:158 
+;	"krasan" adj ssup mi sg nom ind SELECT:158 
 "<doživljaj>"
 	"doživljaj" n mi sg acc SELECT:158 
 ;	"doživljaj" n mi sg nom SELECT:158 
@@ -1065,10 +1050,6 @@
 	"polaziti" vblex imperf iv imp p2 sg 
 	"polaziti" vblex imperf tv pres p3 sg 
 	"polaziti" vblex imperf tv imp p2 sg 
-	"polaziti" vblex imperf iv aor p2 sg 
-	"polaziti" vblex imperf iv aor p3 sg 
-	"polaziti" vblex imperf tv aor p2 sg 
-	"polaziti" vblex imperf tv aor p3 sg 
 "<četvrtu>"
 	"četvrti" num ord f sg acc 
 "<godinu>"
@@ -1188,22 +1169,22 @@
 "<bilo>"
 	"biti" vbser lp nt sg 
 	"biti" vbser opt nt sg 
-	"biti" vblex imperf ref lp nt sg 
-	"biti" vblex imperf ref opt nt sg 
 	"biti" vblex imperf tv lp nt sg 
 	"biti" vblex imperf tv opt nt sg 
+;	"biti" vblex imperf ref lp nt sg REMOVE:181 
+;	"biti" vblex imperf ref opt nt sg REMOVE:181 
 "<je>"
 	"biti" vbser clt pres p3 sg 
 	"clitic" prn pers clt p3 f sg gen 
 	"clitic" prn pers clt p3 f sg acc 
 "<teško>"
 	"teško" adv 
-	"težak" adj pst nt sg nom ind 
-	"težak" adj pst nt sg nom def 
-	"težak" adj pst nt sg voc ind 
-	"težak" adj pst nt sg voc def 
-	"težak" adj pst nt sg acc ind 
-	"težak" adj pst nt sg acc def 
+;	"težak" adj pst nt sg nom ind REMOVE:132 
+;	"težak" adj pst nt sg nom def REMOVE:132 
+;	"težak" adj pst nt sg voc ind REMOVE:132 
+;	"težak" adj pst nt sg voc def REMOVE:132 
+;	"težak" adj pst nt sg acc ind REMOVE:132 
+;	"težak" adj pst nt sg acc def REMOVE:132 
 "<jer>"
 	"jer" cnjsub 
 "<sam>"
@@ -1228,24 +1209,24 @@
 	"majka" n f sg nom SELECT:158 
 ;	"majka" n f pl gen SELECT:158 
 "<bila>"
-	"biti" vbser lp f sg SELECT:193 
-	"biti" vblex imperf ref lp f sg SELECT:193 
-	"biti" vblex imperf tv lp f sg SELECT:193 
-;	"biti" vbser lp nt pl SELECT:193 
-;	"biti" vbser lp m pl SELECT:193 
-;	"biti" vbser opt nt pl SELECT:193 
-;	"biti" vbser opt f sg SELECT:193 
-;	"biti" vbser opt m pl SELECT:193 
-;	"biti" vblex imperf ref lp nt pl SELECT:193 
-;	"biti" vblex imperf ref lp m pl SELECT:193 
-;	"biti" vblex imperf ref opt nt pl SELECT:193 
-;	"biti" vblex imperf ref opt f sg SELECT:193 
-;	"biti" vblex imperf ref opt m pl SELECT:193 
-;	"biti" vblex imperf tv lp nt pl SELECT:193 
-;	"biti" vblex imperf tv lp m pl SELECT:193 
-;	"biti" vblex imperf tv opt nt pl SELECT:193 
-;	"biti" vblex imperf tv opt f sg SELECT:193 
-;	"biti" vblex imperf tv opt m pl SELECT:193 
+	"biti" vbser lp f sg SELECT:199 
+	"biti" vblex imperf tv lp f sg SELECT:199 
+;	"biti" vblex imperf ref lp nt pl REMOVE:181 
+;	"biti" vblex imperf ref lp f sg REMOVE:181 
+;	"biti" vblex imperf ref lp m pl REMOVE:181 
+;	"biti" vblex imperf ref opt nt pl REMOVE:181 
+;	"biti" vblex imperf ref opt f sg REMOVE:181 
+;	"biti" vblex imperf ref opt m pl REMOVE:181 
+;	"biti" vbser lp nt pl SELECT:199 
+;	"biti" vbser lp m pl SELECT:199 
+;	"biti" vbser opt nt pl SELECT:199 
+;	"biti" vbser opt f sg SELECT:199 
+;	"biti" vbser opt m pl SELECT:199 
+;	"biti" vblex imperf tv lp nt pl SELECT:199 
+;	"biti" vblex imperf tv lp m pl SELECT:199 
+;	"biti" vblex imperf tv opt nt pl SELECT:199 
+;	"biti" vblex imperf tv opt f sg SELECT:199 
+;	"biti" vblex imperf tv opt m pl SELECT:199 
 "<je>"
 	"biti" vbser clt pres p3 sg 
 	"clitic" prn pers clt p3 f sg gen 
@@ -1304,18 +1285,18 @@
 "<i>"
 	"i" cnjcoo 
 "<pozvala>"
-	"pozvati" vblex perf ref lp f sg SELECT:193 
-	"pozvati" vblex perf tv lp f sg SELECT:193 
-;	"pozvati" vblex perf ref lp nt pl SELECT:193 
-;	"pozvati" vblex perf ref lp m pl SELECT:193 
-;	"pozvati" vblex perf ref opt nt pl SELECT:193 
-;	"pozvati" vblex perf ref opt f sg SELECT:193 
-;	"pozvati" vblex perf ref opt m pl SELECT:193 
-;	"pozvati" vblex perf tv lp nt pl SELECT:193 
-;	"pozvati" vblex perf tv lp m pl SELECT:193 
-;	"pozvati" vblex perf tv opt nt pl SELECT:193 
-;	"pozvati" vblex perf tv opt f sg SELECT:193 
-;	"pozvati" vblex perf tv opt m pl SELECT:193 
+	"pozvati" vblex perf ref lp f sg SELECT:199 
+	"pozvati" vblex perf tv lp f sg SELECT:199 
+;	"pozvati" vblex perf ref lp nt pl SELECT:199 
+;	"pozvati" vblex perf ref lp m pl SELECT:199 
+;	"pozvati" vblex perf ref opt nt pl SELECT:199 
+;	"pozvati" vblex perf ref opt f sg SELECT:199 
+;	"pozvati" vblex perf ref opt m pl SELECT:199 
+;	"pozvati" vblex perf tv lp nt pl SELECT:199 
+;	"pozvati" vblex perf tv lp m pl SELECT:199 
+;	"pozvati" vblex perf tv opt nt pl SELECT:199 
+;	"pozvati" vblex perf tv opt f sg SELECT:199 
+;	"pozvati" vblex perf tv opt m pl SELECT:199 
 "<rođake>"
 	"rođak" n ma pl acc 
 "<i>"
@@ -1329,15 +1310,11 @@
 	"biti" vbser clt aor p2 sg 
 	"biti" vbser clt aor p3 sg 
 	"biti" vbser clt aor p3 pl 
-	"biti" vblex imperf ref aor p2 sg 
-	"biti" vblex imperf ref aor p3 sg 
-	"biti" vblex imperf tv aor p2 sg 
-	"biti" vblex imperf tv aor p3 sg 
 "<proslavili>"
 	"proslaviti" vblex perf tv lp mfn pl 
 	"proslaviti" vblex perf tv lp m pl 
-;	"proslaviti" vblex perf tv opt mfn pl REMOVE:184 
-;	"proslaviti" vblex perf tv opt m pl REMOVE:184 
+;	"proslaviti" vblex perf tv opt mfn pl REMOVE:190 
+;	"proslaviti" vblex perf tv opt m pl REMOVE:190 
 "<->"
 	"-" guio 
 "<->"
@@ -1473,12 +1450,12 @@
 	"prijemni" adj pst ma sg nom def SELECT:156 
 	"prijemni" adj pst mi sg nom def SELECT:156 
 	"prijemni" adj pst mi sg acc def SELECT:156 
-;	"prijemni" adj pst ma sg voc def SELECT:156 
+;	"prijemni" adj pst ma sg voc def REMOVE:132 
+;	"prijemni" adj pst ma pl voc def REMOVE:132 
+;	"prijemni" adj pst mi sg voc def REMOVE:132 
+;	"prijemni" adj pst mi pl voc def REMOVE:132 
 ;	"prijemni" adj pst ma pl nom def SELECT:156 
-;	"prijemni" adj pst ma pl voc def SELECT:156 
-;	"prijemni" adj pst mi sg voc def SELECT:156 
 ;	"prijemni" adj pst mi pl nom def SELECT:156 
-;	"prijemni" adj pst mi pl voc def SELECT:156 
 "<ispit>"
 	"ispit" n mi sg nom 
 	"ispit" n mi sg acc 
@@ -1608,12 +1585,8 @@
 	"sam" f sg voc ind 
 	"sam" f sg voc def 
 "<ima>"
-	"imati" vbhaver imperf ref pres p3 sg 
 	"imati" vbhaver imperf tv pres p3 sg 
-	"imati" vbhaver imperf ref aor p2 sg 
-	"imati" vbhaver imperf ref aor p3 sg 
-	"imati" vbhaver imperf tv aor p2 sg 
-	"imati" vbhaver imperf tv aor p3 sg 
+;	"imati" vbhaver imperf ref pres p3 sg REMOVE:181 
 "<tremu>"
 	"trema" n f sg acc 
 "<Kada>"
@@ -1648,19 +1621,19 @@
 "<trebam>"
 	"trebati" vbmod imperf tv pres p1 sg 
 "<učiniti>"
-	"učiniti" vblex perf ref inf 
 	"učiniti" vblex perf tv inf 
+;	"učiniti" vblex perf ref inf REMOVE:181 
 "<najbolje>"
-	"dobar" adj sup ma pl acc 
-	"dobar" adj sup mi pl acc 
-	"dobar" adj sup f pl nom 
-	"dobar" adj sup f pl acc 
-	"dobar" adj sup f pl voc 
-	"dobar" adj sup f sg gen 
-	"dobar" adj sup nt sg nom 
-	"dobar" adj sup nt sg acc 
-	"dobar" adj sup nt sg voc 
 	"dobro" adv sup 
+;	"dobar" adj sup ma pl acc REMOVE:132 
+;	"dobar" adj sup mi pl acc REMOVE:132 
+;	"dobar" adj sup f pl nom REMOVE:132 
+;	"dobar" adj sup f pl acc REMOVE:132 
+;	"dobar" adj sup f pl voc REMOVE:132 
+;	"dobar" adj sup f sg gen REMOVE:132 
+;	"dobar" adj sup nt sg nom REMOVE:132 
+;	"dobar" adj sup nt sg acc REMOVE:132 
+;	"dobar" adj sup nt sg voc REMOVE:132 
 "<što>"
 	"što" cnjsub 
 	"što" prn itg mfn sp acc 
@@ -1834,8 +1807,8 @@
 	"davati" vblex imperf tv pres p3 sg 
 	"affirmative" part aff 
 "<uče>"
-	"učiti" vblex imperf ref pres p3 pl 
 	"učiti" vblex imperf tv pres p3 pl 
+;	"učiti" vblex imperf ref pres p3 pl REMOVE:181 
 "<,>"
 	"," cm 
 "<ali>"
@@ -1848,21 +1821,21 @@
 "<i>"
 	"i" cnjcoo 
 "<dobro>"
-	"dobar" adj pst nt sg nom ind 
-	"dobar" adj pst nt sg nom def 
-	"dobar" adj pst nt sg acc ind 
-	"dobar" adj pst nt sg acc def 
-	"dobar" adj pst nt sg voc ind 
-	"dobar" adj pst nt sg voc def 
 	"dobro" adv 
+;	"dobar" adj pst nt sg nom ind REMOVE:132 
+;	"dobar" adj pst nt sg nom def REMOVE:132 
+;	"dobar" adj pst nt sg acc ind REMOVE:132 
+;	"dobar" adj pst nt sg acc def REMOVE:132 
+;	"dobar" adj pst nt sg voc ind REMOVE:132 
+;	"dobar" adj pst nt sg voc def REMOVE:132 
 "<uvježbani>"
 	"uvjeežbati" vblex perf tv pp mfn pl 
 	"uvjeežbati" vblex perf tv pp m pl 
 "<Bilježimo>"
-	"Bieljeežiti" vblex imperf ref pres p1 pl 
-	"Bieljeežiti" vblex imperf ref imp p1 pl 
 	"Bieljeežiti" vblex imperf tv pres p1 pl 
 	"Bieljeežiti" vblex imperf tv imp p1 pl 
+;	"Bieljeežiti" vblex imperf ref pres p1 pl REMOVE:181 
+;	"Bieljeežiti" vblex imperf ref imp p1 pl REMOVE:181 
 "<sve>"
 	"sve" prn tot mfn pl acc 
 	"sve" prn tot nt sg nom 
@@ -1898,19 +1871,19 @@
 	"raditi" vblex imperf iv pres p3 pl 
 	"raditi" vblex imperf tv pres p3 pl 
 "<imamo>"
-	"imati" vbhaver imperf ref pres p1 pl 
 	"imati" vbhaver imperf tv pres p1 pl 
+;	"imati" vbhaver imperf ref pres p1 pl REMOVE:181 
 "<prijateljski>"
 	"prijateljski" adv 
 	"prijateljski" adj pst ma sg nom def 
-	"prijateljski" adj pst ma sg voc def 
 	"prijateljski" adj pst ma pl nom def 
-	"prijateljski" adj pst ma pl voc def 
 	"prijateljski" adj pst mi sg nom def 
 	"prijateljski" adj pst mi sg acc def 
-	"prijateljski" adj pst mi sg voc def 
 	"prijateljski" adj pst mi pl nom def 
-	"prijateljski" adj pst mi pl voc def 
+;	"prijateljski" adj pst ma sg voc def REMOVE:132 
+;	"prijateljski" adj pst ma pl voc def REMOVE:132 
+;	"prijateljski" adj pst mi sg voc def REMOVE:132 
+;	"prijateljski" adj pst mi pl voc def REMOVE:132 
 "<odnos>"
 	"odnos" n mi sg nom 
 	"odnos" n mi sg acc 
@@ -1956,20 +1929,16 @@
 ;	"Stanković" np cog f pl loc REMOVE:173 
 "<Vojna>"
 	"Vojni" adj pst f sg nom def SELECT:156 
+;	"Vojni" adj pst nt pl acc def REMOVE:132 
+;	"Vojni" adj pst nt pl voc def REMOVE:132 
+;	"Vojni" adj pst f sg voc def REMOVE:132 
 ;	"Vojni" adj pst nt pl nom def SELECT:156 
-;	"Vojni" adj pst nt pl acc def SELECT:156 
-;	"Vojni" adj pst nt pl voc def SELECT:156 
-;	"Vojni" adj pst f sg voc def SELECT:156 
 "<akademija>"
 	"akademija" n f sg nom SELECT:158 
 ;	"akademija" n f pl gen SELECT:158 
 "<ima>"
 	"imati" vbhaver imperf ref pres p3 sg 
 	"imati" vbhaver imperf tv pres p3 sg 
-	"imati" vbhaver imperf ref aor p2 sg 
-	"imati" vbhaver imperf ref aor p3 sg 
-	"imati" vbhaver imperf tv aor p2 sg 
-	"imati" vbhaver imperf tv aor p3 sg 
 "<160>"
 	"160" num 
 "<->"
@@ -2004,11 +1973,11 @@
 	"velik" adj comp f pl nom 
 	"velik" adj comp f pl acc 
 	"velik" adj comp f pl voc 
-	"velik" adj comp f sg gen 
 	"velik" adj comp nt sg nom 
 	"velik" adj comp nt sg acc 
 	"velik" adj comp nt sg voc 
 	"veliko" adv comp 
+;	"velik" adj comp f sg gen REMOVE:132 
 "<zanimanje>"
 	"zanimanje" n nt sg nom 
 	"zanimanje" n nt sg acc 
@@ -2023,12 +1992,12 @@
 	"upis" n mi sg acc SELECT:169 
 ;	"upis" n mi sg nom SELECT:169 
 "<Prošle>"
-	"Proći" vblex imperf ref lp f pl 
-	"Proći" vblex imperf ref opt f pl 
-	"Proći" vblex imperf iv lp f pl 
-	"Proći" vblex imperf iv opt f pl 
-	"Proći" vblex imperf tv lp f pl 
-	"Proći" vblex imperf tv opt f pl 
+	"Proći" vblex imperf ref lp f pl SELECT:185 
+	"Proći" vblex imperf ref opt f pl SELECT:185 
+;	"Proći" vblex imperf iv lp f pl SELECT:185 
+;	"Proći" vblex imperf iv opt f pl SELECT:185 
+;	"Proći" vblex imperf tv lp f pl SELECT:185 
+;	"Proći" vblex imperf tv opt f pl SELECT:185 
 "<se>"
 	"clitic" prn ref pers mfn sp gen 
 	"clitic" prn ref pers mfn sp acc 
@@ -2112,12 +2081,12 @@
 "<nije>"
 	"ne" part neg +biti vbser clt pres p3 sg 
 "<uspjela>"
-	"uspjeeti" vblex imperf iv lp f sg SELECT:193 
-;	"uspjeeti" vblex imperf iv opt nt pl REMOVE:184 
-;	"uspjeeti" vblex imperf iv opt f sg REMOVE:184 
-;	"uspjeeti" vblex imperf iv opt m pl REMOVE:184 
-;	"uspjeeti" vblex imperf iv lp nt pl SELECT:193 
-;	"uspjeeti" vblex imperf iv lp m pl SELECT:193 
+	"uspjeeti" vblex imperf iv lp f sg SELECT:199 
+;	"uspjeeti" vblex imperf iv opt nt pl REMOVE:190 
+;	"uspjeeti" vblex imperf iv opt f sg REMOVE:190 
+;	"uspjeeti" vblex imperf iv opt m pl REMOVE:190 
+;	"uspjeeti" vblex imperf iv lp nt pl SELECT:199 
+;	"uspjeeti" vblex imperf iv lp m pl SELECT:199 
 "<postati>"
 	"postati" vblex perf tv inf 
 "<kadetkinja>"

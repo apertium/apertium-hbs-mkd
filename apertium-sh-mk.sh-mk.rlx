@@ -129,7 +129,7 @@ SECTION
 #   NP-internal disambiguation                                                #
 # =========================================================================== #
 
-#REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
+REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
 # =========================================================================== #
@@ -150,7 +150,7 @@ SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
 SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
-SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + $$NUMBER) ;
+SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
     
 SELECT $$NUMBER + $$CASE IF (0C PRE-N) (1 NP-MEMBER + $$NUMBER + $$CASE) ;
@@ -178,10 +178,16 @@ REMOVE Loc (NOT -1C LOC-PREP BARRIER BOS) ;
 #   Verb chain disambiguation                                                 #
 # =========================================================================== #
 
+REMOVE (ref) IF (NOT -1* (prn ref) BARRIER MARK) (NOT 1* (prn ref) BARRIER MARK);
+    ## Verb is not reflexive if there isn't a reflexive pronoun somewhere around it
+    ## Though around doesn't necessarily mean till the first MARK
+    
+SELECT (ref) IF (1C (prn ref));
+
 REMOVE PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
-REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ; 
+REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 
