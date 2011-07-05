@@ -57,6 +57,8 @@ LIST Neu = nt ;
 LIST Ant = ant ; 
 LIST Cog = cog ; 
 
+LIST Nomen = ant cog n np prn adj;
+
 LIST Anim = ma ; 
 LIST Inanim = mi ; 
 
@@ -79,7 +81,7 @@ LIST ACC-OR-LOC-PREP = ACC-PREP | LOC-PREP ;
 
 LIST V-COP = "biti"i ; 
 
-LIST DualNum = "dva" "tri" "četiri" ;
+LIST DualNum = "dva"i "tri"i "četiri"i ;
 
 # =========================================================================== #
 
@@ -141,6 +143,9 @@ SECTION
 
 SELECT $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
 SELECT $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+
+#REMOVE (pl) IF (0C Nomen)(NOT -1C Nomen + (pl) );
+
 REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
     ## Njihov kolega Nemanja Ružić pao je na testu letenja na trećoj godini akademije i okrenut će se jednom od pet ostalih akademskih programa.
 
@@ -167,7 +172,7 @@ SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
     
 ## SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
 
-SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
+#SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
     ## Select the gender of a noun modifier according to the next
     ## possible NP head to the right. We allow it to scan by any NP-member
     
@@ -181,11 +186,11 @@ SELECT Acc IF (-1C V + (tv) );
 REMOVE Voc IF (NOT 1 Voc or Cm);
 
 SELECT Gen IF (-1 DualNum + Nom);
-
+    ## Tri žene
 SELECT Gen IF (1 DualNum + Nom) (0 Num + (ord) );
-
+    ## Prve tri žene
+    
 SELECT (iv) IF (1 Nom);
-
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
@@ -211,7 +216,7 @@ REMOVE (ref) IF (NOT -1* (prn ref) BARRIER MARK) (NOT 1* (prn ref) BARRIER MARK)
     ## Though around doesn't necessarily mean till the first MARK
     
 SELECT (ref) IF (1C (prn ref));
-    ## This is not enough for all reflexive verbs
+    ## Okrenut će se
 
 REMOVE PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
@@ -220,8 +225,13 @@ REMOVE PRON-CLT (0 PRON-CLT OR V-FIN) (NOT -1 V + (tv)) (NOT 1* V + (tv) BARRIER
 
 REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
-SELECT (vbser) IF (-1 (lp) );
+
+SELECT (vbser) IF (-1* (lp) );
+SELECT (vbser) IF (1* (lp) BARRIER V - (lp) - (pprs) );
     ## This is perhaps fallable
+    
+REMOVE (tv) IF (NOT 1* Acc BARRIER V);
+SELECT (tv) IF (1* Acc BARRIER V);
 
 # =========================================================================== #
 #   Sentence level disambiguation                                             #

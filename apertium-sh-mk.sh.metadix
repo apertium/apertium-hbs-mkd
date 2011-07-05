@@ -10203,190 +10203,190 @@ after prepositions-->
 <!-- Masculine-->
 <!--Animate-->
 <!--Singular-->
-       <e><p><l>sam</l><r>sam<s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-      <e><p><l>sama</l><r>sam<s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
-      <e><p><l>samu</l><r>sam<s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
-      <e><p><l>samu</l><r>sam<s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
-      <e><p><l>sama</l><r>sam<s n="ma"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>sam</l><r>sam<s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-      <e><p><l>sami</l><r>sam<s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-     <e><p><l>samim</l><r>sam<s n="ma"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+       <e><p><l>sam</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>sama</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+      <e><p><l>samu</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e><p><l>samu</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+      <e><p><l>sama</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>sam</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+      <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+     <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
 <!--Plural-->
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="ma"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="ma"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
 <!--Inanimate-->
 <!--Singular-->
-       <e><p><l>sam</l><r>sam<s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-      <e><p><l>sama</l><r>sam<s n="mi"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
-      <e><p><l>samu</l><r>sam<s n="mi"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
-      <e><p><l>samu</l><r>sam<s n="mi"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>      
-       <e><p><l>sam</l><r>sam<s n="mi"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
-      <e><p><l>sami</l><r>sam<s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>sam</l><r>sam<s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-     <e><p><l>samim</l><r>sam<s n="mi"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+       <e><p><l>sam</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>sama</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+      <e><p><l>samu</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e><p><l>samu</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>      
+       <e><p><l>sam</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+      <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>sam</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+     <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
 <!--Plural-->
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="mi"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="mi"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
 
 <!-- Feminine-->
 <!--Singular-->
- <e><p><l>sama</l><r>sam<s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
- <e><p><l>same</l><r>sam<s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
-<e><p><l>samoj</l><r>sam<s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
-<e><p><l>samoj</l><r>sam<s n="f"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
- <e><p><l>samu</l><r>sam<s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
- <e><p><l>sama</l><r>sam<s n="f"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-<e><p><l>samom</l><r>sam<s n="f"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+ <e><p><l>sama</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+ <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+<e><p><l>samoj</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e><p><l>samoj</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+ <e><p><l>samu</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+ <e><p><l>sama</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+<e><p><l>samom</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
 <!--Plural-->
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
 
 <!-- Neuter-->
 <!--Singular-->
-	 <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
-	 <e><p><l>sama</l><r>sam<s n="nt"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
-	 <e><p><l>samu</l><r>sam<s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
-	 <e><p><l>samu</l><r>sam<s n="nt"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
-	 <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
-	 <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
-	<e><p><l>samim</l><r>sam<s n="nt"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+	 <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+	 <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+	 <e><p><l>samu</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+	 <e><p><l>samu</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+	 <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+	 <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+	<e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
 <!--Plural-->
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="nt"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
 
 <!-- Definite aspect -->
 <!--Masculine-->
 <!--Singular-->
 <!--Animate-->
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samog</l><r>sam<s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-       <e><p><l>samoga</l><r>sam<s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e> 
- <e r="LR"><p><l>samog</l><r>sam<s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
-       <e><p><l>samoga</l><r>sam<s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samog</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+       <e><p><l>samoga</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e> 
+ <e r="LR"><p><l>samog</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+       <e><p><l>samoga</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
 <!--Inanimate-->
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samog</l><r>sam<s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-       <e><p><l>samoga</l><r>sam<s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samog</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+       <e><p><l>samoga</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
 <!--Plural-->
 <!--Animate-->
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="ma"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="ma"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="ma"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="ma"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 
 <!--Inanimate-->
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="mi"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="mi"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sami</l><r>sam<s n="mi"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sami</l><r>sam<s n="adj"/><s n="mi"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 
 <!-- Feminine-->
 <!--Singular-->
-         <e><p><l>sama</l><r>sam<s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-        <e><p><l>samoj</l><r>sam<s n="f"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-        <e><p><l>samoj</l><r>sam<s n="f"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-         <e><p><l>samu</l><r>sam<s n="f"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sama</l><r>sam<s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
-        <e><p><l>samom</l><r>sam<s n="f"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+        <e><p><l>samoj</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+        <e><p><l>samoj</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+         <e><p><l>samu</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+        <e><p><l>samom</l><r>sam<s n="adj"/><s n="f"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
 <!--Plural-->
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>same</l><r>sam<s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>same</l><r>sam<s n="adj"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 
 <!-- Neuter-->
 <!--Singular-->
-         <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samog</l><r>sam<s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
-       <e><p><l>samoga</l><r>sam<s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
- <e r="LR"><p><l>samom</l><r>sam<s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samomu</l><r>sam<s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-       <e><p><l>samome</l><r>sam<s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
-         <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>samo</l><r>sam<s n="nt"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samog</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+       <e><p><l>samoga</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+ <e r="LR"><p><l>samom</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samomu</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+       <e><p><l>samome</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="loc"/><s n="def"/></r></p></e>
+         <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>samo</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="sg"/><s n="ins"/><s n="def"/></r></p></e>
 <!--Plural-->
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-        <e><p><l>samih</l><r>sam<s n="nt"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
-        <e><p><l>samim</l><r>sam<s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-<e r="LR"><p><l>samima</l><r>sam<s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
-         <e><p><l>sama</l><r>sam<s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+        <e><p><l>samih</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></r></p></e>
+        <e><p><l>samim</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+<e r="LR"><p><l>samima</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+         <e><p><l>sama</l><r>sam<s n="adj"/><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 </pardef>
 <!--end The pronominal adjective sam-->
 
@@ -18330,20 +18330,20 @@ after prepositions-->
     <e><p><l>cima</l><r>c<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="muškar/ac__n">
-    <e><p><l>ac</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>ca</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><p><l>cu</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
-    <e><p><l>ca</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l>če</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>    
-    <e><p><l>cu</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><p><l>cem</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><p><l>ci</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>aca</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
-    <e><p><l>cima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
-    <e><p><l>ce</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
-    <e><p><l>ci</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>cima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><p><l>cima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l>ac</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>ca</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>cu</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>ca</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>če</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>    
+    <e><p><l>cu</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>cem</l><r>ac<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>ci</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>aca</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>cima</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>ce</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><p><l>ci</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>cima</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>cima</l><r>ac<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="život__n">
     <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -18410,22 +18410,22 @@ after prepositions-->
     <e><p><l>rima</l><r>ar<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="trenu/tak__n"><!--With fleeting a-->
-    <e><p><l>tak</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>tka</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><p><l>tku</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
-    <e><p><l>tka</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e r="LR"><p><l>tku</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e><p><l>tče</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>        
-    <e r="LR"><p><l>če</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>    
-    <e><p><l>tku</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><p><l>tkom</l><r>ak<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><p><l>tci</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>taka</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
-    <e><p><l>tcima</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
-    <e><p><l>tke</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
-    <e><p><l>tci</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>tcima</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><p><l>tcima</l><r>ak<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l>tak</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>tka</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>tku</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>tak</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e r="LR"><p><l>tku</l><r>ak<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>tče</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>        
+    <e r="LR"><p><l>če</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>    
+    <e><p><l>tku</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>tkom</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>tci</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>taka</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>tcima</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>tke</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><p><l>tci</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>tcima</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>tcima</l><r>tak<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="arhiv__n">
     <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -23747,7 +23747,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prodati"><i>prod</i><par n="perf_ref_d/ati__vblex"/></e>
 <e lm="nestati"><i>nest</i><par n="perf_iv_st/ati__vblex"/></e>
 <e lm="ostati"><i>ost</i><par n="perf_iv_st/ati__vblex"/></e>
-<e lm="postati"><i>post</i><par n="perf_tv_st/ati__vblex"/></e>
+<e lm="postati"><i>post</i><par n="perf_iv_st/ati__vblex"/></e>
 <e lm="stati"><i>st</i><par n="perf_iv_st/ati__vblex"/></e>
 <e lm="ostati"><i>ost</i><par n="perf_iv_st/ati__vblex"/></e>
 <e lm="ustati"><i>ust</i><par n="perf_iv_st/ati__vblex"/></e>
