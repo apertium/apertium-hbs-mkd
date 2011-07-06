@@ -141,11 +141,11 @@ SECTION
 ## REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (-1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
-SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
-## SELECT:Ant-Cog $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+##SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (-1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+##SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+SELECT:Ant-Cog $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
 ## SELECT:Ant-Cog $$NUMBER IF (1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
-## SELECT:Ant-Cog $$CASE IF (-1C Ant + $$CASE) (0 Cog + $$CASE) ;
+SELECT:Ant-Cog $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
 ## SELECT:Ant-Cog $$CASE IF (1C Ant + $$CASE) (0 Cog + $$CASE) ;
     ## The cogname takse the number, gender and case of the name
 
@@ -184,7 +184,7 @@ SELECT:RodBrojSlj $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A 
 SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
 
-SELECT $$NUMBER IF (-1 PRE-N + $$NUMBER) ;
+SELECT N + $$NUMBER IF (-1 PRE-N + $$NUMBER) ;
     
 SELECT Acc IF (-1C V + (tv) );
 
