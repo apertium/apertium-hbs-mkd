@@ -110,7 +110,7 @@ SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 # Categories that can come before the head noun in an NP 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | (DemPron); 
-SET ATTR = A | Num | (DemPron) | (prn pos);
+SET ATTR = A | Num | (DemPron) | (prn pos) | (prn ind);
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
@@ -249,7 +249,8 @@ REMOVE PRON-CLT (0 PRON-CLT OR V-FIN) (NOT -1 V + (tv)) (NOT 1* V + (tv) BARRIER
 
 
 
-REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
+REMOVE Opt (0C Lp OR Opt) (-1C (vbser) ) ; #TODO: sometimes not only vbser, but also some pronouns
+SELECT Lp (0C Lp OR Opt) (1C (vbser) ) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 REMOVE (pl) IF (0 Lp) (-1 (vbser) + (sg) ) ; 
@@ -273,6 +274,10 @@ REMOVE (itg) IF (NOT 1* ("<?>") ) (NOT -1* (part itg) ) (NOT 1* (part itg) );
     ## For direct questions
     ## This is ok, however, the article is not correctly written: "Hoću li biti primljena na akademiju ili ne; ne samo da sam letjela..."
     ## The ';' here should have been a '?'
+    
+REMOVE (imp) IF (NOT 1* ("<!>") BARRIER EOS);
+    ## It's not imperative, if it doesn't end with '!'
+    ## Probably not always, but it'll do for this article
 
 SELECT:Imalievosubjekt Lp + $$GENDER + $$NUMBER IF
                      (-1C* NP-HEAD + $$GENDER + $$NUMBER BARRIER S-BOUNDARY) ; 

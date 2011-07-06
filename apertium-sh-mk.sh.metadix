@@ -813,29 +813,29 @@ after prepositions-->
 </pardef>
 <pardef n="i/šta__ind__prn">
 	<group alt="sh">
-	    <e><p><l>što</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-            <e><p><l>što</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
-            <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>što</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>što</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+            <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_BS">
-	    <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-            <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_HR">
-	    <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_SR">
-	    <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-            <e><p><l>šta</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+            <e><p><l>šta</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
-           <e><p><l>čega</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-    <e r="LR"><p><l>čemu</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
-           <e><p><l>čemu</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>čem</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>čim</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
-           <e><p><l>čime</l><r>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>čega</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+           <e><p><l>čemu</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>čime</l><r>šta<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="ni/šta__neg__prn">
 	<group alt="sh">
@@ -4798,23 +4798,28 @@ after prepositions-->
 <pardef n="indefinite__pronouns__prn"><!--TODO: the suffix -god, it's for now implemented as a particle-->
 	<e><i>ne</i><par n="ne/tko__ind__prn"/></e>
 	<e><i>i</i><par n="ne/tko__ind__prn"/></e>
+	<e><i>bilo<b/></i><par n="ne/tko__ind__prn"/></e>
 
- 	 <e><i>ne</i><par n="ne/što__ind__prn"/></e>
-       <e><i>pone</i><par n="ne/što__ind__prn"/></e>
-          <e><i>i</i><par n="i/šta__ind__prn"/></e>
-        <e><i>što</i><par n="i/šta__ind__prn"/></e>
-       <e><i>koje</i><par n="i/šta__ind__prn"/></e>
+    <e><i>ne</i><par n="ne/što__ind__prn"/></e>
+    <e><i>pone</i><par n="ne/što__ind__prn"/></e>
+    <e><i>ne</i><par n="ne/što__ind__prn"/></e>
+    <e><i>bilo<b/></i><par n="ne/što__ind__prn"/></e>
+    <e><i>i</i><par n="i/šta__ind__prn"/></e>
+    <e><i>što</i><par n="i/šta__ind__prn"/></e>
+    <e><i>koje</i><par n="i/šta__ind__prn"/></e>
 
 	<e><i>ne</i><par n="ne/koji__ind__prn"/></e>
 	<e><i>i</i><par n="ne/koji__ind__prn"/></e>
+	<e><i>bilo<b/></i><par n="ne/koji__ind__prn"/></e>	
 	<e><i>po</i><par n="ne/koji__ind__prn"/></e>
 	<e><i>gd</i><par n="e_je__yat"/><par n="ne/koji__ind__prn"/></e>
 
-        <e><i>ne</i><par n="ne/ki__ind__prn"/></e>
-        <e><i>pone</i><par n="ne/ki__ind__prn"/></e>
+    <e><i>ne</i><par n="ne/ki__ind__prn"/></e>
+    <e><i>pone</i><par n="ne/ki__ind__prn"/></e>
 
 	<e><i>ne</i><par n="ne/kakav__ind__prn"/></e>
 	<e><i>i</i><par n="ne/kakav__ind__prn"/></e>
+	<e><i>bilo<b/></i><par n="ne/kakav__ind__prn"/></e>
 	<e><i>koje</i><par n="ne/kakav__ind__prn"/></e>
 <!--TODO : nekoliko, zajedno s ostalim upitnim-->
 
@@ -4842,7 +4847,6 @@ after prepositions-->
 	<e><i>sva</i><par n="sva/čiji__tot__prn"/></e>
 	<e><i>sva</i><par n="sva/koliki__tot__prn"/></e>
 	<e><i></i><par n="sve__tot__prn"/></e>
-
 </pardef>
 <pardef n="demonstrative__pronouns__prn">
 	<e><i></i><par n="ovaj__dem__prn"/></e>
@@ -9891,6 +9895,7 @@ after prepositions-->
 <e><p><l>jeći</l><r>jati<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
+
 <pardef n="imperf_iv_si/jati__vblex">
 <!--Infinitive-->
 <e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
@@ -9933,6 +9938,20 @@ after prepositions-->
     <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
    <e><p><l>jan</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
 <e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
+<pardef n="imperf_ref_si/jati__vblex">
+<!--Infinitive-->
+<e><p><l>ja</l><r>ja</r></p><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"/></e>
+<!--Imperative-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l></l><r>jati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__jem__vblex"/></e>
+<!--Imperfect-->
+<e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
+<!--Aorist-->
+<!--Participles-->
+    <e><p><l>ja</l><r>jati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
+<e><p><l>jući</l><r>jati<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="imperf_tv_si/jati-pp__vblex">
 <!--Infinitive-->
@@ -23399,7 +23418,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="blizu"><i>blizu</i><par n="danas__adv"/></e>
 	<e lm="dolje"><i>dol</i><par n="e_je__yat"/><par n="danas__adv"/></e>
 	<e lm="tužno"><i>tužno</i><par n="danas__adv"/></e>
-	<e lm="ne"><i>ne</i><par n="danas__adv"/></e>
 	<e lm="kao"><i>kao</i><par n="danas__adv"/></e>
 	<e lm="kako"><i>kako</i><par n="danas__adv"/></e>
 	<e lm="oko"><i>oko</i><par n="danas__adv"/></e>
@@ -23808,6 +23826,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="vladati"><i>vlad</i><par n="imperf_ref_bir/ati-pp__vblex"/></e>
 <e lm="postojati"><i>posto</i><par n="imperf_iv_posto/jati__vblex"/></e>
 <e lm="sijati"><i>si</i><par n="imperf_tv_si/jati__vblex"/></e>
+<e lm="smijati"><i>sm</i><par n="e_i__yat"/><par n="imperf_ref_si/jati__vblex"/></e>
 <e lm="trljati"><i>trlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="trljati"><i>trlj</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="plesati"><i>ples</i><par n="imperf_iv_pi/sati-pp__vblex"/></e>
