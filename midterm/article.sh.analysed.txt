@@ -1,15 +1,15 @@
 "<Žene>"
-	"Žena" n f pl nom SELECT:184:BOS-Nom-Viv 
-;	"Žena" n f sg gen SELECT:184:BOS-Nom-Viv 
-;	"Žena" n f pl acc SELECT:184:BOS-Nom-Viv 
-;	"Žena" n f pl voc SELECT:184:BOS-Nom-Viv 
+	"Žena" n f pl nom SELECT:196:BOS-Nom-Viv 
+;	"Žena" n f sg gen SELECT:196:BOS-Nom-Viv 
+;	"Žena" n f pl acc SELECT:196:BOS-Nom-Viv 
+;	"Žena" n f pl voc SELECT:196:BOS-Nom-Viv 
 "<lete>"
 	"letjeeti" vblex imperf iv pres p3 pl 
 "<u>"
 	"u" pr 
 "<sastavu>"
-	"sastav" n mi sg loc SELECT:211:Pr-Loc 
-;	"sastav" n mi sg dat SELECT:211:Pr-Loc 
+	"sastav" n mi sg loc SELECT:222:Pr-Loc 
+;	"sastav" n mi sg dat SELECT:222:Pr-Loc 
 "<Vojske Srbije>"
 	"Vojska Srbije" np f sg gen 
 "<.>"
@@ -17,84 +17,84 @@
 
 "<Srbijanska>"
 	"Srbijanski" adj pst f sg nom def 
-;	"Srbijanski" adj pst nt pl nom def REMOVE:161 
-;	"Srbijanski" adj pst f sg voc def REMOVE:191:notVoc 
-;	"Srbijanski" adj pst nt pl voc def REMOVE:191:notVoc 
-;	"Srbijanski" adj pst nt pl acc def REMOVE:217:notAcc 
+;	"Srbijanski" adj pst nt pl nom def REMOVE:173 
+;	"Srbijanski" adj pst f sg voc def REMOVE:203:notVoc 
+;	"Srbijanski" adj pst nt pl voc def REMOVE:203:notVoc 
+;	"Srbijanski" adj pst nt pl acc def REMOVE:228:notAcc 
 "<vojska>"
-	"vojska" n f sg nom SELECT:187 
-;	"vojska" n f pl gen SELECT:187 
+	"vojska" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"vojska" n f pl gen SELECT:199:AtrrNum->NNum 
 "<ima>"
 	"imati" vbhaver imperf tv pres p3 sg 
-;	"imati" vbhaver imperf ref pres p3 sg REMOVE:225 
+;	"imati" vbhaver imperf ref pres p3 sg REMOVE:236 
 "<prve>"
-	"prvi" num ord f pl acc SELECT:196 SELECT:189 
-;	"prvi" num ord f pl voc REMOVE:191:notVoc 
-;	"prvi" num ord f pl voc REMOVE:191:notVoc 
-;	"prvi" num ord ma pl acc SELECT:196 
-;	"prvi" num ord mi pl acc SELECT:196 
-;	"prvi" num ord ma pl acc SELECT:196 
-;	"prvi" num ord mi pl acc SELECT:196 
-;	"prvi" num ord f sg gen SELECT:196 SELECT:189 
-;	"prvi" num ord f sg gen SELECT:196 SELECT:189 
+	"prvi" num ord f pl acc SELECT:208:OrdDual SELECT:201:tvAcc 
+;	"prvi" num ord ma pl acc SELECT:208:OrdDual 
+;	"prvi" num ord mi pl acc SELECT:208:OrdDual 
+;	"prvi" num ord ma pl acc SELECT:208:OrdDual 
+;	"prvi" num ord mi pl acc SELECT:208:OrdDual 
+;	"prvi" num ord f sg gen SELECT:208:OrdDual SELECT:201:tvAcc 
+;	"prvi" num ord f pl voc SELECT:208:OrdDual SELECT:201:tvAcc 
+;	"prvi" num ord f sg gen SELECT:208:OrdDual SELECT:201:tvAcc 
+;	"prvi" num ord f pl voc SELECT:208:OrdDual SELECT:201:tvAcc 
 "<tri>"
-	"tri" num f sg nom SELECT:172 SELECT:187 
-;	"trti" vblex imperf ref imp p2 sg SELECT:172 
-;	"trti" vblex imperf tv imp p2 sg SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num f nom SELECT:172 SELECT:187 
-;	"tri" num f acc SELECT:172 SELECT:187 
-;	"tri" num f voc SELECT:172 SELECT:187 
-;	"tri" num f nom SELECT:172 SELECT:187 
-;	"tri" num f acc SELECT:172 SELECT:187 
-;	"tri" num f voc SELECT:172 SELECT:187 
+	"tri" num f sg nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"trti" vblex imperf ref imp p2 sg SELECT:184:NumberGender 
+;	"trti" vblex imperf tv imp p2 sg SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"tri" num f acc SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"tri" num f acc SELECT:184:NumberGender SELECT:187:GenNumNext 
 "<žene>"
-	"žena" n f sg gen SELECT:187 
-;	"žena" n f pl nom SELECT:187 
-;	"žena" n f pl acc SELECT:187 
-;	"žena" n f pl voc SELECT:187 
+	"žena" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl nom SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl acc SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl voc SELECT:199:AtrrNum->NNum 
 "<borbena>"
-	"borben" adj pst ma sg gen ind SELECT:187 SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl nom ind SELECT:187 
-;	"borben" adj pst nt pl nom def SELECT:187 
-;	"borben" adj pst nt pl acc ind SELECT:187 
-;	"borben" adj pst nt pl acc def SELECT:187 
-;	"borben" adj pst nt pl voc ind SELECT:187 
-;	"borben" adj pst nt pl voc def SELECT:187 
-;	"borben" adj pst f sg voc ind SELECT:187 REMOVE:191:notVoc 
-;	"borben" adj pst f sg voc def SELECT:187 REMOVE:191:notVoc 
-;	"borben" adj pst ma sg acc ind SELECT:187 REMOVE:217:notAcc 
-;	"borben" adj pst mi sg gen ind SELECT:187 SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt sg gen ind SELECT:187 SELECT:175:RodBrojSlj 
-;	"borben" adj pst f sg nom ind SELECT:187 SELECT:175:RodBrojSlj 
-;	"borben" adj pst f sg nom def SELECT:187 SELECT:175:RodBrojSlj 
+	"borben" adj pst ma sg gen ind 
+	"borben" adj pst mi sg gen ind 
+	"borben" adj pst nt sg gen ind 
+	"borben" adj pst nt pl nom ind 
+	"borben" adj pst nt pl nom def 
+	"borben" adj pst f sg nom ind 
+	"borben" adj pst f sg nom def 
+;	"borben" adj pst nt pl voc ind REMOVE:203:notVoc 
+;	"borben" adj pst nt pl voc def REMOVE:203:notVoc 
+;	"borben" adj pst f sg voc ind REMOVE:203:notVoc 
+;	"borben" adj pst f sg voc def REMOVE:203:notVoc 
+;	"borben" adj pst ma sg acc ind REMOVE:228:notAcc 
+;	"borben" adj pst nt pl acc ind REMOVE:228:notAcc 
+;	"borben" adj pst nt pl acc def REMOVE:228:notAcc 
 "<letača>"
-	"letač" n ma sg gen SELECT:187 
-;	"letač" n ma pl gen SELECT:187 
-;	"letač" n ma sg acc SELECT:187 REMOVE:217:notAcc 
+	"letač" n ma sg gen 
+	"letač" n ma pl gen 
+;	"letač" n ma sg acc REMOVE:228:notAcc 
 "<.>"
 	"." sent 
 
@@ -103,48 +103,48 @@
 
 "<Starija>"
 	"Star" adj comp f sg nom 
-;	"Star" adj comp nt pl nom REMOVE:161 
-;	"Star" adj comp nt pl voc REMOVE:191:notVoc 
-;	"Star" adj comp f sg voc REMOVE:191:notVoc 
-;	"Star" adj comp nt pl acc REMOVE:217:notAcc 
+;	"Star" adj comp nt pl nom REMOVE:173 
+;	"Star" adj comp nt pl voc REMOVE:203:notVoc 
+;	"Star" adj comp f sg voc REMOVE:203:notVoc 
+;	"Star" adj comp nt pl acc REMOVE:228:notAcc 
 "<vodnica>"
-	"vodnica" n f sg nom SELECT:187 
-;	"vodnica" n f pl gen SELECT:187 
+	"vodnica" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"vodnica" n f pl gen SELECT:199:AtrrNum->NNum 
 "<prve>"
-	"prvi" num ord f pl voc SELECT:172 SELECT:187 
-;	"prvi" num ord ma pl acc SELECT:172 
-;	"prvi" num ord mi pl acc SELECT:172 
-;	"prvi" num ord ma pl acc SELECT:172 
-;	"prvi" num ord mi pl acc SELECT:172 
-;	"prvi" num ord f sg gen SELECT:172 SELECT:187 
-;	"prvi" num ord f sg gen SELECT:172 SELECT:187 
-;	"prvi" num ord f pl acc SELECT:172 SELECT:187 REMOVE:217:notAcc 
-;	"prvi" num ord f pl acc SELECT:172 SELECT:187 REMOVE:217:notAcc 
+	"prvi" num ord f sg gen SELECT:184:NumberGender 
+;	"prvi" num ord ma pl acc SELECT:184:NumberGender 
+;	"prvi" num ord mi pl acc SELECT:184:NumberGender 
+;	"prvi" num ord ma pl acc SELECT:184:NumberGender 
+;	"prvi" num ord mi pl acc SELECT:184:NumberGender 
+;	"prvi" num ord f pl voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"prvi" num ord f pl voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"prvi" num ord f pl acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"prvi" num ord f pl acc SELECT:184:NumberGender REMOVE:228:notAcc 
 "<klase>"
-	"klasa" n f pl acc SELECT:187 
-;	"klasa" n f pl nom REMOVE:161 
-;	"klasa" n f sg gen SELECT:187 
-;	"klasa" n f pl voc SELECT:187 REMOVE:191:notVoc 
+	"klasa" n f sg gen SELECT:187:GenNumNext 
+;	"klasa" n f pl nom REMOVE:173 
+;	"klasa" n f pl acc SELECT:187:GenNumNext 
+;	"klasa" n f pl voc SELECT:187:GenNumNext 
 "<Sandra>"
 	"Sandra" np ant f sg nom 
-	"Sandra" np ant f pl gen 
+;	"Sandra" np ant f pl gen REMOVE:157:np-noPl 
 "<Radovanović>"
-	"Radovanović" np cog f sg nom 
-	"Radovanović" np cog f sg gen 
-	"Radovanović" np cog f pl gen 
-	"Radovanović" np cog ma sg nom 
-;	"Radovanović" np cog f sg dat REMOVE:154 
-;	"Radovanović" np cog f sg acc REMOVE:154 
-;	"Radovanović" np cog f sg loc REMOVE:154 
-;	"Radovanović" np cog f sg ins REMOVE:154 
-;	"Radovanović" np cog f sg voc REMOVE:154 
-;	"Radovanović" np cog f pl dat REMOVE:154 
-;	"Radovanović" np cog f pl acc REMOVE:154 
-;	"Radovanović" np cog f pl loc REMOVE:154 
-;	"Radovanović" np cog f pl ins REMOVE:154 
-;	"Radovanović" np cog f pl voc REMOVE:154 
-;	"Radovanović" np cog ma sg voc REMOVE:154 
-;	"Radovanović" np cog f pl nom REMOVE:161 
+	"Radovanović" np cog f sg nom SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg nom SELECT:150:Ant-Cog 
+;	"Radovanović" np cog ma sg voc SELECT:150:Ant-Cog 
+;	"Radovanović" np cog f pl nom SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:150:Ant-Cog SELECT:159:CogNomF 
 "<,>"
 	"," cm 
 "<22>"
@@ -153,36 +153,36 @@
 	"," cm 
 "<prva>"
 	"prvi" num ord f sg nom 
-;	"prvi" num ord nt pl nom REMOVE:161 
-;	"prvi" num ord nt pl nom REMOVE:161 
-;	"prvi" num ord nt pl voc REMOVE:191:notVoc 
-;	"prvi" num ord f sg voc REMOVE:191:notVoc 
-;	"prvi" num ord nt pl voc REMOVE:191:notVoc 
-;	"prvi" num ord f sg voc REMOVE:191:notVoc 
-;	"prvi" num ord nt pl acc REMOVE:217:notAcc 
-;	"prvi" num ord nt pl acc REMOVE:217:notAcc 
+;	"prvi" num ord nt pl nom REMOVE:173 
+;	"prvi" num ord nt pl nom REMOVE:173 
+;	"prvi" num ord nt pl voc REMOVE:203:notVoc 
+;	"prvi" num ord f sg voc REMOVE:203:notVoc 
+;	"prvi" num ord nt pl voc REMOVE:203:notVoc 
+;	"prvi" num ord f sg voc REMOVE:203:notVoc 
+;	"prvi" num ord nt pl acc REMOVE:228:notAcc 
+;	"prvi" num ord nt pl acc REMOVE:228:notAcc 
 "<je>"
-	"clitic" prn pers clt p3 f sg gen SELECT:175:RodBrojSlj 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"biti" vbser clt pres p3 sg SELECT:175:RodBrojSlj 
+	"biti" vbser clt pres p3 sg 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<žena>"
-	"žena" n f sg nom SELECT:187 
-;	"žena" n f pl gen SELECT:187 
+	"žena" n f sg nom SELECT:187:GenNumNext 
+;	"žena" n f pl gen SELECT:187:GenNumNext 
 "<koja>"
 	"koji" prn rel f sg nom 
-;	"koji" prn itg nt pl nom REMOVE:161 
-;	"koji" prn rel nt pl nom REMOVE:161 
-;	"koji" prn itg nt pl acc REMOVE:217:notAcc 
-;	"koji" prn rel nt pl acc REMOVE:217:notAcc 
-;	"koji" prn itg f sg nom REMOVE:253 
+;	"koji" prn itg nt pl nom REMOVE:173 
+;	"koji" prn rel nt pl nom REMOVE:173 
+;	"koji" prn itg nt pl acc REMOVE:228:notAcc 
+;	"koji" prn rel nt pl acc REMOVE:228:notAcc 
+;	"koji" prn itg f sg nom REMOVE:272 
 "<upravlja>"
 	"upravljati" vblex imperf tv pres p3 sg 
-;	"upravljati" vblex imperf ref pres p3 sg REMOVE:225 
+;	"upravljati" vblex imperf ref pres p3 sg REMOVE:236 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<Super Galeb>"
 	"Super Galeb" np al mi sg nom 
-;	"Super Galeb" np al mi sg acc REMOVE:217:notAcc 
+;	"Super Galeb" np al mi sg acc REMOVE:228:notAcc 
 "<G>"
 	"G" ukjent 
 "<4>"
@@ -197,97 +197,97 @@
 	"Dok" cnjsub 
 "<mnoge>"
 	"mnogi" pst adj f pl nom def 
-;	"mnogi" pst adj f pl acc def REMOVE:217:notAcc 
-;	"mnogi" pst adj f pl voc def REMOVE:191:notVoc 
+;	"mnogi" pst adj f pl acc def REMOVE:228:notAcc 
+;	"mnogi" pst adj f pl voc def REMOVE:203:notVoc 
 "<djevojke>"
-	"djeevojka" n f pl nom SELECT:187 
-;	"djeevojka" n f sg gen SELECT:187 
-;	"djeevojka" n f pl voc SELECT:187 REMOVE:191:notVoc 
-;	"djeevojka" n f pl acc SELECT:187 REMOVE:217:notAcc 
+	"djeevojka" n f pl nom SELECT:199:AtrrNum->NNum 
+;	"djeevojka" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"djeevojka" n f pl voc SELECT:199:AtrrNum->NNum REMOVE:203:notVoc 
+;	"djeevojka" n f pl acc SELECT:199:AtrrNum->NNum REMOVE:228:notAcc 
 "<iz>"
 	"iz" pr 
 "<njezine>"
-	"njezin" prn pos f sg gen SELECT:208:Pr-Gen 
-;	"njezin" prn pos f pl nom SELECT:208:Pr-Gen 
-;	"njezin" prn pos f pl acc SELECT:208:Pr-Gen 
-;	"njezin" prn pos ma pl acc SELECT:208:Pr-Gen 
-;	"njezin" prn pos mi pl acc SELECT:208:Pr-Gen 
+	"njezin" prn pos f sg gen SELECT:219:Pr-Gen 
+;	"njezin" prn pos f pl nom SELECT:219:Pr-Gen 
+;	"njezin" prn pos f pl acc SELECT:219:Pr-Gen 
+;	"njezin" prn pos ma pl acc SELECT:219:Pr-Gen 
+;	"njezin" prn pos mi pl acc SELECT:219:Pr-Gen 
 "<generacije>"
-	"generacija" n f sg gen SELECT:187 
-;	"generacija" n f pl nom SELECT:187 
-;	"generacija" n f pl acc SELECT:187 
-;	"generacija" n f pl voc SELECT:187 
+	"generacija" n f sg gen SELECT:219:Pr-Gen 
+;	"generacija" n f pl voc REMOVE:203:notVoc 
+;	"generacija" n f pl nom SELECT:219:Pr-Gen 
+;	"generacija" n f pl acc SELECT:219:Pr-Gen 
 "<uče>"
 	"učiti" vblex imperf tv pres p3 pl 
-;	"učiti" vblex imperf ref pres p3 pl REMOVE:225 
+;	"učiti" vblex imperf ref pres p3 pl REMOVE:236 
 "<kako>"
 	"kako" cnjsub 
 	"kako" adv 
 "<voziti>"
 	"voziti" vblex imperf tv inf 
 "<automobil>"
-	"automobil" n mi sg acc SELECT:189 
-;	"automobil" n mi sg nom SELECT:189 
+	"automobil" n mi sg acc SELECT:201:tvAcc 
+;	"automobil" n mi sg nom SELECT:201:tvAcc 
 "<,>"
 	"," cm 
 "<Radovanović>"
-	"Radovanović" np cog f sg nom 
-	"Radovanović" np cog f sg gen 
-	"Radovanović" np cog f sg loc 
-	"Radovanović" np cog f sg ins 
-	"Radovanović" np cog f pl gen 
-	"Radovanović" np cog f pl loc 
-	"Radovanović" np cog f pl ins 
-	"Radovanović" np cog ma sg nom 
-;	"Radovanović" np cog f pl nom REMOVE:161 
-;	"Radovanović" np cog f sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f pl voc REMOVE:191:notVoc 
-;	"Radovanović" np cog ma sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f sg dat REMOVE:214 
-;	"Radovanović" np cog f pl dat REMOVE:214 
-;	"Radovanović" np cog f sg acc REMOVE:217:notAcc 
-;	"Radovanović" np cog f pl acc REMOVE:217:notAcc 
+	"Radovanović" np cog f sg nom SELECT:159:CogNomF 
+	"Radovanović" np cog ma sg nom SELECT:159:CogNomF 
+;	"Radovanović" np cog f pl nom REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg voc SELECT:159:CogNomF 
 "<manevrira>"
 	"manevrirati" vblex imperf tv pres p3 sg 
 "<borbenim>"
-	"borben" adj pst mi sg ins ind SELECT:175:RodBrojSlj 
-	"borben" adj pst mi sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj comp nt sg ins SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt sg ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl ins def SELECT:175:RodBrojSlj 
+	"borben" adj pst mi sg ins ind SELECT:187:GenNumNext 
+	"borben" adj pst mi sg ins def SELECT:187:GenNumNext 
+;	"borben" adj comp nt sg ins SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg ins def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst nt sg ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt sg ins def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl ins def SELECT:187:GenNumNext 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<pri>"
 	"pri" pr 
 "<brzini>"
-	"brzina" n f sg loc SELECT:211:Pr-Loc 
-;	"brzina" n f sg dat SELECT:211:Pr-Loc 
+	"brzina" n f sg loc SELECT:222:Pr-Loc 
+;	"brzina" n f sg dat SELECT:222:Pr-Loc 
 "<od>"
 	"od" pr 
 "<700>"
@@ -301,8 +301,8 @@
 "<na>"
 	"na" pr 
 "<visini>"
-	"visina" n f sg loc SELECT:211:Pr-Loc 
-;	"visina" n f sg dat SELECT:211:Pr-Loc 
+	"visina" n f sg loc SELECT:222:Pr-Loc 
+;	"visina" n f sg dat SELECT:222:Pr-Loc 
 "<od>"
 	"od" pr 
 "<4.000>"
@@ -316,54 +316,54 @@
 	"." sent 
 
 "<Radovanović>"
-	"Radovanović" np cog f sg nom SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl nom REMOVE:161 
-;	"Radovanović" np cog f sg gen SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f sg dat SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f sg acc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f sg loc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f sg ins SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f sg voc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl gen SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl dat SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl acc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl loc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl ins SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog f pl voc SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog ma sg nom SELECT:167:Nom+Perfect 
-;	"Radovanović" np cog ma sg voc SELECT:167:Nom+Perfect 
+	"Radovanović" np cog f sg nom SELECT:159:CogNomF SELECT:179:Nom+Perfect 
+;	"Radovanović" np cog f pl nom REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg nom SELECT:159:CogNomF SELECT:179:Nom+Perfect 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:232 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:243:je+lp 
 "<ušla>"
-	"ući" vblex imperf iv lp f sg SELECT:187 
-;	"ući" vblex imperf iv lp nt pl SELECT:187 
-;	"ući" vblex imperf iv lp m pl SELECT:187 
-;	"ući" vblex imperf iv opt nt pl SELECT:187 
-;	"ući" vblex imperf iv opt m pl SELECT:187 
-;	"ući" vblex imperf iv opt f sg SELECT:187 REMOVE:237 
+	"ući" vblex imperf iv lp f sg 
+;	"ući" vblex imperf iv opt nt pl REMOVE:252 
+;	"ući" vblex imperf iv opt f sg REMOVE:252 
+;	"ući" vblex imperf iv opt m pl REMOVE:252 
+;	"ući" vblex imperf iv lp nt pl REMOVE:255 
+;	"ući" vblex imperf iv lp m pl REMOVE:255 
 "<u>"
 	"u" pr 
 "<povijest>"
-	"povijeest" n f sg acc SELECT:210:Pr-Acc 
-;	"povijeest" n f sg nom SELECT:210:Pr-Acc 
+	"povijeest" n f sg acc SELECT:221:Pr-Acc 
+;	"povijeest" n f sg nom SELECT:221:Pr-Acc 
 "<kao>"
 	"kao" cnjsub 
 	"kao" adv 
 "<prva>"
-	"prvi" num ord f sg nom SELECT:172 
-;	"prvi" num ord nt pl nom SELECT:172 
-;	"prvi" num ord nt pl acc SELECT:172 
-;	"prvi" num ord nt pl voc SELECT:172 
-;	"prvi" num ord nt pl nom SELECT:172 
-;	"prvi" num ord nt pl acc SELECT:172 
-;	"prvi" num ord nt pl voc SELECT:172 
-;	"prvi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
-;	"prvi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
+	"prvi" num ord f sg nom SELECT:184:NumberGender 
+;	"prvi" num ord nt pl nom SELECT:184:NumberGender 
+;	"prvi" num ord nt pl acc SELECT:184:NumberGender 
+;	"prvi" num ord nt pl voc SELECT:184:NumberGender 
+;	"prvi" num ord nt pl nom SELECT:184:NumberGender 
+;	"prvi" num ord nt pl acc SELECT:184:NumberGender 
+;	"prvi" num ord nt pl voc SELECT:184:NumberGender 
+;	"prvi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"prvi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
 "<žena>"
-	"žena" n f sg nom SELECT:187 
-;	"žena" n f pl gen SELECT:187 
+	"žena" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl gen SELECT:199:AtrrNum->NNum 
 "<->"
 	"-" guio 
 "<pilot>"
@@ -371,29 +371,29 @@
 "<u>"
 	"u" pr 
 "<Srbiji>"
-	"Srbija" np top f sg loc SELECT:211:Pr-Loc 
-;	"Srbija" np top f sg dat SELECT:211:Pr-Loc 
+	"Srbija" np top f sg loc SELECT:222:Pr-Loc 
+;	"Srbija" np top f sg dat SELECT:222:Pr-Loc 
 "<.>"
 	"." sent 
 
 "<Ona>"
 	"Onaj" prn dem f sg nom 
 	"Free" prn pers p3 f sg nom 
-;	"Onaj" prn dem nt pl nom REMOVE:161 
-;	"Free" prn pers p3 nt pl nom REMOVE:161 
-;	"Onaj" prn dem nt pl acc REMOVE:217:notAcc 
+;	"Onaj" prn dem nt pl nom REMOVE:173 
+;	"Free" prn pers p3 nt pl nom REMOVE:173 
+;	"Onaj" prn dem nt pl acc REMOVE:228:notAcc 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<na>"
 	"na" pr 
 "<posljednjoj>"
-	"posljeednji" adj pst f sg loc def SELECT:211:Pr-Loc 
-;	"posljeednji" adj pst f sg dat def SELECT:211:Pr-Loc 
+	"posljeednji" adj pst f sg loc def SELECT:222:Pr-Loc 
+;	"posljeednji" adj pst f sg dat def SELECT:222:Pr-Loc 
 "<godini>"
-	"godina" n f sg loc SELECT:211:Pr-Loc 
-;	"godina" n f sg dat SELECT:211:Pr-Loc 
+	"godina" n f sg loc SELECT:222:Pr-Loc 
+;	"godina" n f sg dat SELECT:222:Pr-Loc 
 "<kao>"
 	"kao" cnjsub 
 	"kao" adv 
@@ -403,114 +403,114 @@
 "<smjera>"
 	"smjer" n mi sg gen 
 "<zrakoplovstva>"
-	"zrakoplovstvo" n nt sg gen SELECT:187 
-;	"zrakoplovstvo" n nt pl nom SELECT:187 
-;	"zrakoplovstvo" n nt pl acc SELECT:187 
-;	"zrakoplovstvo" n nt pl voc SELECT:187 
+	"zrakoplovstvo" n nt sg gen 
+	"zrakoplovstvo" n nt pl nom 
+;	"zrakoplovstvo" n nt pl acc REMOVE:228:notAcc 
+;	"zrakoplovstvo" n nt pl voc REMOVE:203:notVoc 
 "<Vojne>"
-	"Vojni" adj pst f sg gen def SELECT:187 
-;	"Vojni" adj pst ma pl acc def SELECT:187 
-;	"Vojni" adj pst mi pl acc def SELECT:187 
-;	"Vojni" adj pst f pl nom def SELECT:187 
-;	"Vojni" adj pst f pl acc def SELECT:187 
-;	"Vojni" adj pst f pl voc def SELECT:187 
+	"Vojni" adj pst f sg gen def 
+	"Vojni" adj pst f pl nom def 
+;	"Vojni" adj pst ma pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst mi pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst f pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst f pl voc def REMOVE:203:notVoc 
 "<akademije>"
-	"akademija" n f sg gen SELECT:187 
-;	"akademija" n f pl nom SELECT:187 
-;	"akademija" n f pl acc SELECT:187 
-;	"akademija" n f pl voc SELECT:187 
+	"akademija" n f sg gen 
+	"akademija" n f pl nom 
+;	"akademija" n f pl voc REMOVE:203:notVoc 
+;	"akademija" n f pl acc REMOVE:228:notAcc 
 "<u>"
 	"u" pr 
 "<Beogradu>"
-	"Beograd" np top mi sg loc SELECT:211:Pr-Loc 
-;	"Beograd" np top mi sg dat SELECT:211:Pr-Loc 
+	"Beograd" np top mi sg loc SELECT:222:Pr-Loc 
+;	"Beograd" np top mi sg dat SELECT:222:Pr-Loc 
 "<.>"
 	"." sent 
 
 "<Prije>"
 	"Prijee" pr 
 "<tri>"
-	"tri" num f sg nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"trti" vblex imperf ref imp p2 sg SELECT:172 
-;	"trti" vblex imperf tv imp p2 sg SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
+	"tri" num f sg nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"trti" vblex imperf ref imp p2 sg SELECT:184:NumberGender 
+;	"trti" vblex imperf tv imp p2 sg SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
 "<godine>"
-	"godina" n f sg gen SELECT:187 
-;	"godina" n f pl nom REMOVE:161 
-;	"godina" n f pl acc SELECT:187 
-;	"godina" n f pl voc SELECT:187 
+	"godina" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"godina" n f pl nom REMOVE:173 
+;	"godina" n f pl acc SELECT:199:AtrrNum->NNum 
+;	"godina" n f pl voc SELECT:199:AtrrNum->NNum 
 "<ušla>"
-	"ući" vblex imperf iv lp f sg SELECT:187 SELECT:256 
-;	"ući" vblex imperf iv lp nt pl SELECT:187 
-;	"ući" vblex imperf iv lp m pl SELECT:187 
-;	"ući" vblex imperf iv opt nt pl SELECT:187 
-;	"ući" vblex imperf iv opt m pl SELECT:187 
-;	"ući" vblex imperf iv opt f sg SELECT:187 SELECT:256 
+	"ući" vblex imperf iv lp f sg SELECT:277:Imalievosubjekt 
+;	"ući" vblex imperf iv lp nt pl REMOVE:256 
+;	"ući" vblex imperf iv lp m pl REMOVE:256 
+;	"ući" vblex imperf iv opt nt pl REMOVE:256 
+;	"ući" vblex imperf iv opt m pl REMOVE:256 
+;	"ući" vblex imperf iv opt f sg SELECT:277:Imalievosubjekt 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<u>"
 	"u" pr 
 "<zrakoplov>"
-	"zrakoplov" n mi sg acc SELECT:210:Pr-Acc 
-;	"zrakoplov" n mi sg nom SELECT:210:Pr-Acc 
+	"zrakoplov" n mi sg acc SELECT:221:Pr-Acc 
+;	"zrakoplov" n mi sg nom SELECT:221:Pr-Acc 
 "<prvi>"
-	"prvi" num ord mi sg nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"prvi" num ord f pl nom SELECT:172 
-;	"prvi" num ord ma sg nom SELECT:172 
-;	"prvi" num ord ma sg voc SELECT:172 
-;	"prvi" num ord ma pl nom SELECT:172 
-;	"prvi" num ord ma pl voc SELECT:172 
-;	"prvi" num ord f pl nom SELECT:172 
-;	"prvi" num ord ma sg nom SELECT:172 
-;	"prvi" num ord ma sg voc SELECT:172 
-;	"prvi" num ord ma pl nom SELECT:172 
-;	"prvi" num ord ma pl voc SELECT:172 
-;	"prvi" num ord mi pl nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"prvi" num ord mi pl voc SELECT:172 SELECT:175:RodBrojSlj 
-;	"prvi" num ord mi pl nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"prvi" num ord mi pl voc SELECT:172 SELECT:175:RodBrojSlj 
-;	"prvi" num ord mi sg voc SELECT:172 SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"prvi" num ord mi sg voc SELECT:172 SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"prvi" num ord mi sg acc SELECT:172 SELECT:175:RodBrojSlj REMOVE:217:notAcc 
-;	"prvi" num ord mi sg acc SELECT:172 SELECT:175:RodBrojSlj REMOVE:217:notAcc 
+	"prvi" num ord mi sg nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"prvi" num ord f pl nom SELECT:184:NumberGender 
+;	"prvi" num ord ma sg nom SELECT:184:NumberGender 
+;	"prvi" num ord ma sg voc SELECT:184:NumberGender 
+;	"prvi" num ord ma pl nom SELECT:184:NumberGender 
+;	"prvi" num ord ma pl voc SELECT:184:NumberGender 
+;	"prvi" num ord f pl nom SELECT:184:NumberGender 
+;	"prvi" num ord ma sg nom SELECT:184:NumberGender 
+;	"prvi" num ord ma sg voc SELECT:184:NumberGender 
+;	"prvi" num ord ma pl nom SELECT:184:NumberGender 
+;	"prvi" num ord ma pl voc SELECT:184:NumberGender 
+;	"prvi" num ord mi pl nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"prvi" num ord mi pl voc SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"prvi" num ord mi pl nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"prvi" num ord mi pl voc SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"prvi" num ord mi sg voc SELECT:184:NumberGender SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"prvi" num ord mi sg voc SELECT:184:NumberGender SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"prvi" num ord mi sg acc SELECT:184:NumberGender SELECT:187:GenNumNext REMOVE:228:notAcc 
+;	"prvi" num ord mi sg acc SELECT:184:NumberGender SELECT:187:GenNumNext REMOVE:228:notAcc 
 "<puta>"
 	"put" n mi sg gen 
 "<u>"
 	"u" pr 
 "<životu>"
-	"život" n mi sg loc SELECT:211:Pr-Loc 
-;	"život" n mi sg dat SELECT:211:Pr-Loc 
+	"život" n mi sg loc SELECT:222:Pr-Loc 
+;	"život" n mi sg dat SELECT:222:Pr-Loc 
 "<.>"
 	"." sent 
 
@@ -520,10 +520,10 @@
 "<Do>"
 	"Do" pr 
 "<prijemnog>"
-	"prijemni" adj pst mi sg gen def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst nt sg gen def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst ma sg gen def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst ma sg acc def SELECT:175:RodBrojSlj 
+	"prijemni" adj pst mi sg gen def SELECT:187:GenNumNext 
+;	"prijemni" adj pst nt sg gen def SELECT:187:GenNumNext 
+;	"prijemni" adj pst ma sg gen def SELECT:187:GenNumNext 
+;	"prijemni" adj pst ma sg acc def SELECT:187:GenNumNext 
 "<testa>"
 	"test" n mi sg gen 
 "<nikada>"
@@ -531,36 +531,36 @@
 "<nisam>"
 	"ne" part neg +biti vbser clt pres p1 sg 
 "<putovala>"
-	"putovati" vblex imperf iv lp nt pl 
 	"putovati" vblex imperf iv lp f sg 
-	"putovati" vblex imperf iv lp m pl 
-;	"putovati" vblex imperf iv opt nt pl REMOVE:237 
-;	"putovati" vblex imperf iv opt f sg REMOVE:237 
-;	"putovati" vblex imperf iv opt m pl REMOVE:237 
+;	"putovati" vblex imperf iv opt nt pl REMOVE:252 
+;	"putovati" vblex imperf iv opt f sg REMOVE:252 
+;	"putovati" vblex imperf iv opt m pl REMOVE:252 
+;	"putovati" vblex imperf iv lp nt pl REMOVE:255 
+;	"putovati" vblex imperf iv lp m pl REMOVE:255 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<,>"
 	"," cm 
 "<kaže>"
-	"kazati" vblex perf iv pres p3 sg SELECT:199 
-;	"kazati" vblex perf tv pres p3 sg SELECT:199 
+	"kazati" vblex perf iv pres p3 sg SELECT:210 
+;	"kazati" vblex perf tv pres p3 sg SELECT:210 
 "<Radovanović>"
-	"Radovanović" np cog f sg nom 
-	"Radovanović" np cog f sg gen 
-	"Radovanović" np cog f sg loc 
-	"Radovanović" np cog f sg ins 
-	"Radovanović" np cog f pl nom 
-	"Radovanović" np cog f pl gen 
-	"Radovanović" np cog f pl loc 
-	"Radovanović" np cog f pl ins 
-	"Radovanović" np cog ma sg nom 
-;	"Radovanović" np cog f sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f pl voc REMOVE:191:notVoc 
-;	"Radovanović" np cog ma sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f sg dat REMOVE:214 
-;	"Radovanović" np cog f pl dat REMOVE:214 
-;	"Radovanović" np cog f sg acc REMOVE:217:notAcc 
-;	"Radovanović" np cog f pl acc REMOVE:217:notAcc 
+	"Radovanović" np cog f sg nom SELECT:159:CogNomF 
+	"Radovanović" np cog ma sg nom SELECT:159:CogNomF 
+;	"Radovanović" np cog f pl nom REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg voc SELECT:159:CogNomF 
 "<s>"
 	"s" pr 
 "<osmjehom>"
@@ -569,48 +569,48 @@
 	"." sent 
 
 "<Prva>"
-	"Prvi" num ord f sg nom SELECT:172 
-;	"Prvi" num ord nt pl nom REMOVE:161 
-;	"Prvi" num ord nt pl nom REMOVE:161 
-;	"Prvi" num ord nt pl acc SELECT:172 
-;	"Prvi" num ord nt pl voc SELECT:172 
-;	"Prvi" num ord nt pl acc SELECT:172 
-;	"Prvi" num ord nt pl voc SELECT:172 
-;	"Prvi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
-;	"Prvi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
+	"Prvi" num ord f sg nom SELECT:184:NumberGender 
+;	"Prvi" num ord nt pl nom REMOVE:173 
+;	"Prvi" num ord nt pl nom REMOVE:173 
+;	"Prvi" num ord nt pl acc SELECT:184:NumberGender 
+;	"Prvi" num ord nt pl voc SELECT:184:NumberGender 
+;	"Prvi" num ord nt pl acc SELECT:184:NumberGender 
+;	"Prvi" num ord nt pl voc SELECT:184:NumberGender 
+;	"Prvi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"Prvi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
 "<vožnja>"
 	"vožnja" n f sg nom 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<bila>"
-	"biti" vbser lp f sg SELECT:256 
-;	"biti" vblex imperf ref lp nt pl REMOVE:225 
-;	"biti" vblex imperf ref lp f sg REMOVE:225 
-;	"biti" vblex imperf ref lp m pl REMOVE:225 
-;	"biti" vblex imperf ref opt nt pl REMOVE:225 
-;	"biti" vblex imperf ref opt f sg REMOVE:225 
-;	"biti" vblex imperf ref opt m pl REMOVE:225 
-;	"biti" vblex imperf tv lp nt pl REMOVE:244 
-;	"biti" vblex imperf tv lp f sg REMOVE:244 
-;	"biti" vblex imperf tv lp m pl REMOVE:244 
-;	"biti" vblex imperf tv opt nt pl REMOVE:244 
-;	"biti" vblex imperf tv opt f sg REMOVE:244 
-;	"biti" vblex imperf tv opt m pl REMOVE:244 
-;	"biti" vbser lp nt pl SELECT:256 
-;	"biti" vbser lp m pl SELECT:256 
-;	"biti" vbser opt nt pl SELECT:256 
-;	"biti" vbser opt f sg SELECT:256 
-;	"biti" vbser opt m pl SELECT:256 
+	"biti" vbser lp f sg SELECT:277:Imalievosubjekt 
+;	"biti" vblex imperf ref lp nt pl REMOVE:236 
+;	"biti" vblex imperf ref lp f sg REMOVE:236 
+;	"biti" vblex imperf ref lp m pl REMOVE:236 
+;	"biti" vblex imperf ref opt nt pl REMOVE:236 
+;	"biti" vblex imperf ref opt f sg REMOVE:236 
+;	"biti" vblex imperf ref opt m pl REMOVE:236 
+;	"biti" vbser lp nt pl REMOVE:256 
+;	"biti" vbser lp m pl REMOVE:256 
+;	"biti" vbser opt nt pl REMOVE:256 
+;	"biti" vbser opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp nt pl REMOVE:256 
+;	"biti" vblex imperf tv lp m pl REMOVE:256 
+;	"biti" vblex imperf tv opt nt pl REMOVE:256 
+;	"biti" vblex imperf tv opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp f sg REMOVE:263 
+;	"biti" vblex imperf tv opt f sg REMOVE:263 
+;	"biti" vbser opt f sg SELECT:277:Imalievosubjekt 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<odlučujuća>"
-	"odlučujući" adj pst f sg nom def SELECT:187 
-;	"odlučujući" adj pst nt pl nom def REMOVE:161 
-;	"odlučujući" adj pst nt pl acc def SELECT:187 
-;	"odlučujući" adj pst nt pl voc def SELECT:187 
-;	"odlučujući" adj pst f sg voc def SELECT:187 REMOVE:191:notVoc 
+	"odlučujući" adj pst f sg nom def 
+;	"odlučujući" adj pst nt pl nom def REMOVE:173 
+;	"odlučujući" adj pst nt pl voc def REMOVE:203:notVoc 
+;	"odlučujući" adj pst f sg voc def REMOVE:203:notVoc 
+;	"odlučujući" adj pst nt pl acc def REMOVE:228:notAcc 
 "<->"
 	"-" guio 
 "<->"
@@ -619,13 +619,13 @@
 	"htjeeti" vbmod imperf tv pres p1 sg 
 "<li>"
 	"li" cnjsub 
-;	"li" part itg clt REMOVE:253 
+;	"li" part itg clt REMOVE:272 
 "<biti>"
-	"biti" vbser iv inf SELECT:240 
-;	"biti" vblex imperf ref inf REMOVE:225 
-;	"biti" vblex imperf tv pp mfn pl SELECT:240 
-;	"biti" vblex imperf tv pp m pl SELECT:240 
-;	"biti" vblex imperf tv inf SELECT:240 
+	"biti" vbser iv inf SELECT:259 
+;	"biti" vblex imperf ref inf REMOVE:236 
+;	"biti" vblex imperf tv pp mfn pl SELECT:259 
+;	"biti" vblex imperf tv pp m pl SELECT:259 
+;	"biti" vblex imperf tv inf SELECT:259 
 "<primljena>"
 	"primiti" vblex perf tv pp m sg 
 	"primiti" vblex perf tv pp m pl 
@@ -648,48 +648,48 @@
 	"samo" adv 
 	"sam" adj nt sg nom ind 
 	"sam" adj nt sg nom def 
-;	"sam" adj nt sg voc ind REMOVE:191:notVoc 
-;	"sam" adj nt sg voc def REMOVE:191:notVoc 
-;	"sam" adj nt sg acc ind REMOVE:217:notAcc 
-;	"sam" adj nt sg acc def REMOVE:217:notAcc 
+;	"sam" adj nt sg voc ind REMOVE:203:notVoc 
+;	"sam" adj nt sg voc def REMOVE:203:notVoc 
+;	"sam" adj nt sg acc ind REMOVE:228:notAcc 
+;	"sam" adj nt sg acc def REMOVE:228:notAcc 
 "<da>"
-	"davati" vblex imperf iv pres p3 sg SELECT:187 SELECT:199 
-;	"da" cnjsub SELECT:187 
-;	"da" part SELECT:187 
-;	"davati" vblex imperf tv pres p3 sg SELECT:187 SELECT:199 
+	"da" part SELECT:270:daPart 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
+;	"da" cnjsub SELECT:270:daPart 
+;	"davati" vblex imperf iv pres p3 sg SELECT:270:daPart 
 "<sam>"
-	"biti" vbser clt pres p1 sg SELECT:240 
-;	"sam" adj ma sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg acc ind REMOVE:217:notAcc 
-;	"sam" adj ma sg nom ind SELECT:240 
-;	"sam" adj mi sg nom ind SELECT:240 
+	"biti" vbser clt pres p1 sg SELECT:259 
+;	"sam" adj ma sg voc ind REMOVE:203:notVoc 
+;	"sam" adj mi sg voc ind REMOVE:203:notVoc 
+;	"sam" adj ma sg nom ind SELECT:259 
+;	"sam" adj mi sg nom ind SELECT:259 
+;	"sam" adj mi sg acc ind SELECT:259 
 "<letjela>"
-	"letjeeti" vblex imperf iv lp f sg SELECT:187 SELECT:256 
-;	"letjeeti" vblex imperf iv lp nt pl SELECT:187 
-;	"letjeeti" vblex imperf iv lp m pl SELECT:187 
-;	"letjeeti" vblex imperf iv opt nt pl SELECT:187 
-;	"letjeeti" vblex imperf iv opt m pl SELECT:187 
-;	"letjeeti" vblex imperf iv opt f sg SELECT:187 SELECT:256 
+	"letjeeti" vblex imperf iv lp f sg SELECT:277:Imalievosubjekt 
+;	"letjeeti" vblex imperf iv lp nt pl REMOVE:255 
+;	"letjeeti" vblex imperf iv lp m pl REMOVE:255 
+;	"letjeeti" vblex imperf iv opt nt pl REMOVE:255 
+;	"letjeeti" vblex imperf iv opt m pl REMOVE:255 
+;	"letjeeti" vblex imperf iv opt f sg SELECT:277:Imalievosubjekt 
 "<,>"
 	"," cm 
 "<već>"
 	"već" cnjcoo 
 	"već" adv 
 "<sam>"
-	"biti" vbser clt pres p1 sg SELECT:240 
-;	"sam" adj ma sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg acc ind REMOVE:217:notAcc 
-;	"sam" adj ma sg nom ind SELECT:240 
-;	"sam" adj mi sg nom ind SELECT:240 
+	"biti" vbser clt pres p1 sg SELECT:259 
+;	"sam" adj ma sg voc ind REMOVE:203:notVoc 
+;	"sam" adj mi sg voc ind REMOVE:203:notVoc 
+;	"sam" adj mi sg acc ind REMOVE:228:notAcc 
+;	"sam" adj ma sg nom ind SELECT:259 
+;	"sam" adj mi sg nom ind SELECT:259 
 "<skakala>"
-	"skakati" vblex imperf tv lp f sg SELECT:187 SELECT:256 
-;	"skakati" vblex imperf tv lp nt pl SELECT:187 
-;	"skakati" vblex imperf tv lp m pl SELECT:187 
-;	"skakati" vblex imperf tv opt nt pl SELECT:187 
-;	"skakati" vblex imperf tv opt m pl SELECT:187 
-;	"skakati" vblex imperf tv opt f sg SELECT:187 SELECT:256 
+	"skakati" vblex imperf tv lp f sg SELECT:277:Imalievosubjekt 
+;	"skakati" vblex imperf tv lp nt pl REMOVE:255 
+;	"skakati" vblex imperf tv lp m pl REMOVE:255 
+;	"skakati" vblex imperf tv opt nt pl REMOVE:255 
+;	"skakati" vblex imperf tv opt m pl REMOVE:255 
+;	"skakati" vblex imperf tv opt f sg SELECT:277:Imalievosubjekt 
 "<padobranom>"
 	"padobran" n mi sg ins 
 "<!>"
@@ -701,22 +701,22 @@
 "<Uz>"
 	"Uz" pr 
 "<Radovanović>"
-	"Radovanović" np cog f sg acc SELECT:210:Pr-Acc 
-	"Radovanović" np cog f pl acc SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f sg nom REMOVE:161 
-;	"Radovanović" np cog ma sg nom REMOVE:161 
-;	"Radovanović" np cog f sg gen SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f sg dat SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f sg loc SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f sg ins SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f sg voc SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl nom SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl gen SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl dat SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl loc SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl ins SELECT:210:Pr-Acc 
-;	"Radovanović" np cog f pl voc SELECT:210:Pr-Acc 
-;	"Radovanović" np cog ma sg voc SELECT:210:Pr-Acc 
+	"Radovanović" np cog f sg nom SELECT:159:CogNomF 
+	"Radovanović" np cog ma sg nom SELECT:159:CogNomF 
+;	"Radovanović" np cog f pl nom REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg voc SELECT:159:CogNomF 
 "<,>"
 	"," cm 
 "<postoje>"
@@ -726,34 +726,34 @@
 "<dvije>"
 	"dva" num f sg nom 
 "<žene>"
-	"žena" n f sg gen SELECT:187 
-;	"žena" n f pl nom SELECT:187 
-;	"žena" n f pl acc SELECT:187 
-;	"žena" n f pl voc SELECT:187 
+	"žena" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl nom SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl acc SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl voc SELECT:199:AtrrNum->NNum 
 "<borbeni>"
-	"borben" adj pst ma pl nom ind SELECT:175:RodBrojSlj 
-	"borben" adj pst ma pl nom def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg nom def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg voc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg voc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi sg nom def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi sg acc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi sg voc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi sg voc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl nom ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl nom def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl voc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl voc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl voc ind SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"borben" adj pst ma pl voc def SELECT:175:RodBrojSlj REMOVE:191:notVoc 
+	"borben" adj pst ma pl nom ind SELECT:187:GenNumNext 
+	"borben" adj pst ma pl nom def SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg nom def SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg voc ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg voc def SELECT:187:GenNumNext 
+;	"borben" adj pst mi sg nom def SELECT:187:GenNumNext 
+;	"borben" adj pst mi sg acc def SELECT:187:GenNumNext 
+;	"borben" adj pst mi sg voc ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi sg voc def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl nom ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl nom def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl voc ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl voc def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl voc ind SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"borben" adj pst ma pl voc def SELECT:187:GenNumNext REMOVE:203:notVoc 
 "<piloti>"
 	"pilot" n ma pl nom 
-;	"pilot" n ma pl voc REMOVE:191:notVoc 
+;	"pilot" n ma pl voc REMOVE:203:notVoc 
 "<u>"
 	"u" pr 
 "<Vojsci Srbije>"
-	"Vojska Srbije" np f sg loc SELECT:211:Pr-Loc 
-;	"Vojska Srbije" np f sg dat SELECT:211:Pr-Loc 
+	"Vojska Srbije" np f sg loc SELECT:222:Pr-Loc 
+;	"Vojska Srbije" np f sg dat SELECT:222:Pr-Loc 
 "<.>"
 	"." sent 
 
@@ -762,24 +762,24 @@
 
 "<Ana>"
 	"Ana" np ant f sg nom 
-	"Ana" np ant f pl gen 
+;	"Ana" np ant f pl gen REMOVE:157:np-noPl 
 "<Tadić>"
-	"Tadić" np cog f sg nom 
-	"Tadić" np cog f sg gen 
-	"Tadić" np cog f pl gen 
-	"Tadić" np cog ma sg nom 
-;	"Tadić" np cog f sg dat REMOVE:154 
-;	"Tadić" np cog f sg acc REMOVE:154 
-;	"Tadić" np cog f sg loc REMOVE:154 
-;	"Tadić" np cog f sg ins REMOVE:154 
-;	"Tadić" np cog f sg voc REMOVE:154 
-;	"Tadić" np cog f pl dat REMOVE:154 
-;	"Tadić" np cog f pl acc REMOVE:154 
-;	"Tadić" np cog f pl loc REMOVE:154 
-;	"Tadić" np cog f pl ins REMOVE:154 
-;	"Tadić" np cog f pl voc REMOVE:154 
-;	"Tadić" np cog ma sg voc REMOVE:154 
-;	"Tadić" np cog f pl nom REMOVE:161 
+	"Tadić" np cog f sg nom SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog ma sg nom SELECT:150:Ant-Cog 
+;	"Tadić" np cog ma sg voc SELECT:150:Ant-Cog 
+;	"Tadić" np cog f pl nom SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl gen SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl dat SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl acc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl loc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl ins SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl voc SELECT:150:Ant-Cog REMOVE:157:np-noPl 
+;	"Tadić" np cog f sg gen SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog f sg dat SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog f sg acc SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog f sg loc SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog f sg ins SELECT:150:Ant-Cog SELECT:159:CogNomF 
+;	"Tadić" np cog f sg voc SELECT:150:Ant-Cog SELECT:159:CogNomF 
 "<,>"
 	"," cm 
 "<22>"
@@ -790,12 +790,12 @@
 	"također" adv 
 "<upravlja>"
 	"upravljati" vblex imperf tv pres p3 sg 
-;	"upravljati" vblex imperf ref pres p3 sg REMOVE:225 
+;	"upravljati" vblex imperf ref pres p3 sg REMOVE:236 
 "<zrakoplovom>"
 	"zrakoplov" n mi sg ins 
 "<Super Galeb>"
 	"Super Galeb" np al mi sg nom 
-;	"Super Galeb" np al mi sg acc REMOVE:217:notAcc 
+;	"Super Galeb" np al mi sg acc REMOVE:228:notAcc 
 "<G>"
 	"G" ukjent 
 "<4>"
@@ -806,91 +806,91 @@
 	"a" cnjcoo 
 "<Anja>"
 	"Anja" np ant f sg nom 
-	"Anja" np ant f pl gen 
+;	"Anja" np ant f pl gen REMOVE:157:np-noPl 
 "<Krneta>"
 	"Krneta" np cog ma sg nom 
-	"Krneta" np cog ma pl gen 
-;	"Krneta" np cog ma sg voc REMOVE:154 
+;	"Krneta" np cog ma sg voc REMOVE:166 
+;	"Krneta" np cog ma pl gen REMOVE:166 
 "<borbenim>"
-	"borben" adj pst mi sg ins ind SELECT:175:RodBrojSlj 
-	"borben" adj pst mi sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj comp nt sg ins SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst ma pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst mi pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst f pl ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt sg ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt sg ins def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl dat ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl dat def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl loc ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl loc def SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl ins ind SELECT:175:RodBrojSlj 
-;	"borben" adj pst nt pl ins def SELECT:175:RodBrojSlj 
+	"borben" adj pst mi sg ins ind SELECT:187:GenNumNext 
+	"borben" adj pst mi sg ins def SELECT:187:GenNumNext 
+;	"borben" adj comp nt sg ins SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma sg ins def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst ma pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst mi pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst f pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst f pl ins def SELECT:187:GenNumNext 
+;	"borben" adj pst nt sg ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt sg ins def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl dat ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl dat def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl loc ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl loc def SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl ins ind SELECT:187:GenNumNext 
+;	"borben" adj pst nt pl ins def SELECT:187:GenNumNext 
 "<helikopterom>"
 	"helikopter" n mi sg ins 
 "<Gazela>"
 	"Gazela" np al f sg nom 
-	"Gazela" np al f pl gen 
-;	"Gazela" np al f sg voc REMOVE:191:notVoc 
+;	"Gazela" np al f pl gen REMOVE:157:np-noPl 
+;	"Gazela" np al f sg voc REMOVE:203:notVoc 
 "<.>"
 	"." sent 
 
 "<Tri>"
-	"Tri" num f sg nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"Trti" vblex imperf ref imp p2 sg SELECT:172 
-;	"Trti" vblex imperf tv imp p2 sg SELECT:172 
-;	"Tri" num nt nom SELECT:172 
-;	"Tri" num nt acc SELECT:172 
-;	"Tri" num nt voc SELECT:172 
-;	"Tri" num ma nom SELECT:172 
-;	"Tri" num ma acc SELECT:172 
-;	"Tri" num ma voc SELECT:172 
-;	"Tri" num mi nom SELECT:172 
-;	"Tri" num mi acc SELECT:172 
-;	"Tri" num mi voc SELECT:172 
-;	"Tri" num nt nom SELECT:172 
-;	"Tri" num nt acc SELECT:172 
-;	"Tri" num nt voc SELECT:172 
-;	"Tri" num ma nom SELECT:172 
-;	"Tri" num ma acc SELECT:172 
-;	"Tri" num ma voc SELECT:172 
-;	"Tri" num mi nom SELECT:172 
-;	"Tri" num mi acc SELECT:172 
-;	"Tri" num mi voc SELECT:172 
-;	"Tri" num nt sg nom SELECT:172 
-;	"Tri" num ma sg nom SELECT:172 
-;	"Tri" num mi sg nom SELECT:172 
-;	"Tri" num nt sg nom SELECT:172 
-;	"Tri" num ma sg nom SELECT:172 
-;	"Tri" num mi sg nom SELECT:172 
-;	"Tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"Tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"Tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"Tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"Tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"Tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
+	"Tri" num f sg nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"Trti" vblex imperf ref imp p2 sg SELECT:184:NumberGender 
+;	"Trti" vblex imperf tv imp p2 sg SELECT:184:NumberGender 
+;	"Tri" num nt nom SELECT:184:NumberGender 
+;	"Tri" num nt acc SELECT:184:NumberGender 
+;	"Tri" num nt voc SELECT:184:NumberGender 
+;	"Tri" num ma nom SELECT:184:NumberGender 
+;	"Tri" num ma acc SELECT:184:NumberGender 
+;	"Tri" num ma voc SELECT:184:NumberGender 
+;	"Tri" num mi nom SELECT:184:NumberGender 
+;	"Tri" num mi acc SELECT:184:NumberGender 
+;	"Tri" num mi voc SELECT:184:NumberGender 
+;	"Tri" num nt nom SELECT:184:NumberGender 
+;	"Tri" num nt acc SELECT:184:NumberGender 
+;	"Tri" num nt voc SELECT:184:NumberGender 
+;	"Tri" num ma nom SELECT:184:NumberGender 
+;	"Tri" num ma acc SELECT:184:NumberGender 
+;	"Tri" num ma voc SELECT:184:NumberGender 
+;	"Tri" num mi nom SELECT:184:NumberGender 
+;	"Tri" num mi acc SELECT:184:NumberGender 
+;	"Tri" num mi voc SELECT:184:NumberGender 
+;	"Tri" num nt sg nom SELECT:184:NumberGender 
+;	"Tri" num ma sg nom SELECT:184:NumberGender 
+;	"Tri" num mi sg nom SELECT:184:NumberGender 
+;	"Tri" num nt sg nom SELECT:184:NumberGender 
+;	"Tri" num ma sg nom SELECT:184:NumberGender 
+;	"Tri" num mi sg nom SELECT:184:NumberGender 
+;	"Tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"Tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"Tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"Tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"Tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"Tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
 "<žene>"
-	"žena" n f sg gen SELECT:187 
-;	"žena" n f pl nom SELECT:187 
-;	"žena" n f pl acc SELECT:187 
-;	"žena" n f pl voc SELECT:187 
+	"žena" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl nom SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl acc SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl voc SELECT:199:AtrrNum->NNum 
 "<primljene>"
 	"primiti" vblex perf tv pp m pl 
 "<su>"
@@ -898,32 +898,32 @@
 "<na>"
 	"na" pr 
 "<smjer>"
-	"smjer" n mi sg acc SELECT:210:Pr-Acc 
-;	"smjer" n mi sg nom SELECT:210:Pr-Acc 
+	"smjer" n mi sg acc SELECT:221:Pr-Acc 
+;	"smjer" n mi sg nom SELECT:221:Pr-Acc 
 "<zrakoplovstva>"
 	"zrakoplovstvo" n nt sg gen 
-;	"zrakoplovstvo" n nt pl nom REMOVE:161 
-;	"zrakoplovstvo" n nt pl voc REMOVE:191:notVoc 
-;	"zrakoplovstvo" n nt pl acc REMOVE:217:notAcc 
+;	"zrakoplovstvo" n nt pl nom REMOVE:173 
+;	"zrakoplovstvo" n nt pl acc REMOVE:228:notAcc 
+;	"zrakoplovstvo" n nt pl voc REMOVE:203:notVoc 
 "<Vojne>"
-	"Vojni" adj pst f sg gen def SELECT:187 
-;	"Vojni" adj pst f pl nom def REMOVE:161 
-;	"Vojni" adj pst ma pl acc def SELECT:187 
-;	"Vojni" adj pst mi pl acc def SELECT:187 
-;	"Vojni" adj pst f pl acc def SELECT:187 
-;	"Vojni" adj pst f pl voc def SELECT:187 
+	"Vojni" adj pst f sg gen def SELECT:187:GenNumNext 
+;	"Vojni" adj pst f pl nom def REMOVE:173 
+;	"Vojni" adj pst ma pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst mi pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst f pl acc def REMOVE:228:notAcc 
+;	"Vojni" adj pst f pl voc def SELECT:187:GenNumNext 
 "<akademije>"
-	"akademija" n f sg gen SELECT:187 
-;	"akademija" n f pl nom REMOVE:161 
-;	"akademija" n f pl acc SELECT:187 
-;	"akademija" n f pl voc SELECT:187 
+	"akademija" n f sg gen 
+;	"akademija" n f pl nom REMOVE:173 
+;	"akademija" n f pl voc REMOVE:203:notVoc 
+;	"akademija" n f pl acc REMOVE:228:notAcc 
 "<2007.>"
 	"2007." num ord 
 "<godine>"
 	"godina" n f sg gen 
 	"godina" n f pl voc 
-;	"godina" n f pl nom REMOVE:161 
-;	"godina" n f pl acc REMOVE:217:notAcc 
+;	"godina" n f pl nom REMOVE:173 
+;	"godina" n f pl acc REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<kada>"
@@ -931,40 +931,40 @@
 	"kada" adv 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<akademija>"
-	"akademija" n f sg nom SELECT:187 
-;	"akademija" n f pl gen SELECT:187 
+	"akademija" n f sg nom 
+	"akademija" n f pl gen 
 "<otvorila>"
-	"otvoriti" vblex perf ref lp f sg SELECT:229 SELECT:256 
-;	"otvoriti" vblex perf tv lp nt pl SELECT:229 
-;	"otvoriti" vblex perf tv lp f sg SELECT:229 
-;	"otvoriti" vblex perf tv lp m pl SELECT:229 
-;	"otvoriti" vblex perf tv opt nt pl SELECT:229 
-;	"otvoriti" vblex perf tv opt f sg SELECT:229 
-;	"otvoriti" vblex perf tv opt m pl SELECT:229 
-;	"otvoriti" vblex perf ref lp nt pl SELECT:229 SELECT:256 
-;	"otvoriti" vblex perf ref lp m pl SELECT:229 SELECT:256 
-;	"otvoriti" vblex perf ref opt nt pl SELECT:229 SELECT:256 
-;	"otvoriti" vblex perf ref opt f sg SELECT:229 SELECT:256 
-;	"otvoriti" vblex perf ref opt m pl SELECT:229 SELECT:256 
+	"otvoriti" vblex perf ref lp nt pl SELECT:240 
+	"otvoriti" vblex perf ref lp f sg SELECT:240 
+	"otvoriti" vblex perf ref lp m pl SELECT:240 
+	"otvoriti" vblex perf ref opt nt pl SELECT:240 
+	"otvoriti" vblex perf ref opt f sg SELECT:240 
+	"otvoriti" vblex perf ref opt m pl SELECT:240 
+;	"otvoriti" vblex perf tv lp nt pl SELECT:240 
+;	"otvoriti" vblex perf tv lp f sg SELECT:240 
+;	"otvoriti" vblex perf tv lp m pl SELECT:240 
+;	"otvoriti" vblex perf tv opt nt pl SELECT:240 
+;	"otvoriti" vblex perf tv opt f sg SELECT:240 
+;	"otvoriti" vblex perf tv opt m pl SELECT:240 
 "<svoja>"
 	"svoj" prn ref pos nt pl nom 
 	"svoj" prn ref pos f sg nom 
-;	"svoj" prn ref pos nt pl acc REMOVE:217:notAcc 
+;	"svoj" prn ref pos nt pl acc REMOVE:228:notAcc 
 "<vrata>"
-	"vrata" n f pl nom 
-	"vrata" n f pl gen 
-;	"vrata" n f pl voc REMOVE:191:notVoc 
-;	"vrata" n f pl acc REMOVE:217:notAcc 
+	"vrata" n f pl nom SELECT:218:ATTR-Nom 
+;	"vrata" n f pl voc REMOVE:203:notVoc 
+;	"vrata" n f pl acc REMOVE:228:notAcc 
+;	"vrata" n f pl gen SELECT:218:ATTR-Nom 
 "<za>"
 	"za" pr 
 "<žene>"
-	"žena" n f sg gen SELECT:208:Pr-Gen 
-;	"žena" n f pl voc REMOVE:191:notVoc 
-;	"žena" n f pl nom SELECT:208:Pr-Gen 
-;	"žena" n f pl acc SELECT:208:Pr-Gen 
+	"žena" n f sg gen SELECT:219:Pr-Gen 
+;	"žena" n f pl voc REMOVE:203:notVoc 
+;	"žena" n f pl nom SELECT:219:Pr-Gen 
+;	"žena" n f pl acc SELECT:219:Pr-Gen 
 "<.>"
 	"." sent 
 
@@ -977,44 +977,44 @@
 	"ne" part neg +htjeeti vbmod imperf tv pres p1 sg 
 "<zaboraviti>"
 	"zaboraviti" vblex perf tv inf 
-;	"zaboraviti" vblex perf ref inf REMOVE:225 
+;	"zaboraviti" vblex perf ref inf REMOVE:236 
 "<trenutak>"
-	"trenutak" n mi sg acc SELECT:189 
-;	"trenutak" n mi sg nom SELECT:189 
+	"trenutak" n mi sg acc SELECT:201:tvAcc 
+;	"trenutak" n mi sg nom SELECT:201:tvAcc 
 "<kada>"
 	"kada" cnjsub 
 	"kada" adv 
 "<sam>"
-	"biti" vbser clt pres p1 sg SELECT:241 
-;	"sam" adj mi sg acc ind REMOVE:217:notAcc 
-;	"sam" adj ma sg nom ind SELECT:241 
-;	"sam" adj ma sg voc ind SELECT:241 
-;	"sam" adj mi sg nom ind SELECT:241 
-;	"sam" adj mi sg voc ind SELECT:241 
+	"biti" vbser clt pres p1 sg SELECT:260 
+;	"sam" adj mi sg acc ind REMOVE:228:notAcc 
+;	"sam" adj ma sg nom ind SELECT:260 
+;	"sam" adj ma sg voc ind SELECT:260 
+;	"sam" adj mi sg nom ind SELECT:260 
+;	"sam" adj mi sg voc ind SELECT:260 
 "<prvi>"
-	"prvi" num ord mi sg nom SELECT:187 SELECT:172 
-;	"prvi" num ord f pl nom REMOVE:161 
-;	"prvi" num ord ma pl nom REMOVE:161 
-;	"prvi" num ord mi pl nom REMOVE:161 
-;	"prvi" num ord f pl nom REMOVE:161 
-;	"prvi" num ord ma pl nom REMOVE:161 
-;	"prvi" num ord mi pl nom REMOVE:161 
-;	"prvi" num ord ma pl voc SELECT:187 
-;	"prvi" num ord mi pl voc SELECT:187 
-;	"prvi" num ord ma pl voc SELECT:187 
-;	"prvi" num ord mi pl voc SELECT:187 
-;	"prvi" num ord ma sg voc SELECT:187 REMOVE:191:notVoc 
-;	"prvi" num ord mi sg voc SELECT:187 REMOVE:191:notVoc 
-;	"prvi" num ord ma sg voc SELECT:187 REMOVE:191:notVoc 
-;	"prvi" num ord mi sg voc SELECT:187 REMOVE:191:notVoc 
-;	"prvi" num ord mi sg acc SELECT:187 REMOVE:217:notAcc 
-;	"prvi" num ord mi sg acc SELECT:187 REMOVE:217:notAcc 
-;	"prvi" num ord ma sg nom SELECT:187 SELECT:172 
-;	"prvi" num ord ma sg nom SELECT:187 SELECT:172 
+	"prvi" num ord mi sg nom SELECT:184:NumberGender 
+;	"prvi" num ord f pl nom REMOVE:173 
+;	"prvi" num ord ma pl nom REMOVE:173 
+;	"prvi" num ord mi pl nom REMOVE:173 
+;	"prvi" num ord f pl nom REMOVE:173 
+;	"prvi" num ord ma pl nom REMOVE:173 
+;	"prvi" num ord mi pl nom REMOVE:173 
+;	"prvi" num ord ma sg voc REMOVE:203:notVoc 
+;	"prvi" num ord ma pl voc REMOVE:203:notVoc 
+;	"prvi" num ord mi sg voc REMOVE:203:notVoc 
+;	"prvi" num ord mi pl voc REMOVE:203:notVoc 
+;	"prvi" num ord ma sg voc REMOVE:203:notVoc 
+;	"prvi" num ord ma pl voc REMOVE:203:notVoc 
+;	"prvi" num ord mi sg voc REMOVE:203:notVoc 
+;	"prvi" num ord mi pl voc REMOVE:203:notVoc 
+;	"prvi" num ord mi sg acc REMOVE:228:notAcc 
+;	"prvi" num ord mi sg acc REMOVE:228:notAcc 
+;	"prvi" num ord ma sg nom SELECT:184:NumberGender 
+;	"prvi" num ord ma sg nom SELECT:184:NumberGender 
 "<put>"
-	"put" n mi sg nom SELECT:187 
-;	"put" pr SELECT:187 
-;	"put" n mi sg acc SELECT:187 REMOVE:217:notAcc 
+	"put" n mi sg nom SELECT:199:AtrrNum->NNum 
+;	"put" pr SELECT:199:AtrrNum->NNum 
+;	"put" n mi sg acc SELECT:199:AtrrNum->NNum REMOVE:228:notAcc 
 "<poletjela>"
 	"poletjeeti" vblex perf iv lp nt pl 
 	"poletjeeti" vblex perf iv lp f sg 
@@ -1029,56 +1029,56 @@
 "<,>"
 	"," cm 
 "<kaže>"
-	"kazati" vblex perf iv pres p3 sg SELECT:199 
-;	"kazati" vblex perf tv pres p3 sg SELECT:199 
+	"kazati" vblex perf iv pres p3 sg SELECT:210 
+;	"kazati" vblex perf tv pres p3 sg SELECT:210 
 "<Tadić>"
-	"Tadić" np cog f sg nom 
-	"Tadić" np cog f sg gen 
-	"Tadić" np cog f sg loc 
-	"Tadić" np cog f sg ins 
-	"Tadić" np cog f pl nom 
-	"Tadić" np cog f pl gen 
-	"Tadić" np cog f pl loc 
-	"Tadić" np cog f pl ins 
-	"Tadić" np cog ma sg nom 
-;	"Tadić" np cog f sg voc REMOVE:191:notVoc 
-;	"Tadić" np cog f pl voc REMOVE:191:notVoc 
-;	"Tadić" np cog ma sg voc REMOVE:191:notVoc 
-;	"Tadić" np cog f sg dat REMOVE:214 
-;	"Tadić" np cog f pl dat REMOVE:214 
-;	"Tadić" np cog f sg acc REMOVE:217:notAcc 
-;	"Tadić" np cog f pl acc REMOVE:217:notAcc 
+	"Tadić" np cog f sg nom SELECT:159:CogNomF 
+	"Tadić" np cog ma sg nom SELECT:159:CogNomF 
+;	"Tadić" np cog f pl nom REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl gen REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl dat REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl acc REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl loc REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl ins REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl voc REMOVE:157:np-noPl 
+;	"Tadić" np cog f sg gen SELECT:159:CogNomF 
+;	"Tadić" np cog f sg dat SELECT:159:CogNomF 
+;	"Tadić" np cog f sg acc SELECT:159:CogNomF 
+;	"Tadić" np cog f sg loc SELECT:159:CogNomF 
+;	"Tadić" np cog f sg ins SELECT:159:CogNomF 
+;	"Tadić" np cog f sg voc SELECT:159:CogNomF 
+;	"Tadić" np cog ma sg voc SELECT:159:CogNomF 
 "<.>"
 	"." sent 
 
 "<Uz>"
 	"Uz" pr 
 "<mene>"
-	"free" prn pers p1 mfn sg acc SELECT:210:Pr-Acc 
-;	"free" prn pers p1 mfn sg gen SELECT:210:Pr-Acc 
+	"free" prn pers p1 mfn sg acc SELECT:221:Pr-Acc 
+;	"free" prn pers p1 mfn sg gen SELECT:221:Pr-Acc 
 "<u>"
 	"u" pr 
 "<zrakoplovu>"
-	"zrakoplov" n mi sg loc SELECT:211:Pr-Loc 
-;	"zrakoplov" n mi sg voc REMOVE:191:notVoc 
-;	"zrakoplov" n mi sg dat SELECT:211:Pr-Loc 
+	"zrakoplov" n mi sg loc SELECT:222:Pr-Loc 
+;	"zrakoplov" n mi sg voc REMOVE:203:notVoc 
+;	"zrakoplov" n mi sg dat SELECT:222:Pr-Loc 
 "<bio>"
 	"biti" vbser lp m sg 
 	"biti" vbser opt m sg 
-;	"biti" vblex imperf ref lp m sg REMOVE:225 
-;	"biti" vblex imperf ref opt m sg REMOVE:225 
-;	"biti" vblex imperf tv lp m sg REMOVE:244 
-;	"biti" vblex imperf tv opt m sg REMOVE:244 
+;	"biti" vblex imperf ref lp m sg REMOVE:236 
+;	"biti" vblex imperf ref opt m sg REMOVE:236 
+;	"biti" vblex imperf tv lp m sg REMOVE:263 
+;	"biti" vblex imperf tv opt m sg REMOVE:263 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<i>"
 	"i" cnjcoo 
 "<moj>"
-	"moj" prn pos ma sg nom SELECT:175:RodBrojSlj 
-;	"moj" prn pos mi sg nom SELECT:175:RodBrojSlj 
-;	"moj" prn pos mi sg acc SELECT:175:RodBrojSlj 
+	"moj" prn pos ma sg nom SELECT:187:GenNumNext 
+;	"moj" prn pos mi sg nom SELECT:187:GenNumNext 
+;	"moj" prn pos mi sg acc SELECT:187:GenNumNext 
 "<instruktor>"
 	"instruktor" n ma sg nom 
 "<,>"
@@ -1087,17 +1087,17 @@
 	"ali" cnjcoo 
 "<manevriranje>"
 	"manevriranje" n nt sg nom 
-;	"manevriranje" n nt sg voc REMOVE:191:notVoc 
-;	"manevriranje" n nt sg acc REMOVE:217:notAcc 
+;	"manevriranje" n nt sg voc REMOVE:203:notVoc 
+;	"manevriranje" n nt sg acc REMOVE:228:notAcc 
 "<jakom>"
 	"jak" adj pst ma sg loc def 
 	"jak" adj pst mi sg loc def 
 	"jak" adj pst f sg ins ind 
 	"jak" adj pst f sg ins def 
 	"jak" adj pst nt sg loc def 
-;	"jak" adj pst ma sg dat def REMOVE:214 
-;	"jak" adj pst mi sg dat def REMOVE:214 
-;	"jak" adj pst nt sg dat def REMOVE:214 
+;	"jak" adj pst ma sg dat def REMOVE:225 
+;	"jak" adj pst mi sg dat def REMOVE:225 
+;	"jak" adj pst nt sg dat def REMOVE:225 
 "<,>"
 	"," cm 
 "<velikom>"
@@ -1106,9 +1106,9 @@
 	"velik" adj pst f sg ins ind 
 	"velik" adj pst f sg ins def 
 	"velik" adj pst nt sg loc def 
-;	"velik" adj pst ma sg dat def REMOVE:214 
-;	"velik" adj pst mi sg dat def REMOVE:214 
-;	"velik" adj pst nt sg dat def REMOVE:214 
+;	"velik" adj pst ma sg dat def REMOVE:225 
+;	"velik" adj pst mi sg dat def REMOVE:225 
+;	"velik" adj pst nt sg dat def REMOVE:225 
 "<'>"
 	"'" apos 
 "<pticom>"
@@ -1116,51 +1116,51 @@
 "<'>"
 	"'" apos 
 "<bilo>"
-	"biti" vbser lp nt sg SELECT:240 SELECT:256 
-;	"biti" vblex imperf ref lp nt sg REMOVE:225 
-;	"biti" vblex imperf ref opt nt sg REMOVE:225 
-;	"biti" vblex imperf tv lp nt sg SELECT:240 
-;	"biti" vblex imperf tv opt nt sg SELECT:240 
-;	"biti" vbser opt nt sg SELECT:240 SELECT:256 
+	"biti" vbser lp nt sg SELECT:259 SELECT:277:Imalievosubjekt 
+;	"biti" vblex imperf ref lp nt sg REMOVE:236 
+;	"biti" vblex imperf ref opt nt sg REMOVE:236 
+;	"biti" vblex imperf tv lp nt sg SELECT:259 
+;	"biti" vblex imperf tv opt nt sg SELECT:259 
+;	"biti" vbser opt nt sg SELECT:259 SELECT:277:Imalievosubjekt 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<na>"
 	"na" pr 
 "<meni>"
-	"free" prn pers p1 mfn sg loc SELECT:211:Pr-Loc 
-;	"free" prn pers p1 mfn sg dat SELECT:211:Pr-Loc 
+	"free" prn pers p1 mfn sg loc SELECT:222:Pr-Loc 
+;	"free" prn pers p1 mfn sg dat SELECT:222:Pr-Loc 
 "<.>"
 	"." sent 
 
 "<To>"
 	"Taj" prn dem nt sg nom 
-;	"Taj" prn dem nt sg acc REMOVE:217:notAcc 
+;	"Taj" prn dem nt sg acc REMOVE:228:notAcc 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<prekrasan>"
-	"krasan" adj ssup mi sg nom ind SELECT:175:RodBrojSlj 
-;	"krasan" adj ssup ma sg nom ind SELECT:175:RodBrojSlj 
-;	"krasan" adj ssup ma sg voc ind SELECT:175:RodBrojSlj 
-;	"krasan" adj ssup mi sg voc ind SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"krasan" adj ssup mi sg acc ind SELECT:175:RodBrojSlj REMOVE:217:notAcc 
+	"krasan" adj ssup mi sg nom ind SELECT:187:GenNumNext 
+;	"krasan" adj ssup ma sg nom ind SELECT:187:GenNumNext 
+;	"krasan" adj ssup ma sg voc ind SELECT:187:GenNumNext 
+;	"krasan" adj ssup mi sg voc ind SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"krasan" adj ssup mi sg acc ind SELECT:187:GenNumNext REMOVE:228:notAcc 
 "<doživljaj>"
 	"doživljaj" n mi sg nom 
-;	"doživljaj" n mi sg acc REMOVE:217:notAcc 
+;	"doživljaj" n mi sg acc REMOVE:228:notAcc 
 "<koji>"
 	"koji" prn rel ma sg nom 
 	"koji" prn rel mi sg nom 
-;	"koji" prn itg ma pl nom REMOVE:161 
-;	"koji" prn itg mi pl nom REMOVE:161 
-;	"koji" prn rel ma pl nom REMOVE:161 
-;	"koji" prn rel mi pl nom REMOVE:161 
-;	"koji" prn itg mi sg acc REMOVE:217:notAcc 
-;	"koji" prn rel mi sg acc REMOVE:217:notAcc 
-;	"koji" prn itg ma sg nom REMOVE:253 
-;	"koji" prn itg mi sg nom REMOVE:253 
+;	"koji" prn itg ma pl nom REMOVE:173 
+;	"koji" prn itg mi pl nom REMOVE:173 
+;	"koji" prn rel ma pl nom REMOVE:173 
+;	"koji" prn rel mi pl nom REMOVE:173 
+;	"koji" prn itg mi sg acc REMOVE:228:notAcc 
+;	"koji" prn rel mi sg acc REMOVE:228:notAcc 
+;	"koji" prn itg ma sg nom REMOVE:272 
+;	"koji" prn itg mi sg nom REMOVE:272 
 "<se>"
 	"clitic" prn ref pers mfn sp acc 
 "<ne>"
@@ -1175,20 +1175,20 @@
 	"moći" vbmod perf iv aor p3 sg 
 "<usporediti>"
 	"usporediti" vblex perf ref inf 
-;	"usporediti" vblex perf tv inf REMOVE:244 
+;	"usporediti" vblex perf tv inf REMOVE:263 
 "<s>"
 	"s" pr 
 "<bilo>"
-	"biti" vbser lp nt sg SELECT:256 
-	"biti" vblex imperf ref lp nt sg SELECT:256 
-;	"biti" vblex imperf tv lp nt sg REMOVE:244 
-;	"biti" vblex imperf tv opt nt sg REMOVE:244 
-;	"biti" vbser opt nt sg SELECT:256 
-;	"biti" vblex imperf ref opt nt sg SELECT:256 
+	"biti" vbser lp nt sg SELECT:277:Imalievosubjekt 
+	"biti" vblex imperf ref lp nt sg SELECT:277:Imalievosubjekt 
+;	"biti" vblex imperf tv lp nt sg REMOVE:263 
+;	"biti" vblex imperf tv opt nt sg REMOVE:263 
+;	"biti" vbser opt nt sg SELECT:277:Imalievosubjekt 
+;	"biti" vblex imperf ref opt nt sg SELECT:277:Imalievosubjekt 
 "<čim>"
 	"čim" cnjsub 
 	"što" prn rel mfn sp ins 
-;	"što" prn itg mfn sp ins REMOVE:253 
+;	"što" prn itg mfn sp ins REMOVE:272 
 "<drugim>"
 	"drugi" num ord nt sg ins 
 	"drugi" num ord nt pl loc 
@@ -1201,14 +1201,14 @@
 	"drugi" num ord mi sg ins 
 	"drugi" num ord mi pl loc 
 	"drugi" num ord mi pl ins 
-;	"drugi" num ord nt pl dat REMOVE:214 
-;	"drugi" num ord f pl dat REMOVE:214 
-;	"drugi" num ord ma pl dat REMOVE:214 
-;	"drugi" num ord mi pl dat REMOVE:214 
-;	"drugi" num ord nt pl dat REMOVE:214 
-;	"drugi" num ord f pl dat REMOVE:214 
-;	"drugi" num ord ma pl dat REMOVE:214 
-;	"drugi" num ord mi pl dat REMOVE:214 
+;	"drugi" num ord nt pl dat REMOVE:225 
+;	"drugi" num ord f pl dat REMOVE:225 
+;	"drugi" num ord ma pl dat REMOVE:225 
+;	"drugi" num ord mi pl dat REMOVE:225 
+;	"drugi" num ord nt pl dat REMOVE:225 
+;	"drugi" num ord f pl dat REMOVE:225 
+;	"drugi" num ord ma pl dat REMOVE:225 
+;	"drugi" num ord mi pl dat REMOVE:225 
 "<.>"
 	"." sent 
 
@@ -1220,145 +1220,145 @@
 "<s>"
 	"s" pr 
 "<tri>"
-	"tri" num f sg nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"trti" vblex imperf ref imp p2 sg SELECT:172 
-;	"trti" vblex imperf tv imp p2 sg SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt nom SELECT:172 
-;	"tri" num nt acc SELECT:172 
-;	"tri" num nt voc SELECT:172 
-;	"tri" num ma nom SELECT:172 
-;	"tri" num ma acc SELECT:172 
-;	"tri" num ma voc SELECT:172 
-;	"tri" num mi nom SELECT:172 
-;	"tri" num mi acc SELECT:172 
-;	"tri" num mi voc SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num nt sg nom SELECT:172 
-;	"tri" num ma sg nom SELECT:172 
-;	"tri" num mi sg nom SELECT:172 
-;	"tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"tri" num f voc SELECT:172 REMOVE:191:notVoc 
-;	"tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"tri" num f acc SELECT:172 REMOVE:217:notAcc 
-;	"tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
-;	"tri" num f nom SELECT:172 SELECT:175:RodBrojSlj 
+	"tri" num f sg nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"trti" vblex imperf ref imp p2 sg SELECT:184:NumberGender 
+;	"trti" vblex imperf tv imp p2 sg SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt nom SELECT:184:NumberGender 
+;	"tri" num nt acc SELECT:184:NumberGender 
+;	"tri" num nt voc SELECT:184:NumberGender 
+;	"tri" num ma nom SELECT:184:NumberGender 
+;	"tri" num ma acc SELECT:184:NumberGender 
+;	"tri" num ma voc SELECT:184:NumberGender 
+;	"tri" num mi nom SELECT:184:NumberGender 
+;	"tri" num mi acc SELECT:184:NumberGender 
+;	"tri" num mi voc SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num nt sg nom SELECT:184:NumberGender 
+;	"tri" num ma sg nom SELECT:184:NumberGender 
+;	"tri" num mi sg nom SELECT:184:NumberGender 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"tri" num f acc SELECT:184:NumberGender REMOVE:228:notAcc 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
+;	"tri" num f nom SELECT:184:NumberGender SELECT:187:GenNumNext 
 "<žene>"
-	"žena" n f sg gen SELECT:187 
-;	"žena" n f pl nom REMOVE:161 
-;	"žena" n f pl acc SELECT:187 
-;	"žena" n f pl voc SELECT:187 
+	"žena" n f sg gen SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl nom REMOVE:173 
+;	"žena" n f pl acc SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl voc SELECT:199:AtrrNum->NNum 
 "<,>"
 	"," cm 
 "<šest>"
-	"šest" num ma sg nom SELECT:172 
-;	"šest" num nt sg nom SELECT:172 
-;	"šest" num f sg nom SELECT:172 
-;	"šest" num mi sg nom SELECT:172 
-;	"šest" num nt sg nom SELECT:172 
-;	"šest" num f sg nom SELECT:172 
-;	"šest" num mi sg nom SELECT:172 
+	"šest" num ma sg nom SELECT:184:NumberGender 
+;	"šest" num nt sg nom SELECT:184:NumberGender 
+;	"šest" num f sg nom SELECT:184:NumberGender 
+;	"šest" num mi sg nom SELECT:184:NumberGender 
+;	"šest" num nt sg nom SELECT:184:NumberGender 
+;	"šest" num f sg nom SELECT:184:NumberGender 
+;	"šest" num mi sg nom SELECT:184:NumberGender 
 "<muškaraca>"
 	"muškarac" n ma pl gen 
 "<polazi>"
-	"polaziti" vblex imperf tv pres p3 sg SELECT:245 
-	"polaziti" vblex imperf tv imp p2 sg SELECT:245 
-;	"polaziti" vblex imperf iv pres p3 sg SELECT:245 
-;	"polaziti" vblex imperf iv imp p2 sg SELECT:245 
+	"polaziti" vblex imperf tv pres p3 sg SELECT:264 
+	"polaziti" vblex imperf tv imp p2 sg SELECT:264 
+;	"polaziti" vblex imperf iv pres p3 sg SELECT:264 
+;	"polaziti" vblex imperf iv imp p2 sg SELECT:264 
 "<četvrtu>"
 	"četvrti" num ord f sg acc 
 "<godinu>"
 	"godina" n f sg acc 
 "<vojnog>"
-	"vojni" adj pst nt sg gen def SELECT:175:RodBrojSlj 
-;	"vojni" adj pst ma sg acc def REMOVE:217:notAcc 
-;	"vojni" adj pst ma sg gen def SELECT:175:RodBrojSlj 
-;	"vojni" adj pst mi sg gen def SELECT:175:RodBrojSlj 
+	"vojni" adj pst nt sg gen def SELECT:187:GenNumNext 
+;	"vojni" adj pst ma sg acc def REMOVE:228:notAcc 
+;	"vojni" adj pst ma sg gen def SELECT:187:GenNumNext 
+;	"vojni" adj pst mi sg gen def SELECT:187:GenNumNext 
 "<zrakoplovstva>"
-	"zrakoplovstvo" n nt sg gen SELECT:187 
-;	"zrakoplovstvo" n nt pl nom SELECT:187 
-;	"zrakoplovstvo" n nt pl acc SELECT:187 
-;	"zrakoplovstvo" n nt pl voc SELECT:187 
+	"zrakoplovstvo" n nt sg gen SELECT:199:AtrrNum->NNum 
+;	"zrakoplovstvo" n nt pl nom SELECT:199:AtrrNum->NNum 
+;	"zrakoplovstvo" n nt pl acc SELECT:199:AtrrNum->NNum 
+;	"zrakoplovstvo" n nt pl voc SELECT:199:AtrrNum->NNum 
 "<.>"
 	"." sent 
 
 "<Njihov>"
-	"Njihov" prn pos ma sg nom 
-	"Njihov" prn pos mi sg nom 
-;	"Njihov" prn pos mi sg acc REMOVE:217:notAcc 
+	"Njihov" prn pos ma sg nom SELECT:187:GenNumNext 
+;	"Njihov" prn pos mi sg acc REMOVE:228:notAcc 
+;	"Njihov" prn pos mi sg nom SELECT:187:GenNumNext 
 "<kolega>"
-	"kolega" n ma pl gen SELECT:175:RodBrojSlj 
-;	"kolega" n ma sg nom SELECT:175:RodBrojSlj 
+	"kolega" n ma sg nom SELECT:199:AtrrNum->NNum 
+;	"kolega" n ma pl gen SELECT:199:AtrrNum->NNum 
 "<Nemanja>"
-	"Nemanja" np ant ma pl gen SELECT:187 
-;	"Nemanja" np ant ma sg nom SELECT:187 
-;	"Nemanja" np ant ma sg voc SELECT:187 
+	"Nemanja" np ant ma sg nom SELECT:187:GenNumNext 
+;	"Nemanja" np ant ma pl gen SELECT:187:GenNumNext 
+;	"Nemanja" np ant ma sg voc SELECT:187:GenNumNext REMOVE:203:notVoc 
 "<Ružić>"
-	"Ružić" np cog f sg gen 
-	"Ružić" np cog f pl gen 
-;	"Ružić" np cog f sg dat REMOVE:154 
-;	"Ružić" np cog f sg acc REMOVE:154 
-;	"Ružić" np cog f sg loc REMOVE:154 
-;	"Ružić" np cog f sg ins REMOVE:154 
-;	"Ružić" np cog f pl dat REMOVE:154 
-;	"Ružić" np cog f pl acc REMOVE:154 
-;	"Ružić" np cog f pl loc REMOVE:154 
-;	"Ružić" np cog f pl ins REMOVE:154 
-;	"Ružić" np cog f pl nom REMOVE:161 
-;	"Ružić" np cog f sg voc REMOVE:191:notVoc 
-;	"Ružić" np cog f pl voc REMOVE:191:notVoc 
-;	"Ružić" np cog ma sg voc REMOVE:191:notVoc 
-;	"Ružić" np cog f sg nom REMOVE:154 
-;	"Ružić" np cog ma sg nom REMOVE:154 
+	"Ružić" np cog ma sg nom SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg nom SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg gen SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg dat SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg acc SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg loc SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg ins SELECT:150:Ant-Cog 
+;	"Ružić" np cog f sg voc SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl nom SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl gen SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl dat SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl acc SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl loc SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl ins SELECT:150:Ant-Cog 
+;	"Ružić" np cog f pl voc SELECT:150:Ant-Cog 
+;	"Ružić" np cog ma sg voc SELECT:150:Ant-Cog REMOVE:203:notVoc 
 "<pao>"
 	"pasti" vblex perf iv lp m sg 
 	"pasti" vblex perf iv opt m sg 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<na>"
 	"na" pr 
 "<testu>"
-	"test" n mi sg loc SELECT:211:Pr-Loc 
-;	"test" n mi sg dat SELECT:211:Pr-Loc 
+	"test" n mi sg loc SELECT:222:Pr-Loc 
+;	"test" n mi sg dat SELECT:222:Pr-Loc 
 "<letenja>"
 	"letenje" n nt sg gen 
 	"letenje" n nt pl nom 
 	"letenje" n nt pl gen 
-;	"letenje" n nt pl voc REMOVE:191:notVoc 
-;	"letenje" n nt pl acc REMOVE:217:notAcc 
+;	"letenje" n nt pl voc REMOVE:203:notVoc 
+;	"letenje" n nt pl acc REMOVE:228:notAcc 
 "<na>"
 	"na" pr 
 "<trećoj>"
-	"treći" num ord f sg loc SELECT:211:Pr-Loc 
-;	"treći" num ord f sg dat SELECT:211:Pr-Loc 
-;	"treći" num ord f sg dat SELECT:211:Pr-Loc 
+	"treći" num ord f sg loc SELECT:222:Pr-Loc 
+;	"treći" num ord f sg dat SELECT:222:Pr-Loc 
+;	"treći" num ord f sg dat SELECT:222:Pr-Loc 
 "<godini>"
-	"godina" n f sg loc SELECT:211:Pr-Loc 
-;	"godina" n f sg dat SELECT:211:Pr-Loc 
+	"godina" n f sg loc SELECT:222:Pr-Loc 
+;	"godina" n f sg dat SELECT:222:Pr-Loc 
 "<akademije>"
 	"akademija" n f sg gen 
 	"akademija" n f pl nom 
-;	"akademija" n f pl voc REMOVE:191:notVoc 
-;	"akademija" n f pl acc REMOVE:217:notAcc 
+;	"akademija" n f pl voc REMOVE:203:notVoc 
+;	"akademija" n f pl acc REMOVE:228:notAcc 
 "<i>"
 	"i" cnjcoo 
 "<okrenut će>"
-	"okrenuti" vblex perf ref inf +htjeeti vbmod clt futI p3 sg SELECT:229 
-	"okrenuti" vblex perf ref inf +htjeeti vbmod clt futI p3 pl SELECT:229 
-;	"okrenuti" vblex perf tv inf +htjeeti vbmod clt futI p3 sg SELECT:229 
-;	"okrenuti" vblex perf tv inf +htjeeti vbmod clt futI p3 pl SELECT:229 
+	"okrenuti" vblex perf ref inf +htjeeti vbmod clt futI p3 sg SELECT:240 
+	"okrenuti" vblex perf ref inf +htjeeti vbmod clt futI p3 pl SELECT:240 
+;	"okrenuti" vblex perf tv inf +htjeeti vbmod clt futI p3 sg SELECT:240 
+;	"okrenuti" vblex perf tv inf +htjeeti vbmod clt futI p3 pl SELECT:240 
 "<se>"
 	"clitic" prn ref pers mfn sp acc 
 "<jednom>"
@@ -1367,12 +1367,12 @@
 	"jedan" num f sg ins 
 	"jedan" num ma sg loc 
 	"jedan" num mi sg loc 
-;	"jedan" num nt sg dat REMOVE:214 
-;	"jedan" num ma sg dat REMOVE:214 
-;	"jedan" num mi sg dat REMOVE:214 
-;	"jedan" num nt sg dat REMOVE:214 
-;	"jedan" num ma sg dat REMOVE:214 
-;	"jedan" num mi sg dat REMOVE:214 
+;	"jedan" num nt sg dat REMOVE:225 
+;	"jedan" num ma sg dat REMOVE:225 
+;	"jedan" num mi sg dat REMOVE:225 
+;	"jedan" num nt sg dat REMOVE:225 
+;	"jedan" num ma sg dat REMOVE:225 
+;	"jedan" num mi sg dat REMOVE:225 
 "<od>"
 	"od" pr 
 "<pet>"
@@ -1381,18 +1381,18 @@
 	"pet" num ma sg nom 
 	"pet" num mi sg nom 
 "<ostalih>"
-	"ostali" adj pst mi pl gen def SELECT:175:RodBrojSlj 
-;	"ostali" adj pst ma pl gen def SELECT:175:RodBrojSlj 
-;	"ostali" adj pst f pl gen def SELECT:175:RodBrojSlj 
-;	"ostali" adj pst nt pl gen def SELECT:175:RodBrojSlj 
+	"ostali" adj pst mi pl gen def SELECT:187:GenNumNext 
+;	"ostali" adj pst ma pl gen def SELECT:187:GenNumNext 
+;	"ostali" adj pst f pl gen def SELECT:187:GenNumNext 
+;	"ostali" adj pst nt pl gen def SELECT:187:GenNumNext 
 "<akademskih>"
-	"akademski" adj pst mi pl gen def SELECT:175:RodBrojSlj 
-;	"akademski" adj pst ma pl gen def SELECT:175:RodBrojSlj 
-;	"akademski" adj pst f pl gen def SELECT:175:RodBrojSlj 
-;	"akademski" adj pst nt pl gen def SELECT:175:RodBrojSlj 
+	"akademski" adj pst mi pl gen def SELECT:187:GenNumNext 
+;	"akademski" adj pst ma pl gen def SELECT:187:GenNumNext 
+;	"akademski" adj pst f pl gen def SELECT:187:GenNumNext 
+;	"akademski" adj pst nt pl gen def SELECT:187:GenNumNext 
 "<programa>"
-	"program" n mi pl gen SELECT:187 
-;	"program" n mi sg gen SELECT:187 
+	"program" n mi pl gen SELECT:199:AtrrNum->NNum 
+;	"program" n mi sg gen SELECT:199:AtrrNum->NNum 
 "<.>"
 	"." sent 
 
@@ -1406,34 +1406,34 @@
 "<bilo>"
 	"biti" vbser lp nt sg 
 	"biti" vbser opt nt sg 
-;	"biti" vblex imperf ref lp nt sg REMOVE:225 
-;	"biti" vblex imperf ref opt nt sg REMOVE:225 
-;	"biti" vblex imperf tv lp nt sg REMOVE:244 
-;	"biti" vblex imperf tv opt nt sg REMOVE:244 
+;	"biti" vblex imperf ref lp nt sg REMOVE:236 
+;	"biti" vblex imperf ref opt nt sg REMOVE:236 
+;	"biti" vblex imperf tv lp nt sg REMOVE:263 
+;	"biti" vblex imperf tv opt nt sg REMOVE:263 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<teško>"
-	"težak" adj pst nt sg nom ind SELECT:187 
-	"težak" adj pst nt sg nom def SELECT:187 
-;	"teško" adv SELECT:187 
-;	"težak" adj pst nt sg voc ind SELECT:187 REMOVE:191:notVoc 
-;	"težak" adj pst nt sg voc def SELECT:187 REMOVE:191:notVoc 
-;	"težak" adj pst nt sg acc ind SELECT:187 REMOVE:217:notAcc 
-;	"težak" adj pst nt sg acc def SELECT:187 REMOVE:217:notAcc 
+	"teško" adv 
+	"težak" adj pst nt sg nom ind 
+	"težak" adj pst nt sg nom def 
+;	"težak" adj pst nt sg voc ind REMOVE:203:notVoc 
+;	"težak" adj pst nt sg voc def REMOVE:203:notVoc 
+;	"težak" adj pst nt sg acc ind REMOVE:228:notAcc 
+;	"težak" adj pst nt sg acc def REMOVE:228:notAcc 
 "<jer>"
 	"jer" cnjsub 
 "<sam>"
-	"biti" vbser clt pres p1 sg SELECT:240 
-;	"sam" adj ma sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg voc ind REMOVE:191:notVoc 
-;	"sam" adj mi sg acc ind REMOVE:217:notAcc 
-;	"sam" adj ma sg nom ind SELECT:240 
-;	"sam" adj mi sg nom ind SELECT:240 
+	"biti" vbser clt pres p1 sg SELECT:259 
+;	"sam" adj ma sg voc ind REMOVE:203:notVoc 
+;	"sam" adj mi sg voc ind REMOVE:203:notVoc 
+;	"sam" adj mi sg acc ind REMOVE:228:notAcc 
+;	"sam" adj ma sg nom ind SELECT:259 
+;	"sam" adj mi sg nom ind SELECT:259 
 "<pao>"
 	"pasti" vblex perf iv lp m sg 
-;	"pasti" vblex perf iv opt m sg REMOVE:237 
+;	"pasti" vblex perf iv opt m sg REMOVE:252 
 "<.>"
 	"." sent 
 
@@ -1443,102 +1443,102 @@
 	"," cm 
 "<moja>"
 	"moj" prn pos f sg nom 
-;	"moj" prn pos nt pl nom REMOVE:161 
-;	"moj" prn pos nt pl acc REMOVE:217:notAcc 
+;	"moj" prn pos nt pl nom REMOVE:173 
+;	"moj" prn pos nt pl acc REMOVE:228:notAcc 
 "<majka>"
-	"majka" n f sg nom 
-	"majka" n f pl gen 
+	"majka" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"majka" n f pl gen SELECT:199:AtrrNum->NNum 
 "<bila>"
-	"biti" vbser lp nt pl SELECT:187 
-	"biti" vbser lp m pl SELECT:187 
-	"biti" vbser opt nt pl SELECT:187 
-	"biti" vbser opt m pl SELECT:187 
-;	"biti" vbser lp f sg SELECT:187 
-;	"biti" vbser opt f sg SELECT:187 
-;	"biti" vblex imperf ref lp f sg SELECT:187 
-;	"biti" vblex imperf ref opt f sg SELECT:187 
-;	"biti" vblex imperf tv lp f sg SELECT:187 
-;	"biti" vblex imperf tv opt f sg SELECT:187 
-;	"biti" vblex imperf ref lp nt pl SELECT:187 REMOVE:225 
-;	"biti" vblex imperf ref lp m pl SELECT:187 REMOVE:225 
-;	"biti" vblex imperf ref opt nt pl SELECT:187 REMOVE:225 
-;	"biti" vblex imperf ref opt m pl SELECT:187 REMOVE:225 
-;	"biti" vblex imperf tv lp nt pl SELECT:187 REMOVE:244 
-;	"biti" vblex imperf tv lp m pl SELECT:187 REMOVE:244 
-;	"biti" vblex imperf tv opt nt pl SELECT:187 REMOVE:244 
-;	"biti" vblex imperf tv opt m pl SELECT:187 REMOVE:244 
+	"biti" vbser lp f sg SELECT:277:Imalievosubjekt 
+;	"biti" vblex imperf ref lp nt pl REMOVE:236 
+;	"biti" vblex imperf ref lp f sg REMOVE:236 
+;	"biti" vblex imperf ref lp m pl REMOVE:236 
+;	"biti" vblex imperf ref opt nt pl REMOVE:236 
+;	"biti" vblex imperf ref opt f sg REMOVE:236 
+;	"biti" vblex imperf ref opt m pl REMOVE:236 
+;	"biti" vbser lp nt pl REMOVE:256 
+;	"biti" vbser lp m pl REMOVE:256 
+;	"biti" vbser opt nt pl REMOVE:256 
+;	"biti" vbser opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp nt pl REMOVE:256 
+;	"biti" vblex imperf tv lp m pl REMOVE:256 
+;	"biti" vblex imperf tv opt nt pl REMOVE:256 
+;	"biti" vblex imperf tv opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp f sg REMOVE:263 
+;	"biti" vblex imperf tv opt f sg REMOVE:263 
+;	"biti" vbser opt f sg SELECT:277:Imalievosubjekt 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<sretna>"
-	"sretan" adj pst ma sg gen ind SELECT:187 
-	"sretan" adj pst mi sg gen ind SELECT:187 
-	"sretan" adj pst f sg nom ind SELECT:187 
-	"sretan" adj pst f sg nom def SELECT:187 
-	"sretan" adj pst f sg voc ind SELECT:187 
-	"sretan" adj pst f sg voc def SELECT:187 
-	"sretan" adj pst nt sg gen ind SELECT:187 
-;	"sretan" adj pst nt pl nom ind REMOVE:161 
-;	"sretan" adj pst nt pl nom def REMOVE:161 
-;	"sretan" adj pst nt pl acc ind SELECT:187 
-;	"sretan" adj pst nt pl acc def SELECT:187 
-;	"sretan" adj pst nt pl voc ind SELECT:187 
-;	"sretan" adj pst nt pl voc def SELECT:187 
-;	"sretan" adj pst ma sg acc ind SELECT:187 REMOVE:217:notAcc 
+	"sretan" adj pst ma sg gen ind 
+	"sretan" adj pst mi sg gen ind 
+	"sretan" adj pst f sg nom ind 
+	"sretan" adj pst f sg nom def 
+	"sretan" adj pst f sg voc ind 
+	"sretan" adj pst f sg voc def 
+	"sretan" adj pst nt pl voc ind 
+	"sretan" adj pst nt pl voc def 
+	"sretan" adj pst nt sg gen ind 
+;	"sretan" adj pst nt pl nom ind REMOVE:173 
+;	"sretan" adj pst nt pl nom def REMOVE:173 
+;	"sretan" adj pst ma sg acc ind REMOVE:228:notAcc 
+;	"sretan" adj pst nt pl acc ind REMOVE:228:notAcc 
+;	"sretan" adj pst nt pl acc def REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<kaže>"
-	"kazati" vblex perf iv pres p3 sg SELECT:199 
-;	"kazati" vblex perf tv pres p3 sg SELECT:199 
+	"kazati" vblex perf iv pres p3 sg SELECT:210 
+;	"kazati" vblex perf tv pres p3 sg SELECT:210 
 "<Ružić>"
-	"Ružić" np cog f sg nom 
-	"Ružić" np cog f sg gen 
-	"Ružić" np cog f sg loc 
-	"Ružić" np cog f sg ins 
-	"Ružić" np cog f pl nom 
-	"Ružić" np cog f pl gen 
-	"Ružić" np cog f pl loc 
-	"Ružić" np cog f pl ins 
-	"Ružić" np cog ma sg nom 
-;	"Ružić" np cog f sg voc REMOVE:191:notVoc 
-;	"Ružić" np cog f pl voc REMOVE:191:notVoc 
-;	"Ružić" np cog ma sg voc REMOVE:191:notVoc 
-;	"Ružić" np cog f sg dat REMOVE:214 
-;	"Ružić" np cog f pl dat REMOVE:214 
-;	"Ružić" np cog f sg acc REMOVE:217:notAcc 
-;	"Ružić" np cog f pl acc REMOVE:217:notAcc 
+	"Ružić" np cog f sg nom SELECT:159:CogNomF 
+	"Ružić" np cog ma sg nom SELECT:159:CogNomF 
+;	"Ružić" np cog f pl nom REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl gen REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl dat REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl acc REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl loc REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl ins REMOVE:157:np-noPl 
+;	"Ružić" np cog f pl voc REMOVE:157:np-noPl 
+;	"Ružić" np cog f sg gen SELECT:159:CogNomF 
+;	"Ružić" np cog f sg dat SELECT:159:CogNomF 
+;	"Ružić" np cog f sg acc SELECT:159:CogNomF 
+;	"Ružić" np cog f sg loc SELECT:159:CogNomF 
+;	"Ružić" np cog f sg ins SELECT:159:CogNomF 
+;	"Ružić" np cog f sg voc SELECT:159:CogNomF 
+;	"Ružić" np cog ma sg voc SELECT:159:CogNomF 
 "<.>"
 	"." sent 
 
 "<Napravila>"
-	"Napraviti" vblex perf tv lp f sg SELECT:175:RodBrojSlj 
-	"Napraviti" vblex perf tv opt f sg SELECT:175:RodBrojSlj 
-;	"Napraviti" vblex perf tv lp nt pl SELECT:175:RodBrojSlj 
-;	"Napraviti" vblex perf tv lp m pl SELECT:175:RodBrojSlj 
-;	"Napraviti" vblex perf tv opt nt pl SELECT:175:RodBrojSlj 
-;	"Napraviti" vblex perf tv opt m pl SELECT:175:RodBrojSlj 
+	"Napraviti" vblex perf tv lp f sg SELECT:187:GenNumNext 
+	"Napraviti" vblex perf tv opt f sg SELECT:187:GenNumNext 
+;	"Napraviti" vblex perf tv lp nt pl SELECT:187:GenNumNext 
+;	"Napraviti" vblex perf tv lp m pl SELECT:187:GenNumNext 
+;	"Napraviti" vblex perf tv opt nt pl SELECT:187:GenNumNext 
+;	"Napraviti" vblex perf tv opt m pl SELECT:187:GenNumNext 
 "<je>"
-	"clitic" prn pers clt p3 f sg acc SELECT:175:RodBrojSlj SELECT:189 
-;	"biti" vbser clt pres p3 sg SELECT:175:RodBrojSlj 
-;	"clitic" prn pers clt p3 f sg gen SELECT:175:RodBrojSlj SELECT:189 
+	"clitic" prn pers clt p3 f sg acc SELECT:187:GenNumNext SELECT:201:tvAcc 
+;	"biti" vbser clt pres p3 sg SELECT:187:GenNumNext 
+;	"clitic" prn pers clt p3 f sg gen SELECT:187:GenNumNext SELECT:201:tvAcc 
 "<tortu>"
 	"torta" n f sg acc 
 "<i>"
 	"i" cnjcoo 
 "<pozvala>"
-	"pozvati" vblex perf tv lp f sg SELECT:256 
-;	"pozvati" vblex perf ref lp nt pl REMOVE:225 
-;	"pozvati" vblex perf ref lp f sg REMOVE:225 
-;	"pozvati" vblex perf ref lp m pl REMOVE:225 
-;	"pozvati" vblex perf ref opt nt pl REMOVE:225 
-;	"pozvati" vblex perf ref opt f sg REMOVE:225 
-;	"pozvati" vblex perf ref opt m pl REMOVE:225 
-;	"pozvati" vblex perf tv lp nt pl SELECT:256 
-;	"pozvati" vblex perf tv lp m pl SELECT:256 
-;	"pozvati" vblex perf tv opt nt pl SELECT:256 
-;	"pozvati" vblex perf tv opt f sg SELECT:256 
-;	"pozvati" vblex perf tv opt m pl SELECT:256 
+	"pozvati" vblex perf tv lp f sg SELECT:277:Imalievosubjekt 
+;	"pozvati" vblex perf ref lp nt pl REMOVE:236 
+;	"pozvati" vblex perf ref lp f sg REMOVE:236 
+;	"pozvati" vblex perf ref lp m pl REMOVE:236 
+;	"pozvati" vblex perf ref opt nt pl REMOVE:236 
+;	"pozvati" vblex perf ref opt f sg REMOVE:236 
+;	"pozvati" vblex perf ref opt m pl REMOVE:236 
+;	"pozvati" vblex perf tv lp nt pl SELECT:277:Imalievosubjekt 
+;	"pozvati" vblex perf tv lp m pl SELECT:277:Imalievosubjekt 
+;	"pozvati" vblex perf tv opt nt pl SELECT:277:Imalievosubjekt 
+;	"pozvati" vblex perf tv opt f sg SELECT:277:Imalievosubjekt 
+;	"pozvati" vblex perf tv opt m pl SELECT:277:Imalievosubjekt 
 "<rođake>"
 	"rođak" n ma pl acc 
 "<i>"
@@ -1555,110 +1555,110 @@
 "<proslavili>"
 	"proslaviti" vblex perf tv lp mfn pl 
 	"proslaviti" vblex perf tv lp m pl 
-;	"proslaviti" vblex perf tv opt mfn pl REMOVE:237 
-;	"proslaviti" vblex perf tv opt m pl REMOVE:237 
+;	"proslaviti" vblex perf tv opt mfn pl REMOVE:252 
+;	"proslaviti" vblex perf tv opt m pl REMOVE:252 
 "<->"
 	"-" guio 
 "<->"
 	"-" guio 
 "<bila>"
-	"biti" vbser lp nt pl SELECT:240 
-	"biti" vbser lp f sg SELECT:240 
-	"biti" vbser lp m pl SELECT:240 
-	"biti" vbser opt nt pl SELECT:240 
-	"biti" vbser opt f sg SELECT:240 
-	"biti" vbser opt m pl SELECT:240 
-;	"biti" vblex imperf ref lp nt pl REMOVE:225 
-;	"biti" vblex imperf ref lp f sg REMOVE:225 
-;	"biti" vblex imperf ref lp m pl REMOVE:225 
-;	"biti" vblex imperf ref opt nt pl REMOVE:225 
-;	"biti" vblex imperf ref opt f sg REMOVE:225 
-;	"biti" vblex imperf ref opt m pl REMOVE:225 
-;	"biti" vblex imperf tv lp nt pl SELECT:240 
-;	"biti" vblex imperf tv lp f sg SELECT:240 
-;	"biti" vblex imperf tv lp m pl SELECT:240 
-;	"biti" vblex imperf tv opt nt pl SELECT:240 
-;	"biti" vblex imperf tv opt f sg SELECT:240 
-;	"biti" vblex imperf tv opt m pl SELECT:240 
+	"biti" vbser lp f sg SELECT:259 
+	"biti" vbser opt f sg SELECT:259 
+;	"biti" vblex imperf ref lp nt pl REMOVE:236 
+;	"biti" vblex imperf ref lp f sg REMOVE:236 
+;	"biti" vblex imperf ref lp m pl REMOVE:236 
+;	"biti" vblex imperf ref opt nt pl REMOVE:236 
+;	"biti" vblex imperf ref opt f sg REMOVE:236 
+;	"biti" vblex imperf ref opt m pl REMOVE:236 
+;	"biti" vbser lp nt pl REMOVE:256 
+;	"biti" vbser lp m pl REMOVE:256 
+;	"biti" vbser opt nt pl REMOVE:256 
+;	"biti" vbser opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp nt pl REMOVE:256 
+;	"biti" vblex imperf tv lp m pl REMOVE:256 
+;	"biti" vblex imperf tv opt nt pl REMOVE:256 
+;	"biti" vblex imperf tv opt m pl REMOVE:256 
+;	"biti" vblex imperf tv lp f sg SELECT:259 
+;	"biti" vblex imperf tv opt f sg SELECT:259 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<sretna>"
-	"sretan" adj pst ma sg gen ind SELECT:187 
-	"sretan" adj pst mi sg gen ind SELECT:187 
-	"sretan" adj pst f sg nom ind SELECT:187 
-	"sretan" adj pst f sg nom def SELECT:187 
-	"sretan" adj pst nt sg gen ind SELECT:187 
-;	"sretan" adj pst nt pl nom ind REMOVE:161 
-;	"sretan" adj pst nt pl nom def REMOVE:161 
-;	"sretan" adj pst nt pl acc ind SELECT:187 
-;	"sretan" adj pst nt pl acc def SELECT:187 
-;	"sretan" adj pst nt pl voc ind SELECT:187 
-;	"sretan" adj pst nt pl voc def SELECT:187 
-;	"sretan" adj pst f sg voc ind SELECT:187 REMOVE:191:notVoc 
-;	"sretan" adj pst f sg voc def SELECT:187 REMOVE:191:notVoc 
-;	"sretan" adj pst ma sg acc ind SELECT:187 REMOVE:217:notAcc 
+	"sretan" adj pst ma sg gen ind 
+	"sretan" adj pst mi sg gen ind 
+	"sretan" adj pst f sg nom ind 
+	"sretan" adj pst f sg nom def 
+	"sretan" adj pst nt sg gen ind 
+;	"sretan" adj pst nt pl nom ind REMOVE:173 
+;	"sretan" adj pst nt pl nom def REMOVE:173 
+;	"sretan" adj pst f sg voc ind REMOVE:203:notVoc 
+;	"sretan" adj pst f sg voc def REMOVE:203:notVoc 
+;	"sretan" adj pst nt pl voc ind REMOVE:203:notVoc 
+;	"sretan" adj pst nt pl voc def REMOVE:203:notVoc 
+;	"sretan" adj pst ma sg acc ind REMOVE:228:notAcc 
+;	"sretan" adj pst nt pl acc ind REMOVE:228:notAcc 
+;	"sretan" adj pst nt pl acc def REMOVE:228:notAcc 
 "<što>"
-	"koji" prn rel nt sg nom SELECT:187 
-	"koji" prn rel f sg nom SELECT:187 
-	"koji" prn rel ma sg nom SELECT:187 
-	"koji" prn rel mi sg nom SELECT:187 
-;	"što" prn itg mfn sp nom REMOVE:161 
-;	"što" prn rel mfn sp nom REMOVE:161 
-;	"koji" prn itg nt pl nom REMOVE:161 
-;	"koji" prn itg f pl nom REMOVE:161 
-;	"koji" prn itg ma pl nom REMOVE:161 
-;	"koji" prn itg mi pl nom REMOVE:161 
-;	"koji" prn rel nt pl nom REMOVE:161 
-;	"koji" prn rel f pl nom REMOVE:161 
-;	"koji" prn rel ma pl nom REMOVE:161 
-;	"koji" prn rel mi pl nom REMOVE:161 
-;	"što" cnjsub SELECT:187 
-;	"što" prn itg mfn sp acc SELECT:187 
-;	"što" prn rel mfn sp acc SELECT:187 
-;	"koji" prn itg nt sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg f sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg ma sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg mi sg nom SELECT:187 REMOVE:253 
+	"što" cnjsub 
+	"koji" prn rel nt sg nom 
+	"koji" prn rel f sg nom 
+	"koji" prn rel ma sg nom 
+	"koji" prn rel mi sg nom 
+;	"što" prn itg mfn sp nom REMOVE:173 
+;	"što" prn rel mfn sp nom REMOVE:173 
+;	"koji" prn itg nt pl nom REMOVE:173 
+;	"koji" prn itg f pl nom REMOVE:173 
+;	"koji" prn itg ma pl nom REMOVE:173 
+;	"koji" prn itg mi pl nom REMOVE:173 
+;	"koji" prn rel nt pl nom REMOVE:173 
+;	"koji" prn rel f pl nom REMOVE:173 
+;	"koji" prn rel ma pl nom REMOVE:173 
+;	"koji" prn rel mi pl nom REMOVE:173 
+;	"što" prn itg mfn sp acc REMOVE:228:notAcc 
+;	"što" prn rel mfn sp acc REMOVE:228:notAcc 
+;	"koji" prn itg nt sg nom REMOVE:272 
+;	"koji" prn itg f sg nom REMOVE:272 
+;	"koji" prn itg ma sg nom REMOVE:272 
+;	"koji" prn itg mi sg nom REMOVE:272 
 "<neću>"
 	"ne" part neg +htjeeti vbmod imperf tv pres p1 sg 
 "<raditi>"
-	"raditi" vblex imperf iv inf SELECT:199 
-;	"raditi" vblex imperf tv inf SELECT:199 
+	"raditi" vblex imperf iv inf SELECT:210 
+;	"raditi" vblex imperf tv inf SELECT:210 
 "<posao>"
 	"posao" n mi sg nom 
 "<za>"
 	"za" pr 
 "<koji>"
-	"koji" prn rel mi sg acc SELECT:210:Pr-Acc 
-;	"koji" prn itg ma pl nom REMOVE:161 
-;	"koji" prn itg mi pl nom REMOVE:161 
-;	"koji" prn rel ma pl nom REMOVE:161 
-;	"koji" prn rel mi pl nom REMOVE:161 
-;	"koji" prn itg ma sg nom SELECT:210:Pr-Acc 
-;	"koji" prn itg mi sg nom SELECT:210:Pr-Acc 
-;	"koji" prn rel ma sg nom SELECT:210:Pr-Acc 
-;	"koji" prn rel mi sg nom SELECT:210:Pr-Acc 
-;	"koji" prn itg mi sg acc SELECT:210:Pr-Acc REMOVE:253 
+	"koji" prn rel mi sg acc SELECT:221:Pr-Acc 
+;	"koji" prn itg ma pl nom REMOVE:173 
+;	"koji" prn itg mi pl nom REMOVE:173 
+;	"koji" prn rel ma pl nom REMOVE:173 
+;	"koji" prn rel mi pl nom REMOVE:173 
+;	"koji" prn itg ma sg nom SELECT:221:Pr-Acc 
+;	"koji" prn itg mi sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel ma sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel mi sg nom SELECT:221:Pr-Acc 
+;	"koji" prn itg mi sg acc SELECT:221:Pr-Acc REMOVE:272 
 "<misli>"
 	"misliti" vblex imperf iv pres p3 sg 
 	"misliti" vblex imperf iv imp p2 sg 
 "<da>"
-	"da" cnjsub 
-	"da" part 
-	"davati" vblex imperf iv pres p3 sg 
-;	"davati" vblex imperf tv pres p3 sg REMOVE:244 
+	"da" part SELECT:270:daPart 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
+;	"da" cnjsub SELECT:270:daPart 
+;	"davati" vblex imperf iv pres p3 sg SELECT:270:daPart 
 "<je>"
-	"biti" vbser clt pres p3 sg SELECT:240 
-;	"clitic" prn pers clt p3 f sg gen SELECT:240 
-;	"clitic" prn pers clt p3 f sg acc SELECT:240 
+	"biti" vbser clt pres p3 sg SELECT:259 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
+;	"clitic" prn pers clt p3 f sg acc SELECT:259 
 "<opasan>"
 	"opasan" adj pst ma sg nom ind 
 	"opasan" adj pst mi sg nom ind 
-;	"opasan" adj pst ma sg voc ind REMOVE:191:notVoc 
-;	"opasan" adj pst mi sg voc ind REMOVE:191:notVoc 
-;	"opasan" adj pst mi sg acc ind REMOVE:217:notAcc 
+;	"opasan" adj pst ma sg voc ind REMOVE:203:notVoc 
+;	"opasan" adj pst mi sg voc ind REMOVE:203:notVoc 
+;	"opasan" adj pst mi sg acc ind REMOVE:228:notAcc 
 "<.>"
 	"." sent 
 
@@ -1666,11 +1666,11 @@
 	"." sent 
 
 "<Moji>"
-	"Moj" prn pos ma pl nom SELECT:175:RodBrojSlj 
-;	"Moj" prn pos mi pl nom SELECT:175:RodBrojSlj 
+	"Moj" prn pos ma pl nom SELECT:187:GenNumNext 
+;	"Moj" prn pos mi pl nom SELECT:187:GenNumNext 
 "<roditelji>"
 	"roditelj" n ma pl nom 
-;	"roditelj" n ma pl voc REMOVE:191:notVoc 
+;	"roditelj" n ma pl voc REMOVE:203:notVoc 
 "<nadali>"
 	"nadati" vblex imperf ref lp mfn pl 
 	"nadati" vblex imperf ref lp m pl 
@@ -1681,53 +1681,53 @@
 "<se>"
 	"clitic" prn ref pers mfn sp acc 
 "<da>"
-	"da" cnjsub 
-	"da" part 
-	"davati" vblex imperf iv pres p3 sg 
-;	"davati" vblex imperf tv pres p3 sg REMOVE:244 
+	"da" part SELECT:270:daPart 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
+;	"da" cnjsub SELECT:270:daPart 
+;	"davati" vblex imperf iv pres p3 sg SELECT:270:daPart 
 "<neću>"
 	"ne" part neg +htjeeti vbmod imperf tv pres p1 sg 
 "<proći>"
 	"proći" vblex imperf ref inf 
 	"proći" vblex imperf iv inf 
-;	"proći" vblex imperf tv inf REMOVE:244 
+;	"proći" vblex imperf tv inf REMOVE:263 
 "<niti>"
 	"niti" cnjcoo 
 "<prijemni>"
-	"prijemni" adj pst mi sg nom def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst ma pl nom def REMOVE:161 
-;	"prijemni" adj pst mi pl nom def REMOVE:161 
-;	"prijemni" adj pst ma sg nom def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst ma sg voc def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst ma pl voc def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst mi pl voc def SELECT:175:RodBrojSlj 
-;	"prijemni" adj pst mi sg voc def SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"prijemni" adj pst mi sg acc def SELECT:175:RodBrojSlj REMOVE:217:notAcc 
+	"prijemni" adj pst mi sg nom def SELECT:187:GenNumNext 
+;	"prijemni" adj pst ma pl nom def REMOVE:173 
+;	"prijemni" adj pst mi pl nom def REMOVE:173 
+;	"prijemni" adj pst ma sg nom def SELECT:187:GenNumNext 
+;	"prijemni" adj pst ma sg voc def SELECT:187:GenNumNext 
+;	"prijemni" adj pst ma pl voc def SELECT:187:GenNumNext 
+;	"prijemni" adj pst mi pl voc def SELECT:187:GenNumNext 
+;	"prijemni" adj pst mi sg voc def SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"prijemni" adj pst mi sg acc def SELECT:187:GenNumNext REMOVE:228:notAcc 
 "<ispit>"
 	"ispit" n mi sg nom 
-;	"ispit" n mi sg acc REMOVE:217:notAcc 
+;	"ispit" n mi sg acc REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<kaže>"
-	"kazati" vblex perf iv pres p3 sg SELECT:199 
-;	"kazati" vblex perf tv pres p3 sg SELECT:199 
+	"kazati" vblex perf iv pres p3 sg SELECT:210 
+;	"kazati" vblex perf tv pres p3 sg SELECT:210 
 "<Tadić>"
-	"Tadić" np cog f sg nom 
-	"Tadić" np cog f sg gen 
-	"Tadić" np cog f sg loc 
-	"Tadić" np cog f sg ins 
-	"Tadić" np cog f pl nom 
-	"Tadić" np cog f pl gen 
-	"Tadić" np cog f pl loc 
-	"Tadić" np cog f pl ins 
-	"Tadić" np cog ma sg nom 
-;	"Tadić" np cog f sg voc REMOVE:191:notVoc 
-;	"Tadić" np cog f pl voc REMOVE:191:notVoc 
-;	"Tadić" np cog ma sg voc REMOVE:191:notVoc 
-;	"Tadić" np cog f sg dat REMOVE:214 
-;	"Tadić" np cog f pl dat REMOVE:214 
-;	"Tadić" np cog f sg acc REMOVE:217:notAcc 
-;	"Tadić" np cog f pl acc REMOVE:217:notAcc 
+	"Tadić" np cog f sg nom SELECT:159:CogNomF 
+	"Tadić" np cog ma sg nom SELECT:159:CogNomF 
+;	"Tadić" np cog f pl nom REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl gen REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl dat REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl acc REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl loc REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl ins REMOVE:157:np-noPl 
+;	"Tadić" np cog f pl voc REMOVE:157:np-noPl 
+;	"Tadić" np cog f sg gen SELECT:159:CogNomF 
+;	"Tadić" np cog f sg dat SELECT:159:CogNomF 
+;	"Tadić" np cog f sg acc SELECT:159:CogNomF 
+;	"Tadić" np cog f sg loc SELECT:159:CogNomF 
+;	"Tadić" np cog f sg ins SELECT:159:CogNomF 
+;	"Tadić" np cog f sg voc SELECT:159:CogNomF 
+;	"Tadić" np cog ma sg voc SELECT:159:CogNomF 
 "<.>"
 	"." sent 
 
@@ -1736,7 +1736,7 @@
 
 "<Roditelji>"
 	"Roditelj" n ma pl nom 
-;	"Roditelj" n ma pl voc REMOVE:191:notVoc 
+;	"Roditelj" n ma pl voc REMOVE:203:notVoc 
 "<uvijek>"
 	"uvijeek" adv 
 "<strahuju>"
@@ -1744,10 +1744,10 @@
 "<za>"
 	"za" pr 
 "<nas>"
-	"free" prn pers p1 mfn pl gen SELECT:208:Pr-Gen 
-;	"free" prn pers p1 mfn pl acc SELECT:208:Pr-Gen 
-;	"clitic" prn pers clt p1 mfn pl acc SELECT:208:Pr-Gen 
-;	"clitic" prn pers clt p1 mfn pl gen SELECT:208:Pr-Gen REMOVE:235 
+	"free" prn pers p1 mfn pl gen SELECT:219:Pr-Gen 
+;	"free" prn pers p1 mfn pl acc SELECT:219:Pr-Gen 
+;	"clitic" prn pers clt p1 mfn pl acc SELECT:219:Pr-Gen 
+;	"clitic" prn pers clt p1 mfn pl gen SELECT:219:Pr-Gen REMOVE:248 
 "<i>"
 	"i" cnjcoo 
 "<nikada>"
@@ -1759,7 +1759,7 @@
 	"ne" part neg 
 "<kažemo>"
 	"kazati" vblex perf iv pres p1 pl 
-;	"kazati" vblex perf tv pres p1 pl REMOVE:244 
+;	"kazati" vblex perf tv pres p1 pl REMOVE:263 
 "<kada>"
 	"kada" cnjsub 
 	"kada" adv 
@@ -1784,22 +1784,22 @@
 "<se>"
 	"clitic" prn ref pers mfn sp acc 
 "<Radovanović>"
-	"Radovanović" np cog f sg nom 
-	"Radovanović" np cog f sg gen 
-	"Radovanović" np cog f sg loc 
-	"Radovanović" np cog f sg ins 
-	"Radovanović" np cog f pl nom 
-	"Radovanović" np cog f pl gen 
-	"Radovanović" np cog f pl loc 
-	"Radovanović" np cog f pl ins 
-	"Radovanović" np cog ma sg nom 
-;	"Radovanović" np cog f sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f pl voc REMOVE:191:notVoc 
-;	"Radovanović" np cog ma sg voc REMOVE:191:notVoc 
-;	"Radovanović" np cog f sg dat REMOVE:214 
-;	"Radovanović" np cog f pl dat REMOVE:214 
-;	"Radovanović" np cog f sg acc REMOVE:217:notAcc 
-;	"Radovanović" np cog f pl acc REMOVE:217:notAcc 
+	"Radovanović" np cog f sg nom SELECT:159:CogNomF 
+	"Radovanović" np cog ma sg nom SELECT:159:CogNomF 
+;	"Radovanović" np cog f pl nom REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl gen REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl dat REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl acc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl loc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl ins REMOVE:157:np-noPl 
+;	"Radovanović" np cog f pl voc REMOVE:157:np-noPl 
+;	"Radovanović" np cog f sg gen SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg dat SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg acc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg loc SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg ins SELECT:159:CogNomF 
+;	"Radovanović" np cog f sg voc SELECT:159:CogNomF 
+;	"Radovanović" np cog ma sg voc SELECT:159:CogNomF 
 "<.>"
 	"." sent 
 
@@ -1809,9 +1809,9 @@
 "<Ona>"
 	"Onaj" prn dem f sg nom 
 	"Free" prn pers p3 f sg nom 
-;	"Onaj" prn dem nt pl nom REMOVE:161 
-;	"Free" prn pers p3 nt pl nom REMOVE:161 
-;	"Onaj" prn dem nt pl acc REMOVE:217:notAcc 
+;	"Onaj" prn dem nt pl nom REMOVE:173 
+;	"Free" prn pers p3 nt pl nom REMOVE:173 
+;	"Onaj" prn dem nt pl acc REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<međutim>"
@@ -1824,7 +1824,7 @@
 	"da" cnjsub 
 	"da" part 
 	"davati" vblex imperf iv pres p3 sg 
-;	"davati" vblex imperf tv pres p3 sg REMOVE:244 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
 "<i>"
 	"i" cnjcoo 
 "<sama>"
@@ -1833,18 +1833,18 @@
 	"sam" adj f sg nom def 
 	"sam" adj ma sg gen ind 
 	"sam" adj mi sg gen ind 
-;	"sam" adj nt pl nom ind REMOVE:161 
-;	"sam" adj nt pl nom def REMOVE:161 
-;	"sam" adj nt pl voc ind REMOVE:191:notVoc 
-;	"sam" adj nt pl voc def REMOVE:191:notVoc 
-;	"sam" adj f sg voc ind REMOVE:191:notVoc 
-;	"sam" adj f sg voc def REMOVE:191:notVoc 
-;	"sam" adj nt pl acc ind REMOVE:217:notAcc 
-;	"sam" adj nt pl acc def REMOVE:217:notAcc 
-;	"sam" adj ma sg acc ind REMOVE:217:notAcc 
+;	"sam" adj nt pl nom ind REMOVE:173 
+;	"sam" adj nt pl nom def REMOVE:173 
+;	"sam" adj nt pl voc ind REMOVE:203:notVoc 
+;	"sam" adj nt pl voc def REMOVE:203:notVoc 
+;	"sam" adj f sg voc ind REMOVE:203:notVoc 
+;	"sam" adj f sg voc def REMOVE:203:notVoc 
+;	"sam" adj nt pl acc ind REMOVE:228:notAcc 
+;	"sam" adj nt pl acc def REMOVE:228:notAcc 
+;	"sam" adj ma sg acc ind REMOVE:228:notAcc 
 "<ima>"
 	"imati" vbhaver imperf tv pres p3 sg 
-;	"imati" vbhaver imperf ref pres p3 sg REMOVE:225 
+;	"imati" vbhaver imperf ref pres p3 sg REMOVE:236 
 "<tremu>"
 	"trema" n f sg acc 
 "<.>"
@@ -1869,57 +1869,57 @@
 "<o>"
 	"o" pr 
 "<čemu>"
-	"što" prn rel mfn sp loc SELECT:211:Pr-Loc 
-;	"što" prn itg mfn sp dat SELECT:211:Pr-Loc 
-;	"što" prn rel mfn sp dat SELECT:211:Pr-Loc 
-;	"što" prn itg mfn sp loc SELECT:211:Pr-Loc REMOVE:253 
+	"što" prn rel mfn sp loc SELECT:222:Pr-Loc 
+;	"što" prn itg mfn sp dat SELECT:222:Pr-Loc 
+;	"što" prn rel mfn sp dat SELECT:222:Pr-Loc 
+;	"što" prn itg mfn sp loc SELECT:222:Pr-Loc REMOVE:272 
 "<mislim>"
 	"misliti" vblex imperf iv pres p1 sg 
 "<jest>"
 	"biti" vbser pres p3 sg 
 "<da>"
-	"da" cnjsub 
-	"da" part 
-	"davati" vblex imperf iv pres p3 sg 
-;	"davati" vblex imperf tv pres p3 sg REMOVE:244 
+	"da" part SELECT:270:daPart 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
+;	"da" cnjsub SELECT:270:daPart 
+;	"davati" vblex imperf iv pres p3 sg SELECT:270:daPart 
 "<trebam>"
 	"trebati" vbmod imperf tv pres p1 sg 
 "<učiniti>"
 	"učiniti" vblex perf tv inf 
-;	"učiniti" vblex perf ref inf REMOVE:225 
+;	"učiniti" vblex perf ref inf REMOVE:236 
 "<najbolje>"
-	"dobar" adj sup ma pl acc SELECT:189 
-	"dobar" adj sup mi pl acc SELECT:189 
-	"dobar" adj sup f pl acc SELECT:189 
-	"dobar" adj sup nt sg acc SELECT:189 
-;	"dobar" adj sup f pl voc REMOVE:191:notVoc 
-;	"dobar" adj sup nt sg voc REMOVE:191:notVoc 
-;	"dobar" adj sup f pl nom SELECT:189 
-;	"dobar" adj sup f sg gen SELECT:189 
-;	"dobar" adj sup nt sg nom SELECT:189 
-;	"dobro" adv sup SELECT:189 
+	"dobar" adj sup ma pl acc SELECT:201:tvAcc 
+	"dobar" adj sup mi pl acc SELECT:201:tvAcc 
+	"dobar" adj sup f pl acc SELECT:201:tvAcc 
+	"dobar" adj sup nt sg acc SELECT:201:tvAcc 
+;	"dobar" adj sup f pl voc REMOVE:203:notVoc 
+;	"dobar" adj sup nt sg voc REMOVE:203:notVoc 
+;	"dobar" adj sup f pl nom SELECT:201:tvAcc 
+;	"dobar" adj sup f sg gen SELECT:201:tvAcc 
+;	"dobar" adj sup nt sg nom SELECT:201:tvAcc 
+;	"dobro" adv sup SELECT:201:tvAcc 
 "<što>"
-	"koji" prn rel nt sg nom SELECT:187 
-	"koji" prn rel nt pl nom SELECT:187 
-	"koji" prn rel f sg nom SELECT:187 
-	"koji" prn rel f pl nom SELECT:187 
-	"koji" prn rel ma sg nom SELECT:187 
-	"koji" prn rel ma pl nom SELECT:187 
-	"koji" prn rel mi sg nom SELECT:187 
-	"koji" prn rel mi pl nom SELECT:187 
-;	"što" prn itg mfn sp nom REMOVE:161 
-;	"što" prn rel mfn sp nom REMOVE:161 
-;	"što" cnjsub SELECT:187 
-;	"što" prn itg mfn sp acc SELECT:187 
-;	"što" prn rel mfn sp acc SELECT:187 
-;	"koji" prn itg nt sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg nt pl nom SELECT:187 REMOVE:253 
-;	"koji" prn itg f sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg f pl nom SELECT:187 REMOVE:253 
-;	"koji" prn itg ma sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg ma pl nom SELECT:187 REMOVE:253 
-;	"koji" prn itg mi sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg mi pl nom SELECT:187 REMOVE:253 
+	"što" prn rel mfn sp acc SELECT:221:Pr-Acc 
+;	"što" prn itg mfn sp nom REMOVE:173 
+;	"što" prn rel mfn sp nom REMOVE:173 
+;	"što" prn itg mfn sp acc REMOVE:272 
+;	"koji" prn itg nt sg nom REMOVE:272 
+;	"koji" prn itg nt pl nom REMOVE:272 
+;	"koji" prn itg f sg nom REMOVE:272 
+;	"koji" prn itg f pl nom REMOVE:272 
+;	"koji" prn itg ma sg nom REMOVE:272 
+;	"koji" prn itg ma pl nom REMOVE:272 
+;	"koji" prn itg mi sg nom REMOVE:272 
+;	"koji" prn itg mi pl nom REMOVE:272 
+;	"što" cnjsub SELECT:221:Pr-Acc 
+;	"koji" prn rel nt sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel nt pl nom SELECT:221:Pr-Acc 
+;	"koji" prn rel f sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel f pl nom SELECT:221:Pr-Acc 
+;	"koji" prn rel ma sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel ma pl nom SELECT:221:Pr-Acc 
+;	"koji" prn rel mi sg nom SELECT:221:Pr-Acc 
+;	"koji" prn rel mi pl nom SELECT:221:Pr-Acc 
 "<mogu>"
 	"moći" vbmod imperf iv pres p1 sg 
 	"moći" vbmod imperf iv pres p3 pl 
@@ -1929,8 +1929,8 @@
 	"." sent 
 
 "<Trema>"
-	"Trema" n f sg nom SELECT:184:BOS-Nom-Viv 
-;	"Trema" n f pl gen SELECT:184:BOS-Nom-Viv 
+	"Trema" n f sg nom SELECT:196:BOS-Nom-Viv 
+;	"Trema" n f pl gen SELECT:196:BOS-Nom-Viv 
 "<nestane>"
 	"nestati" vblex perf iv pres p3 sg 
 "<;>"
@@ -1942,7 +1942,7 @@
 	"," cm 
 "<Super Galeb>"
 	"Super Galeb" np al mi sg nom 
-;	"Super Galeb" np al mi sg acc REMOVE:217:notAcc 
+;	"Super Galeb" np al mi sg acc REMOVE:228:notAcc 
 "<i>"
 	"i" cnjcoo 
 "<ja>"
@@ -1952,13 +1952,13 @@
 
 "<Radim>"
 	"Raditi" vblex imperf iv pres p1 sg 
-;	"Raditi" vblex imperf tv pres p1 sg REMOVE:244 
+;	"Raditi" vblex imperf tv pres p1 sg REMOVE:263 
 "<na>"
 	"na" pr 
 "<manevrima>"
-	"manevar" n ma pl loc SELECT:211:Pr-Loc 
-;	"manevar" n ma pl dat SELECT:211:Pr-Loc 
-;	"manevar" n ma pl ins SELECT:211:Pr-Loc 
+	"manevar" n ma pl loc SELECT:222:Pr-Loc 
+;	"manevar" n ma pl dat SELECT:222:Pr-Loc 
+;	"manevar" n ma pl ins SELECT:222:Pr-Loc 
 "<i>"
 	"i" cnjcoo 
 "<mislim>"
@@ -1966,9 +1966,9 @@
 "<na>"
 	"na" pr 
 "<slijetanje>"
-	"slijeetanje" n nt sg acc SELECT:210:Pr-Acc 
-;	"slijeetanje" n nt sg voc REMOVE:191:notVoc 
-;	"slijeetanje" n nt sg nom SELECT:210:Pr-Acc 
+	"slijeetanje" n nt sg acc SELECT:221:Pr-Acc 
+;	"slijeetanje" n nt sg voc REMOVE:203:notVoc 
+;	"slijeetanje" n nt sg nom SELECT:221:Pr-Acc 
 "<.>"
 	"." sent 
 
@@ -1978,32 +1978,32 @@
 "<Kapetan>"
 	"Kapetan" n ma sg nom 
 "<Nikola>"
-	"Nikola" np ant ma sg nom 
-	"Nikola" np ant ma pl gen 
-;	"Nikola" np ant ma sg voc REMOVE:191:notVoc 
+	"Nikola" np ant ma sg nom SELECT:187:GenNumNext 
+;	"Nikola" np ant ma pl gen SELECT:187:GenNumNext 
+;	"Nikola" np ant ma sg voc SELECT:187:GenNumNext REMOVE:203:notVoc 
 "<Stanković>"
-	"Stanković" np cog f sg nom 
-	"Stanković" np cog f sg gen 
-	"Stanković" np cog f pl gen 
-	"Stanković" np cog ma sg nom 
-;	"Stanković" np cog f sg dat REMOVE:154 
-;	"Stanković" np cog f sg acc REMOVE:154 
-;	"Stanković" np cog f sg loc REMOVE:154 
-;	"Stanković" np cog f sg ins REMOVE:154 
-;	"Stanković" np cog f pl dat REMOVE:154 
-;	"Stanković" np cog f pl acc REMOVE:154 
-;	"Stanković" np cog f pl loc REMOVE:154 
-;	"Stanković" np cog f pl ins REMOVE:154 
-;	"Stanković" np cog f pl nom REMOVE:161 
-;	"Stanković" np cog f sg voc REMOVE:191:notVoc 
-;	"Stanković" np cog f pl voc REMOVE:191:notVoc 
-;	"Stanković" np cog ma sg voc REMOVE:191:notVoc 
+	"Stanković" np cog ma sg nom SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg nom SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg gen SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg dat SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg acc SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg loc SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg ins SELECT:150:Ant-Cog 
+;	"Stanković" np cog f sg voc SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl nom SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl gen SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl dat SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl acc SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl loc SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl ins SELECT:150:Ant-Cog 
+;	"Stanković" np cog f pl voc SELECT:150:Ant-Cog 
+;	"Stanković" np cog ma sg voc SELECT:150:Ant-Cog REMOVE:203:notVoc 
 "<uvijek>"
 	"uvijeek" adv 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<s>"
 	"s" pr 
 "<tih>"
@@ -2014,18 +2014,18 @@
 "<devetoro>"
 	"devetoro" num coll ma sg nom 
 "<mladih>"
-	"mlad" adj pst ma pl gen ind SELECT:175:RodBrojSlj 
-	"mlad" adj pst ma pl gen def SELECT:175:RodBrojSlj 
-;	"mlad" adj pst mi pl gen ind SELECT:175:RodBrojSlj 
-;	"mlad" adj pst mi pl gen def SELECT:175:RodBrojSlj 
-;	"mlad" adj pst f pl gen ind SELECT:175:RodBrojSlj 
-;	"mlad" adj pst f pl gen def SELECT:175:RodBrojSlj 
-;	"mlad" adj pst nt pl gen ind SELECT:175:RodBrojSlj 
-;	"mlad" adj pst nt pl gen def SELECT:175:RodBrojSlj 
+	"mlad" adj pst ma pl gen ind SELECT:187:GenNumNext 
+	"mlad" adj pst ma pl gen def SELECT:187:GenNumNext 
+;	"mlad" adj pst mi pl gen ind SELECT:187:GenNumNext 
+;	"mlad" adj pst mi pl gen def SELECT:187:GenNumNext 
+;	"mlad" adj pst f pl gen ind SELECT:187:GenNumNext 
+;	"mlad" adj pst f pl gen def SELECT:187:GenNumNext 
+;	"mlad" adj pst nt pl gen ind SELECT:187:GenNumNext 
+;	"mlad" adj pst nt pl gen def SELECT:187:GenNumNext 
 "<pilota>"
-	"pilot" n ma pl gen SELECT:187 
-;	"pilot" n ma sg gen SELECT:187 
-;	"pilot" n ma sg acc SELECT:187 
+	"pilot" n ma pl gen SELECT:199:AtrrNum->NNum 
+;	"pilot" n ma sg gen SELECT:199:AtrrNum->NNum 
+;	"pilot" n ma sg acc SELECT:199:AtrrNum->NNum 
 "<.>"
 	"." sent 
 
@@ -2039,39 +2039,39 @@
 "<su>"
 	"biti" vbser clt pres p3 pl 
 "<vrijedni>"
-	"vrijeedan" adj pst ma sg nom def 
 	"vrijeedan" adj pst ma sg voc ind 
 	"vrijeedan" adj pst ma sg voc def 
 	"vrijeedan" adj pst ma pl nom ind 
 	"vrijeedan" adj pst ma pl nom def 
 	"vrijeedan" adj pst ma pl voc ind 
 	"vrijeedan" adj pst ma pl voc def 
-	"vrijeedan" adj pst mi sg nom def 
 	"vrijeedan" adj pst mi sg voc ind 
 	"vrijeedan" adj pst mi sg voc def 
 	"vrijeedan" adj pst mi pl nom ind 
 	"vrijeedan" adj pst mi pl nom def 
 	"vrijeedan" adj pst mi pl voc ind 
 	"vrijeedan" adj pst mi pl voc def 
-;	"vrijeedan" adj pst mi sg acc def REMOVE:217:notAcc 
+;	"vrijeedan" adj pst mi sg acc def REMOVE:228:notAcc 
+;	"vrijeedan" adj pst ma sg nom def REMOVE:173 
+;	"vrijeedan" adj pst mi sg nom def REMOVE:173 
 "<,>"
 	"," cm 
 "<motivirani>"
 	"motiviran" adj pst ma sg voc ind 
 	"motiviran" adj pst ma sg voc def 
-	"motiviran" adj pst ma sg nom def 
 	"motiviran" adj pst ma pl voc ind 
 	"motiviran" adj pst ma pl voc def 
 	"motiviran" adj pst ma pl nom ind 
 	"motiviran" adj pst ma pl nom def 
 	"motiviran" adj pst mi sg voc ind 
 	"motiviran" adj pst mi sg voc def 
-	"motiviran" adj pst mi sg nom def 
 	"motiviran" adj pst mi pl voc ind 
 	"motiviran" adj pst mi pl voc def 
 	"motiviran" adj pst mi pl nom ind 
 	"motiviran" adj pst mi pl nom def 
-;	"motiviran" adj pst mi sg acc def REMOVE:217:notAcc 
+;	"motiviran" adj pst mi sg acc def REMOVE:228:notAcc 
+;	"motiviran" adj pst ma sg nom def REMOVE:173 
+;	"motiviran" adj pst mi sg nom def REMOVE:173 
 "<,>"
 	"," cm 
 "<ne>"
@@ -2080,19 +2080,19 @@
 "<morate>"
 	"morati" vbmod imperf tv pres p2 pl 
 "<ih>"
-	"clitic" prn pers clt p3 mfn pl acc SELECT:189 
-;	"ih" ij SELECT:189 
-;	"clitic" prn pers clt p3 mfn pl gen SELECT:189 
+	"clitic" prn pers clt p3 mfn pl acc SELECT:201:tvAcc 
+;	"ih" ij SELECT:201:tvAcc 
+;	"clitic" prn pers clt p3 mfn pl gen SELECT:201:tvAcc 
 "<tjerati>"
 	"tjeerati" vblex imperf tv inf 
 "<da>"
-	"da" cnjsub 
-	"da" part 
-	"davati" vblex imperf iv pres p3 sg 
-;	"davati" vblex imperf tv pres p3 sg REMOVE:244 
+	"da" part SELECT:270:daPart 
+;	"davati" vblex imperf tv pres p3 sg REMOVE:263 
+;	"da" cnjsub SELECT:270:daPart 
+;	"davati" vblex imperf iv pres p3 sg SELECT:270:daPart 
 "<uče>"
 	"učiti" vblex imperf tv pres p3 pl 
-;	"učiti" vblex imperf ref pres p3 pl REMOVE:225 
+;	"učiti" vblex imperf ref pres p3 pl REMOVE:236 
 "<,>"
 	"," cm 
 "<ali>"
@@ -2108,10 +2108,10 @@
 	"dobar" adj pst nt sg nom ind 
 	"dobar" adj pst nt sg nom def 
 	"dobro" adv 
-;	"dobar" adj pst nt sg voc ind REMOVE:191:notVoc 
-;	"dobar" adj pst nt sg voc def REMOVE:191:notVoc 
-;	"dobar" adj pst nt sg acc ind REMOVE:217:notAcc 
-;	"dobar" adj pst nt sg acc def REMOVE:217:notAcc 
+;	"dobar" adj pst nt sg voc ind REMOVE:203:notVoc 
+;	"dobar" adj pst nt sg voc def REMOVE:203:notVoc 
+;	"dobar" adj pst nt sg acc ind REMOVE:228:notAcc 
+;	"dobar" adj pst nt sg acc def REMOVE:228:notAcc 
 "<uvježbani>"
 	"uvjeežbati" vblex perf tv pp mfn pl 
 	"uvjeežbati" vblex perf tv pp m pl 
@@ -2121,61 +2121,61 @@
 "<Bilježimo>"
 	"Bieljeežiti" vblex imperf tv pres p1 pl 
 	"Bieljeežiti" vblex imperf tv imp p1 pl 
-;	"Bieljeežiti" vblex imperf ref pres p1 pl REMOVE:225 
-;	"Bieljeežiti" vblex imperf ref imp p1 pl REMOVE:225 
+;	"Bieljeežiti" vblex imperf ref pres p1 pl REMOVE:236 
+;	"Bieljeežiti" vblex imperf ref imp p1 pl REMOVE:236 
 "<sve>"
-	"sve" prn tot mfn pl acc SELECT:189 
-	"sve" prn tot nt sg acc SELECT:189 
-	"sve" prn tot f pl acc SELECT:189 
-	"sve" prn tot ma pl acc SELECT:189 
-	"sve" prn tot mi pl acc SELECT:189 
-;	"sve" prn tot nt sg nom SELECT:189 
-;	"sve" prn tot f sg gen SELECT:189 
-;	"sve" prn tot f pl nom SELECT:189 
+	"sve" prn tot mfn pl acc SELECT:201:tvAcc 
+	"sve" prn tot nt sg acc SELECT:201:tvAcc 
+	"sve" prn tot f pl acc SELECT:201:tvAcc 
+	"sve" prn tot ma pl acc SELECT:201:tvAcc 
+	"sve" prn tot mi pl acc SELECT:201:tvAcc 
+;	"sve" prn tot nt sg nom SELECT:201:tvAcc 
+;	"sve" prn tot f sg gen SELECT:201:tvAcc 
+;	"sve" prn tot f pl nom SELECT:201:tvAcc 
 "<što>"
-	"koji" prn rel nt sg nom SELECT:187 
-	"koji" prn rel f sg nom SELECT:187 
-	"koji" prn rel ma sg nom SELECT:187 
-	"koji" prn rel mi sg nom SELECT:187 
-;	"što" prn itg mfn sp nom REMOVE:161 
-;	"što" prn rel mfn sp nom REMOVE:161 
-;	"što" cnjsub SELECT:187 
-;	"što" prn itg mfn sp acc SELECT:187 
-;	"što" prn rel mfn sp acc SELECT:187 
-;	"koji" prn itg nt pl nom SELECT:187 
-;	"koji" prn itg f pl nom SELECT:187 
-;	"koji" prn itg ma pl nom SELECT:187 
-;	"koji" prn itg mi pl nom SELECT:187 
-;	"koji" prn rel nt pl nom SELECT:187 
-;	"koji" prn rel f pl nom SELECT:187 
-;	"koji" prn rel ma pl nom SELECT:187 
-;	"koji" prn rel mi pl nom SELECT:187 
-;	"koji" prn itg nt sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg f sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg ma sg nom SELECT:187 REMOVE:253 
-;	"koji" prn itg mi sg nom SELECT:187 REMOVE:253 
+	"što" cnjsub 
+	"koji" prn rel nt sg nom 
+	"koji" prn rel nt pl nom 
+	"koji" prn rel f sg nom 
+	"koji" prn rel f pl nom 
+	"koji" prn rel ma sg nom 
+	"koji" prn rel ma pl nom 
+	"koji" prn rel mi sg nom 
+	"koji" prn rel mi pl nom 
+;	"što" prn itg mfn sp nom REMOVE:173 
+;	"što" prn rel mfn sp nom REMOVE:173 
+;	"što" prn itg mfn sp acc REMOVE:228:notAcc 
+;	"što" prn rel mfn sp acc REMOVE:228:notAcc 
+;	"koji" prn itg nt sg nom REMOVE:272 
+;	"koji" prn itg nt pl nom REMOVE:272 
+;	"koji" prn itg f sg nom REMOVE:272 
+;	"koji" prn itg f pl nom REMOVE:272 
+;	"koji" prn itg ma sg nom REMOVE:272 
+;	"koji" prn itg ma pl nom REMOVE:272 
+;	"koji" prn itg mi sg nom REMOVE:272 
+;	"koji" prn itg mi pl nom REMOVE:272 
 "<rade>"
 	"raditi" vblex imperf iv pres p3 pl 
-;	"raditi" vblex imperf tv pres p3 pl REMOVE:244 
+;	"raditi" vblex imperf tv pres p3 pl REMOVE:263 
 "<;>"
 	";" sent 
 "<imamo>"
 	"imati" vbhaver imperf tv pres p1 pl 
-;	"imati" vbhaver imperf ref pres p1 pl REMOVE:225 
+;	"imati" vbhaver imperf ref pres p1 pl REMOVE:236 
 "<prijateljski>"
-	"prijateljski" adj pst mi sg acc def SELECT:175:RodBrojSlj SELECT:189 
-;	"prijateljski" adv SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst ma sg nom def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst ma sg voc def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst ma pl nom def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst ma pl voc def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst mi pl nom def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst mi pl voc def SELECT:175:RodBrojSlj 
-;	"prijateljski" adj pst mi sg voc def SELECT:175:RodBrojSlj REMOVE:191:notVoc 
-;	"prijateljski" adj pst mi sg nom def SELECT:175:RodBrojSlj SELECT:189 
+	"prijateljski" adj pst mi sg acc def SELECT:187:GenNumNext SELECT:201:tvAcc 
+;	"prijateljski" adv SELECT:187:GenNumNext 
+;	"prijateljski" adj pst ma sg nom def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst ma sg voc def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst ma pl nom def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst ma pl voc def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst mi pl nom def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst mi pl voc def SELECT:187:GenNumNext 
+;	"prijateljski" adj pst mi sg voc def SELECT:187:GenNumNext REMOVE:203:notVoc 
+;	"prijateljski" adj pst mi sg nom def SELECT:187:GenNumNext SELECT:201:tvAcc 
 "<odnos>"
-	"odnos" n mi sg acc SELECT:210:Pr-Acc 
-;	"odnos" n mi sg nom SELECT:210:Pr-Acc 
+	"odnos" n mi sg acc SELECT:221:Pr-Acc 
+;	"odnos" n mi sg nom SELECT:221:Pr-Acc 
 "<,>"
 	"," cm 
 "<oni>"
@@ -2192,30 +2192,30 @@
 "<kolege>"
 	"kolega" n ma sg gen 
 	"kolega" n ma pl voc 
-;	"kolega" n ma pl nom REMOVE:161 
-;	"kolega" n ma pl acc REMOVE:217:notAcc 
+;	"kolega" n ma pl nom REMOVE:173 
+;	"kolega" n ma pl acc REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<kaže>"
-	"kazati" vblex perf iv pres p3 sg SELECT:199 
-;	"kazati" vblex perf tv pres p3 sg SELECT:199 
+	"kazati" vblex perf iv pres p3 sg SELECT:210 
+;	"kazati" vblex perf tv pres p3 sg SELECT:210 
 "<Stanković>"
-	"Stanković" np cog f sg nom 
-	"Stanković" np cog f sg gen 
-	"Stanković" np cog f sg loc 
-	"Stanković" np cog f sg ins 
-	"Stanković" np cog f pl nom 
-	"Stanković" np cog f pl gen 
-	"Stanković" np cog f pl loc 
-	"Stanković" np cog f pl ins 
-	"Stanković" np cog ma sg nom 
-;	"Stanković" np cog f sg voc REMOVE:191:notVoc 
-;	"Stanković" np cog f pl voc REMOVE:191:notVoc 
-;	"Stanković" np cog ma sg voc REMOVE:191:notVoc 
-;	"Stanković" np cog f sg dat REMOVE:214 
-;	"Stanković" np cog f pl dat REMOVE:214 
-;	"Stanković" np cog f sg acc REMOVE:217:notAcc 
-;	"Stanković" np cog f pl acc REMOVE:217:notAcc 
+	"Stanković" np cog f sg nom SELECT:159:CogNomF 
+	"Stanković" np cog ma sg nom SELECT:159:CogNomF 
+;	"Stanković" np cog f pl nom REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl gen REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl dat REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl acc REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl loc REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl ins REMOVE:157:np-noPl 
+;	"Stanković" np cog f pl voc REMOVE:157:np-noPl 
+;	"Stanković" np cog f sg gen SELECT:159:CogNomF 
+;	"Stanković" np cog f sg dat SELECT:159:CogNomF 
+;	"Stanković" np cog f sg acc SELECT:159:CogNomF 
+;	"Stanković" np cog f sg loc SELECT:159:CogNomF 
+;	"Stanković" np cog f sg ins SELECT:159:CogNomF 
+;	"Stanković" np cog f sg voc SELECT:159:CogNomF 
+;	"Stanković" np cog ma sg voc SELECT:159:CogNomF 
 "<.>"
 	"." sent 
 
@@ -2224,16 +2224,16 @@
 
 "<Vojna>"
 	"Vojni" adj pst f sg nom def 
-;	"Vojni" adj pst nt pl nom def REMOVE:161 
-;	"Vojni" adj pst nt pl voc def REMOVE:191:notVoc 
-;	"Vojni" adj pst f sg voc def REMOVE:191:notVoc 
-;	"Vojni" adj pst nt pl acc def REMOVE:217:notAcc 
+;	"Vojni" adj pst nt pl nom def REMOVE:173 
+;	"Vojni" adj pst nt pl voc def REMOVE:203:notVoc 
+;	"Vojni" adj pst f sg voc def REMOVE:203:notVoc 
+;	"Vojni" adj pst nt pl acc def REMOVE:228:notAcc 
 "<akademija>"
-	"akademija" n f sg nom SELECT:187 
-;	"akademija" n f pl gen SELECT:187 
+	"akademija" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"akademija" n f pl gen SELECT:199:AtrrNum->NNum 
 "<ima>"
 	"imati" vbhaver imperf tv pres p3 sg 
-;	"imati" vbhaver imperf ref pres p3 sg REMOVE:225 
+;	"imati" vbhaver imperf ref pres p3 sg REMOVE:236 
 "<160>"
 	"160" num 
 "<->"
@@ -2241,8 +2241,8 @@
 "<godišnju>"
 	"godišnji" adj pst f sg acc def 
 "<povijest>"
-	"povijeest" n f sg acc SELECT:210:Pr-Acc 
-;	"povijeest" n f sg nom SELECT:210:Pr-Acc 
+	"povijeest" n f sg acc SELECT:221:Pr-Acc 
+;	"povijeest" n f sg nom SELECT:221:Pr-Acc 
 "<->"
 	"-" guio 
 "<->"
@@ -2252,68 +2252,68 @@
 "<sve>"
 	"sve" prn tot nt sg nom 
 	"sve" prn tot f sg gen 
-;	"sve" prn tot f pl nom REMOVE:161 
-;	"sve" prn tot mfn pl acc REMOVE:217:notAcc 
-;	"sve" prn tot nt sg acc REMOVE:217:notAcc 
-;	"sve" prn tot f pl acc REMOVE:217:notAcc 
-;	"sve" prn tot ma pl acc REMOVE:217:notAcc 
-;	"sve" prn tot mi pl acc REMOVE:217:notAcc 
+;	"sve" prn tot f pl nom REMOVE:173 
+;	"sve" prn tot mfn pl acc REMOVE:228:notAcc 
+;	"sve" prn tot nt sg acc REMOVE:228:notAcc 
+;	"sve" prn tot f pl acc REMOVE:228:notAcc 
+;	"sve" prn tot ma pl acc REMOVE:228:notAcc 
+;	"sve" prn tot mi pl acc REMOVE:228:notAcc 
 "<je>"
 	"biti" vbser clt pres p3 sg 
-;	"clitic" prn pers clt p3 f sg acc REMOVE:217:notAcc 
-;	"clitic" prn pers clt p3 f sg gen REMOVE:235 
+;	"clitic" prn pers clt p3 f sg acc REMOVE:228:notAcc 
+;	"clitic" prn pers clt p3 f sg gen REMOVE:246:notVBHaver 
 "<veće>"
-	"velik" adj comp nt sg nom SELECT:175:RodBrojSlj 
-;	"velik" adj comp ma pl acc SELECT:175:RodBrojSlj 
-;	"velik" adj comp mi pl acc SELECT:175:RodBrojSlj 
-;	"velik" adj comp f pl nom SELECT:175:RodBrojSlj 
-;	"velik" adj comp f pl acc SELECT:175:RodBrojSlj 
-;	"velik" adj comp f pl voc SELECT:175:RodBrojSlj 
-;	"velik" adj comp f sg gen SELECT:175:RodBrojSlj 
-;	"veliko" adv comp SELECT:175:RodBrojSlj 
-;	"velik" adj comp nt sg acc SELECT:175:RodBrojSlj REMOVE:217:notAcc 
-;	"velik" adj comp nt sg voc SELECT:175:RodBrojSlj REMOVE:191:notVoc 
+	"velik" adj comp nt sg nom SELECT:187:GenNumNext 
+;	"velik" adj comp ma pl acc SELECT:187:GenNumNext 
+;	"velik" adj comp mi pl acc SELECT:187:GenNumNext 
+;	"velik" adj comp f pl nom SELECT:187:GenNumNext 
+;	"velik" adj comp f pl acc SELECT:187:GenNumNext 
+;	"velik" adj comp f pl voc SELECT:187:GenNumNext 
+;	"velik" adj comp f sg gen SELECT:187:GenNumNext 
+;	"veliko" adv comp SELECT:187:GenNumNext 
+;	"velik" adj comp nt sg acc SELECT:187:GenNumNext REMOVE:228:notAcc 
+;	"velik" adj comp nt sg voc SELECT:187:GenNumNext REMOVE:203:notVoc 
 "<zanimanje>"
 	"zanimanje" n nt sg nom 
-;	"zanimanje" n nt sg voc REMOVE:191:notVoc 
-;	"zanimanje" n nt sg acc REMOVE:217:notAcc 
+;	"zanimanje" n nt sg voc REMOVE:203:notVoc 
+;	"zanimanje" n nt sg acc REMOVE:228:notAcc 
 "<kandidata>"
 	"kandidat" n ma sg gen 
 	"kandidat" n ma pl gen 
-;	"kandidat" n ma sg acc REMOVE:217:notAcc 
+;	"kandidat" n ma sg acc REMOVE:228:notAcc 
 "<za>"
 	"za" pr 
 "<upis>"
-	"upis" n mi sg acc SELECT:210:Pr-Acc 
-;	"upis" n mi sg nom SELECT:210:Pr-Acc 
+	"upis" n mi sg acc SELECT:221:Pr-Acc 
+;	"upis" n mi sg nom SELECT:221:Pr-Acc 
 "<.>"
 	"." sent 
 
 "<Prošle>"
-	"Proći" vblex imperf ref lp f pl SELECT:229 
-	"Proći" vblex imperf ref opt f pl SELECT:229 
-;	"Proći" vblex imperf iv lp f pl SELECT:229 
-;	"Proći" vblex imperf iv opt f pl SELECT:229 
-;	"Proći" vblex imperf tv lp f pl SELECT:229 
-;	"Proći" vblex imperf tv opt f pl SELECT:229 
+	"Proći" vblex imperf ref lp f pl SELECT:240 
+	"Proći" vblex imperf ref opt f pl SELECT:240 
+;	"Proći" vblex imperf iv lp f pl SELECT:240 
+;	"Proći" vblex imperf iv opt f pl SELECT:240 
+;	"Proći" vblex imperf tv lp f pl SELECT:240 
+;	"Proći" vblex imperf tv opt f pl SELECT:240 
 "<se>"
 	"clitic" prn ref pers mfn sp acc 
 "<godine>"
 	"godina" n f sg gen 
 	"godina" n f pl nom 
-;	"godina" n f pl voc REMOVE:191:notVoc 
-;	"godina" n f pl acc REMOVE:217:notAcc 
+;	"godina" n f pl voc REMOVE:203:notVoc 
+;	"godina" n f pl acc REMOVE:228:notAcc 
 "<1.259>"
 	"1.259" num 
 "<kandidata>"
 	"kandidat" n ma sg gen 
 	"kandidat" n ma pl gen 
-;	"kandidat" n ma sg acc REMOVE:217:notAcc 
+;	"kandidat" n ma sg acc REMOVE:228:notAcc 
 "<prijavilo>"
 	"prijaviti" vblex perf ref lp nt sg 
 	"prijaviti" vblex perf ref opt nt sg 
-;	"prijaviti" vblex perf tv lp nt sg REMOVE:244 
-;	"prijaviti" vblex perf tv opt nt sg REMOVE:244 
+;	"prijaviti" vblex perf tv lp nt sg REMOVE:263 
+;	"prijaviti" vblex perf tv opt nt sg REMOVE:263 
 "<za>"
 	"za" pr 
 "<244>"
@@ -2322,8 +2322,8 @@
 	"mjeesto" n nt sg gen 
 	"mjeesto" n nt pl nom 
 	"mjeesto" n nt pl gen 
-;	"mjeesto" n nt pl voc REMOVE:191:notVoc 
-;	"mjeesto" n nt pl acc REMOVE:217:notAcc 
+;	"mjeesto" n nt pl voc REMOVE:203:notVoc 
+;	"mjeesto" n nt pl acc REMOVE:228:notAcc 
 "<.>"
 	"." sent 
 
@@ -2338,7 +2338,7 @@
 	"godina" n f sg gen 
 	"godina" n f pl nom 
 	"godina" n f pl voc 
-;	"godina" n f pl acc REMOVE:217:notAcc 
+;	"godina" n f pl acc REMOVE:228:notAcc 
 "<,>"
 	"," cm 
 "<kada>"
@@ -2351,53 +2351,53 @@
 	"primiti" vblex perf tv pp m pl 
 "<Sandra>"
 	"Sandra" np ant f sg nom 
-	"Sandra" np ant f pl gen 
+;	"Sandra" np ant f pl gen REMOVE:157:np-noPl 
 "<,>"
 	"," cm 
 "<Ana>"
 	"Ana" np ant f sg nom 
-	"Ana" np ant f pl gen 
+;	"Ana" np ant f pl gen REMOVE:157:np-noPl 
 "<i>"
 	"i" cnjcoo 
 "<Anja>"
 	"Anja" np ant f sg nom 
-	"Anja" np ant f pl gen 
+;	"Anja" np ant f pl gen REMOVE:157:np-noPl 
 "<,>"
 	"," cm 
 "<niti>"
 	"niti" cnjcoo 
 "<jedna>"
 	"jedan" num f sg nom 
-;	"jedan" num nt pl nom REMOVE:161 
-;	"jedan" num nt pl nom REMOVE:161 
-;	"jedan" num nt pl acc REMOVE:217:notAcc 
-;	"jedan" num nt pl acc REMOVE:217:notAcc 
-;	"jedan" num nt pl voc REMOVE:191:notVoc 
-;	"jedan" num f sg voc REMOVE:191:notVoc 
-;	"jedan" num nt pl voc REMOVE:191:notVoc 
-;	"jedan" num f sg voc REMOVE:191:notVoc 
+;	"jedan" num nt pl nom REMOVE:173 
+;	"jedan" num nt pl nom REMOVE:173 
+;	"jedan" num nt pl acc REMOVE:228:notAcc 
+;	"jedan" num nt pl acc REMOVE:228:notAcc 
+;	"jedan" num nt pl voc REMOVE:203:notVoc 
+;	"jedan" num f sg voc REMOVE:203:notVoc 
+;	"jedan" num nt pl voc REMOVE:203:notVoc 
+;	"jedan" num f sg voc REMOVE:203:notVoc 
 "<druga>"
-	"drugi" num ord f sg nom SELECT:172 
-;	"drugi" num ord nt pl nom REMOVE:161 
-;	"drugi" num ord nt pl nom REMOVE:161 
-;	"drugi" num ord nt pl acc SELECT:172 
-;	"drugi" num ord nt pl voc SELECT:172 
-;	"drugi" num ord nt pl acc SELECT:172 
-;	"drugi" num ord nt pl voc SELECT:172 
-;	"drugi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
-;	"drugi" num ord f sg voc SELECT:172 REMOVE:191:notVoc 
+	"drugi" num ord f sg nom SELECT:184:NumberGender 
+;	"drugi" num ord nt pl nom REMOVE:173 
+;	"drugi" num ord nt pl nom REMOVE:173 
+;	"drugi" num ord nt pl acc SELECT:184:NumberGender 
+;	"drugi" num ord nt pl voc SELECT:184:NumberGender 
+;	"drugi" num ord nt pl acc SELECT:184:NumberGender 
+;	"drugi" num ord nt pl voc SELECT:184:NumberGender 
+;	"drugi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
+;	"drugi" num ord f sg voc SELECT:184:NumberGender REMOVE:203:notVoc 
 "<žena>"
-	"žena" n f sg nom SELECT:187 
-;	"žena" n f pl gen SELECT:187 
+	"žena" n f sg nom SELECT:199:AtrrNum->NNum 
+;	"žena" n f pl gen SELECT:199:AtrrNum->NNum 
 "<nije>"
 	"ne" part neg +biti vbser clt pres p3 sg 
 "<uspjela>"
-	"uspjeeti" vblex imperf iv lp f sg SELECT:256 
-;	"uspjeeti" vblex imperf iv opt nt pl REMOVE:237 
-;	"uspjeeti" vblex imperf iv opt f sg REMOVE:237 
-;	"uspjeeti" vblex imperf iv opt m pl REMOVE:237 
-;	"uspjeeti" vblex imperf iv lp nt pl SELECT:256 
-;	"uspjeeti" vblex imperf iv lp m pl SELECT:256 
+	"uspjeeti" vblex imperf iv lp f sg 
+;	"uspjeeti" vblex imperf iv opt nt pl REMOVE:252 
+;	"uspjeeti" vblex imperf iv opt f sg REMOVE:252 
+;	"uspjeeti" vblex imperf iv opt m pl REMOVE:252 
+;	"uspjeeti" vblex imperf iv lp nt pl REMOVE:255 
+;	"uspjeeti" vblex imperf iv lp m pl REMOVE:255 
 "<postati>"
 	"postati" vblex perf iv inf 
 "<kadetkinja>"

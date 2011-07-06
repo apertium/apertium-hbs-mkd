@@ -1,3 +1,5 @@
+# Authors: Hrvoje Peradin, Francis Tyers
+# email: hperadin@gmail.com
 # =========================================================================== #
 #    Table of contents                                                        #
 # =========================================================================== #
@@ -108,7 +110,7 @@ SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
 # Categories that can come before the head noun in an NP 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | (DemPron); 
-SET ATTR = A | Num | (DemPron);
+SET ATTR = A | Num | (DemPron) | (prn pos);
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
@@ -149,6 +151,16 @@ SELECT:Ant-Cog $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
 ## SELECT:Ant-Cog $$CASE IF (1C Ant + $$CASE) (0 Cog + $$CASE) ;
     ## The cogname takse the number, gender and case of the name
 
+#REMOVE:Ant-noPl (pl) IF (0 Ant + (pl) + (f) ) (NOT -1 ATTR + (pl));
+#REMOVE:Cog-noPl (pl) IF (0 Cog + (pl) + (f) ) (NOT -1 ATTR + (pl));
+# These two can be generalised to the following, probably:
+REMOVE:np-noPl (pl) IF (0 (np) + (pl) + (f) ) (NOT -1 ATTR + (pl));
+
+SELECT:CogNomF Nom IF 
+    (0 Cog + (f)) 
+    (NOT -1 Ant + ($$Case - Nom))
+    (NOT 1 Ant + ($$Case - Nom));
+
 #REMOVE (pl) IF (0C Nomen)(NOT -1C Nomen + (pl) );
 
 REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
@@ -158,7 +170,7 @@ REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
 #   NP-agreement disambiguation                                               #
 # =========================================================================== #
 
-REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER) ;
+REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER BARRIER EOS) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 #REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
@@ -169,10 +181,10 @@ SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
                          (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + $$GENDER BARRIER S-BOUNDARY) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
                                     
-SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
+SELECT:NumberGender Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
-SELECT:RodBrojSlj $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
+SELECT:GenNumNext $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
 #SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
     
 ## SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
@@ -184,19 +196,18 @@ SELECT:RodBrojSlj $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A 
 SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
 
-SELECT N + $$NUMBER IF (-1 PRE-N + $$NUMBER) ;
+SELECT:AtrrNum->NNum N + $$NUMBER IF (-1 ATTR + $$NUMBER) ;
     
-SELECT Acc IF (-1C V + (tv) );
+SELECT:tvAcc Acc IF (-1C V + (tv) );
 
 REMOVE:notVoc Voc IF (NOT 1 Voc or Cm);
-    ## It's not vocative if it hasn't a separate šphrase
+    ## It's not vocative if it hasn't a separate phrase
 
-SELECT Gen IF (-1 DualNum + Nom);
+SELECT:DualGen Gen IF (-1 DualNum + Nom);
     ## Tri žene
-SELECT $$GENDER IF (1 DualNum + $$GENDER) (0 Num + (ord) );
-    ## Prve tri žene. Prve should be accusative, gender the same as žene.
-    
-SELECT (iv) IF (1 Nom);
+SELECT:OrdDual $$GENDER IF (1 DualNum + $$GENDER) (0 Num + (ord) );
+    ## Prve tri žene. Prve should be accusative, gender the same as žene.    
+SELECT (iv) IF (1C Nom);
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
@@ -229,13 +240,21 @@ REMOVE (ref) IF (NOT -1* (prn ref) BARRIER MARK) (NOT 1* (prn ref) BARRIER MARK)
 SELECT (ref) IF (1C (prn ref));
     ## Okrenut će se
 
-REMOVE PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ; 
+REMOVE:je+lp PRON-CLT (0 PRON-CLT OR V-FIN)  (1C Lp OR Opt) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+REMOVE:notVBHaver PRON-CLT + Gen (0 ("<je>")) (NOT -1 (vbhaver) );
 
 REMOVE PRON-CLT (0 PRON-CLT OR V-FIN) (NOT -1 V + (tv)) (NOT 1* V + (tv) BARRIER MARK);
 
+
+
 REMOVE Opt (0C Lp OR Opt) (-1C V-FIN) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
+
+REMOVE (pl) IF (0 Lp) (-1 (vbser) + (sg) ) ; 
+REMOVE (pl) IF (0 Lp)  (1 (vbser) + (sg) ) ;
+    # This should be extended to some barrier
 
 SELECT (vbser) IF (-1* (lp) );
 SELECT (vbser) IF (1* (lp) BARRIER V - (lp) - (pprs) );
@@ -248,12 +267,14 @@ SELECT (tv) IF (1* Acc BARRIER V);
 #   Sentence level disambiguation                                             #
 # =========================================================================== #
 
-SELECT (part) IF (0 (<"da">) ) (1 V);
+SELECT:daPart (part) IF (0 ("<da>") ) (1 V);
 
 REMOVE (itg) IF (NOT 1* ("<?>") ) (NOT -1* (part itg) ) (NOT 1* (part itg) );
     ## For direct questions
+    ## This is ok, however, the article is not correctly written: "Hoću li biti primljena na akademiju ili ne; ne samo da sam letjela..."
+    ## The ';' here should have been a '?'
 
-SELECT Lp + $$GENDER + $$NUMBER IF
+SELECT:Imalievosubjekt Lp + $$GENDER + $$NUMBER IF
                      (-1C* NP-HEAD + $$GENDER + $$NUMBER BARRIER S-BOUNDARY) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
