@@ -127,7 +127,10 @@
 <sdef n="part" c="Particle"/>
 
 <!--Punctuation-->
-<sdef n="cm" c="Comma"/>
+<sdef n="sent"    c="End of sentence"/>
+<sdef n="cm"      c="Comma"/>
+<sdef n="lpar"    c="Left parenthesis"/>
+<sdef n="rpar"    c="Right parenthesis"/>
 <sdef n="apos" c="Apostrophe"/>
 <sdef n="guio" c="Hypen"/>
 <!--Temporary stuff-->
@@ -20518,6 +20521,17 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <pardef n="cometa">
       <e>        <p><l>'</l><r>'<s n="apos"/></r></p></e>
     </pardef>
+    <pardef n="separa">
+      <e>        <re>[.\?;:!]</re>        <p>          <l/>          <r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e>        <re>[\(\[]</re>        <p>          <l/>          <r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e>        <re>[\)\]]</re>        <p>          <l/>          <r><s n="rpar"/></r></p></e>
+    </pardef>
 
     <pardef n="numeros"><!--TODO: this is just an incomplete sketch, other cases need to be added, possibly just an adjectival paradigm appended at the end-->
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l></l>          <r><s n="num"/></r></p></e>
@@ -32050,8 +32064,14 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Neuter nouns -->
 <!--end Nouns -->
 </section>
+
 <section id="final" type="inconditional">
-<e><par n="coma"/></e>
-<e><par n="guionet"/></e>
+    <e><par n="separa"/></e>
+    <e><par n="numeros"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="cometa"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
+    <e><par n="guionet"/></e>
 </section>
 </dictionary>

@@ -129,7 +129,7 @@ SET NOT-PP-MEMBER = WORDMARK - PP-MEMBER ;
 # Categories which can be the head of a noun phrase
 SET NP-HEAD = N | Pron | Prop ; 
 
-SET S-BOUNDARY = CS | Interr | (n voc) ; 
+SET S-BOUNDARY = CS | Interr | (n voc) | EOS; 
 
 # =========================================================================== #
 
@@ -141,8 +141,13 @@ SECTION
 ## REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-SELECT $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
-SELECT $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (-1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+## SELECT:Ant-Cog $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+## SELECT:Ant-Cog $$NUMBER IF (1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
+## SELECT:Ant-Cog $$CASE IF (-1C Ant + $$CASE) (0 Cog + $$CASE) ;
+## SELECT:Ant-Cog $$CASE IF (1C Ant + $$CASE) (0 Cog + $$CASE) ;
+    ## The cogname takse the number, gender and case of the name
 
 #REMOVE (pl) IF (0C Nomen)(NOT -1C Nomen + (pl) );
 
@@ -159,16 +164,16 @@ REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER) ;
 #REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
-SELECT NP-HEAD + $$NUMBER + Fem + Nom IF
-                         (0 NP-HEAD + $$NUMBER + Fem)
-                         (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + Fem BARRIER S-BOUNDARY) ;
+SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
+                         (0 NP-HEAD + $$NUMBER + $$GENDER)
+                         (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + $$GENDER BARRIER S-BOUNDARY) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
                                     
 SELECT Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
-SELECT $$GENDER IF (1C NP-HEAD + $$GENDER OR A + $$GENDER);
-SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
+SELECT:RodBrojSlj $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
+#SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
     
 ## SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
 
@@ -176,19 +181,20 @@ SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
     ## Select the gender of a noun modifier according to the next
     ## possible NP head to the right. We allow it to scan by any NP-member
     
-SELECT $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
+SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
 
 SELECT $$NUMBER IF (-1 PRE-N + $$NUMBER) ;
     
 SELECT Acc IF (-1C V + (tv) );
 
-REMOVE Voc IF (NOT 1 Voc or Cm);
+REMOVE:notVoc Voc IF (NOT 1 Voc or Cm);
+    ## It's not vocative if it hasn't a separate šphrase
 
 SELECT Gen IF (-1 DualNum + Nom);
     ## Tri žene
-SELECT Gen IF (1 DualNum + Nom) (0 Num + (ord) );
-    ## Prve tri žene
+SELECT $$GENDER IF (1 DualNum + $$GENDER) (0 Num + (ord) );
+    ## Prve tri žene. Prve should be accusative, gender the same as žene.
     
 SELECT (iv) IF (1 Nom);
 # =========================================================================== #
@@ -198,14 +204,19 @@ SELECT (iv) IF (1 Nom);
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-SELECT Nom IF (-1C ATTR + Nom);
-SELECT Gen IF (-1C GEN-PREP OR ATTR + Gen);
-SELECT Dat IF (-1C DAT-PREP OR ATTR + Dat);
-SELECT Acc IF (-1C ACC-PREP OR ATTR + Acc);
-SELECT Loc IF (-1C LOC-PREP OR ATTR + Loc);
-SELECT Ins IF (-1C INS-PREP OR ATTR + Ins);
+SELECT:ATTR-Nom Nom IF (-1C ATTR + Nom);
+SELECT:Pr-Gen Gen IF (-1C GEN-PREP OR ATTR + Gen);
+SELECT:Pr-Dat Dat IF (-1C DAT-PREP OR ATTR + Dat);
+SELECT:Pr-Acc Acc IF (-1C ACC-PREP OR ATTR + Acc);
+SELECT:Pr-Loc Loc IF (-1C LOC-PREP OR ATTR + Loc);
+SELECT:Pr-Ins Ins IF (-1C INS-PREP OR ATTR + Ins);
 
-REMOVE Acc IF (NOT -1 V + (tv) );
+REMOVE Dat IF (NOT -1C DAT-PREP) (NOT -1C ATTR + Dat);
+    ## If dative stands alone, it's never locative
+
+REMOVE:notAcc Acc IF (NOT -1 V + (tv) ) (NOT -1 PRE-N + Acc);
+    ## If it's not a target of a transitive verb, it's not accusative
+    ## And if there isn't a modifier that's already in accusative
 
 # =========================================================================== #
 #   Verb chain disambiguation                                                 #
