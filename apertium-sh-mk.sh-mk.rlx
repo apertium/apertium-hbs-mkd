@@ -143,12 +143,10 @@ SECTION
 ## REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
 
-##SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (-1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
-##SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
-SELECT:Ant-Cog $$NUMBER IF (-1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
-## SELECT:Ant-Cog $$NUMBER IF (1C Ant + $$NUMBER) (0 Cog + $$NUMBER) ;
-SELECT:Ant-Cog $$GENDER IF (-1C Ant + $$GENDER) (0 Cog + $$GENDER) ;
-## SELECT:Ant-Cog $$CASE IF (1C Ant + $$CASE) (0 Cog + $$CASE) ;
+## SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (-1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+## SELECT:Ant-Cog $$GENDER + $$NUMBER + $$CASE IF (1C Ant + $$GENDER + $$NUMBER + $$CASE) (0 Cog + $$GENDER + $$NUMBER + $$CASE) ;
+SELECT:Ant-Cog $$NUMBER + $$GENDER IF (-1C Ant + $$NUMBER + $$GENDER) (0 Cog + $$NUMBER + $$GENDER) ;
+## SELECT:Ant-Cog $$NUMBER + $$GENDER IF (1C Ant + $$NUMBER + $$GENDER) (0 Cog + $$NUMBER + $$GENDER) ;
     ## The cogname takse the number, gender and case of the name
 
 #REMOVE:Ant-noPl (pl) IF (0 Ant + (pl) + (f) ) (NOT -1 ATTR + (pl));
@@ -186,7 +184,7 @@ SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
 SELECT:NumberGender Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
-SELECT:GenNumNext $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
+SELECT:GenNumCaseNext $$GENDER + $$NUMBER IF (1 NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
 #SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
     
 ## SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
@@ -201,6 +199,9 @@ SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
 SELECT:AtrrNum->NNum $$NUMBER IF (0 N OR A)(-1 ATTR + $$NUMBER) ;
 
 SELECT:Nabrajanje $$NUMBER + $$GENDER + $$CASE IF ( -1 Cm ) ( -2 ATTR + $$NUMBER + $$GENDER + $$CASE ) ;
+
+SELECT $$NUMBER + Nom IF (-1* NP-HEAD  + $$NUMBER BARRIER BOS) (-1 ("<kao>"i) ) ;    
+    ## ona je... kao kadetkinja
     
 SELECT:tvAcc Acc IF (-1C V + (tv) );
 
@@ -275,6 +276,11 @@ SELECT (tv) IF (1* Acc BARRIER V);
 # =========================================================================== #
 #   Sentence level disambiguation                                             #
 # =========================================================================== #
+
+SELECT (f) IF (0 Cog + ("<Radovanović>") ) ;
+    ## This is probably uninmportant
+
+SELECT (cnjsub) IF (0 ("<Dok>"i)) (-1 BOS);
 
 SELECT:daPart (part) IF (0 ("<da>") ) (1 V);
 
