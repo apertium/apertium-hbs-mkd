@@ -26154,6 +26154,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prijemni"><i>prijemn</i><par n="garantn/i__pst__adj"/></e>
 <e lm="vojni"><i>vojn</i><par n="garantn/i__pst__adj"/></e>
 <e lm="ostali"><i>ostal</i><par n="garantn/i__pst__adj"/></e>
+<e lm="prošli"><i>prošl</i><par n="garantn/i__pst__adj"/></e>
 
 <e lm="godišnji"><i>godišnj</i><par n="odlučujuć/i__adj"/></e>
 <e lm="posljednji"><i>posl</i><par n="e_je__yat"/><i>dnj</i><par n="odlučujuć/i__adj"/></e>		

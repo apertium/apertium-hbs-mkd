@@ -172,7 +172,7 @@ SELECT:AdvV Adv IF (0 A-OR-ADV) ( 1C V ) ;
 #   NP-agreement disambiguation                                               #
 # =========================================================================== #
 
-REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER BARRIER MARK) ;
+REMOVE $$NUMBER + Nom IF (1C* V-FIN BARRIER MARK) (NOT 1C* V-FIN + $$NUMBER BARRIER MARK) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 #REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
@@ -204,7 +204,8 @@ SELECT:Nabrajanje $$NUMBER + $$GENDER + $$CASE IF ( -1 Cm ) ( -2 ATTR + $$NUMBER
     
 SELECT:tvAcc Acc IF (-1C V + (tv) );
 
-REMOVE:notVoc Voc IF ( (NOT 1C Voc OR Cm) OR (-1C V) );
+REMOVE:notVoc Voc IF (NOT -1 Voc OR Cm);
+REMOVE:notVoc Voc IF (NOT 1 Voc OR Cm);
     ## It's not vocative if it hasn't a separate phrase
 
 SELECT:DualGen Gen IF (-1 DualNum + Nom);
