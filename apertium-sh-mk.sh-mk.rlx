@@ -166,11 +166,13 @@ SELECT:CogNomF Nom IF
 REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
     ## Njihov kolega Nemanja Ružić pao je na testu letenja na trećoj godini akademije i okrenut će se jednom od pet ostalih akademskih programa.
 
+SELECT:AdvV Adv IF (0 A-OR-ADV) ( 1C V ) ;
+
 # =========================================================================== #
 #   NP-agreement disambiguation                                               #
 # =========================================================================== #
 
-REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER BARRIER EOS) ;
+REMOVE $$NUMBER + Nom IF (1* V-FIN) (NOT 1* V-FIN + $$NUMBER BARRIER MARK) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 #REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
@@ -196,11 +198,13 @@ SELECT:GenNumNext $$GENDER + $$NUMBER IF (1C NP-HEAD + $$GENDER + $$NUMBER OR A 
 SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + (iv) + $$NUMBER) ;
     ## Žene lete...
 
-SELECT:AtrrNum->NNum N + $$NUMBER IF (-1 ATTR + $$NUMBER) ;
+SELECT:AtrrNum->NNum $$NUMBER IF (0 N OR A)(-1 ATTR + $$NUMBER) ;
+
+SELECT:Nabrajanje $$NUMBER + $$GENDER + $$CASE IF ( -1 Cm ) ( -2 ATTR + $$NUMBER + $$GENDER + $$CASE ) ;
     
 SELECT:tvAcc Acc IF (-1C V + (tv) );
 
-REMOVE:notVoc Voc IF (NOT 1 Voc or Cm);
+REMOVE:notVoc Voc IF ( (NOT 1C Voc OR Cm) OR (-1C V) );
     ## It's not vocative if it hasn't a separate phrase
 
 SELECT:DualGen Gen IF (-1 DualNum + Nom);
@@ -222,8 +226,11 @@ SELECT:Pr-Acc Acc IF (-1C ACC-PREP OR ATTR + Acc);
 SELECT:Pr-Loc Loc IF (-1C LOC-PREP OR ATTR + Loc);
 SELECT:Pr-Ins Ins IF (-1C INS-PREP OR ATTR + Ins);
 
-REMOVE Dat IF (NOT -1C DAT-PREP) (NOT -1C ATTR + Dat);
+SELECT Dat IF (NOT -1C (pr) ) (NOT -1C ATTR + Loc);
     ## If dative stands alone, it's never locative
+
+REMOVE Gen IF (NOT -1 ATTR) (NOT 1 ATTR OR N);
+    ## Experimental "...da i sama ima tremu..."
 
 REMOVE:notAcc Acc IF (NOT -1 V + (tv) ) (NOT -1 PRE-N + Acc);
     ## If it's not a target of a transitive verb, it's not accusative
