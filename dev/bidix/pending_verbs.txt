@@ -1,0 +1,13 @@
+      3 primiti<vblex><perf><ref><inf>/primiti<vblex><perf><tv><inf>
+      2 učiti<vblex><imperf><ref><inf>/učiti<vblex><imperf><tv><inf>
+      1 zaboraviti<vblex><perf><ref><inf>/zaboraviti<vblex><perf><tv><inf>
+      1 voziti<vblex><imperf><tv><inf>
+      1 usporediti<vblex><perf><ref><inf>/usporediti<vblex><perf><tv><inf>
+      1 učiniti<vblex><perf><ref><inf>/učiniti<vblex><perf><tv><inf>
+      1 trebati<vbmod><imperf><tv><inf>
+      1 skakati<vblex><imperf><tv><inf>
+      1 postati<vblex><perf><iv><inf>
+      1 polaziti<vblex><imperf><iv><inf>/polaziti<vblex><imperf><tv><inf>
+      1 nestati<vblex><perf><iv><inf>
+      1 morati<vbmod><imperf><tv><inf>
+      1 manevrirati<vblex><imperf><tv><inf>

@@ -1,0 +1,7 @@
+      3 ^@Vojska# Srbije<np><f>$
+      2 ^@Anja<np><ant><f>$
+      2 ^@Ana<np><ant><f>$
+      1 ^@Nikola<np><ant><ma>$
+      1 ^@Nemanja<np><ant><ma>$
+      1 ^@Krneta<np><cog><ma>$
+      1 ^@Gazela<np><al><f>$
