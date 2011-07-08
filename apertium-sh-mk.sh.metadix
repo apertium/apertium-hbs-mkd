@@ -5292,127 +5292,127 @@ after prepositions-->
 <!--imperfective-->
       <!--The infinitive and the future -->
         <group alt="sh">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_BS">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_HR">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_SR">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
       
     <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
-   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
- <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
- <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
-       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+ <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
     
-      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     
-      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 
-          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
-        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
+        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!-- The lp or active past participle / optative -->
-     <e><p><l>mog</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
+     <e><p><l>mog</l><r>moći<s n="vbmod"/></r></p><par n="lp_ao__sfx"/></e>
     
     <!-- (pp, is by some accounts moguć, moguće, moguća... but this is more of an <adj> than <pp> -->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
-    <e><p><l>mogući</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><p><l>mogući</l><r>moći<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
 
 <!--Perfective-->
       <!--The infinitive and the future -->
         <group alt="sh">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_BS">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_HR">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
         <group alt="sh_SR">
-        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
+        <e><p><l>moći</l><r>moći<s n="vbmod"/><s n="inf"/></r></p></e>
         </group>
       
     <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
-   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
- <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
- <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
-       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+   <e r="LR"><p><l>mozi</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogni</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+ <e r="LR"><p><l>mozimo</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+       <e><p><l>mognimo</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+ <e r="LR"><p><l>mozite</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
+       <e><p><l>mognite</l><r>moći<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                
     
-      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>možeš</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>može</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>možemo</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>možete</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mogu</l><r>moći<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     
-      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>mogoh</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>može</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>mogosmo</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>mogoste</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>mogoše</l><r>moći<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 
-          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
-        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+          <e><p><l>mogah</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>mogaše</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>mogasmo</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>      
+        <e><p><l>mogaste</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>mogahu</l><r>moći<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!-- The lp or active past participle / optative -->
-     <e><p><l>mog</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
+     <e><p><l>mog</l><r>moći<s n="vbmod"/></r></p><par n="lp_ao__sfx"/></e>
     
     <!-- (pp, is by some accounts moguć, moguće, moguća... but this is more of an <adj> than <pp> -->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
-    <e><p><l>mogavši</l><r>moći<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>        
+    <e><p><l>mogavši</l><r>moći<s n="vbmod"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>        
 </pardef>
 <!--end Modal verb moći-->
 <!--Modal verb htjeti-->
 <pardef n="htjeti__vbmod"><!--big TODO: add the ekavian analysis of hteti-->
       <!--The infinitive and the future -->
         <group alt="sh">
-        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>t<b/></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>t<b/></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
         </group>
         <group alt="sh_BS">
-        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
         </group>
         <group alt="sh_HR">
-        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>t<b/></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>t<b/></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
         </group>
         <group alt="sh_SR">
-        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
         </group>
         
         <!--The negative form-->
@@ -5425,41 +5425,41 @@ after prepositions-->
 
       
     <!--Imperative: Note: there's the analytic and the compund [ "nek(a)"+present ], analytic only for 2pSg, 1pPl, 2pPl -->
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dni</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnimo</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnite</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                 
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dni</l><r>ti<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnimo</l><r>ti<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnite</l><r>ti<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>                 
 
-      <e><p><l>hoću</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>hoćeš</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e><p><l>hoće</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>hoćemo</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>hoćete</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e><p><l>hoće</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>hoću</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e><p><l>hoćeš</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e><p><l>hoće</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><p><l>hoćemo</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>hoćete</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><p><l>hoće</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <!-- The normal analysis, when this is just the perfective form of 'to be' -->    
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnem</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dneš</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dne</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnemo</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnete</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><i>ht</i><par n="e_je__yat"/><p><l>dnu</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnem</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dneš</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dne</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnemo</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnete</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><i>ht</i><par n="e_je__yat"/><p><l>dnu</l><r>ti<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
 <!--Note: six different imperfect forms (no aorist since it's imperfective). However they are quite literary, and are unlikely to appear anywhere outside very archaic text. I'll just put in the most common one-->
-          <e><p><l>hotijah</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-         <e><p><l>hotijaše</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-         <e><p><l>hotijaše</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>hotijasmo</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>hotijaste</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-         <e><p><l>hotijahu</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+          <e><p><l>hotijah</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+         <e><p><l>hotijaše</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+         <e><p><l>hotijaše</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>hotijasmo</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>hotijaste</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+         <e><p><l>hotijahu</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
     
     <!-- The lp or active past participle / optative -->
-     <e><p><l>ht</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+     <e><p><l>ht</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/></r></p><par n="lp_iti__sfx"/></e>
     
     <!-- (no pp, past passive participle) -->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
-    <e><p><l>hoteći</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>    
+    <e><p><l>hoteći</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>    
 </pardef>
 <!--end Modal verb htjeti-->
 <pardef n="inf_ti+fiiI__sfx__tv__vbhaver__imperf">
@@ -5581,116 +5581,116 @@ after prepositions-->
 <!--Suffixes for vbmod-->
 <pardef n="inf_ti+fiiI__sfx__tv__vbmod__imperf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <pardef n="inf_ti+fiiI__sfx__tv__vbmod__perf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="tv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <pardef n="inf_ti+fiiI__sfx__iv__vbmod__perf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <pardef n="inf_ti+fiiI__sfx__iv__vbmod__imperf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="iv"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <pardef n="inf_ti+fiiI__sfx__ref__vbmod__imperf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <pardef n="inf_ti+fiiI__sfx__ref__vbmod__perf">
 <group alt="sh">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_BS">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_HR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l>t<b></b></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 <group alt="sh_SR">
-<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p></e>
-<e><p><l></l><r>ti<s n="vbmod"/><s n="perf"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
+<e><p><l>ti</l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p></e>
+<e><p><l></l><r>ti<s n="vbmod"/><s n="ref"/><s n="inf"/></r></p><par n="htjeti__clt__vbmod"/></e>
 </group>
 </pardef>
 <!--end Suffixes for vbmod-->
@@ -6149,16 +6149,16 @@ after prepositions-->
 <!--Infinitive-->
 <e><p><l>a</l><r>a</r></p><par n="inf_ti+fiiI__sfx__tv__vbmod__imperf"/></e>
 <!--Imperative-->
-<e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<e><p><l>a</l><r>ati<s n="vbmod"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><p><l></l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<e><p><l></l><r>ati<s n="vbmod"/></r></p><par n="pres__sfx__am__vblex"/></e>
 <!--Imperfect-->
-<e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><p><l>a</l><r>ati<s n="vbmod"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
 <!--Participles-->
-    <e><p><l>a</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-   <e><p><l>an</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-<e><p><l>ajući</l><r>ati<s n="vbmod"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><p><l>a</l><r>ati<s n="vbmod"/></r></p><par n="lp_o__sfx"/></e>
+   <e><p><l>an</l><r>ati<s n="vbmod"/></r></p><par n="pp__sfx__vblex"/></e>
+<e><p><l>ajući</l><r>ati<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <!--end Modal verbs morati and trebati-->
 <!--Verb to have-->
@@ -18861,15 +18861,15 @@ after prepositions-->
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="Vojs/ka__np"><!-- As an np-->
-   <e><p><l>ka</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-   <e><p><l>ke</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-   <e><p><l>ku</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
-   <e><p><l>ki</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-   <e r="LR"><p><l>ci</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-   <e><p><l>ki</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-   <e r="LR"><p><l>ci</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>                                
-   <e><p><l>ko</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-   <e><p><l>kom</l><r>ka<s n="np"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><p><l>ka</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>ke</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><p><l>ku</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
+   <e><p><l>ki</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e r="LR"><p><l>ci</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><p><l>ki</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+   <e r="LR"><p><l>ci</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>                                
+   <e><p><l>ko</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><p><l>kom</l><r>ka<s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="ba/ka__n"><!--Without sibilarization -->
    <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -19949,7 +19949,7 @@ after prepositions-->
  	   <e><p><l>ge</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
          <e><p><l>gama</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="Li/ka__n"><!--With and without sibilarization-->
+<pardef n="li/ka__n"><!--With and without sibilarization-->
 	   <e><p><l>ka</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>ke</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 	   <e><p><l>ku</l><r>ka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
@@ -23283,7 +23283,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="neka"><p><l>neka</l><r>neka<s n="part"/></r></p></e>
 <e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
 <e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
-<e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/><s n="clt"/></r></p></e>
+<e lm="li"><p><l>li</l><r>li<s n="part"/></r></p></e>
 <e lm="je li"><p><l>je<b></b>li</l><r>je<b></b>li<s n="part"/><s n="itg"/></r></p></e>
 <e lm="da li"><p><l>da<b></b>li</l><r>da<b></b>li<s n="part"/><s n="itg"/></r></p></e>
 <e lm="zar"><p><l>zar</l><r>zar<s n="part"/><s n="itg"/></r></p></e>
@@ -23376,7 +23376,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ili"><i>ili</i><par n="coordinating__cnj"/></e>
 <e lm="a"><i>a</i><par n="coordinating__cnj"/></e>
 <e lm="ali"><i>ali</i><par n="coordinating__cnj"/></e>
-<e lm="dok"><i>dok</i><par n="coordinating__cnj"/></e>
 <e lm="no"><i>no</i><par n="coordinating__cnj"/></e>
 <e lm="nego"><i>nego</i><par n="coordinating__cnj"/></e>
 <e lm="već"><i>već</i><par n="coordinating__cnj"/></e>
@@ -23411,7 +23410,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="budući da"><i>budući<b></b>da</i><par n="subordinating__cnj"/></e>
 <e lm="što"><i>što</i><par n="subordinating__cnj"/></e>
 <e lm="eda"><i>eda</i><par n="subordinating__cnj"/></e>
-<e lm="li"><i>li</i><par n="subordinating__cnj"/></e>
 <e lm="ne bih li"><i>ne<b></b>bih<b></b>li</i><par n="subordinating__cnj"/></e>
 <e lm="neka"><i>neka</i><par n="subordinating__cnj"/></e>
 <e lm="stoga"><i>stoga</i><par n="subordinating__cnj"/></e>
@@ -26152,6 +26150,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="garantni"><i>garantn</i><par n="garantn/i__pst__adj"/></e>
 <e lm="prijemni"><i>prijemn</i><par n="garantn/i__pst__adj"/></e>
 <e lm="vojni"><i>vojn</i><par n="garantn/i__pst__adj"/></e>
+<e lm="jedini"><i>jedin</i><par n="garantn/i__pst__adj"/></e>
 <e lm="ostali"><i>ostal</i><par n="garantn/i__pst__adj"/></e>
 <e lm="prošli"><i>prošl</i><par n="garantn/i__pst__adj"/></e>
 
@@ -32176,11 +32175,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Katanga"><i>Katan</i><par n="Karta/ga__n"/></e>
 <e lm="Volga"><i>Vol</i><par n="Karta/ga__n"/></e>
 <e lm="Malaga"><i>Mala</i><par n="Karta/ga__n"/></e>
-<e lm="Lika"><i>Li</i><par n="Li/ka__n"/></e>
-<e lm="Baška"><i>Baš</i><par n="Li/ka__n"/></e>
-<e lm="Gradiška"><i>Gradiš</i><par n="Li/ka__n"/></e>
-<e lm="Kostarika"><i>Kostari</i><par n="Li/ka__n"/></e>
-<e lm="Tanganjika"><i>Tanganji</i><par n="Li/ka__n"/></e>
+<e lm="Lika"><i>li</i><par n="li/ka__n"/></e>
+<e lm="Baška"><i>Baš</i><par n="li/ka__n"/></e>
+<e lm="Gradiška"><i>Gradiš</i><par n="li/ka__n"/></e>
+<e lm="Kostarika"><i>Kostari</i><par n="li/ka__n"/></e>
+<e lm="Tanganjika"><i>Tanganji</i><par n="li/ka__n"/></e>
 <e lm="Požega"><i>Pože</i><par n="Pože/ga__n"/></e>
 <e lm="Afrika"><i>Afri</i><par n="Rije/ka__n"/></e>
 <e lm="Amerika"><i>Ameri</i><par n="Rije/ka__n"/></e>

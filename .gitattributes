@@ -24,6 +24,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-sh-mk.sh.metadix -text
+dev/bidix/notes.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text
 dev/bidix/pending_conjunctions.txt -text

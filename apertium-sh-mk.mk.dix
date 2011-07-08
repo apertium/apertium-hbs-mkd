@@ -93,6 +93,7 @@
     <sdef n="pst"     c="Positive"/>
     <sdef n="comp"    c="Comparative"/>
     <sdef n="sup"     c="Superlative"/>
+    <sdef n="ssup"     c="Superlative"/>    
     <sdef n="attr"    c="Attributive"/>
     <sdef n="pred"    c="Predicative"/>
 
@@ -320,39 +321,39 @@
    </pardef>
 
 
-   <pardef n="треб/е__vbmod">
-     <e>        <p>          <l>ам</l>           <r>е<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>аш</l>           <r>е<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>е</l>               <r>е<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>аме</l>          <r>е<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>ате</l>          <r>е<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>ат</l>          <r>е<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+   <pardef n="треб/а__vbmod">
+     <e>        <p>          <l>ам</l>           <r>а<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>аш</l>           <r>а<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>а</l>               <r>а<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>аме</l>          <r>а<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ате</l>          <r>а<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ат</l>          <r>а<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
-     <e>        <p>          <l>ав</l><r>е<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>аше</l>        <r>е<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>аше</l>        <r>е<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>авме</l><r>е<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>авте</l><r>е<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>аат</l><r>е<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ав</l><r>а<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>аше</l>        <r>а<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>аше</l>        <r>а<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>авме</l><r>а<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>авте</l><r>а<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>аат</l><r>а<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
-     <e>        <p>          <l>ал</l><r>е<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="m"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ала</l>        <r>е<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="f"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ало</l>        <r>е<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>але</l>        <r>е<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ал</l><r>а<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="m"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ала</l>        <r>а<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="f"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ало</l>        <r>а<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>але</l>        <r>а<s n="vbmod"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
 
-     <e>        <p>          <l>ав</l>           <r>е<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>а</l>            <r>е<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>а</l>            <r>е<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>авме</l><r>е<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>авте</l><r>е<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>аа</l>           <r>е<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ав</l>           <r>а<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>а</l>            <r>а<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>а</l>            <r>а<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>авме</l><r>а<s n="vbmod"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>авте</l><r>а<s n="vbmod"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>аа</l>           <r>а<s n="vbmod"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 
-     <e>        <p>          <l>ал</l>           <r>е<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="m"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ала</l>          <r>е<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="f"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ало</l>          <r>е<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="nt"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>але</l>          <r>е<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="mfn"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ал</l>           <r>а<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="m"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ала</l>          <r>а<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="f"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ало</l>          <r>а<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="nt"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>але</l>          <r>а<s n="vbmod"/><s n="lp"/><s n="aor"/><s n="mfn"/><s n="pl"/></r></p></e>
 
-  	 <e>        <p>          <l>ајќи</l><r>е<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>
+  	 <e>        <p>          <l>ајќи</l><r>а<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>
 
    </pardef>
 
@@ -6254,6 +6255,7 @@
     <pardef n="P__adj">
       <e>        <p>          <l>по</l>          <r>adj<s n="pref"/><s n="comp"/><j/></r></p></e>
       <e>        <p>          <l>нај</l>          <r>adj<s n="pref"/><s n="sup"/><j/></r></p></e>
+      <e>        <p>          <l>пре</l>          <r>adj<s n="pref"/><s n="sup"/><j/></r></p></e>      
       <!-- passthrough -->
       <e>        <p>          <l/>          <r></r></p></e>
     </pardef>
@@ -9889,6 +9891,7 @@
 
 	<e lm="Џоана"><i>Џоан</i><par n="Мариј/а__np"/></e>
 	<e lm="Ана"><i>Ан</i><par n="Мариј/а__np"/></e>
+	<e lm="Ања"><i>Ањ</i><par n="Мариј/а__np"/></e>	
 	<e lm="Бет"><i>Бет</i><par n="Бет__np"/></e>
 	<e lm="Педи"><i>Педи</i><par n="Бет__np"/></e>
 	<e lm="Весна"><i>Весн</i><par n="Мариј/а__np"/></e>
@@ -9940,9 +9943,11 @@
 	
 	<e lm="Бета"><i>Бета</i><par n="Аро__np"/></e>
 	<e lm="Википедија"><i>Википедија</i><par n="Википедија__np"/></e>
+    <e lm="Газела"><i>Газела</i><par n="Википедија__np"/></e>
 	<e lm="Косова"><i>Косова</i><par n="Аро__np"/></e>
 	<e lm="Ксинхуа"><i>Ксинхуа</i><par n="Аро__np"/></e>
 	<e lm="Побједа"><i>Побједа</i><par n="Википедија__np"/></e>
+	<e lm="Српската Армија"><i>Српската<b/>војска</i><par n="Википедија__np"/></e>	
 	<e lm="Реалитатеа"><i>Реалитатеа</i><par n="Аро__np"/></e>
 	<e lm="Фена"><i>Фена</i><par n="Аро__np"/></e>
 
@@ -9967,6 +9972,7 @@
 <e lm="Стамболиќ"><i>Стамболиќ</i><par n="Џонс__np"/></e>
 <e lm="Павковиќ"><i>Павковиќ</i><par n="Џонс__np"/></e>
 <e lm="Рен"><i>Рен</i><par n="Џонс__np"/></e>
+	<e lm="Крнета"><i>Крнета</i><par n="Костов__np"/></e>
 	<e lm="Бах"><i>Бах</i><par n="Костов__np"/></e>
 	<e lm="Попов"><i>Попов</i><par n="Костов__np"/></e>
 	<e lm="Борисов"><i>Борисов</i><par n="Костов__np"/></e>
@@ -11767,7 +11773,7 @@
 	<e lm="нема"><i>нема</i><par n="има__vbhaver"/></e>
     <e lm="може"><i>мож</i><par n="мож/е__vbmod"/></e>		<!-- to have the ability to -->
     <e lm="мора"><i>мора</i><par n="мора__vbmod"/></e>		<!-- must -->
-	<e lm="требе"><i>треб</i><par n="треб/е__vbmod"/></e>
+	<e lm="треба"><i>треб</i><par n="треб/а__vbmod"/></e>
 
 
 
@@ -13251,6 +13257,11 @@
 
 
  <!-- Adjectives / придавки -->
+    <e lm="среќен"><par n="P__adj"/><i>среќ</i><par n="инвентив/ен__adj"/></e>
+    <e lm="инвентивен"><par n="P__adj"/><i>инвентив</i><par n="инвентив/ен__adj"/></e>
+    <e lm="приемен"><par n="P__adj"/><i>прием</i><par n="инвентив/ен__adj"/></e>
+    <e lm="опасен"><par n="P__adj"/><i>опас</i><par n="инвентив/ен__adj"/></e>
+     
     <e lm="инаков"><par n="P__adj"/><i>инак</i><par n="инак/ов__adj"/></e>
 
     <e lm="висок"><par n="P__adj"/><i>висок</i><par n="висок__adj"/></e>
@@ -13408,7 +13419,9 @@
     <e lm="чист"><par n="P__adj"/><i>чист</i><par n="висок__adj"/></e>
     <e lm="човеков"><par n="P__adj"/><i>човеков</i><par n="висок__adj"/></e>
     <e lm="широк"><par n="P__adj"/><i>широк</i><par n="висок__adj"/></e>
+    <e lm="мотивиран"><par n="P__adj"/><i>мотивиран</i><par n="висок__adj"/></e>
 
+    <e lm="решавачки"><par n="P__adj"/><i>решавачк</i><par n="летачк/и__adj"/></e>
     <e lm="августовски"><par n="P__adj"/><i>августовск</i><par n="летачк/и__adj"/></e>
     <e lm="човечки"><par n="P__adj"/><i>човечк</i><par n="летачк/и__adj"/></e>
     <e lm="авторски"><par n="P__adj"/><i>авторск</i><par n="летачк/и__adj"/></e>
@@ -14378,7 +14391,7 @@
     <e lm="првичен"><par n="P__adj"/><i>првич</i><par n="инвентив/ен__adj"/></e>
     <e lm="преден"><par n="P__adj"/><i>пред</i><par n="инвентив/ен__adj"/></e>
     <e lm="предизборен"><par n="P__adj"/><i>предизбор</i><par n="инвентив/ен__adj"/></e>
-    <e lm="прекрасен"><par n="P__adj"/><i>прекрас</i><par n="инвентив/ен__adj"/></e>
+    <e lm="красен"><par n="P__adj"/><i>крас</i><par n="инвентив/ен__adj"/></e>
     <e lm="прелиминарен"><par n="P__adj"/><i>прелиминар</i><par n="инвентив/ен__adj"/></e>
     <e lm="преносен"><par n="P__adj"/><i>пренос</i><par n="инвентив/ен__adj"/></e>
     <e lm="престоен"><par n="P__adj"/><i>престо</i><par n="кра/ен__adj"/></e>
@@ -14535,6 +14548,7 @@
 
     <e lm="не"><i>не</i><par n="денес__adv"/></e>
     <e lm="како"><i>како</i><par n="денес__adv"/></e>
+    <e lm="кога"><i>кога</i><par n="денес__adv"/></e>    
     <e lm="околу"><i>околу</i><par n="денес__adv"/></e>
     <e lm="досега"><i>досега</i><par n="денес__adv"/></e>
     <e lm="се уште"><i>се<b/>уште</i><par n="денес__adv"/></e>
@@ -14575,6 +14589,7 @@
     <e lm="напред"><i>напред</i><par n="лошо__adv"/></e>
     <e lm="назад"><i>назад</i><par n="лошо__adv"/></e>
     <e lm="таму"><i>таму</i><par n="денес__adv"/></e>
+    <e lm="се разбира"><i>се<b/>разбира</i><par n="денес__adv"/></e>    
 
     <!-- Other -->
 	<e lm="евентуално"><i>евентуално</i><par n="денес__adv"/></e>

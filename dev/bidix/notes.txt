@@ -1,0 +1,27 @@
+Not in the monodix:
+    3 primiti <-> прими 
+    2 učiti <-> уча 
+    1 zaboraviti <-> заборави 
+    1 voziti <-> вози  
+    1 usporediti <-> спореди 
+    1 skakati <-> скока 
+    
+    2 kadetkinja <-> кадет maybe, 
+    1 torta <-> торта  
+    1 rođak <-> не знам превест 
+    1 program <-> програм  
+    1 osmjeh <-> насмевка  
+    1 manevriranje <-> маневрирање  
+    1 manevar <-> маневар  
+    1 letenje <-> летање  
+    1 kapetan <-> капетан  
+    1 kabina <-> кабина  
+    1 ispit <-> испит  
+    1 instruktor <-> инструктор  
+    1 brzina <-> брзина  
+    1 upis <-> запишување or упис, 
+
+    1 bilo što<prn>$ not sure about the translation
+
+    1 polaziti Problematic (the most correct would be слуша, but that's not universal)
+    1 učiniti  Problematic (basically because the sintagm in which it's used is a calque, so sounds equally bad in macedonian and croatian) 
