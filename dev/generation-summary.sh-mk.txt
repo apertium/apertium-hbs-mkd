@@ -16,20 +16,19 @@ Multiple bidix entries for a single source language lexical form
 Tag mismatch between transfer and generation
 ===============================================================================
       5 #каже\<vblex\>\<perf\>\<iv\>\<pres\>\<p3\>\<sg\>	^каже<vblex><perf><iv><pres><p3><sg>$
-      4 #clitic\<prn\>\<pers\>\<p3\>\<f\>\<sg\>\<acc\>	^clitic<prn><pers><p3><f><sg><acc>$
-      4 #clitic\<prn\>\<acc\>	^clitic<prn><acc>$
+      4 #clitic\<prn\>\<ref\>\<pers\>\<acc\>	^clitic<prn><ref><pers><acc>$
       3 #Супер Галеб\<np\>\<al\>\<mi\>\<sg\>\<nom\>	^Супер Галеб<np><al><mi><sg><nom>$
       3 #бие\<vblex\>\<imperf\>\<lp\>\<f\>\<sg\>	^бие<vblex><imperf><lp><f><sg>$
-      2 #што\<prn\>\<acc\>	^што<prn><acc>$
+      2 #што\<prn\>\<rel\>\<acc\>	^што<prn><rel><acc>$
       2 #падне\<vblex\>\<perf\>\<iv\>\<lp\>\<m\>\<sg\>	^падне<vblex><perf><iv><lp><m><sg>$
       2 #мој\<prn\>\<sg\>\<nom\>	^мој<prn><sg><nom>$
-      2 #кој\<prn\>\<sg\>\<nom\>	^кој<prn><sg><nom>$
+      2 #кој\<prn\>\<rel\>\<sg\>\<nom\>	^кој<prn><rel><sg><nom>$
       2 #има\<vbhaver\>\<imperf\>\<tv\>\<pres\>\<p3\>\<sg\>	^има<vbhaver><imperf><tv><pres><p3><sg>$
       2 #е\<vbser\>\<lp\>\<nt\>\<sg\>	^е<vbser><lp><nt><sg>$
       2 #влезе\<vblex\>\<perf\>\<iv\>\<lp\>\<f\>\<sg\>	^влезе<vblex><perf><iv><lp><f><sg>$
       2 #борбен\<adj\>\<pst\>\<mi\>\<sg\>\<ins\>\<ind\>	^борбен<adj><pst><mi><sg><ins><ind>$
-      2 #clitic\<prn\>\<pers\>\<p3\>\<f\>\<sg\>\<gen\>	^clitic<prn><pers><p3><f><sg><gen>$
-      1 #што\<prn\>\<dat\>	^што<prn><dat>$
+      2 #clitic\<prn\>\<pers\>\<clt\>\<p3\>\<f\>\<sg\>\<gen\>	^clitic<prn><pers><clt><p3><f><sg><gen>$
+      1 #што\<prn\>\<rel\>\<dat\>	^што<prn><rel><dat>$
       1 #управува\<vblex\>\<imperf\>\<pres\>\<p3\>\<sg\>	^управува<vblex><imperf><pres><p3><sg>$
       1 #Тој\<prn\>\<dem\>\<sg\>\<nom\>	^Тој<prn><dem><sg><nom>$
       1 #тој\<prn\>\<dem\>\<pl\>\<gen\>	^тој<prn><dem><pl><gen>$
@@ -61,8 +60,8 @@ Tag mismatch between transfer and generation
       1 #може\<vbmod\>\<imperf\>\<iv\>\<pres\>\<p3\>\<sg\>	^може<vbmod><imperf><iv><pres><p3><sg>$
       1 #може\<vbmod\>\<imperf\>\<iv\>\<pres\>\<p1\>\<sg\>	^може<vbmod><imperf><iv><pres><p1><sg>$
       1 #лета\<vblex\>\<imperf\>\<iv\>\<lp\>\<f\>\<sg\>	^лета<vblex><imperf><iv><lp><f><sg>$
-      1 #кој\<prn\>\<sg\>\<acc\>	^кој<prn><sg><acc>$
-      1 #кој\<prn\>\<pl\>\<nom\>	^кој<prn><pl><nom>$
+      1 #кој\<prn\>\<rel\>\<sg\>\<acc\>	^кој<prn><rel><sg><acc>$
+      1 #кој\<prn\>\<rel\>\<pl\>\<nom\>	^кој<prn><rel><pl><nom>$
       1 #каже\<vblex\>\<perf\>\<iv\>\<pres\>\<p1\>\<pl\>	^каже<vblex><perf><iv><pres><p1><pl>$
       1 #има\<vbhaver\>\<imperf\>\<tv\>\<pres\>\<p1\>\<pl\>	^има<vbhaver><imperf><tv><pres><p1><pl>$
       1 #е\<vbser\>\<iv\>\<inf\>	^е<vbser><iv><inf>$
@@ -78,8 +77,6 @@ Tag mismatch between transfer and generation
       1 #академски\<adj\>\<pst\>\<mi\>\<pl\>\<gen\>\<def\>	^академски<adj><pst><mi><pl><gen><def>$
       1 #Free\<prn\>\<sg\>\<nom\>	^Free<prn><sg><nom>$
       1 #free\<prn\>\<pers\>\<p1\>\<mfn\>\<pl\>\<gen\>	^free<prn><pers><p1><mfn><pl><gen>$
-      1 #clitic\<prn\>\<pers\>\<p3\>\<mfn\>\<pl\>\<dat\>	^clitic<prn><pers><p3><mfn><pl><dat>$
-      1 #clitic\<prn\>\<pers\>\<p3\>\<mfn\>\<pl\>\<acc\>	^clitic<prn><pers><p3><mfn><pl><acc>$
       1 #2007.\<num\>\<ord\>\<nom\>\<ind\>	^2007.<num><ord><nom><ind>$
 
 
@@ -88,5 +85,5 @@ Summary
 ===============================================================================
    1 /tmp/sh-mk.multiform
    2 /tmp/sh-mk.multibidix
-  66 /tmp/sh-mk.tagmismatch
-  69 total
+  63 /tmp/sh-mk.tagmismatch
+  66 total

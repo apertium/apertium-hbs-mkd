@@ -68,6 +68,10 @@
      <attr-item tags="prn.itg"/>
      <attr-item tags="prn.dem"/>
      <attr-item tags="prn.pers"/>
+     <attr-item tags="prn.pers.clt"/>
+     <attr-item tags="prn.tot"/>
+     <attr-item tags="prn.ref.pers"/>
+     <attr-item tags="prn.rel"/>
   </def-attr>
 
   <def-attr n="trn">
