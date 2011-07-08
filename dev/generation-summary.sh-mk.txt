@@ -2,87 +2,91 @@
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
-      1 244	^4.000<num>/4.000<num>$
-	^1.259<num>/1.259<num>$
+      1 \@km\/h\<abbr\>	^@km/h<abbr>$
 
 
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
 ===============================================================================
       1 #само\<adv\>\/допрва\<adv\>	^само<adv>/допрва<adv>$
-      1 #4.000\<num\>\/4.000\<num\>	^700<num>$
-      1 #1.259\<num\>\/1.259\<num\>	^160<num>$
+      1 #4.000\<num\>\/4.000\<num\>	^4.000<num>/4.000<num>$
 
 
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-     17 #clitic\<prn\>\<pers\>\<clt\>\<p3\>\<f\>\<sg\>\<gen\>	^clitic<prn><pers><clt><p3><f><sg><gen>$
-      6 #Радовановиќ\<np\>\<f\>\<sg\>\<nom\>\<ind\>	^Радовановиќ<np><f><sg><nom><ind>$
-      6 #е\<vbser\>\<clt\>\<pres\>\<p3\>\<pl\>	^е<vbser><clt><pres><p3><pl>$
-      6 #дава\<vblex\>\<p3\>\<sg\>	^дава<vblex><p3><sg>$
-      5 #каже\<vblex\>\<p3\>\<sg\>	^каже<vblex><p3><sg>$
-      5 #clitic\<prn\>\<ref\>\<pers\>\<mfn\>\<sp\>\<gen\>	^clitic<prn><ref><pers><mfn><sp><gen>$
-      4 #жена\<n\>\<f\>\<sg\>\<gen\>\<ind\>	^жена<n><f><sg><gen><ind>$
-      4 #е\<vbser\>\<clt\>\<pres\>\<p1\>\<sg\>	^е<vbser><clt><pres><p1><sg>$
-      4 #бие\<vblex\>\<sg\>	^бие<vblex><sg>$
-      4 #бие\<vblex\>\<pl\>	^бие<vblex><pl>$
-      3 #што\<prn\>\<rel\>\<mfn\>\<sp\>\<nom\>	^што<prn><rel><mfn><sp><nom>$
-      3 #Тадиќ\<np\>\<f\>\<sg\>\<nom\>\<ind\>	^Тадиќ<np><f><sg><nom><ind>$
-      3 #Србија\<np\>\<top\>\<f\>\<sg\>\<gen\>\<ind\>	^Србија<np><top><f><sg><gen><ind>$
-      2 #Станковиќ\<np\>\<f\>\<sg\>\<nom\>\<ind\>	^Станковиќ<np><f><sg><nom><ind>$
-      2 #Ружиќ\<np\>\<f\>\<sg\>\<nom\>\<ind\>	^Ружиќ<np><f><sg><nom><ind>$
-      2 #падне\<vblex\>\<sg\>	^падне<vblex><sg>$
-      2 #Оној\<prn\>\<dem\>\<nt\>\<pl\>\<nom\>	^Оној<prn><dem><nt><pl><nom>$
-      2 #мисли\<vblex\>\<p1\>\<sg\>	^мисли<vblex><p1><sg>$
-      2 #кој\<prn\>\<rel\>\<ma\>\<sg\>\<nom\>	^кој<prn><rel><ma><sg><nom>$
-      2 #влезе\<vblex\>\<pl\>	^влезе<vblex><pl>$
-      1 #што\<prn\>\<rel\>\<mfn\>\<sp\>\<ins\>	^што<prn><rel><mfn><sp><ins>$
-      1 #што\<prn\>\<rel\>\<mfn\>\<sp\>\<dat\>	^што<prn><rel><mfn><sp><dat>$
-      1 #Тој\<prn\>\<dem\>\<nt\>\<sg\>\<nom\>	^Тој<prn><dem><nt><sg><nom>$
-      1 #тој\<prn\>\<dem\>\<nt\>\<pl\>\<gen\>	^тој<prn><dem><nt><pl><gen>$
-      1 #стравува\<vblex\>\<p3\>\<pl\>	^стравува<vblex><p3><pl>$
-      1 #Србија\<np\>\<top\>\<f\>\<sg\>\<dat\>\<ind\>	^Србија<np><top><f><sg><dat><ind>$
-      1 #работи\<vblex\>\<p3\>\<pl\>	^работи<vblex><p3><pl>$
-      1 #Работи\<vblex\>\<p1\>\<sg\>	^Работи<vblex><p1><sg>$
-      1 #работи\<vblex\>	^работи<vblex>$
-      1 #прослави\<vblex\>\<pl\>	^прослави<vblex><pl>$
-      1 #Помине\<vblex\>\<pl\>	^Помине<vblex><pl>$
-      1 #помине\<vblex\>	^помине<vblex>$
-      1 #подготви\<vblex\>\<pl\>	^подготви<vblex><pl>$
-      1 #повика\<vblex\>\<pl\>	^повика<vblex><pl>$
-      1 #пие\<vblex\>\<aor\>\<p2\>\<pl\>	^пие<vblex><aor><p2><pl>$
-      1 #патува\<vblex\>\<pl\>	^патува<vblex><pl>$
-      1 #отвори\<vblex\>\<pl\>	^отвори<vblex><pl>$
-      1 #оној\<prn\>\<dem\>\<ma\>\<pl\>\<nom\>	^оној<prn><dem><ma><pl><nom>$
-      1 #нејзин\<prn\>\<pos\>\<f\>\<sg\>\<gen\>	^нејзин<prn><pos><f><sg><gen>$
-      1 #мој\<prn\>\<pos\>\<nt\>\<pl\>\<nom\>	^мој<prn><pos><nt><pl><nom>$
-      1 #мој\<prn\>\<pos\>\<ma\>\<sg\>\<nom\>	^мој<prn><pos><ma><sg><nom>$
-      1 #Мој\<prn\>\<pos\>\<ma\>\<pl\>\<nom\>	^Мој<prn><pos><ma><pl><nom>$
-      1 #мој\<prn\>\<pos\>\<ma\>\<pl\>\<nom\>	^мој<prn><pos><ma><pl><nom>$
+      5 #каже\<vblex\>\<perf\>\<iv\>\<pres\>\<p3\>\<sg\>	^каже<vblex><perf><iv><pres><p3><sg>$
+      4 #clitic\<prn\>\<pers\>\<p3\>\<f\>\<sg\>\<acc\>	^clitic<prn><pers><p3><f><sg><acc>$
+      4 #clitic\<prn\>\<acc\>	^clitic<prn><acc>$
+      3 #Супер Галеб\<np\>\<al\>\<mi\>\<sg\>\<nom\>	^Супер Галеб<np><al><mi><sg><nom>$
+      3 #бие\<vblex\>\<imperf\>\<lp\>\<f\>\<sg\>	^бие<vblex><imperf><lp><f><sg>$
+      2 #што\<prn\>\<acc\>	^што<prn><acc>$
+      2 #падне\<vblex\>\<perf\>\<iv\>\<lp\>\<m\>\<sg\>	^падне<vblex><perf><iv><lp><m><sg>$
+      2 #мој\<prn\>\<sg\>\<nom\>	^мој<prn><sg><nom>$
+      2 #кој\<prn\>\<sg\>\<nom\>	^кој<prn><sg><nom>$
+      2 #има\<vbhaver\>\<imperf\>\<tv\>\<pres\>\<p3\>\<sg\>	^има<vbhaver><imperf><tv><pres><p3><sg>$
+      2 #е\<vbser\>\<lp\>\<nt\>\<sg\>	^е<vbser><lp><nt><sg>$
+      2 #влезе\<vblex\>\<perf\>\<iv\>\<lp\>\<f\>\<sg\>	^влезе<vblex><perf><iv><lp><f><sg>$
+      2 #борбен\<adj\>\<pst\>\<mi\>\<sg\>\<ins\>\<ind\>	^борбен<adj><pst><mi><sg><ins><ind>$
+      2 #clitic\<prn\>\<pers\>\<p3\>\<f\>\<sg\>\<gen\>	^clitic<prn><pers><p3><f><sg><gen>$
+      1 #што\<prn\>\<dat\>	^што<prn><dat>$
+      1 #управува\<vblex\>\<imperf\>\<pres\>\<p3\>\<sg\>	^управува<vblex><imperf><pres><p3><sg>$
+      1 #Тој\<prn\>\<dem\>\<sg\>\<nom\>	^Тој<prn><dem><sg><nom>$
+      1 #тој\<prn\>\<dem\>\<pl\>\<gen\>	^тој<prn><dem><pl><gen>$
+      1 #стравува\<vblex\>\<imperf\>\<iv\>\<pres\>\<p3\>\<pl\>	^стравува<vblex><imperf><iv><pres><p3><pl>$
+      1 #Стар\<adj\>\<comp\>\<f\>\<sg\>\<nom\>	^Стар<adj><comp><f><sg><nom>$
+      1 #Србија\<np\>\<top\>\<f\>\<sg\>\<loc\>	^Србија<np><top><f><sg><loc>$
+      1 #смее се\<vblex\>\<imperf\>\<pres\>\<p3\>\<sg\>	^смее се<vblex><imperf><pres><p3><sg>$
+      1 #Сандра\<np\>\<ant\>\<f\>\<sg\>\<nom\>	^Сандра<np><ant><f><sg><nom>$
+      1 #Ружиќ\<np\>\<cog\>\<ma\>\<sg\>\<nom\>	^Ружиќ<np><cog><ma><sg><nom>$
+      1 #Ружиќ\<np\>\<cog\>\<f\>\<sg\>\<nom\>	^Ружиќ<np><cog><f><sg><nom>$
+      1 #работи\<vblex\>\<imperf\>\<iv\>	^работи<vblex><imperf><iv>$
+      1 #прослави\<vblex\>\<perf\>\<tv\>\<lp\>\<mfn\>\<pl\>	^прослави<vblex><perf><tv><lp><mfn><pl>$
+      1 #пријателски\<adj\>\<pst\>\<mi\>\<sg\>\<acc\>\<def\>	^пријателски<adj><pst><mi><sg><acc><def>$
+      1 #признава\<vblex\>\<imperf\>\<pres\>\<p3\>\<sg\>	^признава<vblex><imperf><pres><p3><sg>$
+      1 #помине\<vblex\>\<imperf\>	^помине<vblex><imperf>$
+      1 #подготви\<vblex\>\<perf\>\<tv\>\<mfn\>\<pl\>	^подготви<vblex><perf><tv><mfn><pl>$
+      1 #повика\<vblex\>\<perf\>\<tv\>\<lp\>\<f\>\<sg\>	^повика<vblex><perf><tv><lp><f><sg>$
+      1 #патува\<vblex\>\<imperf\>\<iv\>\<lp\>\<f\>\<sg\>	^патува<vblex><imperf><iv><lp><f><sg>$
+      1 #отвори\<vblex\>\<perf\>\<lp\>\<f\>\<sg\>	^отвори<vblex><perf><lp><f><sg>$
+      1 #Оној\<prn\>\<dem\>\<sg\>\<nom\>	^Оној<prn><dem><sg><nom>$
+      1 #Оној\<prn\>\<dem\>\<pl\>\<nom\>	^Оној<prn><dem><pl><nom>$
+      1 #оној\<prn\>\<dem\>\<pl\>\<nom\>	^оној<prn><dem><pl><nom>$
+      1 #обрне\<vblex\>\<perf\>	^обрне<vblex><perf>$
+      1 #нејзин\<prn\>\<sg\>\<gen\>	^нејзин<prn><sg><gen>$
+      1 #Направи\<vblex\>\<perf\>\<tv\>\<lp\>\<f\>\<sg\>	^Направи<vblex><perf><tv><lp><f><sg>$
+      1 #надева\<vblex\>\<imperf\>\<lp\>\<mfn\>\<pl\>	^надева<vblex><imperf><lp><mfn><pl>$
+      1 #Мој\<prn\>\<pl\>\<nom\>	^Мој<prn><pl><nom>$
+      1 #мој\<prn\>\<pl\>\<nom\>	^мој<prn><pl><nom>$
       1 #може\<vbmod\>\<imperf\>\<iv\>\<pres\>\<p3\>\<sg\>	^може<vbmod><imperf><iv><pres><p3><sg>$
       1 #може\<vbmod\>\<imperf\>\<iv\>\<pres\>\<p1\>\<sg\>	^може<vbmod><imperf><iv><pres><p1><sg>$
-      1 #мисли\<vblex\>\<p3\>\<sg\>	^мисли<vblex><p3><sg>$
-      1 #кој\<prn\>\<rel\>\<nt\>\<pl\>\<nom\>	^кој<prn><rel><nt><pl><nom>$
-      1 #каже\<vblex\>\<p1\>\<pl\>	^каже<vblex><p1><pl>$
-      1 #живот\<n\>\<m\>\<sg\>\<dat\>\<ind\>	^живот<n><m><sg><dat><ind>$
-      1 #Жена\<n\>\<f\>\<sg\>\<gen\>\<ind\>	^Жена<n><f><sg><gen><ind>$
-      1 #жена\<n\>	^жена<n><
-      1 #е\<vbser\>\<imperf\>\<pprs\>\<adv\>	^е<vbser><pres><p3><sg>$
-      1 #добар\<adj\>\<sup\>\<ma\>\<pl\>\<acc\>	^е<vbser><imperf><pprs><adv>$
-      1 #влезе\<vblex\>\<p1\>\<sg\>	^До<pr>$
-      1 #бие\<vblex\>\<aor\>\<p2\>\<sg\>	^веќе<adv>$
-      1 #академски\<adj\>\<pst\>\<ma\>\<pl\>\<gen\>\<def\>	^бие<vblex><aor><p2><sg>$
-      1 #Free\<prn\>\<pos\>\<ma\>\<sg\>\<nom\>	^*Gazela$
-      1 #free\<prn\>\<pers\>\<p1\>\<mfn\>\<sg\>\<gen\>	^free<prn><pers><p1><mfn><sg><nom>$
-      1 #free\<prn\>\<pers\>\<p1\>\<mfn\>\<pl\>\<gen\>	^free<prn><pers><p1><mfn><sg><dat>$
-      1 #clitic\<prn\>\<pers\>\<clt\>\<p3\>\<mfn\>\<pl\>\<gen\>	^*devetoro$
+      1 #лета\<vblex\>\<imperf\>\<iv\>\<lp\>\<f\>\<sg\>	^лета<vblex><imperf><iv><lp><f><sg>$
+      1 #кој\<prn\>\<sg\>\<acc\>	^кој<prn><sg><acc>$
+      1 #кој\<prn\>\<pl\>\<nom\>	^кој<prn><pl><nom>$
+      1 #каже\<vblex\>\<perf\>\<iv\>\<pres\>\<p1\>\<pl\>	^каже<vblex><perf><iv><pres><p1><pl>$
+      1 #има\<vbhaver\>\<imperf\>\<tv\>\<pres\>\<p1\>\<pl\>	^има<vbhaver><imperf><tv><pres><p1><pl>$
+      1 #е\<vbser\>\<iv\>\<inf\>	^е<vbser><iv><inf>$
+      1 #е\<vbser\>\<aor\>\<p2\>\<sg\>	^е<vbser><aor><p2><sg>$
+      1 #добар\<adj\>\<sup\>\<ma\>\<pl\>\<acc\>	^добар<adj><sup><ma><pl><acc>$
+      1 #два\<num\>\<f\>\<sg\>\<nom\>\<ind\>	^два<num><f><sg><nom><ind>$
+      1 #дава\<vblex\>\<imperf\>\<iv\>\<pres\>\<p3\>\<sg\>	^дава<vblex><imperf><iv><pres><p3><sg>$
+      1 #водник\<n\>\<m\>\<sg\>\<nom\>\<ind\>	^водник<n><m><sg><nom><ind>$
+      1 #водник\<n\>\<f\>\<sg\>\<nom\>\<ind\>	^водник<n><f><sg><nom><ind>$
+      1 #борбен\<adj\>\<pst\>\<ma\>\<pl\>\<nom\>\<ind\>	^борбен<adj><pst><ma><pl><nom><ind>$
+      1 #бие\<vblex\>\<imperf\>\<lp\>\<m\>\<sg\>	^бие<vblex><imperf><lp><m><sg>$
+      1 #Београд\<np\>\<top\>\<mi\>\<sg\>\<loc\>	^Београд<np><top><mi><sg><loc>$
+      1 #академски\<adj\>\<pst\>\<mi\>\<pl\>\<gen\>\<def\>	^академски<adj><pst><mi><pl><gen><def>$
+      1 #Free\<prn\>\<sg\>\<nom\>	^Free<prn><sg><nom>$
+      1 #free\<prn\>\<pers\>\<p1\>\<mfn\>\<pl\>\<gen\>	^free<prn><pers><p1><mfn><pl><gen>$
+      1 #clitic\<prn\>\<pers\>\<p3\>\<mfn\>\<pl\>\<dat\>	^clitic<prn><pers><p3><mfn><pl><dat>$
+      1 #clitic\<prn\>\<pers\>\<p3\>\<mfn\>\<pl\>\<acc\>	^clitic<prn><pers><p3><mfn><pl><acc>$
+      1 #2007.\<num\>\<ord\>\<nom\>\<ind\>	^2007.<num><ord><nom><ind>$
 
 
 ===============================================================================
 Summary
 ===============================================================================
-   2 /tmp/sh-mk.multiform
-   3 /tmp/sh-mk.multibidix
-  60 /tmp/sh-mk.tagmismatch
-  65 total
+   1 /tmp/sh-mk.multiform
+   2 /tmp/sh-mk.multibidix
+  66 /tmp/sh-mk.tagmismatch
+  69 total
