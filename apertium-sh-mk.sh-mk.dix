@@ -340,22 +340,26 @@
      <e><p><l>roditelj<s n="n"/><s n="ma"/></l><r>родител<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>kandidat<s n="n"/><s n="ma"/></l><r>кандидат<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>prijatelj<s n="n"/><s n="ma"/></l><r>пријател<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>muškarac<s n="n"/><s n="ma"/></l><r>маж<s n="n"/><s n="m"/></r></p></e>                                   
+     <e><p><l>muškarac<s n="n"/><s n="ma"/></l><r>маж<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>kapetan<s n="n"/><s n="ma"/></l><r>капетан<s n="n"/><s n="m"/></r></p></e>                                                                           
+     <e><p><l>instruktor<s n="n"/><s n="ma"/></l><r>инструктор<s n="n"/><s n="m"/></r></p></e>
      
      <e><p><l>test<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>smjer<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>     
      <e><p><l>ispit<s n="n"/><s n="mi"/></l><r>испит<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>smjer<s n="n"/><s n="mi"/></l><r>правец<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>put<s n="n"/><s n="mi"/></l><r>пат<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>upis<s n="n"/><s n="mi"/></l><r>упис<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>trenutak<s n="n"/><s n="mi"/></l><r>момент<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>padobran<s n="n"/><s n="mi"/></l><r>падобран<s n="n"/><s n="m"/></r></p></e>     
-     <e><p><l>osmjeeh<s n="n"/><s n="mi"/></l><r>насмевка<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>osmjeeh<s n="n"/><s n="mi"/></l><r>насмевка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>odnos<s n="n"/><s n="mi"/></l><r>однос<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>metar<s n="n"/><s n="mi"/></l><r>метар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>хеликоптер<s n="n"/><s n="m"/></r></p></e>               
      <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>настан<s n="n"/><s n="m"/></r></p></e>  <!--TODO: Check if correct-->
-     <e><p><l>posao<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="m"/></r></p></e>  <!--TODO: Check if correct-->     
+     <e><p><l>posao<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="m"/></r></p></e>  <!--TODO: Check if correct-->    
+     <e><p><l>program<s n="n"/><s n="mi"/></l><r>програм<s n="n"/><s n="m"/></r></p></e>                
      
      <e><p><l>trema<s n="n"/><s n="f"/></l><r>трема<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>vrata<s n="n"/><s n="f"/></l><r>врата<s n="n"/><s n="f"/></r></p></e>
@@ -364,11 +368,16 @@
      <e><p><l>ptica<s n="n"/><s n="f"/></l><r>птица<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>majka<s n="n"/><s n="f"/></l><r>мајка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>generacija<s n="n"/><s n="f"/></l><r>генерација<s n="n"/><s n="f"/></r></p></e>                                   
-     <e><p><l>djeevojka<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>                                        
-          
+     <e><p><l>djeevojka<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>torta<s n="n"/><s n="f"/></l><r>торта<s n="n"/><s n="f"/></r></p></e>                                                                                     
+     <e><p><l>kabina<s n="n"/><s n="f"/></l><r>кабина<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>brzina<s n="n"/><s n="f"/></l><r>брзина<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>kadetkinja<s n="n"/><s n="f"/></l><r>кадет<s n="n"/><s n="m"/></r></p></e>          
+               
      <e><p><l>zanimanje<s n="n"/><s n="nt"/></l><r>интерес<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>slijeetanje<s n="n"/><s n="nt"/></l><r>слетување<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>mjeesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>                                                       
+     <e><p><l>mjeesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>manevriranje<s n="n"/><s n="nt"/></l><r>маневрирање<s n="n"/><s n="nt"/></r></p></e>                                                                                                                   
      
      <e><p><l>zgrada<s n="n"/><s n="f"/></l><r>зграда<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>igra<s n="n"/><s n="f"/></l><r>игра<s n="n"/><s n="f"/></r></p></e>
