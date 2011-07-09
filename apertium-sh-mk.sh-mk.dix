@@ -3325,6 +3325,7 @@
 	<e><p><l>dolje<s n="adv"/></l><r>долу<s n="adv"/></r></p></e> <!--TODO: This needs to be added to the mk monodix, and the mk-bg monodix (phps mk-en monodix)-->
 	<e><p><l>tužno<s n="adv"/></l><r>тужно<s n="adv"/></r></p></e><!--Note: not in the monodix-->
 	<e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
+	<e><p><l>ne<s n="part"/><s n="neg"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
 	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e><!--TODO: add this to the sh monodix--> <!--TODO: in translation from macedonian; kako and kao have distinct meanings, needs to be handled in transfer-->
 	<e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
 	<e><p><l>oko<s n="adv"/></l><r>околу<s n="adv"/></r></p></e>
