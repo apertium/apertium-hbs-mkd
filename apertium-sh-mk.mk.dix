@@ -5386,7 +5386,7 @@
 	<!--indefinite -->
 	
    <pardef n="било_што__prn"> 
-     <e><p><l></l><r><s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></r></p></e>
+     <e><p><l></l><r><s n="prn"/><s n="ind"/></r></p></e>
    </pardef>
    <pardef n="не/кој__prn"> 
      <e><p><l>кој</l><r>кој<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
