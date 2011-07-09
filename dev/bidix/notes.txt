@@ -1,6 +1,6 @@
 Not in the monodix:
     3 primiti <-> прими 
-    2 učiti <-> уча 
+    2 učiti <-> учи 
     1 zaboraviti <-> заборави 
     1 voziti <-> вози  
     1 usporediti <-> спореди 

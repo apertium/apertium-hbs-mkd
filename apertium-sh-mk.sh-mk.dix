@@ -177,7 +177,7 @@
    <section id="main" type="standard">
 
      <!-- SECTION: Particles -->
-     <e><p><l>li<s n="part"/></l><r>ли<s n="part"/></r></p></e>
+     <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
 
 
      <!-- SECTION: Conjunctions -->

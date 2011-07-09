@@ -23283,7 +23283,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="neka"><p><l>neka</l><r>neka<s n="part"/></r></p></e>
 <e lm="ne"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/></r></p></e>
 <e lm="ni"><p><l>ni</l><r>ni<s n="part"/><s n="neg"/></r></p></e>
-<e lm="li"><p><l>li</l><r>li<s n="part"/></r></p></e>
+<e lm="li"><p><l>li</l><r>li<s n="part"/><s n="itg"/></r></p></e>
 <e lm="je li"><p><l>je<b></b>li</l><r>je<b></b>li<s n="part"/><s n="itg"/></r></p></e>
 <e lm="da li"><p><l>da<b></b>li</l><r>da<b></b>li<s n="part"/><s n="itg"/></r></p></e>
 <e lm="zar"><p><l>zar</l><r>zar<s n="part"/><s n="itg"/></r></p></e>
