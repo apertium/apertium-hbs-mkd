@@ -314,7 +314,8 @@
 
      <!-- SECTION: Proper Nouns -->     
      
-     <e><p><l>Vojska<b/>Srbije<s n="np"/><s n="al"/></l><r>Српската<b/>Армија<s n="np"/><s n="al"/></r></p></e>
+     <e><p><l>Vojska<b/>Srbije<s n="np"/><s n="al"/></l><r>Српската<b/>војска<s n="np"/><s n="al"/></r></p></e>
+     <e><p><l>Vojna<b/>akademija<s n="np"/><s n="al"/></l><r>Воената<b/>академија<s n="np"/><s n="al"/></r></p></e>
      <e><p><l>Gazela<s n="np"/><s n="al"/></l><r>Газела<s n="np"/><s n="al"/></r></p></e>               
  	 <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/></r></p></e>
 	
@@ -3470,7 +3471,7 @@
 	<e><p><l>više<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>većma<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>radije<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
-	<e><p><l>već<s n="adv"/></l><r>веќе<s n="adv"/></r></p></e>
+	<e><p><l>već<s n="adv"/></l><r>туку<s n="adv"/></r></p></e>
 	<e><p><l>dalje<s n="adv"/></l><r>понатаму<s n="adv"/></r></p></e>
 	<e><p><l>ranije<s n="adv"/></l><r>порано<s n="adv"/></r></p></e>
 	<e><p><l>pored<s n="adv"/></l><r>поред<s n="adv"/></r></p></e> <!--TODO: check if true -->

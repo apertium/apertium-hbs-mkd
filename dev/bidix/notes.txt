@@ -5,3 +5,20 @@ Not in the monodix:
     1 voziti <-> вози  
     1 usporediti <-> спореди 
     1 skakati <-> скока 
+    
+Ambiguities:
+
+Solved:
+borbenim - definite or indefinite (here it's indefinite) since it's instrumental there'll always be an ambiguity. The translation is "со борбен" if indefinite, and "со борбениот" or "со тој борбен" (the latter is more poetic). If it's definite, it would be modified by a demonstrative pronoun in Croatian, otherwise indefinite
+
+za + genitive - it appears very rarely, in expressions like "za života" (=="in one's life"). Probably'll be useful to make an exceptions list, and put the default of this preposition for accusative. For now, the rule for accusative simply appears before the rule for genitive so that's why there're no problems.
+
+na testu letenja - letenja comes out as nominative plural instead of genitiv singular. A rule to rule out nominative would be best here. 
+
+Unsolved:
+Ona - 'she' or 'that woman over there', demonstrative or personal pronoun (personal here). Same thing in macedonian Taa or Taa, so all the same how it's translated.
+    If it's demonstrative, it would point to something, or answer to a question "Which one?" from the last sentence.
+  
+okrenut će se - he will turn or they will turn. Probably quickest and dirtiest to search left or right for the agent of this phrase.
+
+jednom - to one of. 
