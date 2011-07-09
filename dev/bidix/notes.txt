@@ -5,8 +5,3 @@ Not in the monodix:
     1 voziti <-> вози  
     1 usporediti <-> спореди 
     1 skakati <-> скока 
-
-    1 rođak <-> не знам превест 
-
-    1 polaziti Problematic (the most correct would be слуша, but that's not universal)
-    1 učiniti  Problematic (basically because the sintagm in which it's used is a calque, so sounds equally bad in macedonian and croatian) 

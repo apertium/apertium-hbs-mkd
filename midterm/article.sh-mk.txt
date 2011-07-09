@@ -37,8 +37,8 @@
 25	Ona, međutim, priznaje da i sama ima tremu.
 25	Сепак, таа признава дека и самата е напната.
 
-27	"Kada uđem u kabinu, jedino o čemu mislim jest da trebam učiniti najbolje što mogu. Trema nestane; letimo, Super Galeb i ja. Radim na manevrima i mislim na slijetanje". 
-27	„Кога влегувам во кабината, единственото нешто на што мислам е да дадам максимум. Нервозата исчезнува; ние летаме, Супер галеб и јас. Работам на маневрите и мислам за слетувањето.“ 
+27	"Kada uđem u kabinu, jedino o čemu mislim jest da trebam dati sve od sebe. Trema nestane; letimo, Super Galeb i ja. Radim na manevrima i mislim na slijetanje". 
+27	„Кога влегувам во кабината, единственото нешто на што мислам е да дадам сѐ од себе. Нервозата исчезнува; ние летаме, Супер галеб и јас. Работам на маневрите и мислам за слетувањето.“ 
 
 29	Kapetan Nikola Stanković uvijek je s tih devetoro mladih pilota.
 29	Капетан Никола Станковиќ е секогаш со деветмината млади пилоти.

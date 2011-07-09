@@ -310,7 +310,7 @@
      <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
      <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
           
-     <e><p><l>devetoro<s n="num"/></l><r>devet<s n="num"/></r></p></e>          
+     <e><p><l>devetoro<s n="num"/></l><r>девет<s n="num"/></r></p></e>          
 
      <!-- SECTION: Proper Nouns -->     
      
@@ -332,11 +332,12 @@
      <e><p><l>armija<s n="n"/><s n="f"/></l><r>армија<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>letač<s n="n"/><s n="m"/></l><r>летач<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vodnik<s n="n"/><s n="m"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>vodnica<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="m"/></r></p></e> <!--TODO: Check this-->
+     <e><p><l>vodnica<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>klasa<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="f"/></r></p></e>
      
      <e><p><l>povijeest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
 
+     <e><p><l>rođak<s n="n"/><s n="ma"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>пилот<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>roditelj<s n="n"/><s n="ma"/></l><r>родител<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>kandidat<s n="n"/><s n="ma"/></l><r>кандидат<s n="n"/><s n="m"/></r></p></e>
@@ -2421,7 +2422,7 @@
     <e><p><l>odlučujući<s n="adj"/></l><r>решавачки<s n="adj"/></r></p></e>
     <e><p><l>motiviran<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
     <e><p><l>mnogi<s n="adj"/></l><r>многу<s n="adv"/></r></p></e>
-    <e><p><l>mlad<s n="adj"/></l><r>mlad<s n="adj"/></r></p></e>
+    <e><p><l>mlad<s n="adj"/></l><r>млад<s n="adj"/></r></p></e>
     <e><p><l>krasan<s n="adj"/></l><r>прекрасен<s n="adj"/></r></p></e>
     <e><p><l>jak<s n="adj"/></l><r>силен<s n="adj"/></r></p></e>
     <e><p><l>godišnji<s n="adj"/></l><r>годишен<s n="adj"/></r></p></e>
@@ -3548,11 +3549,16 @@
      <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
 	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p></e>
 
+
+
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
      <e><p><l>treba<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
-      <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
+     <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
 
+     <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
+
+     <e><p><l>dati<s n="vblex"/></l><r>dade<s n="vblex"/></r></p></e>
      <e><p><l>postati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
      <e><p><l>nestati<s n="vblex"/></l><r>исчезне<s n="vblex"/></r></p></e>     
      <e><p><l>gledati<s n="vblex"/></l><r>гледа<s n="vblex"/></r></p></e>
