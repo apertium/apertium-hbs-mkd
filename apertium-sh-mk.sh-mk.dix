@@ -91,6 +91,7 @@
     <sdef n="atn"/>
     <sdef n="qnt"     c="Quantifier"/>
     <sdef n="ord"     c="Ordinal"/>
+    <sdef n="coll"    c="Collective"/>
     <sdef n="obj"     c="Object"/>
     <sdef n="subj"    c="Subject"/>
     <sdef n="acr"     c="Acronym"/>
@@ -180,7 +181,20 @@
       <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="nt"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
-    
+     
+    <pardef n="coll_mfn1">
+      <e r="LR"><p><l><s n="mi"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="mi"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>      
+      <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+    </pardef>
+
+   
     <pardef n="coll_mfn">
       <e><p><l><s n="mi"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l><s n="ma"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
@@ -331,7 +345,7 @@
      <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
      <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
           
-     <e><p><l>devetoro<s n="num"/></l><r>девет<s n="num"/></r></p></e>          
+     <e><p><l>devetoro<s n="num"/><s n="coll"/></l><r>девет<s n="num"/></r></p><par n="coll_mfn1"/></e>          
 
      <!-- SECTION: Proper Nouns -->     
      
