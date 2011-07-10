@@ -5,6 +5,12 @@
   <def-cat n="nom">
      <cat-item tags="n.*"/>
   </def-cat>
+  <def-cat n="biti_lp">
+     <cat-item tags="vbser.lp.*"/>
+  </def-cat>
+  <def-cat n="biti_clt_fin">
+     <cat-item tags="vbser.clt.*"/>
+  </def-cat>
   <def-cat n="vblex">
      <cat-item tags="vblex.*"/>
   </def-cat>
@@ -61,6 +67,7 @@
 
   <def-attr n="a_vrb">
      <attr-item tags="vblex"/>
+     <attr-item tags="vbser"/>
   </def-attr>
 
   <def-attr n="a_prn">
@@ -88,6 +95,8 @@
   <def-attr n="tns">
      <attr-item tags="pres"/>
      <attr-item tags="lp"/>
+     <attr-item tags="lp.aor"/>
+     <attr-item tags="lp.pii"/>
      <attr-item tags="opt"/>
      <attr-item tags="imp"/>
      <attr-item tags="aor"/>
@@ -187,6 +196,18 @@
       </choose>
     </def-macro>  
 
+    <def-macro n="lp_default_trans1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+          </test>
+            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></let>
+        </when>
+      </choose>
+    </def-macro>  
+
+
     <def-macro n="mima_to_m" npar="1">
       <choose>
         <when>
@@ -206,7 +227,7 @@
 <section-rules>
 
 <!-- Future I tense to expectative-->
-<rule>
+<rule comment="rule: vbinf vbfutI">
 <pattern>
        <pattern-item n="vbinf"/>
        <pattern-item n="vbfutI"/>
@@ -262,6 +283,52 @@
         </out>
      </action>
   </rule>
+
+  <rule comment="regla: biti_lp biti_clt_fin">
+     <pattern>
+       <pattern-item n="biti_lp"/>
+       <pattern-item n="biti_clt_fin"/>
+     </pattern>
+     <action>
+       <call-macro n="lp_default_trans1">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_vrb"/>
+              <clip pos="1" side="tl" part="asp"/>
+              <clip pos="1" side="tl" part="trn"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_vrb"/>
+              <clip pos="2" side="tl" part="asp"/>
+              <clip pos="2" side="tl" part="trn"/>
+              <clip pos="2" side="tl" part="tns"/>
+              <clip pos="2" side="tl" part="prs"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
 
 
 
