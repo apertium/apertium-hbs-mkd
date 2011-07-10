@@ -3605,8 +3605,9 @@
 		...
        -->
      <e r="LR"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p></e>
-     <e r="RL"><p><l>kazati<s n="vblex"/><s n="perf"/></l><r>рече<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_tv"/></e>
-     <e><p><l>kazati<s n="vblex"/><s n="perf"/></l><r>каже<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_tv"/></e>
+
+     <e c="  0"><p><l>kazati<s n="vblex"/><s n="perf"/></l><r>каже<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_tv"/></e>
+     <e slr="1"><p><l>kazati<s n="vblex"/><s n="perf"/></l><r>рече<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_tv"/></e>
 
 
      <!-- check -->
