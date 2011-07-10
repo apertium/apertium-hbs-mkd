@@ -20741,6 +20741,65 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
       <e>        <re>[\)\]]</re>        <p>          <l/>          <r><s n="rpar"/></r></p></e>
     </pardef>
 
+<pardef n="numeros_sin_inflexion">
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+
     <pardef n="numeros"><!--TODO: this is just an incomplete sketch, other cases need to be added, possibly just an adjectival paradigm appended at the end-->
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l></l>          <r><s n="num"/></r></p></e>
       <e><re>[0-9][0-9].</re><p><l>-/</l><r>\/</r></p><re>[0-9][0-9].</re><p><l>-/</l><r>\/</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l></l><r><s n="num"/></r></p></e>
@@ -20750,115 +20809,47 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <!--Collective numerals--><!--big TODO: This is rudimentary, needs to be completed. Investigated also, since most forms of these are highly literary/archaic-->
     <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>deveterih</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetorih</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>    
     <!--end Collective numerals-->
     
-    <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četiri</l><r>četiri<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pet</l><r>pet<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šest</l><r>šest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedam</l><r>sedam<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osam</l><r>osam<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devet</l><r>devet<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>deset</l><r>deset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>jedanaest</l><r>jedanaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dvanaest</l><r>dvanaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trinaest</l><r>trinaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrnaest</l><r>četrnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>petnaest</l><r>petnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šesnaest</l><r>šesnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamnaest</l><r>sedamnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamnaest</l><r>osamnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devetnaest</l><r>devetnaest<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>            
-    <e><p><l>dvadeset</l><r>dvadeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trideset</l><r>trideset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrdeset</l><r>četrdeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pedeset</l><r>pedeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šezdeset</l><r>šezdeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamdeset</l><r>sedamdeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamdeset</l><r>osamdeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devedeset</l><r>devedeset<s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>jedan</l><r>jedan<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četiri</l><r>četiri<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pet</l><r>pet<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šest</l><r>šest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedam</l><r>sedam<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osam</l><r>osam<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devet</l><r>devet<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>deset</l><r>deset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>jedanaest</l><r>jedanaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dvanaest</l><r>dvanaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trinaest</l><r>trinaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrnaest</l><r>četrnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>petnaest</l><r>petnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šesnaest</l><r>šesnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamnaest</l><r>sedamnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamnaest</l><r>osamnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devetnaest</l><r>devetnaest<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>            
-    <e><p><l>dvadeset</l><r>dvadeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trideset</l><r>trideset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrdeset</l><r>četrdeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pedeset</l><r>pedeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šezdeset</l><r>šezdeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamdeset</l><r>sedamdeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamdeset</l><r>osamdeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devedeset</l><r>devedeset<s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-        <e><p><l>jedna</l><r>jedan<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dvije</l><r>dva<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četiri</l><r>četiri<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pet</l><r>pet<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šest</l><r>šest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedam</l><r>sedam<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osam</l><r>osam<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devet</l><r>devet<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>deset</l><r>deset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>jedanaest</l><r>jedanaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dvanaest</l><r>dvanaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trinaest</l><r>trinaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrnaest</l><r>četrnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>petnaest</l><r>petnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šesnaest</l><r>šesnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamnaest</l><r>sedamnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamnaest</l><r>osamnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devetnaest</l><r>devetnaest<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>            
-    <e><p><l>dvadeset</l><r>dvadeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trideset</l><r>trideset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrdeset</l><r>četrdeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pedeset</l><r>pedeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šezdeset</l><r>šezdeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamdeset</l><r>sedamdeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamdeset</l><r>osamdeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devedeset</l><r>devedeset<s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-        <e><p><l>jedno</l><r>jedan<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četiri</l><r>četiri<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pet</l><r>pet<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šest</l><r>šest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedam</l><r>sedam<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osam</l><r>osam<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devet</l><r>devet<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>deset</l><r>deset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>jedanaest</l><r>jedanaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>dvanaest</l><r>dvanaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trinaest</l><r>trinaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrnaest</l><r>četrnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>petnaest</l><r>petnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šesnaest</l><r>šesnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamnaest</l><r>sedamnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamnaest</l><r>osamnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devetnaest</l><r>devetnaest<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>            
-    <e><p><l>dvadeset</l><r>dvadeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>trideset</l><r>trideset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>četrdeset</l><r>četrdeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>pedeset</l><r>pedeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>šezdeset</l><r>šezdeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>sedamdeset</l><r>sedamdeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>osamdeset</l><r>osamdeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l>devedeset</l><r>devedeset<s n="num"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><i>dva</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>pet</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>šest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>sedam</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>osam</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>devet</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>deset</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>jedanaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>dvanaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>trinaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>četrnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>petnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>šesnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>sedamnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>osamnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>devetnaest</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>dvadeset</i><par n="numeros_sin_inflexion"/></e>
         
   	<!--Todo: Add the other numbers' declension-->
 	<e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
