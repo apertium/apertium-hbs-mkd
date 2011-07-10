@@ -148,7 +148,19 @@
       <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
       <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
     </pardef>
-    <pardef n="m_f_nt_mfn">
+    <pardef n="m_f_nt_mfn1">
+      <e r="LR"><p><l><s n="mi"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="mi"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="mfn"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="m_f_nt_mfn2">
       <e><p><l><s n="mi"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l><s n="ma"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l><s n="f"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
@@ -301,14 +313,14 @@
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
-     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p></e>     
-     <e><p><l>pet<s n="num"/></l><r>три<s n="num"/></r></p></e>     
-     <e><p><l>šest<s n="num"/></l><r>три<s n="num"/></r></p></e>     
+     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>pet<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>šest<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
 
-     <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
-     <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>     
-     <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
-     <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn"/></e>
+     <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+     <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
+     <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+     <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
           
      <e><p><l>devetoro<s n="num"/></l><r>девет<s n="num"/></r></p></e>          
 

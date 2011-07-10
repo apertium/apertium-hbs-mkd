@@ -146,6 +146,32 @@
       </choose>
     </def-macro>  
 
+    <def-macro n="num_concord2" npar="2">
+      <choose>
+        <when>
+          <test>
+          <and>
+            <or>
+              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dva"/></equal>
+              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="tri"/></equal>
+              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="četiri"/></equal>
+            </or>
+            <or>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="voc"/></equal>
+            </or>
+            <equal><clip pos="2" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+            <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+          </and>
+          </test>
+            <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+    </def-macro>  
+
+
     <def-macro n="mima_to_m" npar="1">
       <choose>
         <when>
@@ -194,6 +220,36 @@
 
 <!-- end Future I tense to expectative-->
 
+  <rule comment="regla: vblex">
+     <pattern>
+       <pattern-item n="vblex"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_vrb"/>
+              <clip pos="1" side="tl" part="asp"/>
+              <clip pos="1" side="tl" part="trn"/>
+              <clip pos="1" side="tl" part="tns"/>
+              <clip pos="1" side="tl" part="prs"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
+
+
 <!-- Sintagmas nominales -->
 
   <rule comment="regla: num">
@@ -221,6 +277,47 @@
      </action>
   </rule>
 
+
+  <rule comment="regla: num nom">
+     <pattern>
+       <pattern-item n="num"/>
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+       <call-macro n="num_concord2">
+         <with-param pos="1"/>
+         <with-param pos="2"/>
+       </call-macro>    
+       <out>
+         <chunk name="num_nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="2" side="tl" part="gen"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+             <tag><clip pos="2" side="tl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_num"/>
+             <clip pos="1" side="tl" part="gen"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <lit-tag v="nom.ind"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="a_nom"/>
+             <clip pos="2" side="tl" part="gen" link-to="2"/>
+             <clip pos="2" side="tl" part="nbr" link-to="3"/>
+             <lit-tag v="nom.ind"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
   <rule comment="regla: nom">
      <pattern>
@@ -276,35 +373,6 @@
            </lu>
          </chunk>
        </out>
-     </action>
-  </rule>
-
-
-  <rule comment="regla: vblex">
-     <pattern>
-       <pattern-item n="vblex"/>
-     </pattern>
-     <action>
-       <out>
-         <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="tns"/></tag>
-              <tag><clip pos="1" side="tl" part="prs"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_vrb"/>
-              <clip pos="1" side="tl" part="asp"/>
-              <clip pos="1" side="tl" part="trn"/>
-              <clip pos="1" side="tl" part="tns"/>
-              <clip pos="1" side="tl" part="prs"/>
-              <clip pos="1" side="tl" part="gen"/>
-              <clip pos="1" side="tl" part="nbr"/>
-            </lu>
-          </chunk>
-        </out>
      </action>
   </rule>
 
