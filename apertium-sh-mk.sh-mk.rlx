@@ -35,12 +35,15 @@ LIST A = adj ;
 LIST V = vblex vbser vbhaver vbmod ; 
 LIST VBSer = vbser ;
 LIST VBHaver = vbhaver ;
+LIST VBMod = vbmod ;
 LIST Adv = adv ; 
-LIST Num = num ; 
+LIST Num = num ;
+LIST Ord = ord ; 
 LIST Det = det ; 
 LIST Prop = np ;
 LIST Pron = prn ; 
 LIST DemPron = (prn dem) ;
+LIST PersPron = (prn pers) ;
 LIST PosPron = (prn pos) ;
 LIST IndPron = (prn ind) ;
 LIST RefPron = (prn ref) ;
@@ -57,7 +60,9 @@ LIST Cm = (",") (cm) ;
 
 LIST Clt = clt ; 
 LIST Lp = lp ; 
+LIST PassiveParticiple = pp ;
 LIST PresParticiple = pprs ;
+LIST Participle = lp opt pprs pp ;
 LIST Optative = opt ; 
 LIST Imperative = imp ;
 LIST Intransitive = iv ;
@@ -74,6 +79,8 @@ LIST Ordinal = ord;
 LIST Masculine = m ma mi ;
 LIST Feminine = f ; 
 LIST Neuter = nt ; 
+
+LIST MFN = mfn ; 
 
 LIST Singular = sg ;
 LIST Plural = pl ;
@@ -97,7 +104,7 @@ LIST Ins = ins ;
 
 # =========================================================================== #
 
-LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prijee"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "sa"i "mimo"i ;
+LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prijee"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "s"i "mimo"i ;
 LIST ACC-PREP = "kroz"i "niz"i "uz"i "na"i "o"i "po"i "u"i "među"i "nad"i "pod"i "pred"i "za"i; 
 LIST DAT-PREP = "k"i ;
 LIST LOC-PREP = "u"i "na"i "o"i "po"i "prema"i "pri"i;
@@ -124,16 +131,19 @@ SET V-FIN = FIN-TEMPS + V ;
 
 # Common ambiguities 
 
-SET A-OR-ADV = A | Adv ; 
+SET A-OR-ADV = A | Adv ;
+SET DemPron-OR-PersPron = DemPron | PersPron ;  
 SET ANIM-OR-INANIM = Anim | Inanim ; 
 SET Genitive-SingularOrPlural = Gen + Singular | Gen + Plural ; 
-
+SET Ind-OR-Def = Definite | Indefinite ; 
+SET Num-Ord = Num - Ord ;
 # All possible word categories
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
 
 # Categories that can come before the head noun in an ProperNoun 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
 SET Modifier = A | Num | DemPron | PosPron | IndPron; # Words that agree in case, number, gender with the following word.
+SET NOT-Modifier = WORD - Modifier ;
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
@@ -179,6 +189,9 @@ REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Lp OR Optative) ;
 ## REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>")) (NOT -1 V + Transitive) (NOT 1* V + Transitive BARRIER MARK) ;
     ## je is not a pronoun in accusative if it's not an argument of a transitive verb. True, but not when formulated like this.
 
+REMOVE:DemonstrativeOrPersonal DemPron (0 DemPron-OR-PersPron) (NOT 1C Nomen) ;
+    ## If it doesn't point to anything, this is rudimentary, and to be expanded
+
 SELECT VBSer IF (-1* Lp );
 SELECT VBSer IF (1* Lp BARRIER V - Lp - PresParticiple );
     ## This is perhaps fallable
@@ -191,17 +204,10 @@ SELECT:PerfectNotOptative Lp (0C Lp OR Optative) (1 MeTeSePron BARRIER EOS) ;
 
 SELECT:l-participleNumber $$NUMBER (0C Lp OR Optative) ( (-1* VBSer + $$NUMBER BARRIER BOS) OR  (1* VBSer + $$NUMBER BARRIER EOS) );
 
-
-## REMOVE $$CASE IF (0C A-OR-ADV) (NOT 1* N + $$CASE BARRIER NPNHA) ;
-    ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.    
-
-## REMOVE $$CASE IF (NOT -1 Ant + $$CASE) (0 Cog + $$CASE) ;
-    ## Njihov kolega Nemanja Ružić pao je na testu letenja na trećoj godini akademije i okrenut će se jednom od pet ostalih akademskih programa.
-    ## Remove a case if there's no preceeding antroponym in that case. This is not true. The antroponym can be after, or a cogname could be
-    ## an argument of a verb taking a case
-
 SELECT:NeuterAdjectiveIsAdverb Adv IF (0 A-OR-ADV + Neuter ) ( 1C V ) ;
-SELECT Adv (0 ("<samo>"i) ) (1C ("<da>"i) + Particle );
+SELECT Adv (0 ("<samo>"i) ) (1C ("<da>"i) + Particle ) ;
+
+REMOVE:NotAdverbNotAdjective Adv (Not 0 A) (NOT -1 V) (Not 1 V) ;
 
 # =========================================================================== #
 #   NP-agreement disambiguation                                               #
@@ -210,28 +216,21 @@ SELECT Adv (0 ("<samo>"i) ) (1C ("<da>"i) + Particle );
 REMOVE $$NUMBER + Nom IF (1C* V-FIN BARRIER MARK) (NOT 1C* V-FIN + $$NUMBER BARRIER MARK) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
-#REMOVE $$NUMBER + Nom IF (-1* V-FIN) (NOT -1* V-FIN + $$NUMBER) ; 
-    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
-
 SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
                          (0 NP-HEAD + $$NUMBER + $$GENDER)
                          (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + $$GENDER BARRIER S-BOUNDARY) ;
-    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
-                                    
-#SELECT:NumberGender Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
-    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
-    
-SELECT:GenNumCaseNext $$GENDER + $$NUMBER IF (0 Modifier) (1 NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
-#SELECT $$NUMBER IF (1C NP-HEAD + $$NUMBER OR A + $$NUMBER);
-    
-## SELECT $$NUMBER + $$CASE IF (0C NP-MEMBER) (-1 NP-MEMBER + $$NUMBER + $$CASE) ;
+    ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.                         
 
-#SELECT PRE-N + $$GENDER IF (1C* NP-HEAD + $$GENDER BARRIER NOT-NP-MEMBER);
-    ## Select the gender of a noun modifier according to the next
-    ## possible ProperNoun head to the right. We allow it to scan by any NP-member
-    
-SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS) (1C V-FIN + Intransitive + $$NUMBER) ;
+SELECT:BOS-Nom-Viv $$NUMBER + Nom IF (-1 BOS OR Cm) (1* V-FIN + Intransitive + $$NUMBER) ;
     ## Žene lete...
+SELECT:BOS-Passive=>Nom $$NUMBER + Nom (-1 BOS) (0 $$NUMBER) (1* PassiveParticiple BARRIER EOS) (1* VBSer + $$NUMBER BARRIER EOS) ;
+    ## Tri žene su primljene...
+    
+SELECT:GenNumNext $$GENDER + $$NUMBER IF (0 Modifier) (1 NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
+SELECT:NumbersGender $$GENDER (0 Num) (1 Nomen + $$GENDER);
+
+SELECT:NetkoNešto Neuter + Singular (0 Modifier) (-1 ("(.*)što"r)) ;
+SELECT:NetkoNešto Masculine + Singular (0 Modifier) (-1 ("(.*)tko"r)) ;
 
 SELECT:AtrrNum->NNum $$NUMBER IF (0 N OR A)(-1 Modifier + $$NUMBER) ;
 
@@ -240,9 +239,16 @@ SELECT:Nabrajanje $$NUMBER + $$GENDER + $$CASE IF ( -1 Cm ) ( -2 Modifier + $$NU
 SELECT $$NUMBER + Nom IF (-1* NP-HEAD  + $$NUMBER BARRIER BOS) (-1 ("<kao>"i) ) ;    
     ## ona je... kao kadetkinja
 
-SELECT:RelativeGender $$GENDER (0 Relative) (-1* $$GENDER BARRIER BOS) ;
+SELECT:VŠtoV CS (0 CS) (-1 V) (1 V);
+SELECT:VŠtoV CS (0 CS) (-1* V-FIN BARRIER BOS) (1* V-FIN BARRIER EOS); # oPREZ
+    ## This is terrible, but it'll work
+
+SELECT:RelativeNagađanje Relative + $$NUMBER + $$GENDER (-1* Nomen + $$NUMBER + $$GENDER BARRIER V-FIN OR BOS) ; ## oPREZ
     
-SELECT:tvAcc Acc IF (-1C V + Transitive );
+SELECT:GenderOfRelative $$GENDER (0 Relative) (-1* $$GENDER BARRIER BOS) ;
+    
+SELECT:tvAcc Acc (-1C V + Transitive ); 
+SELECT:tvAcc Acc (-2C V + Transitive) (-1 ("<niti>"i) + CC) ;
 
 REMOVE:notVoc Voc IF (NOT -1 Voc OR Cm);
 REMOVE:notVoc Voc IF (NOT 1 Voc OR Cm);
@@ -252,11 +258,16 @@ SELECT:DualGen Gen IF (-1 DualNum + Nom);
     ## Tri žene
 SELECT:OrdDual $$GENDER IF (1 DualNum + $$GENDER) (0 Num + Ordinal );
     ## Prve tri žene. Prve should be accusative, gender the same as žene.    
+
+SELECT:GenderSama $$GENDER (0 ("sam") + A + $$GENDER + $$NUMBER) (-1* Nomen + $$GENDER + $$NUMBER BARRIER BOS) ;
+    ## Terrible
+    
 SELECT Intransitive IF (1C Nom);
 
 SELECT Feminine IF (0 Cog + ("<Radovanović>") ) ;
 SELECT Feminine IF (0 Cog + ("<Tadić>") ) ;
 SELECT Feminine IF (0 Cog + ("<Krneta>") ) ;
+SELECT Masculine IF (0 Cog + ("<Ružić>") ) ;
     ## NOTE: This is for this article only
 # =========================================================================== #
 #   PP disambiguation                                                         #
@@ -264,6 +275,14 @@ SELECT Feminine IF (0 Cog + ("<Krneta>") ) ;
 
 REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
     ## Šumski požar na hrvatskom otoku Kornati odnio još jedan ljudski život.
+
+
+#SELECT:NumberPhraseL Gen (NOT 0 Num) (-1* Num-Ord BARRIER NOT-Modifier OR Cm);
+#SELECT:NumberPhraseR Gen (NOT 0 Num) (1* Num-Ord BARRIER NOT-Modifier OR Cm);
+
+
+SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
+SELECT Gen IF (0 Num) (-1C ("<prijee>"i) + Pr);
 
 SELECT:Modifier-Nom Nom IF (-1C Modifier + Nom);
 SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
@@ -285,23 +304,31 @@ SELECT:FeminineCognameAloneIsNominative Nom IF
     (NOT 1 Ant + ($$CASE - Nom));
     ## Indeed, if it's already not Accusative and Vocative etc
 
-##SELECT Dat IF (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
-SELECT:DativeIfAlone Dat IF (NOT 0 Num)(0 Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+SELECT:DativeIfAlone Dat IF (NOT 0 Num) (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+REMOVE:NotLocative Loc IF (0 Dat OR Loc) (NOT -1C LOC-PREP) (NOT -1C Modifier + Loc);
     ## If dative stands alone, it's never locative
 
 SELECT:NomenAfterNounIsGenitive Gen (-1 N);
 
 REMOVE:NotGenitivePlural Gen + Plural (0 Genitive-SingularOrPlural) (NOT -1 Modifier + Gen + Plural) (NOT 1 Modifier + Gen + Plural) ;
 
-REMOVE:notAcc Acc IF (NOT -1 V + Transitive ) (NOT -1 Modifier + Acc);
+REMOVE:notAcc Acc IF (NOT -1* V + Transitive BARRIER BOS OR V + Intransitive) (NOT -1 Modifier + Acc);
     ## If it's not a target of a transitive verb, it's not accusative
     ## And if there isn't a modifier that's already in accusative
-    
-
-    
-SELECT:InstrumentalDefiniteness Indefinite (0 Ins) (NOT -1 DemPron) ;
+        
+SELECT:AdjectiveDefiniteness Indefinite (0C A + Ind-OR-Def ) (NOT -1 DemPron) ;
 
 SELECT:Ordinal+Singular Singular (-1 Num + Ordinal) ;
+
+SELECT:NumberesDistantGender $$GENDER (0 Num) (1* Nomen + $$GENDER BARRIER EOS) ;
+    ## Okrenut će se jednom od....programa <-here be gender
+    ## This rule is if all normal rules fail
+
+SELECT:DativeIfAlone Dat IF (NOT 0 Num) (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+
+REMOVE:notCliticHeuristic Clt (0 Pron + Clt OR Pron + ("free"i) ) (-1 Pr) ;
+
+SELECT:SveAlone MFN (0 Pron + MFN) (NOT 1* Nomen + Masculine OR Feminine OR Neuter BARRIER EOS OR CC OR CS OR Cm) ;
 
 # =========================================================================== #
 #   Verb chain disambiguation                                                 #
@@ -319,6 +346,12 @@ REMOVE Plural IF (0 Lp)  (1 VBSer + Singular ) ;
     
 REMOVE Transitive IF (NOT 1* Acc BARRIER V);
 SELECT Transitive IF (1* Acc BARRIER V);
+
+SELECT $$NUMBER (O PassiveParticiple) (-1* VBSer LINK -1* Particle + Interrogative LINK -1 V + $$NUMBER) ;
+    ## "hoću li biti primljena"
+
+REMOVE:notParticiple Participle (-1 VBMod) (NOT 1 V BARRIER EOS) ;
+
 
 # =========================================================================== #
 #   Sentence level disambiguation                                             #
@@ -339,7 +372,7 @@ REMOVE Imperative IF (NOT 1* ("<!>") BARRIER EOS);
     ## It's not imperative, if it doesn't end with '!'
     ## Probably not always, but it'll do for this article
     
-SELECT:Imalievosubjekt Lp + $$GENDER + $$NUMBER IF
+SELECT:IsThereASubject? Lp + $$GENDER + $$NUMBER IF
                      (-1C* NP-HEAD + $$GENDER + $$NUMBER BARRIER S-BOUNDARY) ; 
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
