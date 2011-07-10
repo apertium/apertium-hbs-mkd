@@ -50,7 +50,7 @@ LIST Pr = pr ;
 LIST CS = cnjsub ;
 LIST CC = cnjcoo ;
 LIST Interr = itg ;
-LIST Interj = ij ;
+LIST Interjection = ij ;
 LIST Cm = (",") (cm) ;
 
 # =========================================================================== #
@@ -129,7 +129,7 @@ SET ANIM-OR-INANIM = Anim | Inanim ;
 SET Genitive-SingularOrPlural = Gen + Singular | Gen + Plural ; 
 
 # All possible word categories
-SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
 
 # Categories that can come before the head noun in an ProperNoun 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
@@ -162,6 +162,9 @@ SECTION
 # =========================================================================== #
 #   NP-internal disambiguation                                                #
 # =========================================================================== #
+
+REMOVE:NotInterjection Interjection (NOT 1* ("<!>") BARRIER EOS);
+    ## for now like this
 
 REMOVE:jeIsNotGenitive Gen IF (0 ("<je>")) (NOT -1 VBHaver );
     ## "je" as a pronoun in genitive can only come after the vbhaver
@@ -269,18 +272,6 @@ SELECT:Pr-Dat-chain Dat IF (-1C DAT-PREP OR Modifier + Dat);
 SELECT:Pr-Loc-chain Loc IF (-1C LOC-PREP OR Modifier + Loc);
 SELECT:Pr-Ins-chain Ins IF (-1C INS-PREP OR Modifier + Ins);
 
-##SELECT Dat IF (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
-SELECT:DativeIfAlone Dat IF (0 Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
-    ## If dative stands alone, it's never locative
-
-SELECT:NomenAfterNounIsGenitive Gen (-1 N);
-
-REMOVE:NotGenitivePlural Plural (0 Genitive-SingularOrPlural) (NOT -1 Modifier + Gen + Plural) (NOT 1 Modifier + Gen + Plural) ;
-
-REMOVE:notAcc Acc IF (NOT -1 V + Transitive ) (NOT -1 Modifier + Acc);
-    ## If it's not a target of a transitive verb, it's not accusative
-    ## And if there isn't a modifier that's already in accusative
-    
 SELECT:Ant+Cog $$NUMBER + $$GENDER + $$CASE IF (-1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
 SELECT:Cog+Ant $$NUMBER + $$GENDER + $$CASE IF (1 Ant + $$NUMBER + $$GENDER + $$CASE ) (0 Cog + $$NUMBER + $$GENDER + $$CASE ) ;
     ## The cogname takse the number, gender and case of the name
@@ -293,6 +284,20 @@ SELECT:FeminineCognameAloneIsNominative Nom IF
     (NOT -1 Ant + ($$CASE - Nom))
     (NOT 1 Ant + ($$CASE - Nom));
     ## Indeed, if it's already not Accusative and Vocative etc
+
+##SELECT Dat IF (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+SELECT:DativeIfAlone Dat IF (0 Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+    ## If dative stands alone, it's never locative
+
+SELECT:NomenAfterNounIsGenitive Gen (-1 N);
+
+REMOVE:NotGenitivePlural Plural (0 Genitive-SingularOrPlural) (NOT -1 Modifier + Gen + Plural) (NOT 1 Modifier + Gen + Plural) ;
+
+REMOVE:notAcc Acc IF (NOT -1 V + Transitive ) (NOT -1 Modifier + Acc);
+    ## If it's not a target of a transitive verb, it's not accusative
+    ## And if there isn't a modifier that's already in accusative
+    
+
     
 SELECT:InstrumentalDefiniteness Indefinite (0 Ins) (NOT -1 DemPron) ;
 
