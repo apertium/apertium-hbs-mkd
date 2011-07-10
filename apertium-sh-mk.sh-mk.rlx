@@ -218,7 +218,7 @@ SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
                          (1* V-COP + $$NUMBER LINK 1 Lp + $$NUMBER + $$GENDER BARRIER S-BOUNDARY) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
                                     
-SELECT:NumberGender Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
+#SELECT:NumberGender Num + $$GENDER IF (0 Num + $$GENDER) (1C NP-HEAD + $$GENDER);
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
     
 SELECT:GenNumCaseNext $$GENDER + $$NUMBER IF (0 Modifier) (1 NP-HEAD + $$GENDER + $$NUMBER OR A + $$GENDER + $$NUMBER);
@@ -286,12 +286,12 @@ SELECT:FeminineCognameAloneIsNominative Nom IF
     ## Indeed, if it's already not Accusative and Vocative etc
 
 ##SELECT Dat IF (0C Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
-SELECT:DativeIfAlone Dat IF (0 Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
+SELECT:DativeIfAlone Dat IF (NOT 0 Num)(0 Dat OR Loc) (NOT -1C Pr ) (NOT -1C Modifier + Loc);
     ## If dative stands alone, it's never locative
 
 SELECT:NomenAfterNounIsGenitive Gen (-1 N);
 
-REMOVE:NotGenitivePlural Plural (0 Genitive-SingularOrPlural) (NOT -1 Modifier + Gen + Plural) (NOT 1 Modifier + Gen + Plural) ;
+REMOVE:NotGenitivePlural Gen + Plural (0 Genitive-SingularOrPlural) (NOT -1 Modifier + Gen + Plural) (NOT 1 Modifier + Gen + Plural) ;
 
 REMOVE:notAcc Acc IF (NOT -1 V + Transitive ) (NOT -1 Modifier + Acc);
     ## If it's not a target of a transitive verb, it's not accusative
