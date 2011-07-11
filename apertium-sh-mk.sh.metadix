@@ -1010,7 +1010,7 @@ after prepositions-->
 	 <e><p><l>koji</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
 	 <e><p><l>koji</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>	 
    <e r="LR"><p><l>što</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e r="LR"><p><l>što</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e r="LR"><p><l>što</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
 	<e><p><l>kojeg</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>kojega</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
  	<e><p><l>kojeg</l><r>koji<s n="prn"/><s n="rel"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -5156,12 +5156,12 @@ after prepositions-->
 
 <pardef n="pp__sfx__vblex">
        <e><p><l></l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>o</l><r><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>i</l><r><s n="pp"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>o</l><r><s n="pp"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>e</l><r><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>      
+      <e><p><l>e</l><r><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r><s n="pp"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 
 <!--Suffixes for the participle -->
@@ -20732,48 +20732,27 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     </pardef>
 
 <pardef n="numeros_sin_inflexion">
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><p><l/><r><s n="num"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="nom"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="gen"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="dat"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="acc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="voc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="loc"/></r></p></e>
+    <e><p><l/><r><s n="num"/><s n="f"/><s n="ins"/></r></p></e>
 </pardef>
 
     <pardef n="numeros"><!--TODO: this is just an incomplete sketch, other cases need to be added, possibly just an adjectival paradigm appended at the end-->
@@ -20805,6 +20784,72 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>    
+        <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>deveterih</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetorih</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>    
+        <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>deveterih</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetorih</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>    
+        <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>deveterih</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>devetorih</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>    
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>    
     <!--end Collective numerals-->
     
     <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
@@ -25213,7 +25258,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="otići"><i>oti</i><par n="perf_iv_do/ći__vblex"/></e>
 <e lm="proći"><i>pro</i><par n="perf_tv_do/ći__vblex"/></e>
 <e lm="proći"><i>pro</i><par n="perf_iv_do/ći__vblex"/></e>
-<e lm="proći"><i>pro</i><par n="perf_ref_do/ći__vblex"/></e>
 <e lm="povući"><i>povu</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="povući"><i>povu</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="ići"><i>i</i><par n="imperf_iv_i/ći__vblex"/></e>
 <e lm="glasati"><i>glas</i><par n="imperf_iv_bir/ati-pp__vblex"/></e>

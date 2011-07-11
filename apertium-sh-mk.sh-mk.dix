@@ -209,7 +209,7 @@
 
   </pardefs>
 
-   <section id="main" type="standard">
+   <section id="main" type="standard">     <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
 
      <!-- SECTION: Particles -->
      <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
@@ -226,7 +226,8 @@
      <e><p><l>ni<s n="cnjcoo"/></l><r>ни<s n="cnjcoo"/></r></p></e>
      <e><p><l>niti<s n="cnjcoo"/></l><r>ниту<s n="cnjcoo"/></r></p></e>
      <e><p><l>ali<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
-
+     <e><p><l>da<s n="cnjsub"/></l><r>дека<s n="cnjsub"/></r></p></e>
+     
      <e><p><l>dok<s n="cnjsub"/></l><r>додека<s n="cnjsub"/></r></p></e>
 
      <!-- SECTION: Prepositions -->
@@ -2439,6 +2440,8 @@
 
 
      <!-- SECTION: Adjectives -->
+
+     <e><p><l>prošli<s n="adj"/></l><r>минат<s n="adj"/></r></p></e>
 
      <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
      <e><p><l>zdrav<s n="adj"/></l><r>здрав<s n="adj"/></r></p></e>
