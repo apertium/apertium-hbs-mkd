@@ -41,6 +41,16 @@
   <def-cat n="exp">
      <cat-item tags="part.exp"/>
   </def-cat>
+  <def-cat n="nepart">
+    <cat-item tags="ne.part.neg"/>
+  </def-cat>  
+  <def-cat n="vbserpast">
+    <cat-item tags="vbser.clt.pres.*"/>
+  </def-cat>  
+  <def-cat n="vblexlp">
+    <cat-item tags="vblex.*.*.lp.*"/>
+  </def-cat>  
+  
 </section-def-cats>
 
 <section-def-attrs>
@@ -63,6 +73,10 @@
   <def-attr n="a_adj">
      <attr-item tags="adj"/>
      <attr-item tags="adj.itg"/>
+  </def-attr>
+
+  <def-attr n="a_adv">
+     <attr-item tags="adv"/>
   </def-attr>
 
   <def-attr n="a_vrb">
@@ -255,6 +269,59 @@
 </rule>
 
 <!-- end Future I tense to expectative-->
+
+  <rule>
+    <pattern>
+        <pattern-item n="nepart"/>
+        <pattern-item n="vbserpast"/>
+        <pattern-item n="vblexlp"/>
+        <pattern-item n="vbinf"/>        
+    </pattern>
+    <action>
+        <out>
+            <chunk>
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="prs"/></tag>
+                   <tag><clip pos="3" side="tl" part="gen"/></tag>
+                   <tag><clip pos="3" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adv"/>                                    
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_vrb"/>
+                  <clip pos="3" side="tl" part="asp"/>
+                  <clip pos="3" side="tl" part="trn"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="2" side="tl" part="prs"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+                <b pos="2"/>
+                <lu>                  
+                  <lit v="да"/>
+                  <lit-tag v="part"/>
+                </lu>                  
+                <b pos="3"/>
+                <lu>                
+                  <clip pos="4" side="tl" part="lemh"/>
+                  <clip pos="4" side="tl" part="a_vrb"/>
+                  <clip pos="4" side="tl" part="asp"/>
+                  <clip pos="4" side="tl" part="trn"/>
+                  <lit-tag v="pres"/>
+                  <clip pos="2" side="tl" part="prs"/>
+                  <clip pos="3" side="tl" part="nbr"/> 
+                  <clip pos="4" side="tl" part="lemq"/>                 
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
 
   <rule comment="regla: vblex">
      <pattern>

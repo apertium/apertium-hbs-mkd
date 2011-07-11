@@ -387,7 +387,7 @@
      
      <e><p><l>test<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>manevar<s n="n"/><s n="mi"/></l><r>маневар<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>smjer<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>     
+     <e><p><l>test<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>     
      <e><p><l>ispit<s n="n"/><s n="mi"/></l><r>испит<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>smjer<s n="n"/><s n="mi"/></l><r>правец<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>put<s n="n"/><s n="mi"/></l><r>пат<s n="n"/><s n="m"/></r></p></e>
@@ -405,7 +405,7 @@
      
      <e><p><l>trema<s n="n"/><s n="f"/></l><r>трема<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>vrata<s n="n"/><s n="f"/></l><r>врата<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>vožnja<s n="n"/><s n="f"/></l><r>vozenje<s n="n"/><s n="nt"/></r></p></e>               
+     <e><p><l>vožnja<s n="n"/><s n="f"/></l><r>возење<s n="n"/><s n="nt"/></r></p></e>               
      <e><p><l>visina<s n="n"/><s n="f"/></l><r>висина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>ptica<s n="n"/><s n="f"/></l><r>птица<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>majka<s n="n"/><s n="f"/></l><r>мајка<s n="n"/><s n="f"/></r></p></e>
@@ -3600,7 +3600,8 @@
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
 
-     <e><p><l>dati<s n="vblex"/></l><r>dade<s n="vblex"/></r></p></e>
+     <e><p><l>uspjeeti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
+     <e><p><l>dati<s n="vblex"/></l><r>даде<s n="vblex"/></r></p></e>
      <e><p><l>postati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
      <e><p><l>nestati<s n="vblex"/></l><r>исчезне<s n="vblex"/></r></p></e>     
      <e><p><l>gledati<s n="vblex"/></l><r>гледа<s n="vblex"/></r></p></e>
