@@ -340,8 +340,8 @@
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
      <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
-     <e><p><l>pet<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
-     <e><p><l>šest<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>pet<s n="num"/></l><r>пет<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>šest<s n="num"/></l><r>шест<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
 
      <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
      <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
@@ -369,8 +369,8 @@
      <e><p><l>sastav<s n="n"/><s n="m"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vojska<s n="n"/><s n="f"/></l><r>војска<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>armija<s n="n"/><s n="f"/></l><r>армија<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>letač<s n="n"/><s n="m"/></l><r>летач<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>vodnik<s n="n"/><s n="m"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>letač<s n="n"/><s n="ma"/></l><r>летач<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vodnik<s n="n"/><s n="ma"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vodnica<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>klasa<s n="n"/><s n="f"/></l><r>класа<s n="n"/><s n="f"/></r></p></e>
      
@@ -3463,7 +3463,7 @@
 	<e><p><l>uistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
 	<e><p><l>vaistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
 	<e><p><l>odista<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
-	<e><p><l>uvijek<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e><p><l>uvijeek<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
 	<e><p><l>također<s n="adv"/></l><r>исто<b/>така<s n="adv"/></r></p></e>	
 
 	<e><p><l>nadvoje-natroje<s n="adv"/></l><r>надве-натри<s n="adv"/></r></p></e>
