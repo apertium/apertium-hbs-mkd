@@ -42,7 +42,7 @@
      <cat-item tags="part.exp"/>
   </def-cat>
   <def-cat n="nepart">
-    <cat-item tags="ne.part.neg"/>
+    <cat-item lemma ="ne" tags="part.neg"/>
   </def-cat>  
   <def-cat n="vbserpast">
     <cat-item tags="vbser.clt.pres.*"/>
@@ -279,7 +279,7 @@
     </pattern>
     <action>
         <out>
-            <chunk>
+            <chunk name ="verb" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>

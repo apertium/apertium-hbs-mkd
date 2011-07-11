@@ -24373,8 +24373,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="preživjeti"><i>preživ</i><par n="perf_iv_proživ/jeti__vblex"/></e>
 <e lm="ćutjeti"><i>ću</i><par n="imperf_tv_vr/tjeti-pp__vblex"/></e><e lm="ćutjeti"><i>ćut</i><par n="imperf_ref_vr/tjeti__vblex"/></e>
 <e lm="oćutjeti"><i>oću</i><par n="perf_tv_izvr/tjeti__vblex"/></e>
-<e lm="uspjeti"><i>usp</i><par n="imperf_iv_živ/jeti__vblex"/></e>
-<e lm="uspjeti"><i>usp</i><par n="imperf_tv_živ/jeti__vblex"/></e>
+<e lm="uspjeti"><i>usp</i><par n="perf_iv_proživ/jeti__vblex"/></e>
+<e lm="uspjeti"><i>usp</i><par n="perf_tv_proživ/jeti__vblex"/></e>
 <e lm="živjeti"><i>živ</i><par n="imperf_iv_živ/jeti__vblex"/></e>
 <e lm="letjeti"><i>let</i><par n="imperf_iv_živ/jeti__vblex"/></e>
 <e lm="poletjeti"><i>polet</i><par n="perf_iv_proživ/jeti__vblex"/></e>
