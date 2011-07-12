@@ -361,7 +361,7 @@
 
      <!-- SECTION: Proper Nouns -->     
      
-     <e><p><l>Vojska<b/>Srbije<s n="np"/><s n="al"/></l><r>Српската<b/>војска<s n="np"/><s n="al"/></r></p></e>
+     <e><p><l>Vojska<g><b/>Srbije</g><s n="np"/><s n="al"/></l><r>Српската<b/>војска<s n="np"/><s n="al"/></r></p></e>
      <e><p><l>Vojna<b/>akademija<s n="np"/><s n="al"/></l><r>Воената<b/>академија<s n="np"/><s n="al"/></r></p></e>
      <e><p><l>Gazela<s n="np"/><s n="al"/></l><r>Газела<s n="np"/><s n="al"/></r></p></e>               
  	 <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/></r></p></e>
