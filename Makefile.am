@@ -18,7 +18,8 @@ TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME
 	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
 	$(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-	$(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes 
+	$(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes \
+	$(PREFIX1).autopgen.bin 
 
 #    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin 
 
@@ -63,9 +64,9 @@ $(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
 $(PREFIX1).rlx.bin: $(BASENAME).$(PREFIX1).rlx
 	cg-comp $(BASENAME).$(PREFIX1).rlx $@
 
-#$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
-#	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
-#	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
+$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
+	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
 
 $(PREFIX1).translit.bin: $(BASENAME).translit.dix
 #	apertium-validate-dictionary $(BASENAME).translit.dix
@@ -166,7 +167,7 @@ apertium_sh_mk_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
 		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX1).t3x\
 		    $(BASENAME).$(PREFIX2).t1x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x\
-		    $(PREFIX2).autopgen.bin \
+		    $(PREFIX1).autopgen.bin \
 		    $(PREFIX1).translit.bin $(PREFIX2).translit.bin \
 		    $(PREFIX1).mode $(PREFIX2a).mode $(PREFIX2b).mode $(PREFIX2c).mode
 		  
