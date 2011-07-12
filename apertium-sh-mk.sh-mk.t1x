@@ -5,6 +5,9 @@
   <def-cat n="nom">
      <cat-item tags="n.*"/>
   </def-cat>
+  <def-cat n="nompropgen">
+     <cat-item tags="np.*.*.*.gen"/>
+  </def-cat>
   <def-cat n="biti_lp">
      <cat-item tags="vbser.lp.*"/>
   </def-cat>
@@ -66,6 +69,8 @@
      <attr-item tags="np"/>
      <attr-item tags="np.ant"/>
      <attr-item tags="np.top"/>
+     <attr-item tags="np.cog"/>     
+     <attr-item tags="np.al"/>
   </def-attr>
 
   <def-attr n="a_num">
@@ -249,6 +254,33 @@
 
 <section-rules>
 
+<rule comment="proper noun genitive">
+<pattern>
+       <pattern-item n="nompropgen"/>
+</pattern>
+<action>
+    <out>
+        <chunk name="nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SNGen"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>             
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <clip pos="1" side="tl" part="cas" link-to="4"/>                                                                              
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+
 <rule comment="futureI->expectative">
 <pattern>
        <pattern-item n="vbinf"/>
@@ -257,7 +289,7 @@
 <action>
     <out>
         <chunk name="verb" case="caseFirstWord">
-         <tags>
+           <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>

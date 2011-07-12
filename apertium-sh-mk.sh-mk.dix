@@ -2467,7 +2467,7 @@
     <e><p><l>vrijedan<s n="adj"/></l><r>вреден<s n="adj"/></r></p></e>
     <e><p><l>velik<s n="adj"/></l><r>голем<s n="adj"/></r></p></e>
     <e><p><l>težak<s n="adj"/></l><r>тежок<s n="adj"/></r></p></e>
-    <e><p><l>posljednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
+    <e><p><l>posljeednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
     <e><p><l>ostali<s n="adj"/></l><r>друг<s n="adj"/></r></p></e>
     <e><p><l>opasan<s n="adj"/></l><r>опасен<s n="adj"/></r></p></e>
     <e><p><l>odlučujući<s n="adj"/></l><r>решавачки<s n="adj"/></r></p></e>
@@ -3521,7 +3521,7 @@
 	<e><p><l>više<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>većma<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>radije<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
-	<e><p><l>već<s n="adv"/></l><r>туку<s n="adv"/></r></p></e>
+	<e><p><l>već<s n="cnjcoo"/></l><r>туку<s n="cnjcoo"/></r></p></e>
 	<e><p><l>dalje<s n="adv"/></l><r>понатаму<s n="adv"/></r></p></e>
 	<e><p><l>ranije<s n="adv"/></l><r>порано<s n="adv"/></r></p></e>
 	<e><p><l>pored<s n="adv"/></l><r>поред<s n="adv"/></r></p></e> <!--TODO: check if true -->
@@ -3604,11 +3604,12 @@
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
-     <e><p><l>treba<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
+     <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
      <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
 
+     <e><p><l>manevrirati<s n="vblex"/></l><r>маневрира<s n="vblex"/></r></p></e>
      <e><p><l>zaboraviti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
      <e><p><l>uspjeeti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
      <e><p><l>dati<s n="vblex"/></l><r>даде<s n="vblex"/></r></p></e>
@@ -4436,6 +4437,7 @@
 	<e><p><l>tumačiti<s n="vblex"/></l><r>толкува<s n="vblex"/></r></p></e>
 	<e><p><l>kretati<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e>
 	<e><p><l>uvoziti<s n="vblex"/></l><r>увезува<s n="vblex"/></r></p></e>
+    <e><p><l>voziti<s n="vblex"/></l><r>вози<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>uvažati<s n="vblex"/></l><r>увезува<s n="vblex"/></r></p></e>
 	<e><p><l>uređivati<s n="vblex"/></l><r>уредува<s n="vblex"/></r></p></e>
 	<e><p><l>ucjenjivati<s n="vblex"/></l><r>уценува<s n="vblex"/></r></p></e>

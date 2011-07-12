@@ -31902,7 +31902,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="obelisk"><i>obeli</i><par n="obeli/sk__n"/></e>
 <e lm="pradjed"><i>prad</i><par n="e_je__yat"/><i>d</i><par n="pradjed__n"/></e>
 <e lm="očuh"><i>oču</i><par n="oču/h__n"/></e>
-<e lm="osmjeh"><i>osm</i><par n="e_je__yat"/><par n="oču/h__n"/></e>
+<e lm="osmjeh"><i>osm</i><par n="e_je__yat"/><par n="osmje/h__n"/></e>
 <e lm="govor"><i>govor</i><par n="govor__n"/></e>
 <e lm="pilot"><i>pilot</i><par n="pilot__n"/></e>
 <e lm="kandidat"><i>kandidat</i><par n="pilot__n"/></e>

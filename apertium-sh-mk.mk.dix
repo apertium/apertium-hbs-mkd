@@ -11817,7 +11817,8 @@
 	 <e lm="плови"><i>плов</i><par n="одрж/и__vblex"/></e>		
 	 <e lm="тече"><i>те</i><par n="те/че__vblex"/></e>		
 
-	 <e lm="чита"><i>чит</i><par n="вик/а__vblex"/></e>		
+	 <e lm="чита"><i>чит</i><par n="вик/а__vblex"/></e>
+	 <e lm="маневрира"><i>маневрир</i><par n="вик/а__vblex"/></e><!--removable (to grep out in case it's wrong)-->				
 	 <e lm="дише"><i>диш</i><par n="диш/е__vblex"/></e>		
 	 <e lm="вдишува"><i>вдишув</i><par n="вик/а__vblex"/></e>		
 	 <e lm="гребе"><i>греб</i><par n="бриш/е__vblex"/></e>		
