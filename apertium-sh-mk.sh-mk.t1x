@@ -22,6 +22,9 @@
   <def-cat n="vbfutI">
      <cat-item tags="vbmod.clt.futI.*"/>
   </def-cat>
+  <def-cat n="vbhtjeti">
+     <cat-item lemma="htjeeti" tags="vbmod.*"/>
+  </def-cat>
   <def-cat n="prn">
      <cat-item tags="prn.*"/>
   </def-cat>
@@ -47,10 +50,14 @@
   <def-cat n="vbserpast">
     <cat-item tags="vbser.clt.pres.*"/>
   </def-cat>  
-  <def-cat n="vblexlp">
+  <def-cat n="vblex-l-participle">
     <cat-item tags="vblex.*.*.lp.*"/>
+    <cat-item tags="vbhaver.*.*.lp.*"/>    
+    <cat-item tags="vbmod.lp.*"/>    
   </def-cat>  
-  
+  <def-cat n="bil-participle">
+    <cat-item tags="vbser.lp.*"/>
+  </def-cat>  
 </section-def-cats>
 
 <section-def-attrs>
@@ -82,6 +89,8 @@
   <def-attr n="a_vrb">
      <attr-item tags="vblex"/>
      <attr-item tags="vbser"/>
+     <attr-item tags="vbmod"/>
+     <attr-item tags="vbhaver"/>     
   </def-attr>
 
   <def-attr n="a_prn">
@@ -240,41 +249,88 @@
 
 <section-rules>
 
-<!-- Future I tense to expectative-->
-<rule comment="rule: vbinf vbfutI">
+<rule comment="futureI->expectative">
 <pattern>
        <pattern-item n="vbinf"/>
        <pattern-item n="vbfutI"/>
 </pattern>
 <action>
     <out>
-        <chunk>
+        <chunk name="verb" case="caseFirstWord">
          <tags>
              <tag><lit-tag v="SV"/></tag>
-             <tag><clip pos="2" side="tl" part="prs"/></tag>
-             <tag><clip pos="2" side="tl" part="nbr"/></tag>
-             <tag><clip pos="2" side="tl" part="tns"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
            </tags>
            <lu>
              <lit v="ќе"/>
              <lit-tag v="part"/>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="2" side="tl" part="prs" link-to="2"/>
-             <clip pos="2" side="tl" part="nbr" link-to="3"/>
-             <clip pos="2" side="tl" part="cas" link-to="5"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_verb"/>             
+             <clip pos="1" side="tl" part="asp"/>             
+             <clip pos="1" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="2" side="tl" part="pers"/>
+             <clip pos="2" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
         </chunk>
     </out>
 </action>
 </rule>
 
-<!-- end Future I tense to expectative-->
 
-  <rule>
+  <rule comment="negative future">
+    <pattern>
+        <pattern-item n="nepart"/>
+        <pattern-item n="vbhtjeti"/>
+        <pattern-item n="vbinf"/>        
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="prs"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <lit v="нема"/>
+                  <lit-tag v="vbhaver"/>
+                  <lit-tag v="pres"/>
+                  <lit-tag v="p3"/>
+                  <lit-tag v="sg"/>                                                    
+                </lu>
+                <b pos="1"/>
+                <lu>                  
+                  <lit v="да"/>
+                  <lit-tag v="part"/>
+                </lu>                  
+                <b pos="2"/>
+                <lu>                
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_vrb"/>
+                  <clip pos="3" side="tl" part="asp"/>
+                  <clip pos="3" side="tl" part="trn"/>
+                  <lit-tag v="pres"/>
+                  <clip pos="3" side="tl" part="prs"/>
+                  <clip pos="3" side="tl" part="nbr"/> 
+                  <clip pos="3" side="tl" part="lemq"/>                 
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
+
+  <rule comment="nije uspio upasti">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbserpast"/>
-        <pattern-item n="vblexlp"/>
+        <pattern-item n="vblex-l-participle"/>
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
@@ -323,10 +379,10 @@
     </action>
   </rule>
   
-    <rule>
+    <rule comment="je uspio upasti">
     <pattern>
         <pattern-item n="vbserpast"/>
-        <pattern-item n="vblexlp"/>
+        <pattern-item n="vblex-l-participle"/>
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
@@ -369,10 +425,10 @@
     </action>
   </rule>
 
-    <rule>
+    <rule comment="je uspio">
     <pattern>
         <pattern-item n="vbserpast"/>
-        <pattern-item n="vblexlp"/>
+        <pattern-item n="vblex-l-participle"/>
     </pattern>
     <action>
         <out>
@@ -397,12 +453,70 @@
         </out>
     </action>
   </rule>
+  
+   <rule comment="uspio je">
+    <pattern>
+        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vbserpast"/>
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="prs"/></tag>
+                   <tag><clip pos="1" side="tl" part="gen"/></tag>
+                   <tag><clip pos="1" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_vrb"/>
+                  <clip pos="1" side="tl" part="asp"/>
+                  <clip pos="1" side="tl" part="trn"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="2" side="tl" part="prs"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
 
-  <rule>
+   <rule comment="bila je">
+    <pattern>
+        <pattern-item n="bil-participle"/>
+        <pattern-item n="vbserpast"/>
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="prs"/></tag>
+                   <tag><clip pos="1" side="tl" part="gen"/></tag>
+                   <tag><clip pos="1" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_vrb"/>
+                  <clip pos="1" side="tl" part="asp"/>
+                  <clip pos="1" side="tl" part="trn"/>
+                  <lit-tag v="pii"/>
+                  <clip pos="2" side="tl" part="prs"/>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
+
+  <rule comment="nije uspio">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbserpast"/>
-        <pattern-item n="vblexlp"/>
+        <pattern-item n="vblex-l-participle"/>
     </pattern>
     <action>
         <out>
