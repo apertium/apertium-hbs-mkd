@@ -13,16 +13,119 @@
       <cat-item tags="V"/>
       <cat-item tags="V.*"/>
     </def-cat>
+    <def-cat n="SN">
+      <cat-item tags="SN"/>
+      <cat-item tags="SN.*"/>
+    </def-cat>
+    <def-cat n="SNGen">
+      <cat-item tags="SNGen"/>
+      <cat-item tags="SNGen.*"/>
+    </def-cat>
   </section-def-cats>
 
-  <section-def-attrs>
+<section-def-attrs>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
-  </section-def-attrs>
+  <def-attr n="a_nom">
+     <attr-item tags="n"/>
+     <attr-item tags="np"/>
+     <attr-item tags="np.ant"/>
+     <attr-item tags="np.top"/>
+     <attr-item tags="np.cog"/>     
+     <attr-item tags="np.al"/>
+  </def-attr>
+
+  <def-attr n="a_num">
+     <attr-item tags="num"/>
+     <attr-item tags="num.ord"/>
+  </def-attr>
+
+  <def-attr n="a_prp">
+     <attr-item tags="pr"/>
+  </def-attr>
+
+  <def-attr n="a_adj">
+     <attr-item tags="adj"/>
+     <attr-item tags="adj.itg"/>
+  </def-attr>
+
+  <def-attr n="a_adv">
+     <attr-item tags="adv"/>
+  </def-attr>
+
+  <def-attr n="a_vrb">
+     <attr-item tags="vblex"/>
+     <attr-item tags="vbser"/>
+     <attr-item tags="vbmod"/>
+     <attr-item tags="vbhaver"/>     
+  </def-attr>
+
+  <def-attr n="a_prn">
+     <attr-item tags="prn"/>
+     <attr-item tags="prn.itg"/>
+     <attr-item tags="prn.dem"/>
+     <attr-item tags="prn.pers"/>
+     <attr-item tags="prn.pers.clt"/>
+     <attr-item tags="prn.tot"/>
+     <attr-item tags="prn.ref.pers"/>
+     <attr-item tags="prn.rel"/>
+  </def-attr>
+
+  <def-attr n="trn">
+     <attr-item tags="tv"/>
+     <attr-item tags="iv"/>
+  </def-attr>
+
+
+  <def-attr n="asp">
+     <attr-item tags="perf"/>
+     <attr-item tags="imperf"/>
+  </def-attr>
+
+  <def-attr n="tns">
+     <attr-item tags="pres"/>
+     <attr-item tags="lp"/>
+     <attr-item tags="lp.aor"/>
+     <attr-item tags="lp.pii"/>
+     <attr-item tags="opt"/>
+     <attr-item tags="imp"/>
+     <attr-item tags="aor"/>
+     <attr-item tags="futI"/>
+     <attr-item tags="fti"/>
+     <attr-item tags="past"/>
+  </def-attr>
+
+  <def-attr n="gen">
+     <attr-item tags="mi"/>
+     <attr-item tags="ma"/>
+     <attr-item tags="m"/>
+     <attr-item tags="f"/>
+     <attr-item tags="nt"/>
+     <attr-item tags="mfn"/>
+     <attr-item tags="mf"/>
+  </def-attr>
+
+  <def-attr n="prs">
+     <attr-item tags="p1"/>
+     <attr-item tags="p2"/>
+     <attr-item tags="p3"/>
+  </def-attr>
+
+  <def-attr n="cas">
+     <attr-item tags="nom"/>
+     <attr-item tags="acc"/>
+     <attr-item tags="dat"/>
+     <attr-item tags="gen"/>
+     <attr-item tags="loc"/>
+     <attr-item tags="ins"/>
+     <attr-item tags="voc"/>
+  </def-attr>
+
+</section-def-attrs>
 
   <section-def-vars>
     <def-var n="nombre"/>
@@ -41,6 +144,32 @@
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN SNGEN">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SNGen"/>        
+      </pattern>
+      <action>
+        <let>
+            <clip pos="2" part="cas"/>
+            <lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+            <b pos="1"/>
+            <lit v="на"/>
+            <lit-tag v="pr"/>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>            
           </chunk>
         </out>
       </action>
