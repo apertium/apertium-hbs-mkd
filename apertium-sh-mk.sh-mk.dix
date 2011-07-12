@@ -7,6 +7,7 @@
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="nt"      c="Neuter"/>
+    <sdef n="abbr"    c="Abbreviation"/>
     <sdef n="mf"      c="Masculine-Feminine"/>
     <sdef n="mfn"      c="Masculine-Feminine-Neuter"/>
 
@@ -5514,6 +5515,7 @@
 	<e><p><l>prehodati<s n="vblex"/></l><r>изоди<s n="vblex"/></r></p></e>
 	<e><p><l>veli<s n="vblex"/></l><r>вели<s n="vblex"/></r></p></e><!--Note: defective verb, no infinitive, to speak-->
 	
+	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 

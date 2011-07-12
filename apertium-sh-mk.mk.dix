@@ -15347,6 +15347,7 @@
     <!-- Abbreviations -->
 
     <e lm="см"><i>см</i><par n="км__abbr"/></e>
+    <e lm="км/ч"><i>км/ч</i><par n="км__abbr"/></e>
     <e lm="м"><i>м</i><par n="км__abbr"/></e>
     <e lm="км"><i>км</i><par n="км__abbr"/></e>
     <e lm="гр"><i>гр</i><par n="км__abbr"/></e>
