@@ -322,6 +322,118 @@
         </out>
     </action>
   </rule>
+  
+    <rule>
+    <pattern>
+        <pattern-item n="vbserpast"/>
+        <pattern-item n="vblexlp"/>
+        <pattern-item n="vbinf"/>        
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="1" side="tl" part="prs"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_vrb"/>
+                  <clip pos="2" side="tl" part="asp"/>
+                  <clip pos="2" side="tl" part="trn"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="1" side="tl" part="prs"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>                  
+                  <lit v="да"/>
+                  <lit-tag v="part"/>
+                </lu>                  
+                <b pos="2"/>
+                <lu>                
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_vrb"/>
+                  <clip pos="3" side="tl" part="asp"/>
+                  <clip pos="3" side="tl" part="trn"/>
+                  <lit-tag v="pres"/>
+                  <clip pos="1" side="tl" part="prs"/>
+                  <clip pos="2" side="tl" part="nbr"/> 
+                  <clip pos="3" side="tl" part="lemq"/>                 
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
+
+    <rule>
+    <pattern>
+        <pattern-item n="vbserpast"/>
+        <pattern-item n="vblexlp"/>
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="1" side="tl" part="prs"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_vrb"/>
+                  <clip pos="2" side="tl" part="asp"/>
+                  <clip pos="2" side="tl" part="trn"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="1" side="tl" part="prs"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
+
+  <rule>
+    <pattern>
+        <pattern-item n="nepart"/>
+        <pattern-item n="vbserpast"/>
+        <pattern-item n="vblexlp"/>
+    </pattern>
+    <action>
+        <out>
+            <chunk name ="verb" case="caseFirstWord">
+                <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="prs"/></tag>
+                   <tag><clip pos="3" side="tl" part="gen"/></tag>
+                   <tag><clip pos="3" side="tl" part="nbr"/></tag>                   
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adv"/>                                    
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_vrb"/>
+                  <clip pos="3" side="tl" part="asp"/>
+                  <clip pos="3" side="tl" part="trn"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="2" side="tl" part="prs"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+            </chunk>
+        </out>
+    </action>
+  </rule>
+
 
   <rule comment="regla: vblex">
      <pattern>
