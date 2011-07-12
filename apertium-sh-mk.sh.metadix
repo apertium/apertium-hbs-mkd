@@ -31976,6 +31976,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--Feminine nouns -->
 <e lm="vrata"><i>vrat</i><par n="vrat/a__n"/></e>
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+<e lm="pilotkinja"><i>pilotkinj</i><par n="žen/a__n"/></e>
 <e lm="pista"><i>pist</i><par n="žen/a__n"/></e>
 <e lm="klasa"><i>klas</i><par n="žen/a__n"/></e>
 <e lm="žaba"><i>žab</i><par n="žen/a__n"/></e>

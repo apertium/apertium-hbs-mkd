@@ -228,7 +228,6 @@
 
 
      <!-- SECTION: Conjunctions -->
-     <e><p><l>jer<s n="cnjcoo"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e><!--Todo: check if this is the best translation-->
      <e><p><l>i<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
      <e><p><l>a<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
      <e><p><l>ili<s n="cnjcoo"/></l><r>или<s n="cnjcoo"/></r></p></e>
@@ -238,11 +237,15 @@
      <e><p><l>ali<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
      <e><p><l>da<s n="cnjsub"/></l><r>дека<s n="cnjsub"/></r></p></e>
      
+     <e><p><l>nego<s n="cnjsub"/></l><r>само<s n="cnjsub"/></r></p></e> <!-- TODO: check-->
+     
      <e><p><l>dok<s n="cnjsub"/></l><r>додека<s n="cnjsub"/></r></p></e>
+     <e><p><l>jer<s n="cnjsub"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>što<s n="cnjsub"/></l><r>што<s n="prn"/><s n="rel"/></r></p></e>     
 
      <!-- SECTION: Prepositions -->
 
-     <e><p><l>o<s n="pr"/></l><r>околу<s n="pr"/></r></p></e>
+     <e><p><l>o<s n="pr"/></l><r>за<s n="pr"/></r></p></e>
      <e><p><l>u<s n="pr"/></l><r>во<s n="pr"/></r></p></e>
      <e><p><l>na<s n="pr"/></l><r>на<s n="pr"/></r></p></e>
      <e><p><l>po<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
@@ -294,15 +297,16 @@
      <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
      <e><p><l>bilo<b/>što<s n="prn"/></l><r>било<b/>што<s n="prn"/></r></p></e>     
      <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e><!--In the macedonian analysis the form corresponding to croatian possesive is analysed as genitive-->
+     
      <e><p><l>kakav<s n="prn"/></l><r>каков<s n="prn"/></r></p></e>
      <e><p><l>čiji<s n="prn"/></l><r>чиј<s n="prn"/></r></p></e><!--The corresponding form in macedonian is analysed as genitive of koj? So a transfer rule neccessary? this is an incorrect entry like this-->
      <e><p><l>koliki<s n="prn"/></l><r>колкав<s n="prn"/></r></p></e>
      <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
      <e><p><l>zašto<s n="prn"/></l><r>зошто<s n="prn"/></r></p></e>
      <e><p><l>koliko<s n="prn"/></l><r>колку<s n="prn"/></r></p></e><!--TODO: This is ambiguous how much == koliko, how large (nt) == koliko-->
-     <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>kako<s n="prn"/></l><r>како<s n="prn"/></r></p></e><!--TODO: chech if/when this means 'how' or 'like' -->
      <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
+
      <!--Relative-->
      <!--Covered already by the interrogative, though there are more to cover-->
      <!--TODO: check which words are missing for this paradigm, and add them-->
@@ -365,7 +369,7 @@
      <e><p><l>Vojska<g><b/>Srbije</g><s n="np"/><s n="al"/></l><r>Српската<b/>војска<s n="np"/><s n="al"/></r></p></e>
      <e><p><l>Vojna<b/>akademija<s n="np"/><s n="al"/></l><r>Воената<b/>академија<s n="np"/><s n="al"/></r></p></e>
      <e><p><l>Gazela<s n="np"/><s n="al"/></l><r>Газела<s n="np"/><s n="al"/></r></p></e>               
- 	 <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/></r></p></e>
+ 	 <e><p><l>Super<b/>Galeb<s n="np"/><s n="al"/><s n="mi"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 	
  	 <e><p><l>Sandra<s n="np"/><s n="ant"/></l><r>Сандра<s n="np"/><s n="ant"/></r></p></e>	
      <e><p><l>Ana<s n="np"/><s n="ant"/></l><r>Ана<s n="np"/><s n="ant"/></r></p></e>     
@@ -377,17 +381,19 @@
      
      <!-- SECTION: Nouns -->
      <e><p><l>sastav<s n="n"/><s n="m"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>vojska<s n="n"/><s n="f"/></l><r>војска<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>vojska<s n="n"/><s n="f"/></l><r>војска<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>armija<s n="n"/><s n="f"/></l><r>армија<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>letač<s n="n"/><s n="ma"/></l><r>летач<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vodnik<s n="n"/><s n="ma"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>vodnica<s n="n"/><s n="f"/></l><r>водник<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>pista<s n="n"/><s n="f"/></l><r>писта<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>klasa<s n="n"/><s n="f"/></l><r>класа<s n="n"/><s n="f"/></r></p></e>
      
      <e><p><l>povijeest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
 
      <e><p><l>rođak<s n="n"/><s n="ma"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>пилот<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>pilotkinja<s n="n"/><s n="f"/></l><r>пилотка<s n="n"/><s n="f"/></r></p></e>     
      <e><p><l>roditelj<s n="n"/><s n="ma"/></l><r>родител<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>kandidat<s n="n"/><s n="ma"/></l><r>кандидат<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>prijatelj<s n="n"/><s n="ma"/></l><r>пријател<s n="n"/><s n="m"/></r></p></e>
@@ -425,7 +431,8 @@
      <e><p><l>kabina<s n="n"/><s n="f"/></l><r>кабина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>brzina<s n="n"/><s n="f"/></l><r>брзина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>kadetkinja<s n="n"/><s n="f"/></l><r>кадет<s n="n"/><s n="m"/></r></p></e>          
-               
+     
+     <e><p><l>letenje<s n="n"/><s n="nt"/></l><r>летање<s n="n"/><s n="nt"/></r></p></e>          
      <e><p><l>zanimanje<s n="n"/><s n="nt"/></l><r>интерес<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>slijeetanje<s n="n"/><s n="nt"/></l><r>слетување<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>mjeesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
@@ -2458,7 +2465,7 @@
      <e><p><l>rumen<s n="adj"/></l><r>румен<s n="adj"/></r></p></e>
      <e><p><l>leteći<s n="adj"/></l><r>летачки<s n="adj"/></r></p></e>
      <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
-     <e><p><l>dobar</l><r>добар</r></p></e>
+     <e><p><l>dobar<s n="adj"/></l><r>добар<s n="adj"/></r></p></e>
      <e><p><l>visok<s n="adj"/></l><r>висок<s n="adj"/></r></p></e>
      <e><p><l>lep<s n="adj"/></l><r>убав<s n="adj"/></r></p></e>
      
@@ -2475,7 +2482,7 @@
     <e><p><l>motiviran<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
     <e><p><l>mnogi<s n="adj"/></l><r>многу<s n="adv"/></r></p></e>
     <e><p><l>mlad<s n="adj"/></l><r>млад<s n="adj"/></r></p></e>
-    <e><p><l>krasan<s n="adj"/></l><r>прекрасен<s n="adj"/></r></p></e>
+    <e><p><l>krasan<s n="adj"/></l><r>красен<s n="adj"/></r></p></e>
     <e><p><l>jak<s n="adj"/></l><r>силен<s n="adj"/></r></p></e>
     <e><p><l>godišnji<s n="adj"/></l><r>годишен<s n="adj"/></r></p></e>
     <e><p><l>budući<s n="adj"/></l><r>иден<s n="adj"/></r></p></e>              
@@ -3381,6 +3388,8 @@
 	<e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
 	<e><p><l>ne<s n="part"/><s n="neg"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
 	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e><!--TODO: add this to the sh monodix--> <!--TODO: in translation from macedonian; kako and kao have distinct meanings, needs to be handled in transfer-->
+    <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
+    <e><p><l>dobro<s n="adv"/></l><r>добро<s n="adv"/></r></p></e>     
 	<e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
 	<e><p><l>oko<s n="adv"/></l><r>околу<s n="adv"/></r></p></e>
 	<e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
@@ -3606,7 +3615,7 @@
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
      <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
-     <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
+     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>има<s n="vbhaver"/></r></p></e>
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
 

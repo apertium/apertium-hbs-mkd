@@ -5,7 +5,8 @@
   <def-cat n="nom">
      <cat-item tags="n.*"/>
   </def-cat>
-  <def-cat n="nompropgen">
+  <def-cat n="nom_gen">
+     <cat-item tags="n.*.*.gen"/>
      <cat-item tags="np.*.*.*.gen"/>
   </def-cat>
   <def-cat n="biti_lp">
@@ -31,11 +32,32 @@
   <def-cat n="prn">
      <cat-item tags="prn.*"/>
   </def-cat>
+  <def-cat n="dem_prn">
+     <cat-item tags="prn.dem.*"/>
+  </def-cat>
+  <def-cat n="rel_prn">
+     <cat-item tags="prn.rel.*"/>
+  </def-cat>
   <def-cat n="num">
      <cat-item tags="num.*"/>
   </def-cat>
   <def-cat n="adj">
      <cat-item tags="adj.*"/>
+  </def-cat>
+  <def-cat n="adj_pst">
+     <cat-item tags="adj.pst.*"/>
+  </def-cat>
+  <def-cat n="adj_comp">
+     <cat-item tags="adj.comp.*"/>
+  </def-cat>
+  <def-cat n="adj_sup">
+     <cat-item tags="adj.sup.*"/>
+  </def-cat>
+  <def-cat n="adj_ssup">
+     <cat-item tags="adj.ssup.*"/>
+  </def-cat>
+  <def-cat n="adj_gen">
+     <cat-item tags="adj.*.*.*.gen.*"/>
   </def-cat>
   <def-cat n="pr">
      <cat-item tags="pr"/>
@@ -64,7 +86,7 @@
 </section-def-cats>
 
 <section-def-attrs>
-  <def-attr n="a_nom">
+      <def-attr n="a_nom">
      <attr-item tags="n"/>
      <attr-item tags="np"/>
      <attr-item tags="np.ant"/>
@@ -89,6 +111,13 @@
 
   <def-attr n="a_adv">
      <attr-item tags="adv"/>
+  </def-attr>
+  
+  <def-attr n="a_deg">
+     <attr-item tags="pst"/>
+     <attr-item tags="comp"/>     
+     <attr-item tags="sup"/>     
+     <attr-item tags="ssup"/>
   </def-attr>
 
   <def-attr n="a_vrb">
@@ -162,6 +191,11 @@
      <attr-item tags="loc"/>
      <attr-item tags="ins"/>
      <attr-item tags="voc"/>
+  </def-attr>
+
+  <def-attr n="def">
+     <attr-item tags="ind"/>
+     <attr-item tags="def"/>
   </def-attr>
 
 </section-def-attrs>
@@ -254,9 +288,9 @@
 
 <section-rules>
 
-<rule comment="proper noun genitive">
+<rule comment="regla:NGen">
 <pattern>
-       <pattern-item n="nompropgen"/>
+       <pattern-item n="nom_gen"/>
 </pattern>
 <action>
     <out>
@@ -280,8 +314,153 @@
 </action>
 </rule>
 
+<rule comment="regla:Adjective adapter positive">
+<pattern>
+       <pattern-item n="adj_pst"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m">
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+        <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+             <tag><clip pos="1" side="tl" part="def"/></tag>                                       
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <!--clip pos="1" side="tl" part="cas" link-to="4"/-->                                                                              
+             <lit-tag v="nom"/>
+             <clip pos="1" side="tl" part="def" link-to="5"/>                                                                              
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
 
-<rule comment="futureI->expectative">
+<rule comment="regla:Adjective adapter comparative">
+<pattern>
+       <pattern-item n="adj_comp"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m">
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+        <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+             <tag><clip pos="1" side="tl" part="def"/></tag>                                       
+           </tags>
+           <mlu>
+            <lu>
+             <lit v="adj"/>
+             <lit-tag v="pref"/>
+             <lit-tag v="comp"/>                
+            </lu>
+            <lu>            
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <!--clip pos="1" side="tl" part="cas" link-to="4"/-->                                                                              
+             <lit-tag v="nom.ind"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </mlu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla:Adjective adapter superlative">
+<pattern>
+       <pattern-item n="adj_sup"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m">
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+        <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+             <tag><clip pos="1" side="tl" part="def"/></tag>                                       
+           </tags>
+           <mlu>
+           <lu>
+            <lit v="adj"/>
+            <lit-tag v="pref"/>
+            <lit-tag v="sup"/>                
+           </lu>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <!--clip pos="1" side="tl" part="cas" link-to="4"/-->                                                                              
+             <lit-tag v="nom.def"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </mlu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla:Adjective adapter abs. superlative">
+<pattern>
+       <pattern-item n="adj_ssup"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m">
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+        <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+             <tag><clip pos="1" side="tl" part="def"/></tag>                                       
+           </tags>
+           <mlu>
+           <lu>
+             <lit v="adj"/>
+             <lit-tag v="pref"/>
+             <lit-tag v="ssup"/>                
+           </lu>
+           <lu>           
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <!--clip pos="1" side="tl" part="cas" link-to="4"/-->                                                                              
+             <lit-tag v="nom.ind"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </mlu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: infinitive+ftI">
 <pattern>
        <pattern-item n="vbinf"/>
        <pattern-item n="vbfutI"/>
@@ -315,7 +494,7 @@
 </rule>
 
 
-  <rule comment="negative future">
+  <rule comment="regla: ne+ftI infinitive ">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbhtjeti"/>
@@ -358,7 +537,7 @@
     </action>
   </rule>
 
-  <rule comment="nije uspio upasti">
+  <rule comment="regla: ne+vbserpast l-participle infinitive">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbserpast"/>
@@ -411,7 +590,7 @@
     </action>
   </rule>
   
-    <rule comment="je uspio upasti">
+    <rule comment="regla: vbser l-participle infinitive">
     <pattern>
         <pattern-item n="vbserpast"/>
         <pattern-item n="vblex-l-participle"/>
@@ -457,7 +636,7 @@
     </action>
   </rule>
 
-    <rule comment="je uspio">
+    <rule comment="vbser l-participle">
     <pattern>
         <pattern-item n="vbserpast"/>
         <pattern-item n="vblex-l-participle"/>
@@ -486,7 +665,7 @@
     </action>
   </rule>
   
-   <rule comment="uspio je">
+   <rule comment="l-participle vbser">
     <pattern>
         <pattern-item n="vblex-l-participle"/>
         <pattern-item n="vbserpast"/>
@@ -515,7 +694,7 @@
     </action>
   </rule>
 
-   <rule comment="bila je">
+   <rule comment="vbser-l-participle vbser">
     <pattern>
         <pattern-item n="bil-participle"/>
         <pattern-item n="vbserpast"/>
@@ -544,7 +723,7 @@
     </action>
   </rule>
 
-  <rule comment="nije uspio">
+  <rule comment="ne+vbser l-participle">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbserpast"/>
@@ -749,8 +928,8 @@
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="3" side="tl" part="gen"/></tag>
-             <tag><clip pos="3" side="tl" part="nbr"/></tag>
-             <tag><clip pos="3" side="tl" part="cas"/></tag>
+             <tag><lit-tag v="pl"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -778,13 +957,70 @@
              <lit-tag v="nom.ind"/>
              <clip pos="3" side="tl" part="lemq"/>
            </lu>
-
          </chunk>
        </out>
      </action>
   </rule>
-
-
+  
+  <rule comment="regla: dem num adj nom">
+     <pattern>
+       <pattern-item n="dem_prn"/>
+       <pattern-item n="num"/>
+       <pattern-item n="adj"/>
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+       <call-macro n="num_concord2">
+         <with-param pos="2"/>
+         <with-param pos="4"/>
+       </call-macro>    
+       <call-macro n="mima_to_m">
+         <with-param pos="3"/>
+       </call-macro>    
+       <call-macro n="f_concord3">
+         <with-param pos="4"/>
+         <with-param pos="3"/>
+         <with-param pos="2"/>
+       </call-macro>    
+       <out>
+         <chunk name="num_a_n" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="4" side="tl" part="gen"/></tag>
+             <tag><lit-tag v="pl"/></tag>
+             <tag><clip pos="2" side="tl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="a_num"/>
+             <clip pos="2" side="tl" part="gen"/>
+             <clip pos="2" side="tl" part="nbr"/>
+             <lit-tag v="nom.def"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_adj"/>
+             <clip pos="3" side="tl" part="gen"/>
+             <clip pos="3" side="tl" part="nbr"/>
+             <lit-tag v="nom.ind"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="a_nom"/>
+             <clip pos="4" side="tl" part="gen" link-to="2"/>
+             <clip pos="4" side="tl" part="nbr" link-to="3"/>
+             <lit-tag v="nom.ind"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  
   <rule comment="regla: nom">
      <pattern>
        <pattern-item n="nom"/>
@@ -841,6 +1077,7 @@
        </out>
      </action>
   </rule>
+
 
 
 </section-rules>

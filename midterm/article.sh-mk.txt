@@ -1,7 +1,7 @@
 1	Žene lete u sastavu Vojske Srbije <OK>
 1	Жените го освоија небото со српската армија
 
-3	Srbijanska vojska ima prve tri žene borbena letača. <OK>
+3	Srbijanska vojska ima prve tri vojne pilotkinje. <OK>
 3	
 
 5	Starija vodnica prve klase Sandra Radovanović, 22, prva je žena koja upravlja zrakoplovom Super Galeb G4 Vojske Srbije.<OK> Dok mnoge djevojke iz njezine generacije uče kako voziti automobil, Radovanović manevrira borbenim zrakoplovom pri brzini od 700 km/h, na visini od 4.000 metara.<OK>
