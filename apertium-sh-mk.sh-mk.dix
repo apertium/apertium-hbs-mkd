@@ -158,6 +158,15 @@
       <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
     </pardef>
 
+    <pardef n="m_f_nt_mfn3">
+      <e r="LR"><p><l><s n="mi"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mfn"/></r></p></e>
+    </pardef>
+ 
+
     <pardef n="m_f_nt_mfn1">
       <e r="LR"><p><l><s n="mi"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
       <e r="LR"><p><l><s n="ma"/><s n="sg"/></l><r><s n="mfn"/></r></p></e>
@@ -339,7 +348,7 @@
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
-     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
      <e><p><l>pet<s n="num"/></l><r>пет<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
      <e><p><l>šest<s n="num"/></l><r>шест<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
 
