@@ -349,8 +349,8 @@
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
      <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
-     <e><p><l>pet<s n="num"/></l><r>пет<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
-     <e><p><l>šest<s n="num"/></l><r>шест<s n="num"/></r></p><par n="m_f_nt_mfn1"/></e>     
+     <e><p><l>pet<s n="num"/></l><r>пет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
+     <e><p><l>šest<s n="num"/></l><r>шест<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
 
      <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
      <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
