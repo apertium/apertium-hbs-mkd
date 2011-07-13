@@ -71,6 +71,7 @@
 
     <sdef n="sp"      c="Singular / Plural"/>
     <sdef n="ref"     c="Reflexive"/>
+    <sdef n="pers"    c="Personal"/>
     <sdef n="tot"     c="Totalising"/>    
     <sdef n="num"     c="Numeral / Number"/>
     <sdef n="ij"      c="Interjection"/>
@@ -146,7 +147,17 @@
     <sdef n="iv" c="Intransitive"/>
 
   </sdefs>
+  
   <pardefs>
+    
+    <pardef n="all_genders_to_mfn">
+        <e r="LR"><p><l><s n="mi"/></l><r><s n="mfn"/></r></p></e>
+        <e r="LR"><p><l><s n="ma"/></l><r><s n="mfn"/></r></p></e>
+        <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
+        <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
+        <e r="LR"><p><l><s n="m"/></l><r><s n="mfn"/></r></p></e>            
+    </pardef>
+    
     <pardef n="iv_tv_tv">
       <e r="LR"><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
       <e r="LR"><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
@@ -219,7 +230,8 @@
 
   </pardefs>
 
-   <section id="main" type="standard">     <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
+   <section id="main" type="standard">     
+   <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
 
      <!-- SECTION: Particles -->
      <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
@@ -277,8 +289,8 @@
 
      <!-- SECTION: Pronouns -->
 
-     <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p></e>
-     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>free<s n="prn"/><s n="ref"/><s n="pos"/></r></p></e>
+     <e><p><l>sve<s n="prn"/></l><r>сѐ<s n="prn"/>"/></r></p></e>
+     <e><p><l>svoj<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
 
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
@@ -377,7 +389,7 @@
      <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="ma"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>               
      <e><p><l>Nemanja<s n="np"/><s n="ant"/><s n="ma"/></l><r>Немања<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
      
-     <e><p><l>Krneta<s n="np"/><s n="cog"/></l><r>Крнета<s n="np"/><s n="cog"/></r></p></e>          
+     <e><p><l>Krneta<s n="np"/><s n="cog"/></l><r>Крнета<s n="np"/><s n="cog"/></r></p><par n="all_genders_to_mfn"/></e>          
      
      <!-- SECTION: Nouns -->
      <e><p><l>sastav<s n="n"/><s n="m"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
@@ -1765,7 +1777,7 @@
 	<e><p><l>Rubinić<s n="np"/></l><r>Рубиниќ<s n="np"/></r></p></e>
 	<e><p><l>Ruvić<s n="np"/></l><r>Рувиќ<s n="np"/></r></p></e>
 	<e><p><l>Rudović<s n="np"/></l><r>Рудовиќ<s n="np"/></r></p></e>
-	<e><p><l>Ružić<s n="np"/></l><r>Ружиќ<s n="np"/></r></p></e>
+	<e><p><l>Ružić<s n="np"/><s n="cog"/></l><r>Ружиќ<s n="np"/><s n="cog"/></r></p><par n="all_genders_to_mfn"/></e>
 	<e><p><l>Ruić<s n="np"/></l><r>Руиќ<s n="np"/></r></p></e>
 	<e><p><l>Rupčić<s n="np"/></l><r>Рупчиќ<s n="np"/></r></p></e>
 	<e><p><l>Rusinović<s n="np"/></l><r>Русиновиќ<s n="np"/></r></p></e>
