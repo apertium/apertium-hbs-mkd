@@ -14,12 +14,14 @@
       <cat-item tags="V.*"/>
     </def-cat>
     <def-cat n="SN">
-      <cat-item tags="SN"/>
+      <cat-item tags=".*.SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SNIns">
+      <cat-item tags="SN.*.*.ins"/>
+    </def-cat>
     <def-cat n="SNGen">
-      <cat-item tags="SNGen"/>
-      <cat-item tags="SNGen.*"/>
+      <cat-item tags="SN.*.*.gen"/>
     </def-cat>
   </section-def-cats>
 
@@ -148,6 +150,37 @@
         </out>
       </action>
     </rule>
+    <rule comment="REGLA: SNGEN SNGEN">
+      <pattern>
+        <pattern-item n="SNGen"/>
+        <pattern-item n="SNGen"/>        
+      </pattern>
+      <action>
+        <let>
+            <clip pos="2" part="cas"/>
+            <lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+            <b pos="1"/>
+          <chunk>
+            <lit v="{^на"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>            
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SN SNGEN">
       <pattern>
@@ -180,6 +213,78 @@
         </out>
       </action>
     </rule>
+    
+    <rule comment="REGLA: SNGen">
+      <pattern>
+        <pattern-item n="SNGen"/>        
+      </pattern>
+      <action>
+        <let>
+            <clip pos="1" part="cas"/>
+            <lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk>
+            <lit v="{^на"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>            
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: PR SNIns">
+    <!--If you have a preposition and a sintagm in instrumental, do absolutely nothing-->
+      <pattern>
+        <pattern-item n="PR"/>
+        <pattern-item n="SNIns"/>        
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SNIns">
+    <!--Instrumental without a preposition needs a 'со' preposition -->
+      <pattern>
+        <pattern-item n="SNIns"/>        
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <lit v="{^со"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>
+    
+    
 
   </section-rules>
 </interchunk>

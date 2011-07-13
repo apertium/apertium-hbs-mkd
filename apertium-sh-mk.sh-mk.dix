@@ -433,7 +433,7 @@
      <e><p><l>kadetkinja<s n="n"/><s n="f"/></l><r>кадет<s n="n"/><s n="m"/></r></p></e>          
      
      <e><p><l>letenje<s n="n"/><s n="nt"/></l><r>летање<s n="n"/><s n="nt"/></r></p></e>          
-     <e><p><l>zanimanje<s n="n"/><s n="nt"/></l><r>интерес<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>zanimanje<s n="n"/><s n="nt"/></l><r>интерес<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>slijeetanje<s n="n"/><s n="nt"/></l><r>слетување<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>mjeesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>manevriranje<s n="n"/><s n="nt"/></l><r>маневрирање<s n="n"/><s n="nt"/></r></p></e>                                                                                                                   
@@ -3620,7 +3620,7 @@
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
 
      <e><p><l>manevrirati<s n="vblex"/></l><r>маневрира<s n="vblex"/></r></p></e>
-     <e><p><l>zaboraviti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
+     <e><p><l>zaboraviti<s n="vblex"/></l><r>заборави<s n="vblex"/></r></p></e>
      <e><p><l>uspjeeti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
      <e><p><l>dati<s n="vblex"/></l><r>даде<s n="vblex"/></r></p></e>
      <e><p><l>postati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
