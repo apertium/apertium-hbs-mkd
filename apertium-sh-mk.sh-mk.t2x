@@ -214,6 +214,28 @@
       </action>
     </rule>
     
+    <rule comment="REGLA: Pr SNGen">
+      <pattern>
+        <pattern-item n="PR"/>
+        <pattern-item n="SNGen"/>        
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>
+    
     <rule comment="REGLA: SNGen">
       <pattern>
         <pattern-item n="SNGen"/>        
