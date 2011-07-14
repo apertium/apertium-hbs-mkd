@@ -163,6 +163,12 @@
       <e r="LR"><p><l><s n="iv"/></l><r><s n="tv"/></r></p></e>
       <e r="RL"><p><l><s n="TD"/></l><r><s n="tv"/></r></p></e>
     </pardef>
+    
+    <pardef n="iv_tv_iv">
+      <e r="LR"><p><l><s n="tv"/></l><r><s n="iv"/></r></p></e>
+      <e r="LR"><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
+      <e r="RL"><p><l><s n="TD"/></l><r><s n="iv"/></r></p></e>
+    </pardef>
 
     <pardef n="cog_mf_cog_mfn">
       <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
@@ -249,7 +255,7 @@
      <e><p><l>ali<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
      <e><p><l>da<s n="cnjsub"/></l><r>дека<s n="cnjsub"/></r></p></e>
      
-     <e><p><l>nego<s n="cnjsub"/></l><r>само<s n="cnjsub"/></r></p></e> <!-- TODO: check-->
+     <e><p><l>nego<s n="cnjsub"/></l><r>ами<s n="cnjsub"/></r></p></e> <!-- TODO: check-->
      
      <e><p><l>dok<s n="cnjsub"/></l><r>додека<s n="cnjsub"/></r></p></e>
      <e><p><l>jer<s n="cnjsub"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e>
@@ -268,7 +274,7 @@
      <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
      <e><p><l>uz<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
      <e><p><l>prijee<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
-     <e><p><l>kasnije<s n="pr"/></l><r>подоцна<s n="pr"/></r></p></e>
+     <e><p><l>kasnije<s n="adv"/></l><r>подоцна<s n="adv"/></r></p></e>
      <e><p><l>pri<s n="pr"/></l><r>при<s n="pr"/></r></p></e>                                   
 
 
@@ -300,9 +306,9 @@
      <e r="LR"><p><l>njezin<s n="prn"/></l><r>нејзин<s n="prn"/></r></p></e>
      <e><p><l>njen<s n="prn"/></l><r>нејзин<s n="prn"/></r></p></e>
      <e><p><l>njegov<s n="prn"/></l><r>негов<s n="prn"/></r></p></e>
-     <e><p><l>naš<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
-     <e><p><l>vaš<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
-     <e><p><l>njihov<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>naš<s n="prn"/></l><r>наш<s n="prn"/></r></p></e>
+     <e><p><l>vaš<s n="prn"/></l><r>ваш<s n="prn"/></r></p></e>
+     <e><p><l>njihov<s n="prn"/></l><r>нивен<s n="prn"/></r></p></e>
 
      <!--Interrogative-->
      <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
@@ -3559,6 +3565,7 @@
 	<e r="LR"><p><l>suviše<s n="adv"/></l><r>премногу<s n="adv"/></r></p></e>
 	<e><p><l>samo<s n="adv"/></l><r>само<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>tek<s n="adv"/></l><r>само<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>tek<s n="cnjcoo"/></l><r>само<s n="adv"/></r></p></e>
 	<e><p><l>sad<s n="adv"/></l><r>сега<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>sada<s n="adv"/></l><r>сега<s n="adv"/></r></p></e>
 	<e><p><l>svud<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>
@@ -4147,7 +4154,7 @@
 	<e><p><l>predstavljati<s n="vblex"/></l><r>претставува<s n="vblex"/></r></p></e>
 	<e><p><l>približavati<s n="vblex"/></l><r>приближува<s n="vblex"/></r></p></e>
 	<e><p><l>pridruživati<s n="vblex"/></l><r>придружува<s n="vblex"/></r></p></e>
-	<e><p><l>priznavati<s n="vblex"/></l><r>признава<s n="vblex"/></r></p></e>
+	<e><p><l>priznavati<s n="vblex"/><s n="imperf"/></l><r>признава<s n="vblex"/><s n="imperf"/></r></p><par n="iv_tv_tv"/></e>
 	<e><p><l>prihvaćati<s n="vblex"/></l><r>прифаќа<s n="vblex"/></r></p></e>
 	<e><p><l>promovirati<s n="vblex"/></l><r>промовира<s n="vblex"/></r></p></e>
 	<e><p><l>procjenjivati<s n="vblex"/></l><r>проценува<s n="vblex"/></r></p></e>
@@ -4578,7 +4585,7 @@
 	<e><p><l>obarati<s n="vblex"/></l><r>соборува<s n="vblex"/></r></p></e>
 	<e><p><l>savjetovati<s n="vblex"/></l><r>советува<s n="vblex"/></r></p></e>
 	<e><p><l>sužavati<s n="vblex"/></l><r>стеснува<s n="vblex"/></r></p></e>
-	<e><p><l>strahovati<s n="vblex"/></l><r>стравува<s n="vblex"/></r></p></e>
+	<e><p><l>strahovati<s n="vblex"/><s n="imperf"/><s n="iv"/></l><r>стравува<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
 	<e><p><l>ublažavati<s n="vblex"/></l><r>ублажува<s n="vblex"/></r></p></e>
 	<e><p><l>udvajati<s n="vblex"/></l><r>удвојува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>duplicirati<s n="vblex"/></l><r>удвојува<s n="vblex"/></r></p></e>
@@ -5054,6 +5061,7 @@
 	<e r="LR"><p><l>potrajati<s n="vblex"/></l><r>затрае<s n="vblex"/></r></p></e>
 	<e><p><l>ušutkati<s n="vblex"/></l><r>затрае<s n="vblex"/></r></p></e>
 	<e><p><l>smiriti<s n="vblex"/></l><r>затрае<s n="vblex"/></r></p></e>
+	<e><p><l>primiti<s n="vblex"/></l><r>прими<s n="vblex"/></r></p></e>	
 	<e><p><l>izdržati<s n="vblex"/></l><r>затрае<s n="vblex"/></r></p></e>
 	<e><p><l>izdržati<s n="vblex"/></l><r>истрае<s n="vblex"/></r></p></e>
 	<e><p><l>potrajati<s n="vblex"/></l><r>потрае<s n="vblex"/></r></p></e>
@@ -5211,6 +5219,7 @@
 	<e><p><l>kopati<s n="vblex"/></l><r>копа<s n="vblex"/></r></p></e>
 	<e><p><l>plivati<s n="vblex"/></l><r>плива<s n="vblex"/></r></p></e>
 	<e><p><l>letjeeti<s n="vblex"/></l><r>лета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->
+	<e><p><l>poletjeeti<s n="vblex"/></l><r>полета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->	
 	<e><p><l>ležati<s n="vblex"/></l><r>лежи<s n="vblex"/></r></p></e>
 	<e><p><l>sjediti<s n="vblex"/></l><r>седи<s n="vblex"/></r></p></e>
 	<e><p><l>vrtjeti<s n="vblex"/></l><r>врти<s n="vblex"/></r></p></e>
@@ -5266,7 +5275,7 @@
 	<e><p><l>ostati<s n="vblex"/></l><r>остане<s n="vblex"/></r></p></e>
 	<e><p><l>pasti<s n="vblex"/></l><r>падне<s n="vblex"/></r></p></e>
 	<e><p><l>pomoći<s n="vblex"/></l><r>помогне<s n="vblex"/></r></p></e>
-	<e><p><l>proći<s n="vblex"/></l><r>помине<s n="vblex"/></r></p></e>
+	<e><p><l>proći<s n="vblex"/><s n="perf"/></l><r>помине<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_iv"/></e>
 	<e r="LR"><p><l>provesti<s n="vblex"/></l><r>помине<s n="vblex"/></r></p></e>
 	<e><p><l>počinuti<s n="vblex"/></l><r>почине<s n="vblex"/></r></p></e>
 	<e><p><l>stati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
@@ -5534,6 +5543,8 @@
 	<e><p><l>poželjeti<s n="vblex"/></l><r>присака<s n="vblex"/></r></p></e>
 	<e><p><l>prohodati<s n="vblex"/></l><r>заоди<s n="vblex"/></r></p></e>
 	<e><p><l>prehodati<s n="vblex"/></l><r>изоди<s n="vblex"/></r></p></e>
+	<e><p><l>učiti<s n="vblex"/></l><r>учи<s n="vblex"/></r></p></e>
+	<e><p><l>skakati<s n="vblex"/></l><r>скока<s n="vblex"/></r></p></e>	
 	<e><p><l>veli<s n="vblex"/></l><r>вели<s n="vblex"/></r></p></e><!--Note: defective verb, no infinitive, to speak-->
 	
 	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
