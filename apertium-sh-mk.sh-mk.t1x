@@ -76,6 +76,8 @@
   <def-cat n="prn_tot_rel">
      <cat-item tags="prn.rel"/>
      <cat-item tags="prn.tot"/>     
+     <cat-item tags="prn.rel.*"/>
+     <cat-item tags="prn.tot.*"/>     
   </def-cat>
   <def-cat n="prn_ref_pos_and_various"><!--This is a debugging category-->
      <cat-item tags="prn.itg.*"/>
@@ -1944,6 +1946,28 @@
      </action>
   </rule>
 
+  <rule comment="regla: prntot or prnrel">
+     <pattern>
+       <pattern-item n="prn_tot_rel"/>
+     </pattern>
+     <action>
+       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
+       <out>
+         <chunk name="prn" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="a_prn"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_prn"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
   <rule comment="regla: prn">
      <pattern>
        <pattern-item n="prn"/>
@@ -1967,28 +1991,6 @@
              <clip pos="1" side="tl" part="gen"/>
              <clip pos="1" side="tl" part="nbr"/>
              <clip pos="1" side="tl" part="cas"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-  <rule comment="regla: prntot or prnrel">
-     <pattern>
-       <pattern-item n="prn_tot_rel"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="prn" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="a_prn"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_prn"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
