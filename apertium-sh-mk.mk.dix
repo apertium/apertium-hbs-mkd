@@ -5226,6 +5226,7 @@
      <e>        <p>          <l>себеси</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
      <e r="LR"> <p>          <l>себе<b/>си</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
      <e r="LR"> <p>          <l>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+     <e r="LR"> <p>          <l>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e><!--removable-->     
      <e>        <p>          <l>на<b/>себеси</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
      <e r="LR"> <p>          <l>на<b/>себе<b/>си</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
      <e r="LR"> <p>          <l>на<b/>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>

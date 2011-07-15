@@ -1950,6 +1950,7 @@
      </pattern>
      <action>
        <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
+       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>       
        <out>
          <chunk name="prn" case="caseFirstWord">
            <tags>
