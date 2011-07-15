@@ -188,25 +188,25 @@
 	  <e>        <p>          <l>ете</l>        <r>е<s n="vbser"/><s n="imp"/><s n="pl"/></r></p></e>
 
      <e>        <p>          <l>а</l>        <r>е<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>еш</l><r>е<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>еш</l>      <r>е<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
      <e>        <p>          <l>е</l>          <r>е<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
      <e>        <p>          <l>еме</l>        <r>е<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
      <e>        <p>          <l>ете</l>        <r>е<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e>        <p>          <l>ат</l><r>е<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ат</l>      <r>е<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
      <e>        <p>          <l>ев</l>        <r>е<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>еше</l><r>е<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>еше</l><r>е<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>еше</l>     <r>е<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>еше</l>     <r>е<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
      <e>        <p>          <l>евме</l>      <r>е<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
      <e>        <p>          <l>евте</l>      <r>е<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
      <e>        <p>          <l>еа</l>        <r>е<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
      <e>        <p>          <l>ел</l>          <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="m"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ела</l><r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="f"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>ело</l><r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
-     <e>        <p>          <l>еле</l><r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
+     <e>        <p>          <l>ела</l>     <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="f"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ело</l>     <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>еле</l>     <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
 
-	 <e>        <p>          <l>ейки</l><r>е<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e>
+	 <e>        <p>          <l>ейки</l>    <r>е<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e>
    </pardef>
 
 
@@ -7242,6 +7242,7 @@
     <e lm="речник"><i>речни</i><par n="речни/к__n"/></e>		<!-- dictionary -->
     <e lm="јазик"><i>јази</i><par n="речни/к__n"/></e>		<!-- language / tongue -->
     <e lm="претставник"><i>претставни</i><par n="речни/к__n"/></e>		<!-- -->
+    <e lm="водни"><i>водни</i><par n="речни/к__n"/></e> <!--removable-->
 
     <e lm="аеробик"><i>аероби</i><par n="речни/к__n"/></e>
     <e lm="антибиотик"><i>антибиоти</i><par n="речни/к__n"/></e>
@@ -11818,7 +11819,8 @@
 	 <e lm="лета"><i>лет</i><par n="патув/а__vblex"/></e>		
 	 <e lm="лежи"><i>леж</i><par n="одрж/и__vblex"/></e>		
 	 <e lm="седи"><i>сед</i><par n="одрж/и__vblex"/></e>		
-	 <e lm="врти"><i>врт</i><par n="нос/и__vblex"/></e>		
+	 <e lm="врти"><i>врт</i><par n="нос/и__vblex"/></e>
+	 <e lm="билежи"><i>бележ</i><par n="нос/и__vblex"/></e>			 		<!--removable-->
 	 <e lm="паѓа"><i>паѓ</i><par n="патув/а__vblex"/></e>		
 	 <e lm="стиска"><i>стиск</i><par n="вик/а__vblex"/></e>		
 	 <e lm="брише"><i>бриш</i><par n="бриш/е__vblex"/></e>		

@@ -22109,7 +22109,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
  <e r="LR"><p><l>sedmomu</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
  <e r="LR"><p><l>sedmome</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 	<e><p><l>sedmim</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-	<e><p><l>sedma</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+  	<e><p><l>sedma</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 	<e><p><l>sedmih</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
 	<e><p><l>sedma</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
 	<e><p><l>sedma</l><r>sedmi<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23264,7 +23264,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><p><l>dvadesetim</l><r>dvadeseti<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
  <e r="LR"><p><l>dvadesetima</l><r>dvadeseti<s n="num"/><s n="ord"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
-	<e><re>[0-9]+.</re><p><l></l><r><s n="num"/><s n="ord"/></r></p></e>
+	<e><re>[0-9]+.</re><p><l></l><r><s n="num"/><s n="ord"/><s n="nom"/><s n="ind"/></r></p></e><!--Note: this indefinite part is basically cheating, though ordinals act as adjectives--><!--TODO: better this-->
 <!--Ordinal numbers-->
 
 	<!--big TODO: finish this, these are basically all definite adjectives-->

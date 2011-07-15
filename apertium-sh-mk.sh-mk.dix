@@ -238,6 +238,7 @@
 
    <section id="main" type="standard">     
    <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
+   <e><p><l>jedini<s n="adj"/></l><r>единствен<s n="adj"/></r></p></e>   
 
      <!-- SECTION: Particles -->
      <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
@@ -4098,6 +4099,7 @@
 	<e><p><l>objašnjavati<s n="vblex"/></l><r>објаснува<s n="vblex"/></r></p></e>
 	<e><p><l>sputavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>ograničavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
+	<e><p><l>bieljeežiti<s n="vblex"/></l><r>бележи<s n="vblex"/></r></p></e>
 	<e><p><l>ubilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>zabilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>odlagati<s n="vblex"/></l><r>одложува<s n="vblex"/></r></p></e>
@@ -5250,7 +5252,7 @@
 	<e><p><l>nazvati<s n="vblex"/></l><r>нарече<s n="vblex"/></r></p></e>
 	<e><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p></e>
 	<e><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p></e>
-	<e><p><l>ući<s n="vblex"/><s n="imperf"/></l><r>влезе<s n="vblex"/><s n="perf"/></r></p></e>
+	<e><p><l>ući<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>uleći<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
 	<e><p><l>izaći<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>izići<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
