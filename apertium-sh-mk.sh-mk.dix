@@ -150,6 +150,16 @@
   
   <pardefs>
     
+    <pardef n="all_cases_vs_none">
+    <e r="LR"><p><l><s n="nom"/></l><r/></p></e>
+    <e r="LR"><p><l><s n="gen"/></l><r/></p></e>
+    <e r="LR"><p><l><s n="dat"/></l><r/></p></e>
+    <e r="LR"><p><l><s n="acc"/></l><r/></p></e>
+    <e r="LR"><p><l><s n="voc"/></l><r/></p></e>
+    <e r="LR"><p><l><s n="loc"/></l><r/></p></e>                
+    <e r="LR"><p><l><s n="ins"/></l><r/></p></e>        
+    </pardef>
+    
     <pardef n="all_genders_to_mfn">
         <e r="LR"><p><l><s n="mi"/></l><r><s n="mfn"/></r></p></e>
         <e r="LR"><p><l><s n="ma"/></l><r><s n="mfn"/></r></p></e>
@@ -296,7 +306,9 @@
 
      <!-- SECTION: Pronouns -->
 
-     <e><p><l>sve<s n="prn"/><s n="tot"/></l><r>сѐ<s n="prn"/><s n="tot"/>"/></r></p></e>
+     <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p><par n="all_cases_vs_none"/></e>
+     <e><p><l>sav<s n="prn"/></l><r>сиот<s n="prn"/></r></p></e>
+     
      <e><p><l>svoj<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
 
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
@@ -314,7 +326,7 @@
      <!--Interrogative-->
      <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
      <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
-     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/></l><r>било<b/>што<s n="prn"/><s n="ind"/></r></p></e>     
+     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>што<s n="prn"/><s n="ind"/></r></p><par n="all_cases_vs_none"/></e>     
      <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e><!--In the macedonian analysis the form corresponding to serbo-croatian possesive is analysed as genitive-->
      
      <e><p><l>kakav<s n="prn"/></l><r>каков<s n="prn"/></r></p></e>

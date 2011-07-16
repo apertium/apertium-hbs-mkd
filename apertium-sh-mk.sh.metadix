@@ -657,92 +657,92 @@ after prepositions-->
            <e><p><l>kime</l><r>tko<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
 </pardef>
 
-<pardef n="sve__tot__prn">
+<pardef n="sav__tot__prn">
+	 <e><p><l>sav</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+	 <e><p><l>sav</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>	 
+<e r="LR"><p><l>sveg</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>svega</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+	 <e><p><l>sav</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+  	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+ <e r="LR"><p><l>svime</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>		
 
-	 <e><p><l>sav</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
-	 <e><p><l>sav</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>	 
-<e r="LR"><p><l>sveg</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><p><l>svega</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
-	 <e><p><l>sav</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
-  	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
- <e r="LR"><p><l>svime</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>		
+	 <e><p><l>sav</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	 <e><p><l>sav</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>	 
+<e r="LR"><p><l>sveg</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>svega</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>sveg</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>svega</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+  	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+ <e r="LR"><p><l>svime</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>		
 
-	 <e><p><l>sav</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-	 <e><p><l>sav</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>	 
-<e r="LR"><p><l>sveg</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><p><l>svega</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-<e r="LR"><p><l>sveg</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-	<e><p><l>svega</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-  	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
- <e r="LR"><p><l>svime</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>		
-
-	 <e><p><l>sva</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-	 <e><p><l>sva</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>	 
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><p><l>svu</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-	<e><p><l>svoj</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-	<e><p><l>svoj</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
-  	<e><p><l>svom</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+	 <e><p><l>sva</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+	 <e><p><l>sva</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>	 
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>svu</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>svoj</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svoj</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+  	<e><p><l>svom</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
 		
-<e r="LR"><p><l>svo</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-<e r="LR"><p><l>svo</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-	 <e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-	 <e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>	 
-<e r="LR"><p><l>sveg</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-	<e><p><l>svega</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-<e r="LR"><p><l>svo</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-	 <e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-<e r="LR"><p><l>svem</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-	<e><p><l>svemu</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-  	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
- <e r="LR"><p><l>svime</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>		
+<e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+<e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+	 <e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	 <e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>	 
+<e r="LR"><p><l>sveg</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>svega</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+	 <e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+  	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+ <e r="LR"><p><l>svime</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>		
 
-	<e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>	
-<e r="LR"><p><l>svih</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sviju</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>	
+	<e><p><l>svi</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>svi</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>	
+<e r="LR"><p><l>svih</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sviju</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>	
 
-	<e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>	
-<e r="LR"><p><l>svih</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sviju</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>	
+	<e><p><l>svi</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>svi</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>	
+<e r="LR"><p><l>svih</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sviju</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>	
 
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>	
-<e r="LR"><p><l>svih</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sviju</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sve</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>	
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>	
+<e r="LR"><p><l>svih</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sviju</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>	
 
-	<e><p><l>sva</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-	<e><p><l>sva</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>	
-<e r="LR"><p><l>svih</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sviju</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>sva</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><p><l>svim</l><r>sve<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>	
-
+	<e><p><l>sva</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+	<e><p><l>sva</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>	
+<e r="LR"><p><l>svih</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sviju</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>sva</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>	
+</pardef>
+<pardef n="sve__tot__prn">
  	  <e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
  	  <e><p><l>svi</l><r>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/><s n="voc"/></r></p></e> 	  
   <e r="LR"><p><l>svih</l><r>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -5022,6 +5022,7 @@ after prepositions-->
 	<e><i>sva</i><par n="sva/kakav__tot__prn"/></e>
 	<e><i>sva</i><par n="sva/čiji__tot__prn"/></e>
 	<e><i>sva</i><par n="sva/koliki__tot__prn"/></e>
+	<e><i></i><par n="sav__tot__prn"/></e>
 	<e><i></i><par n="sve__tot__prn"/></e>
 </pardef>
 <pardef n="demonstrative__pronouns__prn">

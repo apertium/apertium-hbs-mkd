@@ -24,7 +24,6 @@
      <cat-item tags="np.top.*.*.nom"/>
      <cat-item tags="np.al.*.*.nom"/>
   </def-cat>
-
   <def-cat n="np_gen">
      <cat-item tags="np.*.*.*.gen"/>
   </def-cat>
@@ -73,16 +72,9 @@
   <def-cat n="prn_rel">
      <cat-item tags="prn.rel.*"/>
   </def-cat>
-  <def-cat n="prn_tot_rel">
-     <cat-item tags="prn.rel"/>
-     <cat-item tags="prn.tot"/>     
-     <cat-item tags="prn.rel.*"/>
+  <def-cat n="prn_tot">
+     <cat-item tags="prn.tot"/>        
      <cat-item tags="prn.tot.*"/>     
-  </def-cat>
-  <def-cat n="prn_ref_pos_and_various"><!--This is a debugging category-->
-     <cat-item tags="prn.itg.*"/>
-     <cat-item tags="prn.pos.*"/>
-     <cat-item tags="prn.ref.pos.*"/>
   </def-cat>
   <def-cat n="prn_dem">
      <cat-item tags="prn.dem.*"/>
@@ -296,10 +288,16 @@
 <section-def-macros>
 
 <def-macro n="prn_adapter" npar="1">
-        <choose><!--TODO: eventually, expand this for every pronoun needed-->
+        <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
+        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
+        <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
+        <choose><!--TODO: eventually, expand this for every pronoun needed-->        
             <when>
-                <test><!--If it's a relative pronoun "što"-->
-                  <equal><clip pos="1" side="sl" part="lem"/><lit v="što"/></equal>
+                <test><!--If it's a relative pronoun što -->
+                    <and>
+                      <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="što"/></equal>
+                      <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.rel"/></equal>
+                    </and>
                 </test>
                 <let>
                    <clip pos="1" side="tl" part="whole"/>
@@ -310,16 +308,97 @@
                    </concat>
                 </let>
             </when>
-            <otherwise><!--If it's not a relative pronoun "što"-->
+            <when>
+                <test>
+                    <and>
+                      <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="sav"/></equal>                      
+                      <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.tot"/></equal>
+                    </and>
+                </test>
                 <let>
                    <clip pos="1" side="tl" part="whole"/>
                    <concat>
                     <clip pos="1" side="tl" part="lemh"/>
                     <clip pos="1" side="tl" part="a_prn"/>
                     <clip pos="1" side="tl" part="gen"/>
-                    <clip pos="1" side="tl" part="nbr"/>
-                    <lit-tag v="nom"/>
+                    <clip pos="1" side="tl" part="nbr"/>                    
+                    <lit-tag v="def"/>                                        
                     <clip pos="1" side="tl" part="lemq"/>
+                   </concat>
+                </let>
+            </when>
+            <when>
+                <test>
+                      <or>
+                          <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ref.pos"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.pos"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>                          
+                      </or>
+                </test>
+                <let>
+                   <clip pos="1" side="tl" part="whole"/>
+                   <concat>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="a_prn"/>
+                     <clip pos="1" side="tl" part="prs"/>
+                     <clip pos="1" side="tl" part="gen"/>
+                     <clip pos="1" side="tl" part="nbr"/>
+                     <lit-tag v="ind"/><!--Indefinite by default, but definite if in front of a noun/adjective-->                     
+                     <clip pos="1" side="tl" part="lemq"/>
+                   </concat>
+                </let>
+            </when>
+            <when>
+                <test>
+                    <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.dem"/></equal>
+                </test>
+                <choose>
+                    <when>
+                        <test>
+                            <or>
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>                                                
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>                      
+                            </or>
+                        </test>
+                        <let>
+                           <clip pos="1" side="tl" part="whole"/>
+                           <concat>
+                             <clip pos="1" side="tl" part="lemh"/>
+                             <clip pos="1" side="tl" part="a_prn"/>
+                             <clip pos="1" side="tl" part="gen"/>
+                             <clip pos="1" side="tl" part="nbr"/>
+                             <clip pos="1" side="tl" part="lemq"/>
+                           </concat>
+                        </let>
+                    </when>
+                    <otherwise>
+                        <let>
+                           <clip pos="1" side="tl" part="whole"/>
+                           <concat>
+                             <clip pos="1" side="tl" part="lemh"/>
+                             <clip pos="1" side="tl" part="a_prn"/>
+                             <clip pos="1" side="tl" part="gen"/>
+                             <clip pos="1" side="tl" part="nbr"/>
+                             <lit-tag v="ind"/>                             
+                             <clip pos="1" side="tl" part="lemq"/>
+                           </concat>
+                        </let>
+                    </otherwise>
+                </choose>
+            </when>
+            <otherwise><!--The default thing to do-->
+                <let>
+                   <clip pos="1" side="tl" part="whole"/>
+                   <concat>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="a_prn"/>
+                     <clip pos="1" side="tl" part="prs"/>
+                     <clip pos="1" side="tl" part="gen"/>
+                     <clip pos="1" side="tl" part="nbr"/>
+                     <clip pos="1" side="tl" part="cas"/>
+                     <clip pos="1" side="tl" part="def"/>                     
+                     <clip pos="1" side="tl" part="lemq"/>
                    </concat>
                 </let>
             </otherwise>
@@ -423,7 +502,7 @@
     </def-macro>
     
     <def-macro n="prn_case_contract" npar="1">
-      <choose>
+      <choose> <!--Throws locative into dative, since it's the equivalent category-->
         <when>
           <test>
             <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="loc"/></equal>
@@ -433,7 +512,7 @@
       </choose>
     </def-macro>  
 
-    <def-macro n="adjust_head_agreement" npar="2">
+    <def-macro n="adjust_headword_agreement" npar="2">
     <!--first parameter is the headword-->
     <!--second parameter is the word to be adjusted-->    
       <choose>
@@ -488,21 +567,12 @@
     </def-macro>  
 
     <def-macro n="lp_default_trans1" npar="1">
-      <choose><!--If this is an l-participle-->
+      <choose>
         <when>
-          <test><!--If the verb is imperfective, give it an imperfective l-participle-->
+          <test><!--If this is an l-participle-->
             <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
-          </test>
-          <choose><when>
-              <test>
-                <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="imperf"/></equal>
-              </test>
-              <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></let>
-            </when>
-            <otherwise><!--If the verb is perfective, give it a perfective l-participle-->
-              <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
-            </otherwise>
-            </choose>
+          </test><!--Take the aorist variant, the imperfective is used only for reported past-future (прекажано минато-идно)-->
+          <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
         </when>
       </choose>
     </def-macro>  
@@ -1278,7 +1348,7 @@
        <call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
        <call-macro n="mima_to_m"><with-param pos="3"/></call-macro>        
        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>    
-       <call-macro n="adjust_head_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
        <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>    
        <let><clip pos="1" side="tl" part="def"/><lit-tag v="def"/></let>
        <out>
@@ -1364,7 +1434,7 @@
        <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>    
-       <call-macro n="adjust_head_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
        <let><clip pos="1" side="tl" part="def"/><lit-tag v="def"/></let>
        <out>
          <chunk name="adj_np" case="caseFirstWord">
@@ -1400,7 +1470,7 @@
      <action>
        <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
-       <call-macro n="adjust_head_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
        <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
        <out>
@@ -1484,7 +1554,7 @@
        <pattern-item n="nom"/>
      </pattern>
      <action>                     
-       <call-macro n="adjust_head_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>    
@@ -1604,9 +1674,6 @@
        </out>
      </action>
   </rule>
-
-
-
   <rule comment="regla: num">
      <pattern>
        <pattern-item n="num_detailed"/>
@@ -1763,9 +1830,24 @@
        <call-macro n="num_phrase_agreement"><with-param pos="2"/><with-param pos="3"/></call-macro>    
        <call-macro n="num_phrase_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m"><with-param pos="3"/></call-macro>    
+       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
        <call-macro n="to_mfn"><with-param pos="3"/></call-macro>
        <call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
-       <let><clip pos="3" side="tl" part="def"/><lit-tag v="ind"/></let>        
+       <let><clip pos="3" side="tl" part="def"/><lit-tag v="ind"/></let>
+       <choose>
+        <when>
+            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal></test>
+            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.def"/></let>
+        </when> 
+        <when>
+            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal></test>
+            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.prx"/></let>
+        </when>                    
+        <when>
+            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal></test>
+            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.dst"/></let>
+        </when>                            
+       </choose>
        <out>
          <chunk name="num_a_n" case="caseFirstWord">
            <tags>
@@ -1779,7 +1861,8 @@
              <clip pos="2" side="tl" part="a_num"/>
              <clip pos="2" side="tl" part="gen"/>
              <clip pos="2" side="tl" part="nbr"/>
-             <lit-tag v="nom.def"/>
+             <lit-tag v="nom"/>
+             <clip pos="2" side="tl" part="def"/>                          
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
@@ -1863,118 +1946,12 @@
      </action>
   </rule>
 
-  <rule comment="regla: prnrefpos">
-     <pattern>
-       <pattern-item n="prn_ref_pos_and_various"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="prn_ref_pos_and_various" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>
-             <tag><lit-tag v="def"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_prn"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>
-             <lit-tag v="def"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-  
-    <rule comment="regla: prnrel">
-     <pattern>
-       <pattern-item n="prn_rel"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
-       <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="rel_prn" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>
-             <tag><lit-tag v="def"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="whole"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-    <rule comment="regla: prndem">
-     <pattern>
-       <pattern-item n="prn_dem"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
-       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="dem_prn" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_prn"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
-  <rule comment="regla: prntot or prnrel">
-     <pattern>
-       <pattern-item n="prn_tot_rel"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="prn" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="a_prn"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_prn"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
   <rule comment="regla: prn">
      <pattern>
        <pattern-item n="prn"/>
      </pattern>
      <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>       
+       <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>       
        <out>
          <chunk name="prn" case="caseFirstWord">
            <tags>
@@ -1991,6 +1968,7 @@
              <clip pos="1" side="tl" part="gen"/>
              <clip pos="1" side="tl" part="nbr"/>
              <clip pos="1" side="tl" part="cas"/>
+             <clip pos="1" side="tl" part="def"/>                     
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
