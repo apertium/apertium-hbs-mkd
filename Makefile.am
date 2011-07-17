@@ -26,21 +26,21 @@ TARGETS_COMMON = $(BASENAME).$(LANG1a).dix  $(BASENAME).$(LANG1b).dix $(BASENAME
 #    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin 
 
 $(BASENAME).$(LANG1a).dix: $(BASENAME).$(LANG1).metadix
-	xsltproc --stringparam alt $(LANG1a) alt.xsl $(BASENAME).$(LANG1).metadix >$@
+	xsltproc --stringparam alt $(LANG1a) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2a).autogen.bin: $(BASENAME).$(LANG1a).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1a).dix
 	lt-comp rl $(BASENAME).$(LANG1a).dix $@
 
 $(BASENAME).$(LANG1b).dix: $(BASENAME).$(LANG1).metadix
-	xsltproc --stringparam alt $(LANG1b) alt.xsl $(BASENAME).$(LANG1).metadix >$@
+	xsltproc --stringparam alt $(LANG1b) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2b).autogen.bin: $(BASENAME).$(LANG1b).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1b).dix
 	lt-comp rl $(BASENAME).$(LANG1b).dix $@
 
 $(BASENAME).$(LANG1c).dix: $(BASENAME).$(LANG1).metadix
-	xsltproc --stringparam alt $(LANG1c) alt.xsl $(BASENAME).$(LANG1).metadix >$@
+	xsltproc --stringparam alt $(LANG1c) --stringparam var $(VAR2) alt.xsl $(BASENAME).$(LANG1).metadix >$@
 
 $(PREFIX2c).autogen.bin: $(BASENAME).$(LANG1c).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1c).dix
