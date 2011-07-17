@@ -284,7 +284,7 @@
      <e><p><l>do<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
      <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
      <e><p><l>uz<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
-     <e><p><l>prijee<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
+     <e><p><l>prije<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
      <e><p><l>kasnije<s n="adv"/></l><r>подоцна<s n="adv"/></r></p></e>
      <e><p><l>pri<s n="pr"/></l><r>при<s n="pr"/></r></p></e>                                   
 
@@ -420,7 +420,7 @@
      <e><p><l>pista<s n="n"/><s n="f"/></l><r>писта<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>klasa<s n="n"/><s n="f"/></l><r>класа<s n="n"/><s n="f"/></r></p></e>
      
-     <e><p><l>povijeest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>povijest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
 
      <e><p><l>rođak<s n="n"/><s n="ma"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>pilot<s n="n"/><s n="ma"/></l><r>пилот<s n="n"/><s n="m"/></r></p></e>
@@ -442,7 +442,7 @@
      <e><p><l>trenutak<s n="n"/><s n="mi"/></l><r>момент<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>sastav<s n="n"/><s n="mi"/></l><r>состав<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>padobran<s n="n"/><s n="mi"/></l><r>падобран<s n="n"/><s n="m"/></r></p></e>     
-     <e><p><l>osmjeeh<s n="n"/><s n="mi"/></l><r>насмевка<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>osmjeh<s n="n"/><s n="mi"/></l><r>насмевка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>odnos<s n="n"/><s n="mi"/></l><r>однос<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>metar<s n="n"/><s n="mi"/></l><r>метар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>хеликоптер<s n="n"/><s n="m"/></r></p></e>               
@@ -457,7 +457,7 @@
      <e><p><l>ptica<s n="n"/><s n="f"/></l><r>птица<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>majka<s n="n"/><s n="f"/></l><r>мајка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>generacija<s n="n"/><s n="f"/></l><r>генерација<s n="n"/><s n="f"/></r></p></e>                                   
-     <e><p><l>djeevojka<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>djevojka<s n="n"/><s n="f"/></l><r>девојка<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>torta<s n="n"/><s n="f"/></l><r>торта<s n="n"/><s n="f"/></r></p></e>                                                                                     
      <e><p><l>kabina<s n="n"/><s n="f"/></l><r>кабина<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>brzina<s n="n"/><s n="f"/></l><r>брзина<s n="n"/><s n="f"/></r></p></e>
@@ -465,8 +465,8 @@
      
      <e><p><l>letenje<s n="n"/><s n="nt"/></l><r>летање<s n="n"/><s n="nt"/></r></p></e>          
      <e><p><l>zanimanje<s n="n"/><s n="nt"/></l><r>интерес<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>slijeetanje<s n="n"/><s n="nt"/></l><r>слетување<s n="n"/><s n="nt"/></r></p></e>
-     <e><p><l>mjeesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>slijetanje<s n="n"/><s n="nt"/></l><r>слетување<s n="n"/><s n="nt"/></r></p></e>
+     <e><p><l>mjesto<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/></r></p></e>
      <e><p><l>manevriranje<s n="n"/><s n="nt"/></l><r>маневрирање<s n="n"/><s n="nt"/></r></p></e>                                                                                                                   
      
      <e><p><l>zgrada<s n="n"/><s n="f"/></l><r>зграда<s n="n"/><s n="f"/></r></p></e>
@@ -2506,7 +2506,7 @@
     <e><p><l>vrijedan<s n="adj"/></l><r>вреден<s n="adj"/></r></p></e>
     <e><p><l>velik<s n="adj"/></l><r>голем<s n="adj"/></r></p></e>
     <e><p><l>težak<s n="adj"/></l><r>тежок<s n="adj"/></r></p></e>
-    <e><p><l>posljeednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
+    <e><p><l>posljednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
     <e><p><l>ostali<s n="adj"/></l><r>друг<s n="adj"/></r></p></e>
     <e><p><l>opasan<s n="adj"/></l><r>опасен<s n="adj"/></r></p></e>
     <e><p><l>odlučujući<s n="adj"/></l><r>решавачки<s n="adj"/></r></p></e>
@@ -3364,8 +3364,8 @@
 	<e><p><l>centralnodesničarski<s n="adj"/></l><r>централнодесничарски<s n="adj"/></r></p></e><!--check variants-->
 	<e><p><l>srednjedesničarski<s n="adj"/></l><r>централнодесничарски<s n="adj"/></r></p></e>
 	<e><p><l>centralnoevropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e><!--check variants-->
-	<e><p><l>srednjeevropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>
-	<e><p><l>srednjeeuropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>
+	<e><p><l>srednjevropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>
+	<e><p><l>srednjeuropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>
 	<e><p><l>crnomorski<s n="adj"/></l><r>црноморски<s n="adj"/></r></p></e>
 	<e><p><l>četirmetarski<s n="adj"/></l><r>четириметарски<s n="adj"/></r></p></e><!--check translation-->
 	<e><p><l>čileanski<s n="adj"/></l><r>чилеански<s n="adj"/></r></p></e>
@@ -3513,7 +3513,7 @@
 	<e><p><l>uistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
 	<e><p><l>vaistinu<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
 	<e><p><l>odista<s n="adv"/></l><r>навистина<s n="adv"/></r></p></e>
-	<e><p><l>uvijeek<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e><p><l>uvijek<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
 	<e><p><l>također<s n="adv"/></l><r>исто<b/>така<s n="adv"/></r></p></e>	
 
 	<e><p><l>nadvoje-natroje<s n="adv"/></l><r>надве-натри<s n="adv"/></r></p></e>
@@ -3653,7 +3653,7 @@
 
      <e><p><l>manevrirati<s n="vblex"/></l><r>маневрира<s n="vblex"/></r></p></e>
      <e><p><l>zaboraviti<s n="vblex"/></l><r>заборави<s n="vblex"/></r></p></e>
-     <e><p><l>uspjeeti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
+     <e><p><l>uspjeti<s n="vblex"/></l><r>успее<s n="vblex"/></r></p></e>
      <e><p><l>dati<s n="vblex"/></l><r>даде<s n="vblex"/></r></p></e>
      <e><p><l>postati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
      <e><p><l>nestati<s n="vblex"/></l><r>исчезне<s n="vblex"/></r></p></e>     
@@ -3663,7 +3663,7 @@
      <e><p><l>pitati<s n="vblex"/></l><r>прашува<s n="vblex"/></r></p></e>
      <e><p><l>čitati<s n="vblex"/></l><r>чита<s n="vblex"/></r></p></e>
      <e><p><l>misliti<s n="vblex"/></l><r>мисли<s n="vblex"/></r></p></e>
-     <e><p><l>vidjeeti<s n="vblex"/></l><r>види<s n="vblex"/></r></p></e>
+     <e><p><l>vidjeti<s n="vblex"/></l><r>види<s n="vblex"/></r></p></e>
      <e><p><l>tresti<s n="vblex"/></l><r>тресе<s n="vblex"/></r></p></e>
      
 
@@ -4111,7 +4111,7 @@
 	<e><p><l>objašnjavati<s n="vblex"/></l><r>објаснува<s n="vblex"/></r></p></e>
 	<e><p><l>sputavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>ograničavati<s n="vblex"/></l><r>ограничува<s n="vblex"/></r></p></e>
-	<e><p><l>bieljeežiti<s n="vblex"/></l><r>бележи<s n="vblex"/></r></p></e>
+	<e><p><l>bilježiti<s n="vblex"/></l><r>бележи<s n="vblex"/></r></p></e>
 	<e><p><l>ubilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>zabilježiti<s n="vblex"/></l><r>одбележува<s n="vblex"/></r></p></e>
 	<e><p><l>odlagati<s n="vblex"/></l><r>одложува<s n="vblex"/></r></p></e>
@@ -4404,7 +4404,7 @@
 	<e><p><l>priznati<s n="vblex"/></l><r>признае<s n="vblex"/></r></p></e>
 	<e><p><l>braniti<s n="vblex"/></l><r>брани<s n="vblex"/></r></p></e>
 	<e><p><l>zaprijetiti<s n="vblex"/></l><r>закани се<s n="vblex"/></r></p></e>
-	<e><p><l>smiejati<s n="vblex"/></l><r>смее<s n="vblex"/></r></p></e>
+	<e><p><l>smijati<s n="vblex"/></l><r>смее<s n="vblex"/></r></p></e>
 	<e><p><l>smjeti<s n="vblex"/></l><r>смее<s n="vblex"/></r></p></e>
 	<e><p><l>podržati<s n="vblex"/></l><r>поддржи<s n="vblex"/></r></p></e>
 	<e><p><l>zadržati<s n="vblex"/></l><r>задржи<s n="vblex"/></r></p></e>
@@ -5232,8 +5232,8 @@
 	<e><p><l>češati<s n="vblex"/></l><r>чеша<s n="vblex"/></r></p></e>
 	<e><p><l>kopati<s n="vblex"/></l><r>копа<s n="vblex"/></r></p></e>
 	<e><p><l>plivati<s n="vblex"/></l><r>плива<s n="vblex"/></r></p></e>
-	<e><p><l>letjeeti<s n="vblex"/></l><r>лета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->
-	<e><p><l>poletjeeti<s n="vblex"/></l><r>полета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->	
+	<e><p><l>letjeti<s n="vblex"/></l><r>лета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->
+	<e><p><l>poletjeti<s n="vblex"/></l><r>полета<s n="vblex"/></r></p></e> <!--big TODO: Correct these entries when the yat groups are implemented-->	
 	<e><p><l>ležati<s n="vblex"/></l><r>лежи<s n="vblex"/></r></p></e>
 	<e><p><l>sjediti<s n="vblex"/></l><r>седи<s n="vblex"/></r></p></e>
 	<e><p><l>vrtjeti<s n="vblex"/></l><r>врти<s n="vblex"/></r></p></e>
@@ -5408,7 +5408,7 @@
 	<e r="LR"><p><l>ublažiti<s n="vblex"/></l><r>намали<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>skresati<s n="vblex"/></l><r>намали<s n="vblex"/></r></p></e>
 	<e><p><l>naslijediti<s n="vblex"/></l><r>наследи<s n="vblex"/></r></p></e>
-	<e><p><l>usliejditi<s n="vblex"/></l><r>уследи<s n="vblex"/></r></p></e>
+	<e><p><l>uslijediti<s n="vblex"/></l><r>уследи<s n="vblex"/></r></p></e>
 	<e><p><l>okriviti<s n="vblex"/></l><r>обвини<s n="vblex"/></r></p></e>
 	<e r="LR"><p><l>optužiti<s n="vblex"/></l><r>обвини<s n="vblex"/></r></p></e>
 	<e><p><l>proglasiti<s n="vblex"/></l><r>прогласи<s n="vblex"/></r></p></e>

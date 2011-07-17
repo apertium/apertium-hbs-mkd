@@ -107,7 +107,7 @@ LIST Ins = ins ;
 
 # =========================================================================== #
 
-LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prijee"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "s"i "mimo"i ;
+LIST GEN-PREP = "bez"i "blizu"i "čelo"i "do"i "duž"i "ispred"i "ispod"i "iz"i "iza"i "između"i "iznad"i "izvan"i "kod"i "kraj"i "mjesto"i "nakon"i "nakraj"i "nasred"i "navrh"i "niže"i "od"i "oko"i "osim"i "pokraj"i "ponad"i "poput"i "pozadi"i "pored"i "poslije"i "poviše"i "preko"i "prije"i "kasnije"i "protiv"i "put"i "radi"i "sred"i "ukraj"i "umjesto"i "uoči"i "uvrh"i "uzduž"i "van"i "više"i "vrh"i "zarad"i "zaradi"i "zbog"i "u"i "za"i "s"i "mimo"i ;
 LIST ACC-PREP = "kroz"i "niz"i "uz"i "na"i "o"i "po"i "u"i "među"i "nad"i "pod"i "pred"i "za"i; 
 LIST DAT-PREP = "k"i ;
 LIST LOC-PREP = "u"i "na"i "o"i "po"i "prema"i "pri"i;
@@ -297,7 +297,7 @@ REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
 
 
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
-SELECT Gen IF (0 Num) (-1C ("<prijee>"i) + Pr);
+SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
 
 SELECT:NumberChainIns Ins (0 Num) (-1* INS-PREP BARRIER WORD - Modifier) ;
     ## TODO: Expand this for all cases, currently they don't appear
@@ -369,7 +369,7 @@ SELECT:InsThenNom Nom (-1 Ins) (0C Nom Or Acc);
 
 SELECT:N-tiPut Nom (0 Num + Ord) (1C Nom OR Acc) ;
 
-SELECT:ćeSgPl $$NUMBER (0 (+htjeeti) + Clt + $$NUMBER) (-1* N + Nom + $$NUMBER BARRIER BOS) ;
+SELECT:ćeSgPl $$NUMBER (0 (+htjeti) + Clt + $$NUMBER) (-1* N + Nom + $$NUMBER BARRIER BOS) ;
 
 # =========================================================================== #
 #   Verb chain disambiguation                                                 #
