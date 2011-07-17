@@ -20,39 +20,40 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="text" encoding="UTF-8"/>
 <xsl:param name="alt"/>
+<xsl:param name="var"/>
 
 <xsl:template match="/">
   <xsl:value-of select="string('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xA;')"/>
   <xsl:apply-templates select="*|text()"/>
 </xsl:template>
 
-<xsl:template match="*">
-  <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt">
-    <xsl:if test="not(local-name(.)=string('group'))">
-      <xsl:value-of select="string('&lt;')"/>
-      <xsl:value-of select="local-name(.)"/>
-      <xsl:for-each select="./@*">
-        <xsl:if test="not(local-name(.)=string('alt'))">
-          <xsl:value-of select="string(' ')"/>
-          <xsl:value-of select="local-name(.)"/>
-          <xsl:value-of select="string('=&quot;')"/>
-          <xsl:value-of select="string(.)"/>
-          <xsl:value-of select="string('&quot;')"/>
+<xsl:template match="*"> <!-- match all tags -->
+  <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt and not(count(./@var)=1) or ./@var=$var"> <!-- if there is no alt/var attribute -->
+    <xsl:if test="not(local-name(.)=string('group'))"> <!-- if the current tag is not group -->
+      <xsl:value-of select="string('&lt;')"/> <!-- -->
+      <xsl:value-of select="local-name(.)"/> <!-- --> 
+      <xsl:for-each select="./@*"> <!-- for each of the attributes? --> 
+        <xsl:if test="not(local-name(.)=string('alt')) and not(local-name(.)=string('var'))"> <!-- if the attribute is not alt/var -->
+          <xsl:value-of select="string(' ')"/> <!-- -->
+          <xsl:value-of select="local-name(.)"/> <!-- -->
+          <xsl:value-of select="string('=&quot;')"/> <!-- -->
+          <xsl:value-of select="string(.)"/> <!-- -->
+          <xsl:value-of select="string('&quot;')"/> <!-- -->
         </xsl:if>
       </xsl:for-each>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="count(text()[normalize-space(.)] | *)=0">
-        <xsl:if test="not(local-name(.)=string('group'))">
-          <xsl:value-of select="string('/&gt;')"/>
+      <xsl:when test="count(text()[normalize-space(.)] | *)=0">  <!-- if the contents of the tag are null -->
+        <xsl:if test="not(local-name(.)=string('group'))"> <!-- if the current tag is not group -->
+          <xsl:value-of select="string('/&gt;')"/> <!-- -->
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:if test="not(local-name(.)=string('group'))"> 
+        <xsl:if test="not(local-name(.)=string('group'))">  <!-- if the current tag is not group -->
           <xsl:value-of select="string('&gt;')"/>
         </xsl:if>
         <xsl:apply-templates/>
-        <xsl:if test="not(local-name(.)=string('group'))">           
+        <xsl:if test="not(local-name(.)=string('group'))">  <!-- if the current tag is not group -->
           <xsl:value-of select="string('&lt;/')"/>
           <xsl:value-of select="local-name(.)"/>
           <xsl:value-of select="string('&gt;')"/>
