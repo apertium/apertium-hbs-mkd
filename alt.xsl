@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <!--
  Copyright (C) 2005 Universitat d'Alacant / Universidad de Alicante
 
@@ -28,7 +28,7 @@
 </xsl:template>
 
 <xsl:template match="*"> <!-- match all tags -->
-  <xsl:if test="not(count(./@alt)=1) or ./@alt=$alt and not(count(./@var)=1) or ./@var=$var"> <!-- if there is no alt/var attribute -->
+  <xsl:if test="( (not(count(./@alt)=1) and (not(count(./@var)=1) or ./@var=$var)) or ./@alt=$alt)"> <!-- if there is no attribute alt or there exists one with the parameter input (i.e. sh) -->
     <xsl:if test="not(local-name(.)=string('group'))"> <!-- if the current tag is not group -->
       <xsl:value-of select="string('&lt;')"/> <!-- -->
       <xsl:value-of select="local-name(.)"/> <!-- --> 

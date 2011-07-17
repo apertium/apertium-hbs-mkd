@@ -152,74 +152,74 @@ I have added those for the sake of analysis -->
 <!--Yat paradigms-->
    <pardef n="e_e__yat"> <!--this is to make life easier -->
       <group alt="sh">
-        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>e</l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_je__yat">
       <group alt="sh">
-        <e><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>je</l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_ije__yat">
       <group alt="sh">
-        <e><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>ije</l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_i__yat"> 
       <group alt="sh">
-        <e><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l>i</l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
 <!--this is pure forbidden magic -->
@@ -298,74 +298,74 @@ I have added those for the sake of analysis -->
 
    <pardef n="e_e_right__yat"> <!--this is to make life easier -->
       <group alt="sh">
-        <e><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">e</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_je_right__yat">
       <group alt="sh">
-        <e><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">je</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_ije_right__yat">
       <group alt="sh">
-        <e><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">ije</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_i_right__yat"> 
       <group alt="sh">
-        <e><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group n="ijek">i</group><group n="ek">e</group></r></p></e>
+        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
 <!--end Yat paradigms-->
