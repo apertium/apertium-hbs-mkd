@@ -64,7 +64,7 @@
      <cat-item tags="vbmod.clt.futI.*"/>
   </def-cat>
   <def-cat n="vbhtjeti">
-     <cat-item lemma="htjeeti" tags="vbmod.*"/>
+     <cat-item lemma="htjeti" tags="vbmod.*"/>
   </def-cat>
   <def-cat n="prn">
      <cat-item tags="prn.*"/>
