@@ -1,9 +1,11 @@
-VERSION=0.1
+VERSION=0.1.0
 LANG1=sh
 LANG1a=sh_BS
 LANG1b=sh_HR
 LANG1c=sh_SR
 LANG2=mk
+VAR1=ijek
+VAR2=ek
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 PREFIX2a=$(LANG2)-$(LANG1a)
@@ -45,7 +47,7 @@ $(PREFIX2c).autogen.bin: $(BASENAME).$(LANG1c).dix
 	lt-comp rl $(BASENAME).$(LANG1c).dix $@
 
 $(BASENAME).$(LANG1).dix: $(BASENAME).$(LANG1).metadix
-	xsltproc --stringparam alt $(LANG1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
+	xsltproc --stringparam alt $(LANG1) --stringparam var $(VAR1) alt.xsl $(BASENAME).$(LANG1).metadix >$@ 
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
