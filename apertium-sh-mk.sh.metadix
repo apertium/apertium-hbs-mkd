@@ -27663,6 +27663,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="nealbanski"><p><l>nealbans</l><r>nealbans</r></p><par n="pridjevs/ki__comp__adj"/></e>
 	<e lm="nealbanski"><p><l>najnealbans</l><r>nealbans</r></p><par n="pridjevs/ki__sup__adj"/></e>
 	<e lm="nealbanski"><p><l>prenealbans</l><r>nealbans</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="arapski"><i>araps</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="arapski"><p><l>araps</l><r>nearaps</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="arapski"><p><l>najaraps</l><r>nearaps</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="arapski"><p><l>prearaps</l><r>nearaps</r></p><par n="pridjevs/ki__ssup__adj"/></e>
 	
 	<e lm="nearapski"><i>nearaps</i><par n="pridjevs/ki__pst__adj"/></e>
 	<e lm="nearapski"><p><l>nearaps</l><r>nearaps</r></p><par n="pridjevs/ki__comp__adj"/></e>
