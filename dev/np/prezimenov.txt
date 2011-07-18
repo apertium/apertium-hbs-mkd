@@ -1,0 +1,17 @@
+	<e><p><l>Goce<b/>Delčev<s n="np"/></l><r>Гоце<b/>Делчев<s n="np"/></r></p></e> <!--Todo: this is a multiwords, spearate-->
+	<e><p><l>Samokov<s n="np"/></l><r>Самоков<s n="np"/></r></p></e>
+	<e><p><l>Svištov<s n="np"/></l><r>Свиштов<s n="np"/></r></p></e>
+	<e><p><l>Popov<s n="np"/></l><r>Попов<s n="np"/></r></p></e>
+	<e><p><l>Borisov<s n="np"/></l><r>Борисов<s n="np"/></r></p></e>
+	<e><p><l>Velčev<s n="np"/></l><r>Велчев<s n="np"/></r></p></e>
+	<e><p><l>Kostov<s n="np"/></l><r>Костов<s n="np"/></r></p></e>
+	<e><p><l>Lavrov<s n="np"/></l><r>Лавров<s n="np"/></r></p></e>
+	<e><p><l>Parvanov<s n="np"/></l><r>Парванов<s n="np"/></r></p></e>
+	<e><p><l>Stanišev<s n="np"/></l><r>Станишев<s n="np"/></r></p></e>
+	<e><p><l>Dimitrov<s n="np"/></l><r>Димитров<s n="np"/></r></p></e>
+	<e><p><l>Ivanov<s n="np"/></l><r>Иванов<s n="np"/></r></p></e>
+	<e><p><l>Botev<s n="np"/></l><r>Ботев<s n="np"/></r></p></e>
+	<e><p><l>Georgiev<s n="np"/></l><r>Георгиев<s n="np"/></r></p></e>
+	<e><p><l>Žečev<s n="np"/></l><r>Жечев<s n="np"/></r></p></e>
+	<e><p><l>Petkov<s n="np"/></l><r>Петков<s n="np"/></r></p></e>
+	<e><p><l>Petrov<s n="np"/></l><r>Петров<s n="np"/></r></p></e>
