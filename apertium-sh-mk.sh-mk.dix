@@ -3503,8 +3503,8 @@
     <e><p><l>skroman<s n="adj"/></l><r>скромен<s n="adj"/></r></p></e>
     <e><p><l>slavan<s n="adj"/></l><r>славеn<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
-    <e><p><l>LR:naredni<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
-    <e><p><l>LR:potonji<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>naredni<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>potonji<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
     <e><p><l>naredni<s n="adj"/></l><r>нареден<s n="adj"/></r></p></e>
     <e><p><l>sličan<s n="adj"/></l><r>сличен<s n="adj"/></r></p></e>
     <e><p><l>slobodan<s n="adj"/></l><r>слободен<s n="adj"/></r></p></e>

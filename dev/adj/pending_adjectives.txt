@@ -514,8 +514,8 @@ sitan:ситен
 skroman:скромен
 slavan:славеn
 sljedeći:следен
-LR:naredni:следен
-LR:potonji:следен
+LR|naredni:следен
+LR|potonji:следен
 naredni:нареден
 sličan:сличен
 slobodan:слободен

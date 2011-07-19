@@ -16985,7 +16985,7 @@ after prepositions-->
 <pardef n="garantn/i__comp__adj">
          <e><p><l></l><r>i<s n="adj"/><s n="comp"/></r></p><par n="zdrav__comp__sfx"/></e>
 </pardef>
-<pardef n="garantn/i__pst__adj">
+<pardef n="garantn/i__adj">
          <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="garantn/i__pst__sfx"/></e>
          <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
@@ -26165,19 +26165,249 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="star"><p><l>najst</l><r>st</r></p><par n="st/ar__sup__adj"/></e>
 <e lm="star"><p><l>prest</l><r>st</r></p><par n="st/ar__ssup__adj"/></e>
 
-<e lm="garantni"><i>garantn</i><par n="garantn/i__pst__adj"/></e>
-<e lm="prijemni"><i>prijemn</i><par n="garantn/i__pst__adj"/></e>
-<e lm="vojni"><i>vojn</i><par n="garantn/i__pst__adj"/></e>
-<e lm="jedini"><i>jedin</i><par n="garantn/i__pst__adj"/></e>
-<e lm="ostali"><i>ostal</i><par n="garantn/i__pst__adj"/></e>
-<e lm="prošli"><i>prošl</i><par n="garantn/i__pst__adj"/></e>
+<e lm="garantni"><i>garantn</i><par n="garantn/i__adj"/></e>
+<e lm="prijemni"><i>prijemn</i><par n="garantn/i__adj"/></e>
+<e lm="vojni"><i>vojn</i><par n="garantn/i__adj"/></e>
+<e lm="jedini"><i>jedin</i><par n="garantn/i__adj"/></e>
+<e lm="ostali"><i>ostal</i><par n="garantn/i__adj"/></e>
+<e lm="prošli"><i>prošl</i><par n="garantn/i__adj"/></e>
 
 <e lm="godišnji"><i>godišnj</i><par n="odlučujuć/i__adj"/></e>
 <e lm="posljednji"><i>posl</i><par n="e_je__yat"/><i>dnj</i><par n="odlučujuć/i__adj"/></e>		
 <e lm="odlučujući"><i>odlučujuć</i><par n="odlučujuć/i__adj"/></e>
 <e lm="budući"><i>buduć</i><par n="odlučujuć/i__adj"/></e>
 
+<e lm="vaskršnji"><i>vaskršnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="uskršnji"><i>uskršnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="vladajući"><i>vladajuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="vodeći"><i>vodeć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="dječji"><i>dječj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="poljoprivredni"><i>poljoprivredn</i><par n="garantn/i__adj"/></e>
+<e lm="povijesni"><i>povijesn</i><par n="garantn/i__adj"/></e>
+<e lm="rukovodstveni"><i>rukovodstven</i><par n="garantn/i__adj"/></e>
+<e lm="reformni"><i>reformn</i><par n="garantn/i__adj"/></e>
+<e lm="strani"><i>stran</i><par n="garantn/i__adj"/></e>
+<e lm="sveučilišni"><i>sveučilišn</i><par n="garantn/i__adj"/></e>
+<e lm="jutarnji"><i>jutarnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="nogometni"><i>nogometn</i><par n="garantn/i__adj"/></e>
+<e lm="dobrovoljni"><i>dobrovoljn</i><par n="garantn/i__adj"/></e>
+<e lm="vatrogasni"><i>vatrogasn</i><par n="garantn/i__adj"/></e>
+<e lm="rotirajući"><i>rotirajuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="frankofoni"><i>frankofon</i><par n="garantn/i__adj"/></e>
+<e lm="autobusni"><i>autobusn</i><par n="garantn/i__adj"/></e>
+<e lm="baletni"><i>baletn</i><par n="garantn/i__adj"/></e>
+<e lm="biopoljoprivredni"><i>biopoljoprivredn</i><par n="garantn/i__adj"/></e>
+<e lm="garantni"><i>garantn</i><par n="garantn/i__adj"/></e>
+<e lm="ekspertni"><i>ekspertn</i><par n="garantn/i__adj"/></e>
+<e lm="okružni"><i>okružn</i><par n="garantn/i__adj"/></e>
+<e lm="poljoprivredni"><i>poljoprivredn</i><par n="garantn/i__adj"/></e>
+<e lm="računalni"><i>računaln</i><par n="garantn/i__adj"/></e>
+<e lm="računalni"><i>računaln</i><par n="garantn/i__adj"/></e>
+<e lm="maturalni"><i>maturaln</i><par n="garantn/i__adj"/></e>
+<e lm="strojni"><i>strojn</i><par n="garantn/i__adj"/></e>
+<e lm="međuusveučilišni"><i>međuusveučilišn</i><par n="garantn/i__adj"/></e>
+<e lm="višedesetljetni"><i>višedesetljetn</i><par n="garantn/i__adj"/></e>
+<e lm="nedomoljubni"><i>nedomoljubn</i><par n="garantn/i__adj"/></e>
+<e lm="operni"><i>opern</i><par n="garantn/i__adj"/></e>
+<e lm="orkestralni"><i>orkestraln</i><par n="garantn/i__adj"/></e>
+<e lm="domoljubni"><i>domoljubn</i><par n="garantn/i__adj"/></e>
+<e lm="prapovijesni"><i>prapovijesn</i><par n="garantn/i__adj"/></e>
+<e lm="protupožarni"><i>protupožarn</i><par n="garantn/i__adj"/></e>
+<e lm="renesansni"><i>renesansn</i><par n="garantn/i__adj"/></e>
+<e lm="susjedni"><i>susjedn</i><par n="garantn/i__adj"/></e>
+<e lm="sredozemni"><i>sredozemn</i><par n="garantn/i__adj"/></e>
+<e lm="trajektni"><i>trajektn</i><par n="garantn/i__adj"/></e>
+<e lm="bivši"><i>bivš</i><par n="odlučujuć/i__adj"/></e>
+<e lm="divlji"><i>divlj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="zemni"><i>zemn</i><par n="garantn/i__adj"/></e>
+<e lm="minuli"><i>minul</i><par n="garantn/i__adj"/></e>
+<e lm="isti"><i>ist</i><par n="garantn/i__adj"/></e>
+<e lm="lijevi"><i>lijev</i><par n="garantn/i__adj"/></e>
+<e lm="prošli"><i>prošl</i><par n="garantn/i__adj"/></e>
+<e lm="opći"><i>opć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="ostali"><i>ostal</i><par n="garantn/i__adj"/></e>
+<e lm="pravi"><i>prav</i><par n="garantn/i__adj"/></e>
+<e lm="rani"><i>ran</i><par n="garantn/i__adj"/></e>
+<e lm="rodni"><i>rodn</i><par n="garantn/i__adj"/></e>
+<e lm="obrambenni"><i>obrambenn</i><par n="garantn/i__adj"/></e>
+<e lm="drugi"><i>drug</i><par n="garantn/i__adj"/></e>
+<e lm="paravojni"><i>paravojn</i><par n="garantn/i__adj"/></e>
+<e lm="drugi"><i>drug</i><par n="garantn/i__adj"/></e>
+<e lm="sigurnosni"><i>sigurnosn</i><par n="garantn/i__adj"/></e>
+<e lm="bližnji"><i>bližnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="bračni"><i>bračn</i><par n="garantn/i__adj"/></e>
+<e lm="vizni"><i>vizn</i><par n="garantn/i__adj"/></e>
+<e lm="unutrašnji"><i>unutrašnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="unutarnji"><i>unutarnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="vrhovni"><i>vrhovn</i><par n="garantn/i__adj"/></e>
+<e lm="jučerašnji"><i>jučerašnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="glavni"><i>glavn</i><par n="garantn/i__adj"/></e>
+<e lm="godišnji"><i>godišnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="gornji"><i>gornj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="porezni"><i>porezn</i><par n="garantn/i__adj"/></e>
+<e lm="dvodnevni"><i>dvodnevn</i><par n="garantn/i__adj"/></e>
+<e lm="dnevni"><i>dnevn</i><par n="garantn/i__adj"/></e>
+<e lm="dojučerašnji"><i>dojučerašnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="donji"><i>donj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="domaći"><i>domać</i><par n="odlučujuć/i__adj"/></e>
+<e lm="dosadašnji"><i>dosadašnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="državni"><i>državn</i><par n="garantn/i__adj"/></e>
+<e lm="zadnji"><i>zadnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="zakonodavni"><i>zakonodavn</i><par n="garantn/i__adj"/></e>
+<e lm="zapadni"><i>zapadn</i><par n="garantn/i__adj"/></e>
+<e lm="zaštitni"><i>zaštitn</i><par n="garantn/i__adj"/></e>
+<e lm="budući"><i>buduć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="sljedeći"><i>sljedeć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="izborni"><i>izborn</i><par n="garantn/i__adj"/></e>
+<e lm="istočni"><i>istočn</i><par n="garantn/i__adj"/></e>
+<e lm="kontrolni"><i>kontroln</i><par n="garantn/i__adj"/></e>
+<e lm="krivični"><i>krivičn</i><par n="garantn/i__adj"/></e>
+<e lm="ljetni"><i>ljetn</i><par n="garantn/i__adj"/></e>
+<e lm="međunarodni"><i>međunarodn</i><par n="garantn/i__adj"/></e>
+<e lm="minutni"><i>minutn</i><par n="garantn/i__adj"/></e>
+<e lm="mirovni"><i>mirovn</i><par n="garantn/i__adj"/></e>
+<e lm="modni"><i>modn</i><par n="garantn/i__adj"/></e>
+<e lm="navodni"><i>navodn</i><par n="garantn/i__adj"/></e>
+<e lm="nadzorni"><i>nadzorn</i><par n="garantn/i__adj"/></e>
+<e lm="narodni"><i>narodn</i><par n="garantn/i__adj"/></e>
+<e lm="živčani"><i>živčan</i><par n="garantn/i__adj"/></e>
+<e lm="nervni"><i>nervn</i><par n="garantn/i__adj"/></e>
+<e lm="nuklearni"><i>nuklearn</i><par n="garantn/i__adj"/></e>
+<e lm="ovogodišnji"><i>ovogodišnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="okolni"><i>okoln</i><par n="garantn/i__adj"/></e>
+<e lm="osiguravajući"><i>osiguravajuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="novčani"><i>novčan</i><par n="garantn/i__adj"/></e>
+<e lm="pogranični"><i>pograničn</i><par n="garantn/i__adj"/></e>
+<e lm="pripremni"><i>pripremn</i><par n="garantn/i__adj"/></e>
+<e lm="podzemni"><i>podzemn</i><par n="garantn/i__adj"/></e>
+<e lm="daljnji"><i>daljnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="raniji"><i>ranij</i><par n="odlučujuć/i__adj"/></e>
+<e lm="posljednji"><i>posljednj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="početni"><i>početn</i><par n="garantn/i__adj"/></e>
+<e lm="pravni"><i>pravn</i><par n="garantn/i__adj"/></e>
+<e lm="prednji"><i>prednj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="predizborni"><i>predizborn</i><par n="garantn/i__adj"/></e>
+<e lm="prethodni"><i>prethodn</i><par n="garantn/i__adj"/></e>
+<e lm="probni"><i>probn</i><par n="garantn/i__adj"/></e>
+<e lm="prodajni"><i>prodajn</i><par n="garantn/i__adj"/></e>
+<e lm="proizvodni"><i>proizvodn</i><par n="garantn/i__adj"/></e>
+<e lm="proljetni"><i>proljetn</i><par n="garantn/i__adj"/></e>
+<e lm="propagandni"><i>propagandn</i><par n="garantn/i__adj"/></e>
+<e lm="radni"><i>radn</i><par n="garantn/i__adj"/></e>
+<e lm="rezervni"><i>rezervn</i><par n="garantn/i__adj"/></e>
+<e lm="reklamni"><i>reklamn</i><par n="garantn/i__adj"/></e>
+<e lm="sjeverni"><i>sjevern</i><par n="garantn/i__adj"/></e>
+<e lm="sadašnji"><i>sadašnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="sljedeći"><i>sljedeć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="naredni"><i>naredn</i><par n="garantn/i__adj"/></e>
+<e lm="potonji"><i>potonj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="naredni"><i>naredn</i><par n="garantn/i__adj"/></e>
+<e lm="odgovarajući"><i>odgovarajuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="susjedni"><i>susjedn</i><par n="garantn/i__adj"/></e>
+<e lm="savezni"><i>savezn</i><par n="garantn/i__adj"/></e>
+<e lm="srednji"><i>srednj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="srednjovjekovni"><i>srednjovjekovn</i><par n="garantn/i__adj"/></e>
+<e lm="tekući"><i>tekuć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="tjelesni"><i>tjelesn</i><par n="garantn/i__adj"/></e>
+<e lm="tranzitni"><i>tranzitn</i><par n="garantn/i__adj"/></e>
+<e lm="trodnevni"><i>trodnevn</i><par n="garantn/i__adj"/></e>
+<e lm="udarni"><i>udarn</i><par n="garantn/i__adj"/></e>
+<e lm="ulični"><i>uličn</i><par n="garantn/i__adj"/></e>
+<e lm="upravni"><i>upravn</i><par n="garantn/i__adj"/></e>
+<e lm="finalni"><i>finaln</i><par n="garantn/i__adj"/></e>
+<e lm="fiskalni"><i>fiskaln</i><par n="garantn/i__adj"/></e>
+<e lm="cvjetni"><i>cvjetn</i><par n="garantn/i__adj"/></e>
+<e lm="centralni"><i>centraln</i><par n="garantn/i__adj"/></e>
+<e lm="civilni"><i>civiln</i><par n="garantn/i__adj"/></e>
+<e lm="desni"><i>desn</i><par n="garantn/i__adj"/></e>
+<e lm="jugoistočni"><i>jugoistočn</i><par n="garantn/i__adj"/></e>
+<e lm="južni"><i>južn</i><par n="garantn/i__adj"/></e>
+<e lm="tripartitni"><i>tripartitn</i><par n="garantn/i__adj"/></e>
+<e lm="bezbjedonosni"><i>bezbjedonosn</i><par n="garantn/i__adj"/></e>
+<e lm="sigurnosni"><i>sigurnosn</i><par n="garantn/i__adj"/></e>
+<e lm="strukturni"><i>strukturn</i><par n="garantn/i__adj"/></e>
+<e lm="tržišni"><i>tržišn</i><par n="garantn/i__adj"/></e>
+<e lm="kvadratni"><i>kvadratn</i><par n="garantn/i__adj"/></e>
+<e lm="infrastrukturni"><i>infrastrukturn</i><par n="garantn/i__adj"/></e>
+<e lm="prekogranični"><i>prekograničn</i><par n="garantn/i__adj"/></e>
+<e lm="okružni"><i>okružn</i><par n="garantn/i__adj"/></e>
+<e lm="jednodnevni"><i>jednodnevn</i><par n="garantn/i__adj"/></e>
+<e lm="brigadni"><i>brigadn</i><par n="garantn/i__adj"/></e>
+<e lm="uzajamni"><i>uzajamn</i><par n="garantn/i__adj"/></e>
+<e lm="kubni"><i>kubn</i><par n="garantn/i__adj"/></e>
+<e lm="mjesečni"><i>mjesečn</i><par n="garantn/i__adj"/></e>
+<e lm="obrazovni"><i>obrazovn</i><par n="garantn/i__adj"/></e>
+<e lm="zrakoplovni"><i>zrakoplovn</i><par n="garantn/i__adj"/></e>
+<e lm="vazduhoplovni"><i>vazduhoplovn</i><par n="garantn/i__adj"/></e>
+<e lm="ručni"><i>ručn</i><par n="garantn/i__adj"/></e>
+<e lm="investicioni"><i>investicion</i><par n="garantn/i__adj"/></e>
+<e lm="opozicioni"><i>opozicion</i><par n="garantn/i__adj"/></e>
+<e lm="krajnji"><i>krajnj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="predstojeći"><i>predstojeć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="predstojeći"><i>predstojeć</i><par n="odlučujuć/i__adj"/></e>
+<e lm="brojni"><i>brojn</i><par n="garantn/i__adj"/></e>
+<e lm="brojčani"><i>brojčan</i><par n="garantn/i__adj"/></e>
+<e lm="ptičji"><i>ptičj</i><par n="odlučujuć/i__adj"/></e>
+<e lm="razni"><i>razn</i><par n="garantn/i__adj"/></e>
+<e lm="anti"><i>ant</i><par n="garantn/i__adj"/></e>
+
 <!--adjectives ending in -ski-->
+
+	<e lm="opozicijski"><i>opozicijs</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="opozicijski"><p><l>opozicijs</l><r>opozicijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="opozicijski"><p><l>najopozicijs</l><r>opozicijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="opozicijski"><p><l>preopozicijs</l><r>opozicijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="investicijski"><i>investicijs</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="investicijski"><p><l>investicijs</l><r>investicijs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="investicijski"><p><l>najinvesticijs</l><r>investicijs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="investicijski"><p><l>preinvesticijs</l><r>investicijs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="oslobodilački"><i>oslobodilač</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="oslobodilački"><p><l>oslobodilač</l><r>oslobodilač</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="oslobodilački"><p><l>najoslobodilač</l><r>oslobodilač</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="oslobodilački"><p><l>preoslobodilač</l><r>oslobodilač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="tužiteljski"><i>tužiteljs</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="tužiteljski"><p><l>tužiteljs</l><r>tužiteljs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="tužiteljski"><p><l>najtužiteljs</l><r>tužiteljs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="tužiteljski"><p><l>pretužiteljs</l><r>tužiteljs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="optužilački"><i>optužilač</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="optužilački"><p><l>optužilač</l><r>optužilač</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="optužilački"><p><l>najoptužilač</l><r>optužilač</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="optužilački"><p><l>preoptužilač</l><r>optužilač</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="nebeski"><i>nebes</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="nebeski"><p><l>nebes</l><r>nebes</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="nebeski"><p><l>najnebes</l><r>nebes</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="nebeski"><p><l>prenebes</l><r>nebes</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+	
+	<e lm="vanjski"><i>vanjs</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="vanjski"><p><l>vanjs</l><r>vanjs</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="vanjski"><p><l>najvanjs</l><r>vanjs</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="vanjski"><p><l>prevanjs</l><r>vanjs</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="imovinski"><i>imovins</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="imovinski"><p><l>imovins</l><r>imovins</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="imovinski"><p><l>najimovins</l><r>imovins</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="imovinski"><p><l>preimovins</l><r>imovins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="dopunski"><i>dopuns</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="dopunski"><p><l>dopuns</l><r>dopuns</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="dopunski"><p><l>najdopuns</l><r>dopuns</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="dopunski"><p><l>predopuns</l><r>dopuns</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="poreski"><i>pores</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="poreski"><p><l>pores</l><r>pores</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="poreski"><p><l>najpores</l><r>pores</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="poreski"><p><l>prepores</l><r>pores</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+
+	<e lm="građevinski"><i>građevins</i><par n="pridjevs/ki__pst__adj"/></e>
+	<e lm="građevinski"><p><l>građevins</l><r>građevins</r></p><par n="pridjevs/ki__comp__adj"/></e>
+	<e lm="građevinski"><p><l>najgrađevins</l><r>građevins</r></p><par n="pridjevs/ki__sup__adj"/></e>
+	<e lm="građevinski"><p><l>pregrađevins</l><r>građevins</r></p><par n="pridjevs/ki__ssup__adj"/></e>
+	
 	<e lm="augustovski"><i>augustovs</i><par n="pridjevs/ki__pst__adj"/></e>
 	<e lm="augustovski"><p><l>augustovs</l><r>augustovs</r></p><par n="pridjevs/ki__comp__adj"/></e>
 	<e lm="augustovski"><p><l>najaugustovs</l><r>augustovs</r></p><par n="pridjevs/ki__sup__adj"/></e>
