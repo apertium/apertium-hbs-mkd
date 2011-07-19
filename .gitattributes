@@ -68,6 +68,8 @@ dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/generation-summary.sh-mk.txt -text
 dev/generation-test.py -text
+dev/inconsistency-summary.sh -text
+dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/n/pending_nouns.txt -text
 dev/n/sve.n -text
@@ -80,6 +82,8 @@ dev/np/prezimenski.monodix.txt -text
 dev/np/prezimenski.txt -text
 dev/np/vlastita_imena.hr.txt -text
 dev/np/vlastita_imena.mk.txt -text
+dev/testvoc-summary.sh-mk.txt -text
+dev/testvoc.sh -text
 dev/vblex/bidix.vblex.special_care.txt -text
 dev/vblex/bidix.vblex.untranslated.txt -text
 dev/vblex/bidix.vblex_BS.txt -text
