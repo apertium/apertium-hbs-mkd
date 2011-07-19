@@ -45,7 +45,6 @@ velik:голем
 mal:мал
 malen:мал
 plav:син
-?:ниж
 crven:црвен
 žut:жолт
 hladan:студен
@@ -466,7 +465,6 @@ pravilan:правилен
 pravoslavan:православен
 prazan:празен
 praktičan:практичен
-?:првичен
 prednji:преден
 predizborni:предизборен
 prekrasan:прекрасен
