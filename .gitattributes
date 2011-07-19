@@ -28,6 +28,10 @@ dev/adj/done.txt -text svneol=unset#application/octet-stream
 dev/adj/garantni.par -text
 dev/adj/paradigme.adj -text
 dev/adj/pending_adjectives.txt -text
+dev/adj/pending_adjectives_BS.txt -text
+dev/adj/pending_adjectives_HR.txt -text
+dev/adj/pending_adjectives_SR.txt -text
+dev/adj/pending_adjectives_unknown.txt -text
 dev/adj/pridjevi.adj -text
 dev/adj/pridjevski.par -text
 dev/adj/sve.adj -text

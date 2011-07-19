@@ -1,12 +1,12 @@
-vaskršnji:велигденски 		<!--big Todo: check how it's said in Serbian-->
+vaskršnji:велигденски
 uskršnji:велигденски
 vladajući:владејачки
 vodeći:водечки
 dječji:детски
-poljoprivredni:земјоделски          		<!--TODO: check the serbian variant-->
+poljoprivredni:земјоделски		
 povijesni:историски
 rukovodstveni:лидерски
-reformni:реформски		<!--check variants-->
+reformni:реформски		
 strani:странски
 sveučilišni:универзитетски
 jutarnji:утрински
@@ -14,11 +14,11 @@ nogometni:фудбалски
 dobrovoljni:доброволски
 vatrogasni:пожарникарски
 rotirajući:ротирачки
-frankofoni:франкофонски		<!--check variants, meaning-->
+frankofoni:франкофонски		
 autobusni:автобуски
 baletni:балетски		
 biopoljoprivredni:биоземјоделски		
-garantni:гаранциски		<!--check variants, maybe both in croatian-->
+garantni:гаранциски		
 ekspertni:експертски
 okružni:жупански		
 poljoprivredni:замјоделски		
@@ -57,11 +57,11 @@ prljav:валкан
 nečist:нечист
 tup:тап
 suh:сув
-suv:сув +BS+SR
+suv:сув
 nov:нов		
 tražen:баран
-bijel:бел +HR+BS
-bijeo:бел +SR
+bijel:бел
+bijeo:бел
 bivši:бивш
 blagoslovljen:благословен
 brz:брз
@@ -103,8 +103,8 @@ iskorišten:искористен
 isti:ист
 iščezao:исчезнат
 kamen:камен
-kontinuiran:континуиран +HR
-kontinuisan:континуиран +BS+SR
+kontinuiran:континуиран
+kontinuisan:континуиран
 lijevi:лев
 lišen:лишен
 meden:меден
@@ -129,15 +129,15 @@ opredijeljen:определен
 opći:општ
 organiziran:организиран
 oslobođen:ослободен
-osoben:особен +BS+SR
-osebujan:особен +BS+SR
+osoben:особен
+osebujan:особен
 osumnjičen:осомничен
 ostali:останат
 osuđen:осуден
 otvoren:отворен
 otkriven:откриен
-umirovljen:пензиониран +HR
-penzionisan:пензиониран +SR+BS
+umirovljen:пензиониран
+penzionisan:пензиониран
 planiran:планиран
 pobjeđen:победен
 povrijeđen:повреден
@@ -172,18 +172,18 @@ svet:свет
 svečan:свечен
 slab:слаб
 složen:сложен
-vlastit:сопствен +HR
-vlastit:сопствен +BS+SR
+vlastit:сопствен
+vlastit:сопствен
 sproveden:спроведен
 star:стар
 tvrd:тврд
-uhićen:уапсен +HR
-uhapšen:уапсен +BS +SR
+uhićen:уапсен
+uhapšen:уапсен
 ubijen:убиен
 uništen:уништен
 usvojen:усвоен
-uslovan:условен +BS+SR
-uvjetan:условен +BS+SR
+uslovan:условен
+uvjetan:условен
 formiran:формиран
 čvrst:цврст
 cijel:цел
@@ -213,8 +213,8 @@ preuzet:преземен
 predstavljen:претставен
 prihvatljiv:прифатлив
 raseljen:раселен
-registriran:регистриран +HR
-registrovan:регистриран +SR+BS
+registriran:регистриран
+registrovan:регистриран
 sustavan:составен
 fin:фин
 debeo:дебел
@@ -223,10 +223,10 @@ kratak:кус
 velik:велик
 služben:службен
 pritvoren:притворен
-nominiran:номиниран +HR
-nominovan:номиниран +BS+SR
-sponzoriran:спонзориран +HR
-sponzorisan:спонзориран +SR+BS
+nominiran:номиниран
+nominovan:номиниран
+sponzoriran:спонзориран
+sponzorisan:спонзориран
 postojan:постојан
 dubok:длабок
 siv:сив
@@ -281,8 +281,8 @@ unutrašnji:внатрешен
 LR|unutarnji:внатрешен
 voden:воден
 LR|mokar:воден
-vazdušan:воздушен +BS+SR
-zračan:воздушен +HR
+vazdušan:воздушен
+zračan:воздушен
 vanredan:вонреден
 vrijedan:вреден
 vrhovni:врховен
@@ -296,8 +296,8 @@ građevinski:градежен
 grandiozan:грандиозен
 graničan:граничен
 dalek:далечен
-poreski:даночен +BS+SR
-porezni:даночен +HR
+poreski:даночен
+porezni:даночен
 dvodnevni:дводневен
 poslovan:деловен
 definitivan:дефинитивен
@@ -372,7 +372,7 @@ LR|lak:лесен
 lagan:лесен
 ljetni:летен
 liberalan:либерален
-ličan:личен +BS+SR
+ličan:личен
 osoban:личен
 lokalan:локален
 maksimalan:максимален
@@ -424,8 +424,8 @@ neumoran:неуморен
 neusmjeren:неуспешен
 normalan:нормален
 nuklearni:нуклеарен
-optužilački:обвинителен +SR+BS
-tužiteljski:обвинителен +HR
+optužilački:обвинителен
+tužiteljski:обвинителен
 obilazan:обиколен
 obilan:обилен
 običan:обичен
@@ -439,7 +439,7 @@ originalan:оригинален
 osiguravajući:осигурителен
 osnovan:основен
 otrovan:отровен
-oficijalan:официјален +BS+SR
+oficijalan:официјален
 služben:официјален
 paralelan:паралелен
 novčani:паричен
@@ -562,8 +562,8 @@ finalni:финален
 fiskalni:фискален
 formalan:формален
 funkcionalan:функционален
-kroničan:хроничен +HR
-hroničan:хроничен +BS+SR
+kroničan:хроничен
+hroničan:хроничен
 humanitaran:хуманитарен
 cvjetni:цветен
 cjelokupan:целокупен
@@ -578,12 +578,12 @@ javan:јавен
 jasan:јасен
 jugoistočni:југоисточен
 južni:јужен
-vjerojatan:веројатен +HR
-vjerovatan:веројатен +BS+SR
+vjerojatan:веројатен
+vjerovatan:веројатен
 krivo:виновен
 obziran:внимателен
 djelomičan:делумен
-djelimičan:делумен +SR+BS
+djelimičan:делумен
 dobrovoljan:доброволен
 dovoljan:доволен
 jednoglasan:едногласен
@@ -596,10 +596,10 @@ punopravan:полноправен
 tripartitni:трипартитен
 ovalan:тркалезен
 tijesan:тесен
-bezbjedonosni:безбедносен +BS+SR
-sigurnosni:безбедносен +HR
-bezbjedan:безбеден +BS+SR
-siguran:безбеден +HR
+bezbjedonosni:безбедносен
+sigurnosni:безбедносен
+bezbjedan:безбеден
+siguran:безбеден
 strukturni:структурен
 tržišni:пазарен
 unilateralan:унилатерален
@@ -624,15 +624,15 @@ obrazovni:образовен
 neformalan:неформален
 smrtan:смртен
 svjestan:свесен
-zrakoplovni:воздухопловен +HR
-vazduhoplovni:воздухопловен +SR+BS
+zrakoplovni:воздухопловен
+vazduhoplovni:воздухопловен
 indirektan:индиректен
 ručni:рачен
 tradicionalan:традиционален
-investicioni:инвестиционен +BS+SR
-investicijski:инвестиционен +HR
-opozicioni:опозиционен +BS+SR
-opozicijski:опозиционен +BS+SR
+investicioni:инвестиционен
+investicijski:инвестиционен
+opozicioni:опозиционен
+opozicijski:опозиционен
 dvostruk:двоен
 dugotrajan:долготраен
 značajan:значаен
