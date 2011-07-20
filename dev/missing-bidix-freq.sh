@@ -1,5 +1,5 @@
 INPUT=/tmp/sh-mk.gentest.transfer
-DEV=/home/fran/source/apertium/incubator/apertium-sh-mk/dev/bidix/
+DEV=~/GSoC/apertium/incubator/apertium-sh-mk/dev/bidix/
 
 echo "SECTION
 
