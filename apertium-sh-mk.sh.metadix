@@ -25905,6 +25905,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><i>osamnaest</i><par n="numeros_sin_inflexion"/></e>
     <e><i>devetnaest</i><par n="numeros_sin_inflexion"/></e>
     <e><i>dvadeset</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>sto</i><par n="numeros_sin_inflexion"/></e>
         
   	<!--Todo: Add the other numbers' declension-->
 	<e><p><l>jedan</l><r>jedan<s n="num"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
