@@ -184,6 +184,7 @@ I have added those for the sake of analysis -->
       <group alt="sh_SR">
         <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
         <e r="LR"><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="RL"><p><l>e</l><r><group var="ek">je</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_ije__yat">
