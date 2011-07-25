@@ -40315,7 +40315,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="fuga"><i>fu</i><par n="fi/ga__n"/></e>
 <e lm="šuga"><i>šu</i><par n="fi/ga__n"/></e>
 <e lm="doga"><i>do</i><par n="fi/ga__n"/></e>
+<!--Irregular-->
 <e lm="mati"><i></i><par n="mati__n"/></e>
+<e lm="kći"><i></i><par n="kći__n"/></e>
 <!--the blessed -i declension -->
 <e lm="riječ"><i>r</i><par n="e_ije__yat"/><i>č</i><par n="riječ__n"/></e><!--Yat-->
 <e lm="bol"><i>bol</i><par n="riječ__n"/></e>

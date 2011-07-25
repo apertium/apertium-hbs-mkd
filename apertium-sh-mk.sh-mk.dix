@@ -413,6 +413,634 @@
      
      <!-- SECTION: Nouns -->
      
+         <e><p><l>momčad<s n="n"/><s n="f"/></l><r>тим<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>glad<s n="n"/><s n="f"/></l><r>глад<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>morski<b/>pas<s n="n"/><s n="f"/></l><r>ајкула<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zapovjed<s n="n"/><s n="f"/></l><r>команда<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>povijest<s n="n"/><s n="f"/></l><r>историја<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>znanost<s n="n"/><s n="f"/></l><r>наука<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rođak<s n="n"/><s n="f"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rod<s n="n"/><s n="f"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plod<s n="n"/><s n="mi"/></l><r>плод<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pogreb<s n="n"/><s n="mi"/></l><r>погреб<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podaci<s n="n"/><s n="mi"/></l><r>податоци<s n="m"/>fn<s n="n"/></r></p></e>
+    <e><p><l>poplava<s n="n"/><s n="f"/></l><r>поплав<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>posjetitelj<s n="n"/><s n="ma"/></l><r>посетител<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>post<s n="n"/><s n="mi"/></l><r>пост<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>potencijal<s n="n"/><s n="mi"/></l><r>потенцијал<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pravobranitelj<s n="n"/><s n="ma"/></l><r>правобранител<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pregled<s n="n"/><s n="mi"/></l><r>преглед<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pregovarač<s n="n"/><s n="ma"/></l><r>преговарач<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>preduvjet<s n="n"/><s n="mi"/></l><r>предуслов<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>preduslov<s n="n"/><s n="mi"/></l><r>предуслов<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pretsjetadelj<s n="n"/><s n="ma"/></l><r>претседавач<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doprinos<s n="n"/><s n="mi"/></l><r>придонес<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prijem<s n="n"/><s n="mi"/></l><r>прием<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>princip<s n="n"/><s n="mi"/></l><r>принцип<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>projektil<s n="n"/><s n="mi"/></l><r>проектил<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>proizvođač<s n="n"/><s n="ma"/></l><r>производител<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>protokol<s n="n"/><s n="mi"/></l><r>протокол<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>profit<s n="n"/><s n="mi"/></l><r>профит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rast<s n="n"/><s n="mi"/></l><r>раст<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rast<s n="n"/><s n="mi"/></l><r>растеж<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>režiser<s n="n"/><s n="ma"/></l><r>режисер<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>redatelj<s n="n"/><s n="ma"/></l><r>режисер<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>resurs<s n="n"/><s n="mi"/></l><r>ресурс<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>referendum<s n="n"/><s n="mi"/></l><r>референдум<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ris<s n="n"/><s n="ma"/></l><r>рис<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rom<s n="n"/><s n="ma"/></l><r>ром<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sajam<s n="n"/><s n="mi"/></l><r>саем<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sjever<s n="n"/><s n="mi"/></l><r>север<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sekularizam<s n="n"/><s n="mi"/></l><r>секуларизам<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rujan<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>signal<s n="n"/><s n="mi"/></l><r>сигнал<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lanac<s n="n"/><s n="mi"/></l><r>синџир<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skandal<s n="n"/><s n="mi"/></l><r>скандал<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>susjed<s n="n"/><s n="ma"/></l><r>сосед<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>komšija<s n="n"/><s n="ma"/></l><r>сосед<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>socijaldemokrat<s n="n"/><s n="ma"/></l><r>социјалдемократ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>socijalist<s n="n"/><s n="ma"/></l><r>социјалист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>spor<s n="n"/><s n="mi"/></l><r>спор<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sportaš<s n="n"/><s n="ma"/></l><r>спортист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sportista<s n="n"/><s n="ma"/></l><r>спортист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sud<s n="n"/><s n="mi"/></l><r>суд<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>telegraf<s n="n"/><s n="mi"/></l><r>телеграф<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>telekom<s n="n"/><s n="mi"/></l><r>телеком<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ten<s n="n"/><s n="mi"/></l><r>тен<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>terorizam<s n="n"/><s n="mi"/></l><r>тероризам<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>test<s n="n"/><s n="mi"/></l><r>тест<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ton<s n="n"/><s n="mi"/></l><r>тон<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>top<s n="n"/><s n="mi"/></l><r>топ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>turizam<s n="n"/><s n="mi"/></l><r>туризам<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>turist<s n="n"/><s n="ma"/></l><r>турист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>uvoz<s n="n"/><s n="mi"/></l><r>увоз<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ukaz<s n="n"/><s n="mi"/></l><r>указ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>um<s n="n"/><s n="ma"/></l><r>ум<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>uspjeh<s n="n"/><s n="mi"/></l><r>успех<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>faktor<s n="n"/><s n="mi"/></l><r>фактор<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fokus<s n="n"/><s n="mi"/></l><r>фокус<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hrvat<s n="n"/><s n="ma"/></l><r>хрват<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cvijet<s n="n"/><s n="mi"/></l><r>цвет<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>centar<s n="n"/><s n="mi"/></l><r>центар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>manevar<s n="n"/><s n="mi"/></l><r>маневар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>civil<s n="n"/><s n="ma"/></l><r>цивил<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>crv<s n="n"/><s n="mi"/></l><r>црв<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>šal<s n="n"/><s n="mi"/></l><r>шал<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prvenstvo<s n="n"/><s n="nt"/></l><r>шампионат<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>šansa<s n="n"/><s n="f"/></l><r>шанс<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>prilika<s n="n"/><s n="f"/></l><r>шанс<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>zapad<s n="n"/><s n="mi"/></l><r>запад<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sjever<s n="n"/><s n="mi"/></l><r>север<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>šverc<s n="n"/><s n="mi"/></l><r>шверц<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jug<s n="n"/><s n="mi"/></l><r>југ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>siječanj<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>srpanj<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lipanj<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/></r></p></e>
+    <e><p><l>božić<s n="n"/><s n="mi"/></l><r>божиќ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>summit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>samit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grad<s n="n"/><s n="mi"/></l><r>град<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ulaz<s n="n"/><s n="mi"/></l><r>влез<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vrh<s n="n"/><s n="mi"/></l><r>врв<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>glas<s n="n"/><s n="mi"/></l><r>глас<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dio<s n="n"/><s n="mi"/></l><r>дел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udjel<s n="n"/><s n="mi"/></l><r>удел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udio<s n="n"/><s n="mi"/></l><r>удел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dan<s n="n"/><s n="mi"/></l><r>ден<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dom<s n="n"/><s n="mi"/></l><r>дом<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>riječ<s n="n"/><s n="f"/></l><r>збор<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>klub<s n="n"/><s n="mi"/></l><r>клуб<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gomila<s n="n"/><s n="f"/></l><r>куп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hrpa<s n="n"/><s n="f"/></l><r>куп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skup<s n="n"/><s n="mi"/></l><r>куп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skupina<s n="n"/><s n="f"/></l><r>куп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kup<s n="n"/><s n="mi"/></l><r>куп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>put<s n="n"/><s n="mi"/></l><r>пат<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pop<s n="n"/><s n="ma"/></l><r>поп<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plus<s n="n"/><s n="mi"/></l><r>плус<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>svijet<s n="n"/><s n="mi"/></l><r>свет<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lev<s n="n"/><s n="mi"/></l><r>лев<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pol<s n="n"/><s n="mi"/></l><r>пол<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>spol<s n="n"/><s n="mi"/></l><r>пол<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oganj<s n="n"/><s n="mi"/></l><r>оган<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>vatra<s n="n"/><s n="f"/></l><r>оган<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Balkan<s n="n"/><s n="mi"/></l><r>Балкан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Balkani<s n="n"/><s n="mi"/></l><r>Балкани<s n="m"/>fn<s n="n"/></r></p></e>
+    <e><p><l>aranžman<s n="n"/><s n="mi"/></l><r>аранжман<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nagodba<s n="n"/><s n="f"/></l><r>спогодба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>burza<s n="n"/><s n="f"/></l><r>берза<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>slovo<s n="n"/><s n="nt"/></l><r>буква<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>istina<s n="n"/><s n="f"/></l><r>вистина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rat<s n="n"/><s n="mi"/></l><r>војна<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>godišnjica<s n="n"/><s n="f"/></l><r>годишнина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>veličina<s n="n"/><s n="f"/></l><r>големина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>šuma<s n="n"/><s n="f"/></l><r>гора<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dojka<s n="n"/><s n="f"/></l><r>града<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>izgradnja<s n="n"/><s n="f"/></l><r>изградба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>posao<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>desetica<s n="n"/><s n="f"/></l><r>десетица<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>povjerenje<s n="n"/><s n="nt"/></l><r>доверба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dužina<s n="n"/><s n="f"/></l><r>должина<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>duljina<s n="n"/><s n="f"/></l><r>должина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>želja<s n="n"/><s n="f"/></l><r>желба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gubitak<s n="n"/><s n="mi"/></l><r>загуба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zadaća<s n="n"/><s n="f"/></l><r>задача<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prijetnja<s n="n"/><s n="f"/></l><r>закана<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>budućnost<s n="n"/><s n="f"/></l><r>иднина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obmana<s n="n"/><s n="f"/></l><r>измама<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oluja<s n="n"/><s n="f"/></l><r>луна<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nepovjerenje<s n="n"/><s n="nt"/></l><r>недоверба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>novina<s n="n"/><s n="f"/></l><r>новина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>para<s n="n"/><s n="f"/></l><r>пара<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plaća<s n="n"/><s n="f"/></l><r>плата<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plata<s n="n"/><s n="f"/></l><r>плата<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>povelja<s n="n"/><s n="f"/></l><r>повелба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poděla<s n="n"/><s n="f"/></l><r>поделба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poziv<s n="n"/><s n="mi"/></l><r>покана<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pohvala<s n="n"/><s n="f"/></l><r>пофалба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uzrok<s n="n"/><s n="mi"/></l><r>причина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>program<s n="n"/><s n="mi"/></l><r>програма<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prodaja<s n="n"/><s n="f"/></l><r>продажба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>subota<s n="n"/><s n="f"/></l><r>сабота<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sida<s n="n"/><s n="f"/></l><r>сида<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>состојба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>usporedba<s n="n"/><s n="f"/></l><r>споредба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stotina<s n="n"/><s n="f"/></l><r>стотица<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trava<s n="n"/><s n="f"/></l><r>трева<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zvězda<s n="n"/><s n="f"/></l><r>ѕвезда<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>agenda<s n="n"/><s n="f"/></l><r>агенда<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>misao<s n="n"/><s n="f"/></l><r>мисла<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokracija<s n="n"/><s n="f"/></l><r>автократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokratija<s n="n"/><s n="f"/></l><r>автократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autonomija<s n="n"/><s n="f"/></l><r>автономија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokracija<s n="n"/><s n="f"/></l><r>аристократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokratija<s n="n"/><s n="f"/></l><r>аристократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>eurointegracija<s n="n"/><s n="f"/></l><r>евроинтеграција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>institucija<s n="n"/><s n="f"/></l><r>инстутиција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rasprava<s n="n"/><s n="f"/></l><r>расправија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>raspra<s n="n"/><s n="f"/></l><r>расправија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>siromaštvo<s n="n"/><s n="f"/></l><r>сиромаштија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>teškoća<s n="n"/><s n="f"/></l><r>тешкотија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>toplofikacija<s n="n"/><s n="f"/></l><r>топлофикација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trgovina<s n="n"/><s n="f"/></l><r>трговија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marama<s n="n"/><s n="f"/></l><r>шамија<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>rubac<s n="n"/><s n="mi"/></l><r>шамија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>asistencija<s n="n"/><s n="f"/></l><r>асистенција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gasifikacija<s n="n"/><s n="f"/></l><r>гасификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devalvacija<s n="n"/><s n="f"/></l><r>девалвација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devaluacija<s n="n"/><s n="f"/></l><r>девалвација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diverzifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diversifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>infiltracija<s n="n"/><s n="f"/></l><r>инфлитрација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>restauracija<s n="n"/><s n="f"/></l><r>реставрација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>certifikacija<s n="n"/><s n="f"/></l><r>сертификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>biljka<s n="n"/><s n="f"/></l><r>билка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uš<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vaška<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>veza<s n="n"/><s n="f"/></l><r>врска<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obveza<s n="n"/><s n="f"/></l><r>обврска<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kolegica<s n="n"/><s n="f"/></l><r>колешка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>měra<s n="n"/><s n="f"/></l><r>мерка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smjer<s n="n"/><s n="f"/></l><r>насока<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tužiteljica<s n="n"/><s n="f"/></l><r>обвинителка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rep<s n="n"/><s n="f"/></l><r>опашка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ocěna<s n="n"/><s n="f"/></l><r>оценка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>priprema<s n="n"/><s n="f"/></l><r>подготовка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>potparolkinja<s n="n"/><s n="f"/></l><r>портпаролка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>postupak<s n="n"/><s n="mi"/></l><r>постапка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>šiba<s n="n"/><s n="f"/></l><r>прачка<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>šipka<s n="n"/><s n="f"/></l><r>прачка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zapreka<s n="n"/><s n="f"/></l><r>пречка<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>prepreka<s n="n"/><s n="f"/></l><r>пречка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>provjera<s n="n"/><s n="f"/></l><r>проверка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>procěna<s n="n"/><s n="f"/></l><r>проценка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>okvir<s n="n"/><s n="mi"/></l><r>рамка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>račun<s n="n"/><s n="mi"/></l><r>сметка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stopa<s n="n"/><s n="f"/></l><r>стапка<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>fabrika<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tvornica<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>članica<s n="n"/><s n="f"/></l><r>членка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zemlja<s n="n"/><s n="f"/></l><r>земја<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>milja<s n="n"/><s n="f"/></l><r>милја<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kuna<s n="n"/><s n="f"/></l><r>булга<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>položaj<s n="n"/><s n="mi"/></l><r>положба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>studija<b/>izvedivosti<s n="n"/><s n="f"/></l><r>физибилити<b/>студија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>staklenički<b/>plin<s n="n"/><s n="mi"/></l><r>гас со ефект на стаклена бавча<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupatilo<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupaonica<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obveznica<s n="n"/><s n="f"/></l><r>обврзница<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>briga<s n="n"/><s n="f"/></l><r>грижа<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uvreda<s n="n"/><s n="f"/></l><r>навреда<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pratnja<s n="n"/><s n="f"/></l><r>придружба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>desetgodišnjica<s n="n"/><s n="f"/></l><r>десетгодишнина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zalaganje<s n="n"/><s n="nt"/></l><r>заложба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>krivica<s n="n"/><s n="f"/></l><r>вина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>blagostanje<s n="n"/><s n="nt"/></l><r>благосостојба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>praksa<s n="n"/><s n="f"/></l><r>практика<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kći<s n="n"/><s n="f"/></l><r>ќерка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smisao<s n="n"/><s n="mi"/></l><r>смисла<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>članak<s n="n"/><s n="mi"/></l><r>статија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trag<s n="n"/><s n="f"/></l><r>трага<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>niz<s n="n"/><s n="mi"/></l><r>редица<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mržnja<s n="n"/><s n="f"/></l><r>омраза<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>naselje<s n="n"/><s n="nt"/></l><r>населба<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>podrška<s n="n"/><s n="f"/></l><r>поддржувач<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>val<s n="n"/><s n="mi"/></l><r>бран<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>talas<s n="n"/><s n="mi"/></l><r>бран<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vulkan<s n="n"/><s n="m"/></l><r>вулкан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kazan<s n="n"/><s n="mi"/></l><r>казан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kotao<s n="n"/><s n="mi"/></l><r>казан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>klip<s n="n"/><s n="mi"/></l><r>кочан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>klas<s n="n"/><s n="mi"/></l><r>кочан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>musliman<s n="n"/><s n="ma"/></l><r>муслиман<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>настан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>okean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ocean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>organ<s n="n"/><s n="mi"/></l><r>орган<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paradajz<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rajčica<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>patlidžan<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plan<s n="n"/><s n="mi"/></l><r>план<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>čin<s n="n"/><s n="mi"/></l><r>чин<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>raspored<s n="n"/><s n="mi"/></l><r>распоред<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>presedan<s n="n"/><s n="mi"/></l><r>преседан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>restoran<s n="n"/><s n="mi"/></l><r>ресторан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>roman<s n="n"/><s n="mi"/></l><r>роман<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bubanj<s n="n"/><s n="mi"/></l><r>тапан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tretman<s n="n"/><s n="mi"/></l><r>третман<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orkan<s n="n"/><s n="mi"/></l><r>ураган<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>větar<s n="n"/><s n="mi"/></l><r>ветар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>alkoholičar<s n="n"/><s n="ma"/></l><r>алкохоличар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ampermetar<s n="n"/><s n="mi"/></l><r>амперметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>analitičar<s n="n"/><s n="ma"/></l><r>аналитичар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>botaničar<s n="n"/><s n="ma"/></l><r>ботаничар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vajar<s n="n"/><s n="ma"/></l><r>вајар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kipar<s n="n"/><s n="ma"/></l><r>вајар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>proměr<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prečnik<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>dijametar<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dolar<s n="n"/><s n="mi"/></l><r>долар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>novinar<s n="n"/><s n="ma"/></l><r>новинар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kancelar<s n="n"/><s n="ma"/></l><r>канцелар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kilometar<s n="n"/><s n="mi"/></l><r>километар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>komentar<s n="n"/><s n="mi"/></l><r>коментар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>komesar<s n="n"/><s n="ma"/></l><r>комесар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>metar<s n="n"/><s n="mi"/></l><r>метар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>natjecanje<s n="n"/><s n="mi"/></l><r>натпревар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>takmičenje<s n="n"/><s n="mi"/></l><r>натпревар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pazar<s n="n"/><s n="mi"/></l><r>пазар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sajam<s n="n"/><s n="mi"/></l><r>пазар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>požar<s n="n"/><s n="mi"/></l><r>пожар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>političar<s n="n"/><s n="ma"/></l><r>политичар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sekretar<s n="n"/><s n="ma"/></l><r>секретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tajnik<s n="n"/><s n="ma"/></l><r>секретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>teatar<s n="n"/><s n="mi"/></l><r>театар<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>kazalište<s n="n"/><s n="nt"/></l><r>театар<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>pozorište<s n="n"/><s n="nt"/></l><r>театар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udar<s n="n"/><s n="mi"/></l><r>удар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hektar<s n="n"/><s n="mi"/></l><r>хектар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podsekretar<s n="n"/><s n="ma"/></l><r>потсекретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podtajnik<s n="n"/><s n="ma"/></l><r>потсекретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kamen<s n="n"/><s n="mi"/></l><r>камен<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>priědlog<s n="n"/><s n="mi"/></l><r>предлог<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>biolog<s n="n"/><s n="ma"/></l><r>биолог<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bog<s n="n"/><s n="ma"/></l><r>бог<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>obala<s n="n"/><s n="f"/></l><r>брег<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>briěg<s n="n"/><s n="mi"/></l><r>брег<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>bubreg<s n="n"/><s n="mi"/></l><r>бубрег<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>burag<s n="n"/><s n="mi"/></l><r>бураг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dijalog<s n="n"/><s n="mi"/></l><r>дијалог<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dug<s n="n"/><s n="mi"/></l><r>долг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pas<s n="n"/><s n="ma"/></l><r>пес<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>krug<s n="n"/><s n="mi"/></l><r>круг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>miting<s n="n"/><s n="mi"/></l><r>митинг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>monitoring<s n="n"/><s n="mi"/></l><r>мониторинг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>potez<s n="n"/><s n="mi"/></l><r>потег<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rang<s n="n"/><s n="mi"/></l><r>ранг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rejting<s n="n"/><s n="mi"/></l><r>рејтинг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rating<s n="n"/><s n="mi"/></l><r>рејтинг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rog<s n="n"/><s n="mi"/></l><r>рог<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sniěg<s n="n"/><s n="mi"/></l><r>снег<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>štap<s n="n"/><s n="mi"/></l><r>стап<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>palica<s n="n"/><s n="f"/></l><r>стап<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>batina<s n="n"/><s n="f"/></l><r>стап<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plod<s n="n"/><s n="mi"/></l><r>плод<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>utroba<s n="n"/><s n="f"/></l><r>дроб<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>jetra<s n="n"/><s n="f"/></l><r>дроб<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>pluća<s n="n"/><s n="f"/></l><r>дроб<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>suprug<s n="n"/><s n="ma"/></l><r>сопруг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>судија<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sudac<s n="n"/><s n="ma"/></l><r>судија<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cigara<s n="n"/><s n="f"/></l><r>цигара<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>žena<s n="n"/><s n="f"/></l><r>жена<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>godina<s n="n"/><s n="f"/></l><r>година<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>grupa<s n="n"/><s n="f"/></l><r>група<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>država<s n="n"/><s n="f"/></l><r>држава<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vlada<s n="n"/><s n="f"/></l><r>влада<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>izjava<s n="n"/><s n="f"/></l><r>изјава<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>karta<s n="n"/><s n="f"/></l><r>карта<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>razglednica<s n="n"/><s n="f"/></l><r>картичка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>točka<s n="n"/><s n="f"/></l><r>точка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tačka<s n="n"/><s n="f"/></l><r>точка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voda<s n="n"/><s n="f"/></l><r>вода<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zemlja<s n="n"/><s n="f"/></l><r>земја<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pista<s n="n"/><s n="f"/></l><r>писта<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mast<s n="n"/><s n="f"/></l><r>маст<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>policija<s n="n"/><s n="f"/></l><r>полиција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>municij<s n="n"/><s n="f"/></l><r>муниција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ruka<s n="n"/><s n="f"/></l><r>рака<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>noga<s n="n"/><s n="f"/></l><r>нога<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokefalnost<s n="n"/><s n="f"/></l><r>автокефалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aktivnost<s n="n"/><s n="f"/></l><r>активност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alga<s n="f"/>!<s n="n"/></l><r>алги<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>пут<s n="f"/>!<s n="n"/></l><r>пати<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pohlepnost<s n="n"/><s n="f"/></l><r>алчност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>so<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sol<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>krepost<s n="n"/><s n="f"/></l><r>крепост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sigurnost<s n="n"/><s n="f"/></l><r>безбедност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbědnost<s n="n"/><s n="f"/></l><r>безбедност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sigurnost<s n="n"/><s n="f"/></l><r>сигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbednost<s n="n"/><s n="f"/></l><r>сигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beskonačnost<s n="n"/><s n="f"/></l><r>бесконечност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beskrajnost<s n="n"/><s n="f"/></l><r>бескрајност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>besmrtnost<s n="n"/><s n="f"/></l><r>бесмртност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bolest<s n="n"/><s n="f"/></l><r>болест<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>važnost<s n="n"/><s n="f"/></l><r>важност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>validnost<s n="n"/><s n="f"/></l><r>валидност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vapno<s n="n"/><s n="nt"/></l><r>вар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>viěst<s n="n"/><s n="f"/></l><r>вест<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vlažnost<s n="n"/><s n="f"/></l><r>влажност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vlast<s n="n"/><s n="f"/></l><r>власт<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>umiěšanost<s n="n"/><s n="f"/></l><r>вмешаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uzrast<s n="n"/><s n="mi"/></l><r>возраст<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>vriědnost<s n="n"/><s n="f"/></l><r>вредност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dužnost<s n="n"/><s n="f"/></l><r>должност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>energičnost<s n="n"/><s n="f"/></l><r>енергичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jesen<s n="n"/><s n="f"/></l><r>есен<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>efikasnost<s n="n"/><s n="f"/></l><r>ефикасност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zabrinutost<s n="n"/><s n="f"/></l><r>загриженост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zastupljenost<s n="n"/><s n="f"/></l><r>застапеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>invalidnost<s n="n"/><s n="f"/></l><r>инвалидност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>inertnost<s n="n"/><s n="f"/></l><r>инертност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>iskrenost<s n="n"/><s n="f"/></l><r>искреност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>konkurentnost<s n="n"/><s n="f"/></l><r>конкурентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>konstruktivnost<s n="n"/><s n="f"/></l><r>конструктивност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>koristi<s n="n"/><s n="f"/></l><r>корист<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>krv<s n="n"/><s n="f"/></l><r>крв<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>priělom<s n="n"/><s n="mi"/></l><r>прекршување<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>letenje<s n="n"/><s n="f"/></l><r>летање<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>upis<s n="n"/><s n="mi"/></l><r>запишување<s n="n"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>upisivanje<s n="n"/><s n="nt"/></l><r>запишување<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ročište<s n="n"/><s n="nt"/></l><r>рочиште<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>manevriranje<s n="n"/><s n="nt"/></l><r>маневрирање<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ličnost<s n="n"/><s n="f"/></l><r>личност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>osoba<s n="n"/><s n="f"/></l><r>личност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mladost<s n="n"/><s n="f"/></l><r>младост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mogućnost<s n="n"/><s n="f"/></l><r>можност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>moć<s n="n"/><s n="f"/></l><r>моќ<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nadležnost<s n="n"/><s n="f"/></l><r>надлежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nezaposlenost<s n="n"/><s n="f"/></l><r>невработеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neefikasnost<s n="n"/><s n="f"/></l><r>неефикасност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nezavisnost<s n="n"/><s n="f"/></l><r>независност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neiskrenost<s n="n"/><s n="f"/></l><r>неискреност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nekonvencionalnost<s n="n"/><s n="f"/></l><r>неконвенционалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neophodnost<s n="n"/><s n="f"/></l><r>неопходност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neregularnost<s n="n"/><s n="f"/></l><r>нерегуларност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nesposobnost<s n="n"/><s n="f"/></l><r>неспособност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nestabilnost<s n="n"/><s n="f"/></l><r>нестабилност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neutralnost<s n="n"/><s n="f"/></l><r>неутралност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>novost<s n="n"/><s n="f"/></l><r>новост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>noć<s n="n"/><s n="f"/></l><r>ноќ<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oblast<s n="n"/><s n="f"/></l><r>област<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>odgovornost<s n="n"/><s n="f"/></l><r>одговорност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>opasnost<s n="n"/><s n="f"/></l><r>опасност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>otvorenost<s n="n"/><s n="f"/></l><r>отвореност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pismenost<s n="n"/><s n="f"/></l><r>писменост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>povezanost<s n="n"/><s n="f"/></l><r>поврзаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>okretnost<s n="n"/><s n="f"/></l><r>подвижност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pripravnost<s n="n"/><s n="f"/></l><r>подготвеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pomoć<s n="n"/><s n="f"/></l><r>помош<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>posvećenost<s n="f"/><s n="n"/><s n="f"/></l><r>посветеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poštovanje<s n="n"/><s n="f"/></l><r>почит<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pripadnost<s n="n"/><s n="f"/></l><r>припадност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>produktivnost<s n="n"/><s n="f"/></l><r>продуктивност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prolěće<s n="n"/><s n="nt"/></l><r>пролет<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>realnost<s n="n"/><s n="f"/></l><r>реалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>besěda<s n="n"/><s n="f"/></l><r>реч<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rěšenost<s n="n"/><s n="f"/></l><r>решеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>odlučnost<s n="n"/><s n="f"/></l><r>решеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>světlost<s n="n"/><s n="f"/></l><r>светлост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ozbiljnost<s n="n"/><s n="f"/></l><r>сериозност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smělost<s n="n"/><s n="f"/></l><r>смелост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smrt<s n="n"/><s n="f"/></l><r>смрт+<s n="n"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/><s n="f"/></l><r>согласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pepeo<s n="n"/><s n="mi"/></l><r>пепел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>solidarnost<s n="n"/><s n="f"/></l><r>солидарност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sopstvenost<s n="n"/><s n="f"/></l><r>сопственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>osebujnost<s n="n"/><s n="f"/></l><r>сопственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>способност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stabilnost<s n="n"/><s n="f"/></l><r>стабилност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>točnost<s n="n"/><s n="f"/></l><r>точност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>transparentnost<s n="n"/><s n="f"/></l><r>транспарентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uměrenost<s n="n"/><s n="f"/></l><r>умереност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>umětnost<s n="n"/><s n="f"/></l><r>уметност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hrabrost<s n="n"/><s n="f"/></l><r>храброст<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cilj<s n="n"/><s n="mi"/></l><r>цел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>čast<s n="n"/><s n="f"/></l><r>чест<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>šećer<s n="n"/><s n="mi"/></l><r>шеќер<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>javnost<s n="n"/><s n="f"/></l><r>јавност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autentičnost<s n="n"/><s n="f"/></l><r>автентичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autonomnost<s n="n"/><s n="f"/></l><r>автономност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>angažiranost<s n="n"/><s n="f"/></l><r>ангажираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>anonimnost<s n="n"/><s n="f"/></l><r>анонимност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sporost<s n="n"/><s n="f"/></l><r>бавност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beznadežnost<s n="n"/><s n="f"/></l><r>безнадежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beznadnost<s n="n"/><s n="f"/></l><r>безнадежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zahvalnost<s n="n"/><s n="f"/></l><r>благодарност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trudnoća<s n="n"/><s n="f"/></l><r>бременост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brutalnost<s n="n"/><s n="f"/></l><r>бруталност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>budnost<s n="n"/><s n="f"/></l><r>будност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>věrojatnost<s n="n"/><s n="f"/></l><r>веројатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>věrovatnoća<s n="n"/><s n="f"/></l><r>веројатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vidljivost<s n="n"/><s n="f"/></l><r>видливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uključenost<s n="n"/><s n="f"/></l><r>вклученост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suzdržanost<s n="n"/><s n="f"/></l><r>воздржаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ratobornost<s n="n"/><s n="f"/></l><r>воинственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oduševljenost<s n="n"/><s n="f"/></l><r>воодушевеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>genijalnost<s n="n"/><s n="f"/></l><r>генијалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gledanost<s n="n"/><s n="f"/></l><r>гледаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>glupost<s n="n"/><s n="f"/></l><r>глупост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gordost<s n="n"/><s n="f"/></l><r>гордост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gostoprimstvo<s n="n"/><s n="nt"/></l><r>гостопримливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pripravnost<s n="n"/><s n="f"/></l><r>готовност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>gotovost<s n="n"/><s n="f"/></l><r>готовност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dvosmislenost<s n="n"/><s n="f"/></l><r>двосмисленост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dvojezičnost<s n="n"/><s n="f"/></l><r>двојазичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dělatnost<s n="n"/><s n="f"/></l><r>дејност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>direktnost<s n="n"/><s n="f"/></l><r>директност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>izravnost<s n="n"/><s n="f"/></l><r>директност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dominantnost<s n="n"/><s n="f"/></l><r>доминантност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>dostupnost<s n="n"/><s n="f"/></l><r>достапност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>drevnost<s n="n"/><s n="f"/></l><r>древност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>državnost<s n="n"/><s n="f"/></l><r>државност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>državotvornost<s n="n"/><s n="f"/></l><r>државотворност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jedinstvenost<s n="n"/><s n="f"/></l><r>единственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jednakost<s n="n"/><s n="f"/></l><r>еднаквост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jednoglasnost<s n="n"/><s n="f"/></l><r>едногласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ekonomičnost<s n="n"/><s n="f"/></l><r>економичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ekstravagantnost<s n="n"/><s n="f"/></l><r>екстравагантност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>efektivnost<s n="n"/><s n="f"/></l><r>ефективност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>žalost<s n="n"/><s n="f"/></l><r>жалост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zavisnost<s n="n"/><s n="f"/></l><r>зависност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ovisnost<s n="n"/><s n="f"/></l><r>зависност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zadovoljnost<s n="n"/><s n="f"/></l><r>задоволност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zaduženost<s n="n"/><s n="f"/></l><r>задолженост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zainteresiranost<s n="n"/><s n="f"/></l><r>заинтересираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zamorenost<s n="n"/><s n="f"/></l><r>замореност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zapuštenost<s n="n"/><s n="f"/></l><r>запуштеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>znamenitost<s n="n"/></l><r>знаменитост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>zrelost<s n="n"/><s n="f"/></l><r>зрелост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>izloženost<s n="n"/><s n="f"/></l><r>изложеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>izoliranost<s n="n"/><s n="f"/></l><r>изолираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>izopačenost<s n="n"/><s n="f"/></l><r>изопаченост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>indiferentnost<s n="n"/><s n="f"/></l><r>индиферентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>inkompetentnost<s n="n"/><s n="f"/></l><r>инкомпетентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>inovativnost<s n="n"/><s n="f"/></l><r>иновативност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>informiranost<s n="n"/><s n="f"/></l><r>информираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>iznurenost<s n="n"/><s n="f"/></l><r>истоштеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kvalificiranost<s n="n"/><s n="f"/></l><r>квалификуваност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kvalifikovanost<s n="n"/><s n="f"/></l><r>квалификуваност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kompetentnost<s n="n"/><s n="f"/></l><r>компетентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>konzistentnost<s n="n"/><s n="f"/></l><r>конзистентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>konkurentnost<s n="n"/><s n="f"/></l><r>конкурентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kontradiktornost<s n="n"/><s n="f"/></l><r>контрадикторност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kontroverznost<s n="n"/><s n="f"/></l><r>контроверзност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>koncentriranost<s n="n"/><s n="f"/></l><r>концентрираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>korumpiranost<s n="n"/><s n="f"/></l><r>корумпираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kreativnost<s n="n"/><s n="f"/></l><r>креативност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>legalnost<s n="n"/><s n="f"/></l><r>легалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>legitimnost+<s n="n"/></l><r>легитимност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>likvidnost+<s n="n"/></l><r>ликвидност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lojalnost<s n="n"/><s n="f"/></l><r>лојалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>milost<s n="n"/><s n="f"/></l><r>милост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mobilnost<s n="n"/><s n="f"/></l><r>мобилност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>moralnost<s n="n"/><s n="f"/></l><r>моралност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>motiviranost<s n="n"/><s n="f"/></l><r>мотивираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lijenost<s n="n"/><s n="f"/></l><r>мрзеливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mudrost+<s n="n"/></l><r>мудрост+t<s n="n"/></r></p></e>
+    <e><p><l>multietničnost<s n="n"/><s n="f"/></l><r>мултиетничност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>naklonjenost<s n="n"/><s n="f"/></l><r>наклонетост<s n="n"/></r></p></e>
+    <e><p><l>naseljenost<s n="n"/><s n="f"/></l><r>населеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nacionalnost<s n="n"/><s n="f"/></l><r>националност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nemarnost<s n="n"/><s n="f"/></l><r>небрежност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>nehajnost<s n="n"/><s n="f"/></l><r>небрежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nevinost<s n="n"/><s n="f"/></l><r>невиност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neopreznost<s n="n"/><s n="f"/></l><r>невнимателност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nedostupnost<s n="n"/><s n="f"/></l><r>недостапност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neetičnost<s n="n"/><s n="f"/></l><r>неетичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nezaduženost<s n="n"/><s n="f"/></l><r>незадолженост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neizvěsnost<s n="n"/><s n="f"/></l><r>неизвесност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nekompetentnost<s n="n"/><s n="f"/></l><r>некомпетентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nelegalnost<s n="n"/><s n="f"/></l><r>нелегалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nemilost<s n="n"/><s n="f"/></l><r>немилост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nemogućnost<s n="n"/><s n="f"/></l><r>неможност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neodgovornost<s n="n"/><s n="f"/></l><r>неодговорност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nepripremljenost<s n="n"/><s n="f"/></l><r>неподготвеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neposlušnost<s n="n"/><s n="f"/></l><r>непослушност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neprijatnost<s n="n"/><s n="f"/></l><r>непријатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neugodnost<s n="n"/><s n="f"/></l><r>непријатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neprofesionalnost<s n="n"/><s n="f"/></l><r>непрофесионалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neodlučnost<s n="n"/><s n="f"/></l><r>нерешителност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nesigurnost<s n="n"/><s n="f"/></l><r>несигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>netrepeljivost<s n="n"/><s n="f"/></l><r>нетрпеливост<s n="n"/></r></p></e>
+    <e><p><l>neusuglašenost<s n="n"/><s n="f"/></l><r>неусогласеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neusaglašenost<s n="n"/><s n="f"/></l><r>неусогласеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nefunkcionalnost<s n="n"/><s n="f"/></l><r>нефункционалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nejasnost<s n="n"/><s n="f"/></l><r>нејасност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obvezanost<s n="n"/><s n="f"/></l><r>обврзаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>objedinjenost<s n="n"/><s n="f"/></l><r>обединетост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obrazovanost+<s n="n"/></l><r>образованост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>objektivnost<s n="n"/><s n="f"/></l><r>објективност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ogorčenost<s n="n"/><s n="f"/></l><r>огорченост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>udaljenost<s n="n"/><s n="f"/></l><r>одалеченост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>udaljenost<s n="n"/><s n="f"/></l><r>оддалеченост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>odlučnost<s n="n"/><s n="f"/></l><r>одлучност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>okolnost<s n="n"/><s n="f"/></l><r>околност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>operativnost<s n="n"/><s n="f"/></l><r>оперативност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oštećenost<s n="n"/><s n="f"/></l><r>оштетеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>podiěljenost<s n="n"/></l><r>поделеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pozicioniranost<s n="n"/><s n="f"/></l><r>позиционираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>popularnost<s n="n"/><s n="f"/></l><r>популарност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>postavljenost<s n="n"/><s n="f"/></l><r>поставеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>postojanost<s n="n"/><s n="f"/></l><r>постојаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>praktičnost<s n="n"/><s n="f"/></l><r>практичност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>predanost<s n="n"/><s n="f"/></l><r>преданост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>predvidljivost+<s n="n"/></l><r>предвидливост<s n="n"/></r></p></e>
+    <e><p><l>prednost<s n="n"/><s n="f"/></l><r>предност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prenatrpanost<s n="n"/><s n="f"/></l><r>пренатрупаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obazrivost<s n="n"/><s n="f"/></l><r>претпазливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>preciznost<s n="n"/><s n="f"/></l><r>прецизност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>privženost<s n="n"/><s n="f"/></l><r>приврзаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>priznatost<s n="n"/><s n="f"/></l><r>признаеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pristupačnost<s n="n"/><s n="f"/></l><r>пристапност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pristranost<s n="n"/><s n="f"/></l><r>пристрасност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>marljivost<s n="n"/><s n="f"/></l><r>работливост<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>vrědnoća<s n="n"/><s n="f"/></l><r>работливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>radioaktivnost<s n="n"/><s n="f"/></l><r>радиоактивност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>radost<s n="n"/><s n="f"/></l><r>радосt<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>razdražljivost<s n="n"/><s n="f"/></l><r>раздразливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>različitost<s n="n"/><s n="f"/></l><r>различност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>raznolikost<s n="n"/><s n="f"/></l><r>разновидност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>razočaranost<s n="n"/><s n="f"/></l><r>разочараност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ravnodušnost<s n="n"/><s n="f"/></l><r>рамнодушност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ravnopravnost<s n="n"/><s n="f"/></l><r>рамноправност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rasprostranjenost<s n="n"/><s n="f"/></l><r>распространетост+<s n="n"/></r></p></e>
+    <e><p><l>racionalnost<s n="n"/><s n="f"/></l><r>рационалност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rezerviranost<s n="n"/></l><r>резервираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>riětkost<s n="n"/><s n="f"/></l><r>реткост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>odlučnost<s n="n"/><s n="f"/></l><r>решителност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>samoodrživost<s n="n"/><s n="f"/></l><r>самоодржливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>samostalnost<s n="n"/><s n="f"/></l><r>самостојност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>samouvěrenost<s n="n"/><s n="f"/></l><r>самоувереност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skupocjenost<s n="n"/><s n="f"/></l><r>скапоценост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sklonost<s n="n"/><s n="f"/></l><r>склоност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>slabost<s n="n"/><s n="f"/></l><r>слабост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>slučajnost<s n="n"/><s n="f"/></l><r>случајност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smirenost<s n="n"/><s n="f"/></l><r>смиреност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smrtnost<s n="n"/><s n="f"/></l><r>смртност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/><s n="f"/></l><r>согланост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согланост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>shodnost<s n="n"/><s n="f"/></l><r>соодветност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sofisticiranost<s n="n"/><s n="f"/></l><r>софистицираност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>spontanost<s n="n"/><s n="f"/></l><r>спонтаност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suprotstavljenost<s n="n"/><s n="f"/></l><r>спротивставеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>srdačnost<s n="n"/><s n="f"/></l><r>срдечност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>starost<s n="n"/><s n="f"/></l><r>старост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suverenost<s n="n"/><s n="f"/></l><r>сувереност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tajnost<s n="n"/><s n="f"/></l><r>тајност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tvrdoglavost<s n="n"/><s n="f"/></l><r>тврдоглавост<s n="n"/></r></p></e>
+    <e><p><l>tekućina<s n="n"/><s n="f"/></l><r>течност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>tečnost<s n="n"/><s n="f"/></l><r>течност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>transparentnost<s n="n"/><s n="f"/></l><r>транспарентност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trajnost<s n="n"/><s n="f"/></l><r>трајност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trezvenost<s n="n"/><s n="f"/></l><r>трезвеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>strpljenje<s n="n"/></l><r>трпеливост<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>trpeljivost<s n="n"/></l><r>трпеливост<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>snošljivost<s n="n"/></l><r>трпеливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bogohulnost<s n="n"/><s n="f"/></l><r>богохулство<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bratoubistvo<s n="n"/><s n="nt"/></l><r>братоубиство<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bratoubojstvo<s n="n"/><s n="nt"/></l><r>братоубиство<s n="n"/><s n="nt"/></r></p></e>
+     
      <e><p><l>sezona<s n="n"/><s n="f"/></l><r>сезона<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>isporuka<s n="n"/><s n="f"/></l><r>доставка<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>zgrada<s n="n"/><s n="f"/></l><r>зграда<s n="n"/><s n="f"/></r></p></e>
@@ -5537,6 +6165,50 @@
    <!-- Lexical differences by standard language -->
 
    <section id="west" type="standard">
+   
+       <e><p><l>preduvjet<s n="n"/><s n="mi"/></l><r>предуслов<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rujan<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>siječanj<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>srpanj<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lipanj<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/></r></p></e>
+    <e><p><l>summit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udjel<s n="n"/><s n="mi"/></l><r>удел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plaća<s n="n"/><s n="f"/></l><r>плата<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokracija<s n="n"/><s n="f"/></l><r>автократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokracija<s n="n"/><s n="f"/></l><r>аристократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rasprava<s n="n"/><s n="f"/></l><r>расправија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devaluacija<s n="n"/><s n="f"/></l><r>девалвација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diverzifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uš<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupaonica<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kotao<s n="n"/><s n="mi"/></l><r>казан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ocean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rajčica<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kipar<s n="n"/><s n="ma"/></l><r>вајар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>proměr<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>natjecanje<s n="n"/><s n="mi"/></l><r>натпревар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sajam<s n="n"/><s n="mi"/></l><r>пазар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tajnik<s n="n"/><s n="ma"/></l><r>секретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podtajnik<s n="n"/><s n="ma"/></l><r>потсекретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rating<s n="n"/><s n="mi"/></l><r>рејтинг<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sudac<s n="n"/><s n="ma"/></l><r>судија<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sol<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sigurnost<s n="n"/><s n="f"/></l><r>безбедност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sigurnost<s n="n"/><s n="f"/></l><r>сигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>odlučnost<s n="n"/><s n="f"/></l><r>решеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/><s n="f"/></l><r>согласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>osebujnost<s n="n"/><s n="f"/></l><r>сопственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beznadnost<s n="n"/><s n="f"/></l><r>безнадежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>věrojatnost<s n="n"/><s n="f"/></l><r>веројатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ovisnost<s n="n"/><s n="f"/></l><r>зависност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kvalificiranost<s n="n"/><s n="f"/></l><r>квалификуваност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neugodnost<s n="n"/><s n="f"/></l><r>непријатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neusuglašenost<s n="n"/><s n="f"/></l><r>неусогласеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>suglasnost<s n="n"/><s n="f"/></l><r>согланост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bratoubojstvo<s n="n"/><s n="nt"/></l><r>братоубиство<s n="n"/><s n="nt"/></r></p></e>
+   
     <e><p><l>morski<b/>pas<s n="n"/><s n="f"/></l><r>ајкула<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obrana<s n="n"/><s n="f"/></l><r>одбрана<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>općina<s n="n"/><s n="f"/></l><r>општина<s n="n"/><s n="f"/></r></p></e>
@@ -5673,6 +6345,51 @@
    </section>
 
    <section id="east" type="standard">
+
+    <e><p><l>preduslov<s n="n"/><s n="mi"/></l><r>предуслов<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>komšija<s n="n"/><s n="ma"/></l><r>сосед<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sportista<s n="n"/><s n="ma"/></l><r>спортист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>samit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plata<s n="n"/><s n="f"/></l><r>плата<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokratija<s n="n"/><s n="f"/></l><r>автократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokratija<s n="n"/><s n="f"/></l><r>аристократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>raspra<s n="n"/><s n="f"/></l><r>расправија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devalvacija<s n="n"/><s n="f"/></l><r>девалвација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diversifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vaška<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>fabrika<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupatilo<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>talas<s n="n"/><s n="mi"/></l><r>бран<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>okean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>paradajz<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vajar<s n="n"/><s n="ma"/></l><r>вајар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prečnik<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>takmičenje<s n="n"/><s n="mi"/></l><r>натпревар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pazar<s n="n"/><s n="mi"/></l><r>пазар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sekretar<s n="n"/><s n="ma"/></l><r>секретар<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>pozorište<s n="n"/><s n="nt"/></l><r>театар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podsekretar<s n="n"/><s n="ma"/></l><r>потсекретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>судија<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tačka<s n="n"/><s n="f"/></l><r>точка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>so<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbědnost<s n="n"/><s n="f"/></l><r>безбедност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbednost<s n="n"/><s n="f"/></l><r>сигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sopstvenost<s n="n"/><s n="f"/></l><r>сопственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beznadežnost<s n="n"/><s n="f"/></l><r>безнадежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>věrovatnoća<s n="n"/><s n="f"/></l><r>веројатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kvalifikovanost<s n="n"/><s n="f"/></l><r>квалификуваност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neprijatnost<s n="n"/><s n="f"/></l><r>непријатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neusaglašenost<s n="n"/><s n="f"/></l><r>неусогласеност<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>vrědnoća<s n="n"/><s n="f"/></l><r>работливост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согланост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bratoubistvo<s n="n"/><s n="nt"/></l><r>братоубиство<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>ala<s n="n"/><s n="f"/></l><r>ала<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ambasada<s n="n"/><s n="f"/></l><r>амбасада<s n="n"/><s n="f"/></r></p></e>
@@ -5831,7 +6548,50 @@
    </section>
 
    <section id="cent" type="standard">
-<e><p><l>ajkula<s n="n"/><s n="f"/></l><r>ајкула<s n="n"/><s n="f"/></r></p></e>
+   
+       <e><p><l>preduslov<s n="n"/><s n="mi"/></l><r>предуслов<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>samit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udjel<s n="n"/><s n="mi"/></l><r>удел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plata<s n="n"/><s n="f"/></l><r>плата<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>autokratija<s n="n"/><s n="f"/></l><r>автократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokratija<s n="n"/><s n="f"/></l><r>аристократија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>raspra<s n="n"/><s n="f"/></l><r>расправија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>devalvacija<s n="n"/><s n="f"/></l><r>девалвација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diversifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>uš<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>fabrika<s n="n"/><s n="f"/></l><r>фабрика<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupatilo<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>talas<s n="n"/><s n="mi"/></l><r>бран<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>okean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kipar<s n="n"/><s n="ma"/></l><r>вајар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>prečnik<s n="n"/><s n="mi"/></l><r>дијаметар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>takmičenje<s n="n"/><s n="mi"/></l><r>натпревар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pazar<s n="n"/><s n="mi"/></l><r>пазар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sekretar<s n="n"/><s n="ma"/></l><r>секретар<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>pozorište<s n="n"/><s n="nt"/></l><r>театар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>podsekretar<s n="n"/><s n="ma"/></l><r>потсекретар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sudija<s n="n"/><s n="ma"/></l><r>судија<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tačka<s n="n"/><s n="f"/></l><r>точка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>so<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbědnost<s n="n"/><s n="f"/></l><r>безбедност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bezbednost<s n="n"/><s n="f"/></l><r>сигурност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согласност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sopstvenost<s n="n"/><s n="f"/></l><r>сопственост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>beznadežnost<s n="n"/><s n="f"/></l><r>безнадежност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>věrovatnoća<s n="n"/><s n="f"/></l><r>веројатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kvalifikovanost<s n="n"/><s n="f"/></l><r>квалификуваност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neprijatnost<s n="n"/><s n="f"/></l><r>непријатност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>neusaglašenost<s n="n"/><s n="f"/></l><r>неусогласеност<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>saglasnost<s n="n"/><s n="f"/></l><r>согланост<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bratoubistvo<s n="n"/><s n="nt"/></l><r>братоубиство<s n="n"/><s n="nt"/></r></p></e>
+    
+    <e><p><l>ajkula<s n="n"/><s n="f"/></l><r>ајкула<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>odbrana<s n="n"/><s n="f"/></l><r>одбрана<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>opština<s n="n"/><s n="f"/></l><r>општина<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skala<s n="n"/><s n="f"/></l><r>скала<s n="n"/><s n="f"/></r></p></e>
