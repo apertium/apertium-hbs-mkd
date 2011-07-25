@@ -39531,6 +39531,131 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Masculine nouns-->
 <!--Feminine nouns -->
 <e lm="vrata"><i>vrat</i><par n="vrat/a__n"/></e>
+<e lm="poplava"><i>poplav</i><par n="žen/a__n"/></e>
+<e lm="veljača"><i>veljač</i><par n="žen/a__n"/></e>
+<e lm="šansa"><i>šans</i><par n="žen/a__n"/></e>
+<e lm="prilika"><i>prilik</i><par n="žen/a__n"/></e>
+<e lm="gomila"><i>gomil</i><par n="žen/a__n"/></e>
+<e lm="hrpa"><i>hrp</i><par n="žen/a__n"/></e>
+<e lm="skupina"><i>skupin</i><par n="žen/a__n"/></e>
+<e lm="vatra"><i>vatr</i><par n="žen/a__n"/></e>
+<e lm="nagodba"><i>nagodb</i><par n="žen/a__n"/></e>
+<e lm="burza"><i>burz</i><par n="žen/a__n"/></e>
+<e lm="istina"><i>istin</i><par n="žen/a__n"/></e>
+<e lm="godišnjica"><i>godišnjic</i><par n="žen/a__n"/></e>
+<e lm="veličina"><i>veličin</i><par n="žen/a__n"/></e>
+<e lm="šuma"><i>šum</i><par n="žen/a__n"/></e>
+<e lm="dojka"><i>dojk</i><par n="žen/a__n"/></e>
+<e lm="izgradnja"><i>izgradnj</i><par n="žen/a__n"/></e>
+<e lm="desetica"><i>desetic</i><par n="žen/a__n"/></e>
+<e lm="dužina"><i>dužin</i><par n="žen/a__n"/></e>
+<e lm="duljina"><i>duljin</i><par n="žen/a__n"/></e>
+<e lm="želja"><i>želj</i><par n="žen/a__n"/></e>
+<e lm="zadaća"><i>zadać</i><par n="žen/a__n"/></e>
+<e lm="prijetnja"><i>prijetnj</i><par n="žen/a__n"/></e>
+<e lm="obmana"><i>obman</i><par n="žen/a__n"/></e>
+<e lm="oluja"><i>oluj</i><par n="žen/a__n"/></e>
+<e lm="novina"><i>novin</i><par n="žen/a__n"/></e>
+<e lm="para"><i>par</i><par n="žen/a__n"/></e>
+<e lm="plaća"><i>plać</i><par n="žen/a__n"/></e>
+<e lm="plata"><i>plat</i><par n="žen/a__n"/></e>
+<e lm="povelja"><i>povelj</i><par n="žen/a__n"/></e>
+<e lm="poděla"><i>poděl</i><par n="žen/a__n"/></e>
+<e lm="pohvala"><i>pohval</i><par n="žen/a__n"/></e>
+<e lm="prodaja"><i>prodaj</i><par n="žen/a__n"/></e>
+<e lm="subota"><i>subot</i><par n="žen/a__n"/></e>
+<e lm="sida"><i>sid</i><par n="žen/a__n"/></e>
+<e lm="usporedba"><i>usporedb</i><par n="žen/a__n"/></e>
+<e lm="stotina"><i>stotin</i><par n="žen/a__n"/></e>
+<e lm="trava"><i>trav</i><par n="žen/a__n"/></e>
+<e lm="zvězda"><i>zvězd</i><par n="žen/a__n"/></e>
+<e lm="agenda"><i>agend</i><par n="žen/a__n"/></e>
+<e lm="autokracija"><i>autokracij</i><par n="žen/a__n"/></e>
+<e lm="autokratija"><i>autokratij</i><par n="žen/a__n"/></e>
+<e lm="autonomija"><i>autonomij</i><par n="žen/a__n"/></e>
+<e lm="aristokracija"><i>aristokracij</i><par n="žen/a__n"/></e>
+<e lm="aristokratija"><i>aristokratij</i><par n="žen/a__n"/></e>
+<e lm="eurointegracija"><i>eurointegracij</i><par n="žen/a__n"/></e>
+<e lm="institucija"><i>institucij</i><par n="žen/a__n"/></e>
+<e lm="rasprava"><i>rasprav</i><par n="žen/a__n"/></e>
+<e lm="raspra"><i>raspr</i><par n="žen/a__n"/></e>
+<e lm="teškoća"><i>teškoć</i><par n="žen/a__n"/></e>
+<e lm="toplofikacija"><i>toplofikacij</i><par n="žen/a__n"/></e>
+<e lm="trgovina"><i>trgovin</i><par n="žen/a__n"/></e>
+<e lm="marama"><i>maram</i><par n="žen/a__n"/></e>
+<e lm="asistencija"><i>asistencij</i><par n="žen/a__n"/></e>
+<e lm="gasifikacija"><i>gasifikacij</i><par n="žen/a__n"/></e>
+<e lm="devalvacija"><i>devalvacij</i><par n="žen/a__n"/></e>
+<e lm="devaluacija"><i>devaluacij</i><par n="žen/a__n"/></e>
+<e lm="diverzifikacija"><i>diverzifikacij</i><par n="žen/a__n"/></e>
+<e lm="diversifikacija"><i>diversifikacij</i><par n="žen/a__n"/></e>
+<e lm="infiltracija"><i>infiltracij</i><par n="žen/a__n"/></e>
+<e lm="restauracija"><i>restauracij</i><par n="žen/a__n"/></e>
+<e lm="certifikacija"><i>certifikacij</i><par n="žen/a__n"/></e>
+<e lm="biljka"><i>biljk</i><par n="žen/a__n"/></e>
+<e lm="vaška"><i>vašk</i><par n="žen/a__n"/></e>
+<e lm="veza"><i>vez</i><par n="žen/a__n"/></e>
+<e lm="obveza"><i>obvez</i><par n="žen/a__n"/></e>
+<e lm="kolegica"><i>kolegic</i><par n="žen/a__n"/></e>
+<e lm="měra"><i>měr</i><par n="žen/a__n"/></e>
+<e lm="tužiteljica"><i>tužiteljic</i><par n="žen/a__n"/></e>
+<e lm="ocěna"><i>ocěn</i><par n="žen/a__n"/></e>
+<e lm="priprema"><i>priprem</i><par n="žen/a__n"/></e>
+<e lm="potparolkinja"><i>potparolkinj</i><par n="žen/a__n"/></e>
+<e lm="šiba"><i>šib</i><par n="žen/a__n"/></e>
+<e lm="šipka"><i>šipk</i><par n="žen/a__n"/></e>
+<e lm="zapreka"><i>zaprek</i><par n="žen/a__n"/></e>
+<e lm="prepreka"><i>preprek</i><par n="žen/a__n"/></e>
+<e lm="provjera"><i>provjer</i><par n="žen/a__n"/></e>
+<e lm="procěna"><i>procěn</i><par n="žen/a__n"/></e>
+<e lm="suradnja"><i>suradnj</i><par n="žen/a__n"/></e>
+<e lm="saradnja"><i>saradnj</i><par n="žen/a__n"/></e>
+<e lm="stopa"><i>stop</i><par n="žen/a__n"/></e>
+<e lm="fabrika"><i>fabrik</i><par n="žen/a__n"/></e>
+<e lm="tvornica"><i>tvornic</i><par n="žen/a__n"/></e>
+<e lm="članica"><i>članic</i><par n="žen/a__n"/></e>
+<e lm="zemlja"><i>zemlj</i><par n="žen/a__n"/></e>
+<e lm="milja"><i>milj</i><par n="žen/a__n"/></e>
+<e lm="kuna"><i>kun</i><par n="žen/a__n"/></e>
+<e lm="obveznica"><i>obveznic</i><par n="žen/a__n"/></e>
+<e lm="briga"><i>brig</i><par n="žen/a__n"/></e>
+<e lm="uvreda"><i>uvred</i><par n="žen/a__n"/></e>
+<e lm="pratnja"><i>pratnj</i><par n="žen/a__n"/></e>
+<e lm="desetgodišnjica"><i>desetgodišnjic</i><par n="žen/a__n"/></e>
+<e lm="krivica"><i>krivic</i><par n="žen/a__n"/></e>
+<e lm="praksa"><i>praks</i><par n="žen/a__n"/></e>
+<e lm="mržnja"><i>mržnj</i><par n="žen/a__n"/></e>
+<e lm="podrška"><i>podršk</i><par n="žen/a__n"/></e>
+<e lm="obala"><i>obal</i><par n="žen/a__n"/></e>
+<e lm="palica"><i>palic</i><par n="žen/a__n"/></e>
+<e lm="batina"><i>batin</i><par n="žen/a__n"/></e>
+<e lm="utroba"><i>utrob</i><par n="žen/a__n"/></e>
+<e lm="jetra"><i>jetr</i><par n="žen/a__n"/></e>
+<e lm="pluća"><i>pluć</i><par n="žen/a__n"/></e>
+<e lm="cigara"><i>cigar</i><par n="žen/a__n"/></e>
+<e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+<e lm="godina"><i>godin</i><par n="žen/a__n"/></e>
+<e lm="grupa"><i>grup</i><par n="žen/a__n"/></e>
+<e lm="država"><i>držav</i><par n="žen/a__n"/></e>
+<e lm="vlada"><i>vlad</i><par n="žen/a__n"/></e>
+<e lm="izjava"><i>izjav</i><par n="žen/a__n"/></e>
+<e lm="karta"><i>kart</i><par n="žen/a__n"/></e>
+<e lm="razglednica"><i>razglednic</i><par n="žen/a__n"/></e>
+<e lm="točka"><i>točk</i><par n="žen/a__n"/></e>
+<e lm="tačka"><i>tačk</i><par n="žen/a__n"/></e>
+<e lm="voda"><i>vod</i><par n="žen/a__n"/></e>
+<e lm="zemlja"><i>zemlj</i><par n="žen/a__n"/></e>
+<e lm="pista"><i>pist</i><par n="žen/a__n"/></e>
+<e lm="policija"><i>policij</i><par n="žen/a__n"/></e>
+<e lm="ruka"><i>ruk</i><par n="žen/a__n"/></e>
+<e lm="noga"><i>nog</i><par n="žen/a__n"/></e>
+<e lm="alga"><i>alg</i><par n="žen/a__n"/></e>
+<e lm="osoba"><i>osob</i><par n="žen/a__n"/></e>
+<e lm="besěda"><i>besěd</i><par n="žen/a__n"/></e>
+<e lm="trudnoća"><i>trudnoć</i><par n="žen/a__n"/></e>
+<e lm="věrovatnoća"><i>věrovatnoć</i><par n="žen/a__n"/></e>
+<e lm="vrědnoća"><i>vrědnoć</i><par n="žen/a__n"/></e>
+<e lm="tekućina"><i>tekućin</i><par n="žen/a__n"/></e>
 <e lm="pandža"><i>pandž</i><par n="žen/a__n"/></e>
 <e lm="kandža"><i>kandž</i><par n="žen/a__n"/></e>
 <e lm="obustava"><i>obustav</i><par n="žen/a__n"/></e>
@@ -40330,245 +40455,257 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="smrt"><i>smr</i><par n="smr/t__n"/></e>
 <e lm="glad"><i>gla</i><par n="gla/d__n"/></e>
 <e lm="mast"><i>ma</i><par n="ma/st__n"/></e>
+<e lm="vlast"><i>vla</i><par n="ma/st__n"/></e>
+<e lm="oblast"><i>obla</i><par n="ma/st__n"/></e>
+<e lm="čast"><i>ča</i><par n="ma/st__n"/></e>
+<e lm="bolest"><i>bole</i><par n="ma/st__n"/></e>
 <e lm="slast"><i>sla</i><par n="ma/st__n"/></e>
 <e lm="glupost"><i>glupo</i><par n="ma/st__n"/></e>
+<e lm="vijest"><i>v</i><par n="e_ije__yat"/><i></i><par n="ma/st__n"/></e>
 <e lm="povijest"><i>pov</i><par n="e_ije__yat"/><i></i><par n="ma/st__n"/></e>
 <e lm="svijest"><i>sv</i><par n="e_ije__yat"/><par n="ma/st__n"/></e>
-<e><i>znano</i><par n="ma/st__n"/></e>
-<e><i>budućno</i><par n="ma/st__n"/></e>
-<e><i>autokefalno</i><par n="ma/st__n"/></e>
-<e><i>aktivno</i><par n="ma/st__n"/></e>
-<e><i>pohlepno</i><par n="ma/st__n"/></e>
-<e><i>krepo</i><par n="ma/st__n"/></e>
-<e><i>sigurno</i><par n="ma/st__n"/></e>
-<e><i>bezbědno</i><par n="ma/st__n"/></e>
-<e><i>sigurno</i><par n="ma/st__n"/></e>
-<e><i>bezbedno</i><par n="ma/st__n"/></e>
-<e><i>beskonačno</i><par n="ma/st__n"/></e>
-<e><i>beskrajno</i><par n="ma/st__n"/></e>
-<e><i>besmrtno</i><par n="ma/st__n"/></e>
-<e><i>važno</i><par n="ma/st__n"/></e>
-<e><i>validno</i><par n="ma/st__n"/></e>
-<e><i>vlažno</i><par n="ma/st__n"/></e>
-<e><i>umiěšano</i><par n="ma/st__n"/></e>
-<e><i>vriědno</i><par n="ma/st__n"/></e>
-<e><i>dužno</i><par n="ma/st__n"/></e>
-<e><i>energično</i><par n="ma/st__n"/></e>
-<e><i>efikasno</i><par n="ma/st__n"/></e>
-<e><i>zabrinuto</i><par n="ma/st__n"/></e>
-<e><i>zastupljeno</i><par n="ma/st__n"/></e>
-<e><i>invalidno</i><par n="ma/st__n"/></e>
-<e><i>inertno</i><par n="ma/st__n"/></e>
-<e><i>iskreno</i><par n="ma/st__n"/></e>
-<e><i>konkurentno</i><par n="ma/st__n"/></e>
-<e><i>konstruktivno</i><par n="ma/st__n"/></e>
-<e><i>lično</i><par n="ma/st__n"/></e>
-<e><i>mlado</i><par n="ma/st__n"/></e>
-<e><i>mogućno</i><par n="ma/st__n"/></e>
-<e><i>nadležno</i><par n="ma/st__n"/></e>
-<e><i>nezaposleno</i><par n="ma/st__n"/></e>
-<e><i>neefikasno</i><par n="ma/st__n"/></e>
-<e><i>nezavisno</i><par n="ma/st__n"/></e>
-<e><i>neiskreno</i><par n="ma/st__n"/></e>
-<e><i>nekonvencionalno</i><par n="ma/st__n"/></e>
-<e><i>neophodno</i><par n="ma/st__n"/></e>
-<e><i>neregularno</i><par n="ma/st__n"/></e>
-<e><i>nesposobno</i><par n="ma/st__n"/></e>
-<e><i>nestabilno</i><par n="ma/st__n"/></e>
-<e><i>neutralno</i><par n="ma/st__n"/></e>
-<e><i>novo</i><par n="ma/st__n"/></e>
-<e><i>odgovorno</i><par n="ma/st__n"/></e>
-<e><i>opasno</i><par n="ma/st__n"/></e>
-<e><i>otvoreno</i><par n="ma/st__n"/></e>
-<e><i>pismeno</i><par n="ma/st__n"/></e>
-<e><i>povezano</i><par n="ma/st__n"/></e>
-<e><i>okretno</i><par n="ma/st__n"/></e>
-<e><i>pripravno</i><par n="ma/st__n"/></e>
-<e><i>posvećeno</i><par n="ma/st__n"/></e>+f
-<e><i>pripadno</i><par n="ma/st__n"/></e>
-<e><i>produktivno</i><par n="ma/st__n"/></e>
-<e><i>realno</i><par n="ma/st__n"/></e>
-<e><i>rěšeno</i><par n="ma/st__n"/></e>
-<e><i>odlučno</i><par n="ma/st__n"/></e>
-<e><i>světlo</i><par n="ma/st__n"/></e>
-<e><i>ozbiljno</i><par n="ma/st__n"/></e>
-<e><i>smělo</i><par n="ma/st__n"/></e>
-<e><i>saglasno</i><par n="ma/st__n"/></e>
-<e><i>suglasno</i><par n="ma/st__n"/></e>
-<e><i>solidarno</i><par n="ma/st__n"/></e>
-<e><i>sopstveno</i><par n="ma/st__n"/></e>
-<e><i>osebujno</i><par n="ma/st__n"/></e>
-<e><i>sposobno</i><par n="ma/st__n"/></e>
-<e><i>stabilno</i><par n="ma/st__n"/></e>
-<e><i>točno</i><par n="ma/st__n"/></e>
-<e><i>transparentno</i><par n="ma/st__n"/></e>
-<e><i>uměreno</i><par n="ma/st__n"/></e>
-<e><i>umětno</i><par n="ma/st__n"/></e>
-<e><i>hrabro</i><par n="ma/st__n"/></e>
-<e><i>javno</i><par n="ma/st__n"/></e>
-<e><i>autentično</i><par n="ma/st__n"/></e>
-<e><i>autonomno</i><par n="ma/st__n"/></e>
-<e><i>angažirano</i><par n="ma/st__n"/></e>
-<e><i>anonimno</i><par n="ma/st__n"/></e>
-<e><i>sporo</i><par n="ma/st__n"/></e>
-<e><i>beznadežno</i><par n="ma/st__n"/></e>
-<e><i>beznadno</i><par n="ma/st__n"/></e>
-<e><i>zahvalno</i><par n="ma/st__n"/></e>
-<e><i>brutalno</i><par n="ma/st__n"/></e>
-<e><i>budno</i><par n="ma/st__n"/></e>
-<e><i>věrojatno</i><par n="ma/st__n"/></e>
-<e><i>vidljivo</i><par n="ma/st__n"/></e>
-<e><i>uključeno</i><par n="ma/st__n"/></e>
-<e><i>suzdržano</i><par n="ma/st__n"/></e>
-<e><i>ratoborno</i><par n="ma/st__n"/></e>
-<e><i>oduševljeno</i><par n="ma/st__n"/></e>
-<e><i>genijalno</i><par n="ma/st__n"/></e>
-<e><i>gledano</i><par n="ma/st__n"/></e>
-<e><i>glupo</i><par n="ma/st__n"/></e>
-<e><i>gordo</i><par n="ma/st__n"/></e>
-<e><i>pripravno</i><par n="ma/st__n"/></e>
-<e><i>gotovo</i><par n="ma/st__n"/></e>
-<e><i>dvosmisleno</i><par n="ma/st__n"/></e>
-<e><i>dvojezično</i><par n="ma/st__n"/></e>
-<e><i>dělatno</i><par n="ma/st__n"/></e>
-<e><i>direktno</i><par n="ma/st__n"/></e>
-<e><i>izravno</i><par n="ma/st__n"/></e>
-<e><i>dominantno</i><par n="ma/st__n"/></e>
-<e><i>dostupno</i><par n="ma/st__n"/></e>
-<e><i>drevno</i><par n="ma/st__n"/></e>
-<e><i>državno</i><par n="ma/st__n"/></e>
-<e><i>državotvorno</i><par n="ma/st__n"/></e>
-<e><i>jedinstveno</i><par n="ma/st__n"/></e>
-<e><i>jednako</i><par n="ma/st__n"/></e>
-<e><i>jednoglasno</i><par n="ma/st__n"/></e>
-<e><i>ekonomično</i><par n="ma/st__n"/></e>
-<e><i>ekstravagantno</i><par n="ma/st__n"/></e>
-<e><i>efektivno</i><par n="ma/st__n"/></e>
-<e><i>žalo</i><par n="ma/st__n"/></e>
-<e><i>zavisno</i><par n="ma/st__n"/></e>
-<e><i>ovisno</i><par n="ma/st__n"/></e>
-<e><i>zadovoljno</i><par n="ma/st__n"/></e>
-<e><i>zaduženo</i><par n="ma/st__n"/></e>
-<e><i>zainteresirano</i><par n="ma/st__n"/></e>
-<e><i>zamoreno</i><par n="ma/st__n"/></e>
-<e><i>zapušteno</i><par n="ma/st__n"/></e>
-<e><i>zrelo</i><par n="ma/st__n"/></e>
-<e><i>izloženo</i><par n="ma/st__n"/></e>
-<e><i>izolirano</i><par n="ma/st__n"/></e>
-<e><i>izopačeno</i><par n="ma/st__n"/></e>
-<e><i>indiferentno</i><par n="ma/st__n"/></e>
-<e><i>inkompetentno</i><par n="ma/st__n"/></e>
-<e><i>inovativno</i><par n="ma/st__n"/></e>
-<e><i>informirano</i><par n="ma/st__n"/></e>
-<e><i>iznureno</i><par n="ma/st__n"/></e>
-<e><i>kvalificirano</i><par n="ma/st__n"/></e>
-<e><i>kvalifikovano</i><par n="ma/st__n"/></e>
-<e><i>kompetentno</i><par n="ma/st__n"/></e>
-<e><i>konzistentno</i><par n="ma/st__n"/></e>
-<e><i>konkurentno</i><par n="ma/st__n"/></e>
-<e><i>kontradiktorno</i><par n="ma/st__n"/></e>
-<e><i>kontroverzno</i><par n="ma/st__n"/></e>
-<e><i>koncentrirano</i><par n="ma/st__n"/></e>
-<e><i>korumpirano</i><par n="ma/st__n"/></e>
-<e><i>kreativno</i><par n="ma/st__n"/></e>
-<e><i>legalno</i><par n="ma/st__n"/></e>
-<e><i>lojalno</i><par n="ma/st__n"/></e>
-<e><i>milo</i><par n="ma/st__n"/></e>
-<e><i>mobilno</i><par n="ma/st__n"/></e>
-<e><i>moralno</i><par n="ma/st__n"/></e>
-<e><i>motivirano</i><par n="ma/st__n"/></e>
-<e><i>lijeno</i><par n="ma/st__n"/></e>
-<e><i>multietnično</i><par n="ma/st__n"/></e>
-<e><i>naklonjeno</i><par n="ma/st__n"/></e>
-<e><i>naseljeno</i><par n="ma/st__n"/></e>
-<e><i>nacionalno</i><par n="ma/st__n"/></e>
-<e><i>nemarno</i><par n="ma/st__n"/></e>
-<e><i>nehajno</i><par n="ma/st__n"/></e>
-<e><i>nevino</i><par n="ma/st__n"/></e>
-<e><i>neoprezno</i><par n="ma/st__n"/></e>
-<e><i>nedostupno</i><par n="ma/st__n"/></e>
-<e><i>neetično</i><par n="ma/st__n"/></e>
-<e><i>nezaduženo</i><par n="ma/st__n"/></e>
-<e><i>neizvěsno</i><par n="ma/st__n"/></e>
-<e><i>nekompetentno</i><par n="ma/st__n"/></e>
-<e><i>nelegalno</i><par n="ma/st__n"/></e>
-<e><i>nemilo</i><par n="ma/st__n"/></e>
-<e><i>nemogućno</i><par n="ma/st__n"/></e>
-<e><i>neodgovorno</i><par n="ma/st__n"/></e>
-<e><i>nepripremljeno</i><par n="ma/st__n"/></e>
-<e><i>neposlušno</i><par n="ma/st__n"/></e>
-<e><i>neprijatno</i><par n="ma/st__n"/></e>
-<e><i>neugodno</i><par n="ma/st__n"/></e>
-<e><i>neprofesionalno</i><par n="ma/st__n"/></e>
-<e><i>neodlučno</i><par n="ma/st__n"/></e>
-<e><i>nesigurno</i><par n="ma/st__n"/></e>
-<e><i>netrepeljivo</i><par n="ma/st__n"/></e>
-<e><i>neusuglašeno</i><par n="ma/st__n"/></e>
-<e><i>neusaglašeno</i><par n="ma/st__n"/></e>
-<e><i>nefunkcionalno</i><par n="ma/st__n"/></e>
-<e><i>nejasno</i><par n="ma/st__n"/></e>
-<e><i>obvezano</i><par n="ma/st__n"/></e>
-<e><i>objedinjeno</i><par n="ma/st__n"/></e>
-<e><i>objektivno</i><par n="ma/st__n"/></e>
-<e><i>ogorčeno</i><par n="ma/st__n"/></e>
-<e><i>udaljeno</i><par n="ma/st__n"/></e>
-<e><i>udaljeno</i><par n="ma/st__n"/></e>
-<e><i>odlučno</i><par n="ma/st__n"/></e>
-<e><i>okolno</i><par n="ma/st__n"/></e>
-<e><i>operativno</i><par n="ma/st__n"/></e>
-<e><i>oštećeno</i><par n="ma/st__n"/></e>
-<e><i>pozicionirano</i><par n="ma/st__n"/></e>
-<e><i>popularno</i><par n="ma/st__n"/></e>
-<e><i>postavljeno</i><par n="ma/st__n"/></e>
-<e><i>postojano</i><par n="ma/st__n"/></e>
-<e><i>praktično</i><par n="ma/st__n"/></e>
-<e><i>predano</i><par n="ma/st__n"/></e>
-<e><i>predno</i><par n="ma/st__n"/></e>
-<e><i>prenatrpano</i><par n="ma/st__n"/></e>
-<e><i>obazrivo</i><par n="ma/st__n"/></e>
-<e><i>precizno</i><par n="ma/st__n"/></e>
-<e><i>privženo</i><par n="ma/st__n"/></e>
-<e><i>priznato</i><par n="ma/st__n"/></e>
-<e><i>pristupačno</i><par n="ma/st__n"/></e>
-<e><i>pristrano</i><par n="ma/st__n"/></e>
-<e><i>marljivo</i><par n="ma/st__n"/></e>
-<e><i>radioaktivno</i><par n="ma/st__n"/></e>
-<e><i>rado</i><par n="ma/st__n"/></e>
-<e><i>razdražljivo</i><par n="ma/st__n"/></e>
-<e><i>različito</i><par n="ma/st__n"/></e>
-<e><i>raznoliko</i><par n="ma/st__n"/></e>
-<e><i>razočarano</i><par n="ma/st__n"/></e>
-<e><i>ravnodušno</i><par n="ma/st__n"/></e>
-<e><i>ravnopravno</i><par n="ma/st__n"/></e>
-<e><i>rasprostranjeno</i><par n="ma/st__n"/></e>
-<e><i>racionalno</i><par n="ma/st__n"/></e>
-<e><i>riětko</i><par n="ma/st__n"/></e>
-<e><i>odlučno</i><par n="ma/st__n"/></e>
-<e><i>samoodrživo</i><par n="ma/st__n"/></e>
-<e><i>samostalno</i><par n="ma/st__n"/></e>
-<e><i>samouvěreno</i><par n="ma/st__n"/></e>
-<e><i>skupocjeno</i><par n="ma/st__n"/></e>
-<e><i>sklono</i><par n="ma/st__n"/></e>
-<e><i>slabo</i><par n="ma/st__n"/></e>
-<e><i>slučajno</i><par n="ma/st__n"/></e>
-<e><i>smireno</i><par n="ma/st__n"/></e>
-<e><i>smrtno</i><par n="ma/st__n"/></e>
-<e><i>suglasno</i><par n="ma/st__n"/></e>
-<e><i>saglasno</i><par n="ma/st__n"/></e>
-<e><i>shodno</i><par n="ma/st__n"/></e>
-<e><i>sofisticirano</i><par n="ma/st__n"/></e>
-<e><i>spontano</i><par n="ma/st__n"/></e>
-<e><i>suprotstavljeno</i><par n="ma/st__n"/></e>
-<e><i>srdačno</i><par n="ma/st__n"/></e>
-<e><i>staro</i><par n="ma/st__n"/></e>
-<e><i>suvereno</i><par n="ma/st__n"/></e>
-<e><i>tajno</i><par n="ma/st__n"/></e>
-<e><i>tvrdoglavo</i><par n="ma/st__n"/></e>
-<e><i>tečno</i><par n="ma/st__n"/></e>
-<e><i>transparentno</i><par n="ma/st__n"/></e>
-<e><i>trajno</i><par n="ma/st__n"/></e>
-<e><i>trezveno</i><par n="ma/st__n"/></e>
-<e><i>bogohulno</i><par n="ma/st__n"/></e>
+<e lm="znanost"><i>znano</i><par n="ma/st__n"/></e>
+<e lm="budućnost"><i>budućno</i><par n="ma/st__n"/></e>
+<e lm="autokefalnost"><i>autokefalno</i><par n="ma/st__n"/></e>
+<e lm="aktivnost"><i>aktivno</i><par n="ma/st__n"/></e>
+<e lm="pohlepnost"><i>pohlepno</i><par n="ma/st__n"/></e>
+<e lm="krepost"><i>krepo</i><par n="ma/st__n"/></e>
+<e lm="sigurnost"><i>sigurno</i><par n="ma/st__n"/></e>
+<e lm="bezbědnost"><i>bezbědno</i><par n="ma/st__n"/></e>
+<e lm="sigurnost"><i>sigurno</i><par n="ma/st__n"/></e>
+<e lm="bezbednost"><i>bezbedno</i><par n="ma/st__n"/></e>
+<e lm="beskonačnost"><i>beskonačno</i><par n="ma/st__n"/></e>
+<e lm="beskrajnost"><i>beskrajno</i><par n="ma/st__n"/></e>
+<e lm="besmrtnost"><i>besmrtno</i><par n="ma/st__n"/></e>
+<e lm="važnost"><i>važno</i><par n="ma/st__n"/></e>
+<e lm="validnost"><i>validno</i><par n="ma/st__n"/></e>
+<e lm="vlažnost"><i>vlažno</i><par n="ma/st__n"/></e>
+<e lm="umiěšanost"><i>umiěšano</i><par n="ma/st__n"/></e>
+<e lm="vriědnost"><i>vriědno</i><par n="ma/st__n"/></e>
+<e lm="dužnost"><i>dužno</i><par n="ma/st__n"/></e>
+<e lm="energičnost"><i>energično</i><par n="ma/st__n"/></e>
+<e lm="efikasnost"><i>efikasno</i><par n="ma/st__n"/></e>
+<e lm="zabrinutost"><i>zabrinuto</i><par n="ma/st__n"/></e>
+<e lm="zastupljenost"><i>zastupljeno</i><par n="ma/st__n"/></e>
+<e lm="invalidnost"><i>invalidno</i><par n="ma/st__n"/></e>
+<e lm="inertnost"><i>inertno</i><par n="ma/st__n"/></e>
+<e lm="iskrenost"><i>iskreno</i><par n="ma/st__n"/></e>
+<e lm="konkurentnost"><i>konkurentno</i><par n="ma/st__n"/></e>
+<e lm="konstruktivnost"><i>konstruktivno</i><par n="ma/st__n"/></e>
+<e lm="ličnost"><i>lično</i><par n="ma/st__n"/></e>
+<e lm="mladost"><i>mlado</i><par n="ma/st__n"/></e>
+<e lm="mogućnost"><i>mogućno</i><par n="ma/st__n"/></e>
+<e lm="nadležnost"><i>nadležno</i><par n="ma/st__n"/></e>
+<e lm="nezaposlenost"><i>nezaposleno</i><par n="ma/st__n"/></e>
+<e lm="neefikasnost"><i>neefikasno</i><par n="ma/st__n"/></e>
+<e lm="nezavisnost"><i>nezavisno</i><par n="ma/st__n"/></e>
+<e lm="neiskrenost"><i>neiskreno</i><par n="ma/st__n"/></e>
+<e lm="nekonvencionalnost"><i>nekonvencionalno</i><par n="ma/st__n"/></e>
+<e lm="neophodnost"><i>neophodno</i><par n="ma/st__n"/></e>
+<e lm="neregularnost"><i>neregularno</i><par n="ma/st__n"/></e>
+<e lm="nesposobnost"><i>nesposobno</i><par n="ma/st__n"/></e>
+<e lm="nestabilnost"><i>nestabilno</i><par n="ma/st__n"/></e>
+<e lm="neutralnost"><i>neutralno</i><par n="ma/st__n"/></e>
+<e lm="novost"><i>novo</i><par n="ma/st__n"/></e>
+<e lm="odgovornost"><i>odgovorno</i><par n="ma/st__n"/></e>
+<e lm="opasnost"><i>opasno</i><par n="ma/st__n"/></e>
+<e lm="otvorenost"><i>otvoreno</i><par n="ma/st__n"/></e>
+<e lm="pismenost"><i>pismeno</i><par n="ma/st__n"/></e>
+<e lm="povezanost"><i>povezano</i><par n="ma/st__n"/></e>
+<e lm="okretnost"><i>okretno</i><par n="ma/st__n"/></e>
+<e lm="pripravnost"><i>pripravno</i><par n="ma/st__n"/></e>
+<e lm="posvećenost"><i>posvećeno</i><par n="ma/st__n"/></e>
+<e lm="pripadnost"><i>pripadno</i><par n="ma/st__n"/></e>
+<e lm="produktivnost"><i>produktivno</i><par n="ma/st__n"/></e>
+<e lm="realnost"><i>realno</i><par n="ma/st__n"/></e>
+<e lm="rěšenost"><i>rěšeno</i><par n="ma/st__n"/></e>
+<e lm="odlučnost"><i>odlučno</i><par n="ma/st__n"/></e>
+<e lm="světlost"><i>světlo</i><par n="ma/st__n"/></e>
+<e lm="ozbiljnost"><i>ozbiljno</i><par n="ma/st__n"/></e>
+<e lm="smělost"><i>smělo</i><par n="ma/st__n"/></e>
+<e lm="saglasnost"><i>saglasno</i><par n="ma/st__n"/></e>
+<e lm="suglasnost"><i>suglasno</i><par n="ma/st__n"/></e>
+<e lm="solidarnost"><i>solidarno</i><par n="ma/st__n"/></e>
+<e lm="sopstvenost"><i>sopstveno</i><par n="ma/st__n"/></e>
+<e lm="osebujnost"><i>osebujno</i><par n="ma/st__n"/></e>
+<e lm="sposobnost"><i>sposobno</i><par n="ma/st__n"/></e>
+<e lm="stabilnost"><i>stabilno</i><par n="ma/st__n"/></e>
+<e lm="točnost"><i>točno</i><par n="ma/st__n"/></e>
+<e lm="transparentnost"><i>transparentno</i><par n="ma/st__n"/></e>
+<e lm="uměrenost"><i>uměreno</i><par n="ma/st__n"/></e>
+<e lm="umětnost"><i>umětno</i><par n="ma/st__n"/></e>
+<e lm="hrabrost"><i>hrabro</i><par n="ma/st__n"/></e>
+<e lm="javnost"><i>javno</i><par n="ma/st__n"/></e>
+<e lm="autentičnost"><i>autentično</i><par n="ma/st__n"/></e>
+<e lm="autonomnost"><i>autonomno</i><par n="ma/st__n"/></e>
+<e lm="angažiranost"><i>angažirano</i><par n="ma/st__n"/></e>
+<e lm="anonimnost"><i>anonimno</i><par n="ma/st__n"/></e>
+<e lm="sporost"><i>sporo</i><par n="ma/st__n"/></e>
+<e lm="beznadežnost"><i>beznadežno</i><par n="ma/st__n"/></e>
+<e lm="beznadnost"><i>beznadno</i><par n="ma/st__n"/></e>
+<e lm="zahvalnost"><i>zahvalno</i><par n="ma/st__n"/></e>
+<e lm="brutalnost"><i>brutalno</i><par n="ma/st__n"/></e>
+<e lm="budnost"><i>budno</i><par n="ma/st__n"/></e>
+<e lm="věrojatnost"><i>věrojatno</i><par n="ma/st__n"/></e>
+<e lm="vidljivost"><i>vidljivo</i><par n="ma/st__n"/></e>
+<e lm="uključenost"><i>uključeno</i><par n="ma/st__n"/></e>
+<e lm="suzdržanost"><i>suzdržano</i><par n="ma/st__n"/></e>
+<e lm="ratobornost"><i>ratoborno</i><par n="ma/st__n"/></e>
+<e lm="oduševljenost"><i>oduševljeno</i><par n="ma/st__n"/></e>
+<e lm="genijalnost"><i>genijalno</i><par n="ma/st__n"/></e>
+<e lm="gledanost"><i>gledano</i><par n="ma/st__n"/></e>
+<e lm="glupost"><i>glupo</i><par n="ma/st__n"/></e>
+<e lm="gordost"><i>gordo</i><par n="ma/st__n"/></e>
+<e lm="pripravnost"><i>pripravno</i><par n="ma/st__n"/></e>
+<e lm="gotovost"><i>gotovo</i><par n="ma/st__n"/></e>
+<e lm="dvosmislenost"><i>dvosmisleno</i><par n="ma/st__n"/></e>
+<e lm="dvojezičnost"><i>dvojezično</i><par n="ma/st__n"/></e>
+<e lm="dělatnost"><i>dělatno</i><par n="ma/st__n"/></e>
+<e lm="direktnost"><i>direktno</i><par n="ma/st__n"/></e>
+<e lm="izravnost"><i>izravno</i><par n="ma/st__n"/></e>
+<e lm="dominantnost"><i>dominantno</i><par n="ma/st__n"/></e>
+<e lm="dostupnost"><i>dostupno</i><par n="ma/st__n"/></e>
+<e lm="drevnost"><i>drevno</i><par n="ma/st__n"/></e>
+<e lm="državnost"><i>državno</i><par n="ma/st__n"/></e>
+<e lm="državotvornost"><i>državotvorno</i><par n="ma/st__n"/></e>
+<e lm="jedinstvenost"><i>jedinstveno</i><par n="ma/st__n"/></e>
+<e lm="jednakost"><i>jednako</i><par n="ma/st__n"/></e>
+<e lm="jednoglasnost"><i>jednoglasno</i><par n="ma/st__n"/></e>
+<e lm="ekonomičnost"><i>ekonomično</i><par n="ma/st__n"/></e>
+<e lm="ekstravagantnost"><i>ekstravagantno</i><par n="ma/st__n"/></e>
+<e lm="efektivnost"><i>efektivno</i><par n="ma/st__n"/></e>
+<e lm="žalost"><i>žalo</i><par n="ma/st__n"/></e>
+<e lm="zavisnost"><i>zavisno</i><par n="ma/st__n"/></e>
+<e lm="ovisnost"><i>ovisno</i><par n="ma/st__n"/></e>
+<e lm="zadovoljnost"><i>zadovoljno</i><par n="ma/st__n"/></e>
+<e lm="zaduženost"><i>zaduženo</i><par n="ma/st__n"/></e>
+<e lm="zainteresiranost"><i>zainteresirano</i><par n="ma/st__n"/></e>
+<e lm="zamorenost"><i>zamoreno</i><par n="ma/st__n"/></e>
+<e lm="zapuštenost"><i>zapušteno</i><par n="ma/st__n"/></e>
+<e lm="zrelost"><i>zrelo</i><par n="ma/st__n"/></e>
+<e lm="izloženost"><i>izloženo</i><par n="ma/st__n"/></e>
+<e lm="izoliranost"><i>izolirano</i><par n="ma/st__n"/></e>
+<e lm="izopačenost"><i>izopačeno</i><par n="ma/st__n"/></e>
+<e lm="indiferentnost"><i>indiferentno</i><par n="ma/st__n"/></e>
+<e lm="inkompetentnost"><i>inkompetentno</i><par n="ma/st__n"/></e>
+<e lm="inovativnost"><i>inovativno</i><par n="ma/st__n"/></e>
+<e lm="informiranost"><i>informirano</i><par n="ma/st__n"/></e>
+<e lm="iznurenost"><i>iznureno</i><par n="ma/st__n"/></e>
+<e lm="kvalificiranost"><i>kvalificirano</i><par n="ma/st__n"/></e>
+<e lm="kvalifikovanost"><i>kvalifikovano</i><par n="ma/st__n"/></e>
+<e lm="kompetentnost"><i>kompetentno</i><par n="ma/st__n"/></e>
+<e lm="konzistentnost"><i>konzistentno</i><par n="ma/st__n"/></e>
+<e lm="konkurentnost"><i>konkurentno</i><par n="ma/st__n"/></e>
+<e lm="kontradiktornost"><i>kontradiktorno</i><par n="ma/st__n"/></e>
+<e lm="kontroverznost"><i>kontroverzno</i><par n="ma/st__n"/></e>
+<e lm="koncentriranost"><i>koncentrirano</i><par n="ma/st__n"/></e>
+<e lm="korumpiranost"><i>korumpirano</i><par n="ma/st__n"/></e>
+<e lm="kreativnost"><i>kreativno</i><par n="ma/st__n"/></e>
+<e lm="legalnost"><i>legalno</i><par n="ma/st__n"/></e>
+<e lm="lojalnost"><i>lojalno</i><par n="ma/st__n"/></e>
+<e lm="milost"><i>milo</i><par n="ma/st__n"/></e>
+<e lm="mobilnost"><i>mobilno</i><par n="ma/st__n"/></e>
+<e lm="moralnost"><i>moralno</i><par n="ma/st__n"/></e>
+<e lm="motiviranost"><i>motivirano</i><par n="ma/st__n"/></e>
+<e lm="lijenost"><i>lijeno</i><par n="ma/st__n"/></e>
+<e lm="multietničnost"><i>multietnično</i><par n="ma/st__n"/></e>
+<e lm="naklonjenost"><i>naklonjeno</i><par n="ma/st__n"/></e>
+<e lm="naseljenost"><i>naseljeno</i><par n="ma/st__n"/></e>
+<e lm="nacionalnost"><i>nacionalno</i><par n="ma/st__n"/></e>
+<e lm="nemarnost"><i>nemarno</i><par n="ma/st__n"/></e>
+<e lm="nehajnost"><i>nehajno</i><par n="ma/st__n"/></e>
+<e lm="nevinost"><i>nevino</i><par n="ma/st__n"/></e>
+<e lm="neopreznost"><i>neoprezno</i><par n="ma/st__n"/></e>
+<e lm="nedostupnost"><i>nedostupno</i><par n="ma/st__n"/></e>
+<e lm="neetičnost"><i>neetično</i><par n="ma/st__n"/></e>
+<e lm="nezaduženost"><i>nezaduženo</i><par n="ma/st__n"/></e>
+<e lm="neizvěsnost"><i>neizvěsno</i><par n="ma/st__n"/></e>
+<e lm="nekompetentnost"><i>nekompetentno</i><par n="ma/st__n"/></e>
+<e lm="nelegalnost"><i>nelegalno</i><par n="ma/st__n"/></e>
+<e lm="nemilost"><i>nemilo</i><par n="ma/st__n"/></e>
+<e lm="nemogućnost"><i>nemogućno</i><par n="ma/st__n"/></e>
+<e lm="neodgovornost"><i>neodgovorno</i><par n="ma/st__n"/></e>
+<e lm="nepripremljenost"><i>nepripremljeno</i><par n="ma/st__n"/></e>
+<e lm="neposlušnost"><i>neposlušno</i><par n="ma/st__n"/></e>
+<e lm="neprijatnost"><i>neprijatno</i><par n="ma/st__n"/></e>
+<e lm="neugodnost"><i>neugodno</i><par n="ma/st__n"/></e>
+<e lm="neprofesionalnost"><i>neprofesionalno</i><par n="ma/st__n"/></e>
+<e lm="neodlučnost"><i>neodlučno</i><par n="ma/st__n"/></e>
+<e lm="nesigurnost"><i>nesigurno</i><par n="ma/st__n"/></e>
+<e lm="netrepeljivost"><i>netrepeljivo</i><par n="ma/st__n"/></e>
+<e lm="neusuglašenost"><i>neusuglašeno</i><par n="ma/st__n"/></e>
+<e lm="neusaglašenost"><i>neusaglašeno</i><par n="ma/st__n"/></e>
+<e lm="nefunkcionalnost"><i>nefunkcionalno</i><par n="ma/st__n"/></e>
+<e lm="nejasnost"><i>nejasno</i><par n="ma/st__n"/></e>
+<e lm="obvezanost"><i>obvezano</i><par n="ma/st__n"/></e>
+<e lm="objedinjenost"><i>objedinjeno</i><par n="ma/st__n"/></e>
+<e lm="objektivnost"><i>objektivno</i><par n="ma/st__n"/></e>
+<e lm="ogorčenost"><i>ogorčeno</i><par n="ma/st__n"/></e>
+<e lm="udaljenost"><i>udaljeno</i><par n="ma/st__n"/></e>
+<e lm="udaljenost"><i>udaljeno</i><par n="ma/st__n"/></e>
+<e lm="odlučnost"><i>odlučno</i><par n="ma/st__n"/></e>
+<e lm="okolnost"><i>okolno</i><par n="ma/st__n"/></e>
+<e lm="operativnost"><i>operativno</i><par n="ma/st__n"/></e>
+<e lm="oštećenost"><i>oštećeno</i><par n="ma/st__n"/></e>
+<e lm="pozicioniranost"><i>pozicionirano</i><par n="ma/st__n"/></e>
+<e lm="popularnost"><i>popularno</i><par n="ma/st__n"/></e>
+<e lm="postavljenost"><i>postavljeno</i><par n="ma/st__n"/></e>
+<e lm="postojanost"><i>postojano</i><par n="ma/st__n"/></e>
+<e lm="praktičnost"><i>praktično</i><par n="ma/st__n"/></e>
+<e lm="predanost"><i>predano</i><par n="ma/st__n"/></e>
+<e lm="prednost"><i>predno</i><par n="ma/st__n"/></e>
+<e lm="prenatrpanost"><i>prenatrpano</i><par n="ma/st__n"/></e>
+<e lm="obazrivost"><i>obazrivo</i><par n="ma/st__n"/></e>
+<e lm="preciznost"><i>precizno</i><par n="ma/st__n"/></e>
+<e lm="privženost"><i>privženo</i><par n="ma/st__n"/></e>
+<e lm="priznatost"><i>priznato</i><par n="ma/st__n"/></e>
+<e lm="pristupačnost"><i>pristupačno</i><par n="ma/st__n"/></e>
+<e lm="pristranost"><i>pristrano</i><par n="ma/st__n"/></e>
+<e lm="marljivost"><i>marljivo</i><par n="ma/st__n"/></e>
+<e lm="radioaktivnost"><i>radioaktivno</i><par n="ma/st__n"/></e>
+<e lm="radost"><i>rado</i><par n="ma/st__n"/></e>
+<e lm="razdražljivost"><i>razdražljivo</i><par n="ma/st__n"/></e>
+<e lm="legitimnost"><i>legitimno</i><par n="ma/st__n"/></e>
+<e lm="likvidnost"><i>likvidno</i><par n="ma/st__n"/></e>
+<e lm="mudrost"><i>mudro</i><par n="ma/st__n"/></e>
+<e lm="obrazovanost"><i>obrazovano</i><par n="ma/st__n"/></e>
+<e lm="podiěljenost"><i>podiěljeno</i><par n="ma/st__n"/></e>
+<e lm="predvidljivost"><i>predvidljivo</i><par n="ma/st__n"/></e>
+<e lm="različitost"><i>različito</i><par n="ma/st__n"/></e>
+<e lm="raznolikost"><i>raznoliko</i><par n="ma/st__n"/></e>
+<e lm="razočaranost"><i>razočarano</i><par n="ma/st__n"/></e>
+<e lm="ravnodušnost"><i>ravnodušno</i><par n="ma/st__n"/></e>
+<e lm="ravnopravnost"><i>ravnopravno</i><par n="ma/st__n"/></e>
+<e lm="rasprostranjenost"><i>rasprostranjeno</i><par n="ma/st__n"/></e>
+<e lm="racionalnost"><i>racionalno</i><par n="ma/st__n"/></e>
+<e lm="riětkost"><i>riětko</i><par n="ma/st__n"/></e>
+<e lm="odlučnost"><i>odlučno</i><par n="ma/st__n"/></e>
+<e lm="samoodrživost"><i>samoodrživo</i><par n="ma/st__n"/></e>
+<e lm="samostalnost"><i>samostalno</i><par n="ma/st__n"/></e>
+<e lm="samouvěrenost"><i>samouvěreno</i><par n="ma/st__n"/></e>
+<e lm="skupocjenost"><i>skupocjeno</i><par n="ma/st__n"/></e>
+<e lm="sklonost"><i>sklono</i><par n="ma/st__n"/></e>
+<e lm="slabost"><i>slabo</i><par n="ma/st__n"/></e>
+<e lm="slučajnost"><i>slučajno</i><par n="ma/st__n"/></e>
+<e lm="smirenost"><i>smireno</i><par n="ma/st__n"/></e>
+<e lm="smrtnost"><i>smrtno</i><par n="ma/st__n"/></e>
+<e lm="suglasnost"><i>suglasno</i><par n="ma/st__n"/></e>
+<e lm="saglasnost"><i>saglasno</i><par n="ma/st__n"/></e>
+<e lm="shodnost"><i>shodno</i><par n="ma/st__n"/></e>
+<e lm="sofisticiranost"><i>sofisticirano</i><par n="ma/st__n"/></e>
+<e lm="spontanost"><i>spontano</i><par n="ma/st__n"/></e>
+<e lm="suprotstavljenost"><i>suprotstavljeno</i><par n="ma/st__n"/></e>
+<e lm="srdačnost"><i>srdačno</i><par n="ma/st__n"/></e>
+<e lm="starost"><i>staro</i><par n="ma/st__n"/></e>
+<e lm="suverenost"><i>suvereno</i><par n="ma/st__n"/></e>
+<e lm="tajnost"><i>tajno</i><par n="ma/st__n"/></e>
+<e lm="tvrdoglavost"><i>tvrdoglavo</i><par n="ma/st__n"/></e>
+<e lm="tečnost"><i>tečno</i><par n="ma/st__n"/></e>
+<e lm="transparentnost"><i>transparentno</i><par n="ma/st__n"/></e>
+<e lm="trajnost"><i>trajno</i><par n="ma/st__n"/></e>
+<e lm="trezvenost"><i>trezveno</i><par n="ma/st__n"/></e>
+<e lm="bogohulnost"><i>bogohulno</i><par n="ma/st__n"/></e>
+<e lm="znamenitost"><i>znamenito</i><par n="ma/st__n"/></e>
 <e lm="noć"><i>noć</i><par n="noć__n"/></e>
 <e lm="obitelj"><i>obitelj</i><par n="noć__n"/></e>
 <e lm="kost"><i>kost</i><par n="kost__n"/></e>
