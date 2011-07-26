@@ -765,6 +765,72 @@
 </action>
 </rule>
 
+<rule comment="regla: ftI+infinitive">
+<pattern>
+       <pattern-item n="vbfutI"/>
+       <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <out>
+        <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="2" side="tl" part="prs"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="a_vrb"/>             
+             <clip pos="2" side="tl" part="asp"/>             
+             <clip pos="2" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="1" side="tl" part="prs"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: infinitive+ftI">
+<pattern>
+       <pattern-item n="vbinf"/>
+       <pattern-item n="vbfutI"/>
+</pattern>
+<action>
+    <out>
+        <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_vrb"/>             
+             <clip pos="1" side="tl" part="asp"/>             
+             <clip pos="1" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="2" side="tl" part="prs"/>
+             <clip pos="2" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
 <rule comment="regla: vbmod infinitive">
 <pattern><!-- Trebam dati -> треба да дадам -->
       <pattern-item n="vbmod"/>
@@ -804,39 +870,6 @@
 </action>
 </rule>
 
-
-<rule comment="regla: infinitive+ftI">
-<pattern>
-       <pattern-item n="vbinf"/>
-       <pattern-item n="vbfutI"/>
-</pattern>
-<action>
-    <out>
-        <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-             <tag><clip pos="1" side="tl" part="prs"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-           </tags>
-           <lu>
-             <lit v="ќе"/>
-             <lit-tag v="part"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_vrb"/>             
-             <clip pos="1" side="tl" part="asp"/>             
-             <clip pos="1" side="tl" part="trn"/>
-             <lit-tag v="pres"/>
-             <clip pos="2" side="tl" part="pers"/>
-             <clip pos="2" side="tl" part="nbr"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
 
 
   <rule comment="regla: ne+ftI infinitive ">

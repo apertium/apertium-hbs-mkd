@@ -304,6 +304,9 @@
      <e><p><l>iznad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
      <e><p><l>prema<s n="pr"/></l><r>накај<s n="pr"/></r></p></e>
 
+     <e><p><l>zbog<s n="pr"/></l><r>заради<s n="pr"/></r></p></e>
+     <e><p><l>protiv<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
+
      <!-- SECTION: Pronouns -->
 
      <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p><par n="all_cases_vs_none"/></e>
@@ -8713,7 +8716,7 @@
 	<e><p><l>pasti<s n="vblex"/></l><r>падне<s n="vblex"/></r></p></e>
 	<e><p><l>pomoći<s n="vblex"/></l><r>помогне<s n="vblex"/></r></p></e>
 	<e><p><l>proći<s n="vblex"/><s n="perf"/></l><r>помине<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_iv"/></e>
-	<e r="LR"><p><l>provesti<s n="vblex"/></l><r>помине<s n="vblex"/></r></p></e>
+	<e r="LR"><p><l>provesti<s n="vblex"/><s n="perf"/></l><r>помине<s n="vblex"/><s n="perf"/></r></p><par n="iv_tv_iv"/></e>
 	<e><p><l>počinuti<s n="vblex"/></l><r>почине<s n="vblex"/></r></p></e>
 	<e><p><l>stati<s n="vblex"/></l><r>стане<s n="vblex"/></r></p></e>
 	<e><p><l>sjesti<s n="vblex"/></l><r>седне<s n="vblex"/></r></p></e>
