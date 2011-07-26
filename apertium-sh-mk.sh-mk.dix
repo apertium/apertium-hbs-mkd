@@ -635,7 +635,7 @@
     <e><p><l>studija<b/>izvedivosti<s n="n"/><s n="f"/></l><r>физибилити<b/>студија<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>staklenički<b/>plin<s n="n"/><s n="mi"/></l><r>гас со ефект на стаклена бавча<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kupatilo<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>kupaonica<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupaonica<s n="n"/><s n="f"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obveznica<s n="n"/><s n="f"/></l><r>обврзница<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>briga<s n="n"/><s n="f"/></l><r>грижа<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uvreda<s n="n"/><s n="f"/></l><r>навреда<s n="n"/><s n="f"/></r></p></e>
@@ -755,13 +755,13 @@
     <e><p><l>pista<s n="n"/><s n="f"/></l><r>писта<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mast<s n="n"/><s n="f"/></l><r>маст<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>policija<s n="n"/><s n="f"/></l><r>полиција<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>municij<s n="n"/><s n="f"/></l><r>муниција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>municija<s n="n"/><s n="f"/></l><r>муниција<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ruka<s n="n"/><s n="f"/></l><r>рака<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>noga<s n="n"/><s n="f"/></l><r>нога<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>autokefalnost<s n="n"/><s n="f"/></l><r>автокефалност<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aktivnost<s n="n"/><s n="f"/></l><r>активност<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alge!<s n="f"/><s n="n"/></l><r>алги<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>пути!<s n="f"/><s n="n"/></l><r>пати<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>puti!<s n="f"/><s n="n"/></l><r>пати<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pohlepnost<s n="n"/><s n="f"/></l><r>алчност<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>so<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sol<s n="n"/><s n="f"/></l><r>сол<s n="n"/><s n="f"/></r></p></e>
@@ -1105,7 +1105,7 @@
     <e><p><l>klima<s n="n"/><s n="f"/></l><r>клима<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>koža<s n="n"/><s n="f"/></l><r>кожа<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>komanda<s n="n"/><s n="f"/></l><r>команда<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>zapovjed<s n="n"/><s n="f"/></l><r>команда<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>zapoviěd<s n="n"/><s n="f"/></l><r>команда<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>komora<s n="n"/><s n="f"/></l><r>комора<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kontrola<s n="n"/><s n="f"/></l><r>контрола<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kora<s n="n"/><s n="f"/></l><r>кора<s n="n"/><s n="f"/></r></p></e>
@@ -1629,9 +1629,9 @@
     <e><p><l>beneficija<s n="n"/><s n="f"/></l><r>бенефиција<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>greška<s n="n"/><s n="f"/></l><r>грешка<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>trojka<s n="n"/><s n="f"/></l><r>тројка<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>rođak<s n="n"/><s n="f"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rođak<s n="n"/><s n="ma"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rođakinja<s n="n"/><s n="f"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>rod<s n="n"/><s n="f"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rod<s n="n"/><s n="mi"/></l><r>роднина<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>radiodifuzija<s n="n"/><s n="f"/></l><r>радиодифузија<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ambasadorka<s n="n"/><s n="f"/></l><r>амбасадорка<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>veleposlanica<s n="n"/><s n="f"/></l><r>амбасадорка<s n="n"/><s n="f"/></r></p></e>
@@ -6182,7 +6182,7 @@
     <e><p><l>diverzifikacija<s n="n"/><s n="f"/></l><r>диверсификација<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uš<s n="n"/><s n="f"/></l><r>вошка<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>suradnja<s n="n"/><s n="f"/></l><r>соработка<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>kupaonica<s n="n"/><s n="nt"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kupaonica<s n="n"/><s n="f"/></l><r>бања<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kotao<s n="n"/><s n="mi"/></l><r>казан<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ocean<s n="n"/><s n="mi"/></l><r>океан<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rajčica<s n="n"/><s n="mi"/></l><r>патлиџан<s n="n"/><s n="m"/></r></p></e>
