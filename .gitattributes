@@ -72,7 +72,6 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/n/pending_nouns.txt -text
-dev/n/sve.n -text
 dev/n/uncategorised.txt -text
 dev/np/bidix_np.txt -text
 dev/np/prezimenić.monodix.txt -text
