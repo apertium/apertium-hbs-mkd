@@ -309,6 +309,28 @@
                 </let>
             </when>
             <when>
+                <test><!--If it's a relative pronoun koj -->
+                    <and>
+                      <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="koji"/></equal>
+                      <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.rel"/></equal>
+                      <not><equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mi"/></equal></not>
+                      <not><equal><clip pos="1" side="sl" part="gen"/><lit-tag v="ma"/></equal></not>
+                    </and>
+                </test>
+                <let>
+                   <clip pos="1" side="tl" part="whole"/>
+                   <concat>
+                    <clip pos="1" side="tl" part="lemh"/>
+                    <clip pos="1" side="tl" part="a_prn"/>
+                    <clip pos="1" side="tl" part="gen"/>
+                    <clip pos="1" side="tl" part="nbr"/>
+                    <lit-tag v="nom"/>
+                    <clip pos="1" side="tl" part="lemq"/>
+                   </concat>
+                </let>
+            </when>
+
+            <when>
                 <test>
                     <and>
                       <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="sav"/></equal>                      
