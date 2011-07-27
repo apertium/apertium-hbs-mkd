@@ -1,0 +1,34 @@
+   4632 ^@ako<cnjsub>$
+   3180 ^@nakon što<cnjsub>$
+   2488 ^@gdje<cnjsub>$
+   2225 ^@e<cnjsub>$
+   1986 ^@da li<cnjsub>$
+   1924 ^@mada<cnjsub>$
+   1898 ^@zato<cnjcoo>$
+   1668 ^@kao što<cnjsub>$
+   1449 ^@nego<cnjcoo>$
+   1326 ^@iako<cnjsub>$
+    604 ^@te<cnjcoo>$
+    520 ^@pošto<cnjsub>$
+    352 ^@osim<cnjcoo>$
+    152 ^@pak<cnjcoo>$
+    128 ^@čim<cnjsub>$
+    104 ^@a to<cnjcoo>$
+     88 ^@neka<cnjsub>$
+     77 ^@no<cnjcoo>$
+     72 ^@stoga<cnjcoo>$
+     48 ^@jedino<cnjcoo>$
+     30 ^@makar<cnjsub>$
+     26 ^@samo što<cnjcoo>$
+     18 ^@ako i<cnjsub>$
+     16 ^@stoga<cnjsub>$
+     10 ^@kad<cnjsub>$
+     10 ^@dakle<cnjcoo>$
+      8 ^@osim što<cnjcoo>$
+      7 ^@no<cnjsub>$
+      6 ^@jedino što<cnjcoo>$
+      2 ^@tek što<cnjcoo>$
+      2 ^@premda<cnjsub>$
+      2 ^@eda<cnjsub>$
+      2 ^@budući da<cnjsub>$
+      2 ^@a ono<cnjcoo>$

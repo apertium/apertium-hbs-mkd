@@ -1,2 +1,41 @@
-
-
+   2692 ^@neki<prn><mfn><ind>$
+   1070 ^@neki<prn><f><ind>$
+    960 ^@svaki<prn><tot><f>$
+    814 ^@neki<prn><m><ind>$
+    575 ^@svaki<prn><tot><m>$
+    558 ^@svaki<prn><tot><nt>$
+    450 ^@bilo kakav<prn><mfn><ind>$
+    446 ^@bilo kakav<prn><f><ind>$
+    432 ^@neki<prn><nt><ind>$
+    422 ^@svaki<prn><tot><mfn>$
+    416 ^@nešto<prn><mfn><sp><ind>$
+    318 ^@svatko<prn><tot><mfn><sp>$
+    300 ^@ništa<prn><mfn><sp>$
+    284 ^@bilo kakav<prn><nt><ind>$
+    202 ^@bilo koji<prn><f><ind>$
+    196 ^@nikakav<prn><mfn>$
+    186 ^@bilo kakav<prn><m><ind>$
+    140 ^@nikakav<prn><m>$
+    134 ^@bilo tko<prn><mfn><sp><ind>$
+    102 ^@bilo koji<prn><nt><ind>$
+     94 ^@bilo koji<prn><m><ind>$
+     80 ^@nikakav<prn><nt>$
+     70 ^@nikakav<prn><f>$
+     52 ^@ikakav<prn><mfn><ind>$
+     42 ^@bilo koji<prn><mfn><ind>$
+     10 ^@neki<prn><mfn><voc><ind>$
+      8 ^@ikakav<prn><f><ind>$
+      6 ^@nikakav<prn><mfn><voc>$
+      6 ^@išta<prn><mfn><sp><ind>$
+      6 ^@ikakav<prn><nt><ind>$
+      6 ^@bilo kakav<prn><mfn><voc><ind>$
+      4 ^@nečiji<prn><nt><ind>$
+      4 ^@itko<prn><mfn><sp><ind>$
+      2 ^@svaki<prn><tot><f><voc>$
+      2 ^@svačiji<prn><tot><nt>$
+      2 ^@svačiji<prn><tot><mfn>$
+      2 ^@poneki<prn><nt><ind>$
+      2 ^@poneki<prn><m><ind>$
+      2 ^@neki<prn><f><voc><ind>$
+      2 ^@nečiji<prn><m><ind>$
+      2 ^@nečiji<prn><f><ind>$

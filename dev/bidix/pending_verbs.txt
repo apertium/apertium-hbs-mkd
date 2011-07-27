@@ -1,9 +1,44 @@
-      3 primiti<vblex><perf><ref><inf>/primiti<vblex><perf><tv><inf> Not in the mk monodix
-      2 učiti<vblex><imperf><ref><inf>/učiti<vblex><imperf><tv><inf> Not in the mk monodix
-      1 zaboraviti<vblex><perf><ref><inf>/zaboraviti<vblex><perf><tv><inf> Not in the mk monodix
-      1 voziti<vblex><imperf><tv><inf> Not in the mk monodix Not in the mk monodix
-      1 usporediti<vblex><perf><ref><inf>/usporediti<vblex><perf><tv><inf> Not in the mk monodix
-      1 učiniti<vblex><perf><ref><inf>/učiniti<vblex><perf><tv><inf> Problematic (basically because the sintagm in which it's used is a calque, so sounds equally bad in macedonian and croatian) 
-      1 skakati<vblex><imperf><tv><inf> Not in the mk monodix
-      
-      1 polaziti<vblex><imperf><iv><inf>/polaziti<vblex><imperf><tv><inf> Problematic (najtočnije bi bilo слуша)
+  39197 htjeti<vbmod><inf>
+   7610 sastati<vblex><perf><ref><inf>
+   2955 obećati<vblex><imperf><tv><inf>
+   1690 učiniti<vblex><perf><ref><inf>/učiniti<vblex><perf><tv><inf>
+   1131 uraditi<vblex><perf><tv><inf>
+   1089 imati<vbhaver><imperf><ref><inf>/imati<vbhaver><imperf><tv><inf>
+    608 miti<vblex><imperf><ref><inf>/miti<vblex><imperf><tv><inf>
+    577 poslati<vblex><imperf><ref><inf>/poslati<vblex><imperf><tv><inf>
+    529 pustiti<vblex><perf><ref><inf>/pustiti<vblex><perf><tv><inf>
+    479 porasti<vblex><perf><iv><inf>
+    430 izbiti<vblex><imperf><tv><inf>
+    326 ubiiti<vblex><perf><ref><inf>/ubiiti<vblex><perf><tv><inf>
+    304 rasti<vblex><imperf><iv><inf>
+    196 složiti<vblex><perf><ref><inf>/složiti<vblex><perf><tv><inf>
+    152 istražiti<vblex><perf><tv><inf>
+    120 priznavati<vblex><imperf><ref><inf>/priznavati<vblex><imperf><tv><inf>
+     90 zbaciti<vblex><perf><tv><inf>
+     68 prerasti<vblex><perf><tv><inf>
+     62 naučiti<vblex><perf><ref><inf>/naučiti<vblex><perf><tv><inf>
+     58 leći<vblex><imperf><iv><inf>
+     54 provesti<vblex><perf><ref><inf>/provesti<vblex><perf><tv><inf>
+     42 zasjesti<vblex><perf><iv><inf>
+     28 popravljati<vblex><imperf><ref><inf>/popravljati<vblex><imperf><tv><inf>
+     26 bivati<vblex><imperf><iv><inf>
+     16 doraditi<vblex><perf><iv><inf>
+     14 turati<vblex><imperf><ref><inf>/turati<vblex><imperf><tv><inf>
+     14 tjerati<vblex><imperf><tv><inf>
+     12 pojesti<vblex><perf><ref><inf>/pojesti<vblex><perf><tv><inf>/pojesti<vblex><perf><iv><inf>
+     12 neki<prn><ind><ma><sg><nom>/neki<prn><ind><ma><sg><voc>/neki<prn><ind><ma><pl><nom>/neki<prn><ind><ma><pl><voc>/neki<prn><ind><mi><sg><nom>/neki<prn><ind><mi><sg><acc>/neki<prn><ind><mi><sg><voc>/neki<prn><ind><mi><pl><nom>/neki<prn><ind><mi><pl><voc>
+     12 hodati<vblex><imperf><iv><inf>
+      6 nikakav<prn><neg><ma><sg><nom>/nikakav<prn><neg><ma><sg><voc>/nikakav<prn><neg><mi><sg><nom>/nikakav<prn><neg><mi><sg><acc>/nikakav<prn><neg><mi><sg><voc>
+      6 bilo kakav<prn><ind><ma><sg><nom>/bilo kakav<prn><ind><ma><sg><voc>/bilo kakav<prn><ind><mi><sg><nom>/bilo kakav<prn><ind><mi><sg><acc>/bilo kakav<prn><ind><mi><sg><voc>
+      4 saglasiti<vblex><perf><ref><inf>/saglasiti<vblex><perf><iv><inf>
+      4 pričiniti<vblex><perf><ref><inf>
+      4 nasjesti<vblex><perf><iv><inf>
+      4 naraditi<vblex><perf><iv><inf>
+      4 nagiti<vblex><imperf><iv><inf>
+      4 izrasti<vblex><perf><iv><inf>
+      2 zavaravati<vblex><imperf><ref><inf>/zavaravati<vblex><imperf><tv><inf>
+      2 zatresti<vblex><perf><ref><inf>/zatresti<vblex><perf><tv><inf>
+      2 svaki<prn><tot><ma><sg><nom>/svaki<prn><tot><ma><sg><voc>/svaki<prn><tot><ma><pl><nom>/svaki<prn><tot><mi><sg><nom>/svaki<prn><tot><mi><sg><acc>/svaki<prn><tot><mi><sg><voc>/svaki<prn><tot><mi><pl><nom>
+      2 proživjeti<vblex><perf><iv><inf>
+      2 pomoći<vblex><imperf><ref><inf>/pomoći<vblex><imperf><iv><inf>
+      2 pomesti<vblex><perf><tv><inf>/pomesti<vblex><perf><iv><inf>
