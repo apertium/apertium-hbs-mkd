@@ -168,6 +168,25 @@ I have added those for the sake of analysis -->
         <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
+    <pardef n="i_je__yat">
+      <group alt="sh">
+        <e><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+      </group>
+      <group alt="sh_BS">
+        <e r="LR"><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+      </group>
+      <group alt="sh_HR">
+        <e r="LR"><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+      </group>
+      <group alt="sh_SR">
+        <e><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e r="LR"><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e r="RL"><p><l>i</l><r><group var="ek">je</group></r></p></e>
+      </group>
+    </pardef>
     <pardef n="e_je__yat">
       <group alt="sh">
         <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
@@ -24822,6 +24841,28 @@ after prepositions-->
 </pardef>
 
 <!--Multiword nouns; idealy script (or xslt?) generated -->
+<pardef n="KrvnoSrodstvo__n"><!--Criminally complicated. This isn't all, the adjective should be expanded to include indefinite forms-->
+   <e><p><l>krvno<b/>srodstvo</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>krvnog<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>krvnoga<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><p><l>krvno<b/>srodstvo</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>   
+   <e><p><l>krvnom<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><p><l>krvnom<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+   <e r="LR"><p><l>krvnomu<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e r="LR"><p><l>krvnomu<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+   <e r="LR"><p><l>krvnome<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e r="LR"><p><l>krvnome<b/>srodstvu</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+   <e><p><l>krvno<b/>srodstvo</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><p><l>krvnim<b/>srodstvim</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><p><l>krvna<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+   <e><p><l>krvna<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+   <e><p><l>krvna<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+   <e><p><l>krvnih<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>krvnih<b/>srodstava</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+   <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+   <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
 <pardef n="ZračnaLuka__n">
    <e><p><l>zračna<b/>luka</l><r>zračna<b/>luka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
    <e><p><l>zračne<b/>luke</l><r>zračna<b/>luka<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -25466,6 +25507,22 @@ after prepositions-->
     <e><p><l>etima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>etima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
 </pardef>
+<pardef n="o/ko__anatomy__n">
+    <e><p><l>ko</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>ko</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>ko</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>ku</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>ku</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+    <e><p><l>kom</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>či</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>či</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>či</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>čiju</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
+    <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
+</pardef>
 <pardef n="o/ko__non__anatomy__n">
     <e><p><l>ko</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ko</l><r>ko<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -25695,7 +25752,6 @@ after prepositions-->
    <e><i>vr</i><par n="e_e__yat"/><p><l>menima</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat"/><p><l>menima</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><i>vr</i><par n="e_e__yat"/><p><l>menima</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
-
 </pardef>
 
 <!--Nouns with the infix -v -->
@@ -40873,20 +40929,838 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Gazela"><i>Gazel</i><par n="Gazel/a__np"/></e>
 <!--end Other proper nouns-->
 <!--Neuter nouns-->
+<e lm="abdiciranje"><i>abdiciranj</i><par n="polj/e__n"/></e>
+<e lm="adaptiranje"><i>adaptiranj</i><par n="polj/e__n"/></e>
+<e lm="agrarstvo"><i>agrarst</i><par n="društ/vo__n"/></e>
+<e lm="akcionarstvo"><i>akcionarst</i><par n="društ/vo__n"/></e>
+<e lm="akcionerstvo"><i>akcionerst</i><par n="društ/vo__n"/></e>
+<e lm="akterstvo"><i>akterst</i><par n="društ/vo__n"/></e>
+<e lm="aktiviranje"><i>aktiviranj</i><par n="polj/e__n"/></e>
+<e lm="alkoholičarstvo"><i>alkoholičarst</i><par n="društ/vo__n"/></e>
+<e lm="angažiranje"><i>angažiranj</i><par n="polj/e__n"/></e>
+<e lm="apostolstvo"><i>apostolst</i><par n="društ/vo__n"/></e>
+<e lm="apotekarstvo"><i>apotekarst</i><par n="društ/vo__n"/></e>
+<e lm="apšenje"><i>apšenj</i><par n="polj/e__n"/></e>
+<e lm="arhiepiskopstvo"><i>arhiepiskopst</i><par n="društ/vo__n"/></e>
+<e lm="arhivarstvo"><i>arhivarst</i><par n="društ/vo__n"/></e>
+<e lm="autorstvo"><i>autorst</i><par n="društ/vo__n"/></e>
+<e lm="bacanje"><i>bacanj</i><par n="polj/e__n"/></e>
+<e lm="bankarstvo"><i>bankarst</i><par n="društ/vo__n"/></e>
+<e lm="barbarstvo"><i>barbarst</i><par n="društ/vo__n"/></e>
+<e lm="bezumlje"><i>bezumlj</i><par n="polj/e__n"/></e>
+<e lm="bibliotekarstvo"><i>bibliotekarst</i><par n="društ/vo__n"/></e>
+<e lm="biće"><i>bić</i><par n="polj/e__n"/></e>
+<e lm="biranje"><i>biranj</i><par n="polj/e__n"/></e>
+<e lm="blaženstvo"><i>blaženst</i><par n="društ/vo__n"/></e>
+<e lm="blokiranje"><i>blokiranj</i><par n="polj/e__n"/></e>
+<e lm="bogatstvo"><i>bogatst</i><par n="društ/vo__n"/></e>
+<e lm="bogumilstvo"><i>bogumilst</i><par n="društ/vo__n"/></e>
+<e lm="bolovanje"><i>bolovanj</i><par n="polj/e__n"/></e>
+<e lm="bombardiranje"><i>bombardiranj</i><par n="polj/e__n"/></e>
+<e lm="božanstvo"><i>božanst</i><par n="društ/vo__n"/></e>
+<e lm="bratstvo"><i>bratst</i><par n="društ/vo__n"/></e>
+<e lm="brojenje"><i>brojenj</i><par n="polj/e__n"/></e>
+<e lm="časovničarstvo"><i>časovničarst</i><par n="društ/vo__n"/></e>
+<e lm="čedomorstvo"><i>čedomorst</i><par n="društ/vo__n"/></e>
+<e lm="čekanje"><i>čekanj</i><par n="polj/e__n"/></e>
+<e lm="certificiranje"><i>certificiranj</i><par n="polj/e__n"/></e>
+<e lm="certifikovanje"><i>certifikovanj</i><par n="polj/e__n"/></e>
+<e lm="cijepljenje"><i>c</i><par n="e_ije__yat"/><i>pljenj</i><par n="polj/e__n"/></e>
+<e lm="ćilimarstvo"><i>ćilimarst</i><par n="društ/vo__n"/></e>
+<e lm="činjenje"><i>činjenj</i><par n="polj/e__n"/></e>
+<e lm="čišćenje"><i>čišćenj</i><par n="polj/e__n"/></e>
+<e lm="članstvo"><i>članst</i><par n="društ/vo__n"/></e>
+<e lm="čovječanstvo"><i>čov</i><par n="e_je__yat"/><i>čanst</i><par n="društ/vo__n"/></e>
+<e lm="čudotvorstvo"><i>čudotvorst</i><par n="društ/vo__n"/></e>
+<e lm="cvjećarstvo"><i>cv</i><par n="e_je__yat"/><i>ćarst</i><par n="društ/vo__n"/></e>
+<e lm="đakonstvo"><i>đakonst</i><par n="društ/vo__n"/></e>
+<e lm="davanje"><i>davanj</i><par n="polj/e__n"/></e>
+<e lm="deaktiviranje"><i>deaktiviranj</i><par n="polj/e__n"/></e>
+<e lm="deaktivisanje"><i>deaktivisanj</i><par n="polj/e__n"/></e>
+<e lm="deblokiranje"><i>deblokiranj</i><par n="polj/e__n"/></e>
+<e lm="definiranje"><i>definiranj</i><par n="polj/e__n"/></e>
+<e lm="definisanje"><i>definisanj</i><par n="polj/e__n"/></e>
+<e lm="dejstvo"><i>dejst</i><par n="društ/vo__n"/></e>
+<e lm="dejstvovanje"><i>dejstvovanj</i><par n="polj/e__n"/></e>
+<e lm="deklariranje"><i>deklariranj</i><par n="polj/e__n"/></e>
+<e lm="deklarisanje"><i>deklarisanj</i><par n="polj/e__n"/></e>
+<e lm="deportiranje"><i>deportiranj</i><par n="polj/e__n"/></e>
+<e lm="despotstvo"><i>despotst</i><par n="društ/vo__n"/></e>
+<e lm="detoniranje"><i>detoniranj</i><par n="polj/e__n"/></e>
+<e lm="detonisanje"><i>detonisanj</i><par n="polj/e__n"/></e>
+<e lm="dezerterstvo"><i>dezerterst</i><par n="društ/vo__n"/></e>
+<e lm="dezertiranje"><i>dezertiranj</i><par n="polj/e__n"/></e>
+<e lm="dezertovanje"><i>dezertovanj</i><par n="polj/e__n"/></e>
+<e lm="dežurstvo"><i>dežurst</i><par n="društ/vo__n"/></e>
+<e lm="dijeljenje"><i>d</i><par n="e_ije__yat"/><i>ljenj</i><par n="polj/e__n"/></e>
+<e lm="diktatorstvo"><i>diktatorst</i><par n="društ/vo__n"/></e>
+<e lm="direktorstvo"><i>direktorst</i><par n="društ/vo__n"/></e>
+<e lm="dirigentstvo"><i>dirigentst</i><par n="društ/vo__n"/></e>
+<e lm="disanje"><i>disanj</i><par n="polj/e__n"/></e>
+<e lm="disidentstvo"><i>disidentst</i><par n="društ/vo__n"/></e>
+<e lm="diskreditiranje"><i>diskreditiranj</i><par n="polj/e__n"/></e>
+<e lm="distanciranje"><i>distanciranj</i><par n="polj/e__n"/></e>
+<e lm="dizanje"><i>dizanj</i><par n="polj/e__n"/></e>
+<e lm="djelovanje"><i>d</i><par n="e_je__yat"/><i>lovanj</i><par n="polj/e__n"/></e>
+<e lm="djevojaštvo"><i>d</i><par n="e_je__yat"/><i>vojašt</i><par n="društ/vo__n"/></e>
+<e lm="dobivanje"><i>dobivanj</i><par n="polj/e__n"/></e>
+<e lm="dobrosusjedstvo"><i>dobrosus</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
+<e lm="dodjeljivanje"><i>dod</i><par n="e_je__yat"/><i>ljivanj</i><par n="polj/e__n"/></e>
+<e lm="dokumentiranje"><i>dokumentiranj</i><par n="polj/e__n"/></e>
+<e lm="dolaženje"><i>dolaženj</i><par n="polj/e__n"/></e>
+<e lm="domaćinstvo"><i>domaćinst</i><par n="društ/vo__n"/></e>
+<e lm="donkihotstvo"><i>donkihotst</i><par n="društ/vo__n"/></e>
+<e lm="donošenje"><i>donošenj</i><par n="polj/e__n"/></e>
+<e lm="dostojanstvo"><i>dostojanst</i><par n="društ/vo__n"/></e>
+<e lm="drugarstvo"><i>drugarst</i><par n="društ/vo__n"/></e>
+<e lm="drvodjeljstvo"><i>drvod</i><par n="e_je__yat"/><i>ljst</i><par n="društ/vo__n"/></e>
+<e lm="ekstradiranje"><i>ekstradiranj</i><par n="polj/e__n"/></e>
+<e lm="elektroinženjerstvo"><i>elektroinženjerst</i><par n="društ/vo__n"/></e>
+<e lm="elektroinžinjerstvo"><i>elektroinžinjerst</i><par n="društ/vo__n"/></e>
+<e lm="emitiranje"><i>emitiranj</i><par n="polj/e__n"/></e>
+<e lm="emitovanje"><i>emitovanj</i><par n="polj/e__n"/></e>
+<e lm="epikurejstvo"><i>epikurejst</i><par n="društ/vo__n"/></e>
+<e lm="episkopstvo"><i>episkopst</i><par n="društ/vo__n"/></e>
+<e lm="etiketiranje"><i>etiketiranj</i><par n="polj/e__n"/></e>
+<e lm="falsificiranje"><i>falsificiranj</i><par n="polj/e__n"/></e>
+<e lm="falsifikovanje"><i>falsifikovanj</i><par n="polj/e__n"/></e>
+<e lm="fantazerstvo"><i>fantazerst</i><par n="društ/vo__n"/></e>
+<e lm="farmerstvo"><i>farmerst</i><par n="društ/vo__n"/></e>
+<e lm="favoriziranje"><i>favoriziranj</i><par n="polj/e__n"/></e>
+<e lm="finale"><i>final</i><par n="polj/e__n"/></e>
+<e lm="finaliziranje"><i>finaliziranj</i><par n="polj/e__n"/></e>
+<e lm="financiranje"><i>financiranj</i><par n="polj/e__n"/></e>
+<e lm="finansiranje"><i>finansiranj</i><par n="polj/e__n"/></e>
+<e lm="fokusiranje"><i>fokusiranj</i><par n="polj/e__n"/></e>
+<e lm="formiranje"><i>formiranj</i><par n="polj/e__n"/></e>
+<e lm="formuliranje"><i>formuliranj</i><par n="polj/e__n"/></e>
+<e lm="formulisanje"><i>formulisanj</i><par n="polj/e__n"/></e>
+<e lm="frakcionerstvo"><i>frakcionerst</i><par n="društ/vo__n"/></e>
+<e lm="funkcioniranje"><i>funkcioniranj</i><par n="polj/e__n"/></e>
+<e lm="funkcionisanje"><i>funkcionisanj</i><par n="polj/e__n"/></e>
+<e lm="garantiranje"><i>garantiranj</i><par n="polj/e__n"/></e>
+<e lm="gazdinstvo"><i>gazdinst</i><par n="društ/vo__n"/></e>
+<e lm="generiranje"><i>generiranj</i><par n="polj/e__n"/></e>
+<e lm="glasanje"><i>glasanj</i><par n="polj/e__n"/></e>
+<e lm="gledanje"><i>gledanj</i><par n="polj/e__n"/></e>
+<e lm="gonjenje"><i>gonjenj</i><par n="polj/e__n"/></e>
+<e lm="gorenje"><i>gorenj</i><par n="polj/e__n"/></e>
+<e lm="gorivo"><i>goriv</i><par n="koljen/o__n"/></e>
+<e lm="gospodarstvo"><i>gospodarst</i><par n="društ/vo__n"/></e>
+<e lm="gospodstvo"><i>gospodst</i><par n="društ/vo__n"/></e>
+<e lm="gotovanstvo"><i>gotovanst</i><par n="društ/vo__n"/></e>
+<e lm="govedarstvo"><i>govedarst</i><par n="društ/vo__n"/></e>
+<e lm="građanstvo"><i>građanst</i><par n="društ/vo__n"/></e>
+<e lm="građenje"><i>građenj</i><par n="polj/e__n"/></e>
+<e lm="grijanje"><i>grijanj</i><par n="polj/e__n"/></e>
+<e lm="grkomanstvo"><i>grkomanst</i><par n="društ/vo__n"/></e>
+<e lm="grnčarstvo"><i>grnčarst</i><par n="društ/vo__n"/></e>
+<e lm="grubijanstvo"><i>grubijanst</i><par n="društ/vo__n"/></e>
+<e lm="gubljenje"><i>gubljenj</i><par n="polj/e__n"/></e>
+<e lm="hajduštvo"><i>hajdušt</i><par n="društ/vo__n"/></e>
+<e lm="hapšenje"><i>hapšenj</i><par n="polj/e__n"/></e>
+<e lm="harmoniziranje"><i>harmoniziranj</i><par n="polj/e__n"/></e>
+<e lm="harmonizovanje"><i>harmonizovanj</i><par n="polj/e__n"/></e>
+<e lm="herojstvo"><i>herojst</i><par n="društ/vo__n"/></e>
+<e lm="hotelijerstvo"><i>hotelijerst</i><par n="društ/vo__n"/></e>
+<e lm="hrišćanstvo"><i>hrišćanst</i><par n="društ/vo__n"/></e>
+<e lm="hrvanje"><i>hrvanj</i><par n="polj/e__n"/></e>
+<e lm="huliganstvo"><i>huliganst</i><par n="društ/vo__n"/></e>
+<e lm="hvatanje"><i>hvatanj</i><par n="polj/e__n"/></e>
+<e lm="identificiranje"><i>identificiranj</i><par n="polj/e__n"/></e>
+<e lm="identifikovanje"><i>identifikovanj</i><par n="polj/e__n"/></e>
+<e lm="idolopoklonstvo"><i>idolopoklonst</i><par n="društ/vo__n"/></e>
+<e lm="ignoriranje"><i>ignoriranj</i><par n="polj/e__n"/></e>
+<e lm="ignorisanje"><i>ignorisanj</i><par n="polj/e__n"/></e>
+<e lm="ikonoborstvo"><i>ikonoborst</i><par n="društ/vo__n"/></e>
+<e lm="imenovanje"><i>imenovanj</i><par n="polj/e__n"/></e>
+<e lm="inficiranje"><i>inficiranj</i><par n="polj/e__n"/></e>
+<e lm="informiranje"><i>informiranj</i><par n="polj/e__n"/></e>
+<e lm="inostranstvo"><i>inostranst</i><par n="društ/vo__n"/></e>
+<e lm="inozemstvo"><i>inozemst</i><par n="društ/vo__n"/></e>
+<e lm="insceniranje"><i>insceniranj</i><par n="polj/e__n"/></e>
+<e lm="inspektorstvo"><i>inspektorst</i><par n="društ/vo__n"/></e>
+<e lm="instaliranje"><i>instaliranj</i><par n="polj/e__n"/></e>
+<e lm="integriranje"><i>integriranj</i><par n="polj/e__n"/></e>
+<e lm="intenziviranje"><i>intenziviranj</i><par n="polj/e__n"/></e>
+<e lm="investiranje"><i>investiranj</i><par n="polj/e__n"/></e>
+<e lm="inženjerstvo"><i>inženjerst</i><par n="društ/vo__n"/></e>
+<e lm="inžinjerstvo"><i>inžinjerst</i><par n="društ/vo__n"/></e>
+<e lm="iskapanje"><i>iskapanj</i><par n="polj/e__n"/></e>
+<e lm="isključivanje"><i>isključivanj</i><par n="polj/e__n"/></e>
+<e lm="iskopavanje"><i>iskopavanj</i><par n="polj/e__n"/></e>
+<e lm="iskorijenjivanje"><i>iskor</i><par n="e_ije__yat"/><i>njivanj</i><par n="polj/e__n"/></e>
+<e lm="iskorištavanje"><i>iskorištavanj</i><par n="polj/e__n"/></e>
+<e lm="iskustvo"><i>iskust</i><par n="društ/vo__n"/></e>
+<e lm="ispiranje"><i>ispiranj</i><par n="polj/e__n"/></e>
+<e lm="ispitivanje"><i>ispitivanj</i><par n="polj/e__n"/></e>
+<e lm="ispraćanje"><i>ispraćanj</i><par n="polj/e__n"/></e>
+<e lm="ispunjavanje"><i>ispunjavanj</i><par n="polj/e__n"/></e>
+<e lm="istjecanje"><i>ist</i><par n="i_je__yat"/><i>canj</i><par n="polj/e__n"/></e>
+<e lm="istraživanje"><i>istraživanj</i><par n="polj/e__n"/></e>
+<e lm="istrebljenje"><i>istrebljenj</i><par n="polj/e__n"/></e>
+<e lm="izazivanje"><i>izazivanj</i><par n="polj/e__n"/></e>
+<e lm="izbivanje"><i>izbivanj</i><par n="polj/e__n"/></e>
+<e lm="izbjegavanje"><i>izb</i><par n="e_je__yat"/><i>gavanj</i><par n="polj/e__n"/></e>
+<e lm="izdanje"><i>izdanj</i><par n="polj/e__n"/></e>
+<e lm="izdavanje"><i>izdavanj</i><par n="polj/e__n"/></e>
+<e lm="izdavaštvo"><i>izdavašt</i><par n="društ/vo__n"/></e>
+<e lm="izdizanje"><i>izdizanj</i><par n="polj/e__n"/></e>
+<e lm="izgnanstvo"><i>izgnanst</i><par n="društ/vo__n"/></e>
+<e lm="izjašnjavanje"><i>izjašnjavanj</i><par n="polj/e__n"/></e>
+<e lm="izlaženje"><i>izlaženj</i><par n="polj/e__n"/></e>
+<e lm="iznalaženje"><i>iznalaženj</i><par n="polj/e__n"/></e>
+<e lm="iznenađivanje"><i>iznenađivanj</i><par n="polj/e__n"/></e>
+<e lm="izobilje"><i>izobilj</i><par n="polj/e__n"/></e>
+<e lm="izoliranje"><i>izoliranj</i><par n="polj/e__n"/></e>
+<e lm="izražavanje"><i>izražavanj</i><par n="polj/e__n"/></e>
+<e lm="izučavanje"><i>izučavanj</i><par n="polj/e__n"/></e>
+<e lm="izvinjenje"><i>izvinjenj</i><par n="polj/e__n"/></e>
+<e lm="izvještavanje"><i>izv</i><par n="e_je__yat"/><i>štavanj</i><par n="polj/e__n"/></e>
+<e lm="izvođenje"><i>izvođenj</i><par n="polj/e__n"/></e>
+<e lm="izvršenje"><i>izvršenj</i><par n="polj/e__n"/></e>
+<e lm="jačanje"><i>jačanj</i><par n="polj/e__n"/></e>
+<e lm="janjičarstvo"><i>janjičarst</i><par n="društ/vo__n"/></e>
+<e lm="jedenje"><i>jedenj</i><par n="polj/e__n"/></e>
+<e lm="jednoženstvo"><i>jednoženst</i><par n="društ/vo__n"/></e>
+<e lm="jezero"><i>jezer</i><par n="koljen/o__n"/></e>
+<e lm="kamenodjeljstvo"><i>kamenod</i><par n="e_je__yat"/><i>ljst</i><par n="društ/vo__n"/></e>
+<e lm="kašnjenje"><i>kašnjenj</i><par n="polj/e__n"/></e>
+<e lm="kategoriziranje"><i>kategoriziranj</i><par n="polj/e__n"/></e>
+<e lm="kategorizovanje"><i>kategorizovanj</i><par n="polj/e__n"/></e>
+<e lm="kavalirstvo"><i>kavalirst</i><par n="društ/vo__n"/></e>
+<e lm="kavaljerstvo"><i>kavaljerst</i><par n="društ/vo__n"/></e>
+<e lm="kavgadžinstvo"><i>kavgadžinst</i><par n="društ/vo__n"/></e>
+<e lm="kažnjavanje"><i>kažnjavanj</i><par n="polj/e__n"/></e>
+<e lm="kidnapiranje"><i>kidnapiranj</i><par n="polj/e__n"/></e>
+<e lm="kiparstvo"><i>kiparst</i><par n="društ/vo__n"/></e>
+<e lm="klanje"><i>klanj</i><par n="polj/e__n"/></e>
+<e lm="klizanje"><i>klizanj</i><par n="polj/e__n"/></e>
+<e lm="klobučarstvo"><i>klobučarst</i><par n="društ/vo__n"/></e>
+<e lm="kloniranje"><i>kloniranj</i><par n="polj/e__n"/></e>
+<e lm="kmetstvo"><i>kmetst</i><par n="društ/vo__n"/></e>
+<e lm="knjigovodstvo"><i>knjigovodst</i><par n="društ/vo__n"/></e>
+<e lm="knjižarstvo"><i>knjižarst</i><par n="društ/vo__n"/></e>
+<e lm="koaliranje"><i>koaliranj</i><par n="polj/e__n"/></e>
+<e lm="kolarstvo"><i>kolarst</i><par n="društ/vo__n"/></e>
+<e lm="kolekcionarstvo"><i>kolekcionarst</i><par n="društ/vo__n"/></e>
+<e lm="kolekcionerstvo"><i>kolekcionerst</i><par n="društ/vo__n"/></e>
+<e lm="kombiniranje"><i>kombiniranj</i><par n="polj/e__n"/></e>
+<e lm="kombinovanje"><i>kombinovanj</i><par n="polj/e__n"/></e>
+<e lm="komesarstvo"><i>komesarst</i><par n="društ/vo__n"/></e>
+<e lm="kompletiranje"><i>kompletiranj</i><par n="polj/e__n"/></e>
+<e lm="kompromitiranje"><i>kompromitiranj</i><par n="polj/e__n"/></e>
+<e lm="koncesionarstvo"><i>koncesionarst</i><par n="društ/vo__n"/></e>
+<e lm="kondolidiranje"><i>kondolidiranj</i><par n="polj/e__n"/></e>
+<e lm="konfisciranje"><i>konfisciranj</i><par n="polj/e__n"/></e>
+<e lm="konfiskovanje"><i>konfiskovanj</i><par n="polj/e__n"/></e>
+<e lm="konjarstvo"><i>konjarst</i><par n="društ/vo__n"/></e>
+<e lm="konstituiranje"><i>konstituiranj</i><par n="polj/e__n"/></e>
+<e lm="konstituisanje"><i>konstituisanj</i><par n="polj/e__n"/></e>
+<e lm="kontraraspoznavanje"><i>kontraraspoznavanj</i><par n="polj/e__n"/></e>
+<e lm="kontroliranje"><i>kontroliranj</i><par n="polj/e__n"/></e>
+<e lm="konzerviranje"><i>konzerviranj</i><par n="polj/e__n"/></e>
+<e lm="konzervisanje"><i>konzervisanj</i><par n="polj/e__n"/></e>
+<e lm="koordiniranje"><i>koordiniranj</i><par n="polj/e__n"/></e>
+<e lm="korigiranje"><i>korigiranj</i><par n="polj/e__n"/></e>
+<e lm="korištenje"><i>korištenj</i><par n="polj/e__n"/></e>
+<e lm="kozarstvo"><i>kozarst</i><par n="društ/vo__n"/></e>
+<e lm="kožarstvo"><i>kožarst</i><par n="društ/vo__n"/></e>
+<e lm="kožoderstvo"><i>kožoderst</i><par n="društ/vo__n"/></e>
+<e lm="kraljevstvo"><i>kraljevst</i><par n="društ/vo__n"/></e>
+<e lm="kravarstvo"><i>kravarst</i><par n="društ/vo__n"/></e>
+<e lm="kremiranje"><i>kremiranj</i><par n="polj/e__n"/></e>
+<e lm="kretanje"><i>kretanj</i><par n="polj/e__n"/></e>
+<e lm="krilo"><i>kril</i><par n="koljen/o__n"/></e>
+<e lm="kriminaliziranje"><i>kriminaliziranj</i><par n="polj/e__n"/></e>
+<e lm="kriminalizovanje"><i>kriminalizovanj</i><par n="polj/e__n"/></e>
+<e lm="krivovjerstvo"><i>krivov</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e>
+<e lm="kršćanstvo"><i>kršćanst</i><par n="društ/vo__n"/></e>
+<e lm="kršenje"><i>kršenj</i><par n="polj/e__n"/></e>
+<e lm="krvno srodstvo"><i></i><par n="KrvnoSrodstvo__n"/></e>
+<e lm="kuharstvo"><i>kuharst</i><par n="društ/vo__n"/></e>
+<e lm="kulinarstvo"><i>kulinarst</i><par n="društ/vo__n"/></e>
+<e lm="kultiviranje"><i>kultiviranj</i><par n="polj/e__n"/></e>
+<e lm="kultivisanje"><i>kultivisanj</i><par n="polj/e__n"/></e>
+<e lm="kupovanje"><i>kupovanj</i><par n="polj/e__n"/></e>
+<e lm="lakejstvo"><i>lakejst</i><par n="društ/vo__n"/></e>
+<e lm="lezbijstvo"><i>lezbijst</i><par n="društ/vo__n"/></e>
+<e lm="liberaliziranje"><i>liberaliziranj</i><par n="polj/e__n"/></e>
+<e lm="lice"><i>lic</i><par n="polj/e__n"/></e>
+<e lm="licemjerstvo"><i>licem</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e>
+<e lm="licenciranje"><i>licenciranj</i><par n="polj/e__n"/></e>
+<e lm="ličilaštvo"><i>ličilašt</i><par n="društ/vo__n"/></e>
+<e lm="liderstvo"><i>liderst</i><par n="društ/vo__n"/></e>
+<e lm="lihvarstvo"><i>lihvarst</i><par n="društ/vo__n"/></e>
+<e lm="ljekarstvo"><i>l</i><par n="e_je__yat"/><i>karst</i><par n="društ/vo__n"/></e>
+<e lm="ljeto"><i>l</i><par n="e_je__yat"/><i>t</i><par n="koljen/o__n"/></e>
+<e lm="ljevičarstvo"><i>l</i><par n="e_je__yat"/><i>vičarst</i><par n="društ/vo__n"/></e>
+<e lm="ljubiteljstvo"><i>ljubiteljst</i><par n="društ/vo__n"/></e>
+<e lm="ljubožderstvo"><i>ljubožderst</i><par n="društ/vo__n"/></e>
+<e lm="ljudstvo"><i>ljudst</i><par n="društ/vo__n"/></e>
+<e lm="lobiranje"><i>lobiranj</i><par n="polj/e__n"/></e>
+<e lm="lociranje"><i>lociranj</i><par n="polj/e__n"/></e>
+<e lm="lončarstvo"><i>lončarst</i><par n="društ/vo__n"/></e>
+<e lm="lukavstvo"><i>lukavst</i><par n="društ/vo__n"/></e>
+<e lm="luteranstvo"><i>luteranst</i><par n="društ/vo__n"/></e>
+<e lm="majčinstvo"><i>majčinst</i><par n="društ/vo__n"/></e>
+<e lm="majstorstvo"><i>majstorst</i><par n="društ/vo__n"/></e>
+<e lm="maltretiranje"><i>maltretiranj</i><par n="polj/e__n"/></e>
+<e lm="manekenstvo"><i>manekenst</i><par n="društ/vo__n"/></e>
+<e lm="maroderstvo"><i>maroderst</i><par n="društ/vo__n"/></e>
+<e lm="masonstvo"><i>masonst</i><par n="društ/vo__n"/></e>
+<e lm="medijatorstvo"><i>medijatorst</i><par n="društ/vo__n"/></e>
+<e lm="menadžerstvo"><i>menadžerst</i><par n="društ/vo__n"/></e>
+<e lm="mentorstvo"><i>mentorst</i><par n="društ/vo__n"/></e>
+<e lm="mesarstvo"><i>mesarst</i><par n="društ/vo__n"/></e>
+<e lm="meso"><i>mes</i><par n="koljen/o__n"/></e>
+<e lm="micanje"><i>micanj</i><par n="polj/e__n"/></e>
+<e lm="miješanje"><i>m</i><par n="e_ije__yat"/><i>šanj</i><par n="polj/e__n"/></e>
+<e lm="mikrofinanciranje"><i>mikrofinanciranj</i><par n="polj/e__n"/></e>
+<e lm="mikrokreditiranje"><i>mikrokreditiranj</i><par n="polj/e__n"/></e>
+<e lm="ministarstvo"><i>ministarst</i><par n="društ/vo__n"/></e>
+<e lm="ministerstvo"><i>ministerst</i><par n="društ/vo__n"/></e>
+<e lm="mirotvorstvo"><i>mirotvorst</i><par n="društ/vo__n"/></e>
+<e lm="mirovanje"><i>mirovanj</i><par n="polj/e__n"/></e>
+<e lm="misionarstvo"><i>misionarst</i><par n="društ/vo__n"/></e>
+<e lm="misionerstvo"><i>misionerst</i><par n="društ/vo__n"/></e>
+<e lm="mišljenje"><i>mišl</i><par n="e_je__yat"/><i>nj</i><par n="polj/e__n"/></e>
+<e lm="mito"><i>mit</i><par n="koljen/o__n"/></e>
+<e lm="mljekarstvo"><i>ml</i><par n="e_je__yat"/><i>karst</i><par n="društ/vo__n"/></e>
+<e lm="mnogoženstvo"><i>mnogoženst</i><par n="društ/vo__n"/></e>
+<e lm="mnoštvo"><i>mnošt</i><par n="društ/vo__n"/></e>
+<e lm="mobiliziranje"><i>mobiliziranj</i><par n="polj/e__n"/></e>
+<e lm="modeliranje"><i>modeliranj</i><par n="polj/e__n"/></e>
+<e lm="moderniziranje"><i>moderniziranj</i><par n="polj/e__n"/></e>
+<e lm="modernizovanje"><i>modernizovanj</i><par n="polj/e__n"/></e>
+<e lm="more"><i>mor</i><par n="polj/e__n"/></e>
+<e lm="moreplovstvo"><i>moreplovst</i><par n="društ/vo__n"/></e>
+<e lm="mučenje"><i>mučenj</i><par n="polj/e__n"/></e>
+<e lm="muftijstvo"><i>muftijst</i><par n="društ/vo__n"/></e>
+<e lm="muhamedanstvo"><i>muhamedanst</i><par n="društ/vo__n"/></e>
+<e lm="muslimanstvo"><i>muslimanst</i><par n="društ/vo__n"/></e>
+<e lm="mutiranje"><i>mutiranj</i><par n="polj/e__n"/></e>
+<e lm="načelstvo"><i>načelst</i><par n="društ/vo__n"/></e>
+<e lm="nadmašivanje"><i>nadmašivanj</i><par n="polj/e__n"/></e>
+<e lm="nahođenje"><i>nahođenj</i><par n="polj/e__n"/></e>
+<e lm="nametanje"><i>nametanj</i><par n="polj/e__n"/></e>
+<e lm="namještanje"><i>nam</i><par n="e_je__yat"/><i>štanj</i><par n="polj/e__n"/></e>
+<e lm="naoružanje"><i>naoružanj</i><par n="polj/e__n"/></e>
+<e lm="naoružavanje"><i>naoružavanj</i><par n="polj/e__n"/></e>
+<e lm="napuštanje"><i>napuštanj</i><par n="polj/e__n"/></e>
+<e lm="narušavanje"><i>narušavanj</i><par n="polj/e__n"/></e>
+<e lm="nasilje"><i>nasilj</i><par n="polj/e__n"/></e>
+<e lm="nasljedstvo"><i>nasl</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
+<e lm="naznačavanje"><i>naznačavanj</i><par n="polj/e__n"/></e>
+<e lm="nefunkcioniranje"><i>nefunkcioniranj</i><par n="polj/e__n"/></e>
+<e lm="nefunkcionisanje"><i>nefunkcionisanj</i><par n="polj/e__n"/></e>
+<e lm="negodovanje"><i>negodovanj</i><par n="polj/e__n"/></e>
+<e lm="neispunjavanje"><i>neispunjavanj</i><par n="polj/e__n"/></e>
+<e lm="neizdavanje"><i>neizdavanj</i><par n="polj/e__n"/></e>
+<e lm="nejedinstvo"><i>nejedinst</i><par n="društ/vo__n"/></e>
+<e lm="nemanje"><i>nemanj</i><par n="polj/e__n"/></e>
+<e lm="neplaćanje"><i>neplaćanj</i><par n="polj/e__n"/></e>
+<e lm="nepoštovanje"><i>nepoštovanj</i><par n="polj/e__n"/></e>
+<e lm="neprijateljstvo"><i>neprijateljst</i><par n="društ/vo__n"/></e>
+<e lm="nepriznavanje"><i>nepriznavanj</i><par n="polj/e__n"/></e>
+<e lm="neutraliziranje"><i>neutraliziranj</i><par n="polj/e__n"/></e>
+<e lm="neutralizovanje"><i>neutralizovanj</i><par n="polj/e__n"/></e>
+<e lm="nevjerstvo"><i>nev</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e>
+<e lm="nezadovoljstvo"><i>nezadovoljst</i><par n="društ/vo__n"/></e>
+<e lm="nominiranje"><i>nominiranj</i><par n="polj/e__n"/></e>
+<e lm="nominovanje"><i>nominovanj</i><par n="polj/e__n"/></e>
+<e lm="normaliziranje"><i>normaliziranj</i><par n="polj/e__n"/></e>
+<e lm="normalizovanje"><i>normalizovanj</i><par n="polj/e__n"/></e>
+<e lm="nošenje"><i>nošenj</i><par n="polj/e__n"/></e>
+<e lm="novatorstvo"><i>novatorst</i><par n="društ/vo__n"/></e>
+<e lm="novinarstvo"><i>novinarst</i><par n="društ/vo__n"/></e>
+<e lm="nožarstvo"><i>nožarst</i><par n="društ/vo__n"/></e>
+<e lm="obaranje"><i>obaranj</i><par n="polj/e__n"/></e>
+<e lm="obećanje"><i>obećanj</i><par n="polj/e__n"/></e>
+<e lm="obeshrabrivanje"><i>obeshrabrivanj</i><par n="polj/e__n"/></e>
+<e lm="obezbjeđenje"><i>obezb</i><par n="e_je__yat"/><i>đenj</i><par n="polj/e__n"/></e>
+<e lm="obilježavanje"><i>ob</i><par n="e_i__yat"/><i>l</i><par n="e_je__yat"/><i>žavanj</i><par n="polj/e__n"/></e>
+<e lm="objašnjavanje"><i>objašnjavanj</i><par n="polj/e__n"/></e>
+<e lm="objavljivanje"><i>objavljivanj</i><par n="polj/e__n"/></e>
+<e lm="objedinjavanje"><i>objedinjavanj</i><par n="polj/e__n"/></e>
+<e lm="obnavljanje"><i>obnavljanj</i><par n="polj/e__n"/></e>
+<e lm="obraćanje"><i>obraćanj</i><par n="polj/e__n"/></e>
+<e lm="očekivanje"><i>očekivanj</i><par n="polj/e__n"/></e>
+<e lm="odbacivanje"><i>odbacivanj</i><par n="polj/e__n"/></e>
+<e lm="odbijanje"><i>odbijanj</i><par n="polj/e__n"/></e>
+<e lm="odlaganje"><i>odlaganj</i><par n="polj/e__n"/></e>
+<e lm="odnošenje"><i>odnošenj</i><par n="polj/e__n"/></e>
+<e lm="odobravanje"><i>odobravanj</i><par n="polj/e__n"/></e>
+<e lm="odobrenje"><i>odobrenj</i><par n="polj/e__n"/></e>
+<e lm="određivanje"><i>određivanj</i><par n="polj/e__n"/></e>
+<e lm="održavanje"><i>održavanj</i><par n="polj/e__n"/></e>
+<e lm="odstranjivanje"><i>odstranjivanj</i><par n="polj/e__n"/></e>
+<e lm="oduzimanje"><i>oduzimanj</i><par n="polj/e__n"/></e>
+<e lm="odvajanje"><i>odvajanj</i><par n="polj/e__n"/></e>
+<e lm="oficerstvo"><i>oficerst</i><par n="društ/vo__n"/></e>
+<e lm="oficirstvo"><i>oficirst</i><par n="društ/vo__n"/></e>
+<e lm="ohrabrivanje"><i>ohrabrivanj</i><par n="polj/e__n"/></e>
+<e lm="ojačavanje"><i>ojačavanj</i><par n="polj/e__n"/></e>
+<e lm="okrivljavanje"><i>okrivljavanj</i><par n="polj/e__n"/></e>
+<e lm="okupiranje"><i>okupiranj</i><par n="polj/e__n"/></e>
+<e lm="olakšavanje"><i>olakšavanj</i><par n="polj/e__n"/></e>
+<e lm="omogućavanje"><i>omogućavanj</i><par n="polj/e__n"/></e>
+<e lm="opetovanje"><i>opetovanj</i><par n="polj/e__n"/></e>
+<e lm="ophođenje"><i>ophođenj</i><par n="polj/e__n"/></e>
+<e lm="oporezivanje"><i>oporezivanj</i><par n="polj/e__n"/></e>
+<e lm="oratorstvo"><i>oratorst</i><par n="društ/vo__n"/></e>
+<e lm="oružje"><i>oružj</i><par n="polj/e__n"/></e>
+<e lm="osiguranje"><i>osiguranj</i><par n="polj/e__n"/></e>
+<e lm="osiguravanje"><i>osiguravanj</i><par n="polj/e__n"/></e>
+<e lm="osjećanje"><i>os</i><par n="e_je__yat"/><i>ćanj</i><par n="polj/e__n"/></e>
+<e lm="oslobađanje"><i>oslobađanj</i><par n="polj/e__n"/></e>
+<e lm="oslobođenje"><i>oslobođenj</i><par n="polj/e__n"/></e>
+<e lm="osnaženje"><i>osnaženj</i><par n="polj/e__n"/></e>
+<e lm="osnivanje"><i>osnivanj</i><par n="polj/e__n"/></e>
+<e lm="ostvarivanje"><i>ostvarivanj</i><par n="polj/e__n"/></e>
+<e lm="osujećenje"><i>osujećenj</i><par n="polj/e__n"/></e>
+<e lm="osvajanje"><i>osvajanj</i><par n="polj/e__n"/></e>
+<e lm="osvećivanje"><i>osvećivanj</i><par n="polj/e__n"/></e>
+<e lm="otajstvo"><i>otajst</i><par n="društ/vo__n"/></e>
+<e lm="otcjepljenje"><i>otc</i><par n="e_je__yat"/><i>pljenj</i><par n="polj/e__n"/></e>
+<e lm="otkrivanje"><i>otkrivanj</i><par n="polj/e__n"/></e>
+<e lm="otpuštanje"><i>otpuštanj</i><par n="polj/e__n"/></e>
+<e lm="otvaranje"><i>otvaranj</i><par n="polj/e__n"/></e>
+<e lm="ovčarstvo"><i>ovčarst</i><par n="društ/vo__n"/></e>
+<e lm="ovlaštenje"><i>ovlaštenj</i><par n="polj/e__n"/></e>
+<e lm="papstvo"><i>papst</i><par n="društ/vo__n"/></e>
+<e lm="parafiranje"><i>parafiranj</i><par n="polj/e__n"/></e>
+<e lm="paraliziranje"><i>paraliziranj</i><par n="polj/e__n"/></e>
+<e lm="paralizovanje"><i>paralizovanj</i><par n="polj/e__n"/></e>
+<e lm="parazitstvo"><i>parazitst</i><par n="društ/vo__n"/></e>
+<e lm="partnerstvo"><i>partnerst</i><par n="društ/vo__n"/></e>
+<e lm="pastorstvo"><i>pastorst</i><par n="društ/vo__n"/></e>
+<e lm="pčelarstvo"><i>pčelarst</i><par n="društ/vo__n"/></e>
+<e lm="pečarbarstvo"><i>pečarbarst</i><par n="društ/vo__n"/></e>
+<e lm="pečatarstvo"><i>pečatarst</i><par n="društ/vo__n"/></e>
+<e lm="pečenje"><i>pečenj</i><par n="polj/e__n"/></e>
+<e lm="pero"><i>per</i><par n="koljen/o__n"/></e>
+<e lm="pijanstvo"><i>pijanst</i><par n="društ/vo__n"/></e>
+<e lm="pijenje"><i>pijenj</i><par n="polj/e__n"/></e>
+<e lm="pionirstvo"><i>pionirst</i><par n="društ/vo__n"/></e>
+<e lm="piratstvo"><i>piratst</i><par n="društ/vo__n"/></e>
+<e lm="pisanje"><i>pisanj</i><par n="polj/e__n"/></e>
+<e lm="pisarstvo"><i>pisarst</i><par n="društ/vo__n"/></e>
+<e lm="pitanje"><i>pitanj</i><par n="polj/e__n"/></e>
+<e lm="pivo"><i>piv</i><par n="koljen/o__n"/></e>
+<e lm="pjevanje"><i>p</i><par n="e_je__yat"/><i>vanj</i><par n="polj/e__n"/></e>
+<e lm="plaćanje"><i>plaćanj</i><par n="polj/e__n"/></e>
+<e lm="planinarstvo"><i>planinarst</i><par n="društ/vo__n"/></e>
+<e lm="planiranje"><i>planiranj</i><par n="polj/e__n"/></e>
+<e lm="plebejstvo"><i>plebejst</i><par n="društ/vo__n"/></e>
+<e lm="plivanje"><i>plivanj</i><par n="polj/e__n"/></e>
+<e lm="poboljšanje"><i>poboljšanj</i><par n="polj/e__n"/></e>
+<e lm="podanstvo"><i>podanst</i><par n="društ/vo__n"/></e>
+<e lm="podlaganje"><i>podlaganj</i><par n="polj/e__n"/></e>
+<e lm="podnošenje"><i>podnošenj</i><par n="polj/e__n"/></e>
+<e lm="podsticanje"><i>podsticanj</i><par n="polj/e__n"/></e>
+<e lm="poduzeće"><i>poduzeć</i><par n="polj/e__n"/></e>
+<e lm="poganstvo"><i>poganst</i><par n="društ/vo__n"/></e>
+<e lm="poglavlje"><i>poglavlj</i><par n="polj/e__n"/></e>
+<e lm="pogoršanje"><i>pogoršanj</i><par n="polj/e__n"/></e>
+<e lm="pojavljivanje"><i>pojavljivanj</i><par n="polj/e__n"/></e>
+<e lm="pokrivanje"><i>pokrivanj</i><par n="polj/e__n"/></e>
+<e lm="pokroviteljstvo"><i>pokroviteljst</i><par n="društ/vo__n"/></e>
+<e lm="politiziranje"><i>politiziranj</i><par n="polj/e__n"/></e>
+<e lm="polubožanstvo"><i>polubožanst</i><par n="društ/vo__n"/></e>
+<e lm="pomaganje"><i>pomaganj</i><par n="polj/e__n"/></e>
+<e lm="pomilovanje"><i>pomilovanj</i><par n="polj/e__n"/></e>
+<e lm="pomirivanje"><i>pomirivanj</i><par n="polj/e__n"/></e>
+<e lm="ponašanje"><i>ponašanj</i><par n="polj/e__n"/></e>
+<e lm="ponavljanje"><i>ponavljanj</i><par n="polj/e__n"/></e>
+<e lm="poništavanje"><i>poništavanj</i><par n="polj/e__n"/></e>
+<e lm="porijeklo"><i>por</i><par n="e_ije__yat"/><i>kl</i><par n="koljen/o__n"/></e>
+<e lm="posjedovanje"><i>pos</i><par n="e_je__yat"/><i>dovanj</i><par n="polj/e__n"/></e>
+<e lm="poslastičarstvo"><i>poslastičarst</i><par n="društ/vo__n"/></e>
+<e lm="poslovanje"><i>poslovanj</i><par n="polj/e__n"/></e>
+<e lm="posmatranje"><i>posmatranj</i><par n="polj/e__n"/></e>
+<e lm="posredovanje"><i>posredovanj</i><par n="polj/e__n"/></e>
+<e lm="posredstvo"><i>posredst</i><par n="društ/vo__n"/></e>
+<e lm="postavljanje"><i>postavljanj</i><par n="polj/e__n"/></e>
+<e lm="postizanje"><i>postizanj</i><par n="polj/e__n"/></e>
+<e lm="postojanje"><i>postojanj</i><par n="polj/e__n"/></e>
+<e lm="poticanje"><i>poticanj</i><par n="polj/e__n"/></e>
+<e lm="potkopavanje"><i>potkopavanj</i><par n="polj/e__n"/></e>
+<e lm="potomstvo"><i>potomst</i><par n="društ/vo__n"/></e>
+<e lm="potpisivanje"><i>potpisivanj</i><par n="polj/e__n"/></e>
+<e lm="potvrđivanje"><i>potvrđivanj</i><par n="polj/e__n"/></e>
+<e lm="povećanje"><i>povećanj</i><par n="polj/e__n"/></e>
+<e lm="povezivanje"><i>povezivanj</i><par n="polj/e__n"/></e>
+<e lm="povišenje"><i>povišenj</i><par n="polj/e__n"/></e>
+<e lm="povlačenje"><i>povlačenj</i><par n="polj/e__n"/></e>
+<e lm="povrtarstvo"><i>povrtarst</i><par n="društ/vo__n"/></e>
+<e lm="povrtlarstvo"><i>povrtlarst</i><par n="društ/vo__n"/></e>
+<e lm="pozerstvo"><i>pozerst</i><par n="društ/vo__n"/></e>
+<e lm="poznanstvo"><i>poznanst</i><par n="društ/vo__n"/></e>
+<e lm="praćenje"><i>praćenj</i><par n="polj/e__n"/></e>
+<e lm="pranje"><i>pranj</i><par n="polj/e__n"/></e>
+<e lm="praskozorje"><i>praskozorj</i><par n="polj/e__n"/></e>
+<e lm="pravilo"><i>pravil</i><par n="koljen/o__n"/></e>
+<e lm="pravljenje"><i>pravljenj</i><par n="polj/e__n"/></e>
+<e lm="pravosuđe"><i>pravosuđ</i><par n="polj/e__n"/></e>
+<e lm="prebacivanje"><i>prebacivanj</i><par n="polj/e__n"/></e>
+<e lm="prebrojavanje"><i>prebrojavanj</i><par n="polj/e__n"/></e>
+<e lm="precrtavanje"><i>precrtavanj</i><par n="polj/e__n"/></e>
+<e lm="predavanje"><i>predavanj</i><par n="polj/e__n"/></e>
+<e lm="predgrađe"><i>predgrađ</i><par n="polj/e__n"/></e>
+<e lm="predosjećanje"><i>predos</i><par n="e_je__yat"/><i>ćanj</i><par n="polj/e__n"/></e>
+<e lm="predsjedništvo"><i>preds</i><par n="e_je__yat"/><i>dništ</i><par n="društ/vo__n"/></e>
+<e lm="predstavljanje"><i>predstavljanj</i><par n="polj/e__n"/></e>
+<e lm="predviđanje"><i>predviđanj</i><par n="polj/e__n"/></e>
+<e lm="preglašavanje"><i>preglašavanj</i><par n="polj/e__n"/></e>
+<e lm="pregrijavanje"><i>pregrijavanj</i><par n="polj/e__n"/></e>
+<e lm="pregrupiranje"><i>pregrupiranj</i><par n="polj/e__n"/></e>
+<e lm="preimenovanje"><i>preimenovanj</i><par n="polj/e__n"/></e>
+<e lm="prekidanje"><i>prekidanj</i><par n="polj/e__n"/></e>
+<e lm="premijerstvo"><i>premijerst</i><par n="društ/vo__n"/></e>
+<e lm="premještanje"><i>prem</i><par n="e_je__yat"/><i>štanj</i><par n="polj/e__n"/></e>
+<e lm="premlaćivanje"><i>premlaćivanj</i><par n="polj/e__n"/></e>
+<e lm="prenošenje"><i>prenošenj</i><par n="polj/e__n"/></e>
+<e lm="preosveštenstvo"><i>preosveštenst</i><par n="društ/vo__n"/></e>
+<e lm="preseljavanje"><i>preseljavanj</i><par n="polj/e__n"/></e>
+<e lm="prestajanje"><i>prestajanj</i><par n="polj/e__n"/></e>
+<e lm="pretraživanje"><i>pretraživanj</i><par n="polj/e__n"/></e>
+<e lm="pretsjedanje"><i>prets</i><par n="e_je__yat"/><i>danj</i><par n="polj/e__n"/></e>
+<e lm="pretsjedateljstvo"><i>prets</i><par n="e_je__yat"/><i>dateljst</i><par n="društ/vo__n"/></e>
+<e lm="pretvaranje"><i>pretvaranj</i><par n="polj/e__n"/></e>
+<e lm="preustrojstvo"><i>preustrojst</i><par n="društ/vo__n"/></e>
+<e lm="preuzimanje"><i>preuzimanj</i><par n="polj/e__n"/></e>
+<e lm="prevrtanje"><i>prevrtanj</i><par n="polj/e__n"/></e>
+<e lm="prihvaćanje"><i>prihvaćanj</i><par n="polj/e__n"/></e>
+<e lm="prijateljstvo"><i>prijateljst</i><par n="društ/vo__n"/></e>
+<e lm="priključivanje"><i>priključivanj</i><par n="polj/e__n"/></e>
+<e lm="prikrivanje"><i>prikrivanj</i><par n="polj/e__n"/></e>
+<e lm="primanje"><i>primanj</i><par n="polj/e__n"/></e>
+<e lm="pripajanje"><i>pripajanj</i><par n="polj/e__n"/></e>
+<e lm="pripremanje"><i>pripremanj</i><par n="polj/e__n"/></e>
+<e lm="prisluškivanje"><i>prisluškivanj</i><par n="polj/e__n"/></e>
+<e lm="pristanište"><i>pristaništ</i><par n="polj/e__n"/></e>
+<e lm="pristizanje"><i>pristizanj</i><par n="polj/e__n"/></e>
+<e lm="pristupanje"><i>pristupanj</i><par n="polj/e__n"/></e>
+<e lm="prisustvo"><i>prisust</i><par n="društ/vo__n"/></e>
+<e lm="privlačenje"><i>privlačenj</i><par n="polj/e__n"/></e>
+<e lm="priznanje"><i>priznanj</i><par n="polj/e__n"/></e>
+<e lm="priznavanje"><i>priznavanj</i><par n="polj/e__n"/></e>
+<e lm="prodavanje"><i>prodavanj</i><par n="polj/e__n"/></e>
+<e lm="produbljivanje"><i>produbljivanj</i><par n="polj/e__n"/></e>
+<e lm="produživanje"><i>produživanj</i><par n="polj/e__n"/></e>
+<e lm="profesorstvo"><i>profesorst</i><par n="društ/vo__n"/></e>
+<e lm="proglašavanje"><i>proglašavanj</i><par n="polj/e__n"/></e>
+<e lm="prognoziranje"><i>prognoziranj</i><par n="polj/e__n"/></e>
+<e lm="projektiranje"><i>projektiranj</i><par n="polj/e__n"/></e>
+<e lm="prokletstvo"><i>prokletst</i><par n="društ/vo__n"/></e>
+<e lm="prolongiranje"><i>prolongiranj</i><par n="polj/e__n"/></e>
+<e lm="promatranje"><i>promatranj</i><par n="polj/e__n"/></e>
+<e lm="promoviranje"><i>promoviranj</i><par n="polj/e__n"/></e>
+<e lm="pronalaženje"><i>pronalaženj</i><par n="polj/e__n"/></e>
+<e lm="proširivanje"><i>proširivanj</i><par n="polj/e__n"/></e>
+<e lm="prostranstvo"><i>prostranst</i><par n="društ/vo__n"/></e>
+<e lm="prosvjetiteljstvo"><i>prosvjetiteljst</i><par n="društ/vo__n"/></e>
+<e lm="protivljenje"><i>protivljenj</i><par n="polj/e__n"/></e>
+<e lm="protjecanje"><i>prot</i><par n="e_je__yat"/><i>canj</i><par n="polj/e__n"/></e>
+<e lm="protjerivanje"><i>prot</i><par n="e_je__yat"/><i>rivanj</i><par n="polj/e__n"/></e>
+<e lm="proučavanje"><i>proučavanj</i><par n="polj/e__n"/></e>
+<e lm="provociranje"><i>provociranj</i><par n="polj/e__n"/></e>
+<e lm="provođenje"><i>provođenj</i><par n="polj/e__n"/></e>
+<e lm="provokovanje"><i>provokovanj</i><par n="polj/e__n"/></e>
+<e lm="pucanje"><i>pucanj</i><par n="polj/e__n"/></e>
+<e lm="pušenje"><i>pušenj</i><par n="polj/e__n"/></e>
+<e lm="putovanje"><i>putovanj</i><par n="polj/e__n"/></e>
+<e lm="racionalizatorstvo"><i>racionalizatorst</i><par n="društ/vo__n"/></e>
+<e lm="racionaliziranje"><i>racionaliziranj</i><par n="polj/e__n"/></e>
+<e lm="računalo"><i>računal</i><par n="koljen/o__n"/></e>
+<e lm="računovodstvo"><i>računovodst</i><par n="društ/vo__n"/></e>
+<e lm="rafiniranje"><i>rafiniranj</i><par n="polj/e__n"/></e>
+<e lm="rangiranje"><i>rangiranj</i><par n="polj/e__n"/></e>
+<e lm="raščišćavanje"><i>raščišćavanj</i><par n="polj/e__n"/></e>
+<e lm="raspisivanje"><i>raspisivanj</i><par n="polj/e__n"/></e>
+<e lm="raspolaganje"><i>raspolaganj</i><par n="polj/e__n"/></e>
+<e lm="raspoređivanje"><i>raspoređivanj</i><par n="polj/e__n"/></e>
+<e lm="rastrojstvo"><i>rastrojst</i><par n="društ/vo__n"/></e>
+<e lm="ratarstvo"><i>ratarst</i><par n="društ/vo__n"/></e>
+<e lm="ratificiranje"><i>ratificiranj</i><par n="polj/e__n"/></e>
+<e lm="ratifikovanje"><i>ratifikovanj</i><par n="polj/e__n"/></e>
+<e lm="razaznavanje"><i>razaznavanj</i><par n="polj/e__n"/></e>
+<e lm="razbijanje"><i>razbijanj</i><par n="polj/e__n"/></e>
+<e lm="razgledavanje"><i>razgledavanj</i><par n="polj/e__n"/></e>
+<e lm="razjašnjivanje"><i>razjašnjivanj</i><par n="polj/e__n"/></e>
+<e lm="razmnožavanje"><i>razmnožavanj</i><par n="polj/e__n"/></e>
+<e lm="razočaranje"><i>razočaranj</i><par n="polj/e__n"/></e>
+<e lm="razrješavanje"><i>razr</i><par n="e_je__yat"/><i>šavanj</i><par n="polj/e__n"/></e>
+<e lm="razumijevanje"><i>razum</i><par n="e_ije__yat"/><i>vanj</i><par n="polj/e__n"/></e>
+<e lm="razvijanje"><i>razvijanj</i><par n="polj/e__n"/></e>
+<e lm="reakcionarstvo"><i>reakcionarst</i><par n="društ/vo__n"/></e>
+<e lm="reakcionerstvo"><i>reakcionerst</i><par n="društ/vo__n"/></e>
+<e lm="realiziranje"><i>realiziranj</i><par n="polj/e__n"/></e>
+<e lm="realizovanje"><i>realizovanj</i><par n="polj/e__n"/></e>
+<e lm="recikliranje"><i>recikliranj</i><par n="polj/e__n"/></e>
+<e lm="refinanciranje"><i>refinanciranj</i><par n="polj/e__n"/></e>
+<e lm="reformiranje"><i>reformiranj</i><par n="polj/e__n"/></e>
+<e lm="regentstvo"><i>regentst</i><par n="društ/vo__n"/></e>
+<e lm="registriranje"><i>registriranj</i><par n="polj/e__n"/></e>
+<e lm="registrovanje"><i>registrovanj</i><par n="polj/e__n"/></e>
+<e lm="regrutiranje"><i>regrutiranj</i><par n="polj/e__n"/></e>
+<e lm="regrutovanje"><i>regrutovanj</i><par n="polj/e__n"/></e>
+<e lm="reguliranje"><i>reguliranj</i><par n="polj/e__n"/></e>
+<e lm="regulisanje"><i>regulisanj</i><par n="polj/e__n"/></e>
+<e lm="reintegriranje"><i>reintegriranj</i><par n="polj/e__n"/></e>
+<e lm="reketiranje"><i>reketiranj</i><par n="polj/e__n"/></e>
+<e lm="reklamiranje"><i>reklamiranj</i><par n="polj/e__n"/></e>
+<e lm="renegatstvo"><i>renegatst</i><par n="društ/vo__n"/></e>
+<e lm="renoviranje"><i>renoviranj</i><par n="polj/e__n"/></e>
+<e lm="rentijerstvo"><i>rentijerst</i><par n="društ/vo__n"/></e>
+<e lm="reorganiziranje"><i>reorganiziranj</i><par n="polj/e__n"/></e>
+<e lm="repatriranje"><i>repatriranj</i><par n="polj/e__n"/></e>
+<e lm="reportestvo"><i>reportest</i><par n="društ/vo__n"/></e>
+<e lm="restartovanje"><i>restartovanj</i><par n="polj/e__n"/></e>
+<e lm="restauriranje"><i>restauriranj</i><par n="polj/e__n"/></e>
+<e lm="restrukturiranje"><i>restrukturiranj</i><par n="polj/e__n"/></e>
+<e lm="restrukturisanje"><i>restrukturisanj</i><par n="polj/e__n"/></e>
+<e lm="revidiranje"><i>revidiranj</i><par n="polj/e__n"/></e>
+<e lm="revolucionarstvo"><i>revolucionarst</i><par n="društ/vo__n"/></e>
+<e lm="revolucionerstvo"><i>revolucionerst</i><par n="društ/vo__n"/></e>
+<e lm="rezbarstvo"><i>rezbarst</i><par n="društ/vo__n"/></e>
+<e lm="ribarstvo"><i>ribarst</i><par n="društ/vo__n"/></e>
+<e lm="rješavanje"><i>r</i><par n="e_je__yat"/><i>šavanj</i><par n="polj/e__n"/></e>
+<e lm="rješenje"><i>r</i><par n="e_je__yat"/><i>šenj</i><par n="polj/e__n"/></e>
+<e lm="robovlasništvo"><i>robovlasništ</i><par n="društ/vo__n"/></e>
+<e lm="roditeljstvo"><i>roditeljst</i><par n="društ/vo__n"/></e>
+<e lm="ropstvo"><i>ropst</i><par n="društ/vo__n"/></e>
+<e lm="roždestvo"><i>roždest</i><par n="društ/vo__n"/></e>
+<e lm="rudarstvo"><i>rudarst</i><par n="društ/vo__n"/></e>
+<e lm="rukovođenje"><i>rukovođenj</i><par n="polj/e__n"/></e>
+<e lm="rukovodstvo"><i>rukovodst</i><par n="društ/vo__n"/></e>
+<e lm="rusofobstvo"><i>rusofobst</i><par n="društ/vo__n"/></e>
+<e lm="rvanje"><i>rvanj</i><par n="polj/e__n"/></e>
+<e lm="sabiranje"><i>sabiranj</i><par n="polj/e__n"/></e>
+<e lm="sablažnjavanje"><i>sablažnjavanj</i><par n="polj/e__n"/></e>
+<e lm="saboterstvo"><i>saboterst</i><par n="društ/vo__n"/></e>
+<e lm="samaritanstvo"><i>samaritanst</i><par n="društ/vo__n"/></e>
+<e lm="samoopredjeljivanje"><i>samoopred</i><par n="e_je__yat"/><i>ljivanj</i><par n="polj/e__n"/></e>
+<e lm="samoraspuštanje"><i>samoraspuštanj</i><par n="polj/e__n"/></e>
+<e lm="samoubistvo"><i>samoubist</i><par n="društ/vo__n"/></e>
+<e lm="samoubojstvo"><i>samoubojst</i><par n="društ/vo__n"/></e>
+<e lm="samozadovoljstvo"><i>samozadovoljst</i><par n="društ/vo__n"/></e>
+<e lm="saopćenje"><i>saopćenj</i><par n="polj/e__n"/></e>
+<e lm="saopštenje"><i>saopštenj</i><par n="polj/e__n"/></e>
+<e lm="saosjećanje"><i>saos</i><par n="e_je__yat"/><i>ćanj</i><par n="polj/e__n"/></e>
+<e lm="šarlatanstvo"><i>šarlatanst</i><par n="društ/vo__n"/></e>
+<e lm="saslušanje"><i>saslušanj</i><par n="polj/e__n"/></e>
+<e lm="sastajanje"><i>sastajanj</i><par n="polj/e__n"/></e>
+<e lm="sastavljanje"><i>sastavljanj</i><par n="polj/e__n"/></e>
+<e lm="savršenstvo"><i>savršenst</i><par n="društ/vo__n"/></e>
+<e lm="sekretarstvo"><i>sekretarst</i><par n="društ/vo__n"/></e>
+<e lm="selo"><i>sel</i><par n="koljen/o__n"/></e>
+<e lm="sestrinstvo"><i>sestrinst</i><par n="društ/vo__n"/></e>
+<e lm="shvaćanje"><i>shvaćanj</i><par n="polj/e__n"/></e>
+<e lm="silovanje"><i>silovanj</i><par n="polj/e__n"/></e>
+<e lm="simuliranje"><i>simuliranj</i><par n="polj/e__n"/></e>
+<e lm="sinoubistvo"><i>sinoubist</i><par n="društ/vo__n"/></e>
+<e lm="sinoubojstvo"><i>sinoubojst</i><par n="društ/vo__n"/></e>
+<e lm="širenje"><i>širenj</i><par n="polj/e__n"/></e>
+<e lm="sjećanje"><i>s</i><par n="e_je__yat"/><i>ćanj</i><par n="polj/e__n"/></e>
+<e lm="sjedište"><i>s</i><par n="e_je__yat"/><i>dišt</i><par n="polj/e__n"/></e>
+<e lm="sjemenarstvo"><i>s</i><par n="e_je__yat"/><i>menarst</i><par n="društ/vo__n"/></e>
+<e lm="skijanje"><i>skijanj</i><par n="polj/e__n"/></e>
+<e lm="skladište"><i>skladišt</i><par n="polj/e__n"/></e>
+<e lm="skladištenje"><i>skladištenj</i><par n="polj/e__n"/></e>
+<e lm="skrbništvo"><i>skrbništ</i><par n="društ/vo__n"/></e>
+<e lm="skrivanje"><i>skrivanj</i><par n="polj/e__n"/></e>
+<e lm="skupljanje"><i>skupljanj</i><par n="polj/e__n"/></e>
+<e lm="slastičarstvo"><i>slastičarst</i><par n="društ/vo__n"/></e>
+<e lm="slavenofilstvo"><i>slavenofilst</i><par n="društ/vo__n"/></e>
+<e lm="slavenofobstvo"><i>slavenofobst</i><par n="društ/vo__n"/></e>
+<e lm="slovenofilstvo"><i>slovenofilst</i><par n="društ/vo__n"/></e>
+<e lm="slovenofobstvo"><i>slovenofobst</i><par n="društ/vo__n"/></e>
+<e lm="slušanje"><i>slušanj</i><par n="polj/e__n"/></e>
+<e lm="smaknuće"><i>smaknuć</i><par n="polj/e__n"/></e>
+<e lm="smanjenje"><i>smanjenj</i><par n="polj/e__n"/></e>
+<e lm="smirenje"><i>smirenj</i><par n="polj/e__n"/></e>
+<e lm="snabdijevanje"><i>snabd</i><par n="e_ije__yat"/><i>vanj</i><par n="polj/e__n"/></e>
+<e lm="snebivanje"><i>snebivanj</i><par n="polj/e__n"/></e>
+<e lm="snimanje"><i>snimanj</i><par n="polj/e__n"/></e>
+<e lm="snobovstvo"><i>snobovst</i><par n="društ/vo__n"/></e>
+<e lm="sortiranje"><i>sortiranj</i><par n="polj/e__n"/></e>
+<e lm="spajanje"><i>spajanj</i><par n="polj/e__n"/></e>
+<e lm="spasavanje"><i>spasavanj</i><par n="polj/e__n"/></e>
+<e lm="spašavanje"><i>spašavanj</i><par n="polj/e__n"/></e>
+<e lm="špijuniranje"><i>špijuniranj</i><par n="polj/e__n"/></e>
+<e lm="špioniranje"><i>špioniranj</i><par n="polj/e__n"/></e>
+<e lm="spisateljstvo"><i>spisateljst</i><par n="društ/vo__n"/></e>
+<e lm="spominjanje"><i>spominjanj</i><par n="polj/e__n"/></e>
+<e lm="sponzorstvo"><i>sponzorst</i><par n="društ/vo__n"/></e>
+<e lm="spoticanje"><i>spoticanj</i><par n="polj/e__n"/></e>
+<e lm="sprečavanje"><i>sprečavanj</i><par n="polj/e__n"/></e>
+<e lm="spremanje"><i>spremanj</i><par n="polj/e__n"/></e>
+<e lm="srbofilstvo"><i>srbofilst</i><par n="društ/vo__n"/></e>
+<e lm="srbofobstvo"><i>srbofobst</i><par n="društ/vo__n"/></e>
+<e lm="srbpmanstvo"><i>srbpmanst</i><par n="društ/vo__n"/></e>
+<e lm="srce"><i>src</i><par n="polj/e__n"/></e>
+<e lm="sredstvo"><i>sredst</i><par n="društ/vo__n"/></e>
+<e lm="staklarstvo"><i>staklarst</i><par n="društ/vo__n"/></e>
+<e lm="standardiziranje"><i>standardiziranj</i><par n="polj/e__n"/></e>
+<e lm="standardizovanje"><i>standardizovanj</i><par n="polj/e__n"/></e>
+<e lm="stanovništvo"><i>stanovništ</i><par n="društ/vo__n"/></e>
+<e lm="starateljstvo"><i>starateljst</i><par n="društ/vo__n"/></e>
+<e lm="starenje"><i>starenj</i><par n="polj/e__n"/></e>
+<e lm="stavljanje"><i>stavljanj</i><par n="polj/e__n"/></e>
+<e lm="stihoklepstvo"><i>stihoklepst</i><par n="društ/vo__n"/></e>
+<e lm="stihotvorstvo"><i>stihotvorst</i><par n="društ/vo__n"/></e>
+<e lm="stimuliranje"><i>stimuliranj</i><par n="polj/e__n"/></e>
+<e lm="stolarstvo"><i>stolarst</i><par n="društ/vo__n"/></e>
+<e lm="stopalo"><i>stopal</i><par n="koljen/o__n"/></e>
+<e lm="stradanje"><i>stradanj</i><par n="polj/e__n"/></e>
+<e lm="strpljenje"><i>strpljenj</i><par n="polj/e__n"/></e>
+<e lm="stvaranje"><i>stvaranj</i><par n="polj/e__n"/></e>
+<e lm="suđenje"><i>suđenj</i><par n="polj/e__n"/></e>
+<e lm="sudjelovanje"><i>sud</i><par n="e_je__yat"/><i>lovanj</i><par n="polj/e__n"/></e>
+<e lm="sudstvo"><i>sudst</i><par n="društ/vo__n"/></e>
+<e lm="suflerstvo"><i>suflerst</i><par n="društ/vo__n"/></e>
+<e lm="sumnjičenje"><i>sumnjičenj</i><par n="polj/e__n"/></e>
+<e lm="suočenje"><i>suočenj</i><par n="polj/e__n"/></e>
+<e lm="suosjećanje"><i>suos</i><par n="e_je__yat"/><i>ćanj</i><par n="polj/e__n"/></e>
+<e lm="suprotstavljanje"><i>suprotstavljanj</i><par n="polj/e__n"/></e>
+<e lm="susjedstvo"><i>sus</i><par n="e_je__yat"/><i>dst</i><par n="društ/vo__n"/></e>
+<e lm="suspendiranje"><i>suspendiranj</i><par n="polj/e__n"/></e>
+<e lm="svećenstvo"><i>svećenst</i><par n="društ/vo__n"/></e>
+<e lm="sveštenstvo"><i>sveštenst</i><par n="društ/vo__n"/></e>
+<e lm="svinjarstvo"><i>svinjarst</i><par n="društ/vo__n"/></e>
+<e lm="svjedočanstvo"><i>sv</i><par n="e_je__yat"/><i>dočanst</i><par n="društ/vo__n"/></e>
+<e lm="svjedočenje"><i>sv</i><par n="e_je__yat"/><i>dočenj</i><par n="polj/e__n"/></e>
+<e lm="tajništvo"><i>tajništ</i><par n="društ/vo__n"/></e>
+<e lm="tane"><i>tan</i><par n="polj/e__n"/></e>
+<e lm="teroriziranje"><i>teroriziranj</i><par n="polj/e__n"/></e>
+<e lm="testiranje"><i>testiranj</i><par n="polj/e__n"/></e>
+<e lm="tiranstvo"><i>tiranst</i><par n="društ/vo__n"/></e>
+<e lm="tokarstvo"><i>tokarst</i><par n="društ/vo__n"/></e>
+<e lm="toleriranje"><i>toleriranj</i><par n="polj/e__n"/></e>
+<e lm="tolerisanje"><i>tolerisanj</i><par n="polj/e__n"/></e>
+<e lm="topioničarstvo"><i>topioničarst</i><par n="društ/vo__n"/></e>
+<e lm="topljenje"><i>topljenj</i><par n="polj/e__n"/></e>
+<e lm="tovarenje"><i>tovarenj</i><par n="polj/e__n"/></e>
+<e lm="transformiranje"><i>transformiranj</i><par n="polj/e__n"/></e>
+<e lm="transportiranje"><i>transportiranj</i><par n="polj/e__n"/></e>
+<e lm="traženje"><i>traženj</i><par n="polj/e__n"/></e>
+<e lm="tromjesečje"><i>trom</i><par n="e_je__yat"/><i>sečj</i><par n="polj/e__n"/></e>
+<e lm="trošenje"><i>trošenj</i><par n="polj/e__n"/></e>
+<e lm="tužilaštvo"><i>tužilašt</i><par n="društ/vo__n"/></e>
+<e lm="tvrđenje"><i>tvrđenj</i><par n="polj/e__n"/></e>
+<e lm="ubijanje"><i>ubijanj</i><par n="polj/e__n"/></e>
+<e lm="ubojstvo"><i>ubojst</i><par n="društ/vo__n"/></e>
+<e lm="ubrzavanje"><i>ubrzavanj</i><par n="polj/e__n"/></e>
+<e lm="učenje"><i>učenj</i><par n="polj/e__n"/></e>
+<e lm="učestvo"><i>učest</i><par n="društ/vo__n"/></e>
+<e lm="učilište"><i>učilišt</i><par n="polj/e__n"/></e>
+<e lm="učiteljstvo"><i>učiteljst</i><par n="društ/vo__n"/></e>
+<e lm="udruženje"><i>udruženj</i><par n="polj/e__n"/></e>
+<e lm="udžbenikarstvo"><i>udžbenikarst</i><par n="društ/vo__n"/></e>
+<e lm="ugrođavanje"><i>ugrođavanj</i><par n="polj/e__n"/></e>
+<e lm="uhićenje"><i>uhićenj</i><par n="polj/e__n"/></e>
+<e lm="ukidanje"><i>ukidanj</i><par n="polj/e__n"/></e>
+<e lm="uklanjanje"><i>uklanjanj</i><par n="polj/e__n"/></e>
+<e lm="uključivanje"><i>uključivanj</i><par n="polj/e__n"/></e>
+<e lm="ulaganje"><i>ulaganj</i><par n="polj/e__n"/></e>
+<e lm="uljepšavanje"><i>ul</i><par n="e_je__yat"/><i>pšavanj</i><par n="polj/e__n"/></e>
+<e lm="umirovljenje"><i>umirovljenj</i><par n="polj/e__n"/></e>
+<e lm="umivanje"><i>umivanj</i><par n="polj/e__n"/></e>
+<e lm="unapređivanje"><i>unapređivanj</i><par n="polj/e__n"/></e>
+<e lm="uništavanje"><i>uništavanj</i><par n="polj/e__n"/></e>
+<e lm="upozorenje"><i>upozorenj</i><par n="polj/e__n"/></e>
+<e lm="upravljanje"><i>upravljanj</i><par n="polj/e__n"/></e>
+<e lm="urarstvo"><i>urarst</i><par n="društ/vo__n"/></e>
+<e lm="usaglašavanje"><i>usaglašavanj</i><par n="polj/e__n"/></e>
+<e lm="uspostavljanje"><i>uspostavljanj</i><par n="polj/e__n"/></e>
+<e lm="ustrojstvo"><i>ustrojst</i><par n="društ/vo__n"/></e>
+<e lm="usuglašavanje"><i>usuglašavanj</i><par n="polj/e__n"/></e>
+<e lm="usvajanje"><i>usvajanj</i><par n="polj/e__n"/></e>
+<e lm="utvrđivanje"><i>utvrđivanj</i><par n="polj/e__n"/></e>
+<e lm="uvjeravanje"><i>uv</i><par n="e_je__yat"/><i>ravanj</i><par n="polj/e__n"/></e>
+<e lm="uvođenje"><i>uvođenj</i><par n="polj/e__n"/></e>
+<e lm="uzimanje"><i>uzimanj</i><par n="polj/e__n"/></e>
+<e lm="vakciniranje"><i>vakciniranj</i><par n="polj/e__n"/></e>
+<e lm="varvarstvo"><i>varvarst</i><par n="društ/vo__n"/></e>
+<e lm="vazduhoplovstvo"><i>vazduhoplovst</i><par n="društ/vo__n"/></e>
+<e lm="vegetarijanstvo"><i>vegetarijanst</i><par n="društ/vo__n"/></e>
+<e lm="veličanstvo"><i>veličanst</i><par n="društ/vo__n"/></e>
+<e lm="veterinarstvo"><i>veterinarst</i><par n="društ/vo__n"/></e>
+<e lm="vezirstvo"><i>vezirst</i><par n="društ/vo__n"/></e>
+<e lm="vinarstvo"><i>vinarst</i><par n="društ/vo__n"/></e>
+<e lm="vinogradarstvo"><i>vinogradarst</i><par n="društ/vo__n"/></e>
+<e lm="visočanstvo"><i>visočanst</i><par n="društ/vo__n"/></e>
+<e lm="visokopreosveštenstvo"><i>visokopreosveštenst</i><par n="društ/vo__n"/></e>
+<e lm="viteštvo"><i>vitešt</i><par n="društ/vo__n"/></e>
+<e lm="vizionarstvo"><i>vizionarst</i><par n="društ/vo__n"/></e>
+<e lm="vjerolomstvo"><i>v</i><par n="e_je__yat"/><i>rolomst</i><par n="društ/vo__n"/></e>
+<e lm="voajerstvo"><i>voajerst</i><par n="društ/vo__n"/></e>
+<e lm="voćarstvo"><i>voćarst</i><par n="društ/vo__n"/></e>
+<e lm="voće"><i>voć</i><par n="polj/e__n"/></e>
+<e lm="vođenje"><i>vođenj</i><par n="polj/e__n"/></e>
+<e lm="vodstvo"><i>vodst</i><par n="društ/vo__n"/></e>
+<e lm="vojaštvo"><i>vojašt</i><par n="društ/vo__n"/></e>
+<e lm="vojvodstvo"><i>vojvodst</i><par n="društ/vo__n"/></e>
+<e lm="vozilo"><i>vozil</i><par n="koljen/o__n"/></e>
+<e lm="vraćanje"><i>vraćanj</i><par n="polj/e__n"/></e>
+<e lm="vršenje"><i>vršenj</i><par n="polj/e__n"/></e>
+<e lm="vunarstvo"><i>vunarst</i><par n="društ/vo__n"/></e>
+<e lm="zabavljanje"><i>zabavljanj</i><par n="polj/e__n"/></e>
+<e lm="zadovoljavanje"><i>zadovoljavanj</i><par n="polj/e__n"/></e>
+<e lm="zadovoljstvo"><i>zadovoljst</i><par n="društ/vo__n"/></e>
+<e lm="zadržavanje"><i>zadržavanj</i><par n="polj/e__n"/></e>
+<e lm="zakonodavstvo"><i>zakonodavst</i><par n="društ/vo__n"/></e>
+<e lm="zakrpavanje"><i>zakrpavanj</i><par n="polj/e__n"/></e>
+<e lm="žaljenje"><i>žaljenj</i><par n="polj/e__n"/></e>
+<e lm="zamrzavanje"><i>zamrzavanj</i><par n="polj/e__n"/></e>
+<e lm="zanatstvo"><i>zanatst</i><par n="društ/vo__n"/></e>
+<e lm="zanemarivanje"><i>zanemarivanj</i><par n="polj/e__n"/></e>
+<e lm="zaokruživanje"><i>zaokruživanj</i><par n="polj/e__n"/></e>
+<e lm="zaplašivanje"><i>zaplašivanj</i><par n="polj/e__n"/></e>
+<e lm="zaposlenje"><i>zaposlenj</i><par n="polj/e__n"/></e>
+<e lm="zapošljavanje"><i>zapošljavanj</i><par n="polj/e__n"/></e>
+<e lm="zapovjedništvo"><i>zapov</i><par n="e_je__yat"/><i>dništ</i><par n="društ/vo__n"/></e>
+<e lm="zaražavanje"><i>zaražavanj</i><par n="polj/e__n"/></e>
+<e lm="zatajenje"><i>zatajenj</i><par n="polj/e__n"/></e>
+<e lm="zatopljivanje"><i>zatopljivanj</i><par n="polj/e__n"/></e>
+<e lm="zatvaranje"><i>zatvaranj</i><par n="polj/e__n"/></e>
+<e lm="završavanje"><i>završavanj</i><par n="polj/e__n"/></e>
+<e lm="zaživljenje"><i>zaživljenj</i><par n="polj/e__n"/></e>
+<e lm="zdravlje"><i>zdravlj</i><par n="polj/e__n"/></e>
+<e lm="zdravstvo"><i>zdravst</i><par n="društ/vo__n"/></e>
+<e lm="zemljište"><i>zemljišt</i><par n="polj/e__n"/></e>
+<e lm="ženskarstvo"><i>ženskarst</i><par n="društ/vo__n"/></e>
+<e lm="zgražanje"><i>zgražanj</i><par n="polj/e__n"/></e>
+<e lm="zidarstvo"><i>zidarst</i><par n="društ/vo__n"/></e>
+<e lm="žiteljstvo"><i>žiteljst</i><par n="društ/vo__n"/></e>
+<e lm="življenje"><i>življenj</i><par n="polj/e__n"/></e>
+<e lm="zlatarstvo"><i>zlatarst</i><par n="društ/vo__n"/></e>
+<e lm="zlato"><i>zlat</i><par n="koljen/o__n"/></e>
+<e lm="značenje"><i>značenj</i><par n="polj/e__n"/></e>
+<e lm="znanje"><i>znanj</i><par n="polj/e__n"/></e>
+<e lm="znojenje"><i>znojenj</i><par n="polj/e__n"/></e>
+<e lm="žonglerstvo"><i>žonglerst</i><par n="društ/vo__n"/></e>
+<e lm="zubarstvo"><i>zubarst</i><par n="društ/vo__n"/></e>
+<e lm="zvjerstvo"><i>zv</i><par n="e_je__yat"/><i>rst</i><par n="društ/vo__n"/></e>
 <e lm="koljeno"><i>kol</i><par n="e_je__yat"/><i>n</i><par n="koljen/o__n"/></e>
 <e lm="mjesto"><i>m</i><par n="e_je__yat"/><i>st</i><par n="koljen/o__n"/></e>
+<e lm="kupatilo"><i>kupatil</i><par n="koljen/o__n"/></e>
+<e lm="vapno"><i>vapn</i><par n="koljen/o__n"/></e>
 <e lm="jedro"><i>jed</i><par n="jed/ro__n"/></e>
 <e lm="rebro"><i>reb</i><par n="jed/ro__n"/></e>
+<e lm="dobro"><i>dob</i><par n="jed/ro__n"/></e>
+<e lm="jutro"><i>jut</i><par n="jed/ro__n"/></e>
 <e lm="drvo__tree"><i>drv</i><par n="drv/o__tree__n"/></e>
 <e lm="drvo__wood"><i>drv</i><par n="drv/o__wood__n"/></e>
 <e lm="uho__anatomy"><i>u</i><par n="u/ho__anatomy__n"/></e>
 <e lm="uho__non__anatomy"><i>u</i><par n="u/ho__non__anatomy__n"/></e>
 <e lm="oko__non__anatomy"><i>o</i><par n="o/ko__non__anatomy__n"/></e>
+<e lm="oko__anatomy"><i>o</i><par n="o/ko__anatomy__n"/></e>
 <e lm="nebo"><i>neb</i><par n="neb/o__n"/></e>
 <e lm="kolo"><i>kol</i><par n="neb/o__n"/></e>
 <e lm="čudo"><i>čud</i><par n="neb/o__n"/></e>
-<e lm="kupatilo"><i>kupatil</i><par n="neb/o__n"/></e>
-<e lm="vapno"><i>vapn</i><par n="neb/o__n"/></e>
 <e lm="tijelo"><i>t</i><par n="e_ije__yat"/><i>l</i><par n="neb/o__n"/></e>
 <e lm="polje"><i>polj</i><par n="polj/e__n"/></e>
 <e lm="manevriranje"><i>manevriranj</i><par n="polj/e__n"/></e>
@@ -40912,6 +41786,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="sunce"><i>sun</i><par n="sun/ce__n"/></e>
 <e lm="pluća"><i>pluć</i><par n="pluć/e__n"/></e><!--The singular is used very rarely-->
 <e lm="tele"><i>tel</i><par n="tel/e__n"/></e>
+<e lm="momče"><i>momč</i><par n="tel/e__n"/></e>
+<e lm="jaje"><i>jaj</i><par n="tel/e__n"/></e>
+<e lm="dijete"><i>d</i><par n="e_ije__yat"/><i>t</i><par n="tel/e__n"/></e>
 <e lm="kumče"><i>tel</i><par n="tel/e__n"/></e>
 <e lm="uže"><i>už</i><par n="tel/e__n"/></e>
 <e lm="janje"><i>janj</i><par n="tel/e__n"/></e>
@@ -40945,7 +41822,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ostrvo"><i>ostr</i><par n="društ/vo__n"/></e>
 <e lm="veleposlanstvo"><i>veleposlanst</i><par n="društ/vo__n"/></e>
 <e lm="prvenstvo"><i>prvenst</i><par n="društ/vo__n"/></e>
-<e lm="slovo"><i>slo</i><par n="društ/vo__n"/></e>
+<e lm="slovo"><i>slo</i><par n="koljen/o__n"/></e>
 <e lm="siromaštvo"><i>siromašt</i><par n="društ/vo__n"/></e>
 <e lm="gostoprimstvo"><i>gostoprimst</i><par n="društ/vo__n"/></e>
 <e lm="bratoubistvo"><i>bratoubist</i><par n="društ/vo__n"/></e>
@@ -40955,6 +41832,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="dno"><i>d</i><par n="d/no__n"/></e>
 <e lm="stegno"><i>steg</i><par n="d/no__n"/></e>
 <e lm="platno"><i>plat</i><par n="d/no__n"/></e>
+<e lm="vlakno"><i>vlak</i><par n="d/no__n"/></e>
 <e lm="pismo"><i>pis</i><par n="pis/mo__n"/></e>
 <!--end Neuter nouns -->
 <!--end Nouns -->
