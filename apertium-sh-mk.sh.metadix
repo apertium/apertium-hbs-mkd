@@ -152,94 +152,174 @@ I have added those for the sake of analysis -->
 <!--Yat paradigms-->
    <pardef n="e_e__yat"> <!--this is to make life easier -->
       <group alt="sh">
-        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>e</l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="i_je__yat">
       <group alt="sh">
-        <e><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e r="LR"><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e r="LR"><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>i</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
-        <e r="LR"><p><l>je</l><r><group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
+        <e r="LR"><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">i</group></r></p></e>
         <e r="RL"><p><l>i</l><r><group var="ek">je</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_je__yat">
       <group alt="sh">
-        <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>je</l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>je</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
         <e r="RL"><p><l>e</l><r><group var="ek">je</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_ije__yat">
       <group alt="sh">
-        <e><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>ije</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>ije</l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>ije</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_i__yat"> 
       <group alt="sh">
-        <e><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l>e</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l>i</l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l>e</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l>i</l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
 <!--this is pure forbidden magic -->
@@ -318,74 +398,138 @@ I have added those for the sake of analysis -->
 
    <pardef n="e_e_right__yat"> <!--this is to make life easier -->
       <group alt="sh">
-        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">e</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_je_right__yat">
       <group alt="sh">
-        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">je</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_ije_right__yat">
       <group alt="sh">
-        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">ije</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
     <pardef n="e_i_right__yat"> 
       <group alt="sh">
-        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_BS">
-        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_HR">
-        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
       <group alt="sh_SR">
-        <e><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
-        <e r="LR"><p><l></l><r><group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
+        <e r="LR"><p><l></l><r>
+	<group var="slavist">ě</group>
+	<group var="ijek">i</group><group var="ek">e</group></r></p></e>
       </group>
     </pardef>
 <!--end Yat paradigms-->
@@ -13494,7 +13638,9 @@ after prepositions-->
        <e><p><l>o</l><r><s n="mi"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
       <e r="LR"><p><l>o</l><r><s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
     </group>      
-    <group var="ijek">            
+    
+	<group var="slavist">ě</group>
+	<group var="ijek">            
        <e><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
        <e><p><l>l</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -13503,7 +13649,9 @@ after prepositions-->
     </group>      
 </group>      
 <group alt="sh_BS"> 
-    <group var="ijek">            
+    
+	<group var="slavist">ě</group>
+	<group var="ijek">            
        <e><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
        <e><p><l>l</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -13512,7 +13660,9 @@ after prepositions-->
     </group>      
 </group>      
 <group alt="sh_HR">
-    <group var="ijek">            
+    
+	<group var="slavist">ě</group>
+	<group var="ijek">            
        <e><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>l</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
        <e><p><l>l</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -39682,7 +39832,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="usporedba"><i>usporedb</i><par n="žen/a__n"/></e>
 <e lm="stotina"><i>stotin</i><par n="žen/a__n"/></e>
 <e lm="trava"><i>trav</i><par n="žen/a__n"/></e>
-<e lm="zvjezda"><i>zv</i><par n="e_je__yat"/><i>zd</i><par n="žen/a__n"/></e>
+<e lm="zvijezda"><i>zv</i><par n="e_ije__yat"/><i>zd</i><par n="žen/a__n"/></e>
 <e lm="agenda"><i>agend</i><par n="žen/a__n"/></e>
 <e lm="autokracija"><i>autokracij</i><par n="žen/a__n"/></e>
 <e lm="autokratija"><i>autokratij</i><par n="žen/a__n"/></e>
@@ -39748,6 +39898,84 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pluća"><i>pluć</i><par n="žen/a__n"/></e>
 <e lm="cigara"><i>cigar</i><par n="žen/a__n"/></e>
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+<e lm="bludnost"><i>bludno</i><par n="ma/st__n"/></e>
+<e lm="čarolija"><i>čarolij</i><par n="žen/a__n"/></e>
+<e lm="čestitost"><i>čestito</i><par n="ma/st__n"/></e>
+<e lm="cjelost"><i>c</i><par n="e_je__yat"/><i>lo</i><par n="ma/st__n"/></e>
+<e lm="čovječnost"><i>čov</i><par n="e_je__yat"/><i>čno</i><par n="ma/st__n"/></e>
+<e lm="falsifikacija"><i>falsifikacij</i><par n="žen/a__n"/></e>
+<e lm="financija"><i>financij</i><par n="žen/a__n"/></e>
+<e lm="fleksibilnost"><i>fleksibilno</i><par n="ma/st__n"/></e>
+<e lm="fokusiranost"><i>fokusirano</i><par n="ma/st__n"/></e>
+<e lm="formalnost"><i>formalno</i><par n="ma/st__n"/></e>
+<e lm="funkcionalnost"><i>funkcionalno</i><par n="ma/st__n"/></e>
+<e lm="ilegalnost"><i>ilegalno</i><par n="ma/st__n"/></e>
+<e lm="isprika"><i>isprik</i><par n="žen/a__n"/></e>
+<e lm="jasnoća"><i>jasnoć</i><par n="žen/a__n"/></e>
+<e lm="jasnost"><i>jasno</i><par n="ma/st__n"/></e>
+<e lm="kafa"><i>kaf</i><par n="žen/a__n"/></e>
+<e lm="kava"><i>kav</i><par n="žen/a__n"/></e>
+<e lm="koketnost"><i>koketno</i><par n="ma/st__n"/></e>
+<e lm="krađa"><i>krađ</i><par n="žen/a__n"/></e>
+<e lm="kraljevina"><i>kraljevin</i><par n="žen/a__n"/></e>
+<e lm="lakomost"><i>lakomo</i><par n="ma/st__n"/></e>
+<e lm="ljubomora"><i>ljubomor</i><par n="žen/a__n"/></e>
+<e lm="ljubopitljivost"><i>ljubopitljivo</i><par n="ma/st__n"/></e>
+<e lm="ljubopitnost"><i>ljubopitno</i><par n="ma/st__n"/></e>
+<e lm="ljudskost"><i>ljudsko</i><par n="ma/st__n"/></e>
+<e lm="maloljetnost"><i>malol</i><par n="e_je__yat"/><i>tno</i><par n="ma/st__n"/></e>
+<e lm="manjina"><i>manjin</i><par n="žen/a__n"/></e>
+<e lm="nemirnost"><i>nemirno</i><par n="ma/st__n"/></e>
+<e lm="nepokretnost"><i>nepokretno</i><par n="ma/st__n"/></e>
+<e lm="nespokojnost"><i>nespokojno</i><par n="ma/st__n"/></e>
+<e lm="nestašica"><i>nestašic</i><par n="žen/a__n"/></e>
+<e lm="nesuradnja"><i>nesuradnj</i><par n="žen/a__n"/></e>
+<e lm="oborina"><i>oborin</i><par n="žen/a__n"/></e>
+<e lm="odšteta"><i>odštet</i><par n="žen/a__n"/></e>
+<e lm="opomena"><i>opomen</i><par n="žen/a__n"/></e>
+<e lm="osjećajnost"><i>os</i><par n="e_je__yat"/><i>ćajno</i><par n="ma/st__n"/></e>
+<e lm="osjetljivost"><i>os</i><par n="e_je__yat"/><i>tljivo</i><par n="ma/st__n"/></e>
+<e lm="osobina"><i>osobin</i><par n="žen/a__n"/></e>
+<e lm="otmica"><i>otmic</i><par n="žen/a__n"/></e>
+<e lm="padalina"><i>padalin</i><par n="žen/a__n"/></e>
+<e lm="plemenitost"><i>plemenito</i><par n="ma/st__n"/></e>
+<e lm="pobožnost"><i>pobožno</i><par n="ma/st__n"/></e>
+<e lm="poljoprivreda"><i>poljoprivred</i><par n="žen/a__n"/></e>
+<e lm="posada"><i>posad</i><par n="žen/a__n"/></e>
+<e lm="pošteda"><i>pošted</i><par n="žen/a__n"/></e>
+<e lm="preferencija"><i>preferencij</i><par n="žen/a__n"/></e>
+<e lm="prekretnica"><i>prekretnic</i><par n="žen/a__n"/></e>
+<e lm="preuzvišenost"><i>preuzvišeno</i><par n="ma/st__n"/></e>
+<e lm="priroda"><i>prirod</i><par n="žen/a__n"/></e>
+<e lm="proizvodnja"><i>proizvodnj</i><par n="žen/a__n"/></e>
+<e lm="proizvodnost"><i>proizvodno</i><par n="ma/st__n"/></e>
+<e lm="protumjera"><i>protum</i><par n="e_je__yat"/><i>r</i><par n="žen/a__n"/></e>
+<e lm="punoljetnost"><i>punoljetno</i><par n="ma/st__n"/></e>
+<e lm="radoznalost"><i>radoznalo</i><par n="ma/st__n"/></e>
+<e lm="razina"><i>razin</i><par n="žen/a__n"/></e>
+<e lm="rezerviranost"><i>rezervirano</i><par n="ma/st__n"/></e>
+<e lm="šaljivost"><i>šaljivo</i><par n="ma/st__n"/></e>
+<e lm="šija"><i>šij</i><par n="žen/a__n"/></e>
+<e lm="skupština"><i>skupštin</i><par n="žen/a__n"/></e>
+<e lm="snošljivost"><i>snošljivo</i><par n="ma/st__n"/></e>
+<e lm="šokiranost"><i>šokirano</i><par n="ma/st__n"/></e>
+<e lm="spokojnost"><i>spokojno</i><par n="ma/st__n"/></e>
+<e lm="svjedodžba"><i>sv</i><par n="e_je__yat"/><i>dodžb</i><par n="žen/a__n"/></e>
+<e lm="trpeljivost"><i>trpeljivo</i><par n="ma/st__n"/></e>
+<e lm="udobnost"><i>udobno</i><par n="ma/st__n"/></e>
+<e lm="umješnost"><i>um</i><par n="e_je__yat"/><i>šno</i><par n="ma/st__n"/></e>
+<e lm="univerzalnost"><i>univerzalno</i><par n="ma/st__n"/></e>
+<e lm="uslovnost"><i>uslovno</i><par n="ma/st__n"/></e>
+<e lm="utaja"><i>utaj</i><par n="žen/a__n"/></e>
+<e lm="uvjerenost"><i>uv</i><par n="e_je__yat"/><i>reno</i><par n="ma/st__n"/></e>
+<e lm="uvjetnost"><i>uv</i><par n="e_je__yat"/><i>tno</i><par n="ma/st__n"/></e>
+<e lm="većina"><i>većin</i><par n="žen/a__n"/></e>
+<e lm="vlastela"><i>vlastel</i><par n="žen/a__n"/></e>
+<e lm="vodoopskrba"><i>vodoopskrb</i><par n="žen/a__n"/></e>
+<e lm="volja"><i>volj</i><par n="žen/a__n"/></e>
+<e lm="zastava"><i>zastav</i><par n="žen/a__n"/></e>
+<e lm="živina"><i>živin</i><par n="žen/a__n"/></e>
+<e lm="životinja"><i>životinj</i><par n="žen/a__n"/></e>
 <e lm="kupaonica"><i>kupaonic</i><par n="žen/a__n"/></e>
 <e lm="godina"><i>godin</i><par n="žen/a__n"/></e>
 <e lm="grupa"><i>grup</i><par n="žen/a__n"/></e>
@@ -40828,6 +41056,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="bogohulnost"><i>bogohulno</i><par n="ma/st__n"/></e>
 <e lm="znamenitost"><i>znamenito</i><par n="ma/st__n"/></e>
 <e lm="noć"><i>noć</i><par n="noć__n"/></e>
+<e lm="ponoć"><i>ponoć</i><par n="noć__n"/></e>
 <e lm="moć"><i>moć</i><par n="noć__n"/></e>
 <e lm="pomoć"><i>pomo</i><par n="noć__n"/></e>
 <e lm="obitelj"><i>obitelj</i><par n="noć__n"/></e>
@@ -40930,6 +41159,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Other proper nouns-->
 <!--Neuter nouns-->
 <e lm="abdiciranje"><i>abdiciranj</i><par n="polj/e__n"/></e>
+<e lm="poštenje"><i>poštenj</i><par n="polj/e__n"/></e>
 <e lm="adaptiranje"><i>adaptiranj</i><par n="polj/e__n"/></e>
 <e lm="agrarstvo"><i>agrarst</i><par n="društ/vo__n"/></e>
 <e lm="akcionarstvo"><i>akcionarst</i><par n="društ/vo__n"/></e>

@@ -71,6 +71,7 @@ dev/generation-test.py -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
+dev/n/existing.sh -text
 dev/n/pending_nouns.txt -text
 dev/n/uncategorised.txt -text
 dev/np/bidix_np.txt -text
