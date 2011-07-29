@@ -22,5 +22,5 @@ paste -d _ $TMPDIR/tmp_testvoc1.txt $TMPDIR/tmp_testvoc2.txt $TMPDIR/tmp_testvoc
 
 
 else
-	echo "sh inconsistency.sh <direction>";
+	echo "bash inconsistency.sh <direction>";
 fi

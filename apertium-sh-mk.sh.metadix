@@ -24552,23 +24552,6 @@ after prepositions-->
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
-<pardef n="maz/ga__n"><!--Without fleeting a-->
-   <e><p><l>la</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-   <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
-   <e><p><l>lu</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
-   <e><p><l>li</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-   <e><p><l>li</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>                
-   <e><p><l>lo</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
-   <e><p><l>lom</l><r>la<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
-   <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-   <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-   <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
-   <e><p><l>li</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e r="LR"><p><l>la</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-   <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-   <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
-</pardef>
 <pardef n="taj/na__n"><!--Without fleeting a-->
    <e><p><l>na</l><r>na<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
    <e><p><l>ne</l><r>na<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -40095,7 +40078,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="arhiv"><i>arhiv</i><par n="arhiv__n"/></e>
 <e lm="dječak"><i>d</i><par n="e_je__yat"/><i>ča</i><par n="učeni/k__n"/></e>
 <e lm="pomoćnik"><i>pomoćni</i><par n="učeni/k__n"/></e>
-<e lm="sumrak"><i>sumrak</i><par n="čajni/k__n"/></e>
 <e lm="orač"><i>orač</i><par n="orač__n"/></e>
 <e lm="letač"><i>letač</i><par n="orač__n"/></e>
 <e lm="kopač"><i>kopač</i><par n="orač__n"/></e>
@@ -40147,7 +40129,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prestanak"><i>prestan</i><par n="naglas/ak__n"/></e>
 <e lm="ustanak"><i>ustan</i><par n="naglas/ak__n"/></e>
 <e lm="zaključak"><i>zaključ</i><par n="naglas/ak__n"/></e>
-<e lm="zrak"><i>zrak</i><par n="viš/ak__n"/></e>
+<e lm="zrak"><i>zr</i><par n="viš/ak__n"/></e>
 <!-- -o declension -->
 <e lm="zeko"><i>zek</i><par n="zek/o__n"/></e>
 <e lm="dečko"><i>dečk</i><par n="zek/o__n"/></e>
@@ -41064,7 +41046,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="usna"><i>us</i><par n="us/na__n"/></e>
 <e lm="trešnja"><i>treš</i><par n="treš/nja__n"/></e>
 <e lm="kadetkinja"><i>kadetki</i><par n="treš/nja__n"/></e>
-<e lm="višnja"><i>vi</i><par n="treš/nja__n"/></e>
+<e lm="višnja"><i>viš</i><par n="treš/nja__n"/></e>
 <e lm="krošnja"><i>kroš</i><par n="treš/nja__n"/></e>
 <e lm="suknja"><i>suk</i><par n="treš/nja__n"/></e>
 <e lm="čežnja"><i>čež</i><par n="čež/nja__n"/></e>
@@ -41086,7 +41068,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="naranča"><i>naran</i><par n="naran/ča__n"/></e>
 <e lm="dvojba"><i>dvoj</i><par n="dvoj/ba__n"/></e>
 <e lm="žalba"><i>žal</i><par n="dvoj/ba__n"/></e>
-<e lm="paljba"><i>šalj</i><par n="dvoj/ba__n"/></e>
+<e lm="paljba"><i>palj</i><par n="dvoj/ba__n"/></e>
 <e lm="bomba"><i>bom</i><par n="dvoj/ba__n"/></e>
 <e lm="torba"><i>tor</i><par n="dvoj/ba__n"/></e>
 <e lm="preobrazba"><i>preobraz</i><par n="dvoj/ba__n"/></e>
@@ -41149,8 +41131,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="tajga"><i>taj</i><par n="fi/ga__n"/></e>
 <e lm="sfinga"><i>sfin</i><par n="fi/ga__n"/></e>
 <e lm="alga"><i>al</i><par n="fi/ga__n"/></e>
-<e lm="čerga"><i>čer</i><par n="fi/ga__n"/></e>
-<e lm="mazga"><i>maz</i><par n="fi/ga__n"/></e>
 <e lm="omega"><i>ome</i><par n="fi/ga__n"/></e>
 <e lm="kaciga"><i>kaci</i><par n="fi/ga__n"/></e>
 <e lm="kečiga"><i>keči</i><par n="fi/ga__n"/></e>
@@ -41441,7 +41421,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="noć"><i>noć</i><par n="noć__n"/></e>
 <e lm="ponoć"><i>ponoć</i><par n="noć__n"/></e>
 <e lm="moć"><i>moć</i><par n="noć__n"/></e>
-<e lm="pomoć"><i>pomo</i><par n="noć__n"/></e>
+<e lm="pomoć"><i>pomoć</i><par n="noć__n"/></e>
 <e lm="obitelj"><i>obitelj</i><par n="noć__n"/></e>
 <e lm="momčad"><i>momča</i><par n="momča/d__n"/></e>
 <e lm="glad"><i>gla</i><par n="momča/d__n"/></e>
@@ -42435,7 +42415,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ostrvo"><i>ostr</i><par n="društ/vo__n"/></e>
 <e lm="veleposlanstvo"><i>veleposlanst</i><par n="društ/vo__n"/></e>
 <e lm="prvenstvo"><i>prvenst</i><par n="društ/vo__n"/></e>
-<e lm="slovo"><i>slo</i><par n="koljen/o__n"/></e>
+<e lm="slovo"><i>slov</i><par n="koljen/o__n"/></e>
 <e lm="siromaštvo"><i>siromašt</i><par n="društ/vo__n"/></e>
 <e lm="gostoprimstvo"><i>gostoprimst</i><par n="društ/vo__n"/></e>
 <e lm="bratoubistvo"><i>bratoubist</i><par n="društ/vo__n"/></e>
