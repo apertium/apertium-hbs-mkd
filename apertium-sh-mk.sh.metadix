@@ -24995,9 +24995,9 @@ after prepositions-->
 	<e><p><l>kćeri</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
 	<e><p><l>kćeri</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 	<e><p><l>kćeri</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-	<e><p><l>ima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
-	<e><p><l>ima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
-	<e><p><l>ima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+	<e><p><l>kćerima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>kćerima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>kćerima</l><r>kći<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <!--end The -i type declension -->
 
@@ -29159,7 +29159,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="biti"><i/><par n="biti__vbser"/></e>
 <!--Verb to be-->
 <e lm="imati"><i>i</i><par n="i/mati__vbhaver"/></e>
-<e lm="nemati"><p><l>ne</l><r>ne<s n="part"/><s n="neg"/><j/>i</r></p><par n="i/mati__vbhaver"/></e>    
+<e lm="nemati"><i>ne</i><par n="i/mati__vbhaver"/></e>    
 
 <!--Modal verbs-->
 <e lm="ću_modal"><i/><par n="ću__clt"/></e>

@@ -248,7 +248,8 @@
 
    <section id="main" type="standard">     
    <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
-   <e><p><l>jedini<s n="adj"/></l><r>единствен<s n="adj"/></r></p></e>   
+   <e><p><l>jedini<s n="adj"/></l><r>единствен<s n="adj"/></r></p></e>
+   <e><p><l>zao<s n="adj"/></l><r>единствен<s n="adj"/></r></p></e>         
 
      <!-- SECTION: Particles -->
      <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
@@ -6460,6 +6461,7 @@
 	<e><p><l>minejski<s n="adj"/></l><r>минејски<s n="adj"/></r></p></e>
 	<e><p><l>mongolski<s n="adj"/></l><r>монголски<s n="adj"/></r></p></e>
 	<e><p><l>nealbanski<s n="adj"/></l><r>неалбански<s n="adj"/></r></p></e>
+	<e><p><l>arapski<s n="adj"/></l><r>арапски<s n="adj"/></r></p></e>
 	<e><p><l>nearapski<s n="adj"/></l><r>неарапски<s n="adj"/></r></p></e>
 	<e><p><l>neafrički<s n="adj"/></l><r>неафрикански<s n="adj"/></r></p></e>
 	<e><p><l>neislamski<s n="adj"/></l><r>неисламски<s n="adj"/></r></p></e>
@@ -7203,6 +7205,9 @@
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
      <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
      <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>има<s n="vbhaver"/></r></p></e>
+     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>има<s n="vbhaver"/></r></p></e>     
+     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>нема<s n="vbhaver"/></r></p></e>
+     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>нема<s n="vbhaver"/></r></p></e>          
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p></e><!-- Note: My bad, seems this can also mean attend, among other things -->
 
@@ -7727,6 +7732,7 @@
     <e><p><l>imperija<s n="n"/><s n="f"/></l><r>империја<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>laboratorija<s n="n"/><s n="f"/></l><r>лабораторија<s n="n"/><s n="f"/></r></p></e>
 
+    <e><p><l>motivisan<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
     <e><p><l>suv<s n="adj"/></l><r>сув<s n="adj"/></r></p></e>
     <e><p><l>bijeo<s n="adj"/></l><r>бел<s n="adj"/></r></p></e>
     <e><p><l>kontinuisan<s n="adj"/></l><r>континуиран<s n="adj"/></r></p></e>
@@ -8024,6 +8030,7 @@
     <e><p><l>oktobar<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pasoš<s n="n"/><s n="mi"/></l><r>пасош<s n="n"/><s n="m"/></r></p></e>
 
+    <e><p><l>motivisan<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
     <e><p><l>suv<s n="adj"/></l><r>сув<s n="adj"/></r></p></e>
     <e><p><l>bijel<s n="adj"/></l><r>бел<s n="adj"/></r></p></e>
     <e><p><l>kontinuisan<s n="adj"/></l><r>континуиран<s n="adj"/></r></p></e>

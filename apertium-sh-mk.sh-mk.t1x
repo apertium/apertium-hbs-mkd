@@ -752,6 +752,8 @@
       <pattern-item n="vbinf"/>
 </pattern>
 <action>
+    <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
+    <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>
     <out>
         <chunk name="verb_adv_inf" case="caseFirstWord">
            <tags>
@@ -793,6 +795,7 @@
        <pattern-item n="vbinf"/>
 </pattern>
 <action>
+    <call-macro n="normalise-to-iv"><with-param pos="2"/></call-macro>
     <out>
         <chunk name="verb" case="caseFirstWord">
            <tags>
@@ -826,8 +829,9 @@
        <pattern-item n="vbfutI"/>
 </pattern>
 <action>
+    <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
     <out>
-        <chunk name="verb" case="caseFirstWord">
+        <chunk name="verb_cltfutI" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -853,14 +857,42 @@
 </action>
 </rule>
 
+<rule comment="regla: infinitive">
+<pattern> <!--Changes infinitive to p3.sg-->
+       <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
+    <out>
+        <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_vrb"/>             
+             <clip pos="1" side="tl" part="asp"/>             
+             <clip pos="1" side="tl" part="trn"/>
+             <lit-tag v="pres.p3.sg"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
 <rule comment="regla: vbmod infinitive">
 <pattern><!-- Trebam dati -> треба да дадам -->
       <pattern-item n="vbmod"/>
       <pattern-item n="vbinf"/>
 </pattern>
 <action>
+    <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
+    <call-macro n="normalise-to-iv"><with-param pos="2"/></call-macro>    
     <out>
-        <chunk name="verb" case="caseFirstWord">
+        <chunk name="verbFut" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -901,6 +933,8 @@
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="2"/></call-macro>
+        <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>        
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -945,6 +979,8 @@
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>                
+        <call-macro n="normalise-to-iv"><with-param pos="4"/></call-macro>            
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -997,6 +1033,8 @@
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="2"/></call-macro>    
+        <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>            
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1042,6 +1080,7 @@
         <pattern-item n="vblex-l-participle"/>
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="2"/></call-macro>    
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1143,6 +1182,7 @@
         <pattern-item n="vbserpast"/>
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1173,6 +1213,7 @@
         <pattern-item n="vblex-l-participle"/>
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1207,6 +1248,7 @@
         <pattern-item n="vblex-l-participle"/>
     </pattern>
     <action>
+        <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1317,9 +1359,7 @@
        <pattern-item n="vblex"/>
      </pattern>
      <action>
-     <call-macro n="normalise-to-iv">
-        <with-param pos="1"/>
-     </call-macro>
+     <call-macro n="normalise-to-iv">        <with-param pos="1"/>     </call-macro>
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>
