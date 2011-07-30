@@ -588,7 +588,7 @@
       </choose>
     </def-macro>  
 
-    <def-macro n="lp_default_trans1" npar="1">
+    <def-macro n="lp_default_aspect" npar="1">
       <choose>
         <when>
           <test><!--If this is an l-participle-->
@@ -1112,7 +1112,7 @@
     </pattern>
     <action>
         <call-macro n="normalise-to-iv"><with-param pos="3"/></call-macro>
-        <call-macro n="assign-past-tense"><with-param pos="3"/></call-macro>
+        <call-macro n="lp_default_aspect"><with-param pos="3"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1152,7 +1152,7 @@
     </pattern>
     <action>
     <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
-    <call-macro n="assign-past-tense"><with-param pos="1"/></call-macro>
+    <call-macro n="lp_default_aspect"><with-param pos="1"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1390,7 +1390,7 @@
      </pattern>
      <action>
        <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>          
-       <call-macro n="lp_default_trans1"><with-param pos="1"/></call-macro>
+       <call-macro n="lp_default_aspect"><with-param pos="1"/></call-macro>
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>

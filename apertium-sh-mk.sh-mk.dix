@@ -365,7 +365,7 @@
      <!--Totalising-->
      <e><p><l>svatko<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>svakoji<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
-     <e><p><l>svaki<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e><!--TODO: check this-->
+     <e><p><l>svaki<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>svašta<s n="prn"/><s n="rel"/></l><r>сешто<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>svakakav<s n="prn"/><s n="rel"/></l><r>секаков<s n="prn"/><s n="rel"/></r></p></e>
      <!--<e><p><l>svačiji<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
@@ -3347,8 +3347,8 @@
      <e><p><l>odnos<s n="n"/><s n="mi"/></l><r>однос<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>metar<s n="n"/><s n="mi"/></l><r>метар<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>хеликоптер<s n="n"/><s n="m"/></r></p></e>               
-     <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>настан<s n="n"/><s n="m"/></r></p></e>  <!--TODO: Check if correct-->
-     <e><p><l>posao<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="m"/></r></p></e>  <!--TODO: Check if correct-->    
+     <e><p><l>doživljaj<s n="n"/><s n="mi"/></l><r>настан<s n="n"/><s n="m"/></r></p></e>  
+     <e><p><l>posao<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="m"/></r></p></e>  
      <e><p><l>program<s n="n"/><s n="mi"/></l><r>програм<s n="n"/><s n="m"/></r></p></e>                
      
      <e><p><l>trema<s n="n"/><s n="f"/></l><r>трема<s n="n"/><s n="f"/></r></p></e>
@@ -5300,7 +5300,7 @@
      <!--end surnames ending in -ski-->
 
      <!--Surnames ending in -ov,-ev-->	
-	<e><p><l>Goce<b/>Delčev<s n="np"/></l><r>Гоце<b/>Делчев<s n="np"/></r></p></e> <!--Todo: this is a multiwords, spearate-->
+	<!--<e><p><l>Goce<b/>Delčev<s n="np"/></l><r>Гоце<b/>Делчев<s n="np"/></r></p></e>-->
 	<e><p><l>Samokov<s n="np"/></l><r>Самоков<s n="np"/></r></p></e>
 	<e><p><l>Svištov<s n="np"/></l><r>Свиштов<s n="np"/></r></p></e>
 	<e><p><l>Popov<s n="np"/></l><r>Попов<s n="np"/></r></p></e>
@@ -5387,6 +5387,12 @@
      <!-- SECTION: Adjectives -->
 
     <e><p><l>vaskršnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
+    <e><p><l>super<s n="adj"/></l><r>супер<s n="adj"/></r></p></e>
+    <e><p><l>zreo<s n="adj"/></l><r>зрел<s n="adj"/></r></p></e>
+    <e><p><l>ljut<s n="adj"/></l><r>лут<s n="adj"/></r></p></e>
+    <e><p><l>krut<s n="adj"/></l><r>крут<s n="adj"/></r></p></e>
+    <e><p><l>glup<s n="adj"/></l><r>глуп<s n="adj"/></r></p></e>
+    <e><p><l>glupav<s n="adj"/></l><r>глупав<s n="adj"/></r></p></e>                                                                                            
     <e><p><l>uskršnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
     <e><p><l>vladajući<s n="adj"/></l><r>владејачки<s n="adj"/></r></p></e>
     <e><p><l>vodeći<s n="adj"/></l><r>водечки<s n="adj"/></r></p></e>
@@ -5855,7 +5861,6 @@
     <e><p><l>praktičan<s n="adj"/></l><r>практичен<s n="adj"/></r></p></e>
     <e><p><l>prednji<s n="adj"/></l><r>преден<s n="adj"/></r></p></e>
     <e><p><l>predizborni<s n="adj"/></l><r>предизборен<s n="adj"/></r></p></e>
-    <e><p><l>prekrasan<s n="adj"/></l><r>прекрасен<s n="adj"/></r></p></e>
     <e><p><l>preliminaran<s n="adj"/></l><r>прелиминарен<s n="adj"/></r></p></e>
     <e><p><l>prenosan<s n="adj"/></l><r>преносен<s n="adj"/></r></p></e>
     <e><p><l>prethodni<s n="adj"/></l><r>претходен<s n="adj"/></r></p></e>
@@ -5900,7 +5905,7 @@
     <e><p><l>simpatičan<s n="adj"/></l><r>симпатичен<s n="adj"/></r></p></e>
     <e><p><l>sitan<s n="adj"/></l><r>ситен<s n="adj"/></r></p></e>
     <e><p><l>skroman<s n="adj"/></l><r>скромен<s n="adj"/></r></p></e>
-    <e><p><l>slavan<s n="adj"/></l><r>славеn<s n="adj"/></r></p></e>
+    <e><p><l>slavan<s n="adj"/></l><r>славен<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
     <e r="LR"><p><l>naredni<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
     <e r="LR"><p><l>potonji<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
@@ -6067,7 +6072,7 @@
     <e><p><l>opasan<s n="adj"/></l><r>опасен<s n="adj"/></r></p></e>
     <e><p><l>odlučujući<s n="adj"/></l><r>решавачки<s n="adj"/></r></p></e>
     <e><p><l>motiviran<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
-    <e><p><l>mnogi<s n="adj"/></l><r>многу<s n="adv"/></r></p></e>
+    <e><p><l>mnogi<s n="adj"/></l><r>многу<s n="adv"/></r></p></e> <!--TODO: An annoying thing, this needs to be an contraction of all possible adjective forms to one adverb...-->
     <e><p><l>mlad<s n="adj"/></l><r>млад<s n="adj"/></r></p></e>
     <e><p><l>krasan<s n="adj"/></l><r>красен<s n="adj"/></r></p></e>
     <e><p><l>jak<s n="adj"/></l><r>силен<s n="adj"/></r></p></e>
@@ -6099,12 +6104,8 @@
      <e><p><l>debeli<s n="adj"/></l><r>дебел<s n="adj"/></r></p></e>
 
      <!-- in macedonian ends in -чки -ски etc., obtained from that list adjectives -->
-	<!--TODO: separate these pairs in modules, one is for serbian, other croatian (for which are in bosnian i need to check in more detail)-->
-	<!--TODO: when paradigms added, and list fixed, put this into the bidix-->
 
-     <!-- in macedonian ends in -чки -ски etc., obtained from that list adjectives -->
-	<!--TODO: separate these pairs in modules, one is for serbian, other croatian (for which are in bosnian i need to check in more detail)-->
-	<e><p><l>vaskrsnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e> <!--big Todo: check how it's said in Serbian-->
+	<e><p><l>vaskrsnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
 	<e><p><l>uskršnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
 
 	<e><p><l>vladajući<s n="adj"/></l><r>владејачки<s n="adj"/></r></p></e><!--big Todo: check the translation-->
@@ -6112,10 +6113,10 @@
 
 	<e><p><l>dječji<s n="adj"/></l><r>детски<s n="adj"/></r></p></e>
 
-	<e><p><l>poljoprivredni<s n="adj"/></l><r>земјоделски<s n="adj"/></r></p></e><!--TODO: check the serbian variant-->
+	<e><p><l>poljoprivredni<s n="adj"/></l><r>земјоделски<s n="adj"/></r></p></e>
 	<e><p><l>povijesni<s n="adj"/></l><r>историски<s n="adj"/></r></p></e>
-	<e><p><l>rukovodstveni<s n="adj"/></l><r>лидерски<s n="adj"/></r></p></e><!--check translation-->
-	<e><p><l>reformni<s n="adj"/></l><r>реформски<s n="adj"/></r></p></e><!--check variants, and translation basically-->
+	<e><p><l>rukovodstveni<s n="adj"/></l><r>лидерски<s n="adj"/></r></p></e>
+	<e><p><l>reformni<s n="adj"/></l><r>реформски<s n="adj"/></r></p></e>
 	<e><p><l>strani<s n="adj"/></l><r>странски<s n="adj"/></r></p></e>
 	<e><p><l>sveučilišni<s n="adj"/></l><r>универзитетски<s n="adj"/></r></p></e>
 	<e><p><l>jutarnji<s n="adj"/></l><r>утрински<s n="adj"/></r></p></e>
@@ -6197,7 +6198,7 @@
 	<e><p><l>njemački<s n="adj"/></l><r>германски<s n="adj"/></r></p></e>
 	<e><p><l>gigantski<s n="adj"/></l><r>гигантски<s n="adj"/></r></p></e>
 	<e><p><l>divovski<s n="adj"/></l><r>гигантски<s n="adj"/></r></p></e>
-	<e><p><l>džinovski<s n="adj"/></l><r>гигантски<s n="adj"/></r></p></e> <!--TODO: džinovski is Serbian, i think bosnian also, but maybe they also allow divovski. Croatian definitely only divovski or gigantski-->
+	<e><p><l>džinovski<s n="adj"/></l><r>гигантски<s n="adj"/></r></p></e> <!--Note: džinovski is Serbian, i think bosnian also, but maybe they also allow divovski. Croatian definitely only divovski or gigantski-->
 	<e><p><l>glasački<s n="adj"/></l><r>гласачки<s n="adj"/></r></p></e>
 	<e><p><l>gradski<s n="adj"/></l><r>градски<s n="adj"/></r></p></e>
 	<e><p><l>grčki<s n="adj"/></l><r>грчки<s n="adj"/></r></p></e>
@@ -6521,7 +6522,6 @@
 	<e><p><l>telemedicinski<s n="adj"/></l><r>телемедицински<s n="adj"/></r></p></e>
 	<e><p><l>tibetski<s n="adj"/></l><r>тибетски<s n="adj"/></r></p></e>
 	<e><p><l>topografski<s n="adj"/></l><r>топографски<s n="adj"/></r></p></e>
-	<e><p><l>trakijski<s n="adj"/></l><r>тракијск<s n="adj"/></r></p></e>
 	<e><p><l>trakijski<s n="adj"/></l><r>тракиски<s n="adj"/></r></p></e>
 	<e><p><l>transilvanijski<s n="adj"/></l><r>трансилвански<s n="adj"/></r></p></e>
 	<e><p><l>ultranacionalistički<s n="adj"/></l><r>ултранационалистички<s n="adj"/></r></p></e>
@@ -6966,8 +6966,6 @@
 
 
      <!-- SECTION: Adverbs -->
-     <!-- TODO: see what to do with comparative and superlative of adverbs, since they're not yet added in the mk monodix -->
-     <!--Adverbs that are incomparable-->
 <!--Note and a TODO: There are some discrepancies in the analysis already in the mk monodix and the analysis in the sh monodix, if something's a pronoun, adverb etc. they should be resolved, or alternatively, if the words are the same or analogous (which is often the case), just discard the analysis and transfer words-->
 	<e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
 	<e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e> <!--Note: this can be an adverb or a preposition. It makes little difference in this language pair-->

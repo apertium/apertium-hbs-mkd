@@ -21234,7 +21234,108 @@ after prepositions-->
 <!--end 'te/žak'-->
 <!--Adjective paradigm 'pridjevs/ki'-->
 <pardef n="pridjevs/ki__pst__sfx">
-<!--No indefinite aspect-->
+<!--NOTE: Here <def> and <ind> are not morphologically marked (morphologically it's always definite), but the predicative/attributive meaning is used to distinguish-->
+<!-- Inefinite aspect -->
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+         <e><p><l>ki</l><r><s n="ma"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kog</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+       <e><p><l>koga</l><r><s n="ma"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="ma"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="ma"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e> 
+ <e r="LR"><p><l>kog</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+       <e><p><l>koga</l><r><s n="ma"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ki</l><r><s n="ma"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="ma"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kog</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+       <e><p><l>koga</l><r><s n="mi"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="mi"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+         <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ki</l><r><s n="mi"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="mi"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Plural-->
+<!--Animate-->
+         <e><p><l>ki</l><r><s n="ma"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>kih</l><r><s n="ma"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="ma"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="ma"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="ma"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>ke</l><r><s n="ma"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ki</l><r><s n="ma"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+
+<!--Inanimate-->
+         <e><p><l>ki</l><r><s n="mi"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>kih</l><r><s n="mi"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="mi"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="mi"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="mi"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>ke</l><r><s n="mi"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ki</l><r><s n="mi"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+
+<!-- Feminine-->
+<!--Singular-->
+         <e><p><l>ka</l><r><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+         <e><p><l>ke</l><r><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>koj</l><r><s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>koj</l><r><s n="f"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+         <e><p><l>ku</l><r><s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ka</l><r><s n="f"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+        <e><p><l>kom</l><r><s n="f"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Plural-->
+         <e><p><l>ke</l><r><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>kih</l><r><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="f"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="f"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>ke</l><r><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ke</l><r><s n="f"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
+
+<!-- Neuter-->
+<!--Singular-->
+         <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kog</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+       <e><p><l>koga</l><r><s n="nt"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+ <e r="LR"><p><l>kom</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>komu</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+       <e><p><l>kome</l><r><s n="nt"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+         <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ko</l><r><s n="nt"/><s n="sg"/><s n="voc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="nt"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+<!--Plural-->
+         <e><p><l>ka</l><r><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+        <e><p><l>kih</l><r><s n="nt"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="nt"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="nt"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+        <e><p><l>kim</l><r><s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+<e r="LR"><p><l>kima</l><r><s n="nt"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+         <e><p><l>ka</l><r><s n="nt"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+         <e><p><l>ka</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="ind"/></r></p></e>
 <!-- Definite aspect -->
 <!--Masculine-->
 <!--Singular-->
@@ -21354,7 +21455,6 @@ after prepositions-->
 <!--No comparative-->
 <!--No superlative-->
 <!--end 'pridjevs/ki'-->
-
 <pardef n="odlučujuć/i__pst__sfx">
 <!--No indefinite aspect-->
 <!-- Definite aspect -->
@@ -32222,11 +32322,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="praktičan"><i>praktič</i><par n="ruž/an__comp__adj"/></e>
 <e lm="praktičan"><p><l>najpraktič</l><r>praktič</r></p><par n="ruž/an__sup__adj"/></e>
 <e lm="praktičan"><p><l>prepraktič</l><r>praktič</r></p><par n="ruž/an__ssup__adj"/></e>
-
-<e lm="prekrasan"><i>prekras</i><par n="ruž/an__pst__adj"/></e>
-<e lm="prekrasan"><i>prekras</i><par n="ruž/an__comp__adj"/></e>
-<e lm="prekrasan"><p><l>najprekras</l><r>prekras</r></p><par n="ruž/an__sup__adj"/></e>
-<e lm="prekrasan"><p><l>preprekras</l><r>prekras</r></p><par n="ruž/an__ssup__adj"/></e>
 
 <e lm="preliminaran"><i>preliminar</i><par n="ruž/an__pst__adj"/></e>
 <e lm="preliminaran"><i>preliminar</i><par n="ruž/an__comp__adj"/></e>

@@ -13323,6 +13323,12 @@
     <e lm="инаков"><par n="P__adj"/><i>инак</i><par n="инак/ов__adj"/></e>
 
     <e lm="висок"><par n="P__adj"/><i>висок</i><par n="висок__adj"/></e>
+    <e lm="зрел"><par n="P__adj"/><i>зрел</i><par n="висок__adj"/></e> <!--removable-->
+    <e lm="здрав"><par n="P__adj"/><i>здрав</i><par n="висок__adj"/></e>    <!--removable-->
+    <e lm="глупав"><par n="P__adj"/><i>глупав</i><par n="висок__adj"/></e>    <!--removable-->    
+    <e lm="лут"><par n="P__adj"/><i>лут</i><par n="висок__adj"/></e>    <!--removable-->
+    <e lm="крут"><par n="P__adj"/><i>крут</i><par n="висок__adj"/></e>    <!--removable-->
+    <e lm="глуп"><par n="P__adj"/><i>глуп</i><par n="висок__adj"/></e>    <!--removable-->            
     <e lm="расположен"><par n="P__adj"/><i>расположен</i><par n="висок__adj"/></e>
     <e lm="убав"><par n="P__adj"/><i>убав</i><par n="висок__adj"/></e>
     <e lm="тежок"><par n="P__adj"/><i>те</i><par n="те/жок__adj"/></e>
@@ -13522,6 +13528,7 @@
     <e lm="географски"><par n="P__adj"/><i>географск</i><par n="летачк/и__adj"/></e>
     <e lm="германски"><par n="P__adj"/><i>германск</i><par n="летачк/и__adj"/></e>
     <e lm="гигантски"><par n="P__adj"/><i>гигантск</i><par n="летачк/и__adj"/></e>
+    <e lm="џиновски"><par n="P__adj"/><i>џиновск</i><par n="летачк/и__adj"/></e>
     <e lm="гласачки"><par n="P__adj"/><i>гласачк</i><par n="летачк/и__adj"/></e>
     <e lm="градски"><par n="P__adj"/><i>градск</i><par n="летачк/и__adj"/></e>
     <e lm="грчки"><par n="P__adj"/><i>грчк</i><par n="летачк/и__adj"/></e>
@@ -14494,6 +14501,7 @@
     <e lm="ситен"><par n="P__adj"/><i>сит</i><par n="инвентив/ен__adj"/></e>
     <e lm="скромен"><par n="P__adj"/><i>скром</i><par n="инвентив/ен__adj"/></e>
     <e lm="славен"><par n="P__adj"/><i>слав</i><par n="инвентив/ен__adj"/></e>
+    <e lm="камен"><par n="P__adj"/><i>кам</i><par n="инвентив/ен__adj"/></e>    
     <e lm="следен"><par n="P__adj"/><i>след</i><par n="инвентив/ен__adj"/></e>
     <e lm="нареден"><par n="P__adj"/><i>наред</i><par n="инвентив/ен__adj"/></e>
     <e lm="сличен"><par n="P__adj"/><i>слич</i><par n="инвентив/ен__adj"/></e>
@@ -14595,6 +14603,7 @@
 	<e lm="тркалезен"><par n="P__adj"/><i>тркалез</i><par n="инвентив/ен__adj"/></e>
 	<e lm="тесен"><par n="P__adj"/><i>тес</i><par n="инвентив/ен__adj"/></e>
 	<e lm="фер"><par n="P__adj"/><i>фер</i><par n="фер__adj"/></e>
+	<e lm="супер"><par n="P__adj"/><i>супер</i><par n="фер__adj"/></e>	
 	<e lm="фин"><par n="P__adj"/><i>фин</i><par n="висок__adj"/></e>
 	<e lm="дебел"><par n="P__adj"/><i>дебел</i><par n="висок__adj"/></e>
 	<e lm="густ"><par n="P__adj"/><i>густ</i><par n="висок__adj"/></e>
