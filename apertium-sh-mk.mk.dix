@@ -6280,6 +6280,7 @@
       <e>        <p>          <l>ава</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>ана</l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>о</l>           <r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>о</l>           <r>о<s n="adv"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>ото</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ово</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>оно</l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6299,6 +6300,7 @@
       <e>        <p>          <l>шкава</l><r>жок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>шкана</l><r>жок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>шко</l>           <r>жок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>шко</l>           <r>шко<s n="adv"/></r></p></e>   <!--removable-->
       <e>        <p>          <l>шкото</l><r>жок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>шково</l><r>жок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>шконо</l><r>жок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6318,6 +6320,7 @@
       <e>        <p>          <l>скава</l><r>зок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>скана</l><r>зок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>ско</l>           <r>зок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>ско</l>           <r>ско<s n="adv"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>ското</l><r>зок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>сково</l><r>зок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>сконо</l><r>зок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6338,6 +6341,7 @@
       <e>        <p>          <l>кава</l><r>ок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>кана</l><r>ок<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>ко</l>           <r>ок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>ко</l>           <r>ко<s n="adv"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>кото</l><r>ок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ково</l><r>ок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>коно</l><r>ок<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6358,6 +6362,7 @@
       <e>        <p>          <l>јнава</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>јнана</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>јно</l>           <r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>јно</l>           <r>јно<s n="adv"/></r></p></e>   <!--removable-->
       <e>        <p>          <l>јното</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>јново</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>јноно</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6377,6 +6382,7 @@
       <e>        <p>          <l>ава</l><r>и<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>ана</l><r>и<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>о</l>           <r>и<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>и</l>           <r>и<s n="adv"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>ото</l><r>и<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ово</l><r>и<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>оно</l><r>и<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6396,6 +6402,7 @@
       <e>        <p>          <l>рава</l><r>ар<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>рана</l><r>ар<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>ро</l>           <r>ар<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>ро</l>           <r>ро<s n="adj"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>рото</l><r>ар<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>рово</l><r>ар<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>роно</l><r>ар<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6416,6 +6423,7 @@
       <e>        <p>          <l>лава</l><r>ол<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>лана</l><r>ол<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>ло</l>           <r>ол<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>ло</l>           <r>ло<s n="adv"/></r></p></e>      <!--removable-->
       <e>        <p>          <l>лото</l><r>ол<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>лово</l><r>ол<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>лоно</l><r>ол<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6436,6 +6444,7 @@
       <e>        <p>          <l>нава</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>нана</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>но</l>           <r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>но</l>           <r>но<s n="adv"/></r></p></e>     <!--removable-->
       <e>        <p>          <l>ното</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ново</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>ноно</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6456,6 +6465,7 @@
       <e>        <p>          <l>нава</l><r>тен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>нана</l><r>тен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>но</l>           <r>тен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>но</l>           <r>но<s n="adv"/></r></p></e>     <!--removable-->
       <e>        <p>          <l>ното</l><r>тен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ново</l><r>тен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>ноно</l><r>тен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6476,6 +6486,7 @@
       <e>        <p>          <l>ава</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>ана</l><r>ен<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>о</l>           <r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>о</l>           <r>о<s n="adv"/></r></p></e>     <!--removable-->
       <e>        <p>          <l>ото</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>ово</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>оно</l><r>ен<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6496,6 +6507,7 @@
       <e>        <p>          <l>вава</l><r>ов<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>вана</l><r>ов<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l>во</l>           <r>ов<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>        <p>          <l>во</l>           <r>во<s n="adv"/></r></p></e>     <!--removable-->      
       <e>        <p>          <l>вото</l><r>ов<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>        <p>          <l>вово</l><r>ов<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l>воно</l><r>ов<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
@@ -6517,6 +6529,7 @@
       <e>        <p>          <l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l></l>           <r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e>        <p>          <l></l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>        <p>          <l></l>           <r><s n="adv"/></r></p></e>     <!--removable-->      
       <e>        <p>          <l></l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e>
       <e>        <p>          <l></l><r><s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>
       <e>        <p>          <l></l>           <r><s n="adj"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
