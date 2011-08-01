@@ -5944,7 +5944,7 @@
     <e><p><l>upravni<s n="adj"/></l><r>управен<s n="adj"/></r></p></e>
     <e><p><l>uspješan<s n="adj"/></l><r>успешен<s n="adj"/></r></p></e>
     <e><p><l>ustavan<s n="adj"/></l><r>уставен<s n="adj"/></r></p></e>
-    <e><p><l>sutrašnju<s n="adj"/></l><r>утрешен<s n="adj"/></r></p></e>
+    <e><p><l>sutrašnji<s n="adj"/></l><r>утрешен<s n="adj"/></r></p></e>
     <e><p><l>famozan<s n="adj"/></l><r>фамозен<s n="adj"/></r></p></e>
     <e><p><l>fantastičan<s n="adj"/></l><r>фантастичен<s n="adj"/></r></p></e>
     <e><p><l>fatalan<s n="adj"/></l><r>фатален<s n="adj"/></r></p></e>
@@ -6518,7 +6518,7 @@
 	<e><p><l>sponzorski<s n="adj"/></l><r>спонзорски<s n="adj"/></r></p></e>
 	<e><p><l>staroslavenski<s n="adj"/></l><r>старословенски<s n="adj"/></r></p></e><!--check variants-->
 	<e><p><l>staroslovenski<s n="adj"/></l><r>старословенски<s n="adj"/></r></p></e>
-	<e><p><l>nadministarstki<s n="adj"/></l><r>суперминистерски<s n="adj"/></r></p></e><!--check translation--><!--check variants-->
+	<e><p><l>nadministarski<s n="adj"/></l><r>суперминистерски<s n="adj"/></r></p></e><!--check translation--><!--check variants-->
 	<e><p><l>telemedicinski<s n="adj"/></l><r>телемедицински<s n="adj"/></r></p></e>
 	<e><p><l>tibetski<s n="adj"/></l><r>тибетски<s n="adj"/></r></p></e>
 	<e><p><l>topografski<s n="adj"/></l><r>топографски<s n="adj"/></r></p></e>
@@ -6891,10 +6891,10 @@
 	<e><p><l>trostranački<s n="adj"/></l><r>трипартиски<s n="adj"/></r></p></e>
 	<e><p><l>trojanski<s n="adj"/></l><r>тројански<s n="adj"/></r></p></e>
 	<e><p><l>trubadurski<s n="adj"/></l><r>трубадурски<s n="adj"/></r></p></e>
-	<e><p><l>turkmenistanstki<s n="adj"/></l><r>туркменистански<s n="adj"/></r></p></e>
+	<e><p><l>turkmenistanski<s n="adj"/></l><r>туркменистански<s n="adj"/></r></p></e>
 	<e><p><l>turkomanski<s n="adj"/></l><r>туркомански<s n="adj"/></r></p></e>
 	<e><p><l>duhanski<s n="adj"/></l><r>тутунски<s n="adj"/></r></p></e><!--check translation-->
-	<e><p><l>uzbekistanstki<s n="adj"/></l><r>узбекистански<s n="adj"/></r></p></e>
+	<e><p><l>uzbekistanski<s n="adj"/></l><r>узбекистански<s n="adj"/></r></p></e>
 	<e><p><l>fantomski<s n="adj"/></l><r>фантомски<s n="adj"/></r></p></e>
 	<e><p><l>farmakoterapeutski<s n="adj"/></l><r>фармакотерапевтски<s n="adj"/></r></p></e>
 	<e><p><l>farmaceutski<s n="adj"/></l><r>фармацевтски<s n="adj"/></r></p></e>

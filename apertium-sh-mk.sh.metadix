@@ -33657,10 +33657,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 
 <e lm="dan"><i>d</i><par n="ruž/an__pst__adj"/></e>
 
-<e lm="izdan"><i>iz</i><par n="ruž/an__pst__adj"/></e>
-<e lm="izdan"><i>iz</i><par n="ruž/an__comp__adj"/></e>
-<e lm="izdan"><p><l>najiz</l><r>izd</r></p><par n="ruž/an__sup__adj"/></e>
-<e lm="izdan"><p><l>preiz</l><r>izd</r></p><par n="ruž/an__ssup__adj"/></e>
+<e lm="izdan"><i>izd</i><par n="ruž/an__pst__adj"/></e>
+<e lm="izdan"><i>izd</i><par n="ruž/an__comp__adj"/></e>
+<e lm="izdan"><p><l>najizd</l><r>izd</r></p><par n="ruž/an__sup__adj"/></e>
+<e lm="izdan"><p><l>preizd</l><r>izd</r></p><par n="ruž/an__ssup__adj"/></e>
 
 <e lm="predan"><i>pred</i><par n="ruž/an__pst__adj"/></e>
 <e lm="predan"><i>pred</i><par n="ruž/an__comp__adj"/></e>
