@@ -14,6 +14,10 @@
   <def-cat n="nom_loc">
      <cat-item tags="n.*.*.loc"/>
   </def-cat>          
+  <def-cat n="nom_or_np">
+     <cat-item tags="n.*"/>
+     <cat-item tags="np.*"/>     
+  </def-cat>
   <def-cat n="np">
      <cat-item tags="np.*"/>
   </def-cat>
@@ -115,6 +119,9 @@
   </def-cat>
   <def-cat n="adj_pst">
      <cat-item tags="adj.pst.*"/>
+  </def-cat>
+  <def-cat n="adj_pss_sfx">
+     <cat-item lemma="pos" tags="adj.*"/>
   </def-cat>
   <def-cat n="adj_comp">
      <cat-item tags="adj.comp.*"/>
@@ -633,13 +640,13 @@
 <section-rules>
 
 <!--Rules for nouns and proper nouns-->
-<rule comment="regla:NPGen">
+<rule comment="regla: NPGen">
 <pattern>
        <pattern-item n="np_gen"/>
 </pattern>
 <action>
     <call-macro n="mima_to_m">
-         <with-param pos="1"/>
+ <with-param pos="1"/>
     </call-macro>    
     <out>
         <chunk name="np" case="caseFirstWord">
@@ -662,13 +669,13 @@
 </action>
 </rule>
 
-<rule comment="regla:NGen">
+<rule comment="regla: NGen">
 <pattern>
        <pattern-item n="nom_gen"/>
 </pattern>
 <action>
     <call-macro n="mima_to_m">
-         <with-param pos="1"/>
+ <with-param pos="1"/>
     </call-macro>    
     <out>
         <chunk name="nomGen" case="caseFirstWord">
@@ -691,7 +698,7 @@
 </action>
 </rule>
 
-<rule comment="regla:NPLoc"> 
+<rule comment="regla: NPLoc"> 
 <pattern>
        <pattern-item n="np_loc"/>
 </pattern>
@@ -1074,7 +1081,7 @@
     </action>
   </rule>
 
-    <rule comment="vbser l-participle">
+    <rule comment="regla: vbser l-participle">
     <pattern>
         <pattern-item n="vbserpast"/>
         <pattern-item n="vblex-l-participle"/>
@@ -1104,7 +1111,7 @@
     </action>
   </rule>
 
-    <rule comment="vbser n l-participle">
+    <rule comment="regla: vbser n l-participle">
     <pattern>
         <pattern-item n="vbserpast"/>
         <pattern-item n="nom"/>
@@ -1145,7 +1152,7 @@
     </action>
   </rule>
   
-   <rule comment="l-participle vbser">
+   <rule comment="regla: l-participle vbser">
     <pattern>
         <pattern-item n="vblex-l-participle"/>
         <pattern-item n="vbserpast"/>
@@ -1176,7 +1183,7 @@
     </action>
   </rule>
 
-   <rule comment="vbser-l-participle vbser">
+   <rule comment="regla: vbser-l-participle vbser">
     <pattern>
         <pattern-item n="bil-participle"/>
         <pattern-item n="vbserpast"/>
@@ -1206,7 +1213,7 @@
     </action>
   </rule>
 
-  <rule comment="ne+vbser l-participle">
+  <rule comment="regla: ne+vbser l-participle">
     <pattern>
         <pattern-item n="nepart"/>
         <pattern-item n="vbserpast"/>
@@ -1243,7 +1250,7 @@
     </action>
   </rule>
 
-    <rule comment="l-participle">
+    <rule comment="regla: l-participle">
     <pattern>
         <pattern-item n="vblex-l-participle"/>
     </pattern>
@@ -1359,7 +1366,7 @@
        <pattern-item n="vblex"/>
      </pattern>
      <action>
-     <call-macro n="normalise-to-iv">        <with-param pos="1"/>     </call-macro>
+     <call-macro n="normalise-to-iv"><with-param pos="1"/></call-macro>
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>
@@ -1432,6 +1439,48 @@
 
 <!-- Sintagmas nominales -->
 
+  <rule comment="regla: possesive_adjective noun">
+     <pattern>
+       <pattern-item n="np"/>
+       <pattern-item n="adj_pss_sfx"/>
+       <pattern-item n="np"/>       
+     </pattern>
+     <action>
+       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
+       <call-macro n="mima_to_m"><with-param pos="2"/></call-macro>
+       <call-macro n="mima_to_m"><with-param pos="3"/></call-macro>        
+       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
+       <call-macro n="to_mfn"><with-param pos="2"/></call-macro>               
+       <call-macro n="to_mfn"><with-param pos="3"/></call-macro>           
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>
+       <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="3"/></call-macro>        
+       <let><clip pos="3" side="tl" part="def"/><lit-tag v="def"/></let>
+       <let><clip pos="1" side="tl" part="def"/><lit-tag v="ind"/></let>       
+       <out>
+         <chunk name="adjp" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="2" side="tl" part="gen"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+             <tag><clip pos="2" side="tl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="на"/>
+             <lit-tag v="pr"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
   <rule comment="regla: adj nom np">
      <pattern>
        <pattern-item n="adj"/>
@@ -1488,7 +1537,7 @@
      <action>
        <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
        <call-macro n="mima_to_m">
-         <with-param pos="2"/>
+ <with-param pos="2"/>
        </call-macro>    
        <out>
          <chunk name="n_np" case="caseFirstWord">
@@ -1799,7 +1848,7 @@
      </pattern>
      <action>
         <call-macro n="to_mfn">
-            <with-param pos="1"/>
+    <with-param pos="1"/>
         </call-macro>
         <out>
          <chunk name="num" case="caseFirstWord">
@@ -1983,7 +2032,7 @@
      </pattern>
      <action>
        <call-macro n="mima_to_m">
-           <with-param pos="1"/>
+   <with-param pos="1"/>
        </call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">
@@ -2013,10 +2062,10 @@
      </pattern>
      <action>
        <call-macro n="mima_to_m">
-           <with-param pos="1"/>
+   <with-param pos="1"/>
        </call-macro>
        <call-macro n="to_mfn">
-           <with-param pos="1"/>
+   <with-param pos="1"/>
        </call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">

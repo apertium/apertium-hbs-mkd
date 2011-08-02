@@ -112,11 +112,12 @@ LIST ACC-PREP = "kroz"i "niz"i "uz"i "na"i "o"i "po"i "u"i "među"i "nad"i "pod"
 LIST DAT-PREP = "k"i ;
 LIST LOC-PREP = "u"i "na"i "o"i "po"i "prema"i "pri"i;
 LIST INS-PREP = "s"i "pred"i "za"i "nad"i "pod"i "među"i;
+
 LIST ACC-OR-LOC-PREP = ACC-PREP | LOC-PREP ;
 
 LIST V-COP = "biti"i ; 
 
-LIST DualNum = "dva"i "tri"i "četiri"i ;
+LIST DualNum = "dva"i "tri"i "četiri"i ; # TODO: Needs to be expanded, since every number ending in those [2,3,4 except 12,13,14] is in this class)
 
 # =========================================================================== #
 
@@ -132,7 +133,6 @@ SET PRON-CLT = Pron + Clt ;
 SET V-FIN = FIN-TEMPS + V ;
 
 # Common ambiguities 
-
 SET A-OR-ADV = A | Adv ;
 SET Gen-OR-Nom = Gen | Nom ;
 SET DemPron-OR-PersPron = DemPron | PersPron ;  
@@ -140,12 +140,14 @@ SET ANIM-OR-INANIM = Animate | Inanimate ;
 SET Genitive-SingularOrPlural = Gen + Singular | Gen + Plural ; 
 SET Ind-OR-Def = Definite | Indefinite ; 
 SET Num-Ord = Num - Ord ;
+
 # All possible word categories
 SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interjection | Num | ("\?") ;
 
 # Categories that can come before the head noun in an ProperNoun 
 SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC | DemPron; 
 SET Modifier = A | Num | DemPron | PosPron | IndPron; # Words that agree in case, number, gender with the following word.
+    # (differs from PRE-N in that it always agrees with the headword)
 SET NOT-Modifier = WORD - Modifier ;
 
 SET MARK =  Cm | ("\\") | ("\;") ;

@@ -13172,6 +13172,111 @@ after prepositions-->
          <e><p><l></l><r>ev<s n="adj"/><s n="ssup"/></r></p><par n="marij/ev__pst__sfx"/></e>
 </pardef>
 <!--end 'marij/ev'-->
+<!--possesive adjective paradigm--><!--Todo: find out if these are the only suffixes it takes-->
+<pardef n="possesive__sfx__adj">
+<!-- Definite aspect -->
+<!--Masculine-->
+<!--Singular-->
+<!--Animate-->
+         <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><p><l>og</l><r><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>oga</l><r><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>ome</l><r><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e><p><l>ome</l><r><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e> 
+ <e r="LR"><p><l>og</l><r><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+       <e><p><l>oga</l><r><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l>i</l><r><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>im</l><r><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Inanimate-->
+         <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><p><l>og</l><r><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>oga</l><r><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>ome</l><r><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e><p><l>ome</l><r><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+         <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l>i</l><r><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>im</l><r><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+<!--Animate-->
+         <e><p><l>i</l><r><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ih</l><r><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>im</l><r><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>e</l><r><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>i</l><r><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+
+<!--Inanimate-->
+         <e><p><l>i</l><r><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ih</l><r><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>im</l><r><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>e</l><r><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>i</l><r><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+
+<!-- Feminine-->
+<!--Singular-->
+         <e><p><l>a</l><r><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l>e</l><r><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+        <e><p><l>oj</l><r><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>oj</l><r><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+         <e><p><l>u</l><r><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l>a</l><r><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>om</l><r><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ih</l><r><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>im</l><r><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>e</l><r><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+
+<!-- Neuter-->
+<!--Singular-->
+         <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+ <e r="LR"><p><l>og</l><r><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>oga</l><r><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>ome</l><r><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+ <e r="LR"><p><l>om</l><r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>omu</l><r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e><p><l>ome</l><r><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+         <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l>o</l><r><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>im</l><r><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ih</l><r><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+        <e><p><l>im</l><r><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+<e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+</pardef>
+<!--End possesive adjective suffix paradigm 'zdrav'-->
 <!--Adjective paradigm 'zdrav'-->
 <pardef n="zdrav__pst__sfx">
 <!-- Indefinite aspect -->
@@ -13362,7 +13467,6 @@ after prepositions-->
 <e r="LR"><p><l>ima</l><r><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></r></p></e>
          <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
          <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
- 
 </pardef>
 
 <pardef n="zdrav__comp__sfx">
@@ -13480,6 +13584,7 @@ after prepositions-->
          <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'zdrav'-->
+
 <!--Adjective paradigm 'bije/l'-->
 <pardef n="bije/l__pst__sfx">
 <!-- Indefinite aspect -->
@@ -25417,7 +25522,7 @@ after prepositions-->
 	   <e><p><l>go</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
           <e><p><l>gom</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
 	   <e><p><l>ge</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-           <e><p><l>ga</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>ga</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 	   <e><p><l>ge</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>   
 	 <e><p><l>gama</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
 	 <e><p><l>gama</l><r>ga<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
@@ -25426,7 +25531,7 @@ after prepositions-->
 </pardef>
 
 <!--end Toponyms-->
-<!--Antroponyms-->
+<!--Antroponyms--><!--Note and a TODO: -->
 <pardef n="Jasen/ka__n">
 	   <e><p><l>ka</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>ke</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -25442,6 +25547,8 @@ after prepositions-->
 	 <e><p><l>kama</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>ke</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
          <e><p><l>kama</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+
+      <e><p><l>kin</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>         
 </pardef>
 <pardef n="Ol/ga__np">
 	   <e><p><l>ga</l><r>ga<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -25458,6 +25565,7 @@ after prepositions-->
 	 <e><p><l>gama</l><r>ga<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>ge</l><r>ga<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
          <e><p><l>gama</l><r>ga<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>gin</l><r>ga<s n="np"/><s n="ant"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>         
 </pardef>
 <pardef n="An/a__np">
 	   <e><p><l>a</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -25475,6 +25583,7 @@ after prepositions-->
 	 <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>e</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
        <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>in</l><r>a<s n="np"/><s n="ant"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>       
 </pardef>
 <pardef n="Anj/a__np">
 	   <e><p><l>a</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -25491,6 +25600,7 @@ after prepositions-->
 	 <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>e</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
        <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>in</l><r>a<s n="np"/><s n="ant"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
 </pardef>
 <!-- Masculine antroponyms-->
 <pardef n="Nikol/a__np">
@@ -25509,6 +25619,8 @@ after prepositions-->
 	 <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>e</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
        <e><p><l>ama</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+
+     <e><p><l>in</l><r>a<s n="np"/><s n="ant"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
 </pardef>
 
 <!-- end Masculine antroponyms-->
@@ -25550,6 +25662,9 @@ after prepositions-->
          <e><p><l>ić</l><r>ić<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
          <e><p><l>ić</l><r>ić<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
          <e><p><l>ić</l><r>ić<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+         
+     <e><p><l>ev</l><r>ić<s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+     <e><p><l>ev</l><r>ić<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
 </pardef>
 <!--end 'prezimen/ić'-->
 <pardef n="Krnet/a__cog__np">
@@ -25585,6 +25700,12 @@ after prepositions-->
 	 <e><p><l>ama</l><r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
  	   <e><p><l>e</l><r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
        <e><p><l>ama</l><r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+       
+     <e><p><l>in</l><r>a<s n="np"/><s n="cog"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+     <e><p><l>in</l><r>a<s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+     <e><p><l>in</l><r>a<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+     <e><p><l>in</l><r>a<s n="np"/><s n="cog"/><s n="nt"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>                  
+
 </pardef>
 <!--Common noun paradigm 'prezimen/ski'-->
 <pardef n="Prezimen/ski__cog__np">
@@ -25624,7 +25745,7 @@ after prepositions-->
          <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
          <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
          <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
-         <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+         <e><p><l>ski</l><r>ski<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>         
 </pardef>
 <!--end 'prezimen/ski'-->
 <!--Common noun paradigm 'Bulgako/v'-->
@@ -25664,6 +25785,11 @@ after prepositions-->
          <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
          <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
          <e><p><l>v</l><r>v<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+         
+         <e><p><l>vljev</l><r>v<s n="np"/><s n="cog"/><s n="f"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+         <e><p><l>vljev</l><r>v<s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+         <e><p><l>vljev</l><r>v<s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+         <e><p><l>vljev</l><r>v<s n="np"/><s n="cog"/><s n="nt"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>                  
 </pardef>
 <!--end 'Bulgako/v'-->
 
@@ -39492,6 +39618,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Ščepanović"><i>Ščepanov</i><par n="Prezimen/ić__cog__np"/></e>
 <!--end Cognames ending in -ić-->
 <!--Surnames ending in -ov/-ev-->
+	<e lm="Bulgakov"><i>Bulgako</i><par n="Bulgako/v__cog__np"/></e>
 	<e lm="Samokov"><i>Samoko</i><par n="Bulgako/v__cog__np"/></e>
 	<e lm="Svištov"><i>Svišto</i><par n="Bulgako/v__cog__np"/></e>
 	<e lm="Popov"><i>Popo</i><par n="Bulgako/v__cog__np"/></e>
