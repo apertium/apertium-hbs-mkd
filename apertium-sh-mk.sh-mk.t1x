@@ -1469,11 +1469,6 @@
            </lu>
            <b pos="1"/>
            <lu>
-             <lit v="на"/>
-             <lit-tag v="pr"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
              <clip pos="1" side="tl" part="whole"/>
            </lu>
          </chunk>

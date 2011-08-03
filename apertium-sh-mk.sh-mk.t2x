@@ -136,7 +136,7 @@
 
   <section-rules>
 
-    <rule comment="REGLA: NP">
+   <rule comment="REGLA: NP">
       <pattern>
         <pattern-item n="NP"/>
       </pattern>
@@ -149,7 +149,7 @@
           </chunk>
         </out>
       </action>
-    </rule>
+   </rule>
     <rule comment="REGLA: SNGEN SNGEN">
       <pattern>
         <pattern-item n="SNGen"/>
@@ -194,9 +194,7 @@
         </let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
             <b pos="1"/>
           <chunk>
@@ -206,9 +204,7 @@
           </chunk>
           <b/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>            
+            <clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
