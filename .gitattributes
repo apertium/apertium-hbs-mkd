@@ -102,4 +102,5 @@ midterm/unknown.txt -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 /sh-mk.prob -text svneol=unset#unset
+sh-tagger-data/sh.crp -text
 /wiki-tests.sh -text
