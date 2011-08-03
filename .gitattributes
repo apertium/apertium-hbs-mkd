@@ -103,5 +103,5 @@ midterm/unknown.txt -text
 /regression-tests.sh -text
 /sh-mk-unsupervised.make -text
 /sh-mk.prob -text svneol=unset#unset
-sh-tagger-data/sh.crp -text
+sh-tagger-data/sh.crp.txt -text
 /wiki-tests.sh -text
