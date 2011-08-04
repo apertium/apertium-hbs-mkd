@@ -286,7 +286,6 @@
      <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
      <e><p><l>uz<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
      <e><p><l>prije<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
-     <e><p><l>kasnije<s n="adv"/></l><r>подоцна<s n="adv"/></r></p></e>
      <e><p><l>pri<s n="pr"/></l><r>при<s n="pr"/></r></p></e>                                   
 
 
@@ -6078,7 +6077,8 @@
     <e><p><l>jak<s n="adj"/></l><r>силен<s n="adj"/></r></p></e>
     <e><p><l>godišnji<s n="adj"/></l><r>годишен<s n="adj"/></r></p></e>
     <e><p><l>budući<s n="adj"/></l><r>иден<s n="adj"/></r></p></e>              
-
+     <e><p><l>kasnije<s n="adv"/></l><r>подоцна<s n="adv"/></r></p></e>
+     
      <e><p><l>parlamentaran<s n="adj"/></l><r>парламентарен<s n="adj"/></r></p></e> 
 
      <e><p><l>nov<s n="adj"/></l><r>нов<s n="adj"/></r></p></e>
@@ -7003,6 +7003,8 @@
 	<e><p><l>kod<b/>kuće<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>doma<s n="adv"/></l><r>дома<s n="adv"/></r></p></e><!--Note: 'doma' is more of a regionalism in Croatian (probably Serbian2), less in the standard-->
 	<e r="LR"><p><l>kući<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
+	<e><p><l>vani<s n="adv"/></l><r>надвор<s n="adv"/></r></p></e>
+	<e><p><l>unutra<s n="adv"/></l><r>внатре<s n="adv"/></r></p></e>			
 	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
 	<e><p><l>eventualno<s n="adv"/></l><r>евентуално<s n="adv"/></r></p></e><!--Note: This does not mean eventually :) -->
 	<e><p><l>isto<s n="adv"/></l><r>исто<s n="adv"/></r></p></e>
