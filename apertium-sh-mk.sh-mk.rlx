@@ -98,7 +98,7 @@ LIST Animate = ma ;
 LIST Inanimate = mi ; 
 
 LIST Nom = nom ; 
-LIST Gen = gen prtgen pssgen; 
+LIST Gen = gen ; 
 LIST Dat = dat ; 
 LIST Acc = acc ; 
 LIST Voc = voc ;
@@ -258,6 +258,12 @@ SELECT:RelativeNagađanje Relative + $$NUMBER + $$GENDER (-1* Nomen + $$NUMBER +
     
 SELECT:GenderOfRelative $$GENDER (0 Relative) (-1* $$GENDER BARRIER BOS) ;
     
+# 'imati' is a tv, but if it's used in 3rd person in its existencial sence, it's target is genitive, or possibly nominative
+SELECT:imatiGen Gen (-1 ("imati"i) OR ("nemati"i)) (NOT -2 PersPron + (p3)) ;
+# SELECT:imatiNom Nom (-1 ("<imati>"i)) (NOT -2 PersPron + (p3)) ; # This is colloquial, but if it ever occurs, can be uncommented
+SELECT:imatiAcc Acc (-1 ("imati"i) OR ("nemati"i)) (-2 PersPron + (p3)) ;
+
+# Normally, if it's a transitive verb, it's accusative by definition
 SELECT:tvAcc Acc (-1C V + Transitive ); 
 SELECT:tvAcc Acc (-2C V + Transitive) (-1 ("<niti>"i) + CC) ;
 
@@ -299,8 +305,10 @@ REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
 
 # Partitive vs. possesive disambiguation
 # The easiest one, if it comes' after an adverb it's partitive:
-SUBSTITUTE:PartitiveAfterAdv ( gen ) ( prtgen ) N + Gen (-1 Adv OR A + Neuter) ;
-SELECT:AdvB4Partitive Adv (1 (prtgen) ) ;
+MAP:PartitiveAfterAdv ( @PAR ) N + Gen (-1 Adv OR A + Neuter) ;
+SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
+
+MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
 
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
 SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
