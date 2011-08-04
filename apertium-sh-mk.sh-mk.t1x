@@ -294,6 +294,10 @@
 
 <section-def-macros>
 
+<def-macro n="case_normalise" npar="1"><!--TODO: use this wherever needs to be used-->
+    <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+</def-macro>
+
 <def-macro n="prn_adapter" npar="1">
         <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
         <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
@@ -1452,6 +1456,9 @@
        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
        <call-macro n="to_mfn"><with-param pos="2"/></call-macro>               
        <call-macro n="to_mfn"><with-param pos="3"/></call-macro>           
+       <call-macro n="case_normalise"><with-param pos="1"/></call-macro>
+       <call-macro n="case_normalise"><with-param pos="2"/></call-macro>       
+       <call-macro n="case_normalise"><with-param pos="3"/></call-macro>                             
        <call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>
        <!--<call-macro n="adjust_headword_agreement"><with-param pos="2"/><with-param pos="3"/></call-macro>-->
        <let><clip pos="3" side="tl" part="def"/><lit-tag v="def"/></let>
@@ -1466,7 +1473,7 @@
            </tags>
            <lu>
              <clip pos="3" side="tl" part="whole"/>
-             <lit-tag v="ind"/>
+             <lit-tag v="def"/>
            </lu>
            <b/>
            <lu>
