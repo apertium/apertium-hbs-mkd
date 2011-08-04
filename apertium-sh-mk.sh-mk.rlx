@@ -307,6 +307,10 @@ SELECT:NumberChainIns Ins (0 Num) (-1* INS-PREP BARRIER WORD - Modifier) ;
 SELECT:Modifier-Nom Nom IF (-1C Modifier + Nom);
 SELECT:Modifier-Clt-Nom Nom IF (-1 Pron + Clt) (-2C Modifier + Nom);
 
+SELECT:Pr-Loc-pristanek Loc IF (-2 ("pristanek"))(-1C ("na") OR Modifier + Loc);
+	## … in pristanku na Zemlji.
+	# To be generalized… see also the "agree" meaning :-/
+	
 SELECT:Pr-Acc-chain Acc IF (-1C ACC-PREP OR Modifier + Acc);
 SELECT:Pr-Acc-Clt-chain Acc IF (-1 Pron + Clt OR Num)(-2C ACC-PREP OR Modifier + Acc);
 
