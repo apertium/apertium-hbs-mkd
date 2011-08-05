@@ -280,18 +280,27 @@ SELECT:GenderSama $$GENDER (0 ("sam") + A + $$GENDER + $$NUMBER) (-1* Nomen + $$
     ## Terrible
 SELECT:SamoIsAdv Adv (0 A-OR-ADV) (1 CS) (NOT -1 V-COP);
 
+# Partitive vs. possesive disambiguation
+    # The easiest one, if it comes' after an adverb it's partitive:
+MAP:PartitiveAfterAdv ( @Adv← ) N + Gen (-1 Adv) ;
+SELECT:AdvB4Partitive Adv (1 (@Adv←) ) ; # This doesn't work
+#MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
+
 SELECT:AdjectiveORParticiple A (1* N BARRIER WORD - Modifier - Clt) ;
     
 SELECT Intransitive IF (1C Nom);
 
 SELECT:AdjBOSIsGen Gen (O A) (-1 BOS) (0 Gen-OR-Nom) (1* Nomen + Gen);
 
+###################################################
 SELECT Feminine IF (0 Cog + ("<Radovanović>") ) ;
 SELECT Feminine IF (0 Cog + ("<Tadić>") ) ;
 SELECT Feminine IF (0 Cog + ("<Krneta>") ) ;
 SELECT Masculine IF (0 Cog + ("<Ružić>") ) ;
 SELECT Masculine IF (0 Cog + ("<Stanković>") ) ;
     ## NOTE: This is for this article only
+###################################################
+    
 # =========================================================================== #
 #   PP disambiguation                                                         #
 # =========================================================================== #
@@ -302,13 +311,6 @@ REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
 
 #SELECT:NumberPhraseL Gen (NOT 0 Num) (-1* Num-Ord BARRIER NOT-Modifier OR Cm);
 #SELECT:NumberPhraseR Gen (NOT 0 Num) (1* Num-Ord BARRIER NOT-Modifier OR Cm);
-
-# Partitive vs. possesive disambiguation
-# The easiest one, if it comes' after an adverb it's partitive:
-MAP:PartitiveAfterAdv ( @PAR ) N + Gen (-1 Adv OR A + Neuter) ;
-SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
-
-MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
 
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
 SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
