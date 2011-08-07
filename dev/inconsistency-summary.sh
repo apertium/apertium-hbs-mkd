@@ -44,7 +44,7 @@ for i in $POS; do
 	elif [ "$i" = "np" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pr' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v  -e '<pr' | grep -v REGEX | wc -l`;
-		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v  -e '<pr' | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep -e '>  *#' -e '> *\(на\|со\)  *#' | grep -v  -e '<pr' | grep -v REGEX | wc -l`;
 	else
 		TOTAL=`cat $INC | grep "<$i>" | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
