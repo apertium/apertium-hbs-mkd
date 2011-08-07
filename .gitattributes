@@ -83,6 +83,7 @@ dev/np/prezimenski.monodix.txt -text
 dev/np/prezimenski.txt -text
 dev/np/vlastita_imena.hr.txt -text
 dev/np/vlastita_imena.mk.txt -text
+dev/quantity_nouns.txt -text
 dev/testvoc-summary.sh-mk.txt -text
 dev/testvoc.sh -text
 dev/vblex/bidix.vblex.special_care.txt -text

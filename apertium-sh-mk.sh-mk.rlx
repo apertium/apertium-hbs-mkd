@@ -283,7 +283,7 @@ SELECT:SamoIsAdv Adv (0 A-OR-ADV) (1 CS) (NOT -1 V-COP);
 # Partitive vs. possesive disambiguation
     # The easiest one, if it comes' after an adverb it's partitive:
 MAP:PartitiveAfterAdv ( @Adv← ) N + Gen (-1 Adv) ;
-SELECT:AdvB4Partitive Adv (1 (@Adv←) ) ; # This doesn't work
+SELECT:AdvB4Partitive Adv (1 (@Adv←) ) ;
 #MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
 
 SELECT:AdjectiveORParticiple A (1* N BARRIER WORD - Modifier - Clt) ;
