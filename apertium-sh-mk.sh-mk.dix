@@ -150,6 +150,26 @@
   
   <pardefs>
     
+    <pardef n="all_cases_singular">
+    <e><p><l><s n="sg"/><s n="nom"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="sg"/><s n="gen"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="sg"/><s n="dat"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="sg"/><s n="acc"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="sg"/><s n="voc"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="sg"/><s n="loc"/></l><r><s n="sg"/><s n="nom"/></r></p></e>                
+    <e><p><l><s n="sg"/><s n="ins"/></l><r><s n="sg"/><s n="nom"/></r></p></e>        
+    </pardef>
+    
+    <pardef n="all_cases_plural">
+    <e><p><l><s n="pl"/><s n="nom"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="pl"/><s n="gen"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="pl"/><s n="dat"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="pl"/><s n="acc"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="pl"/><s n="voc"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l><s n="pl"/><s n="loc"/></l><r><s n="pl"/><s n="nom"/></r></p></e>                
+    <e><p><l><s n="pl"/><s n="ins"/></l><r><s n="pl"/><s n="nom"/></r></p></e>        
+    </pardef>
+    
     <pardef n="all_cases_vs_none">
     <e r="LR"><p><l><s n="nom"/></l><r/></p></e>
     <e r="LR"><p><l><s n="gen"/></l><r/></p></e>
@@ -3134,8 +3154,8 @@
     <e><p><l>slijepa<b/>ulica<s n="n"/><s n="f"/></l><r>ќор-сокак<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tek<s n="n"/><s n="mi"/></l><r>тек<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>trošak<s n="n"/><s n="mi"/></l><r>трошок<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>čovjek<s n="n"/><s n="ma"/></l><r>човек<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ljudi<s n="n"/><s n="ma"/></l><r>луѓе<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>čovjek<s n="n"/><s n="ma"/></l><r>човек<s n="n"/><s n="m"/></r></p><par n="all_cases_singular"/></e>
+    <e><p><l>čovjek<s n="n"/><s n="ma"/></l><r>луѓе<s n="n"/><s n="mfn"/></r></p><par n="all_cases_plural"/></e>
     <e><p><l>štrajk<s n="n"/><s n="mi"/></l><r>штрајк<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>broj<s n="n"/><s n="mi"/></l><r>број<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>izvještaj<s n="n"/><s n="mi"/></l><r>извештај<s n="n"/><s n="m"/></r></p></e>

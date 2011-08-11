@@ -23032,6 +23032,22 @@ after prepositions-->
     <e><p><l>egovima</l><r>ijeg<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
     <e r="LR"><p><l>ijezima</l><r>ijeg<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<pardef n="čovjek__n"> <!--Irregular plural--><!--Yat-->
+    <e><i>čov</i><par n="e_je__yat"/><p><l>k</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><i>čov</i><par n="e_je__yat"/><p><l>ka</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><i>čov</i><par n="e_je__yat"/><p><l>ku</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><i>čov</i><par n="e_je__yat"/><p><l>ka</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><i>čov</i><par n="e_je__yat"/><p><l>če</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><i>čov</i><par n="e_je__yat"/><p><l>ku</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><i>čov</i><par n="e_je__yat"/><p><l>kom</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>ljudi</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>ljudi</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ljudima</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>ljude</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><p><l>ljudi</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ljudima</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>ljudima</l><r>čov</r></p><par n="e_je_right__yat"/><p><l/><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
 <pardef n="muž__n">
     <e><p><l></l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -33563,10 +33579,12 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="usvojen"><p><l>najusvojen</l><r>usvojen</r></p><par n="zdrav__sup__adj"/></e>
 <e lm="usvojen"><p><l>preusvojen</l><r>usvojen</r></p><par n="zdrav__ssup__adj"/></e>
 
+<!--gibberish
 <e lm="čovjekov"><i>čovjekov</i><par n="zdrav__pst__adj"/></e>
 <e lm="čovjekov"><i>čovjekov</i><par n="zdrav__comp__adj"/></e>
 <e lm="čovjekov"><p><l>najčovjekov</l><r>čovjekov</r></p><par n="zdrav__sup__adj"/></e>
 <e lm="čovjekov"><p><l>prečovjekov</l><r>čovjekov</r></p><par n="zdrav__ssup__adj"/></e>
+-->
 
 <e lm="uključen"><i>uključen</i><par n="zdrav__pst__adj"/></e>
 <e lm="uključen"><i>uključen</i><par n="zdrav__comp__adj"/></e>
@@ -40020,6 +40038,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="brijeg"><i>br</i><par n="br/ijeg__n"/></e><!--Yat-->
 <e lm="snijeg"><i>sn</i><par n="br/ijeg__n"/></e><!--Yat-->
 <e lm="muž"><i>muž</i><par n="muž__n"/></e>
+<e lm="čovjek"><i></i><par n="čovjek__n"/></e>
 <e lm="plašt"><i>plašt</i><par n="plašt__n"/></e>
 <e lm="kum"><i>kum</i><par n="kum__n"/></e>
 <e lm="grad"><i>grad</i><par n="grad__n"/></e>
