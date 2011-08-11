@@ -533,8 +533,15 @@
         </otherwise>
       </choose>        
     </def-macro>
+
+    <def-macro n="noun_case_contract" npar="1">
+    <!--Contracts cases--><!--i.e. if it's a noun, it is thrown into nominative--><!--Any noun-->
+    <!--if the word's morphology is more complicated (pronouns) it's handled accordingly-->    
+            <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+    </def-macro>  
     
     <def-macro n="prn_case_contract" npar="1">
+    <!--if the word's morphology is more complicated (pronouns) it's handled accordingly-->    
       <choose> <!--Throws locative into dative, since it's the equivalent category-->
         <when>
           <test>
@@ -642,120 +649,7 @@
 </section-def-macros>
 
 <section-rules>
-
-<!--Rules for nouns and proper nouns-->
-<rule comment="regla: NPGen">
-<pattern>
-       <pattern-item n="np_gen"/>
-</pattern>
-<action>
-    <call-macro n="mima_to_m">
- <with-param pos="1"/>
-    </call-macro>    
-    <out>
-        <chunk name="np" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>                                      
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
-             <lit-tag v="nom"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
-<rule comment="regla: NGen">
-<pattern>
-       <pattern-item n="nom_gen"/>
-</pattern>
-<action>
-    <call-macro n="mima_to_m">
- <with-param pos="1"/>
-    </call-macro>    
-    <out>
-        <chunk name="nomGen" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
-             <lit-tag v="nom.ind"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
-<rule comment="regla: NPLoc"> 
-<pattern>
-       <pattern-item n="np_loc"/>
-</pattern>
-<action>
-    <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
-    <out>
-        <chunk name="nom" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SNLoc"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>                                      
-           </tags>
-           <lu>                 
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
-             <lit-tag v="nom"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
-<!--end Rules for nouns and proper nouns-->
-
-<rule comment="regla: Adj">
-<pattern>
-       <pattern-item n="adj"/>
-</pattern>
-<action>
-    <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
-    <out>
-        <chunk name="adj" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SA"/></tag>
-             <tag><clip pos="1" side="sl" part="gen"/></tag>
-             <tag><clip pos="1" side="sl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
-             <tag><clip pos="1" side="sl" part="def"/></tag>                                       
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="whole"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
 <!--Rules for verbs-->
-
 <rule comment="regla: verb adv infinitive">
 <pattern><!-- Trebam dati -> треба да дадам -->
       <pattern-item n="verb"/>
@@ -774,7 +668,7 @@
            </tags>
            <lu>
              <clip pos="1" side="tl" part="whole"/>
-           </lu>
+           </lu>    <!--i.e. if it's a noun, it is thrown into nominative-->
            <b pos="1"/>
            <lu>
              <clip pos="2" side="tl" part="whole"/>
@@ -1441,10 +1335,116 @@
 
 
 
-<!-- Sintagmas nominales -->
+<!-- Nominal sintagms -->
+<rule comment="regla: NPGen">
+<pattern>
+       <pattern-item n="np_gen"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
+    <out>
+        <chunk name="np" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>                                      
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <lit-tag v="nom"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
 
-  <rule comment="regla: possesive_adjective noun">
-     <pattern>
+<rule comment="regla: NGen">
+<pattern>
+       <pattern-item n="nom_gen"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m">
+ <with-param pos="1"/>
+    </call-macro>    
+    <out>
+        <chunk name="nomGen" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <lit-tag v="nom.ind"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: NPLoc"> 
+<pattern>
+       <pattern-item n="np_loc"/>
+</pattern>
+<action>
+    <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
+    <out>
+        <chunk name="nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SNLoc"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="cas"/></tag>                                      
+           </tags>
+           <lu>                 
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+             <clip pos="1" side="tl" part="gen" link-to="2"/>
+             <clip pos="1" side="tl" part="nbr" link-to="3"/>                          
+             <lit-tag v="nom"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: Adj">
+<pattern>
+       <pattern-item n="adj"/>
+</pattern>
+<action>
+    <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+    <out>
+        <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SA"/></tag>
+             <tag><clip pos="1" side="sl" part="gen"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="def"/></tag>                                       
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+
+  <rule comment="regla: np_possesive_adjective noun">
+     <pattern><!--NOTE: There should be a rule to match a possesive adjective standing alone. TODO: Check if it should be translated as prepositional genitive or a possesive adjective, also there currently are no possesive adjectives in mk-->
        <pattern-item n="np"/>
        <pattern-item n="adj_pss_sfx"/>
        <pattern-item n="nom_or_np"/>       
@@ -2040,9 +2040,7 @@
        <pattern-item n="nom"/>
      </pattern>
      <action>
-       <call-macro n="mima_to_m">
-   <with-param pos="1"/>
-       </call-macro>
+       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">
            <tags>
@@ -2065,33 +2063,24 @@
      </action>
   </rule>
   
-    <rule comment="regla: np">
-     <pattern>
+  <rule comment="regla: np">
+     <pattern><!--This doesn't do much, just matches an np-->
        <pattern-item n="np"/>
      </pattern>
      <action>
-       <call-macro n="mima_to_m">
-   <with-param pos="1"/>
-       </call-macro>
-       <call-macro n="to_mfn">
-   <with-param pos="1"/>
-       </call-macro>
+       <call-macro n="noun_case_contract"><with-param pos="1"/></call-macro>
+       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
        <out>
          <chunk name="nom" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="tl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="cas"/></tag>
              <!--tag><lit-tag v="ind"/></tag-->
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_nom"/>
-             <clip pos="1" side="tl" part="gen" link-to="2"/>
-             <clip pos="1" side="tl" part="nbr" link-to="3"/>
-             <lit-tag v="nom"/>
-             <clip pos="1" side="tl" part="lemq"/>
+             <clip pos="1" side="tl" part="whole"/>
            </lu>
          </chunk>
        </out>
@@ -2114,40 +2103,15 @@
              <tag><clip pos="1" side="tl" part="cas"/></tag>
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_prn"/>
-             <clip pos="1" side="tl" part="prs"/>
-             <clip pos="1" side="tl" part="gen"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <clip pos="1" side="tl" part="cas"/>
-             <clip pos="1" side="tl" part="def"/>                     
-             <clip pos="1" side="tl" part="lemq"/>
+             <clip pos="1" side="tl" part="whole"/>
            </lu>
          </chunk>
        </out>
      </action>
   </rule>
   
-<rule comment="regla: pr">
-     <pattern>
-       <pattern-item n="pr"/>
-     </pattern>
-     <action>
-       <call-macro n="prn_case_contract"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="pr" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="PR"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <lit-tag v="pr"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
+<!-- end Nominal sintagms -->
+
 </section-rules>
 
 </transfer>
