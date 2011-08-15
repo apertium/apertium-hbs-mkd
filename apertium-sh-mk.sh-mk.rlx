@@ -312,6 +312,10 @@ REMOVE NOT-ACC-LOC IF (-1C* ACC-OR-LOC-PREP BARRIER NOT-PP-MEMBER) ;
 #SELECT:NumberPhraseL Gen (NOT 0 Num) (-1* Num-Ord BARRIER NOT-Modifier OR Cm);
 #SELECT:NumberPhraseR Gen (NOT 0 Num) (1* Num-Ord BARRIER NOT-Modifier OR Cm);
 
+# Partitive vs. possesive disambiguation
+# The easiest one, if it comes' after an adverb it's partitive:
+SELECT:AdvB4Partitive Adv (1 (@PAR) ) ;
+
 SELECT Ins IF (0 Num) (-1C ("<s>"i) + Pr);
 SELECT Gen IF (0 Num) (-1C ("<prije>"i) + Pr);
 
@@ -461,3 +465,19 @@ SECTION
 #   Syntactic function labelling                                              #
 # =========================================================================== #
 
+LIST @N← = @N← ; # Modifier of noun to the left
+LIST @→N = @→N ; # Modifier of noun to the right 
+LIST @A← = @A← ; # Modifier of adjective to the left
+LIST @Adv← = @Adv← ; # Modifier of adverb to the left
+
+# Partitive vs. possesive disambiguation
+MAP:PartitiveAfterAdv ( @Adv← ) TARGET N + Gen (-1 Adv OR A + Neuter) ;
+    ## U kući ima malo vode.
+
+#MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
+
+MAP:GenitiveModN ( @N← ) TARGET N + Gen (-1C* N BARRIER NOT-NP-MEMBER) ;
+
+MAP:NounModPoss ( @→N ) TARGET PosPron (1C N) ;
+
+MAP:NounModA ( @→N ) TARGET A + $$CASE (1C N + $$CASE) ;
