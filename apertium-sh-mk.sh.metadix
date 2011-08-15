@@ -4975,7 +4975,7 @@ after prepositions-->
 <pardef n="interrogative__pronouns__prn">
 	<e><i/><par n="tko__itg__prn"/></e>
 	<e><i/><par n="što__itg__prn"/></e>
-	<e><i>za</i><par n="što__itg__prn"/></e><!--TODO: determine if this is a pronoun-->
+	<e><p><l>zašto</l><r>zašto<s n="prn"/><s n="itg"/></r></p></e>
 	<e><i/><par n="koji__itg__prn"/></e>
 	<e><i/><par n="kakav__itg__prn"/></e>
 	<e><i/><par n="čiji__itg__prn"/></e>
@@ -5006,7 +5006,7 @@ after prepositions-->
 
 	<e><i>ne</i><par n="ne/koji__ind__prn"/></e>
 	<e><i>i</i><par n="ne/koji__ind__prn"/></e>
-	<e><i>bilo<b/></i><par n="ne/koji__ind__prn"/></e>	
+	<!--e><i>bilo<b/></i><par n="ne/koji__ind__prn"/></e-->	
 	<e><i>po</i><par n="ne/koji__ind__prn"/></e>
 	<e><i>gd</i><par n="e_je__yat"/><par n="ne/koji__ind__prn"/></e>
 
@@ -5015,7 +5015,7 @@ after prepositions-->
 
 	<e><i>ne</i><par n="ne/kakav__ind__prn"/></e>
 	<e><i>i</i><par n="ne/kakav__ind__prn"/></e>
-	<e><i>bilo<b/></i><par n="ne/kakav__ind__prn"/></e>
+	<!--e><i>bilo<b/></i><par n="ne/kakav__ind__prn"/></e-->
 	<e><i>koje</i><par n="ne/kakav__ind__prn"/></e>
 <!--TODO : nekoliko, zajedno s ostalim upitnim-->
 
@@ -28945,7 +28945,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--end Numbers-->
 <!--Abbreviations-->
 <e lm="km"><p><l>km</l><r>km<s n="abbr"/></r></p></e>
-<e lm="h"><p><l>h</l><r>h<s n="abbr"/></r></p></e>
 <e lm="km/h"><p><l>km/h</l><r>km/h<s n="abbr"/></r></p></e>
 <!--end Abbreviations-->
 <!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
@@ -29049,42 +29048,44 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="no"><i>no</i><par n="coordinating__cnj"/></e>
 <e lm="nego"><i>nego</i><par n="coordinating__cnj"/></e>
 <e lm="već"><i>već</i><par n="coordinating__cnj"/></e>
-<e lm="kad li"><i>kad<b></b>li</i><par n="coordinating__cnj"/></e>
+<!--e lm="kad li"><i>kad<b></b>li</i><par n="coordinating__cnj"/></e>
 <e lm="kad ono"><i>kad<b></b>ono</i><par n="coordinating__cnj"/></e>
 <e lm="kad to"><i>kad<b></b>to</i><par n="coordinating__cnj"/></e>
 <e lm="a ono"><i>a<b></b>ono</i><par n="coordinating__cnj"/></e>
 <e lm="a to"><i>a<b></b>to</i><par n="coordinating__cnj"/></e>
-<e lm="samo što"><i>samo<b></b>što</i><par n="coordinating__cnj"/></e>
+<e lm="samo što"><i>samo<b></b>što</i><par n="coordinating__cnj"/></e-->
 <e lm="tek"><i>tek</i><par n="coordinating__cnj"/></e>
-<e lm="tek što"><i>tek<b></b>što</i><par n="coordinating__cnj"/></e>
+<!--e lm="tek što"><i>tek<b></b>što</i><par n="coordinating__cnj"/></e-->
 <e lm="jedino"><i>jedino</i><par n="coordinating__cnj"/></e>
-<e lm="jedino što"><i>jedino<b></b>što</i><par n="coordinating__cnj"/></e>
+<!--e lm="jedino što"><i>jedino<b></b>što</i><par n="coordinating__cnj"/></e-->
 <e lm="osim"><i>osim</i><par n="coordinating__cnj"/></e>
-<e lm="osim što"><i>osim<b></b>što</i><par n="coordinating__cnj"/></e>
+<!--e lm="osim što"><i>osim<b></b>što</i><par n="coordinating__cnj"/></e-->
 <e lm="zato"><i>zato</i><par n="coordinating__cnj"/></e>
 <e lm="dakle"><i>dakle</i><par n="coordinating__cnj"/></e>
 <e lm="stoga"><i>stoga</i><par n="coordinating__cnj"/></e>
 <!--Subordinating-->
 <e lm="da"><i>da</i><par n="subordinating__cnj"/></e>
 <e lm="da li"><i>da<b></b>li</i><par n="subordinating__cnj"/></e>
+<e lm="pri čemu"><i>pri<b></b>čemu</i><par n="subordinating__cnj"/></e>
 <!--e lm="kako"><i>kako</i><par n="subordinating__cnj"/></e-->
 <e lm="gdje"><i>gd</i><par n="e_je__yat"/><par n="subordinating__cnj"/></e>
-<e lm="e"><i>e</i><par n="subordinating__cnj"/></e>
+<!--e lm="e"><i>e</i><par n="subordinating__cnj"/></e-->
 <e lm="čim"><i>čim</i><par n="subordinating__cnj"/></e>
-<!--e lm="kada"><i>kada</i><par n="subordinating__cnj"/></e-->
+<e lm="kada"><i>kada</i><par n="subordinating__cnj"/></e>
 <e lm="kad"><i>kad</i><par n="subordinating__cnj"/></e>
 <e lm="pošto"><i>pošto</i><par n="subordinating__cnj"/></e>
-<e lm="nakon što"><i>nakon<b></b>što</i><par n="subordinating__cnj"/></e>
+<!--e lm="nakon što"><i>nakon<b></b>što</i><par n="subordinating__cnj"/></e-->
 <e lm="jer"><i>jer</i><par n="subordinating__cnj"/></e>
 <e lm="budući da"><i>budući<b></b>da</i><par n="subordinating__cnj"/></e>
 <e lm="što"><i>što</i><par n="subordinating__cnj"/></e>
-<e lm="eda"><i>eda</i><par n="subordinating__cnj"/></e>
-<e lm="ne bih li"><i>ne<b></b>bih<b></b>li</i><par n="subordinating__cnj"/></e>
+<!--e lm="eda"><i>eda</i><par n="subordinating__cnj"/></e-->
+<!--e lm="ne bih li"><i>ne<b></b>bih<b></b>li</i><par n="subordinating__cnj"/></e-->
 <e lm="neka"><i>neka</i><par n="subordinating__cnj"/></e>
 <e lm="stoga"><i>stoga</i><par n="subordinating__cnj"/></e>
 <e lm="kao što"><i>kao<b></b>što</i><par n="subordinating__cnj"/></e>
 <e lm="ako"><i>ako</i><par n="subordinating__cnj"/></e>
 <e lm="iako"><i>iako</i><par n="subordinating__cnj"/></e>
+<e lm="čim"><i>čim</i><par n="subordinating__cnj"/></e>
 <e lm="premda"><i>premda</i><par n="subordinating__cnj"/></e>
 <e lm="makar"><i>makar</i><par n="subordinating__cnj"/></e>
 <e lm="mada"><i>mada</i><par n="subordinating__cnj"/></e>
@@ -29092,7 +29093,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="dok"><i>dok</i><par n="subordinating__cnj"/></e>
 <e lm="nego"><i>nego</i><par n="subordinating__cnj"/></e>
 <e lm="no"><i>no</i><par n="subordinating__cnj"/></e>
-<e lm="kad li"><i>kad<b></b>li</i><par n="subordinating__cnj"/></e>
+<!--e lm="kad li"><i>kad<b></b>li</i><par n="subordinating__cnj"/></e-->
 
 <!--Interjections--><!--Note: The list of interjections in the book by which I am working is very comprehensive-->
 <e lm="uh"><i>uh</i><par n="interjection__ij"/></e>

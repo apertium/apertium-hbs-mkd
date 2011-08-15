@@ -206,7 +206,7 @@
      <e>        <p>          <l>ело</l>     <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="nt"/><s n="sg"/></r></p></e>
      <e>        <p>          <l>еле</l>     <r>е<s n="vbser"/><s n="lp"/><s n="pii"/><s n="mfn"/><s n="pl"/></r></p></e>
 
-	 <e>        <p>          <l>ейки</l>    <r>е<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e>
+	 <e>        <p>          <l>ејќи</l>    <r>е<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e>
    </pardef>
 
 
@@ -6817,6 +6817,7 @@
     <e lm="оти"><i>оти</i><par n="ако__cnjsub"/></e>
     <e lm="ами"><i>ами</i><par n="ако__cnjsub"/></e> <!--removable-->
     <e lm="ако"><i>ако</i><par n="ако__cnjsub"/></e>
+    <e lm="ако и"><i>ако<b/>и</i><par n="ако__cnjsub"/></e>    <!--removable-->
 	<e lm="иако"><i>иако</i><par n="ако__cnjsub"/></e>
 	<e lm="при што"><i>при<b/>што</i><par n="ако__cnjsub"/></e>
     <e lm="дека"><i>дека</i><par n="ако__cnjsub"/></e>

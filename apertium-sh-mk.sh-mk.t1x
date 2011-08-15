@@ -341,10 +341,9 @@
                    </concat>
                 </let>
             </when>
-
             <when>
                 <test>
-                    <and>
+                    <and><!--If it's a totalising pronoun 'sav'-->
                       <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="sav"/></equal>                      
                       <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.tot"/></equal>
                     </and>
@@ -381,7 +380,41 @@
                      <clip pos="1" side="tl" part="lemq"/>
                    </concat>
                 </let>
-            </when>
+            </when>            
+            <when>
+                <test>
+                      <and>
+                          <or>
+                              <equal><clip pos="1" side="sl" part="lem"/><lit v="koliki"/></equal>
+                              <equal><clip pos="1" side="sl" part="lem"/><lit v="kakav"/></equal>                                                                              
+                          </or>
+                          <or>
+                              <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>
+                              <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.rel"/></equal>                                                    
+                          </or>
+                      </and>
+                </test>
+                <let>
+                   <clip pos="1" side="tl" part="whole"/>
+                   <concat>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="a_prn"/>
+                     <clip pos="1" side="tl" part="gen"/>
+                     <clip pos="1" side="tl" part="nbr"/>
+                     <clip pos="1" side="tl" part="lemq"/>
+                   </concat>
+                </let>
+            </when>   
+            <when>
+                <test>
+                  <or>
+                      <equal><clip pos="1" side="sl" part="lem"/><lit v="čiji"/></equal>
+                      <equal><clip pos="1" side="sl" part="lem"/><lit v="nečiji"/></equal>                                                                              
+                     <equal><clip pos="1" side="sl" part="lem"/><lit v="ničiji"/></equal>
+                  </or>
+                </test>
+                <let><clip pos="1" side="tl" part="cas"/><lit-tag v="gen"/></let>
+            </when>   
             <when>
                 <test>
                     <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.dem"/></equal>
@@ -531,7 +564,7 @@
           <test>
             <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
           </test>
-            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></let>
+            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
         </when>
       </choose>        
         <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
@@ -572,6 +605,12 @@
           </test>
             <let><clip pos="1" side="tl" part="cas"/><lit-tag v="dat"/></let>
         </when>
+        <!--when>
+          <test><Throws genitive into accusative, since it's the equivalent category. It's not a good idea>
+            <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+          </test>
+            <let><clip pos="1" side="tl" part="cas"/><lit-tag v="acc"/></let>
+        </when> -->
       </choose>
     </def-macro>  
 
