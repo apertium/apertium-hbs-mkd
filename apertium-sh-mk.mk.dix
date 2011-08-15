@@ -211,7 +211,7 @@
 
 
    <pardef n="има__vbhaver">
-     <e>        <p>          <l>ј</l>          <r><s n="vbhaver"/><s n="imp"/><s n="sg"/></r></p></e>
+     <e>        <p>          <l>ј</l>          <r><s n="vbhaver"/><s n="imp"/><s n="sg"/></r></p></e>     
      <e>        <p>          <l>јте</l>        <r><s n="vbhaver"/><s n="imp"/><s n="pl"/></r></p></e>
 
      <e>        <p>          <l>м</l>           <r><s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>

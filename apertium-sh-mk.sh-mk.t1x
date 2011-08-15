@@ -551,22 +551,63 @@
 </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-      <choose><!--Normalise reflexive to intransitive, since there's no ref symbol in the mk monodix-->
-        <when><!--Note, this causes problems, and really is not all that clever-->
-          <test>
-            <equal><clip pos="1" side="sl" part="trn"/><lit-tag v="ref"/></equal>
-          </test>
-            <let><clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/></let>
-        </when>
-      </choose>        
-      <choose><!--This normalises optative to lp, since optative is rare.--><!--TODO: implement macedonian optative-->
-        <when>
-          <test>
-            <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
-          </test>
-            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
-        </when>
-      </choose>        
+        <choose><!--Normalise reflexive to intransitive, since there's no ref symbol in the mk monodix-->
+            <when><!--Note, this causes problems, and really is not all that clever-->
+                <test>
+                    <equal><clip pos="1" side="sl" part="trn"/><lit-tag v="ref"/></equal>
+                </test>
+                <let>
+                    <clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/>
+                </let>
+            </when>
+            <when><!--This normalises optative to lp, since optative is rare.--><!--TODO: implement macedonian optative-->
+                <test>
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
+                </test>
+                <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
+            </when>       
+            <when><!--For imperative the tags need to be rearranged, or for the second person the analytical construction.-->
+                <test>
+                    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="imp"/></equal>
+                </test>
+                <choose>
+                <when>
+                    <test>
+                        <and>
+                            <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+                            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+                        </and>
+                    </test>
+                    <let>
+                        <clip pos="1" side="tl" part="whole"/>
+                        <concat><!--TODO: for now normalises to present, to be expanded-->
+                            <clip pos="1" side="tl" part="lem"/>
+                            <clip pos="1" side="tl" part="a_vrb"/>
+                            <clip pos="1" side="tl" part="asp"/>
+                            <clip pos="1" side="tl" part="trn"/>
+                            <lit-tag v="pres"/>
+                            <clip pos="1" side="tl" part="prs"/>
+                            <clip pos="1" side="tl" part="nbr"/>                            
+                        </concat>
+                    </let>
+                </when>
+                <otherwise>
+                    <let>
+                        <clip pos="1" side="tl" part="whole"/>
+                        <concat>
+                            <clip pos="1" side="tl" part="lem"/>
+                            <clip pos="1" side="tl" part="a_vrb"/>
+                            <clip pos="1" side="tl" part="asp"/>
+                            <clip pos="1" side="tl" part="trn"/>
+                            <lit-tag v="imp"/>
+                            <clip pos="1" side="tl" part="nbr"/>
+                        </concat>
+                    </let>
+                </otherwise>   
+                </choose>
+            </when>
+             
+        </choose>        
         <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
     </def-macro>
     
@@ -1349,6 +1390,7 @@
         </out>
      </action>
   </rule>
+  
 
   <rule comment="regla: vbser_lp vbser_clt">
      <pattern>
