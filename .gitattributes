@@ -92,6 +92,7 @@ dev/vblex/bidix.vblex_BS.txt -text
 dev/vblex/bidix.vblex_HR.txt -text
 dev/vblex/bidix.vblex_SR.txt -text
 dev/vblex/bidix.vblex_sh.txt -text
+dev/verbAlign.py -text
 /lexchoicebil.xsl -text
 midterm/article.mk.original.txt -text svneol=unset#application/octet-stream
 midterm/article.sh-mk.txt -text
