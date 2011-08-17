@@ -580,7 +580,8 @@
                 <test>
                 <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
                 </test>
-                <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
+                <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></let>
+                <let><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></let>
             </when>       
             <when><!--For imperative the tags need to be rearranged, or for the second person the analytical construction.-->
                 <test>
@@ -607,19 +608,6 @@
                         </concat>
                     </let>
                 </when>
-                <otherwise>
-                    <let>
-                        <clip pos="1" side="tl" part="whole"/>
-                        <concat>
-                            <clip pos="1" side="tl" part="lem"/>
-                            <clip pos="1" side="tl" part="a_vrb"/>
-                            <clip pos="1" side="tl" part="asp"/>
-                            <clip pos="1" side="tl" part="trn"/>
-                            <lit-tag v="imp"/>
-                            <clip pos="1" side="tl" part="nbr"/>
-                        </concat>
-                    </let>
-                </otherwise>   
                 </choose>
             </when>
              
@@ -628,17 +616,26 @@
         <call-macro n="assign-past-tense"><with-param pos="1"/></call-macro>        
     </def-macro>
     
-    <def-macro n="assign-past-tense" npar="1">
+    <def-macro n="assign-past-tense" npar="1">    
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="perf"/></equal>
+            <and>         
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+                <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="perf"/></equal>
+            </and>
           </test>
-            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="aor"/></let>
+            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
         </when>
-        <otherwise>
-            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="pii"/></let>
-        </otherwise>
+        <when>
+          <test>
+            <and>         
+                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
+                <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="imperf"/></equal>
+            </and>
+          </test>
+            <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></let>
+        </when>
       </choose>        
     </def-macro>
     

@@ -7542,7 +7542,7 @@
      <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
      <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>има<s n="vbhaver"/></r></p></e>
      <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>има<s n="vbhaver"/></r></p></e>     
-     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>нема<s n="vbhaver"/></r></p></e>
+     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>нема<s n="vbhaver"/></r></p></e>
      <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>нема<s n="vbhaver"/></r></p></e>          
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
