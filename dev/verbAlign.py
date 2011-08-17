@@ -26,7 +26,8 @@ def isAVerb(p):
         return True
 
 for section in dictionary.iter("section"):
-    for par in section.iter("p"):
+    for entri in section.iter("e"):
+        par=entri.find("p")
         if not isAVerb(par):
             continue
         else: # If we indeed have found a verb
@@ -38,8 +39,10 @@ for section in dictionary.iter("section"):
             p=subprocess.Popen(['echo '+glagol+'| lt-proc '+'../sh-mk.automorf.bin'],shell=True,stdout=subprocess.PIPE).communicate();
             analiza = unicode (p[0])
             
-            p=subprocess.Popen(['echo '+glagolot+'| lt-proc '+'../mk-sh.automorf.bin'],shell=True,stdout=subprocess.PIPE).communicate();
-            analizata = unicode (p[0])
+            q=subprocess.Popen(['echo '+glagolot+'| lt-proc '+'../mk-sh.automorf.bin'],shell=True,stdout=subprocess.PIPE).communicate();
+            analizata = unicode (q[0])
+            
+            print analiza +':'+ analizata
             
             if string.find(analiza,'<perf>') !=-1: paradigma+="perf_"
             if string.find(analiza,'<imperf>') !=-1: paradigma+="imperf_"                       
