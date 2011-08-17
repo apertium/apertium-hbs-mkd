@@ -4,6 +4,7 @@
 
 import sys, subprocess, string
 from lxml import etree
+from subprocess import Popen, PIPE
 
 if len(sys.argv) != 3:
     print ('\nA script to adapt bidix entries for verbs')
@@ -33,14 +34,14 @@ for section in dictionary.iter("section"):
         else: # If we indeed have found a verb
             paradigma=""
             
-            glagol=par.find("l").text
-            glagolot=par.find("r").text
-            
-            p=subprocess.Popen(['echo '+glagol+'| lt-proc '+'../sh-mk.automorf.bin'],shell=True,stdout=subprocess.PIPE).communicate();
-            analiza = unicode (p[0])
-            
-            q=subprocess.Popen(['echo '+glagolot+'| lt-proc '+'../mk-sh.automorf.bin'],shell=True,stdout=subprocess.PIPE).communicate();
-            analizata = unicode (q[0])
+            glagol=unicode(par.find("l").text)
+            glagolot=unicode(par.find("r").text)
+
+            p=subprocess.Popen(['echo '+glagol+' | apertium -d .. sh-mk-morph '],shell=True,stdout=subprocess.PIPE, close_fds=True);
+            analiza = unicode (p.communicate()[0])
+        
+            q=subprocess.Popen(['echo '+glagolot+' | lt-proc ../mk-sh.automorf.bin'],shell=True,stdout=subprocess.PIPE, close_fds=True);
+            analizata = unicode (q.communicate()[0])
             
             print analiza +':'+ analizata
             
