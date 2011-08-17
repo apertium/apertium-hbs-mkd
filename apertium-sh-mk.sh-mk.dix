@@ -7535,20 +7535,21 @@
      <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
 	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 
-     <e><p><l>moći<s n="vbmod"/><s n="pprs"/></l><r>може<s n="vbmod"/><s n="pprs"/></r></p></e>
-     <e><p><l>moći<s n="vbmod"/><s n="pprs"/></l><r>може<s n="vbmod"/><s n="pprs"/></r></p></e>
+     <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
+     <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
      
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
      <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
-     <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>
-     <e><p><l>imati<s n="vbhaver"/></l><r>има<s n="vbhaver"/></r></p></e>     
-     <e><p><l>nemati<s n="vbhaver"/></l><r>нема<s n="vbhaver"/></r></p></e>
-     <e><p><l>nemati<s n="vbhaver"/></l><r>нема<s n="vbhaver"/></r></p></e>          
+     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="tv"/></l><r>има<s n="vbhaver"/></r></p></e>
+     <e><p><l>imati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>има<s n="vbhaver"/></r></p></e>     
+     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>нема<s n="vbhaver"/></r></p></e>
+     <e><p><l>nemati<s n="vbhaver"/><s n="imperf"/><s n="ref"/></l><r>нема<s n="vbhaver"/></r></p></e>          
 
      <e><p><l>polaziti<s n="vblex"/></l><r>тргнува<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
 
      <!--<e><p><l>istražiti<s n="vblex"/></l><r>истражи<s n="vblex"/></r></p></e>-->
      <!--e><p><l>leći<s n="vblex"/></l><r>легне<s n="vblex"/></r></p></e-->
+     <e><p><l>bivati<s n="vblex"/></l><r>станува<s n="vblex"/></r></p></e>     
      <e><p><l>zbaciti<s n="vblex"/></l><r>отфрли<s n="vblex"/></r></p></e>     
      <e><p><l>zavaravati<s n="vblex"/></l><r>измамува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>     
      <e><p><l>usporediti<s n="vblex"/></l><r>спореди<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>     
@@ -8052,7 +8053,7 @@
         <e><p><l>poručivati<s n="vblex"/></l><r>порачува<s n="vblex"/></r></p></e>
         <e><p><l>poručiti<s n="vblex"/></l><r>порача<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>
         <e><p><l>nastupati<s n="vblex"/></l><r>настапува<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>
-        <e><p><l>nadmetati<s n="vblex"/></l><r>натпреварува се<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
+        <e><p><l>nadmetati<s n="vblex"/></l><r>натпреварува<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
         <e><p><l>negirati<s n="vblex"/></l><r>негира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_iv_tv_"/></e>
         <e><p><l>kriviti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e r="LR"><p><l>teretiti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p></e>
@@ -8189,7 +8190,7 @@
         <e><p><l>negirati<s n="vblex"/></l><r>негира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_iv_tv_"/></e>
         <e><p><l>počinjati<s n="vblex"/></l><r>почнува<s n="vblex"/></r></p></e>
         <e><p><l>protestirati<s n="vblex"/></l><r>протестира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
-        <e><p><l>prijetiti<s n="vblex"/></l><r>заканува се<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
+        <e><p><l>prijetiti<s n="vblex"/></l><r>заканува<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
         <e><p><l>pridonositi<s n="vblex"/></l><r>придонесува<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_iv_"/></e>
         <e><p><l>razgovarati<s n="vblex"/></l><r>разговара<s n="vblex"/></r></p><par n="_imperf_tv_to_imperf_iv_"/></e>
         <e><p><l>ustati<s n="vblex"/></l><r>станува<s n="vblex"/></r></p><par n="_perf_iv_to_imperf_iv_"/></e>
@@ -8354,14 +8355,14 @@
         <e><p><l>pjevati<s n="vblex"/></l><r>пее<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
         <e><p><l>priznati<s n="vblex"/></l><r>признае<s n="vblex"/></r></p><par n="_perf_tv_to_perf_iv_tv_"/></e>
         <e><p><l>braniti<s n="vblex"/></l><r>брани<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-        <e><p><l>zaprijetiti<s n="vblex"/></l><r>закани се<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_iv_"/></e>
+        <!--e><p><l>zaprijetiti<s n="vblex"/></l><r>закани<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_iv_"/></e-->
         <e><p><l>smijati<s n="vblex"/></l><r>смее<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
         <e><p><l>smjeti<s n="vblex"/></l><r>смее<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_iv_"/></e>
         <e><p><l>podržati<s n="vblex"/></l><r>поддржи<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>zadržati<s n="vblex"/></l><r>задржи<s n="vblex"/></r></p><par n="_perf_ref_to_perf_tv_"/></e>
         <e><p><l>naći<s n="vblex"/></l><r>најде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>pronaći<s n="vblex"/></l><r>пронајде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-        <e><p><l>sastojati<s n="vblex"/></l><r>состои се<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
+        <e><p><l>sastojati<s n="vblex"/></l><r>состои<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
         <e><p><l>stajati<s n="vblex"/></l><r>стои<s n="vblex"/></r></p></e>
         <e><p><l>postojati<s n="vblex"/></l><r>постои<s n="vblex"/></r></p></e>
         <e><p><l>brojiti<s n="vblex"/></l><r>брои<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
@@ -9463,7 +9464,7 @@
         <e><p><l>nuditi<s n="vblex"/></l><r>понудува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>sprovoditi<s n="vblex"/></l><r>спроведува<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>
         <e><p><l>sadržavati<s n="vblex"/></l><r>содржи<s n="vblex"/></r></p></e>
-        <e><p><l>održati<s n="vblex"/></l><r>одржи<b/>се<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
+        <e><p><l>održati<s n="vblex"/></l><r>одржи<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <!--e><p><l>održavati<s n="vblex"/></l><r>одржува<b/>се<s n="vblex"/></r></p></e-->
         <e><p><l>napuštati<s n="vblex"/></l><r>напушта<s n="vblex"/></r></p><par n="_imperf_tv_to_imperf_iv_tv_"/></e>
         <e><p><l>smetati<s n="vblex"/></l><r>смета<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
@@ -10439,7 +10440,7 @@
 	<e r="RL"><p><l>poručivati<s n="vblex"/></l><r>порачува<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>poručiti<s n="vblex"/></l><r>порача<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>nastupati<s n="vblex"/></l><r>настапува<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>
-	<e r="RL"><p><l>nadmetati<s n="vblex"/></l><r>натпреварува се<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
+	<e r="RL"><p><l>nadmetati<s n="vblex"/></l><r>натпреварува<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>negirati<s n="vblex"/></l><r>негира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_iv_tv_"/></e>
 	<e r="RL"><p><l>kriviti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 	<e r="LR"><p><l>teretiti<s n="vblex"/></l><r>обвинува<s n="vblex"/></r></p></e>
@@ -10576,7 +10577,7 @@
 	<e r="RL"><p><l>negirati<s n="vblex"/></l><r>негира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_iv_tv_"/></e>
 	<e r="RL"><p><l>počinjati<s n="vblex"/></l><r>почнува<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>protestirati<s n="vblex"/></l><r>протестира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
-	<e r="RL"><p><l>prijetiti<s n="vblex"/></l><r>заканува се<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
+	<e r="RL"><p><l>prijetiti<s n="vblex"/></l><r>заканува<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>pridonositi<s n="vblex"/></l><r>придонесува<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>razgovarati<s n="vblex"/></l><r>разговара<s n="vblex"/></r></p><par n="_imperf_tv_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>ustati<s n="vblex"/></l><r>станува<s n="vblex"/></r></p><par n="_perf_iv_to_imperf_iv_"/></e>
@@ -10741,14 +10742,14 @@
 	<e r="RL"><p><l>pjevati<s n="vblex"/></l><r>пее<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>priznati<s n="vblex"/></l><r>признае<s n="vblex"/></r></p><par n="_perf_tv_to_perf_iv_tv_"/></e>
 	<e r="RL"><p><l>braniti<s n="vblex"/></l><r>брани<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-	<e r="RL"><p><l>zaprijetiti<s n="vblex"/></l><r>закани се<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_iv_"/></e>
+	<!--e r="RL"><p><l>zaprijetiti<s n="vblex"/></l><r>закани<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_iv_"/></e-->
 	<e r="RL"><p><l>smijati<s n="vblex"/></l><r>смее<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>smjeti<s n="vblex"/></l><r>смее<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>podržati<s n="vblex"/></l><r>поддржи<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>zadržati<s n="vblex"/></l><r>задржи<s n="vblex"/></r></p><par n="_perf_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>naći<s n="vblex"/></l><r>најде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>pronaći<s n="vblex"/></l><r>пронајде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>sastojati<s n="vblex"/></l><r>состои се<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
+	<e r="RL"><p><l>sastojati<s n="vblex"/></l><r>состои<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>stajati<s n="vblex"/></l><r>стои<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>postojati<s n="vblex"/></l><r>постои<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>brojiti<s n="vblex"/></l><r>брои<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>

@@ -5471,7 +5471,7 @@ after prepositions-->
     <!-- (no pp, past passive participle) -->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
-    <e><p><l>hoteći</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>    
+    <e><p><l>hoteći</l><r>ht</r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>    
 </pardef>
 <!--end Modal verb htjeti-->
 <pardef n="inf_ti+fiiI__sfx__tv__vbhaver__imperf">
@@ -30279,8 +30279,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="dobivati"><i>dobiv</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="umivati"><i>umiv</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="umivati"><i>umiv</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="kalkulirati"><i>kalkulir</i><par n="imperf_iv_bir/ati__vblex"/></e>
-<e lm="kalkulisati"><i>kalkulis</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<!--e lm="kalkulirati"><i>kalkulir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="kalkulisati"><i>kalkulis</i><par n="imperf_iv_bir/ati__vblex"/></e-->
 
 <e lm="manevrirati"><i>manevrir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="prezentirati"><i>prezentir</i><par n="imperf_iv_bir/ati__vblex"/></e>
@@ -30553,8 +30553,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="sabrati"><i>sab</i><par n="perf_ref_op/rati__vblex"/></e>
 <e lm="prati"><i>p</i><par n="imperf_tv_p/rati__vblex"/></e>
 <e lm="prati"><i>p</i><par n="imperf_ref_p/rati__vblex"/></e>
-<e lm="srati"><i>s</i><par n="imperf_iv_p/rati__vblex"/></e>
-<e lm="srati"><i>s</i><par n="imperf_tv_p/rati__vblex"/></e>
+<!--e lm="srati"><i>s</i><par n="imperf_iv_p/rati__vblex"/></e>
+<e lm="srati"><i>s</i><par n="imperf_tv_p/rati__vblex"/></e-->
 <e lm="držati"><i>drž</i><par n="imperf_tv_drž/ati__vblex"/></e>
 <e lm="držati"><i>drž</i><par n="imperf_ref_drž/ati__vblex"/></e>
 <e lm="dobavljati"><i>dobavlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -30707,7 +30707,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="uputiti"><i>upu</i><par n="perf_ref_vra/titi__vblex"/></e>
 <e lm="misliti"><i>mi</i><par n="imperf_iv_mi/sliti__vblex"/></e>
 <e lm="uhapsiti"><i>uhap</i><par n="perf_tv_nagla/siti__vblex"/></e>
-<e lm="saglasiti"><i>sagla</i><par n="perf_ref_nagla/siti__vblex"/></e>
+<!--e lm="saglasiti"><i>sagla</i><par n="perf_ref_nagla/siti__vblex"/></e-->
 <e lm="nositi"><i>no</i><par n="imperf_tv_ga/siti__vblex"/></e>
 <e lm="nositi"><i>no</i><par n="imperf_ref_ga/siti__vblex"/></e>
 <e lm="unositi"><i>uno</i><par n="imperf_tv_ga/siti__vblex"/></e>
@@ -30757,8 +30757,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ploviti"><i>plov</i><par n="imperf_iv_plov/iti__vblex"/></e>
 <e lm="loviti"><i>lov</i><par n="imperf_tv_plov/iti__vblex"/></e>
 <e lm="loviti"><i>lov</i><par n="imperf_iv_plov/iti__vblex"/></e>
-<e lm="ljubiti"><i>ljub</i><par n="imperf_tv_plov/iti__vblex"/></e>
-<e lm="ljubiti"><i>ljub</i><par n="imperf_ref_plov/iti__vblex"/></e>
+<!--e lm="ljubiti"><i>ljub</i><par n="imperf_tv_plov/iti__vblex"/></e>
+<e lm="ljubiti"><i>ljub</i><par n="imperf_ref_plov/iti__vblex"/></e-->
 <e lm="uspostaviti"><i>uspostav</i><par n="perf_tv_isplov/iti__vblex"/></e>
 <e lm="okriviti"><i>okriv</i><par n="perf_tv_isplov/iti__vblex"/></e>
 <e lm="okriviti"><i>okriv</i><par n="perf_ref_isplov/iti__vblex"/></e>
@@ -30826,8 +30826,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="usvojiti"><i>usvoj</i><par n="perf_tv_istraž/iti__vblex"/></e>
 <e lm="tražiti"><i>traž</i><par n="imperf_tv_traž/iti__vblex"/></e>
 <e lm="tražiti"><i>traž</i><par n="imperf_ref_traž/iti__vblex"/></e>
-<e lm="složiti"><i>slož</i><par n="imperf_tv_traž/iti__vblex"/></e>
-<e lm="složiti"><i>slož</i><par n="imperf_ref_traž/iti__vblex"/></e>
+<!--e lm="složiti"><i>slož</i><par n="imperf_tv_traž/iti__vblex"/></e>
+<e lm="složiti"><i>slož</i><par n="imperf_ref_traž/iti__vblex"/></e-->
 <e lm="bilježiti"><i>b</i><par n="e_i__yat"/><i>l</i><par n="e_je__yat"/><i>ž</i><par n="imperf_tv_traž/iti__vblex"/></e>
 <e lm="bilježiti"><i>b</i><par n="e_i__yat"/><i>l</i><par n="e_je__yat"/><i>ž</i><par n="imperf_ref_traž/iti__vblex"/></e>
 <e lm="govoriti"><i>govor</i><par n="imperf_iv_traž/iti__vblex"/></e>

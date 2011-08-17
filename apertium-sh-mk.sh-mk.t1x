@@ -244,6 +244,7 @@
      <attr-item tags="imp"/>
      <attr-item tags="aor"/>
      <attr-item tags="pii"/>     
+     <attr-item tags="clt.futI"/>     
      <attr-item tags="futI"/>
      <attr-item tags="fti"/>
      <attr-item tags="past"/>
@@ -551,15 +552,30 @@
 </def-macro>
 
     <def-macro n="verb_adapter" npar="1">
-        <choose><!--Normalise reflexive to intransitive, since there's no ref symbol in the mk monodix-->
-            <when><!--Note, this causes problems, and really is not all that clever-->
+        <choose>
+            <when>
                 <test>
-                    <equal><clip pos="1" side="sl" part="trn"/><lit-tag v="ref"/></equal>
+                <and>
+                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сака"/></equal>
+                    <equal><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbmod"/></equal>
+                    <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="clt.futI"/></equal>                    
+                </and>
                 </test>
                 <let>
-                    <clip pos="1" side="tl" part="trn"/><lit-tag v="iv"/>
+                    <clip pos="1" side="tl" part="whole"/>
+                    <concat>
+                        <lit v="ќе"/><lit-tag v="part"/>
+                    </concat>
                 </let>
-            </when>
+            </when>       
+            <when>
+                <test>
+                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сака"/></equal>
+                </test>
+                <let>
+                    <clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex.imperf.tv"/>
+                </let>
+            </when>       
             <when><!--This normalises optative to lp, since optative is rare.--><!--TODO: implement macedonian optative-->
                 <test>
                 <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
@@ -609,6 +625,7 @@
              
         </choose>        
         <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
+        <call-macro n="assign-past-tense"><with-param pos="1"/></call-macro>        
     </def-macro>
     
     <def-macro n="assign-past-tense" npar="1">
@@ -1120,7 +1137,7 @@
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
-        <call-macro n="lp_default_aspect"><with-param pos="3"/></call-macro>
+        <call-macro n="assign-past-tense"><with-param pos="3"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1160,7 +1177,7 @@
     </pattern>
     <action>
     <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-    <call-macro n="lp_default_aspect"><with-param pos="1"/></call-macro>
+    <call-macro n="assign-past-tense"><with-param pos="1"/></call-macro>
         <out>
             <chunk name ="verb" case="caseFirstWord">
                 <tags>
@@ -1362,9 +1379,9 @@
      </action>
   </rule>
 
-  <rule comment="regla: vblex">
+  <rule comment="regla: verb">
      <pattern>
-       <pattern-item n="vblex"/>
+       <pattern-item n="verb"/>
      </pattern>
      <action>
      <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
@@ -1377,14 +1394,7 @@
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_vrb"/>
-              <clip pos="1" side="tl" part="asp"/>
-              <clip pos="1" side="tl" part="trn"/>
-              <clip pos="1" side="tl" part="tns"/>
-              <clip pos="1" side="tl" part="prs"/>
-              <clip pos="1" side="tl" part="gen"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
@@ -1399,7 +1409,7 @@
      </pattern>
      <action>
        <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>          
-       <call-macro n="lp_default_aspect"><with-param pos="1"/></call-macro>
+       <call-macro n="assign-past-tense"><with-param pos="1"/></call-macro>
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>
