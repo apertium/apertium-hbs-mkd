@@ -32,7 +32,7 @@ for section in dictionary.iter("section"):
         if not isAVerb(par):
             continue
         else: # If we indeed have found a verb
-            paradigma=""
+            paradigma="_"
             
             glagol=unicode(par.find("l").text)
             glagolot=unicode(par.find("r").text)
@@ -56,6 +56,6 @@ for section in dictionary.iter("section"):
             if string.find(analizata,'<iv>') !=-1: paradigma+="iv_"
             if string.find(analizata,'<tv>') !=-1: paradigma+="tv_"
             
-            eljement=etree.SubElement(par,'par',n=paradigma)
+            eljement=etree.SubElement(entri,'par',n=paradigma)
 
 drvo.write(dixTargetFile,encoding='utf-8')        
