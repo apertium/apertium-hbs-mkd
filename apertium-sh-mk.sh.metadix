@@ -30323,6 +30323,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prezentovati"><i>prezent</i><par n="perf_tv_tr/ovati__vblex"/></e>
 <e lm="prezentovati"><i>prezent</i><par n="perf_iv_tr/ovati__vblex"/></e>
 <e lm="prezentovati"><i>prezent</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="izjavljivati"><i>izjavlj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="potiskivati"><i>potisk</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="potiskivati"><i>potisk</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="ovlašćivati"><i>ovlašć</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
