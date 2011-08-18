@@ -5888,7 +5888,6 @@
     <e><p><l>formiran<s n="adj"/></l><r>формиран<s n="adj"/></r></p></e>
     <e><p><l>čvrst<s n="adj"/></l><r>цврст<s n="adj"/></r></p></e>
     <e><p><l>cijel<s n="adj"/></l><r>цел<s n="adj"/></r></p></e>
-    <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
     <e><p><l>čest<s n="adj"/></l><r>чест<s n="adj"/></r></p></e>
     <e><p><l>čist<s n="adj"/></l><r>чист<s n="adj"/></r></p></e>
     <e><p><l>čovjekov<s n="adj"/></l><r>човеков<s n="adj"/></r></p></e>
@@ -6352,15 +6351,15 @@
     <e><p><l>nizak<s n="adj"/></l><r>низок<s n="adj"/></r></p></e>
     <e><p><l>težak<s n="adj"/></l><r>тежок<s n="adj"/></r></p></e>
     <e><p><l>topao<s n="adj"/></l><r>топол<s n="adj"/></r></p></e>
-    <e><p><l>anti<s n="adj"/></l><r>анти<s n="adj"/></r></p></e>
-    <e><p><l>art<s n="adj"/></l><r>арт<s n="adj"/></r></p></e>
-    <e><p><l>pres<s n="adj"/></l><r>прес<s n="adj"/></r></p></e>
-    <e><p><l>fer<s n="adj"/></l><r>фер<s n="adj"/></r></p></e>
-    <e><p><l>neto<s n="adj"/></l><r>нето<s n="adj"/></r></p></e>
+    <e><p><l>anti</l><r>анти</r></p></e>    
+    <e><p><l>art</l><r>арт</r></p></e>
+    <e><p><l>pres</l><r>прес</r></p></e>
+    <e><p><l>fer</l><r>фер</r></p></e>
+    <e><p><l>super</l><r>супер</r></p></e>    
+    <e><p><l>neto</l><r>нето</r></p></e>
 
      <e><p><l>prošli<s n="adj"/></l><r>минат<s n="adj"/></r></p></e>
 
-     <e><p><l>crn<s n="adj"/></l><r>црн<s n="adj"/></r></p></e>
      <e><p><l>zdrav<s n="adj"/></l><r>здрав<s n="adj"/></r></p></e>
      <e><p><l>rumen<s n="adj"/></l><r>румен<s n="adj"/></r></p></e>
      <e><p><l>leteći<s n="adj"/></l><r>летачки<s n="adj"/></r></p></e>
@@ -7291,10 +7290,10 @@
  <e r="LR"><p><l>dosada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
  <e r="LR"><p><l>do<b/>sad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
  <e r="LR"><p><l>do<b/>sada<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
-	<e r="RL"><p><l>još<b/>uvijek<s n="adv"/></l><r>се<b/>уште<s n="adv"/></r></p></e>
+	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>се<b/>уште<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>još<b/>uvijek<s n="adv"/></l><r>сеуште<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>još<b/>uvijek<s n="adv"/></l><r>сѐ<b/>уште<s n="adv"/></r></p></e>
-	<e><p><l>još<b/>uvijek<s n="adv"/></l><r>сѐуште<s n="adv"/></r></p></e>
+	<e r="RL"><p><l>još<b/>uvijek<s n="adv"/></l><r>сѐуште<s n="adv"/></r></p></e>
 	<e><p><l>u<b/>prosjeku<s n="adv"/></l><r>во<b/>просек<s n="adv"/></r></p></e>
 	<e><p><l>podjednako<s n="adv"/></l><r>подеднакво<s n="adv"/></r></p></e>
 	<e><p><l>nego<s n="adv"/></l><r>отколку<s n="adv"/></r></p></e>
@@ -7340,9 +7339,12 @@
 
 	<e><p><l>uključujući<s n="adv"/></l><r>вклучително<s n="adv"/></r></p></e>
 	<e><p><l>zapravo<s n="adv"/></l><r>всушност<s n="adv"/></r></p></e>
-	<e><p><l>večeras<s n="adv"/></l><r>вечер<s n="adv"/></r></p></e><!--TODO: Check if it's maybe bulgarian-->
+	<e><p><l>večeras<s n="adv"/></l><r>вечерва<s n="adv"/></r></p></e><!--TODO: Check if it's maybe bulgarian-->
 	<e><p><l>dvaput<s n="adv"/></l><r>дваж<s n="adv"/></r></p></e>
-	<e><p><l>danju<s n="adv"/></l><r>денем<s n="adv"/></r></p></e> <!--TODO and Note: this is bulgarian, macedonian would bi 'denski, preko den, denje'-->
+	<!--e><p><l>danju<s n="adv"/></l><r>денем<s n="adv"/></r></p></e--> <!--TODO and Note: this is bulgarian, macedonian would bi 'denski, preko den, denje'-->
+	<e r="RL"><p><l>danju<s n="adv"/></l><r>денски<s n="adv"/></r></p></e>
+	<e><p><l>danju<s n="adv"/></l><r>преко<b/>ден<s n="adv"/></r></p></e>
+	<e r="RL"><p><l>danju<s n="adv"/></l><r>дење<s n="adv"/></r></p></e>	
 	<e><p><l>danas<s n="adv"/></l><r>денес<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>tek<s n="adv"/></l><r>допрва<s n="adv"/></r></p></e><!--TODO: check -->
 	<e><p><l>kasno<s n="adv"/></l><r>доцна<s n="adv"/></r></p></e>
@@ -7355,11 +7357,10 @@
 
 	<!--big TODO: check if this cluster is correct-->
 	<e><p><l>kadgod<s n="adv"/></l><r>кога-годе<s n="adv"/></r></p></e>
-	<e><p><l>kad<b/>god<s n="adv"/></l><r>кога<b/>годе<s n="adv"/></r></p></e>
+	<e><p><l>kad<b/>god<s n="adv"/></l><r>кога-годе<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>koliko<b/>god<s n="adv"/></l><r>колку-годе<s n="adv"/></r></p></e>
-	<e><p><l>koliko<b/>god<s n="adv"/></l><r>колку<b/>годе<s n="adv"/></r></p></e>
 	<e><p><l>gdjegod<s n="adv"/></l><r>каде-годе<s n="adv"/></r></p></e>
-	<e><p><l>gdje<b/>god<s n="adv"/></l><r>каде<b/>годе<s n="adv"/></r></p></e>
+	<e><p><l>gdje<b/>god<s n="adv"/></l><r>каде-годе<s n="adv"/></r></p></e>
 	<!-- -->
 
 	<e><p><l>malo-pomalo<s n="adv"/></l><r>лека-полека<s n="adv"/></r></p></e>
@@ -7505,7 +7506,7 @@
     <e><p><l>akademski<s n="adv"/></l><r>академски<s n="adv"/></r></p></e>
     <e><p><l>akcijski<s n="adv"/></l><r>акциски<s n="adv"/></r></p></e>
     <e><p><l>akcionerski<s n="adv"/></l><r>акционерски<s n="adv"/></r></p></e>
-    <e><p><l>ako<s n="adv"/></l><r>ако<s n="adv"/></r></p></e>
+    <e><p><l>ako<s n="adv"/></l><r>ако<s n="cnjsub"/></r></p></e>
     <e><p><l>akrobatski<s n="adv"/></l><r>акробатски<s n="adv"/></r></p></e>
     <e><p><l>akterski<s n="adv"/></l><r>актерски<s n="adv"/></r></p></e>
     <e><p><l>aktivno<s n="adv"/></l><r>активно<s n="adv"/></r></p></e>
@@ -7565,7 +7566,7 @@
     <e><p><l>autentično<s n="adv"/></l><r>автентично<s n="adv"/></r></p></e>
     <e><p><l>autobiografski<s n="adv"/></l><r>автобиографски<s n="adv"/></r></p></e>
     <e><p><l>autobuski<s n="adv"/></l><r>автобуски<s n="adv"/></r></p></e>
-    <e><p><l>autobusno<s n="adv"/></l><r>автобуско<s n="adv"/></r></p></e>
+    <e><p><l>autobusno<s n="adv"/></l><r>автобуски<s n="adv"/></r></p></e>
     <e><p><l>autokratski<s n="adv"/></l><r>автократски<s n="adv"/></r></p></e>
     <e><p><l>automatski<s n="adv"/></l><r>автоматски<s n="adv"/></r></p></e>
     <e><p><l>automobilski<s n="adv"/></l><r>автомобилски<s n="adv"/></r></p></e>
@@ -7578,7 +7579,7 @@
     <e><p><l>azorski<s n="adv"/></l><r>азорски<s n="adv"/></r></p></e>
     <e><p><l>babilonski<s n="adv"/></l><r>вавилонски<s n="adv"/></r></p></e>
     <e><p><l>bagdadski<s n="adv"/></l><r>багдадски<s n="adv"/></r></p></e>
-    <e><p><l>baletno<s n="adv"/></l><r>балетско<s n="adv"/></r></p></e>
+    <e><p><l>baletno<s n="adv"/></l><r>балетски<s n="adv"/></r></p></e>
     <e><p><l>balkanski<s n="adv"/></l><r>балкански<s n="adv"/></r></p></e>
     <e><p><l>banatski<s n="adv"/></l><r>банатски<s n="adv"/></r></p></e>
     <e><p><l>bankarski<s n="adv"/></l><r>банкарски<s n="adv"/></r></p></e>
@@ -7604,7 +7605,7 @@
     <e><p><l>biohemijski<s n="adv"/></l><r>биохемиски<s n="adv"/></r></p></e>
     <e><p><l>biokemijski<s n="adv"/></l><r>биохемиски<s n="adv"/></r></p></e>
     <e><p><l>biometrijski<s n="adv"/></l><r>биометриски<s n="adv"/></r></p></e>
-    <e><p><l>biopoljoprivredno<s n="adv"/></l><r>биоземјоделско<s n="adv"/></r></p></e>
+    <e><p><l>biopoljoprivredno<s n="adv"/></l><r>биоземјоделски<s n="adv"/></r></p></e>
     <e><p><l>birački<s n="adv"/></l><r>избирачки<s n="adv"/></r></p></e>
     <e><p><l>birokratski<s n="adv"/></l><r>бирократски<s n="adv"/></r></p></e>
     <e><p><l>bitolski<s n="adv"/></l><r>битолски<s n="adv"/></r></p></e>
@@ -7636,11 +7637,15 @@
     <e><p><l>brzo<s n="adv"/></l><r>брзо<s n="adv"/></r></p></e>
     <e><p><l>budžetski<s n="adv"/></l><r>буџетски<s n="adv"/></r></p></e>
     <e><p><l>bugarski<s n="adv"/></l><r>бугарски<s n="adv"/></r></p></e>
+    <e><p><l>bivše<s n="adv"/></l><r>бившо<s n="adv"/></r></p></e>
+    <e><p><l>bližnje<s n="adv"/></l><r>ближно<s n="adv"/></r></p></e>        
+    <e><p><l>buduće<s n="adv"/></l><r>идно<s n="adv"/></r></p></e>            
     <e><p><l>carigradski<s n="adv"/></l><r>цариградски<s n="adv"/></r></p></e>
     <e><p><l>carinski<s n="adv"/></l><r>царински<s n="adv"/></r></p></e>
     <e><p><l>carski<s n="adv"/></l><r>царски<s n="adv"/></r></p></e>
     <e><p><l>čečenski<s n="adv"/></l><r>чеченски<s n="adv"/></r></p></e>
     <e><p><l>celo<s n="adv"/></l><r>цело<s n="adv"/></r></p></e>
+    <e><p><l>crno<s n="adv"/></l><r>црно<s n="adv"/></r></p></e>    
     <e><p><l>centralno<s n="adv"/></l><r>централно<s n="adv"/></r></p></e>
     <e><p><l>centralnoazijski<s n="adv"/></l><r>централноазиски<s n="adv"/></r></p></e>
     <e><p><l>centralnodesničarski<s n="adv"/></l><r>централнодесничарски<s n="adv"/></r></p></e>
@@ -7701,10 +7706,10 @@
     <e><p><l>dobrovoljački<s n="adv"/></l><r>доброволски<s n="adv"/></r></p></e>
     <e><p><l>dobrovoljno<s n="adv"/></l><r>доброволно<s n="adv"/></r></p></e>
     <e><p><l>dodijeljeno<s n="adv"/></l><r>доделено<s n="adv"/></r></p></e>
-    <e><p><l>domoljubno<s n="adv"/></l><r>патриотско<s n="adv"/></r></p></e>
+    <e><p><l>domoljubno<s n="adv"/></l><r>патриотски<s n="adv"/></r></p></e>
     <e><p><l>donatorski<s n="adv"/></l><r>донаторски<s n="adv"/></r></p></e>
     <e><p><l>doneseno<s n="adv"/></l><r>донесено<s n="adv"/></r></p></e>
-    <e><p><l>dopunski<s n="adv"/></l><r>дополнителни<s n="adv"/></r></p></e>
+    <e><p><l>dopunski<s n="adv"/></l><r>дополнително<s n="adv"/></r></p></e>
     <e><p><l>dovoljno<s n="adv"/></l><r>доволно<s n="adv"/></r></p></e>
     <e><p><l>doživotno<s n="adv"/></l><r>доживотно<s n="adv"/></r></p></e>
     <e><p><l>dozvoljeno<s n="adv"/></l><r>дозволено<s n="adv"/></r></p></e>
@@ -7732,7 +7737,7 @@
     <e><p><l>ekonomski<s n="adv"/></l><r>економски<s n="adv"/></r></p></e>
     <e><p><l>ekscentrično<s n="adv"/></l><r>ексцентрично<s n="adv"/></r></p></e>
     <e><p><l>eksperimentalno<s n="adv"/></l><r>експериментално<s n="adv"/></r></p></e>
-    <e><p><l>ekspertno<s n="adv"/></l><r>експертско<s n="adv"/></r></p></e>
+    <e><p><l>ekspertno<s n="adv"/></l><r>експертски<s n="adv"/></r></p></e>
     <e><p><l>ekspertski<s n="adv"/></l><r>експертски<s n="adv"/></r></p></e>
     <e><p><l>ekstradirano<s n="adv"/></l><r>екстрадирано<s n="adv"/></r></p></e>
     <e><p><l>elegantno<s n="adv"/></l><r>елегантно<s n="adv"/></r></p></e>
@@ -7783,13 +7788,13 @@
     <e><p><l>francuski<s n="adv"/></l><r>француски<s n="adv"/></r></p></e>
     <e><p><l>franjevački<s n="adv"/></l><r>францискански<s n="adv"/></r></p></e>
     <e><p><l>frankfurtski<s n="adv"/></l><r>франкфуртски<s n="adv"/></r></p></e>
-    <e><p><l>frankofono<s n="adv"/></l><r>франкофонско<s n="adv"/></r></p></e>
+    <e><p><l>frankofono<s n="adv"/></l><r>франкофонски<s n="adv"/></r></p></e>
     <e><p><l>fudbalski<s n="adv"/></l><r>фудбалски<s n="adv"/></r></p></e>
     <e><p><l>funkcionalno<s n="adv"/></l><r>функционално<s n="adv"/></r></p></e>
     <e><p><l>funkcionerski<s n="adv"/></l><r>функционерски<s n="adv"/></r></p></e>
     <e><p><l>gangsterski<s n="adv"/></l><r>гангстерски<s n="adv"/></r></p></e>
     <e><p><l>garancijski<s n="adv"/></l><r>гаранциски<s n="adv"/></r></p></e>
-    <e><p><l>garantno<s n="adv"/></l><r>гаранциско<s n="adv"/></r></p></e>
+    <e><p><l>garantno<s n="adv"/></l><r>гаранциски<s n="adv"/></r></p></e>
     <e><p><l>generalno<s n="adv"/></l><r>генерално<s n="adv"/></r></p></e>
     <e><p><l>generalski<s n="adv"/></l><r>генералски<s n="adv"/></r></p></e>
     <e><p><l>genetski<s n="adv"/></l><r>генетски<s n="adv"/></r></p></e>
@@ -7810,7 +7815,7 @@
     <e><p><l>gorski<s n="adv"/></l><r>горски<s n="adv"/></r></p></e>
     <e><p><l>gotski<s n="adv"/></l><r>готски<s n="adv"/></r></p></e>
     <e><p><l>građanski<s n="adv"/></l><r>граѓански<s n="adv"/></r></p></e>
-    <e><p><l>građevinski<s n="adv"/></l><r>градежни<s n="adv"/></r></p></e>
+    <e><p><l>građevinski<s n="adv"/></l><r>градежно<s n="adv"/></r></p></e>
     <e><p><l>gradski<s n="adv"/></l><r>градски<s n="adv"/></r></p></e>
     <e><p><l>grandiozno<s n="adv"/></l><r>грандиозно<s n="adv"/></r></p></e>
     <e><p><l>granično<s n="adv"/></l><r>гранично<s n="adv"/></r></p></e>
@@ -7851,7 +7856,7 @@
     <e><p><l>imigracijski<s n="adv"/></l><r>имиграциски<s n="adv"/></r></p></e>
     <e><p><l>imigrantski<s n="adv"/></l><r>имигрантски<s n="adv"/></r></p></e>
     <e><p><l>imotski<s n="adv"/></l><r>имотски<s n="adv"/></r></p></e>
-    <e><p><l>imovinski<s n="adv"/></l><r>имотни<s n="adv"/></r></p></e>
+    <e><p><l>imovinski<s n="adv"/></l><r>имотно<s n="adv"/></r></p></e>
     <e><p><l>imperatorski<s n="adv"/></l><r>императорски<s n="adv"/></r></p></e>
     <e><p><l>impozantno<s n="adv"/></l><r>импозантно<s n="adv"/></r></p></e>
     <e><p><l>indijanski<s n="adv"/></l><r>индијански<s n="adv"/></r></p></e>
@@ -8085,7 +8090,7 @@
     <e><p><l>mašinski<s n="adv"/></l><r>машински<s n="adv"/></r></p></e>
     <e><p><l>masovno<s n="adv"/></l><r>масовно<s n="adv"/></r></p></e>
     <e><p><l>materijalno<s n="adv"/></l><r>материјално<s n="adv"/></r></p></e>
-    <e><p><l>maturalno<s n="adv"/></l><r>матурско<s n="adv"/></r></p></e>
+    <e><p><l>maturalno<s n="adv"/></l><r>матурски<s n="adv"/></r></p></e>
     <e><p><l>maturski<s n="adv"/></l><r>матурски<s n="adv"/></r></p></e>
     <e><p><l>medeno<s n="adv"/></l><r>медено<s n="adv"/></r></p></e>
     <e><p><l>medicinski<s n="adv"/></l><r>медицински<s n="adv"/></r></p></e>
@@ -8098,7 +8103,7 @@
     <e><p><l>međureligijski<s n="adv"/></l><r>меѓурелигиски<s n="adv"/></r></p></e>
     <e><p><l>međustranački<s n="adv"/></l><r>меѓупартиски<s n="adv"/></r></p></e>
     <e><p><l>međuuniverzitetski<s n="adv"/></l><r>меѓууниверзитетски<s n="adv"/></r></p></e>
-    <e><p><l>međuusveučilišno<s n="adv"/></l><r>меѓууниверзитетско<s n="adv"/></r></p></e>
+    <e><p><l>međuusveučilišno<s n="adv"/></l><r>меѓууниверзитетски<s n="adv"/></r></p></e>
     <e><p><l>megalomanski<s n="adv"/></l><r>мегаломански<s n="adv"/></r></p></e>
     <e><p><l>mekano<s n="adv"/></l><r>меко<s n="adv"/></r></p></e>
     <e><p><l>meko<s n="adv"/></l><r>меко<s n="adv"/></r></p></e>
@@ -8168,7 +8173,7 @@
     <e><p><l>namjesto<s n="adv"/></l><r>наместо<s n="adv"/></r></p></e>
     <e><p><l>naoružano<s n="adv"/></l><r>вооружено<s n="adv"/></r></p></e>
     <e><p><l>napravljeno<s n="adv"/></l><r>направено<s n="adv"/></r></p></e>
-    <e><p><l>naravno<s n="adv"/></l><r>cе<b/>разбира<s n="adv"/></r></p></e>
+    <e><p><l>naravno<s n="adv"/></l><r>се<b/>разбира<s n="adv"/></r></p></e>
     <e><p><l>naredno<s n="adv"/></l><r>наредно<s n="adv"/></r></p></e>
     <e><p><l>narodno<s n="adv"/></l><r>народно<s n="adv"/></r></p></e>
     <e><p><l>naseljeno<s n="adv"/></l><r>населено<s n="adv"/></r></p></e>
@@ -8181,13 +8186,13 @@
     <e><p><l>neafrički<s n="adv"/></l><r>неафрикански<s n="adv"/></r></p></e>
     <e><p><l>nealbanski<s n="adv"/></l><r>неалбански<s n="adv"/></r></p></e>
     <e><p><l>nearapski<s n="adv"/></l><r>неарапски<s n="adv"/></r></p></e>
-    <e><p><l>nebeski<s n="adv"/></l><r>небесни<s n="adv"/></r></p></e>
+    <e><p><l>nebeski<s n="adv"/></l><r>небесно<s n="adv"/></r></p></e>
     <e><p><l>nečisto<s n="adv"/></l><r>нечисто<s n="adv"/></r></p></e>
     <e r="RL"><p><l>nedavno<s n="adv"/></l><r>неодамнешно<s n="adv"/></r></p></e>
     <e><p><l>nedemokratski<s n="adv"/></l><r>недемократски<s n="adv"/></r></p></e>
     <e><p><l>nediskriminacijski<s n="adv"/></l><r>недискриминаторски<s n="adv"/></r></p></e>
     <e><p><l>nediskriminatorski<s n="adv"/></l><r>недискриминаторски<s n="adv"/></r></p></e>
-    <e><p><l>nedomoljubno<s n="adv"/></l><r>непатриотско<s n="adv"/></r></p></e>
+    <e><p><l>nedomoljubno<s n="adv"/></l><r>непатриотски<s n="adv"/></r></p></e>
     <e><p><l>nedovoljno<s n="adv"/></l><r>недоволно<s n="adv"/></r></p></e>
     <e><p><l>neekonomski<s n="adv"/></l><r>неекономски<s n="adv"/></r></p></e>
     <e><p><l>neformalno<s n="adv"/></l><r>неформално<s n="adv"/></r></p></e>
@@ -8229,7 +8234,7 @@
     <e><p><l>nisko<s n="adv"/></l><r>ниско<s n="adv"/></r></p></e>
     <e><p><l>nizozemski<s n="adv"/></l><r>холандски<s n="adv"/></r></p></e>
     <e><p><l>njemački<s n="adv"/></l><r>германски<s n="adv"/></r></p></e>
-    <e><p><l>nogometno<s n="adv"/></l><r>фудбалско<s n="adv"/></r></p></e>
+    <e><p><l>nogometno<s n="adv"/></l><r>фудбалски<s n="adv"/></r></p></e>
     <e><p><l>nomadski<s n="adv"/></l><r>номадски<s n="adv"/></r></p></e>
     <e><p><l>nominirano<s n="adv"/></l><r>номинирано<s n="adv"/></r></p></e>
     <e><p><l>nominovno<s n="adv"/></l><r>номинирано<s n="adv"/></r></p></e>
@@ -8282,21 +8287,21 @@
     <e><p><l>općinski<s n="adv"/></l><r>општински<s n="adv"/></r></p></e>
     <e><p><l>operativno<s n="adv"/></l><r>оперативно<s n="adv"/></r></p></e>
     <e><p><l>operatorski<s n="adv"/></l><r>операторски<s n="adv"/></r></p></e>
-    <e><p><l>operno<s n="adv"/></l><r>оперско<s n="adv"/></r></p></e>
+    <e><p><l>operno<s n="adv"/></l><r>оперски<s n="adv"/></r></p></e>
     <e><p><l>opozicijski<s n="adv"/></l><r>опозициски<s n="adv"/></r></p></e>
     <e><p><l>opoziciono<s n="adv"/></l><r>опозиционо<s n="adv"/></r></p></e>
     <e><p><l>opredijeljeno<s n="adv"/></l><r>определено<s n="adv"/></r></p></e>
     <e><p><l>opštinski<s n="adv"/></l><r>општински<s n="adv"/></r></p></e>
     <e><p><l>optimalno<s n="adv"/></l><r>оптимално<s n="adv"/></r></p></e>
-    <e><p><l>optužilački<s n="adv"/></l><r>обвинителни<s n="adv"/></r></p></e>
+    <e><p><l>optužilački<s n="adv"/></l><r>обвинително<s n="adv"/></r></p></e>
     <e><p><l>organizacijski<s n="adv"/></l><r>организациски<s n="adv"/></r></p></e>
     <e><p><l>organizatorski<s n="adv"/></l><r>организаторски<s n="adv"/></r></p></e>
     <e><p><l>organizirano<s n="adv"/></l><r>организирано<s n="adv"/></r></p></e>
     <e><p><l>originalno<s n="adv"/></l><r>оригинално<s n="adv"/></r></p></e>
-    <e><p><l>orkestralno<s n="adv"/></l><r>оркестарско<s n="adv"/></r></p></e>
+    <e><p><l>orkestralno<s n="adv"/></l><r>оркестарски<s n="adv"/></r></p></e>
     <e><p><l>osebujno<s n="adv"/></l><r>особено<s n="adv"/></r></p></e>
     <e><p><l>oslobođeno<s n="adv"/></l><r>ослободено<s n="adv"/></r></p></e>
-    <e><p><l>oslobodilački<s n="adv"/></l><r>ослободителни<s n="adv"/></r></p></e>
+    <e><p><l>oslobodilački<s n="adv"/></l><r>ослободително<s n="adv"/></r></p></e>
     <e><p><l>osnovno<s n="adv"/></l><r>основно<s n="adv"/></r></p></e>
     <e><p><l>osobeno<s n="adv"/></l><r>особено<s n="adv"/></r></p></e>
     <e><p><l>osobno<s n="adv"/></l><r>лично<s n="adv"/></r></p></e>
@@ -8366,14 +8371,14 @@
     <e><p><l>pokretno<s n="adv"/></l><r>подвижно<s n="adv"/></r></p></e>
     <e><p><l>policijski<s n="adv"/></l><r>полициски<s n="adv"/></r></p></e>
     <e><p><l>politički<s n="adv"/></l><r>политички<s n="adv"/></r></p></e>
-    <e><p><l>poljoprivredno<s n="adv"/></l><r>замјоделско<s n="adv"/></r></p></e>
+    <e><p><l>poljoprivredno<s n="adv"/></l><r>замјоделски<s n="adv"/></r></p></e>
     <e><p><l>poljski<s n="adv"/></l><r>полски<s n="adv"/></r></p></e>
     <e><p><l>poluautomatski<s n="adv"/></l><r>полуавтоматски<s n="adv"/></r></p></e>
     <e><p><l>poluavtomatski<s n="adv"/></l><r>полуавтоматски<s n="adv"/></r></p></e>
     <e><p><l>pomodno<s n="adv"/></l><r>модно<s n="adv"/></r></p></e>
     <e><p><l>pomorski<s n="adv"/></l><r>поморски<s n="adv"/></r></p></e>
     <e><p><l>ponovno<s n="adv"/></l><r>повторно<s n="adv"/></r></p></e>
-    <e><p><l>poreski<s n="adv"/></l><r>даночни<s n="adv"/></r></p></e>
+    <e><p><l>poreski<s n="adv"/></l><r>даночно<s n="adv"/></r></p></e>
     <e><p><l>porezno<s n="adv"/></l><r>даночно<s n="adv"/></r></p></e>
     <e><p><l>pornografski<s n="adv"/></l><r>порнографски<s n="adv"/></r></p></e>
     <e><p><l>portugalski<s n="adv"/></l><r>португалски<s n="adv"/></r></p></e>
@@ -8395,7 +8400,7 @@
     <e><p><l>potrebno<s n="adv"/></l><r>потребно<s n="adv"/></r></p></e>
     <e><p><l>povećano<s n="adv"/></l><r>зголемено<s n="adv"/></r></p></e>
     <e><p><l>povezano<s n="adv"/></l><r>поврзано<s n="adv"/></r></p></e>
-    <e><p><l>povijesno<s n="adv"/></l><r>историско<s n="adv"/></r></p></e>
+    <e><p><l>povijesno<s n="adv"/></l><r>историски<s n="adv"/></r></p></e>
     <e><p><l>povjerljivo<s n="adv"/></l><r>доверливо<s n="adv"/></r></p></e>
     <e><p><l>povrijeđeno<s n="adv"/></l><r>повредено<s n="adv"/></r></p></e>
     <e><p><l>površno<s n="adv"/></l><r>бегло<s n="adv"/></r></p></e>
@@ -8406,7 +8411,7 @@
     <e><p><l>prahistorijski<s n="adv"/></l><r>праисториски<s n="adv"/></r></p></e>
     <e><p><l>praistorijski<s n="adv"/></l><r>праисториски<s n="adv"/></r></p></e>
     <e><p><l>praktično<s n="adv"/></l><r>практично<s n="adv"/></r></p></e>
-    <e><p><l>prapovijesno<s n="adv"/></l><r>праисториско<s n="adv"/></r></p></e>
+    <e><p><l>prapovijesno<s n="adv"/></l><r>праисториски<s n="adv"/></r></p></e>
     <e><p><l>pravilno<s n="adv"/></l><r>правилно<s n="adv"/></r></p></e>
     <e><p><l>pravno<s n="adv"/></l><r>правно<s n="adv"/></r></p></e>
     <e><p><l>pravo<s n="adv"/></l><r>право<s n="adv"/></r></p></e>
@@ -8477,13 +8482,13 @@
     <e><p><l>proračunski<s n="adv"/></l><r>буџетски<s n="adv"/></r></p></e>
     <e><p><l>proreformski<s n="adv"/></l><r>прореформски<s n="adv"/></r></p></e>
     <e><p><l>proslavljeno<s n="adv"/></l><r>прославено<s n="adv"/></r></p></e>
-    <e><p><l>prošlo<s n="adv"/></l><r>поминало<s n="adv"/></r></p></e>
+    <!--e><p><l>prošlo<s n="adv"/></l><r>поминало<s n="adv"/></r></p></e-->
     <e><p><l>prosrpski<s n="adv"/></l><r>просрпски<s n="adv"/></r></p></e>
     <e><p><l>prostorno<s n="adv"/></l><r>просторно<s n="adv"/></r></p></e>
     <e><p><l>prosvjećeno<s n="adv"/></l><r>просветно<s n="adv"/></r></p></e>
     <e><p><l>prosvjetno<s n="adv"/></l><r>просветно<s n="adv"/></r></p></e>
     <e><p><l>protuavionski<s n="adv"/></l><r>противавионски<s n="adv"/></r></p></e>
-    <e><p><l>protupožarno<s n="adv"/></l><r>противпожарникарско<s n="adv"/></r></p></e>
+    <e><p><l>protupožarno<s n="adv"/></l><r>противпожарникарски<s n="adv"/></r></p></e>
     <e><p><l>protutenkovski<s n="adv"/></l><r>противтенковски<s n="adv"/></r></p></e>
     <e><p><l>protuturski<s n="adv"/></l><r>антитурски<s n="adv"/></r></p></e>
     <e><p><l>protuuseljenički<s n="adv"/></l><r>антиимигрантски<s n="adv"/></r></p></e>
@@ -8493,7 +8498,7 @@
     <e><p><l>psihotronski<s n="adv"/></l><r>психотропски<s n="adv"/></r></p></e>
     <e><p><l>puno<s n="adv"/></l><r>полно<s n="adv"/></r></p></e>
     <e><p><l>punopravno<s n="adv"/></l><r>полноправно<s n="adv"/></r></p></e>
-    <e><p><l>računalno<s n="adv"/></l><r>комјутерско<s n="adv"/></r></p></e>
+    <e><p><l>računalno<s n="adv"/></l><r>комјутерски<s n="adv"/></r></p></e>
     <e><p><l>radarski<s n="adv"/></l><r>радарски<s n="adv"/></r></p></e>
     <e><p><l>radikalno<s n="adv"/></l><r>радикално<s n="adv"/></r></p></e>
     <e><p><l>radiografski<s n="adv"/></l><r>радиографски<s n="adv"/></r></p></e>
@@ -8515,7 +8520,7 @@
     <e><p><l>realno<s n="adv"/></l><r>реално<s n="adv"/></r></p></e>
     <e><p><l>redovno<s n="adv"/></l><r>редовно<s n="adv"/></r></p></e>
     <e><p><l>referendumski<s n="adv"/></l><r>референдумски<s n="adv"/></r></p></e>
-    <e><p><l>reformno<s n="adv"/></l><r>реформско<s n="adv"/></r></p></e>
+    <e><p><l>reformno<s n="adv"/></l><r>реформски<s n="adv"/></r></p></e>
     <e><p><l>regionalno<s n="adv"/></l><r>регионално<s n="adv"/></r></p></e>
     <e><p><l>registarski<s n="adv"/></l><r>регистарски<s n="adv"/></r></p></e>
     <e><p><l>registrirano<s n="adv"/></l><r>регистрирано<s n="adv"/></r></p></e>
@@ -8526,7 +8531,7 @@
     <e><p><l>relativno<s n="adv"/></l><r>релативно<s n="adv"/></r></p></e>
     <e><p><l>relevantno<s n="adv"/></l><r>релевантно<s n="adv"/></r></p></e>
     <e><p><l>religiozno<s n="adv"/></l><r>религиозно<s n="adv"/></r></p></e>
-    <e><p><l>renesansno<s n="adv"/></l><r>ренесанско<s n="adv"/></r></p></e>
+    <e><p><l>renesansno<s n="adv"/></l><r>ренесански<s n="adv"/></r></p></e>
     <e><p><l>rentgenski<s n="adv"/></l><r>рендгенски<s n="adv"/></r></p></e>
     <e><p><l>republikanski<s n="adv"/></l><r>републикански<s n="adv"/></r></p></e>
     <e><p><l>restauracijski<s n="adv"/></l><r>реставрациски<s n="adv"/></r></p></e>
@@ -8547,7 +8552,7 @@
     <e><p><l>ručno<s n="adv"/></l><r>рачно<s n="adv"/></r></p></e>
     <e><p><l>rudarski<s n="adv"/></l><r>рударски<s n="adv"/></r></p></e>
     <e><p><l>rujanski<s n="adv"/></l><r>септемвриски<s n="adv"/></r></p></e>
-    <e><p><l>rukovodstveno<s n="adv"/></l><r>лидерско<s n="adv"/></r></p></e>
+    <e><p><l>rukovodstveno<s n="adv"/></l><r>лидерски<s n="adv"/></r></p></e>
     <e><p><l>rumunjski<s n="adv"/></l><r>романски<s n="adv"/></r></p></e>
     <e><p><l>ruski<s n="adv"/></l><r>руски<s n="adv"/></r></p></e>
     <e><p><l>rutinski<s n="adv"/></l><r>рутински<s n="adv"/></r></p></e>
@@ -8648,7 +8653,7 @@
     <e><p><l>srednjeeuropski<s n="adv"/></l><r>централноевропски<s n="adv"/></r></p></e>
     <e><p><l>srednjeevropski<s n="adv"/></l><r>централноевропски<s n="adv"/></r></p></e>
     <e><p><l>srednjovjekovno<s n="adv"/></l><r>средновековно<s n="adv"/></r></p></e>
-    <e><p><l>sredozemno<s n="adv"/></l><r>средоземноморско<s n="adv"/></r></p></e>
+    <e><p><l>sredozemno<s n="adv"/></l><r>средоземноморски<s n="adv"/></r></p></e>
     <e><p><l>sretno<s n="adv"/></l><r>среќно<s n="adv"/></r></p></e>
     <e><p><l>srpski<s n="adv"/></l><r>српски<s n="adv"/></r></p></e>
     <e><p><l>stabilizacijski<s n="adv"/></l><r>стабилизациски<s n="adv"/></r></p></e>
@@ -8662,13 +8667,13 @@
     <e><p><l>stavljeno<s n="adv"/></l><r>ставено<s n="adv"/></r></p></e>
     <e><p><l>stopanski<s n="adv"/></l><r>стопански<s n="adv"/></r></p></e>
     <e><p><l>stranački<s n="adv"/></l><r>партиски<s n="adv"/></r></p></e>
-    <e><p><l>strano<s n="adv"/></l><r>странско<s n="adv"/></r></p></e>
+    <e><p><l>strano<s n="adv"/></l><r>странски<s n="adv"/></r></p></e>
     <e><p><l>strašno<s n="adv"/></l><r>страшно<s n="adv"/></r></p></e>
     <e><p><l>strategijski<s n="adv"/></l><r>стратегиски<s n="adv"/></r></p></e>
     <e><p><l>strateški<s n="adv"/></l><r>стратешки<s n="adv"/></r></p></e>
     <e><p><l>stražarski<s n="adv"/></l><r>стражарски<s n="adv"/></r></p></e>
     <e><p><l>strogo<s n="adv"/></l><r>строго<s n="adv"/></r></p></e>
-    <e><p><l>strojno<s n="adv"/></l><r>машинско<s n="adv"/></r></p></e>
+    <e><p><l>strojno<s n="adv"/></l><r>машински<s n="adv"/></r></p></e>
     <e><p><l>strukturno<s n="adv"/></l><r>структурно<s n="adv"/></r></p></e>
     <e><p><l>studentski<s n="adv"/></l><r>студентски<s n="adv"/></r></p></e>
     <e><p><l>studijski<s n="adv"/></l><r>студиски<s n="adv"/></r></p></e>
@@ -8691,7 +8696,7 @@
     <e><p><l>švercerski<s n="adv"/></l><r>шверцерски<s n="adv"/></r></p></e>
     <e><p><l>sveštenički<s n="adv"/></l><r>свештенички<s n="adv"/></r></p></e>
     <e><p><l>sveto<s n="adv"/></l><r>свето<s n="adv"/></r></p></e>
-    <e><p><l>sveučilišno<s n="adv"/></l><r>универзитетско<s n="adv"/></r></p></e>
+    <e><p><l>sveučilišno<s n="adv"/></l><r>универзитетски<s n="adv"/></r></p></e>
     <e><p><l>svibanjski<s n="adv"/></l><r>мајски<s n="adv"/></r></p></e>
     <e><p><l>švicarski<s n="adv"/></l><r>швајцарски<s n="adv"/></r></p></e>
     <e><p><l>svinjski<s n="adv"/></l><r>свински<s n="adv"/></r></p></e>
@@ -8733,7 +8738,7 @@
     <e><p><l>topografski<s n="adv"/></l><r>топографски<s n="adv"/></r></p></e>
     <e><p><l>tradicionalno<s n="adv"/></l><r>традиционално<s n="adv"/></r></p></e>
     <e><p><l>tragično<s n="adv"/></l><r>трагично<s n="adv"/></r></p></e>
-    <e><p><l>trajektno<s n="adv"/></l><r>фериботско<s n="adv"/></r></p></e>
+    <e><p><l>trajektno<s n="adv"/></l><r>фериботски<s n="adv"/></r></p></e>
     <e><p><l>trajno<s n="adv"/></l><r>трајно<s n="adv"/></r></p></e>
     <e><p><l>trakijski<s n="adv"/></l><r>тракиски<s n="adv"/></r></p></e>
     <e><p><l>transatlanski<s n="adv"/></l><r>трансатлански<s n="adv"/></r></p></e>
@@ -8762,7 +8767,7 @@
     <e><p><l>turkmenistanski<s n="adv"/></l><r>туркменистански<s n="adv"/></r></p></e>
     <e><p><l>turkomanski<s n="adv"/></l><r>туркомански<s n="adv"/></r></p></e>
     <e><p><l>turski<s n="adv"/></l><r>турски<s n="adv"/></r></p></e>
-    <e><p><l>tužiteljski<s n="adv"/></l><r>обвинителни<s n="adv"/></r></p></e>
+    <e><p><l>tužiteljski<s n="adv"/></l><r>обвинително<s n="adv"/></r></p></e>
     <e><p><l>tvrdo<s n="adv"/></l><r>тврдо<s n="adv"/></r></p></e>
     <e><p><l>ubijeno<s n="adv"/></l><r>убиено<s n="adv"/></r></p></e>
     <e><p><l>udarno<s n="adv"/></l><r>ударно<s n="adv"/></r></p></e>
@@ -8801,12 +8806,12 @@
     <e><p><l>uživo<s n="adv"/></l><r>лајв<s n="adv"/></r></p></e>
     <e><p><l>vakufski<s n="adv"/></l><r>вакуфски<s n="adv"/></r></p></e>
     <e><p><l>vandalski<s n="adv"/></l><r>вандалски<s n="adv"/></r></p></e>
-    <e><p><l>vanjski<s n="adv"/></l><r>надворешни<s n="adv"/></r></p></e>
+    <e><p><l>vanjski<s n="adv"/></l><r>надворешно<s n="adv"/></r></p></e>
     <e><p><l>vanredno<s n="adv"/></l><r>вонредно<s n="adv"/></r></p></e>
     <e><p><l>varšavski<s n="adv"/></l><r>варшавски<s n="adv"/></r></p></e>
     <e><p><l>varvarski<s n="adv"/></l><r>варварски<s n="adv"/></r></p></e>
     <e><p><l>vašingtonski<s n="adv"/></l><r>вашингтонски<s n="adv"/></r></p></e>
-    <e><p><l>vatrogasno<s n="adv"/></l><r>пожарникарско<s n="adv"/></r></p></e>
+    <e><p><l>vatrogasno<s n="adv"/></l><r>пожарникарски<s n="adv"/></r></p></e>
     <e><p><l>vavilonski<s n="adv"/></l><r>вавилонски<s n="adv"/></r></p></e>
     <e><p><l>vazduhoplovno<s n="adv"/></l><r>воздухопловно<s n="adv"/></r></p></e>
     <e><p><l>vazdušno<s n="adv"/></l><r>воздушно<s n="adv"/></r></p></e>
@@ -8828,7 +8833,7 @@
     <e><p><l>vinarski<s n="adv"/></l><r>винарски<s n="adv"/></r></p></e>
     <e><p><l>vinski<s n="adv"/></l><r>вински<s n="adv"/></r></p></e>
     <e><p><l>violinski<s n="adv"/></l><r>виолински<s n="adv"/></r></p></e>
-    <e><p><l>višedesetljetno<s n="adv"/></l><r>неколкудецениско<s n="adv"/></r></p></e>
+    <e><p><l>višedesetljetno<s n="adv"/></l><r>неколкудецениски<s n="adv"/></r></p></e>
     <e><p><l>višegradski<s n="adv"/></l><r>вишеградски<s n="adv"/></r></p></e>
     <e><p><l>vizno<s n="adv"/></l><r>визно<s n="adv"/></r></p></e>
     <e><p><l>vječito<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>

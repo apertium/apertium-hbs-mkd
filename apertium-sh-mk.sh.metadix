@@ -17871,19 +17871,19 @@ after prepositions-->
 
 <pardef n="izvje/stan__ssup__adj">
          <e><p><l></l><r>stan<s n="adj"/><s n="ssup"/></r></p><par n="izvje/stan__pst__sfx"/></e>
-         <e><p><l>sno</l><r>no<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+         <e><p><l>sno</l><r>sno<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="izvje/stan__sup__adj">
          <e><p><l></l><r>stan<s n="adj"/><s n="sup"/></r></p><par n="izvje/stan__comp__sfx"/></e>
-         <e><p><l>snije</l><r>no<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+         <e><p><l>snije</l><r>sno<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="izvje/stan__comp__adj">
          <e><p><l></l><r>stan<s n="adj"/><s n="comp"/></r></p><par n="izvje/stan__comp__sfx"/></e>
-         <e><p><l>snije</l><r>no<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+         <e><p><l>snije</l><r>sno<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="izvje/stan__pst__adj">
          <e><p><l></l><r>stan<s n="adj"/><s n="pst"/></r></p><par n="izvje/stan__pst__sfx"/></e>
-         <e><p><l>sno</l><r>no<s n="adv"/></r></p></e><!--removable-->
+         <e><p><l>sno</l><r>sno<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'izvje/stan'-->
 
@@ -19725,19 +19725,19 @@ after prepositions-->
 
 <pardef n="crn__ssup__adj">
          <e><p><l></l><r><s n="adj"/><s n="ssup"/></r></p><par n="crn__pst__sfx"/></e>
-         <e><p><l>o</l><r><s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
+         <e><p><l>o</l><r>o<s n="adv"/><s n="ssup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="crn__sup__adj">
          <e><p><l></l><r><s n="adj"/><s n="sup"/></r></p><par n="crn__comp__sfx"/></e>
-         <e><p><l>je</l><r><s n="adv"/><s n="sup"/></r></p></e><!--removable-->
+         <e><p><l>je</l><r>o<s n="adv"/><s n="sup"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="crn__comp__adj">
          <e><p><l></l><r><s n="adj"/><s n="comp"/></r></p><par n="crn__comp__sfx"/></e>
-         <e><p><l>je</l><r><s n="adv"/><s n="comp"/></r></p></e><!--removable-->
+         <e><p><l>je</l><r>o<s n="adv"/><s n="comp"/></r></p></e><!--removable-->
 </pardef>
 <pardef n="crn__pst__adj">
          <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p><par n="crn__pst__sfx"/></e>
-         <e><p><l>o</l><r><s n="adv"/></r></p></e><!--removable-->
+         <e><p><l>o</l><r>o<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--end 'crn'-->
 <!--Adjective paradigm 'kra/tak'--><!--fleeting a--><!--iotation-->
@@ -22220,7 +22220,7 @@ after prepositions-->
 </pardef>
 <pardef n="odlučujuć/i__adj">
          <e><p><l></l><r>i<s n="adj"/><s n="pst"/></r></p><par n="odlučujuć/i__pst__sfx"/></e>
-         <e><p><l>e</l><r>i<s n="adv"/></r></p></e><!--removable-->
+         <e><p><l>e</l><r>e<s n="adv"/></r></p></e><!--removable-->
 </pardef>
 <!--No comparative-->
 <!--No superlative-->
@@ -29976,7 +29976,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="često"><i>često</i><par n="danas__adv"/></e>
 	<e lm="ovdje"><i>ovd</i><par n="e_je__yat"/><i/><par n="danas__adv"/></e>
 	<e lm="međutim"><i>međutim</i><par n="danas__adv"/></e>
-	<e lm="često puta"><i>često<b></b>puta</i><par n="danas__adv"/></e>
 	<e lm="katkad"><i>katkad</i><par n="danas__adv"/></e>
 	<e lm="katkada"><i>katkada</i><par n="danas__adv"/></e>
 	<e lm="ponekad"><i>ponekad</i><par n="danas__adv"/></e>
@@ -34984,7 +34983,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="vojni"><i>vojn</i><par n="garantn/i__adj"/></e>
 <e lm="jedini"><i>jedin</i><par n="garantn/i__adj"/></e>
 <e lm="ostali"><i>ostal</i><par n="garantn/i__adj"/></e>
-<e lm="prošli"><i>prošl</i><par n="garantn/i__adj"/></e>
+<!--e lm="prošli"><i>prošl</i><par n="garantn/i__adj"/></e-->
 
 <e lm="godišnji"><i>godišnj</i><par n="odlučujuć/i__adj"/></e>
 <e lm="sutrašnji"><i>sutrašnj</i><par n="odlučujuć/i__adj"/></e>
