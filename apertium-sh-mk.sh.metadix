@@ -29822,7 +29822,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e lm="još"><i>još</i><par n="danas__adv"/></e>
 	<e lm="blizu"><i>blizu</i><par n="danas__adv"/></e>
 	<e lm="dolje"><i>dol</i><par n="e_je__yat"/><par n="danas__adv"/></e>
-	<e lm="tužno"><i>tužno</i><par n="danas__adv"/></e>
+	<!--e lm="tužno"><i>tužno</i><par n="danas__adv"/></e-->
 	<e lm="kao"><i>kao</i><par n="danas__adv"/></e>
 	<e lm="kako"><i>kako</i><par n="danas__adv"/></e>
 	<e lm="oko"><i>oko</i><par n="danas__adv"/></e>
