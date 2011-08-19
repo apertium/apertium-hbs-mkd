@@ -151,40 +151,40 @@
     <!--Cartesian product paradigms to compensate for the discrepancies in aspect and transitivity-->
     <!--Left hand side-->
     <pardef n="tv_lhs">
-    <e><p><l><s n="tv"/></l><r></r></p></e>
+        <e><p><l><s n="tv"/></l><r></r></p></e>
     </pardef>
     <pardef n="iv_lhs">
-    <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="iv"/></l><r></r></p></e>
     </pardef>
     <pardef n="ref_lhs">
-    <e><p><l><s n="ref"/></l><r></r></p></e>
+        <e><p><l><s n="ref"/></l><r></r></p></e>
     </pardef>
     <pardef n="iv_tv_lhs">
-    <e><p><l><s n="tv"/></l><r></r></p></e>
-    <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="tv"/></l><r></r></p></e>
     </pardef>
     <pardef n="tv_ref_lhs">
-    <e><p><l><s n="tv"/></l><r></r></p></e>
-    <e><p><l><s n="ref"/></l><r></r></p></e>
+        <e><p><l><s n="tv"/></l><r></r></p></e>
+        <e><p><l><s n="ref"/></l><r></r></p></e>
     </pardef>
     <pardef n="iv_ref_lhs">
-    <e><p><l><s n="ref"/></l><r></r></p></e>
-    <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="ref"/></l><r></r></p></e>    
     </pardef>
     <pardef n="iv_tv_ref_lhs">
-    <e><p><l><s n="tv"/></l><r></r></p></e>
-    <e><p><l><s n="iv"/></l><r></r></p></e>
-    <e><p><l><s n="ref"/></l><r></r></p></e>
+        <e><p><l><s n="iv"/></l><r></r></p></e>
+        <e><p><l><s n="tv"/></l><r></r></p></e>
+        <e><p><l><s n="ref"/></l><r></r></p></e>
     </pardef>  
     <pardef n="perf_lhs">
-    <e><p><l><s n="perf"/></l><r></r></p></e>
+        <e><p><l><s n="perf"/></l><r></r></p></e>
     </pardef>
     <pardef n="imperf_lhs">
-    <e><p><l><s n="imperf"/></l><r></r></p></e>
+        <e><p><l><s n="imperf"/></l><r></r></p></e>
     </pardef>
     <pardef n="perf_imperf_lhs">
-    <e><p><l><s n="perf"/></l><r></r></p></e>
-    <e><p><l><s n="imperf"/></l><r></r></p></e>
+        <e><p><l><s n="perf"/></l><r></r></p></e>
+        <e><p><l><s n="imperf"/></l><r></r></p></e>
     </pardef>
     <!--end Left hand side-->
     <!--Right hand side-->
@@ -415,29 +415,29 @@
     </pardef>
 
     <pardef n="cog_contract_to_mfn">
-      <e r="LR"><p><l><s n="cog"/><s n="f"/><s n="sg"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="ma"/><s n="sg"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="mi"/><s n="sg"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="nt"/><s n="sg"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>      
-      <e r="RL"><p><l><s n="cog"/><s n="GD"/><s n="sg"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="f"/><s n="pl"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="ma"/><s n="pl"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="mi"/><s n="pl"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="nt"/><s n="pl"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>      
-      <e r="RL"><p><l><s n="cog"/><s n="GD"/><s n="pl"/></l><r><s n="cog"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="mi"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="nt"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>      
+      <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="mi"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="nt"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>      
+      <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="mfn"/></r></p></e>
     </pardef>
     
     <pardef n="cog_contract_to_m">
-      <e r="LR"><p><l><s n="cog"/><s n="f"/><s n="sg"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="ma"/><s n="sg"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="mi"/><s n="sg"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="nt"/><s n="sg"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>      
-      <e r="RL"><p><l><s n="cog"/><s n="GD"/><s n="sg"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="f"/><s n="pl"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="ma"/><s n="pl"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="mi"/><s n="pl"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l><s n="cog"/><s n="nt"/><s n="pl"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>      
-      <e r="RL"><p><l><s n="cog"/><s n="GD"/><s n="pl"/></l><r><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="mi"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="nt"/></l><r><s n="cog"/><s n="m"/></r></p></e>      
+      <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="f"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="ma"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="mi"/></l><r><s n="cog"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="cog"/><s n="nt"/></l><r><s n="cog"/><s n="m"/></r></p></e>      
+      <e r="RL"><p><l><s n="cog"/><s n="GD"/></l><r><s n="cog"/><s n="m"/></r></p></e>
     </pardef>
 
     <pardef n="m_f_nt_mfn3">
@@ -6351,12 +6351,20 @@
     <e><p><l>nizak<s n="adj"/></l><r>низок<s n="adj"/></r></p></e>
     <e><p><l>težak<s n="adj"/></l><r>тежок<s n="adj"/></r></p></e>
     <e><p><l>topao<s n="adj"/></l><r>топол<s n="adj"/></r></p></e>
-    <e><p><l>anti</l><r>анти</r></p></e>    
-    <e><p><l>art</l><r>арт</r></p></e>
-    <e><p><l>pres</l><r>прес</r></p></e>
-    <e><p><l>fer</l><r>фер</r></p></e>
-    <e><p><l>super</l><r>супер</r></p></e>    
-    <e><p><l>neto</l><r>нето</r></p></e>
+
+    <e><p><l>anti<s n="adj"/></l><r>анти<s n="adj"/></r></p></e>    
+    <e><p><l>art<s n="adj"/></l><r>арт<s n="adj"/></r></p></e>
+    <e><p><l>pres<s n="adj"/></l><r>прес<s n="adj"/></r></p></e>
+    <e><p><l>fer<s n="adj"/></l><r>фер<s n="adj"/></r></p></e>
+    <e><p><l>super<s n="adj"/></l><r>супер<s n="adj"/></r></p></e>    
+    <e><p><l>neto<s n="adj"/></l><r>нето<s n="adj"/></r></p></e>
+    
+    <e><p><l>anti<s n="adv"/></l><r>анти<s n="adv"/></r></p></e>    
+    <e><p><l>art<s n="adv"/></l><r>арт<s n="adv"/></r></p></e>
+    <e><p><l>pres<s n="adv"/></l><r>прес<s n="adv"/></r></p></e>
+    <e><p><l>fer<s n="adv"/></l><r>фер<s n="adv"/></r></p></e>
+    <e><p><l>super<s n="adv"/></l><r>супер<s n="adv"/></r></p></e>    
+    <e><p><l>neto<s n="adv"/></l><r>нето<s n="adv"/></r></p></e>
 
      <e><p><l>prošli<s n="adj"/></l><r>минат<s n="adj"/></r></p></e>
 
@@ -7284,6 +7292,7 @@
 	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e><!--TODO: add this to the sh monodix--> <!--TODO: in translation from macedonian; kako and kao have distinct meanings, needs to be handled in transfer-->
     <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
     <e><p><l>dobro<s n="adv"/></l><r>добро<s n="adv"/></r></p></e>     
+    <e><p><l>loše<s n="adv"/></l><r>лошо<s n="adv"/></r></p></e>         
 	<e><p><l>kako<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
 	<e><p><l>oko<s n="adv"/></l><r>околу<s n="adv"/></r></p></e>
 	<e><p><l>dosad<s n="adv"/></l><r>досега<s n="adv"/></r></p></e>
@@ -9536,7 +9545,8 @@
         <e><p><l>pisati<s n="vblex"/></l><r>пишува<s n="vblex"/></r></p></e>
         <e><p><l>igrati<s n="vblex"/></l><r>игра<s n="vblex"/></r></p><par n="_imperf_iv_tv_ref_to_imperf_iv_tv_"/></e>
         <e r="LR"><p><l>plesati<s n="vblex"/></l><r>игра<s n="vblex"/></r></p></e>
-        <e><p><l>zalagati<s n="vblex"/></l><r>залага<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_perf_imperf_iv_tv_"/></e>
+        <e><p><l>zalagati<s n="vblex"/></l><r>залага<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_iv_"/></e>
+        <e r="RL"><p><l>zalagati<s n="vblex"/></l><r>залаже<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>        
         <e><p><l>sarađivati<s n="vblex"/></l><r>соработува<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
         <e><p><l>surađivati<s n="vblex"/></l><r>соработува<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
         <e><p><l>pregovarati<s n="vblex"/></l><r>преговара<s n="vblex"/></r></p></e>

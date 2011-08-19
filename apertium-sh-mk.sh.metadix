@@ -7128,12 +7128,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>gn</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>goh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>goste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>goše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>goh</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>goste</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>goše</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7597,12 +7597,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>gn</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>goh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>goste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>goše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>goh</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>goste</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>goše</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7615,12 +7615,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>gn</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>goh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>že</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>goste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>goše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>goh</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>že</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>gosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>goste</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>goše</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7640,8 +7640,8 @@ after prepositions-->
 <e><p><l>goste</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
 <e><p><l>goše</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
-    <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
-  <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><p><l>g</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
+  <e><p><l>gavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="perf_iv_do/ći__vblex">
@@ -7652,12 +7652,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7670,12 +7670,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7688,12 +7688,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="iv"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
@@ -7707,12 +7707,12 @@ after prepositions-->
 <!--Present-->
 <e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Aorist-->
-<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="aor"/><s n="perf"/><s n="tv"/><s n="p3"/><s n="pl"/></r></p></e>
+<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_ao__sfx"/></e>
    <e><p><l>đen</l><r>ći<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
@@ -31765,7 +31765,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pomoći"><i>pomo</i><par n="perf_iv_le/ći__vblex"/></e><e lm="pomoći"><i>pomo</i><par n="perf_ref_le/ći__vblex"/></e>
 <e lm="potpomoći"><i>potpomo</i><par n="perf_tv_le/ći__vblex"/></e><e lm="potpomoći"><i>potpomo</i><par n="perf_ref_le/ći__vblex"/></e>
 <e lm="podići"><i>podi</i><par n="perf_tv_le/ći__vblex"/></e><e lm="podići"><i>podi</i><par n="perf_ref_le/ći__vblex"/></e>
-<e lm="presjeći"><i>presje</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="presjeći"><i>presje</i><par n="perf_ref_povu/ći__vblex"/></e>
+<e lm="presjeći"><i>presje</i><par n="perf_tv_povu/ći__vblex"/></e>
+<e lm="presjeći"><i>presje</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="teći"><i>te</i><par n="imperf_iv_vu/ći__vblex"/></e>
 <e lm="privući"><i>privu</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="privući"><i>privu</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="reći"><i>re</i><par n="perf_tv_povu/ći__vblex"/></e>

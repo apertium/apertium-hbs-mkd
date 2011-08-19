@@ -183,7 +183,7 @@
    </pardef>
 
 
-   <pardef n="бид/е__vbser"><!--NOTE: This looks suspiciously bulgarian :) -->
+   <pardef n="бид/е__vbser">
 	  <e>        <p>          <l>и</l>          <r>е<s n="vbser"/><s n="imp"/><s n="sg"/></r></p></e>
 	  <e>        <p>          <l>ете</l>        <r>е<s n="vbser"/><s n="imp"/><s n="pl"/></r></p></e>
 
