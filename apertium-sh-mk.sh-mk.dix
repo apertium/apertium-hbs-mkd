@@ -539,6 +539,16 @@
  	 
  	 <e><p><l>dakle<s n="cnjcoo"/></l><r>така<s n="adv"/></r></p></e> <!--TODO: check-->
  	 
+  	 <e><p><l>igdje<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>
+   	 <e><p><l>ikad<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
+   	 <e><p><l>ikada<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
+     <e><p><l>ikud<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>   	    	 
+     <e><p><l>ikuda<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>   	    	      
+     <e><p><l>ikamo<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>
+     <e><p><l>ikako<s n="adv"/></l><r>како<b/>било<s n="adv"/></r></p></e>
+     
+     <e><p><l>koliko<b/>god<s n="adv"/></l><r>колку<b/>и<b/>да<s n="adv"/></r></p></e>   	    	              	    	              	    	              	    	           
+
   	 <e><p><l>tek<s n="cnjcoo"/></l><r>само<s n="adv"/></r></p></e>
   	 <e><p><l>tek<s n="adv"/></l><r>само<s n="adv"/></r></p></e>  	 
   	 
@@ -572,10 +582,16 @@
      <e r="LR"><p><l>budući<b/>da<s n="cnjsub"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e>     
      <e><p><l>što<s n="cnjsub"/></l><r>што<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>otkako<s n="adv"/></l><r>откако<s n="cnjsub"/></r></p></e>
+     <e><p><l>otkad<s n="adv"/></l><r>откога<s n="adv"/></r></p></e>     
+     <e><p><l>otkada<s n="adv"/></l><r>откога<s n="adv"/></r></p></e>     
+     <e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>     
      <e><p><l>pošto<s n="cnjsub"/></l><r>откако<s n="cnjsub"/></r></p></e>     
      <e><p><l>da<b/>li<s n="cnjsub"/></l><r>дали<s n="part"/></r></p></e>
      <e><p><l>gdje<s n="cnjsub"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>
      <e><p><l>gdje<s n="adv"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>     
+     <e><p><l>kamo<s n="adv"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>
+     <e><p><l>kuda<s n="adv"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>
+     <e><p><l>kud<s n="adv"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>                                               
      <e><p><l>kad<s n="cnjsub"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>kada<s n="cnjsub"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>neka<s n="cnjsub"/></l><r>нека<s n="part"/></r></p></e>                                                                
@@ -5727,6 +5743,7 @@
     <e><p><l>zao<s n="adj"/></l><r>лош<s n="adj"/></r></p></e>
     <e><p><l>mudar<s n="adj"/></l><r>мудар<s n="adj"/></r></p></e>                  
     <e><p><l>vaskršnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
+    <e><p><l>vaskršnje<s n="adv"/></l><r>велигденски<s n="adv"/></r></p></e>    
     <e><p><l>super<s n="adj"/></l><r>супер<s n="adj"/></r></p></e>
     <e><p><l>zreo<s n="adj"/></l><r>зрел<s n="adj"/></r></p></e>
     <e><p><l>ljut<s n="adj"/></l><r>лут<s n="adj"/></r></p></e>
@@ -5844,6 +5861,7 @@
     <e><p><l>mek<s n="adj"/></l><r>мек<s n="adj"/></r></p></e>
     <e r="LR"><p><l>mekan<s n="adj"/></l><r>мек<s n="adj"/></r></p></e>
     <e><p><l>prošli<s n="adj"/></l><r>минат<s n="adj"/></r></p></e>
+    <e><p><l>prošlo<s n="adv"/></l><r>минато<s n="adv"/></r></p></e>    
     <e><p><l>mlad<s n="adj"/></l><r>млад<s n="adj"/></r></p></e>
     <e><p><l>naveden<s n="adj"/></l><r>наведен<s n="adj"/></r></p></e>
     <e><p><l>naznačen<s n="adj"/></l><r>назначен<s n="adj"/></r></p></e>
@@ -5860,6 +5878,7 @@
     <e><p><l>određen<s n="adj"/></l><r>одреден<s n="adj"/></r></p></e>
     <e><p><l>opredijeljen<s n="adj"/></l><r>определен<s n="adj"/></r></p></e>
     <e><p><l>opći<s n="adj"/></l><r>општ<s n="adj"/></r></p></e>
+    <e><p><l>opće<s n="adv"/></l><r>општо<s n="adv"/></r></p></e>    
     <e><p><l>organiziran<s n="adj"/></l><r>организиран<s n="adj"/></r></p></e>
     <e><p><l>oslobođen<s n="adj"/></l><r>ослободен<s n="adj"/></r></p></e>
     <e><p><l>osoben<s n="adj"/></l><r>особен<s n="adj"/></r></p></e>
@@ -6010,7 +6029,9 @@
     <e><p><l>ukupan<s n="adj"/></l><r>вкупен<s n="adj"/></r></p></e>
     <e><p><l>vlažan<s n="adj"/></l><r>влажен<s n="adj"/></r></p></e>
     <e><p><l>unutrašnji<s n="adj"/></l><r>внатрешен<s n="adj"/></r></p></e>
+    <e><p><l>unutrašnje<s n="adv"/></l><r>внатрешно<s n="adv"/></r></p></e>    
     <e r="LR"><p><l>unutarnji<s n="adj"/></l><r>внатрешен<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>unutarnje<s n="adv"/></l><r>внатрешно<s n="adv"/></r></p></e>    
     <e><p><l>voden<s n="adj"/></l><r>воден<s n="adj"/></r></p></e>
     <e r="LR"><p><l>mokar<s n="adj"/></l><r>воден<s n="adj"/></r></p></e>
     <e><p><l>vazdušan<s n="adj"/></l><r>воздушен<s n="adj"/></r></p></e>
@@ -6019,11 +6040,13 @@
     <e><p><l>vrijedan<s n="adj"/></l><r>вреден<s n="adj"/></r></p></e>
     <e><p><l>vrhovni<s n="adj"/></l><r>врховен<s n="adj"/></r></p></e>
     <e><p><l>jučerašnji<s n="adj"/></l><r>вчерашен<s n="adj"/></r></p></e>
+    <e><p><l>jučerašnje<s n="adv"/></l><r>вчерашно<s n="adv"/></r></p></e>    
     <e><p><l>generalan<s n="adj"/></l><r>генерален<s n="adj"/></r></p></e>
     <e><p><l>glavni<s n="adj"/></l><r>главен<s n="adj"/></r></p></e>
     <e><p><l>globalan<s n="adj"/></l><r>глобален<s n="adj"/></r></p></e>
     <e><p><l>godišnji<s n="adj"/></l><r>годишен<s n="adj"/></r></p></e>
     <e><p><l>gornji<s n="adj"/></l><r>горен<s n="adj"/></r></p></e>
+    <e><p><l>gornje<s n="adv"/></l><r>горно<s n="adv"/></r></p></e>    
     <e><p><l>građevinski<s n="adj"/></l><r>градежен<s n="adj"/></r></p></e>
     <e><p><l>grandiozan<s n="adj"/></l><r>грандиозен<s n="adj"/></r></p></e>
     <e><p><l>graničan<s n="adj"/></l><r>граничен<s n="adj"/></r></p></e>
@@ -6038,12 +6061,14 @@
     <e r="LR"><p><l>izravan<s n="adj"/></l><r>директен<s n="adj"/></r></p></e>
     <e><p><l>dnevni<s n="adj"/></l><r>дневен<s n="adj"/></r></p></e>
     <e><p><l>dojučerašnji<s n="adj"/></l><r>довчерашен<s n="adj"/></r></p></e>
-    <e><p><l>dojučerašnje<s n="adv"/></l><r>довчерашно<s n="adj"/></r></p></e>    
+    <e><p><l>dojučerašnje<s n="adv"/></l><r>довчерашно<s n="adv"/></r></p></e>    
     <e><p><l>donji<s n="adj"/></l><r>долен<s n="adj"/></r></p></e>
+    <e><p><l>donje<s n="adv"/></l><r>долно<s n="adv"/></r></p></e>    
     <e><p><l>domaći<s n="adj"/></l><r>домашен<s n="adj"/></r></p></e>
     <e><p><l>domaće<s n="adv"/></l><r>домашно<s n="adv"/></r></p></e>
     <e><p><l>dopunski<s n="adj"/></l><r>дополнителен<s n="adj"/></r></p></e>
     <e><p><l>dosadašnji<s n="adj"/></l><r>досегашен<s n="adj"/></r></p></e>
+    <e><p><l>dosadašnje<s n="adv"/></l><r>досегашно<s n="adv"/></r></p></e>    
     <e><p><l>drastičan<s n="adj"/></l><r>драстичен<s n="adj"/></r></p></e>
     <e><p><l>drevan<s n="adj"/></l><r>древен<s n="adj"/></r></p></e>
     <e><p><l>državni<s n="adj"/></l><r>државен<s n="adj"/></r></p></e>
@@ -6061,6 +6086,7 @@
     <e><p><l>životan<s n="adj"/></l><r>животен<s n="adj"/></r></p></e>
     <e><p><l>zabavan<s n="adj"/></l><r>забавен<s n="adj"/></r></p></e>
     <e><p><l>zadnji<s n="adj"/></l><r>заден<s n="adj"/></r></p></e>
+    <e><p><l>zadnje<s n="adv"/></l><r>задно<s n="adv"/></r></p></e>    
     <e><p><l>zadovoljan<s n="adj"/></l><r>задоволен<s n="adj"/></r></p></e>
     <e><p><l>zakonodavni<s n="adj"/></l><r>законодавен<s n="adj"/></r></p></e>
     <e><p><l>zapadni<s n="adj"/></l><r>западен<s n="adj"/></r></p></e>
@@ -6164,6 +6190,7 @@
     <e><p><l>obilan<s n="adj"/></l><r>обилен<s n="adj"/></r></p></e>
     <e><p><l>običan<s n="adj"/></l><r>обичен<s n="adj"/></r></p></e>
     <e><p><l>ovogodišnji<s n="adj"/></l><r>овогодинешен<s n="adj"/></r></p></e>
+    <e><p><l>ovogodišnje<s n="adv"/></l><r>овогодинешно<s n="adv"/></r></p></e>    
     <e><p><l>ogroman<s n="adj"/></l><r>огромен<s n="adj"/></r></p></e>
     <e><p><l>odgovoran<s n="adj"/></l><r>одговорен<s n="adj"/></r></p></e>
     <e><p><l>okolni<s n="adj"/></l><r>околен<s n="adj"/></r></p></e>
@@ -6171,6 +6198,7 @@
     <e><p><l>optimalan<s n="adj"/></l><r>оптимален<s n="adj"/></r></p></e>
     <e><p><l>originalan<s n="adj"/></l><r>оригинален<s n="adj"/></r></p></e>
     <e><p><l>osiguravajući<s n="adj"/></l><r>осигурителен<s n="adj"/></r></p></e>
+    <e><p><l>osiguravajuće<s n="adv"/></l><r>осигурително<s n="adv"/></r></p></e>    
     <e><p><l>osnovan<s n="adj"/></l><r>основен<s n="adj"/></r></p></e>
     <e><p><l>otrovan<s n="adj"/></l><r>отровен<s n="adj"/></r></p></e>
     <e><p><l>oficijalan<s n="adj"/></l><r>официјален<s n="adj"/></r></p></e>
@@ -6193,6 +6221,7 @@
     <e><p><l>daljnje<s n="adv"/></l><r>понатамошно<s n="adv"/></r></p></e>
     <e><p><l>raniji<s n="adj"/></l><r>поранешен<s n="adj"/></r></p></e>
     <e><p><l>posljednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
+    <e><p><l>posljednje<s n="adv"/></l><r>последно<s n="adv"/></r></p></e>    
     <e><p><l>potencijalan<s n="adj"/></l><r>потенцијален<s n="adj"/></r></p></e>
     <e><p><l>potreban<s n="adj"/></l><r>потребен<s n="adj"/></r></p></e>
     <e><p><l>početni<s n="adj"/></l><r>почетен<s n="adj"/></r></p></e>
@@ -6202,6 +6231,7 @@
     <e><p><l>prazan<s n="adj"/></l><r>празен<s n="adj"/></r></p></e>
     <e><p><l>praktičan<s n="adj"/></l><r>практичен<s n="adj"/></r></p></e>
     <e><p><l>prednji<s n="adj"/></l><r>преден<s n="adj"/></r></p></e>
+    <e><p><l>prednje<s n="adv"/></l><r>предно<s n="adv"/></r></p></e>    
     <e><p><l>predizborni<s n="adj"/></l><r>предизборен<s n="adj"/></r></p></e>
     <e><p><l>preliminaran<s n="adj"/></l><r>прелиминарен<s n="adj"/></r></p></e>
     <e><p><l>prenosan<s n="adj"/></l><r>преносен<s n="adj"/></r></p></e>
@@ -6239,6 +6269,7 @@
     <e><p><l>sanitaran<s n="adj"/></l><r>санитарен<s n="adj"/></r></p></e>
     <e><p><l>sjeverni<s n="adj"/></l><r>северен<s n="adj"/></r></p></e>
     <e><p><l>sadašnji<s n="adj"/></l><r>сегашен<s n="adj"/></r></p></e>
+    <e><p><l>sadašnje<s n="adv"/></l><r>сегашно<s n="adv"/></r></p></e>    
     <e><p><l>seksualan<s n="adj"/></l><r>сексуален<s n="adj"/></r></p></e>
     <e><p><l>selektivan<s n="adj"/></l><r>селективен<s n="adj"/></r></p></e>
     <e><p><l>ozbiljan<s n="adj"/></l><r>сериозен<s n="adj"/></r></p></e>
@@ -6249,8 +6280,10 @@
     <e><p><l>skroman<s n="adj"/></l><r>скромен<s n="adj"/></r></p></e>
     <e><p><l>slavan<s n="adj"/></l><r>славен<s n="adj"/></r></p></e>
     <e><p><l>sljedeći<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
+    <e><p><l>sljedeće<s n="adv"/></l><r>следно<s n="adv"/></r></p></e>    
     <e r="LR"><p><l>naredni<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
     <e r="LR"><p><l>potonji<s n="adj"/></l><r>следен<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>potonje<s n="adv"/></l><r>следно<s n="adv"/></r></p></e>    
     <e><p><l>naredni<s n="adj"/></l><r>нареден<s n="adj"/></r></p></e>
     <e><p><l>sličan<s n="adj"/></l><r>сличен<s n="adj"/></r></p></e>
     <e><p><l>slobodan<s n="adj"/></l><r>слободен<s n="adj"/></r></p></e>
@@ -6258,6 +6291,7 @@
     <e><p><l>solidaran<s n="adj"/></l><r>солидарен<s n="adj"/></r></p></e>
     <e><p><l>solidan<s n="adj"/></l><r>солиден<s n="adj"/></r></p></e>
     <e><p><l>odgovarajući<s n="adj"/></l><r>соодветен<s n="adj"/></r></p></e>
+    <e><p><l>odgovarajuće<s n="adv"/></l><r>соодветно<s n="adv"/></r></p></e>
     <e><p><l>susjedni<s n="adj"/></l><r>соседен<s n="adj"/></r></p></e>
     <e><p><l>socijalan<s n="adj"/></l><r>социјален<s n="adj"/></r></p></e>
     <e><p><l>savezni<s n="adj"/></l><r>сојузен<s n="adj"/></r></p></e>
@@ -6266,10 +6300,12 @@
     <e><p><l>sporan<s n="adj"/></l><r>спорен<s n="adj"/></r></p></e>
     <e><p><l>sraman<s n="adj"/></l><r>срамен<s n="adj"/></r></p></e>
     <e><p><l>srednji<s n="adj"/></l><r>среден<s n="adj"/></r></p></e>
+    <e><p><l>srednje<s n="adv"/></l><r>средно<s n="adv"/></r></p></e>    
     <e><p><l>srednjovjekovni<s n="adj"/></l><r>средновековен<s n="adj"/></r></p></e>
     <e><p><l>stabilan<s n="adj"/></l><r>стабилен<s n="adj"/></r></p></e>
     <e><p><l>strašan<s n="adj"/></l><r>страшен<s n="adj"/></r></p></e>
     <e><p><l>tekući<s n="adj"/></l><r>тековен<s n="adj"/></r></p></e>
+    <e><p><l>tekuće<s n="adv"/></l><r>тековно<s n="adv"/></r></p></e>    
     <e><p><l>tjelesni<s n="adj"/></l><r>телесен<s n="adj"/></r></p></e>
     <e><p><l>teritorijalan<s n="adj"/></l><r>територијален<s n="adj"/></r></p></e>
     <e><p><l>tipičan<s n="adj"/></l><r>типичен<s n="adj"/></r></p></e>
@@ -6287,6 +6323,7 @@
     <e><p><l>uspješan<s n="adj"/></l><r>успешен<s n="adj"/></r></p></e>
     <e><p><l>ustavan<s n="adj"/></l><r>уставен<s n="adj"/></r></p></e>
     <e><p><l>sutrašnji<s n="adj"/></l><r>утрешен<s n="adj"/></r></p></e>
+    <e><p><l>sutrašnje<s n="adv"/></l><r>утрешно<s n="adv"/></r></p></e>    
     <e><p><l>famozan<s n="adj"/></l><r>фамозен<s n="adj"/></r></p></e>
     <e><p><l>fantastičan<s n="adj"/></l><r>фантастичен<s n="adj"/></r></p></e>
     <e><p><l>fatalan<s n="adj"/></l><r>фатален<s n="adj"/></r></p></e>
@@ -6370,8 +6407,9 @@
     <e><p><l>dugotrajan<s n="adj"/></l><r>долготраен<s n="adj"/></r></p></e>
     <e><p><l>značajan<s n="adj"/></l><r>значаен<s n="adj"/></r></p></e>
     <e><p><l>krajnji<s n="adj"/></l><r>краен<s n="adj"/></r></p></e>
-    <e><p><l>predstojeći<s n="adj"/></l><r>престоен<s n="adj"/></r></p></e>
+    <e><p><l>krajnje<s n="adv"/></l><r>крајно<s n="adv"/></r></p></e>    
     <e><p><l>predstojeći<s n="adj"/></l><r>претстоен<s n="adj"/></r></p></e>
+    <e><p><l>predstojeće<s n="adv"/></l><r>претстојно<s n="adv"/></r></p></e>    
     <e><p><l>brojni<s n="adj"/></l><r>броен<s n="adj"/></r></p></e>
     <e r="LR"><p><l>brojčani<s n="adj"/></l><r>броен<s n="adj"/></r></p></e>
     <e><p><l>samostalan<s n="adj"/></l><r>самостоен<s n="adj"/></r></p></e>
@@ -6379,6 +6417,7 @@
     <e><p><l>kratak<s n="adj"/></l><r>краток<s n="adj"/></r></p></e>
     <e><p><l>tanak<s n="adj"/></l><r>тенок<s n="adj"/></r></p></e>
     <e><p><l>ptičji<s n="adj"/></l><r>птичји<s n="adj"/></r></p></e>
+    <e><p><l>ptičje<s n="adv"/></l><r>птичјо<s n="adv"/></r></p></e>    
     <e><p><l>razni<s n="adj"/></l><r>разни<s n="adj"/></r></p></e>
     <e><p><l>izvjestan<s n="adj"/></l><r>известен<s n="adj"/></r></p></e>
     <e><p><l>koristan<s n="adj"/></l><r>користен<s n="adj"/></r></p></e>
@@ -6421,6 +6460,7 @@
     <e><p><l>ostali<s n="adj"/></l><r>друг<s n="adj"/></r></p></e>
     <e><p><l>opasan<s n="adj"/></l><r>опасен<s n="adj"/></r></p></e>
     <e><p><l>odlučujući<s n="adj"/></l><r>решавачки<s n="adj"/></r></p></e>
+    <e><p><l>odlučujuće<s n="adv"/></l><r>решавачки<s n="adv"/></r></p></e>    
     <e><p><l>motiviran<s n="adj"/></l><r>мотивиран<s n="adj"/></r></p></e>
     <e><p><l>mnogi</l><r>многу</r></p><par n="adjective_to_adverb_contraction"/></e>
     <e><p><l>mlad<s n="adj"/></l><r>млад<s n="adj"/></r></p></e>
@@ -6457,10 +6497,14 @@
      <!-- in macedonian ends in -чки -ски etc., obtained from that list adjectives -->
 
 	<e><p><l>vaskrsnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
+	<e><p><l>vaskrsnje<s n="adv"/></l><r>велигденски<s n="adv"/></r></p></e>
 	<e><p><l>uskršnji<s n="adj"/></l><r>велигденски<s n="adj"/></r></p></e>
+	<e><p><l>uskršnje<s n="adv"/></l><r>велигденски<s n="adv"/></r></p></e>	
 
-	<e><p><l>vladajući<s n="adj"/></l><r>владејачки<s n="adj"/></r></p></e><!--big Todo: check the translation-->
+	<e><p><l>vladajući<s n="adj"/></l><r>владејачки<s n="adj"/></r></p></e><!--Todo: check the translation-->
+	<e><p><l>vladajuće<s n="adv"/></l><r>владејачки<s n="adv"/></r></p></e><!--Todo: check the translation-->
 	<e><p><l>vodeći<s n="adj"/></l><r>водечки<s n="adj"/></r></p></e>
+	<e><p><l>vodeće<s n="adv"/></l><r>водечки<s n="adv"/></r></p></e>	
 
 	<e><p><l>dječji<s n="adj"/></l><r>детски<s n="adj"/></r></p></e>
     <e><p><l>dječje<s n="adv"/></l><r>детски<s n="adv"/></r></p></e>	
@@ -6472,11 +6516,13 @@
 	<e><p><l>strani<s n="adj"/></l><r>странски<s n="adj"/></r></p></e>
 	<e><p><l>sveučilišni<s n="adj"/></l><r>универзитетски<s n="adj"/></r></p></e>
 	<e><p><l>jutarnji<s n="adj"/></l><r>утрински<s n="adj"/></r></p></e>
+	<e><p><l>jutarnje<s n="adv"/></l><r>утрински<s n="adv"/></r></p></e>	
 	<e><p><l>nogometni<s n="adj"/></l><r>фудбалски<s n="adj"/></r></p></e>
 	<e><p><l>dobrovoljni<s n="adj"/></l><r>доброволски<s n="adj"/></r></p></e>
 	<e><p><l>vatrogasni<s n="adj"/></l><r>пожарникарски<s n="adj"/></r></p></e><!--check translation-->
 	<e><p><l>poduzetan<s n="adj"/></l><r>претприемнички<s n="adj"/></r></p></e><!--check translation-->
-        <e><p><l>rotirajući<s n="adj"/></l><r>ротирачки<s n="adj"/></r></p></e><!--check translation-->
+    <e><p><l>rotirajući<s n="adj"/></l><r>ротирачки<s n="adj"/></r></p></e><!--check translation-->
+    <e><p><l>rotirajuće<s n="adv"/></l><r>ротирачки<s n="adv"/></r></p></e><!--check translation-->    
 	<e><p><l>frankofoni<s n="adj"/></l><r>франкофонски<s n="adj"/></r></p></e><!--check variants, meaning-->
 	<e><p><l>autobusni<s n="adj"/></l><r>автобуски<s n="adj"/></r></p></e>
 	<e><p><l>baletni<s n="adj"/></l><r>балетски<s n="adj"/></r></p></e><!--check variants-->
@@ -7349,7 +7395,6 @@
 	<e><p><l>izgleda<s n="adv"/></l><r>изгледа<s n="adv"/></r></p></e>
 	<e><p><l>po<b/>redu<s n="adv"/></l><r>по<b/>ред<s n="adv"/></r></p></e>
 	<e><p><l>toliko<s n="adv"/></l><r>толку<s n="adv"/></r></p></e>
-	<e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>
 	<e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
 	<e><p><l>čak<s n="adv"/></l><r>дури<s n="adv"/></r></p></e>
 	<e><p><l>negdje<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
@@ -7357,8 +7402,23 @@
 	<e r="LR"><p><l>doma<s n="adv"/></l><r>дома<s n="adv"/></r></p></e><!--Note: 'doma' is more of a regionalism in Croatian (probably Serbian2), less in the standard-->
 	<e r="LR"><p><l>kući<s n="adv"/></l><r>дома<s n="adv"/></r></p></e>
 	<e><p><l>vani<s n="adv"/></l><r>надвор<s n="adv"/></r></p></e>
+	<e><p><l>svagdje<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>
+	<e><p><l>svakamo<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>
+	<e><p><l>svakud<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>		
+	<e><p><l>svakad<s n="adv"/></l><r>секогаш<s n="adv"/></r></p></e>
+	<e><p><l>svakako<s n="adv"/></l><r>секаде<s n="adv"/></r></p></e>			
 	<e><p><l>unutra<s n="adv"/></l><r>внатре<s n="adv"/></r></p></e>			
 	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
+	<e><p><l>tud<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
+	<e><p><l>ovamo<s n="adv"/></l><r>ваму<s n="adv"/></r></p></e>
+	<e><p><l>ovuda<s n="adv"/></l><r>ваму<s n="adv"/></r></p></e>
+    <e><p><l>ovud<s n="adv"/></l><r>ваму<s n="adv"/></r></p></e>			
+	<e><p><l>odakle<s n="adv"/></l><r>откаде<s n="adv"/></r></p></e>
+	<e><p><l>otkud<s n="adv"/></l><r>откаде<s n="adv"/></r></p></e>							
+	<e><p><l>otkuda<s n="adv"/></l><r>откаде<s n="adv"/></r></p></e>				
+	<e><p><l>onamo<s n="adv"/></l><r>онаму<s n="adv"/></r></p></e>				
+	<e><p><l>onda<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>					
+	<e><p><l>ondje<s n="adv"/></l><r>онде<s n="adv"/></r></p></e>						
 	<e><p><l>eventualno<s n="adv"/></l><r>евентуално<s n="adv"/></r></p></e><!--Note: This does not mean eventually :) -->
 	<e><p><l>isto<s n="adv"/></l><r>исто<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>jednako<s n="adv"/></l><r>исто<s n="adv"/></r></p></e>
@@ -7381,6 +7441,19 @@
 	<e><p><l>barem<s n="adv"/></l><r>барем<s n="adv"/></r></p></e>
 	<e><p><l>površno<s n="adv"/></l><r>бегло<s n="adv"/></r></p></e>
 	<e><p><l>odjednom<s n="adv"/></l><r>веднаш<s n="adv"/></r></p></e>
+
+	<e><p><l>jutros<s n="adv"/></l><r>утринава<s n="adv"/></r></p></e>
+	<e><p><l>jučer<s n="adv"/></l><r>вчера<s n="adv"/></r></p></e>
+	<e><p><l>prekjučer<s n="adv"/></l><r>завчера<s n="adv"/></r></p></e>
+	<e r="RL"><p><l>prekjučer<s n="adv"/></l><r>некни<s n="adv"/></r></p></e>	
+	<e><p><l>prekosutra<s n="adv"/></l><r>задутре<s n="adv"/></r></p></e>
+	<e r="RL"><p><l>prekosutra<s n="adv"/></l><r>другиден<s n="adv"/></r></p></e>		
+	<e><p><l>preksutra<s n="adv"/></l><r>задутре<s n="adv"/></r></p></e>
+	<e r="RL"><p><l>preksutra<s n="adv"/></l><r>другиден<s n="adv"/></r></p></e>			
+	<e><p><l>jesenas<s n="adv"/></l><r>есеноска<s n="adv"/></r></p></e>	
+	<e><p><l>ljetos<s n="adv"/></l><r>летоска<s n="adv"/></r></p></e>
+	<e><p><l>proljetos<s n="adv"/></l><r>пролетоска<s n="adv"/></r></p></e>
+	<e><p><l>zimus<s n="adv"/></l><r>зимоска<s n="adv"/></r></p></e>							
 
 	<e><p><l>uključujući<s n="adv"/></l><r>вклучително<s n="adv"/></r></p></e>
 	<e><p><l>zapravo<s n="adv"/></l><r>всушност<s n="adv"/></r></p></e>
@@ -7409,7 +7482,6 @@
 	<!-- -->
 
 	<e><p><l>malo-pomalo<s n="adv"/></l><r>лека-полека<s n="adv"/></r></p></e>
-	<e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>
 	<e><p><l>možda<s n="adv"/></l><r>можеби<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>valjda<s n="adv"/></l><r>можеби<s n="adv"/></r></p></e>
 	<e><p><l>vrlo<s n="adv"/></l><r>мошне<s n="adv"/></r></p></e>
@@ -7443,6 +7515,15 @@
 	<e r="LR"><p><l>isprva<s n="adv"/></l><r>најпрво<s n="adv"/></r></p></e>
 
 	<e><p><l>negdje<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+	<e><p><l>nekamo<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+	<e><p><l>nekud<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+	<e><p><l>nekuda<s n="adv"/></l><r>некаде<s n="adv"/></r></p></e>
+	
+	<e><p><l>nekako<s n="adv"/></l><r>некако<s n="adv"/></r></p></e>
+	
+	<e><p><l>nikako<s n="adv"/></l><r>никако<s n="adv"/></r></p></e>
+	
+	<e><p><l>nikamo<s n="adv"/></l><r>никаде<s n="adv"/></r></p></e>
 
 	<e><p><l>nekad<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e> <!--TODO: check-->
 	<e r="LR"><p><l>nekada<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
@@ -7467,6 +7548,7 @@
 	<e><p><l>pješice<s n="adv"/></l><r>пеш<s n="adv"/></r></p></e>
 	<e><p><l>pješke<s n="adv"/></l><r>пеш<s n="adv"/></r></p></e>
 <!--	<e><p><l><s n="adv"/></l><r>пеша<s n="adv"/></r></p></e> TODO: check if this is same as previous-->
+	<e><p><l>već<s n="adv"/></l><r>веќе<s n="adv"/></r></p></e>
 	<e><p><l>više<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>većma<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>radije<s n="adv"/></l><r>повеќе<s n="adv"/></r></p></e>
@@ -7500,10 +7582,12 @@
 	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>tuda<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>ovdje-ondje<s n="adv"/></l><r>тек-тук<s n="adv"/></r></p></e>
-	<e r="RL"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>тек<b/>тук"<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>тек<b/>тук<s n="adv"/></r></p></e>
 	<e><p><l>ovdje-ondje<s n="adv"/></l><r>овде-онде<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>овде<b/>онде<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>tad<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>
+	<e><p><l>onuda<s n="adv"/></l><r>онаму<s n="adv"/></r></p></e>
+	<e><p><l>onud<s n="adv"/></l><r>онаму<s n="adv"/></r></p></e>
 	<e><p><l>tada<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>
 	<e><p><l>triput<s n="adv"/></l><r>триж<s n="adv"/></r></p></e>
 	<e><p><l>tu<s n="adv"/></l><r>тука<s n="adv"/></r></p></e>
@@ -8181,7 +8265,6 @@
     <e><p><l>mladeški<s n="adv"/></l><r>младински<s n="adv"/></r></p></e>
     <e><p><l>mlado<s n="adv"/></l><r>младо<s n="adv"/></r></p></e>
     <e><p><l>mliječno<s n="adv"/></l><r>млечно<s n="adv"/></r></p></e>
-    <e><p><l>mnogo<s n="adv"/></l><r>многу<s n="adv"/></r></p></e>
     <e><p><l>mobilno<s n="adv"/></l><r>мобилно<s n="adv"/></r></p></e>
     <e><p><l>moderno<s n="adv"/></l><r>модерно<s n="adv"/></r></p></e>
     <e><p><l>modno<s n="adv"/></l><r>модно<s n="adv"/></r></p></e>
