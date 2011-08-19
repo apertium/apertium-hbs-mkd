@@ -5602,6 +5602,10 @@
 
    <pardef n="мај__n">
        <e>        <p>          <l></l>            <r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+       <!--Note: by Hrvoje, not sure if this is ok, but I'm putting it here paranoidly, so there wont' be any transfer errors later-->
+     <e><p><l>от</l>  	   <r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e><!--removable-->
+     <e><p><l>ов</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="prx"/></r></p></e><!--removable-->
+     <e><p><l>он</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dst"/></r></p></e>       <!--removable-->
    </pardef>
 
 

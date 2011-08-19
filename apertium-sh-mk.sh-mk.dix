@@ -150,6 +150,11 @@
   </sdefs>
   
   <pardefs>
+
+  <pardef n="sg_pl_to_sg">
+     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+     <e><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>          
+  </pardef>
   
   <pardef n="all_prs_to_p3_sg">
      <e><p><l><s n="p1"/><s n="sg"/></l><r><s n="p3"/><s n="sg"/></r></p></e>
@@ -562,6 +567,7 @@
      <e><p><l>premda<s n="cnjsub"/></l><r>макар<b/>што<s n="cnjsub"/></r></p></e>     
      <e><p><l>pri<b/>čemu<s n="cnjsub"/></l><r>при<b/>што<s n="cnjsub"/></r></p></e>                                       
      <e><p><l>dok<s n="cnjsub"/></l><r>додека<s n="cnjsub"/></r></p></e>
+     <e><p><l>dokle<s n="adv"/></l><r>додека<s n="cnjsub"/></r></p></e>
      <e><p><l>jer<s n="cnjsub"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e>
      <e r="LR"><p><l>budući<b/>da<s n="cnjsub"/></l><r>бидејќи<s n="prn"/><s n="rel"/></r></p></e>     
      <e><p><l>što<s n="cnjsub"/></l><r>што<s n="prn"/><s n="rel"/></r></p></e>
@@ -569,6 +575,7 @@
      <e><p><l>pošto<s n="cnjsub"/></l><r>откако<s n="cnjsub"/></r></p></e>     
      <e><p><l>da<b/>li<s n="cnjsub"/></l><r>дали<s n="part"/></r></p></e>
      <e><p><l>gdje<s n="cnjsub"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>
+     <e><p><l>gdje<s n="adv"/></l><r>каде<s n="prn"/><s n="itg"/></r></p></e>     
      <e><p><l>kad<s n="cnjsub"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>kada<s n="cnjsub"/></l><r>кога<s n="adv"/></r></p></e>
      <e><p><l>neka<s n="cnjsub"/></l><r>нека<s n="part"/></r></p></e>                                                                
@@ -741,6 +748,7 @@
      <e><p><l>Krneta<s n="np"/></l><r>Крнета<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>          
      
      <!-- SECTION: Nouns -->
+     <e><p><l>grudi<s n="n"/><s n="f"/></l><r>града<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>zastava<s n="n"/><s n="f"/></l><r>знаме<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>finale<s n="n"/><s n="nt"/></l><r>финале<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>uže<s n="n"/><s n="nt"/></l><r>јаже<s n="n"/><s n="nt"/></r></p></e>
@@ -947,7 +955,8 @@
     <e r="LR"><p><l>razina<s n="n"/><s n="f"/></l><r>ниво<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tužilaštvo<s n="n"/><s n="nt"/></l><r>обвинителство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>iskustvo<s n="n"/><s n="nt"/></l><r>искуство<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>oko<s n="n"/><s n="nt"/></l><r>око<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="nt"/><s n="sg"/></l><r>око<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>oko<s n="n"/><s n="f"/><s n="pl"/></l><r>око<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>    
     <e><p><l>društvo<s n="n"/><s n="nt"/></l><r>општество<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>odsustvo<s n="n"/><s n="nt"/></l><r>отсуство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>partnerstvo<s n="n"/><s n="nt"/></l><r>партнерство<s n="n"/><s n="nt"/></r></p></e>
@@ -970,7 +979,8 @@
     <e><p><l>tijelo<s n="n"/><s n="nt"/></l><r>тело<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tempo<s n="n"/><s n="mi"/></l><r>темпо<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ubojstvo<s n="n"/><s n="nt"/></l><r>убиство<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>uho<s n="n"/><s n="nt"/></l><r>уво<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>uho<s n="n"/><s n="nt"/><s n="sg"/></l><r>уво<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>uho<s n="n"/><s n="f"/><s n="pl"/></l><r>уво<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     <e><p><l>huliganstvo<s n="n"/><s n="nt"/></l><r>хулиганство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>čelo<s n="n"/><s n="nt"/></l><r>чело<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>članstvo<s n="n"/><s n="nt"/></l><r>членство<s n="n"/><s n="nt"/></r></p></e>
@@ -1947,8 +1957,8 @@
     <e><p><l>um<s n="n"/><s n="ma"/></l><r>ум<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>uspjeh<s n="n"/><s n="mi"/></l><r>успех<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>faktor<s n="n"/><s n="mi"/></l><r>фактор<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
     <e><p><l>fokus<s n="n"/><s n="mi"/></l><r>фокус<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hrvat<s n="n"/><s n="ma"/></l><r>хрват<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cvijet<s n="n"/><s n="mi"/></l><r>цвет<s n="n"/><s n="m"/></r></p></e>
@@ -2221,7 +2231,8 @@
     <e><p><l>pista<s n="n"/><s n="f"/></l><r>писта<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mast<s n="n"/><s n="f"/></l><r>маст<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>policija<s n="n"/><s n="f"/></l><r>полиција<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>municija<s n="n"/><s n="f"/></l><r>муниција<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>municija<s n="n"/><s n="f"/><s n="sg"/></l><r>муниција<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>municija<s n="n"/><s n="f"/><s n="pl"/></l><r>муниции<s n="n"/><s n="mfn"/><s n="pl"/></r></p></e>
     <e><p><l>ruka<s n="n"/><s n="f"/></l><r>рака<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>noga<s n="n"/><s n="f"/></l><r>нога<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>autokefalnost<s n="n"/><s n="f"/></l><r>автокефалност<s n="n"/><s n="f"/></r></p></e>
@@ -6027,8 +6038,10 @@
     <e r="LR"><p><l>izravan<s n="adj"/></l><r>директен<s n="adj"/></r></p></e>
     <e><p><l>dnevni<s n="adj"/></l><r>дневен<s n="adj"/></r></p></e>
     <e><p><l>dojučerašnji<s n="adj"/></l><r>довчерашен<s n="adj"/></r></p></e>
+    <e><p><l>dojučerašnje<s n="adv"/></l><r>довчерашно<s n="adj"/></r></p></e>    
     <e><p><l>donji<s n="adj"/></l><r>долен<s n="adj"/></r></p></e>
     <e><p><l>domaći<s n="adj"/></l><r>домашен<s n="adj"/></r></p></e>
+    <e><p><l>domaće<s n="adv"/></l><r>домашно<s n="adv"/></r></p></e>
     <e><p><l>dopunski<s n="adj"/></l><r>дополнителен<s n="adj"/></r></p></e>
     <e><p><l>dosadašnji<s n="adj"/></l><r>досегашен<s n="adj"/></r></p></e>
     <e><p><l>drastičan<s n="adj"/></l><r>драстичен<s n="adj"/></r></p></e>
@@ -6177,6 +6190,7 @@
     <e><p><l>podzemni<s n="adj"/></l><r>подземен<s n="adj"/></r></p></e>
     <e><p><l>pozitivan<s n="adj"/></l><r>позитивен<s n="adj"/></r></p></e>
     <e><p><l>daljnji<s n="adj"/></l><r>понатамошен<s n="adj"/></r></p></e>
+    <e><p><l>daljnje<s n="adv"/></l><r>понатамошно<s n="adv"/></r></p></e>
     <e><p><l>raniji<s n="adj"/></l><r>поранешен<s n="adj"/></r></p></e>
     <e><p><l>posljednji<s n="adj"/></l><r>последен<s n="adj"/></r></p></e>
     <e><p><l>potencijalan<s n="adj"/></l><r>потенцијален<s n="adj"/></r></p></e>
@@ -6449,6 +6463,7 @@
 	<e><p><l>vodeći<s n="adj"/></l><r>водечки<s n="adj"/></r></p></e>
 
 	<e><p><l>dječji<s n="adj"/></l><r>детски<s n="adj"/></r></p></e>
+    <e><p><l>dječje<s n="adv"/></l><r>детски<s n="adv"/></r></p></e>	
 
 	<e><p><l>poljoprivredni<s n="adj"/></l><r>земјоделски<s n="adj"/></r></p></e>
 	<e><p><l>povijesni<s n="adj"/></l><r>историски<s n="adj"/></r></p></e>
@@ -7525,7 +7540,8 @@
 	<e r="LR"><p><l>dotle<s n="adv"/></l><r>дотогаш<s n="adv"/></r></p></e>
      <!--end Adverbs that are incomparable-->
      <!--Adverbs that are comparable (neuter adjectives)--><!--Note: Generated by a script, could be errors-->
-         <e><p><l>abramski<s n="adv"/></l><r>аврамски<s n="adv"/></r></p></e>
+     <e><p><l>divlje<s n="adv"/></l><r>диво<s n="adv"/></r></p></e>
+     <e><p><l>abramski<s n="adv"/></l><r>аврамски<s n="adv"/></r></p></e>
     <e><p><l>administrativno<s n="adv"/></l><r>административно<s n="adv"/></r></p></e>
     <e><p><l>administratorski<s n="adv"/></l><r>администраторски<s n="adv"/></r></p></e>
     <e><p><l>advokatski<s n="adv"/></l><r>адвокатски<s n="adv"/></r></p></e>
