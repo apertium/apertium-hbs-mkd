@@ -35,6 +35,8 @@
     <sdef n="aor" c="Aorist"/>
     <sdef n="fti" c="Future indicative"/>
     <sdef n="imp" c="Imperative"/>
+    <sdef n="futI" c="Future I"/>
+    <sdef n="futII" c="Future II"/>    
 
     <sdef n="pref" c="Prefix"/>
     <sdef n="clt" c="Clitic"/>
@@ -148,6 +150,16 @@
   </sdefs>
   
   <pardefs>
+  
+  <pardef n="all_prs_to_p3_sg">
+     <e><p><l><s n="p1"/><s n="sg"/></l><r><s n="p3"/><s n="sg"/></r></p></e>
+     <e><p><l><s n="p2"/><s n="sg"/></l><r><s n="p3"/><s n="sg"/></r></p></e>
+     <e><p><l><s n="p3"/><s n="sg"/></l><r><s n="p3"/><s n="sg"/></r></p></e>
+     <e><p><l><s n="p1"/><s n="pl"/></l><r><s n="p3"/><s n="sg"/></r></p></e>
+     <e><p><l><s n="p2"/><s n="pl"/></l><r><s n="p3"/><s n="sg"/></r></p></e>                    
+     <e><p><l><s n="p3"/><s n="pl"/></l><r><s n="p3"/><s n="sg"/></r></p></e>     
+  </pardef>
+  
     <!--Cartesian product paradigms to compensate for the discrepancies in aspect and transitivity-->
     <!--Left hand side-->
     <pardef n="tv_lhs">
@@ -8924,10 +8936,27 @@
     
 
      <!-- SECTION: Verbs -->
-     <e><p><l>clitic<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e>     
-     <e r="LR"><p><l>biti<s n="vbser"/><s n="clt"/></l><r>е<s n="vbser"/></r></p></e> 
-     <e><p><l>biti<s n="vbser"/></l><r>е<s n="vbser"/></r></p></e> 
-	<e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
+     
+     <!--the <vbser>-->
+     <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="pres"/></l><r>е<s n="vbser"/><s n="pres"/></r></p></e>
+     <e><p><l>biti<s n="vbser"/><s n="pres"/></l><r>е<s n="vbser"/><s n="pres"/></r></p></e>
+     <e><p><l>biti<s n="vbser"/><s n="lp"/></l><r>е<s n="vbser"/><s n="lp"/><s n="pii"/></r></p></e>
+     <e><p><l>biti<s n="vbser"/><s n="pii"/></l><r>е<s n="vbser"/><s n="pii"/></r></p></e>
+     
+     <e><p><l>biti<s n="vbser"/><s n="futII"/><s n="pres"/></l><r>биде<s n="vbser"/><s n="pres"/></r></p></e>    
+     <e><p><l>biti<s n="vbser"/><s n="imperf"/><s n="pprs"/><s n="adv"/></l><r>биде<s n="vbser"/><s n="pprs"/><s n="adv"/></r></p></e><!--бидејќи-->
+     <e><p><l>biti<s n="vbser"/><s n="perf"/><s n="pprs"/><s n="adv"/></l><r>бивш<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e><!--бивш-->    
+     
+     <e><p><l>biti<s n="vbser"/><s n="imp"/></l><r>биде<s n="vbser"/><s n="imp"/></r></p></e>
+          
+     <e><p><l>biti<s n="vbser"/><s n="clt"/><s n="aor"/></l><r>би<s n="vbser"/><s n="pres"/></r></p><par n="all_prs_to_p3_sg"/></e>
+ 
+     <e><p><l>biti<s n="vbser"/><s n="inf"/></l><r>биде<s n="vbser"/></r></p></e>
+ 
+     <!--end the <vbser>-->
+
+     <!--Verb 'to beat'. It's here just 'cause it's similar to the verb 'to be'-->
+ 	 <e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>

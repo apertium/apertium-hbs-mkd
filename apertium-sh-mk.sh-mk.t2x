@@ -17,6 +17,9 @@
       <cat-item tags=".*.SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SNDat">
+      <cat-item tags="SN.*.*.dat"/>
+    </def-cat>
     <def-cat n="SNIns">
       <cat-item tags="SN.*.*.ins"/>
     </def-cat>
@@ -235,6 +238,31 @@
     <rule comment="REGLA: SNGen">
       <pattern>
         <pattern-item n="SNGen"/>        
+      </pattern>
+      <action>
+        <let>
+            <clip pos="1" part="cas"/>
+            <lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk>
+            <lit v="{^на"/>
+            <lit-tag v="pr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>            
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: SNDat">
+      <pattern>
+        <pattern-item n="SNDat"/>        
       </pattern>
       <action>
         <let>

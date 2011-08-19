@@ -6112,14 +6112,6 @@ after prepositions-->
     <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
     <e><p><l>budete</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>budu</l><r>biti<s n="vbser"/><s n="futII"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-
-    <!-- The normal analysis, when this is just the perfective form of 'to be' -->    
-     <e><p><l>budem</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e><p><l>budeš</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>bude</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><p><l>budemo</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>budete</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>budu</l><r>biti<s n="vbser"/><s n="perf"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
     
     <!--The clitic aorist of to be--><!--Used in compound to make conditional-->
     <!-- SideNote: in everyday speech it's just 'bi' in all tenses (like macedonian), not sure if some less informal newspaper texts would use this style, but for now i'll just leave the more literary analysis --> 
@@ -6152,6 +6144,7 @@ after prepositions-->
     <!-- (no pp, past passive participle) -->
     
     <!-- Present participle a.k.a. verbal adverb present/past, works like gerundio in Spanish -->
+    <!--Note: This has to have perfectivity to differentiate (plus it indeed does have it)-->
     <e><p><l>budući</l><r>biti<s n="vbser"/><s n="imperf"/><s n="pprs"/><s n="adv"/></r></p></e>
     <e><p><l>bivši</l><r>biti<s n="vbser"/><s n="perf"/><s n="pprs"/><s n="adv"/></r></p></e>    
 </pardef>
