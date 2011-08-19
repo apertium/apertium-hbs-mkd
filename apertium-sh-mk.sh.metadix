@@ -42392,18 +42392,18 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Australija"><i>Austral</i><par n="Srb/ija__n"/></e>
 <e lm="Litva"><i>Litv</i><par n="Bosn/a__n"/></e><e lm="Litvanija"><i>Litvan</i><par n="Srb/ija__n"/></e>
 <e lm="Dalmacija"><i>Dalmac</i><par n="Srb/ija__n"/></e>
-<e lm="Nikozija"><i>Nikoz</i><par n="Srb/ija__n"/></e>
-<e lm="Letonija"><i>Leton</i><par n="Srb/ija__n"/></e>
+<!--e lm="Nikozija"><i>Nikoz</i><par n="Srb/ija__n"/></e-->
+<!--e lm="Letonija"><i>Leton</i><par n="Srb/ija__n"/></e-->
 <!--e lm="Anatolija"><i>Anatol</i><par n="Srb/ija__n"/></e>
 <e lm="Arabija"><i>Arab</i><par n="Srb/ija__n"/></e-->
 <e lm="Indija"><i>Ind</i><par n="Srb/ija__n"/></e>
 <e lm="Sirija"><i>Sir</i><par n="Srb/ija__n"/></e>
 <e lm="Kolumbija"><i>Kolumb</i><par n="Srb/ija__n"/></e>
-<e lm="Tripolija"><i>Tripol</i><par n="Srb/ija__n"/></e><!--Todo: check this-->
-<e lm="Transilvanija"><i>Transilvan</i><par n="Srb/ija__n"/></e>
+<!--e lm="Tripolija"><i>Tripol</i><par n="Srb/ija__n"/></e--><!--Todo: check this-->
+<!--e lm="Transilvanija"><i>Transilvan</i><par n="Srb/ija__n"/></e-->
 <e lm="Nigerija"><i>Niger</i><par n="Srb/ija__n"/></e>
 <e lm="Bjelorusija"><i>B</i><par n="e_je__yat"/><i>lorus</i><par n="Srb/ija__n"/></e>
-<e lm="Gruzija"><i>Gruz</i><par n="Srb/ija__n"/></e>
+<!--e lm="Gruzija"><i>Gruz</i><par n="Srb/ija__n"/></e-->
 <e lm="Portugalija"><i>Portugal</i><par n="Srb/ija__n"/></e>
 <e lm="Portugal"><i>Portugal</i><par n="Zagreb__n"/></e><!--Note: apparently both are used in Serbian, with preference of the former in the literary language-->
 <e lm="Beograd"><i>Beograd</i><par n="Zagreb__n"/></e>
@@ -42413,29 +42413,29 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Svištov"><i>Svišto</i><par n="Samoko/v__top__np"/></e>
 
 <!--e lm="Bačka"><i>Ba</i><par n="Ba/čka__n"/></e-->
-<e lm="Njemačka"><i>N</i><par n="e_je__yat"/><i>ma</i><par n="Ba/čka__n"/></e>
-<e lm="Meka"><i>Me</i><par n="Me/ka__n"/></e>
-<e lm="Krka"><i>Kr</i><par n="Me/ka__n"/></e>
-<e lm="Moka"><i>Mo</i><par n="Me/ka__n"/></e>
-<e lm="Vuka"><i>Vu</i><par n="Me/ka__n"/></e>
-<e lm="Kartaga"><i>Karta</i><par n="Karta/ga__n"/></e>
-<e lm="Katanga"><i>Katan</i><par n="Karta/ga__n"/></e>
-<e lm="Volga"><i>Vol</i><par n="Karta/ga__n"/></e>
-<e lm="Malaga"><i>Mala</i><par n="Karta/ga__n"/></e>
-<e lm="Lika"><i>Li</i><par n="Li/ka__n"/></e>
+<!--e lm="Njemačka"><i>N</i><par n="e_je__yat"/><i>ma</i><par n="Ba/čka__n"/></e-->
+<!--e lm="Meka"><i>Me</i><par n="Me/ka__n"/></e-->
+<!--e lm="Krka"><i>Kr</i><par n="Me/ka__n"/></e-->
+<!--e lm="Moka"><i>Mo</i><par n="Me/ka__n"/></e-->
+<!--e lm="Vuka"><i>Vu</i><par n="Me/ka__n"/></e-->
+<!--e lm="Kartaga"><i>Karta</i><par n="Karta/ga__n"/></e>
+<e lm="Katanga"><i>Katan</i><par n="Karta/ga__n"/></e-->
+<!--e lm="Volga"><i>Vol</i><par n="Karta/ga__n"/></e>
+<e lm="Malaga"><i>Mala</i><par n="Karta/ga__n"/></e-->
+<!--e lm="Lika"><i>Li</i><par n="Li/ka__n"/></e-->
 <!--e lm="Baška"><i>Baš</i><par n="Li/ka__n"/></e-->
-<e lm="Gradiška"><i>Gradiš</i><par n="Li/ka__n"/></e>
-<e lm="Kostarika"><i>Kostari</i><par n="Li/ka__n"/></e>
+<!--e lm="Gradiška"><i>Gradiš</i><par n="Li/ka__n"/></e-->
+<!--e lm="Kostarika"><i>Kostari</i><par n="Li/ka__n"/></e>
 <e lm="Tanganjika"><i>Tanganji</i><par n="Li/ka__n"/></e>
-<e lm="Požega"><i>Pože</i><par n="Pože/ga__n"/></e>
+<e lm="Požega"><i>Pože</i><par n="Pože/ga__n"/></e-->
 <e lm="Afrika"><i>Afri</i><par n="Rije/ka__n"/></e>
 <e lm="Amerika"><i>Ameri</i><par n="Rije/ka__n"/></e>
 <!--e lm="Rijeka"><i>Rije</i><par n="Rije/ka__n"/></e-->
-<e lm="Mlaka"><i>Mla</i><par n="Rije/ka__n"/></e>
+<!--e lm="Mlaka"><i>Mla</i><par n="Rije/ka__n"/></e-->
 <!--e lm="Banja Luka"><i>Rije</i><par n="Rije/ka__n"/></e--><!--Perhaps a multiword-->
-<e lm="Draga"><i>Dra</i><par n="Dra/ga__n"/></e>
+<!--e lm="Draga"><i>Dra</i><par n="Dra/ga__n"/></e-->
 <!--Antroponyms-->
-<e lm="Olga"><i>Ol</i><par n="Dra/ga__n"/></e>
+<!--e lm="Olga"><i>Ol</i><par n="Dra/ga__n"/></e-->
 <e lm="Jasenka"><i>Jasen</i><par n="Jasen/ka__n"/></e>
 <e lm="Ana"><i>An</i><par n="An/a__np"/></e>
 <e lm="Anja"><i>Anj</i><par n="Anj/a__np"/></e>

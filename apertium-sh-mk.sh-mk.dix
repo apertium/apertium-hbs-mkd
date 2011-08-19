@@ -725,6 +725,13 @@
      <e><p><l>Nemanja<s n="np"/><s n="ant"/><s n="ma"/></l><r>Немања<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
      
      <e><p><l>Afrika<s n="np"/></l><r>Африка<s n="np"/></r></p></e>
+     <e><p><l>Hrvatska<s n="np"/></l><r>Хрватска<s n="np"/></r></p></e>
+     <e><p><l>Finska<s n="np"/></l><r>Финска<s n="np"/></r></p></e>
+     <e><p><l>Litva<s n="np"/></l><r>Литванија<s n="np"/></r></p></e>
+     <e><p><l>Litvanija<s n="np"/></l><r>Литванија<s n="np"/></r></p></e>
+     <e><p><l>Nikozija<s n="np"/></l><r>Никозија<s n="np"/></r></p></e>
+     <e><p><l>Nizozemska<s n="np"/></l><r>Холандија<s n="np"/></r></p></e>
+     <e><p><l>Holandija<s n="np"/></l><r>Холандија<s n="np"/></r></p></e>          
      <e><p><l>Amerika<s n="np"/></l><r>Америка<s n="np"/></r></p></e>
      <e><p><l>Bjelorusija<s n="np"/></l><r>Белорусија<s n="np"/></r></p></e>
      <e><p><l>Dalmacija<s n="np"/></l><r>Далмација<s n="np"/></r></p></e>
@@ -5676,6 +5683,8 @@
      <e><p><l>Kenija<s n="np"/></l><r>Кенија<s n="np"/></r></p></e>
      <e><p><l>Koreja<s n="np"/></l><r>Кореја<s n="np"/></r></p></e>
      <e><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+     <e><p><l>Portugalija<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>
+     <e><p><l>Švedska<s n="np"/></l><r>Шведска<s n="np"/></r></p></e>
      <e><p><l>Mađarska<s n="np"/></l><r>Унгарија<s n="np"/></r></p></e>
      <e><p><l>Francuska<s n="np"/></l><r>Франција<s n="np"/></r></p></e>
 
