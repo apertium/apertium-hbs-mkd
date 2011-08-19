@@ -9021,7 +9021,7 @@
 		He said == "On reče"
 		...
        -->
-     <e r="LR"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_to_perf_tv_"/></e>
+     <e r="LR"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
 
      <e c="  0"><p><l>kazati<s n="vblex"/></l><r>каже<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
      <e slr="1"><p><l>kazati<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
@@ -10556,7 +10556,7 @@
         <e><p><l>tolerirati<s n="vblex"/></l><r>толерира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>tolerisati<s n="vblex"/></l><r>толерира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>aplicirati<s n="vblex"/></l><r>аплицира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
-        <e><p><l>presjeći<s n="vblex"/></l><r>пресече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+        <e><p><l>presjeći<s n="vblex"/></l><r>пресече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>raniti<s n="vblex"/></l><r>рани<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>lobirati<s n="vblex"/></l><r>лобира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
         <e><p><l>potkopati<s n="vblex"/></l><r>поткопа<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>
@@ -10613,8 +10613,8 @@
         <e><p><l>pljuvati<s n="vblex"/></l><r>плука<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
         <e><p><l>donijeti<s n="vblex"/></l><r>донесе<s n="vblex"/></r></p></e>
         <e><p><l>nazvati<s n="vblex"/></l><r>нарече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-        <e><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
-        <e><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_to_perf_tv_"/></e>
+        <e><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
+        <e><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
         <e><p><l>ući<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
         <e r="LR"><p><l>uleći<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_iv_"/></e>
         <e><p><l>izaći<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
@@ -10791,7 +10791,7 @@
         <e><p><l>osuditi<s n="vblex"/></l><r>осуди<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
         <e><p><l>otvoriti<s n="vblex"/></l><r>отвори<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_iv_tv_"/></e>
         <e><p><l>odbaciti<s n="vblex"/></l><r>отфрли<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-        <e><p><l>povući<s n="vblex"/></l><r>повлече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+        <e><p><l>povući<s n="vblex"/></l><r>повлече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>ponoviti<s n="vblex"/></l><r>повтори<s n="vblex"/></r></p><par n="_perf_iv_tv_ref_to_perf_tv_"/></e>
         <e><p><l>pogoditi<s n="vblex"/></l><r>погоди<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
         <e><p><l>pripremiti<s n="vblex"/></l><r>подготви<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
@@ -12924,7 +12924,7 @@
 	<e r="RL"><p><l>tolerirati<s n="vblex"/></l><r>толерира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>tolerisati<s n="vblex"/></l><r>толерира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>aplicirati<s n="vblex"/></l><r>аплицира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
-	<e r="RL"><p><l>presjeći<s n="vblex"/></l><r>пресече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+	<e r="RL"><p><l>presjeći<s n="vblex"/></l><r>пресече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>raniti<s n="vblex"/></l><r>рани<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>lobirati<s n="vblex"/></l><r>лобира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_imperf_iv_"/></e>
 	<e r="RL"><p><l>potkopati<s n="vblex"/></l><r>поткопа<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>
@@ -12982,8 +12982,8 @@
 	<e r="RL"><p><l>pljuvati<s n="vblex"/></l><r>плука<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>donijeti<s n="vblex"/></l><r>донесе<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>nazvati<s n="vblex"/></l><r>нарече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_to_perf_tv_"/></e>
+	<e r="RL"><p><l>privući<s n="vblex"/></l><r>привлече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
+	<e r="RL"><p><l>reći<s n="vblex"/></l><r>рече<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
 	<e r="RL"><p><l>ući<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>uleći<s n="vblex"/></l><r>влезе<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_iv_"/></e>
 	<e r="RL"><p><l>izaći<s n="vblex"/></l><r>излезе<s n="vblex"/></r></p></e>
@@ -13171,7 +13171,7 @@
 	<e r="RL"><p><l>osuditi<s n="vblex"/></l><r>осуди<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
 	<e r="RL"><p><l>otvoriti<s n="vblex"/></l><r>отвори<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_iv_tv_"/></e>
 	<e r="RL"><p><l>odbaciti<s n="vblex"/></l><r>отфрли<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>povući<s n="vblex"/></l><r>повлече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+	<e r="RL"><p><l>povući<s n="vblex"/></l><r>повлече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>ponoviti<s n="vblex"/></l><r>повтори<s n="vblex"/></r></p><par n="_perf_iv_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>pogoditi<s n="vblex"/></l><r>погоди<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
 	<e r="RL"><p><l>pripremiti<s n="vblex"/></l><r>подготви<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
