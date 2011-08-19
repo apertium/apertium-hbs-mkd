@@ -5611,8 +5611,8 @@
 	<e><p><l>Goce<b/>Delčev<s n="np"/><s n="top"/></l><r>Гоце<b/>Делчев<s n="np"/><s n="top"/></r></p></e>
 
      <!--Surnames ending in -ov,-ev-->	
-	<e><p><l>Samokov<s n="np"/></l><r>Самоков<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
-	<e><p><l>Svištov<s n="np"/></l><r>Свиштов<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
+	<e><p><l>Samokov<s n="np"/></l><r>Самоков<s n="np"/></r></p></e>
+	<e><p><l>Svištov<s n="np"/></l><r>Свиштов<s n="np"/></r></p></e>
 	<e><p><l>Popov<s n="np"/></l><r>Попов<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Borisov<s n="np"/></l><r>Борисов<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Velčev<s n="np"/></l><r>Велчев<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
@@ -5675,7 +5675,7 @@
      <e><p><l>Japan<s n="np"/></l><r>Јапонија<s n="np"/></r></p></e>
      <e><p><l>Kenija<s n="np"/></l><r>Кенија<s n="np"/></r></p></e>
      <e><p><l>Koreja<s n="np"/></l><r>Кореја<s n="np"/></r></p></e>
-     <e><p><l>Portugal<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>
+     <e><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>
      <e><p><l>Mađarska<s n="np"/></l><r>Унгарија<s n="np"/></r></p></e>
      <e><p><l>Francuska<s n="np"/></l><r>Франција<s n="np"/></r></p></e>
 
@@ -8959,7 +8959,8 @@
  	 <e><p><l>biti<s n="vblex"/></l><r>бие<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 
      <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
-     <e><p><l>moći<s n="vbmod"/></l><r>може<s n="vbmod"/></r></p></e>
+     <e><p><l>moći<s n="vbmod"/><s n="imperf"/><s n="pprs"/><s n="adv"/></l><r>може<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>
+     <e><p><l>moći<s n="vbmod"/><s n="perf"/><s n="pprs"/><s n="adv"/></l><r>може<s n="vbmod"/><s n="pprs"/><s n="adv"/></r></p></e>     
      
      <e><p><l>morati<s n="vbmod"/></l><r>мора<s n="vbmod"/></r></p></e>     
      <e><p><l>trebati<s n="vbmod"/></l><r>треба<s n="vbmod"/></r></p></e>     
@@ -9543,7 +9544,7 @@
         <e><p><l>raspoređivati<s n="vblex"/></l><r>распоредува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>željeti<s n="vblex"/></l><r>сака<s n="vblex"/></r></p></e>
         <e><p><l>voljeti<s n="vblex"/></l><r>сака<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-        <e><p><l>htjeti<s n="vbmod"/></l><r>сака<s n="vblex"/></r></p></e>
+        <e><p><l>htjeti<s n="vbmod"/></l><r>сака<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p></e>
         <e><p><l>slijediti<s n="vblex"/></l><r>следи<s n="vblex"/></r></p><par n="_imperf_tv_to_imperf_iv_tv_"/></e>
         <e><p><l>oglašavati<s n="vblex"/></l><r>соопштува<s n="vblex"/></r></p><par n="_imperf_iv_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>sačinjavati<s n="vblex"/></l><r>сочинува<s n="vblex"/></r></p></e>
@@ -10325,7 +10326,7 @@
         <e><p><l>podrazumijevati<s n="vblex"/></l><r>подразбира<s n="vblex"/></r></p></e>
         <e><p><l>razuvjeravati<s n="vblex"/></l><r>разубедува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>defokusirati<s n="vblex"/></l><r>дефокусира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
-        <e><p><l>doreći<s n="vblex"/></l><r>доискажува<s n="vblex"/></r></p><par n="_perf_iv_ref_to_imperf_tv_"/></e>
+        <e><p><l>doreći<s n="vblex"/></l><r>доискажува<s n="vblex"/></r></p><par n="_perf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>redefinirati<s n="vblex"/></l><r>редефинира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>redefinisati<s n="vblex"/></l><r>редефинира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
         <e r="RL"><p><l>razgledati<s n="vblex"/></l><r>доразгледа<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_perf_iv_tv_"/></e>
@@ -10394,10 +10395,10 @@
         <e r="RL"><p><l>uzeti<s n="vblex"/></l><r>доземе<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>zadati<s n="vblex"/></l><r>зададе<s n="vblex"/></r></p></e>
         <e><p><l>izuzeti<s n="vblex"/></l><r>изземе<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-        <e><p><l>izreći<s n="vblex"/></l><r>изрече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+        <e><p><l>izreći<s n="vblex"/></l><r>изрече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e r="RL"><p><l>dodati<s n="vblex"/></l><r>нададе<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
         <e><p><l>kazniti<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_perf_tv_"/></e>
-        <e r="RL"><p><l>izreći<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+        <e r="RL"><p><l>izreći<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>obuzeti<s n="vblex"/></l><r>обземе<s n="vblex"/></r></p></e>
         <e><p><l>odati<s n="vblex"/></l><r>оддаде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>odreći<s n="vblex"/></l><r>одрече<s n="vblex"/></r></p><par n="_perf_ref_to_perf_tv_"/></e>
@@ -10581,7 +10582,7 @@
         <e><p><l>padati<s n="vblex"/></l><r>паѓа<s n="vblex"/></r></p></e>
         <e><p><l>stiskati<s n="vblex"/></l><r>стиска<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>brisati<s n="vblex"/></l><r>брише<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-        <e><p><l>vući<s n="vblex"/></l><r>влече<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_tv_"/></e>
+        <e><p><l>vući<s n="vblex"/></l><r>влече<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>gurati<s n="vblex"/></l><r>турка<s n="vblex"/></r></p><par n="_imperf_iv_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>baciti<s n="vblex"/></l><r>фрла<s n="vblex"/></r></p><par n="_perf_tv_ref_to_imperf_tv_"/></e>
         <e r="LR"><p><l>šiti<s n="vblex"/></l><r>шие<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>
@@ -10772,7 +10773,7 @@
         <e><p><l>dodati<s n="vblex"/></l><r>додаде<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
         <e><p><l>dostaviti<s n="vblex"/></l><r>достави<s n="vblex"/></r></p></e>
         <e><p><l>ispuniti<s n="vblex"/></l><r>исполни<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-        <e><p><l>isprati<s n="vblex"/></l><r>испрати<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
+        <!--e><p><l>ispratiti<s n="vblex"/></l><r>испрати<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e-->
         <e><p><l>kupiti<s n="vblex"/></l><r>купи<s n="vblex"/></r></p></e>
         <e><p><l>učiniti<s n="vblex"/></l><r>стори<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e r="LR"><p><l>počiniti<s n="vblex"/></l><r>стори<s n="vblex"/></r></p></e>
@@ -10897,7 +10898,7 @@
 
    <section id="west" type="standard">
    
-   <e r="RL"><p><l>Portugal<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>                                                                    
+   <e r="RL"><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>                                                                    
    
    <e r="RL"><p><l>kava<s n="n"/><s n="f"/></l><r>кафе<s n="nt"/><s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>prvak<s n="n"/><s n="ma"/></l><r>шампион<s n="ma"/><s n="n"/><s n="m"/></r></p></e>
@@ -11166,7 +11167,7 @@
 
    <e r="RL"><p><l>Španija<s n="np"/></l><r>Шпанија<s n="np"/></r></p></e>
   <e r="RL"><p><l>Portugalija<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>                                                                     
-    <e r="RL"><p><l>Portugal<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>                                                                                                                                
+    <e r="RL"><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>                                                                                                                                
            
    <e r="RL"><p><l>uporediti<s n="vblex"/></l><r>спореди<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>   
    <e r="RL"><p><l>kafa<s n="n"/><s n="f"/></l><r>кафе<s n="nt"/><s n="n"/><s n="m"/></r></p></e>
@@ -11472,7 +11473,7 @@
    <section id="cent" type="standard">
    
     <e r="RL"><p><l>Španija<s n="np"/></l><r>Шпанија<s n="np"/></r></p></e>
-    <e r="RL"><p><l>Portugal<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>                                                                                                                                
+    <e r="RL"><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>                                                                                                                                
    
 	<e r="RL"><p><l>srednjevropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>
     <e r="RL"><p><l>uporediti<s n="vblex"/></l><r>спореди<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
@@ -12758,10 +12759,10 @@
 	<e r="RL"><p><l>uzeti<s n="vblex"/></l><r>доземе<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>zadati<s n="vblex"/></l><r>зададе<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>izuzeti<s n="vblex"/></l><r>изземе<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>izreći<s n="vblex"/></l><r>изрече<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+	<e r="RL"><p><l>izreći<s n="vblex"/></l><r>изрече<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>dodati<s n="vblex"/></l><r>нададе<s n="vblex"/></r></p><par n="_perf_iv_tv_to_perf_tv_"/></e>
 	<e r="RL"><p><l>kazniti<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_perf_tv_"/></e>
-	<e r="RL"><p><l>izreći<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_perf_iv_ref_to_perf_tv_"/></e>
+	<e r="RL"><p><l>izreći<s n="vblex"/></l><r>накаже<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>obuzeti<s n="vblex"/></l><r>обземе<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>odati<s n="vblex"/></l><r>оддаде<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
 	<e r="RL"><p><l>odreći<s n="vblex"/></l><r>одрече<s n="vblex"/></r></p><par n="_perf_ref_to_perf_tv_"/></e>
@@ -12950,7 +12951,7 @@
 	<e r="RL"><p><l>padati<s n="vblex"/></l><r>паѓа<s n="vblex"/></r></p></e>
 	<e r="RL"><p><l>stiskati<s n="vblex"/></l><r>стиска<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>brisati<s n="vblex"/></l><r>брише<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-	<e r="RL"><p><l>vući<s n="vblex"/></l><r>влече<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_tv_"/></e>
+	<e r="RL"><p><l>vući<s n="vblex"/></l><r>влече<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>gurati<s n="vblex"/></l><r>турка<s n="vblex"/></r></p><par n="_imperf_iv_tv_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>baciti<s n="vblex"/></l><r>фрла<s n="vblex"/></r></p><par n="_perf_tv_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>šiti<s n="vblex"/></l><r>шие<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e>

@@ -668,7 +668,10 @@
             <when><!--Note and a big TODO: macedonian doesn't have pprs for perfective verbs, so for now normalising to passive participle-->
                 <test><!--Possible solution if grammatical имајќи + passive participle neuter == "having entered" etc.-->
                     <and>
-                        <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal>
+                        <or>
+                            <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal>
+                            <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal>
+                        </or>
                         <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal>                    
                         <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="pprs"/></equal>
                     </and>
@@ -699,14 +702,6 @@
                     </concat>
                 </let>
             </when>       
-            <when>
-                <test>
-                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сака"/></equal>
-                </test>
-                <let>
-                    <clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex.imperf.tv"/>
-                </let>
-            </when>       
             <when><!--This normalises optative to lp, since optative is rare.--><!--TODO: implement macedonian optative-->
                 <test>
                     <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="opt"/></equal>
@@ -730,10 +725,20 @@
                 <choose>
                 <when>
                     <test>
-                        <and>
-                            <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
-                            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
-                        </and>
+                        <or>
+                            <and>
+                                <equal><clip pos="1" side="sl" part="prs"/><lit-tag v="p1"/></equal>
+                                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+                            </and>
+                            <and>
+                                <or>
+                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="може"/></equal>
+                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="мора"/></equal>
+                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="треба"/></equal>                                    
+                                </or>
+                                <equal><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbmod"/></equal>                            
+                            </and>
+                        </or>
                     </test>
                     <let>
                         <clip pos="1" side="tl" part="whole"/>
@@ -773,8 +778,8 @@
         <when>
           <test>
             <and>         
-                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
-                <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="perf"/></equal>
+                <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></equal>
+                <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="perf"/></equal>
             </and>
           </test>
             <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></let>
@@ -782,8 +787,8 @@
         <when>
           <test>
             <and>         
-                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
-                <equal><clip pos="1" side="sl" part="asp"/><lit-tag v="imperf"/></equal>
+                <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></equal>
+                <equal><clip pos="1" side="tl" part="asp"/><lit-tag v="imperf"/></equal>
             </and>
           </test>
             <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></let>
@@ -791,8 +796,12 @@
         <when>
           <test>
             <and>         
-                <equal><clip pos="1" side="sl" part="tns"/><lit-tag v="lp"/></equal>
-                <equal><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser"/></equal>
+                <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="lp"/></equal>
+                <or>
+                    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbser"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbhaver"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vbmod"/></equal>
+                </or>
             </and>
           </test>
             <let><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></let>
@@ -812,7 +821,13 @@
             </when>
             <when>
                 <test>
-                    <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.cog"/></equal>               
+                    <or>
+                        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal>
+                        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.cog"/></equal>
+                        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.top"/></equal>                                                  
+                        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.ant"/></equal>
+                        <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np.al"/></equal>                                                      
+                    </or>
                 </test>
                 <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
             </when>
