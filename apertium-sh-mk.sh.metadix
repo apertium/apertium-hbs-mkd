@@ -26965,7 +26965,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>    
-        <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -27009,7 +27009,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>deveterima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>devetorima</l><r>devetoro<s n="num"/><s n="coll"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>    
-        <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>devetero</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>devetoro</l><r>devetoro<s n="num"/><s n="coll"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -29640,7 +29640,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--e lm="kad li"><i>kad<b/>li</i><par n="subordinating__cnj"/></e-->
 
 <!--Interjections--><!--Note: The list of interjections in the book by which I am working is very comprehensive-->
-<e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
+<!--<e lm="uh"><i>uh</i><par n="interjection__ij"/></e>
 <e lm="oh"><i>oh</i><par n="interjection__ij"/></e>
 <e lm="eh"><i>eh</i><par n="interjection__ij"/></e>
 <e lm="ih"><i>ih</i><par n="interjection__ij"/></e>
@@ -29671,23 +29671,23 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="marš"><i>marš</i><par n="interjection__ij"/></e>
 <e lm="ehe"><i>ehe</i><par n="interjection__ij"/></e>
 <e lm="curik"><i>curik</i><par n="interjection__ij"/></e>
-<e lm="hojs"><i>hojs</i><par n="interjection__ij"/></e>
+<e lm="hojs"><i>hojs</i><par n="interjection__ij"/></e>-->
 <!--Some onomatopeic sounds -->
-<e lm="pljus"><i>pljus</i><par n="interjection__ij"/></e>
+<!--<e lm="pljus"><i>pljus</i><par n="interjection__ij"/></e>
 <e lm="krc"><i>krc</i><par n="interjection__ij"/></e>
 <e lm="krah"><i>krah</i><par n="interjection__ij"/></e>
 <e lm="bum"><i>bum</i><par n="interjection__ij"/></e>
 <e lm="kvrc"><i>kvrc</i><par n="interjection__ij"/></e>
 <e lm="cin"><i>cin</i><par n="interjection__ij"/></e>
 <e lm="apciha"><i>apciha</i><par n="interjection__ij"/></e>
-<e lm="apćiha"><i>apćiha</i><par n="interjection__ij"/></e>
+<e lm="apćiha"><i>apćiha</i><par n="interjection__ij"/></e>-->
 <!--Animal sounds-->
-<e lm="mijau"><i>mijau</i><par n="interjection__ij"/></e>
+<!--<e lm="mijau"><i>mijau</i><par n="interjection__ij"/></e>
 <e lm="vau-vau"><i>vau-vau</i><par n="interjection__ij"/></e>
 <e lm="vauvau"><i>vauvau</i><par n="interjection__ij"/></e>
 <e lm="vau vau"><i>vau<b/>vau</i><par n="interjection__ij"/></e>
 <e lm="kukuriku"><i>kukuriku</i><par n="interjection__ij"/></e>
-<e lm="kokodak"><i>kokodak</i><par n="interjection__ij"/></e>
+<e lm="kokodak"><i>kokodak</i><par n="interjection__ij"/></e>-->
 
 
 <!--Pronouns -->

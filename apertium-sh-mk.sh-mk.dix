@@ -467,6 +467,18 @@
       <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="mfn"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="mfn"/></r></p></e>
     </pardef>
+
+    <pardef n="сто_number"><!--And others beside sto, but that's a TODO-->
+      <e><p><l><s n="mi"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l><s n="ma"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l><s n="f"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l><s n="nt"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="mi"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="ma"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>      
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+    </pardef>
  
     <pardef n="m_f_nt_mfn2">
       <e><p><l><s n="mi"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
@@ -508,6 +520,10 @@
   </pardefs>
 
    <section id="main" type="standard">     
+
+     <!-- SECTION: abbreviation -->
+	<e r="RL"><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
+	<e r="RL"><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
 
 
      <!-- SECTION: Particles -->
@@ -617,10 +633,10 @@
      <e><p><l>iza<s n="pr"/></l><r>зад<s n="pr"/></r></p></e>
      <e><p><l>između<s n="pr"/></l><r>помеѓу<s n="pr"/></r></p></e>
      <e><p><l>među<s n="pr"/></l><r>меѓу<s n="pr"/></r></p></e>     
-     <e><p><l>izvan<s n="pr"/></l><r>надвор<s n="pr"/></r></p></e>
+     <e><p><l>izvan<s n="pr"/></l><r>надвор<s n="adv"/></r></p></e>
      <e><p><l>mimo<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
-     <e><p><l>mjesto<s n="pr"/></l><r>наместо<s n="pr"/></r></p></e>
-     <e><p><l>umjesto<s n="pr"/></l><r>наместо<s n="pr"/></r></p></e>     
+     <e><p><l>mjesto<s n="pr"/></l><r>наместо<s n="adv"/></r></p></e>
+     <e><p><l>umjesto<s n="pr"/></l><r>наместо<s n="adv"/></r></p></e>     
      <e><p><l>nadomak<s n="pr"/></l><r>блиску<b/>до<s n="pr"/></r></p></e>
      <e><p><l>nad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
      <e><p><l>nakon<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
@@ -634,7 +650,7 @@
      <e><p><l>ponad<s n="pr"/></l><r>понад<s n="pr"/></r></p></e>
      <e><p><l>poput<s n="pr"/></l><r>како<s n="adv"/></r></p></e>
      <e><p><l>poslije<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
-     <e><p><l>pozadi<s n="pr"/></l><r>назад<s n="pr"/></r></p></e>
+     <e><p><l>pozadi<s n="pr"/></l><r>назад<s n="adv"/></r></p></e>
      <e><p><l>preko<s n="pr"/></l><r>преку<s n="pr"/></r></p></e>
      <e><p><l>put<s n="pr"/></l><r>кон<s n="pr"/></r></p></e>
      <e><p><l>radi<s n="pr"/></l><r>поради<s n="pr"/></r></p></e>               
@@ -662,7 +678,7 @@
      <e><p><l>kod<s n="pr"/></l><r>кај<s n="pr"/></r></p></e>
      <e><p><l>pored<s n="pr"/></l><r>крај<s n="pr"/></r></p></e>
      <e><p><l>iznad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
-     <e><p><l>prema<s n="pr"/></l><r>накај<s n="pr"/></r></p></e>
+     <e><p><l>prema<s n="pr"/></l><r>кон<s n="pr"/></r></p></e>
 
      <e><p><l>zbog<s n="pr"/></l><r>заради<s n="pr"/></r></p></e>
      <e><p><l>protiv<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
@@ -770,15 +786,47 @@
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
-     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
+     <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>
+     <e><p><l>četiri<s n="num"/></l><r>четири<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>               
      <e><p><l>pet<s n="num"/></l><r>пет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>     
      <e><p><l>šest<s n="num"/></l><r>шест<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>
-     <e><p><l>sto<s n="num"/></l><r>сто<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>          
+     <e><p><l>sedam<s n="num"/></l><r>седум<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>
+     <e><p><l>osam<s n="num"/></l><r>осум<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>
+     <e><p><l>devet<s n="num"/></l><r>девет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>               
+     <e><p><l>deset<s n="num"/></l><r>десет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>jedanaest<s n="num"/></l><r>единаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>dvanaest<s n="num"/></l><r>дванаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>trinaest<s n="num"/></l><r>тринаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>četrnaest<s n="num"/></l><r>четиринаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>petnaest<s n="num"/></l><r>петнаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                        
+     <e><p><l>šesnaest<s n="num"/></l><r>шеснаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                    
+     <e><p><l>sedamnaest<s n="num"/></l><r>седумнаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                        
+     <e><p><l>osamnaest<s n="num"/></l><r>осумнаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                        
+     <e><p><l>devetnaest<s n="num"/></l><r>деветнаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                        
+     <e><p><l>dvadeset<s n="num"/></l><r>дваесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                                  
 
-     <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
-     <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
-     <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
-     <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+     <e><p><l>sto<s n="num"/></l><r>сто<s n="num"/></r></p><par n="сто_number"/></e>          
+
+    <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>drugi<s n="num"/><s n="ord"/></l><r>втор<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
+    <e><p><l>treći<s n="num"/><s n="ord"/></l><r>трет<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>četvrti<s n="num"/><s n="ord"/></l><r>четврти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>peti<s n="num"/><s n="ord"/></l><r>петти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>šesti<s n="num"/><s n="ord"/></l><r>шести<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>sedmi<s n="num"/><s n="ord"/></l><r>седми<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>osmi<s n="num"/><s n="ord"/></l><r>осми<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>deveti<s n="num"/><s n="ord"/></l><r>девети<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>deseti<s n="num"/><s n="ord"/></l><r>десети<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>jedanaesti<s n="num"/><s n="ord"/></l><r>единаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>dvanaesti<s n="num"/><s n="ord"/></l><r>дванаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>     
+    <e><p><l>trinaesti<s n="num"/><s n="ord"/></l><r>тринаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>četrnaesti<s n="num"/><s n="ord"/></l><r>четиринаестти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>petnaesti<s n="num"/><s n="ord"/></l><r>петнаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>šesnaesti<s n="num"/><s n="ord"/></l><r>шеснаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>sedamnaesti<s n="num"/><s n="ord"/></l><r>седумнаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>osamnaesti<s n="num"/><s n="ord"/></l><r>осумнаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>devetnaesti<s n="num"/><s n="ord"/></l><r>деветнаесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
+    <e><p><l>dvadeseti<s n="num"/><s n="ord"/></l><r>дваесетти<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
           
      <e><p><l>devetoro<s n="num"/><s n="coll"/></l><r>девет<s n="num"/></r></p><par n="coll_mfn1"/></e>          
 
@@ -13428,10 +13476,8 @@
 	<e r="RL"><p><l>prehodati<s n="vblex"/></l><r>изоди<s n="vblex"/></r></p><par n="_perf_tv_to_perf_iv_"/></e>
 	<e r="RL"><p><l>učiti<s n="vblex"/></l><r>учи<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
 	<e r="RL"><p><l>skakati<s n="vblex"/></l><r>скока<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>	
-	<e r="RL"><p><l>veli<s n="vblex"/></l><r>вели<s n="vblex"/></r></p><par n="_perf_imperf_iv_tv_to_imperf_tv_"/></e><!--Note: defective verb, no infinitive, to speak-->
-	
-	<e r="RL"><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
-	<e r="RL"><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+	<e r="RL"><p><l>veli<s n="vblex"/></l><r>вели<s n="vblex"/></r></p><par n="_perf_imperf_iv_tv_to_imperf_tv_"/></e><!--Note: defective verb, no infinitive, to speak-->	
+
 
    </section>
 </dictionary>
