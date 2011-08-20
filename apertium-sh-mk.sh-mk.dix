@@ -646,7 +646,7 @@
 
      <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
-     <!--Possesive-->
+
      <e><p><l>moj<s n="prn"/></l><r>мој<s n="prn"/></r></p></e>
      <e><p><l>tvoj<s n="prn"/></l><r>твој<s n="prn"/></r></p></e>
      <e r="LR"><p><l>njezin<s n="prn"/></l><r>нејзин<s n="prn"/></r></p></e>
@@ -656,13 +656,30 @@
      <e><p><l>vaš<s n="prn"/></l><r>ваш<s n="prn"/></r></p></e>
      <e><p><l>njihov<s n="prn"/></l><r>нивен<s n="prn"/></r></p></e>
 
-     <!--Interrogative-->
      <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
+     <e><p><l>gdjekoji<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>     
+     <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>кој<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
      <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
+     <e><p><l>ništa<s n="prn"/></l><r>ништо<s n="prn"/></r></p></e>     
      <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>што<s n="prn"/><s n="ind"/></r></p><par n="all_cases_vs_none"/></e>     
      <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e><!--In the macedonian analysis the form corresponding to serbo-croatian possesive is analysed as genitive-->
+     <e><p><l>poneki<s n="prn"/></l><r>по<b/>некој<s n="prn"/></r></p></e>
+     <e><p><l>neki<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
+     <e><p><l>nekoji<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
+     <e><p><l>nikoji<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
+
+     <e><p><l>svaki<s n="prn"/></l><r>секој<s n="prn"/></r></p></e>
+     <e><p><l>svatko<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/></l><r>секој<s n="prn"/><s n="tot"/><s n="m"/><s n="sg"/></r></p></e>     
+     <e><p><l>svakoji<s n="prn"/></l><r>секој<s n="prn"/></r></p></e>     
+
+     <e><p><l>nešto<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>нешто<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>     
      
      <e><p><l>kakav<s n="prn"/></l><r>каков<s n="prn"/></r></p></e>
+     <e><p><l>nikakav<s n="prn"/></l><r>никаков<s n="prn"/></r></p></e>
+     <e><p><l>nekakav<s n="prn"/></l><r>некаков<s n="prn"/></r></p></e>     
+     <e><p><l>kojekakav<s n="prn"/></l><r>некаков<s n="prn"/></r></p></e>          
+
+     <e><p><l>svakakav<s n="prn"/></l><r>секаков<s n="prn"/></r></p></e>          
 
     <!--Note: there is some voodoo in the background of this, due to differences in analyses-->
      <e><p><l>čiji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
@@ -676,6 +693,8 @@
      <e><p><l>koliko<s n="prn"/></l><r>колку<s n="prn"/></r></p></e><!--TODO: This is ambiguous how much == koliko, how large (nt) == koliko-->
      <e><p><l>kako<s n="prn"/></l><r>како<s n="prn"/></r></p></e><!--TODO: chech if/when this means 'how' or 'like' -->
      <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
+
+
 
      <!--Relative-->
      <!--Covered already by the interrogative, though there are more to cover-->
@@ -699,7 +718,7 @@
      <e><p><l>svatko<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>svakoji<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>svaki<s n="prn"/><s n="rel"/></l><r>секој<s n="prn"/><s n="rel"/></r></p></e>
-     <e><p><l>svašta<s n="prn"/><s n="rel"/></l><r>сешто<s n="prn"/><s n="rel"/></r></p></e>
+     <e><p><l>svašta<s n="prn"/><s n="tot"/></l><r>сешто<s n="prn"/><s n="tot"/></r></p></e>
      <e><p><l>svakakav<s n="prn"/><s n="rel"/></l><r>секаков<s n="prn"/><s n="rel"/></r></p></e>
      <!--<e><p><l>svačiji<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
      <!--<e><p><l>svakoliki<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
@@ -1315,7 +1334,6 @@
     <e><p><l>jedinstvo<s n="n"/><s n="nt"/></l><r>јединство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ljubiteljstvo<s n="n"/><s n="nt"/></l><r>љубителство<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ljubopitnost<s n="n"/><s n="nt"/></l><r>љубопитство<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>nešto!<s n="n"/><s n="nt"/></l><r>нешто<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>scenario<s n="n"/><s n="mi"/></l><r>сценарио<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>scenarij<s n="n"/><s n="mi"/></l><r>сценарио<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gorivo<s n="n"/><s n="nt"/></l><r>гориво<s n="n"/><s n="nt"/></r></p></e>
@@ -7582,7 +7600,7 @@
 	<e><p><l>tamo<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>tuda<s n="adv"/></l><r>таму<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>ovdje-ondje<s n="adv"/></l><r>тек-тук<s n="adv"/></r></p></e>
-	<e r="LR"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>тек<b/>тук<s n="adv"/></r></p></e>
+	<e r="LR"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>тек-тук<s n="adv"/></r></p></e>
 	<e><p><l>ovdje-ondje<s n="adv"/></l><r>овде-онде<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>ovdje<b/>ondje<s n="adv"/></l><r>овде<b/>онде<s n="adv"/></r></p></e>
 	<e r="LR"><p><l>tad<s n="adv"/></l><r>тогаш<s n="adv"/></r></p></e>

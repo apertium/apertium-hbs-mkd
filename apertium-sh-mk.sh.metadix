@@ -4993,37 +4993,37 @@ after prepositions-->
 </pardef>
 <pardef n="indefinite__pronouns__prn"><!--TODO: the suffix -god, it's for now implemented as a particle-->
 	<e><i>ne</i><par n="ne/tko__ind__prn"/></e>
-	<e><i>i</i><par n="ne/tko__ind__prn"/></e>
+	<!--e><i>i</i><par n="ne/tko__ind__prn"/></e-->
 	<e><i>bilo<b/></i><par n="ne/tko__ind__prn"/></e>
 
     <e><i>ne</i><par n="ne/što__ind__prn"/></e>
-    <e><i>pone</i><par n="ne/što__ind__prn"/></e>
+    <!--e><i>pone</i><par n="ne/što__ind__prn"/></e-->
     <e><i>ne</i><par n="ne/što__ind__prn"/></e>
     <e><i>bilo<b/></i><par n="ne/što__ind__prn"/></e>
-    <e><i>i</i><par n="i/šta__ind__prn"/></e>
-    <e><i>što</i><par n="i/šta__ind__prn"/></e>
-    <e><i>koje</i><par n="i/šta__ind__prn"/></e>
+    <!--e><i>i</i><par n="i/šta__ind__prn"/></e-->
+    <!--e><i>što</i><par n="i/šta__ind__prn"/></e-->
+    <!--e><i>koje</i><par n="i/šta__ind__prn"/></e-->
 
 	<e><i>ne</i><par n="ne/koji__ind__prn"/></e>
-	<e><i>i</i><par n="ne/koji__ind__prn"/></e>
+	<!--e><i>i</i><par n="ne/koji__ind__prn"/></e-->
 	<!--e><i>bilo<b/></i><par n="ne/koji__ind__prn"/></e-->	
-	<e><i>po</i><par n="ne/koji__ind__prn"/></e>
+	<!--e><i>po</i><par n="ne/koji__ind__prn"/></e-->
 	<e><i>gd</i><par n="e_je__yat"/><par n="ne/koji__ind__prn"/></e>
 
     <e><i>ne</i><par n="ne/ki__ind__prn"/></e>
     <e><i>pone</i><par n="ne/ki__ind__prn"/></e>
 
 	<e><i>ne</i><par n="ne/kakav__ind__prn"/></e>
-	<e><i>i</i><par n="ne/kakav__ind__prn"/></e>
+	<!--e><i>i</i><par n="ne/kakav__ind__prn"/></e-->
 	<!--e><i>bilo<b/></i><par n="ne/kakav__ind__prn"/></e-->
 	<e><i>koje</i><par n="ne/kakav__ind__prn"/></e>
 <!--TODO : nekoliko, zajedno s ostalim upitnim-->
 
 	<e><i>ne</i><par n="ne/čiji__ind__prn"/></e>
-	<e><i>i</i><par n="ne/čiji__ind__prn"/></e>
-	<e><i>pone</i><par n="ne/čiji__ind__prn"/></e>
+	<!--e><i>i</i><par n="ne/čiji__ind__prn"/></e-->
+	<!--e><i>pone</i><par n="ne/čiji__ind__prn"/></e-->
 
-	<e><i>i</i><par n="ne/koliki__ind__prn"/></e>
+	<!--e><i>i</i><par n="ne/koliki__ind__prn"/></e-->
 
 </pardef>
 <pardef n="negative__pronouns__prn">
@@ -5032,7 +5032,7 @@ after prepositions-->
 	<e><i>ni</i><par n="ni/koji__neg__prn"/></e>
 	<e><i>ni</i><par n="ni/kakav__neg__prn"/></e>
 	<e><i>ni</i><par n="ni/čiji__neg__prn"/></e>
-	<e><i>ni</i><par n="ni/koliki__neg__prn"/></e>
+	<!--e><i>ni</i><par n="ni/koliki__neg__prn"/></e-->
 </pardef>
 <pardef n="totalising__pronouns__prn">
 	<e><i>sva</i><par n="sva/tko__tot__prn"/></e>
@@ -5040,8 +5040,8 @@ after prepositions-->
 	<e><i>sva</i><par n="sva/koji__tot__prn"/></e>
 	<e><i>sva</i><par n="sva/ki__tot__prn"/></e>
 	<e><i>sva</i><par n="sva/kakav__tot__prn"/></e>
-	<e><i>sva</i><par n="sva/čiji__tot__prn"/></e>
-	<e><i>sva</i><par n="sva/koliki__tot__prn"/></e>
+	<!--e><i>sva</i><par n="sva/čiji__tot__prn"/></e-->
+	<!--e><i>sva</i><par n="sva/koliki__tot__prn"/></e-->
 	<e><i/><par n="sav__tot__prn"/></e>
 	<e><i/><par n="sve__tot__prn"/></e>
 </pardef>
