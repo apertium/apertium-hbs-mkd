@@ -522,8 +522,8 @@
    <section id="main" type="standard">     
 
      <!-- SECTION: abbreviation -->
-	<e r="RL"><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
-	<e r="RL"><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
+	<e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
 
 
      <!-- SECTION: Particles -->
