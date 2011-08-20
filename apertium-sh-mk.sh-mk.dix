@@ -608,7 +608,47 @@
      <e><p><l>prije<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
      <e><p><l>pri<s n="pr"/></l><r>при<s n="pr"/></r></p></e>                                   
 
+     <e><p><l>blizu<s n="pr"/></l><r>близу<s n="adv"/></r></p></e>                                   
+     <e><p><l>duž<s n="pr"/></l><r>долж<s n="pr"/></r></p></e>                                   
+     <e><p><l>ispod<s n="pr"/></l><r>под<s n="pr"/></r></p></e>
+     <e><p><l>pod<s n="pr"/></l><r>под<s n="pr"/></r></p></e>
+     <e><p><l>ispred<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
+     <e><p><l>pred<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>                                                                                                
+     <e><p><l>iza<s n="pr"/></l><r>зад<s n="pr"/></r></p></e>
+     <e><p><l>između<s n="pr"/></l><r>помеѓу<s n="pr"/></r></p></e>
+     <e><p><l>među<s n="pr"/></l><r>меѓу<s n="pr"/></r></p></e>     
+     <e><p><l>izvan<s n="pr"/></l><r>надвор<s n="pr"/></r></p></e>
+     <e><p><l>mimo<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
+     <e><p><l>mjesto<s n="pr"/></l><r>наместо<s n="pr"/></r></p></e>
+     <e><p><l>umjesto<s n="pr"/></l><r>наместо<s n="pr"/></r></p></e>     
+     <e><p><l>nadomak<s n="pr"/></l><r>блиску<b/>до<s n="pr"/></r></p></e>
+     <e><p><l>nad<s n="pr"/></l><r>над<s n="pr"/></r></p></e>
+     <e><p><l>nakon<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+     <e><p><l>nasred<s n="pr"/></l><r>насред<s n="pr"/></r></p></e>     
+     <e><p><l>nasuprot<s n="pr"/></l><r>наспроти<s n="pr"/></r></p></e>
+     <e><p><l>vrh<s n="pr"/></l><r>врз<s n="pr"/></r></p></e>
+     <e><p><l>navrh<s n="pr"/></l><r>врз<s n="pr"/></r></p></e>
+     <e><p><l>niz<s n="pr"/></l><r>низ<s n="pr"/></r></p></e>
+     <e><p><l>oko<s n="pr"/></l><r>околу<s n="pr"/></r></p></e>
+     <e><p><l>pokraj<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
+     <e><p><l>ponad<s n="pr"/></l><r>понад<s n="pr"/></r></p></e>
+     <e><p><l>poput<s n="pr"/></l><r>како<s n="adv"/></r></p></e>
+     <e><p><l>poslije<s n="pr"/></l><r>по<s n="pr"/></r></p></e>
+     <e><p><l>pozadi<s n="pr"/></l><r>назад<s n="pr"/></r></p></e>
+     <e><p><l>preko<s n="pr"/></l><r>преку<s n="pr"/></r></p></e>
+     <e><p><l>put<s n="pr"/></l><r>кон<s n="pr"/></r></p></e>
+     <e><p><l>radi<s n="pr"/></l><r>поради<s n="pr"/></r></p></e>               
+     <e><p><l>sred<s n="pr"/></l><r>сред<s n="pr"/></r></p></e>
+     <e><p><l>unatoč<s n="pr"/></l><r>спротивно<s n="adv"/></r></p></e>                                   
+     <e><p><l>uoči<s n="pr"/></l><r>спроти<s n="pr"/></r></p></e>
+     <e><p><l>usprkos<s n="pr"/></l><r>и<b/>покрај<s n="pr"/></r></p></e>
+     <e><p><l>uzduž<s n="pr"/></l><r>надолж<s n="pr"/></r></p></e>
+     <e r="RL"><p><l>uzduž<s n="pr"/></l><r>вдолж<s n="pr"/></r></p></e>                                                                           
+     <e><p><l>van<s n="pr"/></l><r>вон<s n="pr"/></r></p></e>
+     <e><p><l>zarad<s n="pr"/></l><r>заради<s n="pr"/></r></p></e>
+     <e><p><l>zaradi<s n="pr"/></l><r>заради<s n="pr"/></r></p></e>               
 
+     
      <e><p><l>bez<s n="pr"/></l><r>без<s n="pr"/></r></p></e>
      <e><p><l>k<s n="pr"/></l><r>кај<s n="pr"/></r></p></e>
 
@@ -626,6 +666,7 @@
 
      <e><p><l>zbog<s n="pr"/></l><r>заради<s n="pr"/></r></p></e>
      <e><p><l>protiv<s n="pr"/></l><r>против<s n="pr"/></r></p></e>
+     <e><p><l>proti<s n="pr"/></l><r>против<s n="pr"/></r></p></e>     
 
      <!-- SECTION: Pronouns -->
 

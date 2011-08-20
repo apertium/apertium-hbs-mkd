@@ -29534,7 +29534,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!-- with Genitive only -->
 <e lm="bez"><i>bez</i><par n="preposition__pr"/></e>
 <e lm="blizu"><i>blizu</i><par n="preposition__pr"/></e>
-<e lm="čelo"><i>čelo</i><par n="preposition__pr"/></e>
+<!--e lm="čelo"><i>čelo</i><par n="preposition__pr"/></e-->
 <e lm="do"><i>do</i><par n="preposition__pr"/></e>
 <e lm="duž"><i>duž</i><par n="preposition__pr"/></e>
 <e lm="ispred"><i>ispred</i><par n="preposition__pr"/></e>
@@ -29548,10 +29548,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="kraj"><i>kraj</i><par n="preposition__pr"/></e>
 <e lm="mjesto"><i>m</i><par n="e_je__yat"/><i>sto</i><par n="preposition__pr"/></e>
 <e lm="nakon"><i>nakon</i><par n="preposition__pr"/></e>
-<e lm="nakraj"><i>nakraj</i><par n="preposition__pr"/></e>
+<!--e lm="nakraj"><i>nakraj</i><par n="preposition__pr"/></e-->
 <e lm="nasred"><i>nasred</i><par n="preposition__pr"/></e>
 <e lm="navrh"><i>navrh</i><par n="preposition__pr"/></e>
-<e lm="niže"><i>niže</i><par n="preposition__pr"/></e>
+<!--e lm="niže"><i>niže</i><par n="preposition__pr"/></e-->
 <e lm="od"><i>od</i><par n="preposition__pr"/></e>
 <e lm="oko"><i>oko</i><par n="preposition__pr"/></e>
 <e lm="osim"><i>osim</i><par n="preposition__pr"/></e>
@@ -29561,20 +29561,20 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pozadi"><i>pozadi</i><par n="preposition__pr"/></e>
 <e lm="pored"><i>pored</i><par n="preposition__pr"/></e>
 <e lm="poslije"><i>posl</i><par n="e_ije__yat"/><par n="preposition__pr"/></e>
-<e lm="poviše"><i>poviše</i><par n="preposition__pr"/></e>
+<!--e lm="poviše"><i>poviše</i><par n="preposition__pr"/></e-->
 <e lm="preko"><i>preko</i><par n="preposition__pr"/></e>
 <e lm="prije"><i>pr</i><par n="e_ije__yat"/><par n="preposition__pr"/></e>
 <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
 <e lm="protiv"><i>protiv</i><par n="preposition__pr"/></e>
 <e lm="radi"><i>radi</i><par n="preposition__pr"/></e>
 <e lm="sred"><i>sred</i><par n="preposition__pr"/></e>
-<e lm="ukraj"><i>ukraj</i><par n="preposition__pr"/></e>
+<!--e lm="ukraj"><i>ukraj</i><par n="preposition__pr"/></e-->
 <e lm="umjesto"><i>um</i><par n="e_je__yat"/><i>sto</i><par n="preposition__pr"/></e>
 <e lm="uoči"><i>uoči</i><par n="preposition__pr"/></e>
-<e lm="uvrh"><i>uvrh</i><par n="preposition__pr"/></e>
+<!--e lm="uvrh"><i>uvrh</i><par n="preposition__pr"/></e-->
 <e lm="uzduž"><i>uzduž</i><par n="preposition__pr"/></e>
 <e lm="van"><i>van</i><par n="preposition__pr"/></e>
-<e lm="više"><i>više</i><par n="preposition__pr"/></e>
+<!--e lm="više"><i>više</i><par n="preposition__pr"/></e-->
 <e lm="vrh"><i>vrh</i><par n="preposition__pr"/></e>
 <e lm="zarad"><i>zarad</i><par n="preposition__pr"/></e>
 <e lm="zaradi"><i>zaradi</i><par n="preposition__pr"/></e>
