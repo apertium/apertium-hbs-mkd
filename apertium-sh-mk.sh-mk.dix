@@ -370,7 +370,7 @@
     <e><p><l><s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="loc"/><s n="def"/></l><r><s n="adv"/></r></p></e>
     <e><p><l><s n="adj"/><s n="pst"/><s n="nt"/><s n="pl"/><s n="ins"/><s n="def"/></l><r><s n="adv"/></r></p></e>                    
     </pardef>
-    
+        
     <pardef n="all_cases_to_null">
     <e><p><l><s n="nom"/></l><r/></p></e>
     <e><p><l><s n="gen"/></l><r/></p></e>
@@ -379,7 +379,7 @@
     <e><p><l><s n="voc"/></l><r/></p></e>
     <e><p><l><s n="loc"/></l><r/></p></e>                
     <e><p><l><s n="ins"/></l><r/></p></e>
-    </pardef>
+    </pardef>    
     
     <pardef n="all_cases_singular">
     <e><p><l><s n="sg"/><s n="nom"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
@@ -399,17 +399,7 @@
     <e><p><l><s n="pl"/><s n="voc"/></l><r><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l><s n="pl"/><s n="loc"/></l><r><s n="pl"/><s n="nom"/></r></p></e>                
     <e><p><l><s n="pl"/><s n="ins"/></l><r><s n="pl"/><s n="nom"/></r></p></e>        
-    </pardef>
-    
-    <pardef n="all_cases_vs_none">
-    <e r="LR"><p><l><s n="nom"/></l><r/></p></e>
-    <e r="LR"><p><l><s n="gen"/></l><r/></p></e>
-    <e r="LR"><p><l><s n="dat"/></l><r/></p></e>
-    <e r="LR"><p><l><s n="acc"/></l><r/></p></e>
-    <e r="LR"><p><l><s n="voc"/></l><r/></p></e>
-    <e r="LR"><p><l><s n="loc"/></l><r/></p></e>                
-    <e r="LR"><p><l><s n="ins"/></l><r/></p></e>        
-    </pardef>
+    </pardef>    
     
     <pardef n="all_genders_to_mfn">
         <e r="LR"><p><l><s n="mi"/></l><r><s n="mfn"/></r></p></e>
@@ -417,7 +407,7 @@
         <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
         <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
         <e r="LR"><p><l><s n="m"/></l><r><s n="mfn"/></r></p></e>            
-    </pardef>
+    </pardef>   
     
     <pardef n="iv_tv_tv">
       <e r="LR"><p><l/><r/></p></e>
@@ -639,12 +629,13 @@
 
      <!-- SECTION: Pronouns -->
 
-     <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p><par n="all_cases_vs_none"/></e>
+     <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p><par n="all_cases_to_null"/></e>
      <e><p><l>sav<s n="prn"/></l><r>сиот<s n="prn"/></r></p></e>
      
-     <e><p><l>svoj<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>free<s n="prn"/><s n="ref"/><s n="pos"/></r></p></e>
 
-     <e><p><l>free<s n="prn"/></l><r>free<s n="prn"/></r></p></e>
+     <e><p><l>free<s n="prn"/><s n="pers"/></l><r>free<s n="prn"/><s n="pers"/></r></p></e>
+     <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>free<s n="prn"/><s n="ref"/><s n="pers"/></r></p></e>     
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
 
      <e><p><l>moj<s n="prn"/></l><r>мој<s n="prn"/></r></p></e>
@@ -656,12 +647,13 @@
      <e><p><l>vaš<s n="prn"/></l><r>ваш<s n="prn"/></r></p></e>
      <e><p><l>njihov<s n="prn"/></l><r>нивен<s n="prn"/></r></p></e>
 
-     <e><p><l>tko<s n="prn"/></l><r>кој<s n="prn"/></r></p></e>
+     <e><p><l>tko<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/></l><r>кој<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+     <e><p><l>tko<s n="prn"/><s n="rel"/><s n="mfn"/><s n="sp"/></l><r>кој<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
      <e><p><l>gdjekoji<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>     
      <e><p><l>bilo<b/>tko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>кој<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
      <e><p><l>što<s n="prn"/></l><r>што<s n="prn"/></r></p></e>
      <e><p><l>ništa<s n="prn"/></l><r>ништо<s n="prn"/></r></p></e>     
-     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>што<s n="prn"/><s n="ind"/></r></p><par n="all_cases_vs_none"/></e>     
+     <e><p><l>bilo<b/>što<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>било<b/>што<s n="prn"/><s n="ind"/></r></p><par n="all_cases_to_null"/></e>     
      <e><p><l>koji<s n="prn"/></l><r>кој<s n="prn"/></r></p></e><!--In the macedonian analysis the form corresponding to serbo-croatian possesive is analysed as genitive-->
      <e><p><l>poneki<s n="prn"/></l><r>по<b/>некој<s n="prn"/></r></p></e>
      <e><p><l>neki<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
@@ -702,14 +694,13 @@
      <!--<e><p><l>koliki<s n="prn"/><s n="rel"/></l><r>колкав<s n="prn"/><s n="rel"/></r></p></e>--><!--Note: no corresponding form in the mk monodix-->
 
      <!--Indefinite-->
-     <e><p><l>netko<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
-     <e><p><l>nekakav<s n="prn"/></l><r>некој<s n="prn"/></r></p></e>
+     <e><p><l>netko<s n="prn"/><s n="ind"/><s n="mfn"/><s n="sp"/></l><r>некој<s n="prn"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
      <!--not yet implemented <e><p><l>nekoliko<s n="prn"/><s n="rel"/></l><r>неколку<s n="prn"/><s n="rel"/></r></p></e>-->
      <!--this is a noun <e><p><l>nekolicina<s n="prn"/><s n="rel"/></l><r>неколицина<s n="prn"/><s n="rel"/></r></p></e>-->
      <!--Note: The pronouns on the sh side are done in more detail I think-->
 
      <!--Negative-->
-     <e><p><l>nitko<s n="prn"/></l><r>никој<s n="prn"/></r></p></e>
+     <e><p><l>nitko<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/></l><r>никој<s n="prn"/><s n="neg"/><s n="m"/><s n="sg"/></r></p></e>
      <!--<e><p><l>ниkoliki<s n="prn"/><s n="rel"/></l><r>некој<s n="prn"/><s n="rel"/></r></p></e>-->
      <e><p><l>nikakav<s n="prn"/><s n="rel"/></l><r>никаков<s n="prn"/><s n="rel"/></r></p></e>
      <e><p><l>ništa<s n="prn"/><s n="rel"/></l><r>ништо<s n="prn"/><s n="rel"/></r></p></e>

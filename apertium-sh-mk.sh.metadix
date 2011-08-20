@@ -31,9 +31,6 @@
 <sdef n="ma" c="Masculine animate"/>
 <sdef n="mi" c="Masculine inanimate"/>
 <sdef n="nt" c="Neuter"/>
-<sdef n="mf" c="Masculine/Feminine"/>
-<sdef n="mn" c="Masculine/Neuter"/>
-<sdef n="fn" c="Feminine/Neuter"/>
 <sdef n="mfn" c="Masculine/Feminine/Neuter"/>
 <!--Countable/Uncountable-->
 <sdef n="cnt" c="Countable"/>
@@ -454,14 +451,22 @@ after prepositions-->
  <!-- 3rd persons singular masculine and neuter-->
      <e><p><l>on</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
      <e><p><l>ono</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="gen"/></r></p></e>
-     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="dat"/></r></p></e>
-     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
-     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>njem</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e>
-     <e r="LR"><p><l>njim</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e>     
-     <e r="RL"><p><l><a></a>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to njim after a preposition-->
+     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>     
+     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e><p><l>njega</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>     
+     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+     <e><p><l>njemu</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>     
+     <e r="LR"><p><l>njem</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>njem</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>     
+     <e r="LR"><p><l>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>
+     <e r="LR"><p><l>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>     
+     <e r="LR"><p><l>njim</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e>     
+     <e r="LR"><p><l>njim</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>          
+     <e r="RL"><p><l><a></a>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to njim after a preposition-->
+     <e r="RL"><p><l><a></a>njime</l><r>free<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e><!--changes to njim after a preposition-->
 
      
  <!-- 3rd persons singular feminine-->    
@@ -517,11 +522,16 @@ after prepositions-->
      <e><p><l>te</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p2"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
 
     <!-- 3rd person singular masculine and neuter--> 
-     <e><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="gen"/></r></p></e>
-     <e><p><l>mu</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="dat"/></r></p></e>
-     <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
-     <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e>
-     <e r="RL"><p><l><a></a>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="mn"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->
+     <e><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+     <e><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>     
+     <e><p><l>mu</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+     <e><p><l>mu</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>     
+     <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
+     <e r="LR"><p><l>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e><!--these two variants-->
+     <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+     <e r="LR"><p><l>nj</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>     
+     <e r="RL"><p><l><a></a>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->
+     <e r="RL"><p><l><a></a>ga</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e><!--this will change to nj after certain prepositions-->
 
     <!-- 3rd person singular feminine--> 
      <e><p><l>je</l><r>clitic<s n="prn"/><s n="pers"/><s n="clt"/><s n="p3"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -910,31 +920,31 @@ after prepositions-->
 </pardef>
 <pardef n="sva/šta__tot__prn">
 	<group alt="sh">
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
-        <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
+        <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_BS">
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
-        <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
+        <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_HR">
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
 	<group alt="sh_SR">
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
-	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
-        <e><p><l>šta</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="nom"/></r></p></e>
+	    <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="voc"/></r></p></e>
+        <e><p><l>šta</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
 	</group>
-           <e><p><l>čega</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-    <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
-           <e><p><l>čemu</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
-     <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
-           <e><p><l>čime</l><r>šta<s n="prn"/><s n="neg"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>čega</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>čemu</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+           <e><p><l>čemu</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čem</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+     <e r="LR"><p><l>čim</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+           <e><p><l>čime</l><r>šta<s n="prn"/><s n="tot"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="koji__itg__prn"> <!--This is an adjectival pronoun, not the only one, but for simplicity's sake, I'll mark it here only as pronoun-->
 <!--Masculine-->
