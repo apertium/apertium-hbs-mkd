@@ -29478,7 +29478,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><re>[0-9]+.</re><p><l>-сeкунд</l><r>-сeкунд</r></p><par n="zdrav__pst__sfx"/></e>
 	<e r="LR"><re>[0-9]+.</re><p><l>-<b/>сeкунд</l><r>-сeкунд</r></p><par n="zdrav__pst__sfx"/></e>
 
-
     </pardef>
 
 </pardefs>

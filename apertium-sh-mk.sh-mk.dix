@@ -671,10 +671,8 @@
      <!-- SECTION: Pronouns -->
 
      <e><p><l>sve<s n="prn"/><s n="tot"/><s n="mfn"/><s n="pl"/></l><r>сѐ<s n="prn"/><s n="tot"/></r></p><par n="all_cases_to_null"/></e>
-     <e><p><l>sav<s n="prn"/></l><r>сиот<s n="prn"/></r></p></e>
-     
+     <e><p><l>sav<s n="prn"/></l><r>сиот<s n="prn"/></r></p></e>    
      <e><p><l>svoj<s n="prn"/><s n="ref"/><s n="pos"/></l><r>free<s n="prn"/><s n="ref"/><s n="pos"/></r></p></e>
-
      <e><p><l>free<s n="prn"/><s n="pers"/></l><r>free<s n="prn"/><s n="pers"/></r></p></e>
      <e><p><l>free<s n="prn"/><s n="ref"/><s n="pers"/></l><r>free<s n="prn"/><s n="ref"/><s n="pers"/></r></p></e>     
      <e><p><l>clitic<s n="prn"/></l><r>clitic<s n="prn"/></r></p></e>
