@@ -9283,6 +9283,12 @@
      <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
      <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
      <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
+    
+    
+    <e><re>[0-9]+.</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><b/>г.<s n="num"/></l><r><b/>г.<s n="num"/></r></p></e>
+    <e><re>[0-9][0-9]\\/[0-9][0-9]\\/[0-9][0-9][0-9][0-9]</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
      
      <!--The missing entries from the rest of the sections-->
      <e><p><l>srednjeeuropski<s n="adj"/></l><r>централноевропски<s n="adj"/></r></p></e>

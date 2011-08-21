@@ -29487,7 +29487,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--Numbers-->
 <!--end Numbers-->
 <!--Abbreviations-->
-<e lm="km"><p><l>km</l><r>km<s n="abbr"/></r></p></e>
+<!--e lm="km"><p><l>km</l><r>km<s n="abbr"/></r></p></e-->
 <e lm="km/h"><p><l>km/h</l><r>km/h<s n="abbr"/></r></p></e>
 <!--end Abbreviations-->
 <!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
