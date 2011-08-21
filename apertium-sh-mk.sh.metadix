@@ -29485,7 +29485,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <section id="main" type="standard">
 <!--Closed speech categories-->
 <!--Numbers-->
-<e lm="brojevi"><i/><par n="numeros"/></e>
 <!--end Numbers-->
 <!--Abbreviations-->
 <e lm="km"><p><l>km</l><r>km<s n="abbr"/></r></p></e>

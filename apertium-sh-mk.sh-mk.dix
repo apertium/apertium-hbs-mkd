@@ -621,7 +621,8 @@
      <e><p><l>iz<s n="pr"/></l><r>од<s n="pr"/></r></p></e>
      <e><p><l>od<s n="pr"/></l><r>од<s n="pr"/></r></p></e>
      <e><p><l>do<s n="pr"/></l><r>до<s n="pr"/></r></p></e>
-     <e><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
+     <e c="  0"><p><l>s<s n="pr"/></l><r>со<s n="pr"/></r></p></e>
+     <e slr="1"><p><l>s<s n="pr"/></l><r>од<s n="pr"/></r></p></e>     
      <e><p><l>uz<s n="pr"/></l><r>покрај<s n="pr"/></r></p></e>
      <e><p><l>prije<s n="pr"/></l><r>пред<s n="pr"/></r></p></e>
      <e><p><l>pri<s n="pr"/></l><r>при<s n="pr"/></r></p></e>                                   
@@ -9277,7 +9278,7 @@
 
      <e><p>    <l>-<s n="guio"/></l>    <r>-<s n="guio"/></r>  </p></e>
      <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-     <!--<e><re>[0-9]+([.,][0-9]+)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>-->
+     <e><re>[0-9]+([.,][0-9]+)</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
      <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
      <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
      <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
