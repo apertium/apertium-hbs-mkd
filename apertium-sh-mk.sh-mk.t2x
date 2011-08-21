@@ -20,12 +20,15 @@
     </def-cat>
     <def-cat n="SNDat">
       <cat-item tags="SN.*.*.dat"/>
+      <cat-item tags="SN.*.*.dat.*"/>      
     </def-cat>
     <def-cat n="SNIns">
       <cat-item tags="SN.*.*.ins"/>
+      <cat-item tags="SN.*.*.ins.*"/>
     </def-cat>
     <def-cat n="SNGen">
       <cat-item tags="SN.*.*.gen"/>
+      <cat-item tags="SN.*.*.gen.*"/>      
     </def-cat>
   </section-def-cats>
 
@@ -154,7 +157,8 @@
         </out>
       </action>
    </rule>
-    <rule comment="REGLA: SNGEN SNGEN">
+   
+   <rule comment="REGLA: SNGEN SNGEN">
       <pattern>
         <pattern-item n="SNGen"/>
         <pattern-item n="SNGen"/>        
@@ -220,6 +224,28 @@
         <pattern-item n="SNGen"/>        
       </pattern>
       <action>
+         <choose>
+            <when>
+                <test>
+<!--TODO: This doesn't work-->
+                        <equal>
+                        <clip pos="1" part="chcontent"/>
+                        <concat>
+                            <lit v="со"/>
+                            <lit-tag v="pr"/>
+                        </concat>
+                        </equal>
+                </test>
+                <let>
+                    <clip pos="1" part="chcontent"/>
+                    <concat>
+                        <lit v="{^од"/>
+                        <lit-tag v="pr"/>
+                        <lit v="$}"/>
+                    </concat>
+                </let>
+            </when>
+         </choose>                                    
          <out>
           <chunk>
             <clip pos="1" part="lem"/>

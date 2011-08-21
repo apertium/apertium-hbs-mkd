@@ -195,6 +195,10 @@ REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Lp OR Optative) ;
 REMOVE:DemonstrativeOrPersonal DemPron (0 DemPron-OR-PersPron) (NOT 1C Nomen) ;
     ## If it doesn't point to anything, this is rudimentary, and to be expanded
 
+SELECT:PrnNumberFromVerb $$NUMBER (0 Pron) ((1C* V + $$NUMBER BARRIER EOS) OR (-1C* V + $$NUMBER BARRIER BOS))
+    ## Ona je na posljednjoj godini...
+    ## Ona, međutim, priznaje...
+
 SELECT VBSer IF (-1* Lp );
 SELECT VBSer IF (1* Lp BARRIER V - Lp - PresParticiple );
     ## This is perhaps fallable
@@ -218,7 +222,7 @@ REMOVE:NotAdverbNotAdjective Adv (Not 0 A) (NOT -1 V) (Not 1 V) ;
 #   NP-agreement disambiguation                                               #
 # =========================================================================== #
 
-REMOVE $$NUMBER + Nom IF (1C* V-FIN BARRIER MARK) (NOT 1C* V-FIN + $$NUMBER BARRIER MARK) ;
+#REMOVE $$NUMBER + Nom IF (1C* V-FIN BARRIER MARK) (NOT 1C* V-FIN + $$NUMBER BARRIER MARK) ;
     ## Radovanović je ušla u povijest kao prva žena-pilot u Srbiji.
 
 SELECT:Nom+Perfect NP-HEAD + $$NUMBER + $$GENDER + Nom IF
@@ -259,7 +263,8 @@ SELECT:RelativeNagađanje Relative + $$NUMBER + $$GENDER (-1* Nomen + $$NUMBER +
 SELECT:GenderOfRelative $$GENDER (0 Relative) (-1* $$GENDER BARRIER BOS) ;
     
 # 'imati' is a tv, but if it's used in 3rd person in its existencial sence, it's target is genitive, or possibly nominative
-SELECT:imatiGen Gen (-1 ("imati"i) OR ("nemati"i)) (NOT -2 PersPron + (p3)) ;
+    ## But it's genitive only if there is no subject (acts like hay in spanish)
+SELECT:imatiGen Gen (-1 ("imati"i) OR ("nemati"i)) (NOT -2 PersPron + (p3)) (NOT -1* N + Nom);
 # SELECT:imatiNom Nom (-1 ("<imati>"i)) (NOT -2 PersPron + (p3)) ; # This is colloquial, but if it ever occurs, can be uncommented
 SELECT:imatiAcc Acc (-1 ("imati"i) OR ("nemati"i)) (-2 PersPron + (p3)) ;
 

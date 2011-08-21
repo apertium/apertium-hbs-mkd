@@ -29564,6 +29564,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="preko"><i>preko</i><par n="preposition__pr"/></e>
 <e lm="prije"><i>pr</i><par n="e_ije__yat"/><par n="preposition__pr"/></e>
 <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
+<e lm="prvi put"><i>prvi<b/>put</i><par n="danas__adv"/></e>
+<e lm="prvi puta"><i>prvi<b/>puta</i><par n="danas__adv"/></e>
 <e lm="protiv"><i>protiv</i><par n="preposition__pr"/></e>
 <e lm="radi"><i>radi</i><par n="preposition__pr"/></e>
 <e lm="sred"><i>sred</i><par n="preposition__pr"/></e>

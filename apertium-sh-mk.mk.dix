@@ -5226,7 +5226,6 @@
      <e>        <p>          <l>себеси</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
      <e r="LR"> <p>          <l>себе<b/>си</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
      <e r="LR"> <p>          <l>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
-     <e r="LR"> <p>          <l>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e><!--removable-->     
      <e>        <p>          <l>на<b/>себеси</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
      <e r="LR"> <p>          <l>на<b/>себе<b/>си</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
      <e r="LR"> <p>          <l>на<b/>себе</l>  <r>free<s n="prn"/><s n="ref"/><s n="pers"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
@@ -15568,6 +15567,7 @@
 	<e lm="дел Понте"><i>дел<b/>Понте</i><par n="Џонс__np"/></e>
 	<e lm="Бучковски"><i>Бучковски</i><par n="Костов__np"/></e>
 	<e lm="стави"><i>став</i><par n="пријав/и__vblex"/></e>
+	<e lm="првпат"><i>првпат</i><par n="денес__adv"/></e>
 	<e lm="за првпат"><i>за<b/>првпат</i><par n="денес__adv"/></e>
 	<e lm="за прв пат"><i>за<b/>прв<b/>пат</i><par n="денес__adv"/></e>
 	<e lm="зајакне"><i>зајакн</i><par n="опиш/е__vblex"/></e>

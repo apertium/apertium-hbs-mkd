@@ -545,6 +545,8 @@
  	 
  	 <e><p><l>dakle<s n="cnjcoo"/></l><r>така<s n="adv"/></r></p></e> <!--TODO: check-->
  	 
+ 	 
+ 	 
   	 <e><p><l>igdje<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>
    	 <e><p><l>ikad<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
    	 <e><p><l>ikada<s n="adv"/></l><r>некогаш<s n="adv"/></r></p></e>
@@ -7462,6 +7464,9 @@
 
      <!-- SECTION: Adverbs -->
 <!--Note and a TODO: There are some discrepancies in the analysis already in the mk monodix and the analysis in the sh monodix, if something's a pronoun, adverb etc. they should be resolved, or alternatively, if the words are the same or analogous (which is often the case), just discard the analysis and transfer words-->
+	<e><p><l>prvi<b/>put<s n="adv"/></l><r>првпат<s n="adv"/></r></p></e>
+	<e><p><l>prvi<b/>puta<s n="adv"/></l><r>првпат<s n="adv"/></r></p></e>	
+
 	<e><p><l>još<s n="adv"/></l><r>уште<s n="adv"/></r></p></e>
 	<e><p><l>blizu<s n="adv"/></l><r>близу<s n="adv"/></r></p></e> <!--Note: this can be an adverb or a preposition. It makes little difference in this language pair-->
 	<e><p><l>dolje<s n="adv"/></l><r>долу<s n="adv"/></r></p></e> <!--TODO: This needs to be added to the mk monodix, and the mk-bg monodix (phps mk-en monodix)-->
