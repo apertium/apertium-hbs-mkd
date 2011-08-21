@@ -111,7 +111,7 @@
   <def-cat n="ord">
      <cat-item tags="num.ord.*"/>
   </def-cat>
-  <def-cat n="adv"><!--NOTE: These aren't all the words that carry the adverb mark-->
+  <def-cat n="adv">
      <cat-item tags="adv"/>
      <cat-item tags="adv.*"/>
   </def-cat>
@@ -416,8 +416,12 @@
                              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="tolik"/></equal>
                              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="nikakav"/></equal>                             
                              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="svakakav"/></equal>                             
-                             <equal><clip pos="1" side="tl" part="lem"/><lit v="некаков"/></equal>
-                             <equal><clip pos="1" side="tl" part="lem"/><lit v="никаков"/></equal>
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="некаков"/></equal>
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="никаков"/></equal>
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>                             
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>                                                          
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
+                                       
                           </or>
                           <or>
                               <equal caseless="yes"><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>
@@ -455,19 +459,19 @@
                         </or>
                         <not>
                             <or>
-                                <equal><clip pos="1" side="tl" part="lem"/><lit v="free"/></equal>
-                                <equal><clip pos="1" side="tl" part="lem"/><lit v="clitic"/></equal>
+                                <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="free"/></equal>
+                                <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="clitic"/></equal>
                             </or>
                         </not>
                         <or><!--These are the pronouns which have a case marked in plural-->
                             <!--Note: this goes before (čiji,чиј), not to mess it up-->
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="кој"/></equal>
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="којшто"/></equal>                            
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="било кој"/></equal>                            
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="некој"/></equal>                            
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="по некој"/></equal>                            
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="никој"/></equal>                            
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="секој"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="кој"/></equal>
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="којшто"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="било кој"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="некој"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="по некој"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="никој"/></equal>                            
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="секој"/></equal>                            
                         </or>
                     </and>
                 </test>
@@ -493,9 +497,9 @@
                     <when>
                         <test>
                             <or>
-                              <equal><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
-                              <equal><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>                                                
-                              <equal><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>                      
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>                                                
+                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>                      
                             </or>
                         </test>
                         <let>
@@ -527,49 +531,49 @@
             <when><!--This should be a list of lemmas that don't have any definiteness at the end-->
                 <test>
                     <or>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="clitic"/></equal>                        
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="clitic"/></equal>                        
                         <and>
-                            <equal><clip pos="1" side="tl" part="lem"/><lit v="free"/></equal>
+                            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="free"/></equal>
                             <not>
                                 <equal><clip pos="1" side="tl" part="a_prn"/><lit v="prn.ref.pos"/></equal>
                             </not>
                         </and>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="бидејќи"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="било кој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="затоа што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="зашто"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="зошто"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="каде"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="каде што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="како"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="каков"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="како што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="кога"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="кога што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="кој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="којшто"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="колкав"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="колку"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="колку што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="некаков"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="по некој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="некој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="никаков"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="никој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="николку"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="ништо"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="олкав"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="онолкав"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="поради што"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="сѐ"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="секаков"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="секој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="сешто"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="толкав"/></equal>
-                        <equal><clip pos="1" side="tl" part="lem"/><lit v="што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="бидејќи"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="било кој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="затоа што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="зашто"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="зошто"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="каде"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="каде што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="како"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="каков"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="како што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="кога"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="кога што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="кој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="којшто"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="колкав"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="колку"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="колку што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="некаков"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="по некој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="некој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="никаков"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="никој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="николку"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ништо"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="олкав"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="онолкав"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="поради што"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сѐ"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="секаков"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="секој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сешто"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="толкав"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="што"/></equal>
                     </or>
                 </test>
                 <let>
@@ -587,7 +591,7 @@
             </when>
             <when><!--When it's nešto which is translated as a noun-->            
                 <test>
-                    <equal><clip pos="1" side="tl" part="lem"/><lit v="нешто"/></equal>
+                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="нешто"/></equal>
                 </test>
                 <let>
                    <clip pos="1" side="tl" part="whole"/>
@@ -829,7 +833,7 @@
             <when>
                 <test>
                 <and>
-                    <equal><clip pos="1" side="tl" part="lem"/><lit v="сака"/></equal>
+                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="сака"/></equal>
                     <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbmod"/></equal>
                     <equal caseless="yes"><clip pos="1" side="sl" part="tns"/><lit-tag v="clt.futI"/></equal>                    
                 </and>
@@ -871,9 +875,9 @@
                             </and>
                             <and>
                                 <or>
-                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="може"/></equal>
-                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="мора"/></equal>
-                                    <equal><clip pos="1" side="tl" part="lem"/><lit v="треба"/></equal>                                    
+                                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="може"/></equal>
+                                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="мора"/></equal>
+                                    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="треба"/></equal>                                    
                                 </or>
                                 <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbmod"/></equal>                            
                             </and>
@@ -1094,7 +1098,10 @@
     <choose><!--If the parameter is an adjective or an oridnal number in plural, it's gender is changed to <mfn> to match macedonian-->
         <when>
           <test>
+          <and>         
              <equal caseless="yes"><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+             <not><equal caseless="yes"><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal></not>
+         </and>
           </test>
           <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mfn"/></let>
         </when>
@@ -2416,15 +2423,15 @@
        <!-- TODO: turn this into a macro-->
        <choose>
         <when>
-            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal></test>
+            <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal></test>
             <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.def"/></let>
         </when> 
         <when>
-            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal></test>
+            <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal></test>
             <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.prx"/></let>
         </when>                    
         <when>
-            <test><equal><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal></test>
+            <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal></test>
             <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.dst"/></let>
         </when>                            
        </choose>
@@ -2485,6 +2492,25 @@
              <tag><clip pos="1" side="tl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
              <tag><clip pos="1" side="sl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+  <rule comment="regla: pr">
+     <pattern>
+       <pattern-item n="pr"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="prn" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PR"/></tag>
+             <tag><clip pos="1" side="tl" part="a_pr"/></tag>
            </tags>
            <lu>
              <clip pos="1" side="tl" part="whole"/>

@@ -11843,6 +11843,7 @@
 
 
 	 <e lm="чеша"><i>чеш</i><par n="вик/а__vblex"/></e>		
+	 <e lm="тера"><i>тер</i><par n="вик/а__vblex"/></e>			 <!--removable-->
 	 <e lm="копа"><i>коп</i><par n="вик/а__vblex"/></e>
 	 <e lm="скока"><i>скок</i><par n="вик/а__vblex"/></e>				<!--removable-->
 	 <e lm="плива"><i>плив</i><par n="патув/а__vblex"/></e>		
@@ -11862,7 +11863,7 @@
 	 <e lm="тече"><i>те</i><par n="те/че__vblex"/></e>		
 
 	 <e lm="чита"><i>чит</i><par n="вик/а__vblex"/></e>
-	 <e lm="маневрира"><i>маневрир</i><par n="вик/а__vblex"/></e><!--removable (to grep out in case it's wrong)-->				
+	 <e lm="маневрира"><i>маневрир</i><par n="вик/а__vblex"/></e><!--removable (to grep out in case it's wrong)-->
 	 <e lm="дише"><i>диш</i><par n="диш/е__vblex"/></e>		
 	 <e lm="вдишува"><i>вдишув</i><par n="вик/а__vblex"/></e>		
 	 <e lm="гребе"><i>греб</i><par n="бриш/е__vblex"/></e>		
@@ -12384,6 +12385,8 @@
 	<e lm="отпатува"><i>отпатув</i><par n="патув/а__vblex"/></e>
     <e lm="полета"><i>полет</i><par n="допатув/а__vblex"/></e> <!--removable-->
 	<e lm="допатува"><i>допатув</i><par n="допатув/а__vblex"/></e>
+	<e lm="истренира"><i>истренир</i><par n="побар/а__vblex"/></e>	<!--removable-->
+	<e lm="извежба"><i>извежб</i><par n="побар/а__vblex"/></e>	<!--removable-->	
 	<e lm="избега"><i>избег</i><par n="допатув/а__vblex"/></e>
 
 	<e lm="усвои"><i>усво</i><par n="усво/и__vblex"/></e>

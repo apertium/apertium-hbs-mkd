@@ -4,6 +4,7 @@
   <section-def-cats>
     <def-cat n="PR">
       <cat-item tags="PR"/>
+      <cat-item tags="PR.*"/>
     </def-cat>
     <def-cat n="NP">
       <cat-item tags="NP"/>
@@ -285,11 +286,11 @@
       </action>
     </rule>
     
-    <rule comment="REGLA: PR SNIns">
-    <!--If you have a preposition and a sintagm in instrumental, do absolutely nothing-->
+    <rule comment="REGLA: PR SN">
+    <!--If you have a preposition and a nominal sintagm (regardless of the case), do add a preposition-->
       <pattern>
         <pattern-item n="PR"/>
-        <pattern-item n="SNIns"/>        
+        <pattern-item n="SN"/>        
       </pattern>
       <action>
          <out>

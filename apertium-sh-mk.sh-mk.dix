@@ -9667,6 +9667,8 @@
         <e><p><l>imenovati<s n="vblex"/></l><r>наименува<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>ponestajati<s n="vblex"/></l><r>намалува<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>
         <e><p><l>istjerati<s n="vblex"/></l><r>напади<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>
+        <e><p><l>uvježbati<s n="vblex"/></l><r>извежба<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>        
+        <e><p><l>tjerati<s n="vblex"/></l><r>тера<s n="vblex"/></r></p></e>        
         <e r="RL"><p><l>uređivati<s n="vblex"/></l><r>наредува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>poručivati<s n="vblex"/></l><r>порачува<s n="vblex"/></r></p></e>
         <e><p><l>poručiti<s n="vblex"/></l><r>порача<s n="vblex"/></r></p><par n="_perf_tv_to_imperf_tv_"/></e>

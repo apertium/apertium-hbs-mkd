@@ -1,4 +1,4 @@
-Sat Aug 20 22:17:32 CEST 2011
+Sat Aug 20 22:51:43 CEST 2011
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 adj	2063083	 2063083	0	0	100
@@ -14,7 +14,7 @@ vbser	170	 170	0	0	100
 pr	77	 77	0	0	100
 cnjsub	30	 30	0	0	100
 cnjcoo	19	 19	0	0	100
-abbr	2	 0	2	0	0
+abbr	2	 2	0	0	100
 vaux	0	 0	0	0	100
 rel	0	 0	0	0	100
 preadv	0	 0	0	0	100
