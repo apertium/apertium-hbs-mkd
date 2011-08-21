@@ -523,7 +523,7 @@
 
      <!-- SECTION: abbreviation -->
 	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
-	<e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+	<!--e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e-->
 
 
      <!-- SECTION: Particles -->
@@ -9284,10 +9284,10 @@
      <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
      <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
     
-    
+
+    <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>     
     <e><re>[0-9]+.</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
     <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><b/>г.<s n="num"/></l><r><b/>г.<s n="num"/></r></p></e>
     <e><re>[0-9][0-9]\\/[0-9][0-9]\\/[0-9][0-9][0-9][0-9]</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
      
      <!--The missing entries from the rest of the sections-->
