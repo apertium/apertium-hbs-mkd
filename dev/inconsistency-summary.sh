@@ -7,7 +7,7 @@ echo -n "" > $OUT;
 
 date >> $OUT
 echo -e "===============================================" >> $OUT
-echo -e "POS\tTotal\tClean\tWith @\tWith #\tClean %" >> $OUT
+echo -e "POS\tTotal\tClean\t\tWith @\tWith #\tClean %" >> $OUT
 for i in $POS; do
 	if [ "$i" = "det" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<n>' -e '<np>' | grep -v REGEX | wc -l`; 
@@ -61,7 +61,7 @@ for i in $POS; do
 	fi
 
 	echo -e $TOTAL";"$i";"$CLEAN";"$AT";"$HASH";"$TOTPERCLEAN;
-done | sort -gr | awk -F';' '{print $2"\t"$1"\t"$3"\t"$4"\t"$5"\t"$6}' >> $OUT
+done | sort -gr | awk -F';' '{print $2"\t"$1"\t\t"$3"\t"$4"\t"$5"\t"$6}' >> $OUT
 
 echo -e "===============================================" >> $OUT
 cat $OUT;
