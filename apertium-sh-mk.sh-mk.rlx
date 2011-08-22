@@ -291,6 +291,7 @@ MAP:PartitiveAfterAdv ( @Adv← ) N + Gen (-1 Adv) ;
 SELECT:AdvB4Partitive Adv (1 (@Adv←) ) ;
 #MAP:NotPartitiveSoPossesive ( @PSS ) N + Gen (NOT 0 (@PAR) ) ;
 
+SELECT:BlatantPassive PassiveParticiple ((-1 VBSer) OR (1 VBSer))
 SELECT:AdjectiveORParticiple A (1* N BARRIER WORD - Modifier - Clt) ;
     
 SELECT Intransitive IF (1C Nom);

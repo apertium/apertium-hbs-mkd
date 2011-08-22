@@ -34,6 +34,7 @@
       <cat-item tags="SN.*.*.dat.*.*"/>      
     </def-cat>
     <def-cat n="SNIns">
+      <cat-item tags="SN.*.*.ins"/>
       <cat-item tags="SN.*.*.ins.*"/>
     </def-cat>
     <def-cat n="SIns">
@@ -335,10 +336,10 @@
       </action>
     </rule>
     
-    <rule comment="REGLA: SNIns">
+    <rule comment="REGLA: SIns">
     <!--Instrumental without a preposition needs a 'со' preposition -->
       <pattern>
-        <pattern-item n="SNIns"/>        
+        <pattern-item n="SIns"/>        
       </pattern>
       <action>
          <out>
