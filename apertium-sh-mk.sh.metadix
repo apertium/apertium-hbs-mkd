@@ -43071,6 +43071,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="vlakno"><i>vlak</i><par n="d/no__n"/></e>
 <e lm="pismo"><i>pis</i><par n="pis/mo__n"/></e>
 <e lm="put"><i>put</i><par n="put__n"/></e>
+<e lm="grad"><i>grad</i><par n="grad__n"/></e>
 <!--end Neuter nouns -->
 <!--end Nouns -->
 
@@ -43109,7 +43110,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="vuk"><i>vu</i><par n="vu/k__n"/></e>
 <e lm="plašt"><i>plašt</i><par n="plašt__n"/></e>
 <e lm="kum"><i>kum</i><par n="kum__n"/></e>
-<e lm="grad"><i>grad</i><par n="grad__n"/></e>
+
 <e lm="ruž"><i>ruž</i><par n="ruž__n"/></e>
 <e lm="trut"><i>trut</i><par n="trut__n"/></e>
 <e lm="bol"><i>bol</i><par n="bol__n"/></e>

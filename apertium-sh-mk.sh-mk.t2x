@@ -14,6 +14,9 @@
       <cat-item tags="V"/>
       <cat-item tags="V.*"/>
     </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV.*"/>
+    </def-cat>
     <def-cat n="SN">
       <cat-item tags=".*.SN"/>
       <cat-item tags="SN.*"/>
@@ -42,6 +45,14 @@
       <cat-item tags="SN.*.*.ins.*"/>
       <cat-item tags="SA.*.*.ins.*"/>      
       <cat-item tags="SV.*.*.ins.*"/>      
+    </def-cat>    
+    <def-cat n="SDef">
+      <cat-item tags="SN.*.*.*.def"/>
+      <cat-item tags="SN.*.*.*.def"/>
+      <cat-item tags="SA.*.*.*.def"/>      
+      <cat-item tags="SN.*.*.*.def.*"/>
+      <cat-item tags="SN.*.*.*.def.*"/>
+      <cat-item tags="SA.*.*.*.def.*"/>      
     </def-cat>    
     <def-cat n="SNGen">
       <cat-item tags="SN.*.*.gen"/>
@@ -356,6 +367,33 @@
       </action>
     </rule>
     
+    <rule comment="REGLA: SV SDef">
+    <!--Instrumental without a preposition needs a 'со' preposition -->
+      <pattern>
+        <pattern-item n="SV"/>        
+        <pattern-item n="SDef"/>        
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <lit v="{^clitic"/>
+            <lit-tag v="prn.pers.clt.p3"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="cas"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>    
     
 
   </section-rules>
