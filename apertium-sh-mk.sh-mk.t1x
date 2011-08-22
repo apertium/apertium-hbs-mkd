@@ -1160,21 +1160,7 @@
       <choose>
         <when>
           <test>
-          <and>
-            <or>
-              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dva"/></equal>
-              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="tri"/></equal>
-              <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="četiri"/></equal>
-            </or>
-            <or>
-              <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
-              <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
-              <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal>
-              <equal caseless="yes"><clip pos="1" side="sl" part="cas"/><lit-tag v="voc"/></equal>
-            </or>
             <equal caseless="yes"><clip pos="2" side="sl" part="cas"/><lit-tag v="gen"/></equal>
-            <equal caseless="yes"><clip pos="2" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
-          </and>
           </test>
             <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
             <let><clip pos="2" side="tl" part="cas"/><clip pos="1" side="tl" part="cas"/></let>
@@ -1227,6 +1213,187 @@
 
 <section-rules>
 <!--Rules for verbs-->
+<rule comment="regla: verb adv infinitive">
+<pattern><!-- Trebam dati -> треба да дадам -->
+      <pattern-item n="verb"/>
+      <pattern-item n="adv"/>      
+      <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="adv_adapter"><with-param pos="2"/></call-macro> 
+    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>   
+    <out>
+        <chunk name="verb_adv_inf" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <lit v="да"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b />
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_vrb"/>             
+             <clip pos="3" side="tl" part="asp"/>             
+             <clip pos="3" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="1" side="tl" part="prs"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: ftI prnrefpers infinitive">
+<pattern><!-- ću se gledati ==> ќе се гледам -->
+       <pattern-item n="vbfutI"/>
+       <pattern-item n="prn_ref_pers"/>       
+       <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="prn_adapter"><with-param pos="2"/></call-macro>    
+    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
+
+    <let><clip pos="3" side="tl" part="prs"/><clip pos="1" side="sl" part="prs"/></let>
+    <let><clip pos="3" side="tl" part="nbr"/><clip pos="1" side="sl" part="nbr"/></let>    
+    <out>
+        <chunk name="fti_prnrefpers_verbinf" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="2" side="tl" part="prs"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>           
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: ftI+infinitive">
+<pattern><!-- ću gledati ==> ќе гледам -->
+       <pattern-item n="vbfutI"/>
+       <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+    <let><clip pos="2" side="tl" part="prs"/><clip pos="1" side="sl" part="prs"/></let>
+    <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="sl" part="nbr"/></let>    
+    <out>
+        <chunk name="fti_verbinf" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="2" side="tl" part="prs"/></tag>
+             <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+<rule comment="regla: infinitive+ftI prnrefpers">
+<pattern><!-- okrenut ću se ==> ќе се обрнам -->
+       <pattern-item n="vbinf"/>
+       <pattern-item n="vbfutI"/>
+       <pattern-item n="prn_ref_pers"/>              
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
+    <call-macro n="prn_adapter"><with-param pos="3"/></call-macro>        
+    
+    <let><clip pos="1" side="tl" part="prs"/><clip pos="2" side="sl" part="prs"/></let>
+    <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>    
+    <out>
+        <chunk name="verb_cltfutI" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+
+<rule comment="regla: infinitive+ftI">
+<pattern><!-- gledat ću ==> ќе гледам -->
+       <pattern-item n="vbinf"/>
+       <pattern-item n="vbfutI"/>
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
+    
+    <let><clip pos="1" side="tl" part="prs"/><clip pos="2" side="sl" part="prs"/></let>
+    <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>    
+    <out>
+        <chunk name="verb_cltfutI" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <lit v="ќе"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
 <rule comment="regla: verb prn infinitive">
 <pattern><!-- morate ih tjerati -> мора да ги терате -->
       <pattern-item n="verb"/>
@@ -1275,44 +1442,99 @@
 </action>
 </rule>
 
-<rule comment="regla: verb adv infinitive">
-<pattern><!-- Trebam dati -> треба да дадам -->
-      <pattern-item n="verb"/>
-      <pattern-item n="adv"/>      
+<rule comment="regla: prnrefpers ne vbmod infinitive">
+<pattern><!-- se ne može usporediti -> не може да се спореди -->
+      <pattern-item n="prn_ref_pers"/>
+      <pattern-item n="ne_part"/>      
+      <pattern-item n="vbmod"/>
       <pattern-item n="vbinf"/>
 </pattern>
 <action>
-    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-    <call-macro n="adv_adapter"><with-param pos="2"/></call-macro> 
-    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>   
+    <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="4"/></call-macro>    
     <out>
-        <chunk name="verb_adv_inf" case="caseFirstWord">
+        <chunk name="prnref_ne_vbmod_inf" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="whole"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
              <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <b pos="1"/>           
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <lit-tag v="vbmod.pres.p3.sg"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
            <b pos="2"/>
            <lu>
              <lit v="да"/>
              <lit-tag v="part"/>
            </lu>
-           <b />
+           <b pos="3"/>           
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="a_vrb"/>             
+             <clip pos="4" side="tl" part="asp"/>             
+             <clip pos="4" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="3" side="tl" part="prs"/>
+             <clip pos="3" side="tl" part="nbr"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
+
+<rule comment="regla: prnrefpers vbmod infinitive">
+<pattern><!-- može usporediti -> може да се спореди -->
+      <pattern-item n="prn_ref_pers"/>
+      <pattern-item n="vbmod"/>
+      <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
+    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>    
+    <out>
+        <chunk name="prnref_vbmod_inf" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <lit-tag v="vbmod.pres.p3.sg"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="да"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="2"/>           
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b/>
            <lu>
              <clip pos="3" side="tl" part="lemh"/>
              <clip pos="3" side="tl" part="a_vrb"/>             
              <clip pos="3" side="tl" part="asp"/>             
              <clip pos="3" side="tl" part="trn"/>
              <lit-tag v="pres"/>
-             <clip pos="1" side="tl" part="prs"/>
-             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="2" side="tl" part="prs"/>
+             <clip pos="2" side="tl" part="nbr"/>
              <clip pos="3" side="tl" part="lemq"/>
            </lu>
         </chunk>
@@ -1320,69 +1542,8 @@
 </action>
 </rule>
 
-<rule comment="regla: ftI+infinitive">
-<pattern><!-- ću gledati ==> ќе гледам -->
-       <pattern-item n="vbfutI"/>
-       <pattern-item n="vbinf"/>
-</pattern>
-<action>
-    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
-    <let><clip pos="2" side="tl" part="prs"/><clip pos="1" side="tl" part="prs"/></let>
-    <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>    
-    <out>
-        <chunk name="fti_verbinf" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-             <tag><clip pos="2" side="tl" part="prs"/></tag>
-             <tag><clip pos="2" side="tl" part="nbr"/></tag>
-           </tags>
-           <lu>
-             <lit v="ќе"/>
-             <lit-tag v="part"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="whole"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
-<rule comment="regla: infinitive+ftI">
-<pattern><!-- gledat ću ==> ќе гледам -->
-       <pattern-item n="vbinf"/>
-       <pattern-item n="vbfutI"/>
-</pattern>
-<action>
-    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-    <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
-    
-    <let><clip pos="1" side="tl" part="prs"/><clip pos="2" side="sl" part="prs"/></let>
-    <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>    
-    <out>
-        <chunk name="verb_cltfutI" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-             <tag><clip pos="1" side="tl" part="prs"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-           </tags>
-           <lu>
-             <lit v="ќе"/>
-             <lit-tag v="part"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="1" side="tl" part="whole"/>
-           </lu>
-        </chunk>
-    </out>
-</action>
-</rule>
-
 <rule comment="regla: vbmod infinitive">
-<pattern><!-- Trebam dati -> треба да дадам -->
+<pattern><!-- može usporediti -> може да спореди -->
       <pattern-item n="vbmod"/>
       <pattern-item n="vbinf"/>
 </pattern>
@@ -1390,7 +1551,7 @@
     <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
     <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
     <out>
-        <chunk name="verbFut" case="caseFirstWord">
+        <chunk name="vbmod_inf" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -1985,55 +2146,6 @@
      </action>
   </rule>
 
-<!--  <rule comment="regla: vbser_past">
-     <pattern>
-       <pattern-item n="vbser_past"/>
-     </pattern>
-     <action>
-       <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-       <out>
-         <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="tns"/></tag>
-              <tag><clip pos="1" side="tl" part="prs"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-        <let><var n="persona"/><clip pos="1" side="tl" part="prs"/></let>
-        <let><var n="numero"/><clip pos="1" side="tl" part="nbr"/></let>
-     </action>
-  </rule>-->
-  
-  <!--rule comment="regla: vb_lp">
-     <pattern--> 
-       <!--pattern-item n="vb_lp"/>
-     </pattern>
-     <action>
-       <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
-       
-       <out>
-         <chunk name="verb" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="tns"/></tag>
-              <tag><clip pos="1" side="tl" part="prs"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-
-            </lu>
-          </chunk>
-        </out>
-     </action>
-  </rule-->
-
-
-
 <!-- Nominal sintagms -->
 <rule comment="regla: NP">
 <pattern>
@@ -2370,6 +2482,51 @@
      </action>
   </rule>
 
+  <rule comment="regla: num adj adj nom">
+     <pattern> 
+       <pattern-item n="num"/>
+       <pattern-item n="adj"/>
+       <pattern-item n="adj"/>       
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+       <call-macro n="num_phrase_agreement"><with-param pos="1"/><with-param pos="2"/></call-macro>
+       <call-macro n="num_phrase_agreement"><with-param pos="1"/><with-param pos="3"/></call-macro>
+       <call-macro n="num_phrase_agreement"><with-param pos="1"/><with-param pos="4"/></call-macro>                                                         
+       <call-macro n="num_adapter"><with-param pos="1"/></call-macro>
+       <call-macro n="adj_adapter"><with-param pos="2"/></call-macro> 
+       <call-macro n="adj_adapter"><with-param pos="3"/></call-macro>        
+       <call-macro n="noun_adapter"><with-param pos="4"/></call-macro>     
+       <let><clip pos="2" side="tl" part="def"/><lit-tag v="ind"/></let>
+       <let><clip pos="3" side="tl" part="def"/><lit-tag v="ind"/></let>       
+       <out>
+         <chunk name="num_adj_adj_n" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="4" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
   <rule comment="regla: num adj nom">
      <pattern> 
        <pattern-item n="num"/>
@@ -2548,9 +2705,10 @@
        <pattern-item n="nom"/>
      </pattern>
      <action>
+       <call-macro n="num_adapter"><with-param pos="1"/></call-macro>               
        <call-macro n="num_phrase_agreement"><with-param pos="1"/><with-param pos="2"/></call-macro>
        <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>               
-       <call-macro n="num_adapter"><with-param pos="1"/></call-macro>               
+
        <out>
          <chunk name="num_nom" case="caseFirstWord">
            <tags>
@@ -2607,7 +2765,7 @@
              <clip pos="1" side="tl" part="a_num"/>
              <clip pos="1" side="tl" part="gen"/>
              <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="nom.def"/>
+             <lit-tag v="nom.ind"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
             <b pos="1"/>
@@ -2722,8 +2880,9 @@
      <action>
        <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
        <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>                     
+       <let><clip pos="1" side="tl" part="def"/><lit-tag v="def"/></let>
        <out>
-         <chunk name="prn" case="caseFirstWord">
+         <chunk name="prn_n" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -2752,7 +2911,7 @@
         <call-macro n="noun_adapter"><with-param pos="1"/></call-macro>
         <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>              
                <out>
-         <chunk name="prn" case="caseFirstWord">
+         <chunk name="ngen_ngen" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -2774,6 +2933,36 @@
     </action>    
   </rule>
 
+  <rule comment="regla: prn adj">
+     <pattern>
+       <pattern-item n="prn"/>
+       <pattern-item n="adj"/>       
+     </pattern>
+     <action>
+       <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
+       <call-macro n="adj_adapter"><with-param pos="2"/></call-macro>                     
+       <let><clip pos="2" side="tl" part="def"/><lit-tag v="ind"/></let>
+       <out>
+         <chunk name="prn_adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SPrn"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="cas"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
   <rule comment="regla: prn">
      <pattern>
        <pattern-item n="prn"/>
@@ -2783,7 +2972,7 @@
        <out>
          <chunk name="prn" case="caseFirstWord">
            <tags>
-             <tag><lit-tag v="SN"/></tag>
+             <tag><lit-tag v="SPrn"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
              <tag><clip pos="1" side="tl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
@@ -2803,7 +2992,7 @@
      </pattern>
      <action>
        <out>
-         <chunk name="prn" case="caseFirstWord">
+         <chunk name="pr" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="PR"/></tag>
              <tag><clip pos="1" side="tl" part="a_pr"/></tag>

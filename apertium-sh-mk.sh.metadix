@@ -42530,7 +42530,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="neispunjavanje"><i>neispunjavanj</i><par n="polj/e__n"/></e>
 <e lm="neizdavanje"><i>neizdavanj</i><par n="polj/e__n"/></e>
 <e lm="nejedinstvo"><i>nejedinst</i><par n="društ/vo__n"/></e>
-<e lm="nemanje"><i>nemanj</i><par n="polj/e__n"/></e>
+<!--e lm="nemanje"><i>nemanj</i><par n="polj/e__n"/></e-->
 <e lm="neplaćanje"><i>neplaćanj</i><par n="polj/e__n"/></e>
 <e lm="nepoštovanje"><i>nepoštovanj</i><par n="polj/e__n"/></e>
 <e lm="neprijateljstvo"><i>neprijateljst</i><par n="društ/vo__n"/></e>

@@ -225,7 +225,7 @@
       </pattern>
       <action>
         <let>
-            <clip pos="1" part="def"/><lit-tag v="def"/>
+            <clip pos="1" part="def"/><lit-tag v="ind"/>
         </let>
         <out>
           <chunk>

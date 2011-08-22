@@ -195,7 +195,7 @@ REMOVE:jeIsNotAPronoun PRON-CLT (0 ("<je>"))  (1 Lp OR Optative) ;
 REMOVE:DemonstrativeOrPersonal DemPron (0 DemPron-OR-PersPron) (NOT 1C Nomen) ;
     ## If it doesn't point to anything, this is rudimentary, and to be expanded
 
-SELECT:PrnNumberFromVerb $$NUMBER (0 Pron) ((1C* V + $$NUMBER BARRIER EOS) OR (-1C* V + $$NUMBER BARRIER BOS))
+SELECT:PrnNumberFromVerb $$NUMBER (0C Pron) ((1C* V + $$NUMBER BARRIER EOS) OR (-1C* V + $$NUMBER BARRIER BOS))
     ## Ona je na posljednjoj godini...
     ## Ona, međutim, priznaje...
 
@@ -254,7 +254,7 @@ SELECT $$NUMBER + Nom IF (-1* NP-HEAD  + $$NUMBER BARRIER BOS) (-1 ("<kao>"i) ) 
 SELECT:DaVBLex Particle (0 ("<da>"i) ) (1 VBLex);
 SELECT:relŠto  ("što"i) + Relative + $$CASE (0 ("<što>"i) ) (-1 Totalising + $$CASE);
 
-SELECT:VŠtoV CS (0 CS) (-1 V) (1 V);
+SELECT:VŠtoV CS (0 CS) (-1* V) (1 V);
 SELECT:VŠtoVzli CS (0 CS) (-1* V-FIN BARRIER BOS) (1* V-FIN BARRIER EOS); # oPREZ
     ## This is terrible, but it'll work
 
