@@ -199,7 +199,9 @@
      <attr-item tags="vblex"/>
      <attr-item tags="vbhaver"/>
      <attr-item tags="vbser"/>     
-     <attr-item tags="vbser.clt"/>          
+     <attr-item tags="vbser.clt"/>     
+     <attr-item tags="vbser.clt.pres"/>          
+     <attr-item tags="vbser.clt.aor"/>               
      <attr-item tags="vbmod"/>          
   </def-attr>
 
@@ -307,7 +309,7 @@
 
 <section-def-vars>
   <def-var n="numero"/>
-  <def-var n="genere"/>
+  <def-var n="genNom"/><def-var n="genGen"/><def-var n="genDat"/><def-var n="genAcc"/>  <def-var n="genVoc"/>  <def-var n="genLoc"/>   <def-var n="genIns"/>
   <def-var n="persona"/>  
   <def-var n="conditional"/>    
 </section-def-vars>
@@ -801,8 +803,8 @@
                         <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser.clt.aor"/></equal>
                     </or> 
                 </test>
-                <let><var n="numero"/><clip pos="1" side="tl" part="nbr"/></let>
-                <let><var n="persona"/><clip pos="1" side="tl" part="prs"/></let>                   
+                <let><var n="numero"/><clip pos="1" side="sl" part="nbr"/></let>
+                <let><var n="persona"/><clip pos="1" side="sl" part="prs"/></let>                   
                 <choose>
                     <when>
                         <test>
@@ -1027,6 +1029,7 @@
     <def-macro n="noun_adapter" npar="1">
         <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
         <call-macro n="case_normalise"><with-param pos="1"/></call-macro>
+        <let><var n="genNom"/><clip pos="1" side="tl" part="gen"/></let><!--record gender for adjectives that are astray-->
         <choose>
             <when><!--Proper nouns are exclusively singular in the mk monodix, while in sh this is not the case-->
                 <test>
@@ -2078,6 +2081,7 @@
 </pattern>
 <action>
     <call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+    <let><clip pos="1" side="tl" part="gen"/><var n="genNom"/></let>
     <out>
         <chunk name="adj" case="caseFirstWord">
            <tags>
