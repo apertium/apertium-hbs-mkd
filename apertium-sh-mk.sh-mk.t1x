@@ -100,22 +100,8 @@
      <cat-item tags="prn.rel.*"/>
   </def-cat>
   <def-cat n="num">  
-     <cat-item tags="num"/>
-     <cat-item tags="num.coll.*"/>
-     <cat-item tags="num.nt.*"/>
-     <cat-item tags="num.mi.*"/>     
-     <cat-item tags="num.ma.*"/>
-     <cat-item tags="num.f.*"/>
-  </def-cat>
-  <def-cat n="just_num">  
-     <cat-item tags="num"/>
-  </def-cat>
-  <def-cat n="num_detailed">  
-     <cat-item tags="num.coll.*"/>
-     <cat-item tags="num.nt.*"/>
-     <cat-item tags="num.mi.*"/>     
-     <cat-item tags="num.ma.*"/>
-     <cat-item tags="num.f.*"/>
+     <cat-item tags="num"/>     
+     <cat-item tags="num.*"/>     
   </def-cat>
   <def-cat n="ord">
      <cat-item tags="num.ord.*"/>
@@ -338,6 +324,33 @@
         <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
         <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
         <call-macro n="case_normalise"><with-param pos="1"/></call-macro>        
+        <choose>
+            <when><!--When it's not an ordinal number-->
+                <test>
+                    <and>
+                        <not><equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.ord"/></equal></not>
+                        <not>
+                            <equal>
+                                <clip pos="1" side="tl" part="whole"/>
+                                <concat>
+                                    <clip pos="1" side="tl" part="lemh"/>
+                                    <lit-tag v="num"/>
+                                    <clip pos="1" side="tl" part="lemq"/>
+                                </concat>
+                            </equal>
+                        </not>
+                    </and>
+                </test>
+                <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom.ind"/></let>
+            </when>
+            <when><!--When it is an ordinal number-->
+                <test>
+                    <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.ord"/></equal>                    
+                </test>
+                <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom.ind"/></let>                    
+            </when>
+        </choose>
+        
 </def-macro>
 
 <def-macro n="case_normalise" npar="1">
@@ -883,7 +896,7 @@
                 </let>
             </when>       
             <when><!--Note and a big TODO: macedonian doesn't have pprs for perfective verbs, so for now normalising to passive participle-->
-                <test><!--Possible solution if grammatical имајќи + passive participle neuter == "having entered" etc.-->
+                <test><!--Possible solution if grammatical имајќи + passive participle neuter =="having entered" etc.-->
                     <and>
                         <or>
                             <equal caseless="yes"><clip pos="1" side="tl" part="a_vrb"/><lit-tag v="vblex"/></equal>
@@ -1196,7 +1209,7 @@
     </def-macro>
 
     <def-macro n="to_mfn" npar="1">
-    <choose><!--If the parameter is an adjective or an oridnal number in plural, it's gender is changed to <mfn> to match macedonian-->
+    <choose><!--If the parameter is nota <n> it's gender is changed to <mfn> to match macedonian-->
         <when>
           <test>
           <and>         
@@ -1318,7 +1331,7 @@
     <let><clip pos="2" side="tl" part="prs"/><clip pos="1" side="tl" part="prs"/></let>
     <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>    
     <out>
-        <chunk name="verb" case="caseFirstWord">
+        <chunk name="fti_verbinf" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1424,7 +1437,7 @@
         <let><clip pos="3" side="tl" part="prs"/><clip pos="2" side="sl" part="prs"/></let>
         <let><clip pos="3" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>        
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="neftI_inf" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1464,7 +1477,7 @@
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>                
         <call-macro n="verb_adapter"><with-param pos="4"/></call-macro>            
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="nevbserpast_lp_inf" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1519,7 +1532,7 @@
         <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>            
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="vbser_lp_inf" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -1566,7 +1579,7 @@
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>    
         <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="vbser_lp" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -1599,7 +1612,7 @@
         <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>        
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="vbser_n_lp" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -1620,8 +1633,8 @@
                   <clip pos="3" side="tl" part="a_vrb"/>
                   <clip pos="3" side="tl" part="asp"/>
                   <clip pos="3" side="tl" part="trn"/>
-                  <clip pos="3" side="tl" part="tns"/>
-                  <clip pos="1" side="tl" part="prs"/>
+                  <lit-tag v="aor"/>
+                  <clip pos="1" side="tl" part="prs"/>                  
                   <clip pos="1" side="tl" part="nbr"/>
                   <clip pos="3" side="tl" part="lemq"/>
                 </lu>
@@ -1639,7 +1652,7 @@
     <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
     <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="lp_vbser" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1670,7 +1683,7 @@
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
         <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>        
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="vbserlp_vbser" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1702,7 +1715,7 @@
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
         <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="nevbser_lp" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
@@ -1737,7 +1750,7 @@
     <action>
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
         <out>
-            <chunk name ="verb" case="caseFirstWord">
+            <chunk name="verb" case="caseFirstWord">
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
@@ -1766,7 +1779,7 @@
      <action>
      <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
        <out>
-         <chunk name="verb" case="caseFirstWord">
+         <chunk name="verbpp" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="tns"/></tag>
@@ -1937,7 +1950,7 @@
        <let><var n="persona"/><clip pos="2" side="tl" part="prs"/></let>     
        
        <out>
-         <chunk name="verb" case="caseFirstWord">
+         <chunk name="vbserlp_vbserpast" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="tns"/></tag>
@@ -2220,7 +2233,12 @@
              <tag><clip pos="2" side="sl" part="cas"/></tag>
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="whole"/>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+             <clip pos="1" side="tl" part="gen"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <lit-tag v="nom.def"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
            <lu>
@@ -2228,7 +2246,7 @@
              <clip pos="2" side="tl" part="a_nom"/>
              <clip pos="2" side="tl" part="gen"/>
              <clip pos="2" side="tl" part="nbr"/>
-             <lit-tag v="nom.def"/>
+             <lit-tag v="nom.ind"/>
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
            <b pos="2"/>
@@ -2472,9 +2490,10 @@
        <pattern-item n="num"/>       
      </pattern>
      <action>
-        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
+        <call-macro n="num_adapter"><with-param pos="1"/></call-macro>        
+        <call-macro n="num_adapter"><with-param pos="2"/></call-macro>                
         <out>
-         <chunk name="num" case="caseFirstWord">
+         <chunk name="ord_num" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SN"/></tag>
              <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -2501,35 +2520,9 @@
      </action>
   </rule>
 
-  <rule comment="regla: ord">
-     <pattern>
-       <pattern-item n="ord"/>
-     </pattern>
-     <action>
-        <call-macro n="to_mfn"><with-param pos="1"/></call-macro>
-        <out>
-         <chunk name="num" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_num"/>
-             <clip pos="1" side="tl" part="gen" />
-             <clip pos="1" side="tl" part="nbr" />
-             <lit-tag v="nom.ind"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
-
   <rule comment="regla: num">
      <pattern>
-       <pattern-item n="num_detailed"/>
+       <pattern-item n="num"/>
      </pattern>
      <action>
         <call-macro n="num_adapter"><with-param pos="1"/></call-macro>
@@ -2542,37 +2535,12 @@
              <tag><clip pos="1" side="sl" part="cas"/></tag>
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_num"/>
-             <clip pos="1" side="tl" part="gen" />
-             <clip pos="1" side="tl" part="nbr" />
-             <lit-tag v="nom.ind"/>
+             <clip pos="1" side="tl" part="whole"/>
            </lu>
          </chunk>
        </out>
      </action>
   </rule>  
-
-  <rule comment="regla: num">
-     <pattern>
-       <pattern-item n="just_num"/>
-     </pattern>
-     <action>
-        <call-macro n="num_adapter"><with-param pos="1"/></call-macro>
-        <out>
-         <chunk name="num" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SN"/></tag>
-             <tag><clip pos="1" side="tl" part="a_num"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="a_num"/>
-           </lu>
-         </chunk>
-       </out>
-     </action>
-  </rule>
 
   <rule comment="regla: num nom">
      <pattern>
@@ -2582,7 +2550,7 @@
      <action>
        <call-macro n="num_phrase_agreement"><with-param pos="1"/><with-param pos="2"/></call-macro>
        <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>               
-       <call-macro n="num_adapter"><with-param pos="2"/></call-macro>               
+       <call-macro n="num_adapter"><with-param pos="1"/></call-macro>               
        <out>
          <chunk name="num_nom" case="caseFirstWord">
            <tags>
@@ -2592,12 +2560,7 @@
              <tag><clip pos="1" side="sl" part="cas"/></tag>
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_num"/>
-             <clip pos="1" side="tl" part="gen"/>
-             <clip pos="1" side="tl" part="nbr"/>
-             <lit-tag v="nom.ind"/>
-             <clip pos="1" side="tl" part="lemq"/>
+             <clip pos="1" side="tl" part="whole"/>
            </lu>
            <b pos="1"/>
            <lu>
@@ -2624,9 +2587,9 @@
        <call-macro n="num_phrase_agreement"><with-param pos="2"/><with-param pos="1"/></call-macro>
        <call-macro n="num_phrase_agreement"><with-param pos="2"/><with-param pos="3"/></call-macro>
        <call-macro n="num_phrase_agreement"><with-param pos="2"/><with-param pos="4"/></call-macro>                     
-       <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>    
+
+       <call-macro n="num_adapter"><with-param pos="1"/></call-macro>
        <call-macro n="num_adapter"><with-param pos="2"/></call-macro>
-       <call-macro n="to_mfn"><with-param pos="1"/></call-macro>    
 
        <call-macro n="adj_adapter"><with-param pos="3"/></call-macro>
        <call-macro n="noun_adapter"><with-param pos="4"/></call-macro>       
@@ -2687,28 +2650,28 @@
        
        <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>    
        <call-macro n="adj_adapter"><with-param pos="3"/></call-macro>       
-       <call-macro n="num_adapter"><with-param pos="3"/></call-macro>              
+       <call-macro n="num_adapter"><with-param pos="2"/></call-macro>              
        <call-macro n="noun_adapter"><with-param pos="4"/></call-macro>    
 
        <let><clip pos="3" side="tl" part="def"/><lit-tag v="ind"/></let>
        <let><clip pos="4" side="tl" part="def"/><lit-tag v="ind"/></let>       
 
-       <!-- TODO: turn this into a macro-->
+       <!-- maybeTODO: turn this into a macro-->
        <choose>
         <when>
             <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal></test>
-            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.def"/></let>
+            <let><clip pos="2" side="tl" part="def"/><lit-tag v="def"/></let>
         </when> 
         <when>
             <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal></test>
-            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.prx"/></let>
+            <let><clip pos="2" side="tl" part="def"/><lit-tag v="prx"/></let>
         </when>                    
         <when>
             <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal></test>
-            <let><clip pos="2" side="tl" part="cas"/><lit-tag v="nom.dst"/></let>
+            <let><clip pos="2" side="tl" part="def"/><lit-tag v="dst"/></let>
         </when>                            
        </choose>
-       <!-- end TODO -->
+       <!-- end maybeTODO -->
        
        <out>
          <chunk name="numdef_a_n" case="caseFirstWord">
