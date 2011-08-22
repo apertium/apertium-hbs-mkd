@@ -18,18 +18,40 @@
       <cat-item tags=".*.SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="S">
+      <cat-item tags="SN.*"/>      
+      <cat-item tags="SV.*"/>
+      <cat-item tags="SA.*"/>      
+    </def-cat>
+    <def-cat n="SDat">
+      <cat-item tags="SN.*.*.dat"/>
+      <cat-item tags="SN.*.*.dat.*"/>
+      <cat-item tags="SN.*.*.dat.*.*"/>      
+    </def-cat>
     <def-cat n="SNDat">
       <cat-item tags="SN.*.*.dat"/>
-      <cat-item tags="SN.*.*.dat.*"/>      
+      <cat-item tags="SN.*.*.dat.*"/>
+      <cat-item tags="SN.*.*.dat.*.*"/>      
     </def-cat>
     <def-cat n="SNIns">
-      <cat-item tags="SN.*.*.ins"/>
       <cat-item tags="SN.*.*.ins.*"/>
     </def-cat>
+    <def-cat n="SIns">
+      <cat-item tags="SN.*.*.ins"/>
+      <cat-item tags="SN.*.*.ins.*"/>
+      <cat-item tags="SA.*.*.ins.*"/>      
+      <cat-item tags="SV.*.*.ins.*"/>      
+    </def-cat>    
     <def-cat n="SNGen">
       <cat-item tags="SN.*.*.gen"/>
-      <cat-item tags="SN.*.*.gen.*"/>      
+      <cat-item tags="SN.*.*.gen.*"/>
     </def-cat>
+    <def-cat n="SGen">
+      <cat-item tags="SN.*.*.gen"/>
+      <cat-item tags="SN.*.*.gen.*"/>
+      <cat-item tags="SV.*.*.gen.*"/>
+    </def-cat>
+    
   </section-def-cats>
 
 <section-def-attrs>
@@ -77,8 +99,8 @@
      <attr-item tags="prn"/>
      <attr-item tags="prn.itg"/>
      <attr-item tags="prn.dem"/>
-     <attr-item tags="prn.pers"/>
      <attr-item tags="prn.pers.clt"/>
+     <attr-item tags="prn.pers"/>
      <attr-item tags="prn.tot"/>
      <attr-item tags="prn.ref.pers"/>
      <attr-item tags="prn.rel"/>
@@ -133,6 +155,11 @@
      <attr-item tags="ins"/>
      <attr-item tags="voc"/>
   </def-attr>
+  
+    <def-attr n="def">
+        <attr-item tags="ind"/>
+        <attr-item tags="def"/>       
+    </def-attr>
 
 </section-def-attrs>
 
@@ -157,24 +184,26 @@
         </out>
       </action>
    </rule>
-   
-   <rule comment="REGLA: SNGEN SNGEN">
-      <pattern>
-        <pattern-item n="SNGen"/>
+
+    <rule comment="REGLA: Pr SN SNGEN">
+      <pattern><!--TODO: U sastavu Vojske Srbije => Во составот на Српската војска-->
+        <pattern-item n="PR"/>
+        <pattern-item n="SN"/>        
         <pattern-item n="SNGen"/>        
       </pattern>
       <action>
         <let>
-            <clip pos="2" part="cas"/>
-            <lit-tag v="nom"/>
+            <clip pos="2" part="def"/><lit-tag v="def"/>
         </let>
         <out>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
             <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+            <b pos="2"/>            
           <chunk>
             <lit v="{^на"/>
             <lit-tag v="pr"/>
@@ -182,23 +211,20 @@
           </chunk>
           <b/>
           <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>            
+            <clip pos="3" part="whole"/>
           </chunk>
         </out>
       </action>
     </rule>
-
+   
     <rule comment="REGLA: SN SNGEN">
-      <pattern>
+      <pattern><!--TODO: This is when the noun phrase is possesive; expand for partitive-->
         <pattern-item n="SN"/>
         <pattern-item n="SNGen"/>        
       </pattern>
       <action>
         <let>
-            <clip pos="2" part="cas"/>
-            <lit-tag v="nom"/>
+            <clip pos="1" part="def"/><lit-tag v="def"/>
         </let>
         <out>
           <chunk>
@@ -224,28 +250,6 @@
         <pattern-item n="SNGen"/>        
       </pattern>
       <action>
-         <choose>
-            <when>
-                <test>
-<!--TODO: This doesn't work-->
-                        <equal>
-                        <clip pos="1" part="chcontent"/>
-                        <concat>
-                            <lit v="со"/>
-                            <lit-tag v="pr"/>
-                        </concat>
-                        </equal>
-                </test>
-                <let>
-                    <clip pos="1" part="chcontent"/>
-                    <concat>
-                        <lit v="{^од"/>
-                        <lit-tag v="pr"/>
-                        <lit v="$}"/>
-                    </concat>
-                </let>
-            </when>
-         </choose>                                    
          <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -267,10 +271,6 @@
         <pattern-item n="SNGen"/>        
       </pattern>
       <action>
-        <let>
-            <clip pos="1" part="cas"/>
-            <lit-tag v="nom"/>
-        </let>
         <out>
           <chunk>
             <lit v="{^на"/>
@@ -349,9 +349,7 @@
           </chunk>
           <b/>
           <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+            <clip pos="1" part="whole"/>
           </chunk>
          </out>
       </action>

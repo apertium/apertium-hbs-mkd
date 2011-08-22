@@ -32087,8 +32087,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="staviti"><i>stav</i><par n="perf_tv_isplov/iti__vblex"/></e>
 <e lm="zabaviti"><i>zabav</i><par n="perf_tv_isplov/iti__vblex"/></e>
 <e lm="zabaviti"><i>zabav</i><par n="perf_ref_isplov/iti__vblex"/></e>
-<e lm="praviti"><i>prav</i><par n="perf_tv_isplov/iti__vblex"/></e>
-<e lm="praviti"><i>prav</i><par n="perf_ref_isplov/iti__vblex"/></e>
+<e lm="praviti"><i>prav</i><par n="imperf_tv_plov/iti__vblex"/></e>
+<e lm="praviti"><i>prav</i><par n="imperf_ref_plov/iti__vblex"/></e>
 <e lm="ploviti"><i>plov</i><par n="imperf_iv_plov/iti__vblex"/></e>
 <e lm="loviti"><i>lov</i><par n="imperf_tv_plov/iti__vblex"/></e>
 <e lm="loviti"><i>lov</i><par n="imperf_iv_plov/iti__vblex"/></e>

@@ -40,11 +40,17 @@
   <def-cat n="np_loc">
      <cat-item tags="np.*.*.*.loc"/>
   </def-cat>    
+  <def-cat n="vb_lp">
+    <cat-item tags="vbser.lp.*"/>
+    <cat-item tags="vblex.*.*.lp.*"/>
+    <cat-item tags="vbhaver.*.*.lp.*"/>    
+    <cat-item tags="vbmod.lp.*"/>    
+  </def-cat>
   <def-cat n="vbser_lp">
      <cat-item tags="vbser.lp.*"/>
   </def-cat>
-  <def-cat n="vbser_clt">
-     <cat-item tags="vbser.clt.*"/>
+  <def-cat n="vbser_past">
+     <cat-item tags="vbser.clt.pres.*"/>
   </def-cat>
   <def-cat n="verb">  
    <cat-item tags="vblex.*"/>
@@ -158,16 +164,10 @@
   <def-cat n="lipart">
     <cat-item lemma ="li" tags="part.itg"/>
   </def-cat>  
-  <def-cat n="vbserpast">
-    <cat-item tags="vbser.clt.pres.*"/>
-  </def-cat>  
-  <def-cat n="vblex-l-participle">
+  <def-cat n="vblex_lp">
     <cat-item tags="vblex.*.*.lp.*"/>
     <cat-item tags="vbhaver.*.*.lp.*"/>    
     <cat-item tags="vbmod.lp.*"/>    
-  </def-cat>  
-  <def-cat n="bil-participle">
-    <cat-item tags="vbser.lp.*"/>
   </def-cat>  
 </section-def-cats>
 
@@ -199,6 +199,7 @@
      <attr-item tags="vblex"/>
      <attr-item tags="vbhaver"/>
      <attr-item tags="vbser"/>     
+     <attr-item tags="vbser.clt"/>          
      <attr-item tags="vbmod"/>          
   </def-attr>
 
@@ -305,11 +306,31 @@
 </section-def-attrs>
 
 <section-def-vars>
-  <def-var n="number"/>
+  <def-var n="numero"/>
   <def-var n="genere"/>
+  <def-var n="persona"/>  
+  <def-var n="conditional"/>    
 </section-def-vars>
 
 <section-def-macros>
+<!--convenience TODO: Sort the macros by function or smtn-->
+<def-macro n="to_aorist" npar="1">
+    <!--Takes a verb and spits out it's aorist-->
+    <!--The aorist is created according to the two variables in memory-->    
+    <let>
+        <clip pos="1" side="tl" part="whole"/>
+        <concat>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_vrb"/>
+            <clip pos="1" side="tl" part="asp"/>            
+            <clip pos="1" side="tl" part="trn"/>            
+            <lit-tag v="aor"/>
+            <var n="persona"/>
+            <var n="numero"/>
+            <clip pos="1" side="tl" part="lemq"/>                       
+        </concat>
+    </let>
+</def-macro>
 
 <def-macro n="num_adapter" npar="1">
         <call-macro n="mima_to_m"><with-param pos="1"/></call-macro>
@@ -773,6 +794,27 @@
 
     <def-macro n="verb_adapter" npar="1">
         <choose>        
+            <when><!--If it's a vbser or a conditional aorist we need to memorise the person and number to transfer to consequent l-participles-->
+                <test>
+                    <or>
+                        <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser.clt.pres"/></equal>
+                        <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser.clt.aor"/></equal>
+                    </or> 
+                </test>
+                <let><var n="numero"/><clip pos="1" side="tl" part="nbr"/></let>
+                <let><var n="persona"/><clip pos="1" side="tl" part="prs"/></let>                   
+                <choose>
+                    <when>
+                        <test>
+                            <equal caseless="yes"><clip pos="1" side="sl" part="a_vrb"/><lit-tag v="vbser.clt.aor"/></equal>
+                        </test>
+                        <let><var n="conditional"/><lit v="True"/></let>
+                    </when>
+                    <otherwise>                    
+                        <let><var n="conditional"/><lit v="False"/></let>
+                    </otherwise>                    
+                </choose>
+            </when>        
             <when>
                 <test><!--If we have infinitive, we normalise it to present-->                    
                     <equal caseless="yes"><clip pos="1" side="sl" part="tns"/><lit-tag v="inf"/></equal>
@@ -1169,6 +1211,54 @@
 
 <section-rules>
 <!--Rules for verbs-->
+<rule comment="regla: verb prn infinitive">
+<pattern><!-- morate ih tjerati -> мора да ги терате -->
+      <pattern-item n="verb"/>
+      <pattern-item n="prn"/>      
+      <pattern-item n="vbinf"/>
+</pattern>
+<action>
+    <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+    <call-macro n="prn_adapter"><with-param pos="2"/></call-macro> 
+    <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>   
+        
+    <let><clip pos="1" side="tl" part="prs"/><lit-tag v="p3"/></let>
+    <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>    
+    <out>
+        <chunk name="verb_prn_inf" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+             <tag><clip pos="1" side="tl" part="prs"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>          
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="да"/>
+             <lit-tag v="part"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="2" side="tl" part="whole"/>
+           </lu>
+           <b />
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_vrb"/>             
+             <clip pos="3" side="tl" part="asp"/>             
+             <clip pos="3" side="tl" part="trn"/>
+             <lit-tag v="pres"/>
+             <clip pos="1" side="sl" part="prs"/>
+             <clip pos="1" side="sl" part="nbr"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+        </chunk>
+    </out>
+</action>
+</rule>
+
 <rule comment="regla: verb adv infinitive">
 <pattern><!-- Trebam dati -> треба да дадам -->
       <pattern-item n="verb"/>
@@ -1359,11 +1449,11 @@
     </action>
   </rule>
 
-  <rule comment="regla: ne+vbserpast l-participle infinitive">
+  <rule comment="regla: ne+vbser_past l-participle infinitive">
     <pattern>
         <pattern-item n="ne_part"/>
-        <pattern-item n="vbserpast"/>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vbser_past"/>
+        <pattern-item n="vblex_lp"/>
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
@@ -1417,8 +1507,8 @@
   
     <rule comment="regla: vbser l-participle infinitive">
     <pattern>
-        <pattern-item n="vbserpast"/>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vbser_past"/>
+        <pattern-item n="vblex_lp"/>
         <pattern-item n="vbinf"/>        
     </pattern>
     <action>
@@ -1466,8 +1556,8 @@
 
     <rule comment="regla: vbser l-participle">
     <pattern>
-        <pattern-item n="vbserpast"/>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vbser_past"/>
+        <pattern-item n="vblex_lp"/>
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>    
@@ -1497,9 +1587,9 @@
 
     <rule comment="regla: vbser n l-participle">
     <pattern>
-        <pattern-item n="vbserpast"/>
+        <pattern-item n="vbser_past"/>
         <pattern-item n="nom"/>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vblex_lp"/>
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
@@ -1539,8 +1629,8 @@
   
    <rule comment="regla: l-participle vbser">
     <pattern>
-        <pattern-item n="vblex-l-participle"/>
-        <pattern-item n="vbserpast"/>
+        <pattern-item n="vblex_lp"/>
+        <pattern-item n="vbser_past"/>
     </pattern>
     <action>
     <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
@@ -1570,8 +1660,8 @@
 
    <rule comment="regla: vbser-l-participle vbser">
     <pattern>
-        <pattern-item n="bil-participle"/>
-        <pattern-item n="vbserpast"/>
+        <pattern-item n="vbser_lp"/>
+        <pattern-item n="vbser_past"/>
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
@@ -1602,8 +1692,8 @@
   <rule comment="regla: ne+vbser l-participle">
     <pattern>
         <pattern-item n="ne_part"/>
-        <pattern-item n="vbserpast"/>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vbser_past"/>
+        <pattern-item n="vblex_lp"/>
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
@@ -1637,9 +1727,9 @@
     </action>
   </rule>
 
-    <rule comment="regla: l-participle">
+<!--    <rule comment="regla: l-participle">
     <pattern>
-        <pattern-item n="vblex-l-participle"/>
+        <pattern-item n="vblex_lp"/>
     </pattern>
     <action>
         <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
@@ -1664,7 +1754,7 @@
             </chunk>
         </out>
     </action>
-  </rule>
+  </rule>-->
 
   <rule comment="regla: vbpp">
      <pattern>
@@ -1746,14 +1836,17 @@
      </action>
   </rule>
 
-  <rule comment="regla: verb">
+  <rule comment="regla: vbser_past adv vb_lp">
      <pattern>
-       <pattern-item n="verb"/>
+       <pattern-item n="vbser_past"/>
+       <pattern-item n="adv"/>       
+       <pattern-item n="vb_lp"/>
      </pattern>
      <action>
      <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+     <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>     
        <out>
-         <chunk name="verb" case="caseFirstWord">
+         <chunk name="vbser_adv_lp" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="tns"/></tag>
@@ -1761,22 +1854,85 @@
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+                <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+                <clip pos="3" side="tl" part="lemh"/>
+                <clip pos="3" side="tl" part="a_vrb"/>
+                <clip pos="3" side="tl" part="asp"/>
+                <clip pos="3" side="tl" part="trn"/>                
+                <lit-tag v="aor"/>
+                <clip pos="1" side="tl" part="prs"/>
+                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="3" side="tl" part="lemq"/>                
             </lu>
           </chunk>
         </out>
      </action>
   </rule>
+
+    <rule comment="regla: verb">
+        <pattern>
+        <pattern-item n="verb"/>
+        </pattern>
+        <action>
+        <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>     
+        <choose>        
+            <when>
+                <test>
+                    <and>
+                        <or>
+                            <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.pii"/></equal>       
+                            <equal><clip pos="1" side="tl" part="tns"/><lit-tag v="lp.aor"/></equal>                           
+                        </or>                    
+                        <not><equal><var n="conditional"/><lit v="True"/></equal></not>
+                    </and>
+                </test>
+                <let><!--The idea would be to transfer number/person from the last seen clitic vbser, and turn this into aorist -->
+                    <clip pos="1" side="tl" part="whole"/>            
+                    <concat>
+                        <clip pos="1" side="tl" part="lemh"/>
+                        <clip pos="1" side="tl" part="a_vrb"/>              
+                        <clip pos="1" side="tl" part="asp"/>                            
+                        <clip pos="1" side="tl" part="trn"/>                            
+                        <lit-tag v="aor"/>        
+                        <var n="persona"/>
+                        <var n="numero"/>                            
+                        <clip pos="1" side="tl" part="lemq"/>
+                    </concat>
+                </let>
+            </when>
+        </choose>
+           <out>
+             <chunk name="verb" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="1" side="tl" part="tns"/></tag>
+                  <tag><clip pos="1" side="tl" part="prs"/></tag>
+                  <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                    <clip pos="1" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>      
+        </action>
+    </rule>
   
 
-  <rule comment="regla: vbser_lp vbser_clt">
+  <rule comment="regla: vbser_lp vbser_past">
      <pattern>
        <pattern-item n="vbser_lp"/>
-       <pattern-item n="vbser_clt"/>
+       <pattern-item n="vbser_past"/>
      </pattern>
      <action>
        <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
        <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>                           
+       
+       <let><var n="numero"/><clip pos="2" side="tl" part="nbr"/></let>
+       <let><var n="persona"/><clip pos="2" side="tl" part="prs"/></let>     
+       
        <out>
          <chunk name="verb" case="caseFirstWord">
            <tags>
@@ -1813,6 +1969,52 @@
      </action>
   </rule>
 
+<!--  <rule comment="regla: vbser_past">
+     <pattern>
+       <pattern-item n="vbser_past"/>
+     </pattern>
+     <action>
+       <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="persona"/><clip pos="1" side="tl" part="prs"/></let>
+        <let><var n="numero"/><clip pos="1" side="tl" part="nbr"/></let>
+     </action>
+  </rule>-->
+  
+  <!--rule comment="regla: vb_lp">
+     <pattern--> 
+       <!--pattern-item n="vb_lp"/>
+     </pattern>
+     <action>
+       <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+       
+       <out>
+         <chunk name="verb" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="tns"/></tag>
+              <tag><clip pos="1" side="tl" part="prs"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule-->
 
 
 
@@ -1853,10 +2055,17 @@
              <tag><clip pos="1" side="tl" part="gen"/></tag>
              <tag><clip pos="1" side="tl" part="nbr"/></tag>
              <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><lit-tag v="ind"/></tag>
              <tag><clip pos="1" side="sl" part="fnc"/></tag>                                                   
            </tags>
            <lu>
-             <clip pos="1" side="tl" part="whole"/>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_nom"/>             
+             <clip pos="1" side="tl" part="gen"/>             
+             <clip pos="1" side="tl" part="nbr"/>             
+             <clip pos="1" side="tl" part="cas"/>             
+             <clip pos="1" side="tl" part="def" link-to="5"/>             
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
         </chunk>
     </out>

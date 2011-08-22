@@ -9389,7 +9389,7 @@
         <e><p><l>tolerirati<s n="vblex"/></l><r>толерира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>harmonizirati<s n="vblex"/></l><r>хармонизира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>garantirati<s n="vblex"/></l><r>гарантира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
-        <e><p><l>raditi<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e><!--Note: 'praviti' and 'raditi' are both equaly often used in BS, HR and RS, however-->
+        <e><p><l>praviti<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e><!--Note: 'praviti' and 'raditi' are both equaly often used in BS, HR and RS, however-->
         <!--e><p><l>složiti<s n="vblex"/></l><r>согласи<b/>се<s n="vblex"/></r></p></e-->
         <e><p><l>prezentirati<s n="vblex"/></l><r>презентира<s n="vblex"/></r></p><par n="_perf_imperf_iv_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>uvjeriti<s n="vblex"/></l><r>убеди<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
@@ -10783,7 +10783,6 @@
         <e><p><l>nametnuti<s n="vblex"/></l><r>наметне<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
         <e><p><l>garantirati<s n="vblex"/></l><r>гарантира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>garantovati<s n="vblex"/></l><r>гарантира<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
-        <e><p><l>raditi<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_imperf_iv_tv_to_imperf_tv_"/></e><!--Note: 'praviti' and 'raditi' are both equaly often used in BS, HR and RS, however-->
         <e><p><l>praviti<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_perf_tv_ref_to_imperf_tv_"/></e><!-- in this case these are the preferences -->
         <!--e><p><l>složiti<s n="vblex"/></l><r>согласи<b/>се<s n="vblex"/></r></p></e-->
         <!--e><p><l>saglasiti<s n="vblex"/></l><r>согласи<b/>се<s n="vblex"/></r></p></e-->
