@@ -305,6 +305,8 @@
   <def-attr n="def">
      <attr-item tags="ind"/>
      <attr-item tags="def"/>
+     <attr-item tags="dst"/>     
+     <attr-item tags="prx"/>
   </def-attr>
   
   <def-attr n="fnc">
@@ -1645,7 +1647,6 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
                    <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
                 </tags>
                 <lu>
@@ -1685,8 +1686,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
-                   <tag><clip pos="3" side="tl" part="gen"/></tag>
-                   <tag><clip pos="3" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="3" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="3" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
@@ -1740,8 +1741,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="2" side="tl" part="lemh"/>
@@ -1788,8 +1789,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="3" side="tl" part="lemh"/>
@@ -1823,8 +1824,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="2" side="tl" part="lemh"/>
@@ -1856,8 +1857,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="1" side="tl" part="prs"/></tag>
-                   <tag><clip pos="2" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="2" side="tl" part="lemh"/>
@@ -1896,8 +1897,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
-                   <tag><clip pos="1" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
@@ -1927,8 +1928,8 @@
                 <tags>
                    <tag><lit-tag v="SV"/></tag>
                    <tag><clip pos="2" side="tl" part="prs"/></tag>
-                   <tag><clip pos="1" side="tl" part="gen"/></tag>
-                   <tag><clip pos="2" side="tl" part="nbr"/></tag>                   
+                   <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                   <tag><clip pos="2" side="tl" part="gen"/></tag>                   
                 </tags>
                 <lu>
                   <clip pos="2" side="tl" part="whole"/>
@@ -2001,43 +2002,23 @@
     </action>
   </rule>
 
-  <rule comment="regla: ne+vbser l-participle">
-    <pattern>
-        <pattern-item n="ne_part"/>
-        <pattern-item n="vbser_past"/>
-        <pattern-item n="vblex_lp"/>
-    </pattern>
-    <action>
-        <call-macro n="verb_adapter"><with-param pos="3"/></call-macro>
-        <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>
-        <out>
-            <chunk name="nevbser_lp" case="caseFirstWord">
-                <tags>
-                   <tag><lit-tag v="SV"/></tag>
-                   <tag><clip pos="2" side="tl" part="prs"/></tag>
-                   <tag><clip pos="3" side="tl" part="gen"/></tag>
-                   <tag><clip pos="3" side="tl" part="nbr"/></tag>                   
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="lemh"/>
-                  <clip pos="1" side="tl" part="a_adv"/>                                    
-                  <clip pos="1" side="tl" part="lemq"/>
-                </lu>
-                <b pos="1"/>
-                <lu>
-                  <clip pos="3" side="tl" part="lemh"/>
-                  <clip pos="3" side="tl" part="a_vrb"/>
-                  <clip pos="3" side="tl" part="asp"/>
-                  <clip pos="3" side="tl" part="trn"/>
-                  <lit-tag v="aor"/>
-                  <clip pos="2" side="tl" part="prs"/>
-                  <clip pos="3" side="tl" part="nbr"/>
-                  <clip pos="3" side="tl" part="lemq"/>
-                </lu>
-            </chunk>
-        </out>
-    </action>
-  </rule>
+    <rule comment="regla: ne">
+        <pattern>
+            <pattern-item n="ne_part"/>
+        </pattern>
+        <action>
+            <out>
+                <chunk name="ne" case="caseFirstWord">        
+                    <tags>
+                        <tag><lit-tag v="Part"/></tag>
+                    </tags>
+                    <lu>
+                        <clip pos="1" side="tl" part="whole"/>
+                    </lu>
+                </chunk>
+            </out>
+        </action>
+    </rule>
 
   <rule comment="regla: vbpp">
      <pattern>

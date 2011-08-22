@@ -49,10 +49,16 @@
     <def-cat n="SDef">
       <cat-item tags="SN.*.*.*.def"/>
       <cat-item tags="SN.*.*.*.def"/>
-      <cat-item tags="SA.*.*.*.def"/>      
       <cat-item tags="SN.*.*.*.def.*"/>
       <cat-item tags="SN.*.*.*.def.*"/>
-      <cat-item tags="SA.*.*.*.def.*"/>      
+      <cat-item tags="SN.*.*.*.prx"/>
+      <cat-item tags="SN.*.*.*.prx"/>
+      <cat-item tags="SN.*.*.*.prx.*"/>
+      <cat-item tags="SN.*.*.*.prx.*"/>
+      <cat-item tags="SN.*.*.*.dst"/>
+      <cat-item tags="SN.*.*.*.dst"/>
+      <cat-item tags="SN.*.*.*.dst.*"/>
+      <cat-item tags="SN.*.*.*.dst.*"/>
     </def-cat>    
     <def-cat n="SNGen">
       <cat-item tags="SN.*.*.gen"/>
