@@ -29,7 +29,7 @@
     <def-cat n="SDat">
       <cat-item tags="SN.*.*.dat"/>
       <cat-item tags="SN.*.*.dat.*"/>
-      <cat-item tags="SN.*.*.dat.*.*"/>      
+      <cat-item tags="SA.*.*.dat.*"/>
     </def-cat>
     <def-cat n="SNDat">
       <cat-item tags="SN.*.*.dat"/>
@@ -46,20 +46,65 @@
       <cat-item tags="SA.*.*.ins.*"/>      
       <cat-item tags="SV.*.*.ins.*"/>      
     </def-cat>    
-    <def-cat n="SDef">
-      <cat-item tags="SN.*.*.*.def"/>
-      <cat-item tags="SN.*.*.*.def"/>
-      <cat-item tags="SN.*.*.*.def.*"/>
-      <cat-item tags="SN.*.*.*.def.*"/>
-      <cat-item tags="SN.*.*.*.prx"/>
-      <cat-item tags="SN.*.*.*.prx"/>
-      <cat-item tags="SN.*.*.*.prx.*"/>
-      <cat-item tags="SN.*.*.*.prx.*"/>
-      <cat-item tags="SN.*.*.*.dst"/>
-      <cat-item tags="SN.*.*.*.dst"/>
-      <cat-item tags="SN.*.*.*.dst.*"/>
-      <cat-item tags="SN.*.*.*.dst.*"/>
+    <def-cat n="SAccDef">
+      <cat-item tags="SN.*.*.acc.def"/>
+      <cat-item tags="SN.*.*.acc.def"/>
+      <cat-item tags="SN.*.*.acc.def.*"/>
+      <cat-item tags="SN.*.*.acc.def.*"/>
+      <cat-item tags="SN.*.*.acc.prx"/>
+      <cat-item tags="SN.*.*.acc.prx"/>
+      <cat-item tags="SN.*.*.acc.prx.*"/>
+      <cat-item tags="SN.*.*.acc.prx.*"/>
+      <cat-item tags="SN.*.*.acc.dst"/>
+      <cat-item tags="SN.*.*.acc.dst"/>
+      <cat-item tags="SN.*.*.acc.dst.*"/>
+      <cat-item tags="SN.*.*.acc.dst.*"/>
+      <cat-item tags="SA.*.*.acc.def"/>
+      <cat-item tags="SA.*.*.acc.def"/>
+      <cat-item tags="SA.*.*.acc.def.*"/>
+      <cat-item tags="SA.*.*.acc.def.*"/>
+      <cat-item tags="SA.*.*.acc.prx"/>
+      <cat-item tags="SA.*.*.acc.prx"/>
+      <cat-item tags="SA.*.*.acc.prx.*"/>
+      <cat-item tags="SA.*.*.acc.prx.*"/>
+      <cat-item tags="SA.*.*.acc.dst"/>
+      <cat-item tags="SA.*.*.acc.dst"/>
+      <cat-item tags="SA.*.*.acc.dst.*"/>
+      <cat-item tags="SA.*.*.acc.dst.*"/>
+      <cat-item tags="SV.*.*.acc.def"/>
+      <cat-item tags="SV.*.*.acc.def"/>
+      <cat-item tags="SV.*.*.acc.def.*"/>
+      <cat-item tags="SV.*.*.acc.def.*"/>
+      <cat-item tags="SV.*.*.acc.prx"/>
+      <cat-item tags="SV.*.*.acc.prx"/>
+      <cat-item tags="SV.*.*.acc.prx.*"/>
+      <cat-item tags="SV.*.*.acc.prx.*"/>
+      <cat-item tags="SV.*.*.acc.dst"/>
+      <cat-item tags="SV.*.*.acc.dst"/>
+      <cat-item tags="SV.*.*.acc.dst.*"/>
+      <cat-item tags="SV.*.*.acc.dst.*"/>
     </def-cat>    
+    <def-cat n="SAcc">
+      <cat-item tags="SN.*.*.acc"/>
+      <cat-item tags="SN.*.*.acc.*"/>
+      <cat-item tags="SA.*.*.acc"/>
+      <cat-item tags="SA.*.*.acc.*"/>
+    </def-cat>    
+    <def-cat n="SDatDef">
+      <cat-item tags="SN.*.*.dat.def"/>
+      <cat-item tags="SN.*.*.dat.def"/>
+      <cat-item tags="SN.*.*.dat.def.*"/>
+      <cat-item tags="SN.*.*.dat.def.*"/>
+      <cat-item tags="SN.*.*.dat.prx"/>
+      <cat-item tags="SN.*.*.dat.prx"/>
+      <cat-item tags="SN.*.*.dat.prx.*"/>
+      <cat-item tags="SN.*.*.dat.prx.*"/>
+      <cat-item tags="SN.*.*.dat.dst"/>
+      <cat-item tags="SN.*.*.dat.dst"/>
+      <cat-item tags="SN.*.*.dat.dst.*"/>
+      <cat-item tags="SN.*.*.dat.dst.*"/>
+    </def-cat>    
+    
     <def-cat n="SNGen">
       <cat-item tags="SN.*.*.gen"/>
       <cat-item tags="SN.*.*.gen.*"/>
@@ -72,7 +117,7 @@
     
   </section-def-cats>
 
-<section-def-attrs>
+ <section-def-attrs>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -87,7 +132,6 @@
      <attr-item tags="np.cog"/>     
      <attr-item tags="np.al"/>
   </def-attr>
-
   <def-attr n="a_num">
      <attr-item tags="num"/>
      <attr-item tags="num.ord"/>
@@ -373,11 +417,49 @@
       </action>
     </rule>
     
-    <rule comment="REGLA: SV SDef">
+    <rule comment="REGLA: SV SAcc SDat">
     <!--Instrumental without a preposition needs a 'со' preposition -->
       <pattern>
         <pattern-item n="SV"/>        
-        <pattern-item n="SDef"/>        
+        <pattern-item n="SAcc"/>        
+        <pattern-item n="SDat"/>                
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <lit v="{^clitic"/>
+            <lit-tag v="prn.pers.clt.p3"/>
+            <clip pos="3" part="gen"/>
+            <clip pos="3" part="nbr"/>
+            <clip pos="3" part="cas"/>
+            <lit v="$}"/>
+          </chunk>
+            <b pos="1"/>
+          <chunk>
+            <lit v="{^clitic"/>
+            <lit-tag v="prn.pers.clt.p3"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <clip pos="2" part="cas"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos ="2"/>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>    
+    
+    <rule comment="REGLA: SV SAcc">
+    <!--Instrumental without a preposition needs a 'со' preposition -->
+      <pattern>
+        <pattern-item n="SV"/>        
+        <pattern-item n="SAccDef"/>        
       </pattern>
       <action>
          <out>
@@ -400,6 +482,7 @@
          </out>
       </action>
     </rule>    
+    
     
 
   </section-rules>
