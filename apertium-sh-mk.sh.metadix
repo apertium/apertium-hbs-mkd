@@ -22931,6 +22931,23 @@ after prepositions-->
     <e><p><l>cima</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>cima</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="srb/in__n">
+    <e><p><l>in</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>ina</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>inu</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>ina</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>inu</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>inu</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>inom</l><r>in<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>i</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>a</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>                  
+    <e><p><l>ima</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>e</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><p><l>i</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>ima</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>ima</l><r>in<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="Če/h__n">
     <e><p><l>h</l><r>h<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>ha</l><r>h<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26036,12 +26053,43 @@ after prepositions-->
    <e><p><l>ska</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
    <e><p><l>skom</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
    <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-   <!--e><p><l>ska</l><r>ja<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e--><!--Genitive simply cannot exist-->
    <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>   
    <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
    <e><p><l>ske</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>skama</l><r>ska<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="Kosov/o__n">
+   <e><p><l>o</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><p><l>o</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>   
+   <e><p><l>u</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><p><l>u</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+   <e><p><l>o</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><p><l>om</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+   <e><p><l>â</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>   
+   <e><p><l>ima</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+   <e><p><l>ima</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>                
+   <e><p><l>a</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+   <e><p><l>ima</l><r>o<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="Skopj/e__n">
+   <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>   
+   <e><p><l>u</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+   <e><p><l>u</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>                
+   <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
+   <e><p><l>em</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+   <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+   <e><p><l>â</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>   
+   <e><p><l>ima</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+   <e><p><l>ima</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>                
+   <e><p><l>a</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+   <e><p><l>ima</l><r>e<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="Bosn/a__n">
    <e><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -26053,7 +26101,7 @@ after prepositions-->
    <e r="LR"><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
    <e><p><l>om</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
    <e><p><l>e</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-   <!--e><p><l>a</l><r>ja<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e--><!--Genitive simply cannot exist-->
+   <e><p><l>â</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>e</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>   
    <e><p><l>ama</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ama</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>                
@@ -26099,6 +26147,24 @@ after prepositions-->
 </pardef>
 <!--end 'Samoko/v'-->
 <!--Others-->
+<pardef n="SETimes__np">
+	   <e><p><l></l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	   <e><p><l>a</l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	   <e><p><l></l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>   
+	   <e><p><l>u</l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	   <e><p><l>u</l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	   <e><p><l></l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+       <e><p><l>om</l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="SAD__np">
+	   <e><p><l>Sjedinjene<b/>Američke<b/>Države</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+	   <e><p><l>Sjedinjenih<b/>Američkih<b/>Država</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	   <e><p><l>Sjedinjene<b/>Američke<b/>Države</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>   
+	   <e><p><l>Sjedinjenim<b/>Američkim<b/>Državama</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	   <e><p><l>Sjedinjenim<b/>Američkim<b/>Državama</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+	   <e><p><l>Sjedinjene<b/>Američke<b/>Države</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+       <e><p><l>Sjedinjenim<b/>Američkim<b/>Državama</l><r>Sjedinjene<b/>Američke<b/>Države<s n="np"/><s n="top"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+</pardef>
 <pardef n="SuperGaleb__np">
 	   <e><p><l></l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>a</l><r><s n="np"/><s n="al"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26273,7 +26339,27 @@ after prepositions-->
 </pardef>
 
 <!--end Toponyms-->
-<!--Antroponyms--><!--Note and a TODO: -->
+<!--Abbreviations-->
+<pardef n="NATO__abbr">
+   <e><p><l></l><r><s n="abbr"/><s n="nom"/></r></p></e>
+   <e><p><l>-a</l><r><s n="abbr"/><s n="gen"/></r></p></e>
+   <e><p><l>-e</l><r><s n="abbr"/><s n="acc"/></r></p></e>   
+   <e><p><l>-u</l><r><s n="abbr"/><s n="dat"/></r></p></e>
+   <e><p><l>-u</l><r><s n="abbr"/><s n="loc"/></r></p></e>                
+   <e><p><l>-e</l><r><s n="abbr"/><s n="voc"/></r></p></e>
+   <e><p><l>-om</l><r><s n="abbr"/><s n="ins"/></r></p></e>
+</pardef>
+<pardef n="ETA__abbr">
+   <e><p><l></l><r><s n="abbr"/><s n="nom"/></r></p></e>
+   <e><p><l>-e</l><r><s n="abbr"/><s n="gen"/></r></p></e>
+   <e><p><l>-u</l><r><s n="abbr"/><s n="acc"/></r></p></e>   
+   <e><p><l>-i</l><r><s n="abbr"/><s n="dat"/></r></p></e>
+   <e><p><l>-i</l><r><s n="abbr"/><s n="loc"/></r></p></e>                
+   <e><p><l>-o</l><r><s n="abbr"/><s n="voc"/></r></p></e>
+   <e><p><l>-om</l><r><s n="abbr"/><s n="ins"/></r></p></e>
+</pardef>
+<!--end Abbreviations-->
+<!--Antroponyms-->
 <pardef n="Jasen/ka__n">
 	   <e><p><l>ka</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 	   <e><p><l>ke</l><r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -26367,6 +26453,47 @@ after prepositions-->
 
 <!-- end Masculine antroponyms-->
 <!--Surnames-->
+<pardef n="Prezime__cog__np">
+<!--Masculine-->
+<!--Singular-->
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>a</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+        <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e r="LR"><p><l></l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>u</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>
+        <e><p><l>om</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l>i</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>a</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>
+	<e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+	<e><p><l>ima</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l>o</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l>i</l><r><s n="np"/><s n="cog"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+
+<!-- Feminine-->
+<!--Singular-->
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="loc"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="voc"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
+<!--Plural-->
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
+         <e><p><l></l><r><s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
+         
+     <e><p><l>ov</l><r><s n="np"/><s n="cog"/><s n="mi"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+     <e><p><l>ov</l><r><s n="np"/><s n="cog"/><s n="ma"/><j/>pos<s n="adj"/></r></p><par n="possesive__sfx__adj"/></e>
+</pardef>
+<!--end 'Prezime'-->
 <!--Proper noun paradigm 'prezimen/ić'-->
 <pardef n="Prezimen/ić__cog__np">
 <!--Masculine-->
@@ -27331,6 +27458,21 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
 	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
 	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
+
+    <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>miliona</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>milione</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>milionu</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>milionu</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>milionom</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>milioni</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>miliona</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>milione</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>milioni</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 
       
 <!--Ordinal numbers-->
@@ -29642,6 +29784,16 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--e lm="km"><p><l>km</l><r>km<s n="abbr"/></r></p></e-->
 <e lm="km/h"><p><l>km/h</l><r>km/h<s n="abbr"/></r></p></e>
 <e lm="EU"><p><l>EU</l><r>EU<s n="abbr"/></r></p></e>
+<e lm="EК"><p><l>EK</l><r>EK<s n="abbr"/></r></p></e>
+<e lm="RS"><p><l>RS</l><r>RS<s n="abbr"/></r></p></e>
+<e lm="OEBS"><p><l>OEBS</l><r>OEBS<s n="abbr"/></r></p></e>
+<e lm="NATO"><i>NATO</i><par n="NATO__abbr"/></e>
+<e lm="UN"><i>UN</i><par n="NATO__abbr"/></e>
+<e lm="SAD"><i>SAD</i><par n="NATO__abbr"/></e>
+<e lm="UNMIK"><i>UNMIK</i><par n="NATO__abbr"/></e>
+<e lm="Sjedinjene Američke Države"><i></i><par n="SAD__np"/></e>
+<e lm="Southeast European Times"><i>Southeast<b/>European<b/>Times</i><par n="SETimes__np"/></e>
+
 <!--end Abbreviations-->
 <!--Particles --><!--TODO: Add any missing serbian or bosnian particles if neccessary-->
 <e lm="da"><p><l>da</l><r>da<s n="part"/></r></p></e>
@@ -34351,6 +34503,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zabranjen"><i>zabranjen</i><par n="zdrav__comp__adj"/></e>
 <e lm="zabranjen"><p><l>najzabranjen</l><r>zabranjen</r></p><par n="zdrav__sup__adj"/></e>
 <e lm="zabranjen"><p><l>prezabranjen</l><r>zabranjen</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="sjedinjen"><i>sjedinjen</i><par n="zdrav__pst__adj"/></e>
+<e lm="sjedinjen"><i>sjedinjen</i><par n="zdrav__comp__adj"/></e>
+<e lm="sjedinjen"><p><l>najsjedinjen</l><r>sjedinjen</r></p><par n="zdrav__sup__adj"/></e>
+<e lm="sjedinjen"><p><l>presjedinjen</l><r>sjedinjen</r></p><par n="zdrav__ssup__adj"/></e>
 
 <e lm="završen"><i>završen</i><par n="zdrav__pst__adj"/></e>
 <e lm="završen"><i>završen</i><par n="zdrav__comp__adj"/></e>
@@ -39244,6 +39401,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!-- Nouns -->
 
 <!--Antroponyms-->
+<!--Cognames ending in a consonant-->
+<e lm="Erdogan"><i>Erdogan</i><par n="Prezime__cog__np"/></e>
 <!--Cognames ending in -a-->
 <e lm="Krneta"><i>Krnet</i><par n="Krnet/a__cog__np"/></e>
 <!--Cognames ending in -ić-->
@@ -41079,6 +41238,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="osmjeh"><i>osm</i><par n="e_je__yat"/><par n="osmje/h__n"/></e>
 <e lm="vazduh"><i>vazdu</i><par n="osmje/h__n"/></e>
 <e lm="govor"><i>govor</i><par n="govor__n"/></e>
+<e lm="srbin"><i>Srb</i><par n="srb/in__n"/></e>
+<e lm="hrvat"><i>hrvat</i><par n="pilot__n"/></e>
 <e lm="veteran"><i>veteran</i><par n="pilot__n"/></e>
 <e lm="šampion"><i>šampion</i><par n="pilot__n"/></e>
 <e lm="profesor"><i>profesor</i><par n="pilot__n"/></e>
@@ -41537,7 +41698,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ljestvica"><i>ljestvic</i><par n="žen/a__n"/></e>
 <e lm="sloboda"><i>slobod</i><par n="žen/a__n"/></e>
 <e lm="služba"><i>služb</i><par n="žen/a__n"/></e>
-<e lm="srijeda"><i>sr</i><par n="e_ije__yat"/><i>ijed</i><par n="žen/a__n"/></e>
 <e lm="sredina"><i>sredin</i><par n="žen/a__n"/></e>
 <e lm="stanica"><i>stanic</i><par n="žen/a__n"/></e>
 <e lm="strana"><i>stran</i><par n="žen/a__n"/></e>
@@ -42350,6 +42510,16 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Rumunjska"><i>Rumunj</i><par n="Hrvat/ska__n"/></e>
 <e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__n"/></e><e lm="Španija"><i>Špan</i><par n="Srb/ija__n"/></e><!--TODO: group these into modules-->
 <e lm="Srbija"><i>Srb</i><par n="Srb/ija__n"/></e>
+<e lm="Rumunija"><i>Rumun</i><par n="Srb/ija__n"/></e>
+<e lm="Bosna"><i>Bosn</i><par n="Bosn/a__n"/></e>
+<e lm="Ankara"><i>Ankar</i><par n="Bosn/a__n"/></e>
+<e lm="Tirana"><i>Tiran</i><par n="Bosn/a__n"/></e>
+<e lm="Europa"><i>Europ</i><par n="Bosn/a__n"/></e>
+<e lm="Evropa"><i>Evrop</i><par n="Bosn/a__n"/></e>
+<e lm="Kosovo"><i>Kosov</i><par n="Kosov/o__n"/></e>
+<e lm="Skopje"><i>Skopj</i><par n="Skopj/e__n"/></e>
+<e lm="Skoplje"><p><l>Skoplj</l><r>Skopj</r></p><par n="Skopj/e__n"/></e>
+<e lm="Hercegovina"><i>Hercegovin</i><par n="Bosn/a__n"/></e>
 <e lm="Jugoslavija"><i>Jugoslav</i><par n="Srb/ija__n"/></e>
 <e lm="Albanija"><i>Alban</i><par n="Srb/ija__n"/></e>
 <e lm="Makedonija"><i>Makedon</i><par n="Srb/ija__n"/></e>
@@ -42383,6 +42553,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Portugal"><i>Portugal</i><par n="Zagreb__n"/></e><!--Note: apparently both are used in Serbian, with preference of the former in the literary language-->
 <e lm="Beograd"><i>Beograd</i><par n="Zagreb__n"/></e>
 <e lm="Zagreb"><i>Zagreb</i><par n="Zagreb__n"/></e>
+<e lm="Irak"><i>Irak</i><par n="Zagreb__n"/></e>
 
 <e lm="Samokov"><i>Samoko</i><par n="Samoko/v__top__np"/></e>
 <e lm="Svištov"><i>Svišto</i><par n="Samoko/v__top__np"/></e>

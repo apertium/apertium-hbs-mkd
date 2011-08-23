@@ -525,6 +525,13 @@
 	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
 	<!--e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e-->
 	<e><p><l>EU<s n="abbr"/></l><r>ЕУ<s n="abbr"/></r></p></e>
+	<e><p><l>EK<s n="abbr"/></l><r>ЕК<s n="abbr"/></r></p></e>	
+	<e><p><l>OEBS<s n="abbr"/></l><r>ОБСЕ<s n="abbr"/></r></p></e>
+	<e><p><l>RS<s n="abbr"/></l><r>РС<s n="abbr"/></r></p></e>	
+	<e><p><l>NATO<s n="abbr"/></l><r>НАТО<s n="abbr"/></r></p><par n="all_cases_to_null"/></e>
+	<e><p><l>UN<s n="abbr"/></l><r>ОН<s n="abbr"/></r></p><par n="all_cases_to_null"/></e>
+	<e><p><l>UNMIK<s n="abbr"/></l><r>УНМИК<s n="abbr"/></r></p><par n="all_cases_to_null"/></e>	
+	<e><p><l>SAD<s n="abbr"/></l><r>САД<s n="np"/><s n="top"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="all_cases_to_null"/></e>		
 
      <!-- SECTION: Particles -->
      <e><p><l>li<s n="part"/><s n="itg"/></l><r>ли<s n="part"/></r></p></e>
@@ -813,6 +820,8 @@
      <e><p><l>devetnaest<s n="num"/></l><r>деветнаесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                        
      <e><p><l>dvadeset<s n="num"/></l><r>дваесет<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>                                                  
 
+     <e><p><l>milion<s n="num"/></l><r>милион<s n="num"/></r></p></e>
+
      <e><p><l>sto<s n="num"/></l><r>сто<s n="num"/></r></p><par n="сто_number"/></e>          
 
     <e><p><l>prvi<s n="num"/><s n="ord"/></l><r>прв<s n="num"/><s n="ord"/></r></p><par n="m_f_nt_mfn2"/></e>
@@ -879,39 +888,39 @@
 
     <e><p><l>nekoliko<s n="adv"/></l><r>неколку<s n="adv"/></r></p></e>    
 
-    <e><p><l>ponedjeljak<s n="n"/><s n="m"/></l><r>понеделник<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>utorak<s n="n"/><s n="m"/></l><r>вторник<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>srijeda<s n="n"/><s n="m"/></l><r>среда<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>četvrtak<s n="n"/><s n="m"/></l><r>четврток<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>petak<s n="n"/><s n="m"/></l><r>петок<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>subota<s n="n"/><s n="m"/></l><r>сабота<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>nedjelja<s n="n"/><s n="m"/></l><r>недела<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>ponedjeljak<s n="n"/><s n="mi"/></l><r>понеделник<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>utorak<s n="n"/><s n="mi"/></l><r>вторник<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>srijeda<s n="n"/><s n="f"/></l><r>среда<s n="n"/><s n="f"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>četvrtak<s n="n"/><s n="mi"/></l><r>четврток<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>petak<s n="n"/><s n="mi"/></l><r>петок<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>subota<s n="n"/><s n="f"/></l><r>сабота<s n="n"/><s n="f"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>nedjelja<s n="n"/><s n="f"/></l><r>недела<s n="n"/><s n="f"/></r></p><par n="sg_pl_to_sg"/></e>
     
-    <e><p><l>siječanj<s n="n"/><s n="m"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>siječanj<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
     <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>ožujak<s n="n"/><s n="m"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>travanj<s n="n"/><s n="m"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>svibanj<s n="n"/><s n="m"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>lipanj<s n="n"/><s n="m"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>srpanj<s n="n"/><s n="m"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>kolovoz<s n="n"/><s n="m"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>rujan<s n="n"/><s n="m"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>listopad<s n="n"/><s n="m"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>studeni<s n="n"/><s n="m"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>prosinac<s n="n"/><s n="m"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
+    <e><p><l>ožujak<s n="n"/><s n="mi"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>travanj<s n="n"/><s n="mi"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>svibanj<s n="n"/><s n="mi"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>lipanj<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>srpanj<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>kolovoz<s n="n"/><s n="mi"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>rujan<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>listopad<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>studeni<s n="n"/><s n="mi"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>prosinac<s n="n"/><s n="mi"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
 
-    <e><p><l>januar<s n="n"/><s n="m"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>februar<s n="n"/><s n="m"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>mart<s n="n"/><s n="m"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>april<s n="n"/><s n="m"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>maj<s n="n"/><s n="m"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>jun<s n="n"/><s n="m"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>jul<s n="n"/><s n="m"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e><p><l>avgust<s n="n"/><s n="m"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>septembar<s n="n"/><s n="m"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>oktobar<s n="n"/><s n="m"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>novembar<s n="n"/><s n="m"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e><p><l>decembar<s n="n"/><s n="m"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
+    <e><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>mart<s n="n"/><s n="mi"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>april<s n="n"/><s n="mi"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>maj<s n="n"/><s n="mi"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e><p><l>avgust<s n="n"/><s n="mi"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>oktobar<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>novembar<s n="n"/><s n="mi"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e><p><l>decembar<s n="n"/><s n="mi"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
      
     <e><p><l>grudi<s n="n"/><s n="f"/></l><r>града<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>zastava<s n="n"/><s n="f"/></l><r>знаме<s n="n"/><s n="nt"/></r></p></e>
@@ -2126,6 +2135,7 @@
     <e><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
     <e><p><l>fokus<s n="n"/><s n="mi"/></l><r>фокус<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hrvat<s n="n"/><s n="ma"/></l><r>хрват<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>srbin<s n="n"/><s n="ma"/></l><r>србин<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cvijet<s n="n"/><s n="mi"/></l><r>цвет<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>centar<s n="n"/><s n="mi"/></l><r>центар<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>manevar<s n="n"/><s n="mi"/></l><r>маневар<s n="n"/><s n="m"/></r></p></e>
@@ -2148,7 +2158,7 @@
     <e><p><l>božić<s n="n"/><s n="mi"/></l><r>божиќ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>summit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>samit<s n="n"/><s n="mi"/></l><r>самит<s n="n"/><s n="m"/></r></p></e>
-    <e slr="град D"><p><l>grad<s n="n"/><s n="mi"/></l><r>град<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grad<s n="n"/><s n="mi"/></l><r>град<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ulaz<s n="n"/><s n="mi"/></l><r>влез<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vrh<s n="n"/><s n="mi"/></l><r>врв<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>glas<s n="n"/><s n="mi"/></l><r>глас<s n="n"/><s n="m"/></r></p></e>
@@ -2209,7 +2219,6 @@
     <e><p><l>uzrok<s n="n"/><s n="mi"/></l><r>причина<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>program<s n="n"/><s n="mi"/></l><r>програма<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prodaja<s n="n"/><s n="f"/></l><r>продажба<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>subota<s n="n"/><s n="f"/></l><r>сабота<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sida<s n="n"/><s n="f"/></l><r>сида<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stanje<s n="n"/><s n="nt"/></l><r>состојба<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>usporedba<s n="n"/><s n="f"/></l><r>споредба<s n="n"/><s n="f"/></r></p></e>
@@ -2497,7 +2506,7 @@
     <e><p><l>umjerenost<s n="n"/><s n="f"/></l><r>умереност<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>umjetnost<s n="n"/><s n="f"/></l><r>уметност<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hrabrost<s n="n"/><s n="f"/></l><r>храброст<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>cilj<s n="n"/><s n="mi"/></l><r>цел<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cilj<s n="n"/><s n="mi"/></l><r>цел<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>čast<s n="n"/><s n="f"/></l><r>чест<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>šećer<s n="n"/><s n="mi"/></l><r>шеќер<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>javnost<s n="n"/><s n="f"/></l><r>јавност<s n="n"/><s n="f"/></r></p></e>
@@ -3458,7 +3467,7 @@
     <e><p><l>pregovor<s n="n"/><s n="mi"/></l><r>преговор<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>predmet<s n="n"/><s n="mi"/></l><r>предмет<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>premijer<s n="n"/><s n="ma"/></l><r>премиер<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>premijerа<s n="n"/><s n="f"/></l><r>премиера<s n="n"/><s n="f"/></r></p></e>    
+    <e><p><l>premijera<s n="n"/><s n="f"/></l><r>премиера<s n="n"/><s n="f"/></r></p></e>    
     <e><p><l>primjer<s n="n"/><s n="mi"/></l><r>пример<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prioritet<s n="n"/><s n="mi"/></l><r>приоритет<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pristup<s n="n"/><s n="mi"/></l><r>пристап<s n="n"/><s n="m"/></r></p></e>
@@ -3537,7 +3546,7 @@
     <e><p><l>trud<s n="n"/><s n="mi"/></l><r>труд<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rječnik<s n="n"/><s n="mi"/></l><r>речник<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jezik<s n="n"/><s n="mi"/></l><r>јазик<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>predstavnik<s n="n"/><s n="mi"/></l><r>претставник<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>predstavnik<s n="n"/><s n="ma"/></l><r>претставник<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vodnik<s n="n"/><s n="ma"/></l><r>водни<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aerobik<s n="n"/><s n="mi"/></l><r>аеробик<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>antibiotik<s n="n"/><s n="mi"/></l><r>антибиотик<s n="n"/><s n="m"/></r></p></e>
@@ -3620,8 +3629,6 @@
     <e><p><l>pamuk<s n="n"/><s n="mi"/></l><r>памук<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>park<s n="n"/><s n="mi"/></l><r>парк<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pijesak<s n="n"/><s n="mi"/></l><r>песок<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>petak<s n="n"/><s n="mi"/></l><r>петок<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ponedjeljak<s n="n"/><s n="mi"/></l><r>понеделник<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>početak<s n="n"/></l><r>почеток<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>izaslanik<s n="n"/><s n="ma"/></l><r>пратеник<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rak<s n="n"/><s n="mi"/></l><r>рак<s n="n"/><s n="m"/></r></p></e>
@@ -3719,7 +3726,6 @@
     <e><p><l>glasač<s n="n"/><s n="ma"/></l><r>гласач<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>govor<s n="n"/><s n="mi"/></l><r>говор<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gospod<s n="n"/><s n="ma"/></l><r>господ<s n="n"/><s n="m"/></r></p></e>
-    <e slr="градус"><p><l>grad<s n="n"/><s n="mi"/></l><r>градус<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>grb<s n="n"/><s n="mi"/></l><r>грб<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>grip<s n="n"/><s n="mi"/></l><r>грип<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>datum<s n="n"/><s n="mi"/></l><r>датум<s n="n"/><s n="m"/></r></p></e>
@@ -3911,7 +3917,7 @@
      <e><p><l>kost<s n="n"/><s n="f"/></l><r>коска<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>most<s n="n"/><s n="mi"/></l><r>мост<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>sloga<s n="n"/><s n="f"/></l><r>слога<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>snaga<s n="n"/><s n="f"/></l><r>снага<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>snaga<s n="n"/><s n="f"/></l><r>сила<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>spis<s n="n"/><s n="m"/></l><r>список<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>stolica<s n="n"/><s n="f"/></l><r>стол<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>noga<s n="n"/><s n="f"/></l><r>нога<s n="n"/><s n="f"/></r></p></e>
@@ -5559,6 +5565,7 @@
 	<e><p><l>Bulgakov<s n="np"/></l><r>Булгаков<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Bundaleski<s n="np"/></l><r>Бундалески<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Bučovski<s n="np"/></l><r>Бучовски<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
+	<e><p><l>Erdogan<s n="np"/></l><r>Ердоган<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>	
 	<e><p><l>Važikovski<s n="np"/></l><r>Важиковски<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Vasilevski<s n="np"/></l><r>Василевски<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
 	<e><p><l>Velinovski<s n="np"/></l><r>Велиновски<s n="np"/></r></p><par n="cog_contract_to_m"/></e>
@@ -5818,8 +5825,14 @@
 
      <e><p><l>Jugoslavija<s n="np"/></l><r>Југославија<s n="np"/></r></p></e>
      <e><p><l>Srbija<s n="np"/></l><r>Србија<s n="np"/></r></p></e>
+     <e><p><l>Bosna<s n="np"/></l><r>Босна<s n="np"/></r></p></e>
+     <e><p><l>Kosovo<s n="np"/></l><r>Косово<s n="np"/></r></p></e>
+     <e><p><l>Sjedinjene<b/>Američke<b/>Države<s n="np"/></l><r>Соединети<b/>Американски<b/>Држави<s n="np"/></r></p></e>
+     <e><p><l>Irak<s n="np"/></l><r>Ирак<s n="np"/></r></p></e>     
+     <e><p><l>Hercegovina<s n="np"/></l><r>Херцеговина<s n="np"/></r></p></e>
      <e><p><l>Rusija<s n="np"/></l><r>Русија<s n="np"/></r></p></e>
      <e><p><l>Rumunija<s n="np"/></l><r>Романија<s n="np"/></r></p></e>
+     <e><p><l>Rumunjska<s n="np"/></l><r>Романија<s n="np"/></r></p></e>
      <e><p><l>Albanija<s n="np"/></l><r>Албанија<s n="np"/></r></p></e>
      <e><p><l>Italija<s n="np"/></l><r>Италија<s n="np"/></r></p></e>
      <e><p><l>Španija<s n="np"/></l><r>Шпанија<s n="np"/></r></p></e>
@@ -5878,7 +5891,7 @@
      <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/></r></p></e>
      <e><p><l>Sofija<s n="np"/></l><r>Софија<s n="np"/></r></p></e>
      <e><p><l>Plovdiv<s n="np"/></l><r>Пловдив<s n="np"/></r></p></e>
-     <e><p><l>Skopje<s n="np"/></l><r>Скопје<s n="np"/></r></p></e>
+     <e><p><l>Skopje<s n="np"/></l><r>Скопје<s n="np"/></r></p></e>     
 
 
      <!-- SECTION: Adjectives -->
@@ -9293,7 +9306,7 @@
      <e><p><l>ići<s n="vblex"/></l><r>оди<s n="vblex"/></r></p></e>
      <e><p><l>piti<s n="vblex"/></l><r>пие<s n="vblex"/></r></p></e>
      <e><p><l>pisati<s n="vblex"/></l><r>пишува<s n="vblex"/></r></p></e>
-     <e><p><l>praviti<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_perf_tv_ref_to_imperf_tv_"/></e>
+     <e><p><l>praviti<s n="vblex"/></l><r>прави<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
      <!--e><p><l>presti<s n="vblex"/></l><r>преде<s n="vblex"/></r></p></e-->
      <e><p><l>spavati<s n="vblex"/></l><r>спие<s n="vblex"/></r></p></e>
      <e><p><l>stajati<s n="vblex"/></l><r>стои<s n="vblex"/></r></p></e>
@@ -9375,6 +9388,10 @@
         <e><p><l>Wikipedija<s n="np"/></l><r>Википедија<s n="np"/></r></p></e>
         <e><p><l>Švicarska<s n="np"/></l><r>Швајцарија<s n="np"/></r></p></e>
         <e><p><l>Europa<s n="np"/></l><r>Европа<s n="np"/></r></p></e>
+        <e><p><l>Evropa<s n="np"/></l><r>Европа<s n="np"/></r></p></e>
+        <e><p><l>Ankara<s n="np"/></l><r>Анкара<s n="np"/></r></p></e>
+        <e><p><l>Tirana<s n="np"/></l><r>Тирана<s n="np"/></r></p></e>
+                
         <e><p><l>borben<s n="adj"/></l><r>борбен<s n="adj"/></r></p></e> 
         <e><p><l>španjolski<s n="adj"/></l><r>шпански<s n="adj"/></r></p></e> 
         <e><p><l>zainteresiran<s n="adj"/></l><r>заинтересиран<s n="adj"/></r></p></e> 
@@ -11171,18 +11188,18 @@
 
    <section id="west" type="standard">
    
-    <e r="RL"><p><l>siječanj<s n="n"/><s n="m"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>siječanj<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
     <e r="RL"><p><l>veljača<s n="n"/><s n="f"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>ožujak<s n="n"/><s n="m"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>travanj<s n="n"/><s n="m"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>svibanj<s n="n"/><s n="m"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>lipanj<s n="n"/><s n="m"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>srpanj<s n="n"/><s n="m"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>kolovoz<s n="n"/><s n="m"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>rujan<s n="n"/><s n="m"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>listopad<s n="n"/><s n="m"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>studeni<s n="n"/><s n="m"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>prosinac<s n="n"/><s n="m"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>                        
+    <e r="RL"><p><l>ožujak<s n="n"/><s n="mi"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>travanj<s n="n"/><s n="mi"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>svibanj<s n="n"/><s n="mi"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>lipanj<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>srpanj<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>kolovoz<s n="n"/><s n="mi"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>rujan<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>listopad<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>studeni<s n="n"/><s n="mi"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>prosinac<s n="n"/><s n="mi"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>                        
    
    <e r="RL"><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>                                                                    
    
@@ -11452,18 +11469,18 @@
 
    <section id="east" type="standard">
 
-    <e r="RL"><p><l>januar<s n="n"/><s n="m"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>februar<s n="n"/><s n="m"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>mart<s n="n"/><s n="m"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>april<s n="n"/><s n="m"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>maj<s n="n"/><s n="m"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>jun<s n="n"/><s n="m"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>jul<s n="n"/><s n="m"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>avgust<s n="n"/><s n="m"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>septembar<s n="n"/><s n="m"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>oktobar<s n="n"/><s n="m"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>novembar<s n="n"/><s n="m"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>decembar<s n="n"/><s n="m"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
+    <e r="RL"><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>mart<s n="n"/><s n="mi"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>april<s n="n"/><s n="mi"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>maj<s n="n"/><s n="mi"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>avgust<s n="n"/><s n="mi"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>oktobar<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>novembar<s n="n"/><s n="mi"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>decembar<s n="n"/><s n="mi"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
 
    <e r="RL"><p><l>Španija<s n="np"/></l><r>Шпанија<s n="np"/></r></p></e>
   <e r="RL"><p><l>Portugalija<s n="np"/></l><r>Португалија<s n="np"/></r></p></e>                                                                     
@@ -11773,18 +11790,18 @@
 
    <section id="cent" type="standard">
    
-    <e r="RL"><p><l>januar<s n="n"/><s n="m"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>februar<s n="n"/><s n="m"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>mart<s n="n"/><s n="m"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>april<s n="n"/><s n="m"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>maj<s n="n"/><s n="m"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>jun<s n="n"/><s n="m"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>jul<s n="n"/><s n="m"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
-    <e r="RL"><p><l>avgust<s n="n"/><s n="m"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>septembar<s n="n"/><s n="m"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>oktobar<s n="n"/><s n="m"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>novembar<s n="n"/><s n="m"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
-    <e r="RL"><p><l>decembar<s n="n"/><s n="m"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
+    <e r="RL"><p><l>januar<s n="n"/><s n="mi"/></l><r>јануари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>februar<s n="n"/><s n="mi"/></l><r>февруари<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>mart<s n="n"/><s n="mi"/></l><r>март<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>april<s n="n"/><s n="mi"/></l><r>април<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>maj<s n="n"/><s n="mi"/></l><r>мај<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>jun<s n="n"/><s n="mi"/></l><r>јуни<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>jul<s n="n"/><s n="mi"/></l><r>јули<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>
+    <e r="RL"><p><l>avgust<s n="n"/><s n="mi"/></l><r>август<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>septembar<s n="n"/><s n="mi"/></l><r>септември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>oktobar<s n="n"/><s n="mi"/></l><r>октомври<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>novembar<s n="n"/><s n="mi"/></l><r>ноември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>    
+    <e r="RL"><p><l>decembar<s n="n"/><s n="mi"/></l><r>декември<s n="n"/><s n="m"/></r></p><par n="sg_pl_to_sg"/></e>            
    
     <e r="RL"><p><l>Španija<s n="np"/></l><r>Шпанија<s n="np"/></r></p></e>
     <e r="RL"><p><l>Portugal<s n="np"/><s n="top"/><s n="mi"/></l><r>Португалија<s n="np"/><s n="top"/><s n="f"/></r></p></e>                                                                                                                                
