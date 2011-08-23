@@ -791,6 +791,7 @@
      <e><p><l>taj<s n="prn"/></l><r>тој<s n="prn"/></r></p></e>
      <e><p><l>takav<s n="prn"/></l><r>таков<s n="prn"/></r></p></e>
      <e><p><l>tolik<s n="prn"/></l><r>толкав<s n="prn"/></r></p></e>
+
      <e><p><l>onaj<s n="prn"/></l><r>оној<s n="prn"/></r></p></e>
      <e><p><l>onakav<s n="prn"/></l><r>онаков<s n="prn"/></r></p></e>
      <e><p><l>onolik<s n="prn"/></l><r>онолкав<s n="prn"/></r></p></e>
@@ -5828,6 +5829,7 @@
      <e><p><l>Bosna<s n="np"/></l><r>Босна<s n="np"/></r></p></e>
      <e><p><l>Kosovo<s n="np"/></l><r>Косово<s n="np"/></r></p></e>
      <e><p><l>Sjedinjene<b/>Američke<b/>Države<s n="np"/></l><r>Соединети<b/>Американски<b/>Држави<s n="np"/></r></p></e>
+     <e><p><l>Southeast<b/>European<b/>Times<s n="np"/><s n="al"/><s n="mi"/></l><r>Southeast<b/>European<b/>Times<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
      <e><p><l>Irak<s n="np"/></l><r>Ирак<s n="np"/></r></p></e>     
      <e><p><l>Hercegovina<s n="np"/></l><r>Херцеговина<s n="np"/></r></p></e>
      <e><p><l>Rusija<s n="np"/></l><r>Русија<s n="np"/></r></p></e>
@@ -5896,8 +5898,12 @@
 
      <!-- SECTION: Adjectives -->
 
+    <e><p><l>sjedinjen<s n="adj"/></l><r>соединет<s n="adj"/></r></p></e>
+    <e><p><l>sjedinjeno<s n="adv"/></l><r>соединето<s n="adv"/></r></p></e>
     <e><p><l>inozemni<s n="adj"/></l><r>странски<s n="adj"/></r></p></e>
+    <e><p><l>inozemno<s n="adv"/></l><r>странски<s n="adv"/></r></p></e>
     <e><p><l>inostrani<s n="adj"/></l><r>странски<s n="adj"/></r></p></e>
+    <e><p><l>inostrano<s n="adv"/></l><r>странски<s n="adv"/></r></p></e>
     
     <e><p><l>zgodan<s n="adj"/></l><r>згоден<s n="adj"/></r></p></e>
     <e><p><l>gladan<s n="adj"/></l><r>гладен<s n="adj"/></r></p></e>
@@ -6618,6 +6624,7 @@
      <e><p><l>lep<s n="adj"/></l><r>убав<s n="adj"/></r></p></e>
 
      <e><p><l>ratni<s n="adj"/></l><r>воен<s n="adj"/></r></p></e>     
+     <e><p><l>ratno<s n="adv"/></l><r>воено<s n="adv"/></r></p></e>     
      <e><p><l>vojni<s n="adj"/></l><r>воен<s n="adj"/></r></p></e>
      <e><p><l>sretan<s n="adj"/></l><r>среќен<s n="adj"/></r></p></e>
     <e><p><l>prijemni<s n="adj"/></l><r>приемен<s n="adj"/></r></p></e>

@@ -90,6 +90,10 @@
      <cat-item lemma="htjeti" tags="vbmod.pres.*"/>
      <cat-item lemma="htjeti" tags="vbmod.pii.*"/>     
   </def-cat>
+  <def-cat n="prns"><!--All pronouns-->
+     <cat-item tags="prn"/>
+     <cat-item tags="prn.*"/>
+  </def-cat>
   <def-cat n="prn"><!--Not demonstrative-->
      <cat-item tags="prn.pers.*"/>
      <cat-item tags="prn.pos.*"/>     
@@ -509,9 +513,11 @@
                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="некаков"/></equal>
                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="никаков"/></equal>
                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="овој"/></equal>                             
-                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>                                                          
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="оној"/></equal>
                              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="тој"/></equal>
-                                       
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="олкав"/></equal>
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="онолкав"/></equal>
+                             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="толкав"/></equal>                              
                           </or>
                           <or>
                               <equal caseless="yes"><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.itg"/></equal>
@@ -750,16 +756,6 @@
           </concat>
         </let>
       </when>
-      <otherwise>
-          <let>
-              <clip pos="1" side="tl" part="whole"/>
-              <concat>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="a_adv"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-              </concat>
-          </let>
-      </otherwise>
     </choose>
 </def-macro>
 
@@ -3082,7 +3078,7 @@
 
   <rule comment="regla: prn">
      <pattern>
-       <pattern-item n="prn"/>
+       <pattern-item n="prns"/>
      </pattern>
      <action>
        <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>       
