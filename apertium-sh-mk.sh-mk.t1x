@@ -377,6 +377,7 @@
                 <test>
                     <and>
                         <not><equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.ord"/></equal></not>
+                        <not><equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="oba"/></equal></not>
                         <not>
                             <equal>
                                 <clip pos="1" side="tl" part="whole"/>
@@ -396,6 +397,12 @@
                     <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num.ord"/></equal>                    
                 </test>
                 <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom.ind"/></let>                    
+            </when>                
+            <when><!--When it is an 'oba' number-->
+                <test>
+                    <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="oba"/></equal>                    
+                </test>                
+                <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom.def"/></let>                    
             </when>
         </choose>
         

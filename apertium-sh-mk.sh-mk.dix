@@ -551,6 +551,9 @@
  	 <e><p><l>već<s n="cnjcoo"/></l><r>туку<s n="cnjcoo"/></r></p></e>
  	 
  	 <e><p><l>dakle<s n="cnjcoo"/></l><r>така<s n="adv"/></r></p></e> <!--TODO: check-->
+
+  	 <e><p><l>baš<s n="adv"/></l><r>токму<s n="adv"/></r></p></e>
+   	 <e r="RL"><p><l>baš<s n="adv"/></l><r>баш<s n="adv"/></r></p></e>
  	 
   	 <e><p><l>tokom<s n="adv"/></l><r>со<b/>текот<b/>на<s n="adv"/></r></p></e>
    	 <e><p><l>tijekom<s n="adv"/></l><r>со<b/>текот<b/>на<s n="adv"/></r></p></e>
@@ -563,6 +566,11 @@
      <e><p><l>ikuda<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>   	    	      
      <e><p><l>ikamo<s n="adv"/></l><r>каде<b/>било<s n="adv"/></r></p></e>
      <e><p><l>ikako<s n="adv"/></l><r>како<b/>било<s n="adv"/></r></p></e>
+     
+    <e><p><l>nadalje<s n="adv"/></l><r>натаму<s n="adv"/></r></p></e>
+    <e><p><l>naprijed<s n="adv"/></l><r>напред<s n="adv"/></r></p></e>
+    <e><p><l>objeručke<s n="adv"/></l><r>со<b/>обете<b/>раце<s n="adv"/></r></p></e>
+    <e><p><l>ubuduće<s n="adv"/></l><r>во<b/>иднина<s n="adv"/></r></p></e>
      
      <e><p><l>ponovo<s n="adv"/></l><r>повторно<s n="adv"/></r></p></e>
      <e><p><l>ponovno<s n="adv"/></l><r>повторно<s n="adv"/></r></p></e>     
@@ -801,6 +809,7 @@
      <!-- SECTION: Numerals -->
 
      <e><p><l>jedan<s n="num"/></l><r>еден<s n="num"/></r></p></e>
+     <e><p><l>oba<s n="num"/></l><r>два<s n="num"/></r></p></e><!--This is handled in t1x-->
      <e><p><l>dva<s n="num"/></l><r>два<s n="num"/></r></p></e>
      <e><p><l>tri<s n="num"/></l><r>три<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>
      <e><p><l>četiri<s n="num"/></l><r>четири<s n="num"/></r></p><par n="m_f_nt_mfn3"/></e>               
@@ -882,8 +891,33 @@
      
      <!--Days of the week and months-->
 
-    <e><p><l>stranka</l><r>партија</r></p></e>
-    
+    <e><p><l>stranka<s n="n"/><s n="f"/></l><r>партија<s n="n"/><s n="f"/></r></p></e>    
+    <e><p><l>procjep<s n="n"/><s n="mi"/></l><r>јаз<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sukob<s n="n"/><s n="mi"/></l><r>судир<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kolumnist<s n="n"/><s n="ma"/></l><r>колумнист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kolumnista<s n="n"/><s n="ma"/></l><r>колумнист<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vozač<s n="n"/><s n="ma"/></l><r>возач<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kolosijek<s n="n"/><s n="mi"/></l><r>колосек<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>udžbenik<s n="n"/><s n="mi"/></l><r>учебник<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>konac<s n="n"/><s n="mi"/></l><r>конец<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>novac<s n="n"/><s n="mi"/></l><r>пара<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kosovar<s n="n"/><s n="ma"/></l><r>косовар<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>korak<s n="n"/><s n="mi"/></l><r>чекор<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>naputak<s n="n"/><s n="mi"/></l><r>напатство<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>tvrtka<s n="n"/><s n="f"/></l><r>фирма<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>iskaznica<s n="n"/><s n="f"/></l><r>легитимација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Kamenica<s n="np"/></l><r>Каменица<s n="np"/></r></p></e>
+    <e><p><l>albanka<s n="n"/><s n="f"/></l><r>албанка<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>škola<s n="n"/><s n="f"/></l><r>школа<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>crta<s n="n"/><s n="f"/></l><r>црта<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>klupa<s n="n"/><s n="f"/></l><r>клупа<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>poteškoća<s n="n"/><s n="f"/></l><r>тешкотија<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oznaka<s n="n"/><s n="f"/></l><r>ознака<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>područje<s n="n"/><s n="nt"/></l><r>подрачје<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>odredište<s n="n"/><s n="nt"/></l><r>дестинација<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obitelj<s n="n"/><s n="f"/></l><r>семејство<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>rad<s n="n"/><s n="mi"/></l><r>работа<s n="n"/><s n="f"/></r></p></e>
+        
     <e><p><l>ministar<s n="n"/><s n="ma"/></l><r>министер<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sporazum<s n="n"/><s n="mi"/></l><r>спогодба<s n="n"/><s n="f"/></r></p></e>    
 
@@ -5888,15 +5922,39 @@
      <e><p><l>Branko<s n="np"/></l><r>Бранко<s n="np"/></r></p></e>
      <e><p><l>Slobodan<s n="np"/></l><r>Слободан<s n="np"/></r></p></e>
      <e><p><l>Petar<s n="np"/></l><r>Петар<s n="np"/></r></p></e>
+     
+      <e><p><l>Dragiša<s n="np"/></l><r>Драгиша<s n="np"/></r></p></e>
+     <e><p><l>Aleksandar<s n="np"/></l><r>Александар<s n="np"/></r></p></e>
+     <e><p><l>Bajram<s n="np"/></l><r>Бајрам<s n="np"/></r></p></e>
+     <e><p><l>Fatlum<s n="np"/></l><r>Фатлум<s n="np"/></r></p></e>
+     <e><p><l>Hasan<s n="np"/></l><r>Хасан<s n="np"/></r></p></e>
+
+     <e><p><l>Sadik<s n="np"/></l><r>Садик<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>
+     <e><p><l>Berisha<s n="np"/></l><r>Бериша<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>
+     
+     <e><p><l>Rexhepi<s n="np"/></l><r>Rexhepi<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>
+     <e><p><l>SETimes<s n="np"/><s n="al"/><s n="mi"/></l><r>SETimes<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
 
      <e><p><l>Beograd<s n="np"/></l><r>Београд<s n="np"/></r></p></e>
      <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/></r></p></e>
      <e><p><l>Sofija<s n="np"/></l><r>Софија<s n="np"/></r></p></e>
      <e><p><l>Plovdiv<s n="np"/></l><r>Пловдив<s n="np"/></r></p></e>
-     <e><p><l>Skopje<s n="np"/></l><r>Скопје<s n="np"/></r></p></e>     
+     <e><p><l>Skopje<s n="np"/></l><r>Скопје<s n="np"/></r></p></e>
+     <e><p><l>Podujevo<s n="np"/></l><r>Подујево<s n="np"/></r></p></e>
+     <e><p><l>Mitrovica<s n="np"/></l><r>Митровица<s n="np"/></r></p></e>                    
+     <e><p><l>Priština<s n="np"/></l><r>Приштина<s n="np"/></r></p></e>          
 
 
      <!-- SECTION: Adjectives -->
+
+    <e><p><l>zabrinut<s n="adj"/></l><r>загрижен<s n="adj"/></r></p></e>
+    <e><p><l>zabrinuto<s n="adv"/></l><r>загрижено<s n="adv"/></r></p></e>    
+    <e><p><l>skup<s n="adj"/></l><r>скап<s n="adj"/></r></p></e>
+    <e><p><l>skupo<s n="adv"/></l><r>скапо<s n="adv"/></r></p></e>
+    <e><p><l>svakodnevan<s n="adj"/></l><r>секидневен<s n="adj"/></r></p></e>
+    <e><p><l>svakodnevno<s n="adv"/></l><r>секидневно<s n="adv"/></r></p></e>
+    <e><p><l>nestali<s n="adj"/></l><r>исчезнат<s n="adj"/></r></p></e>
+    <e><p><l>nestalo<s n="adv"/></l><r>исчезнато<s n="adv"/></r></p></e>
 
     <e><p><l>sjedinjen<s n="adj"/></l><r>соединет<s n="adj"/></r></p></e>
     <e><p><l>sjedinjeno<s n="adv"/></l><r>соединето<s n="adv"/></r></p></e>
@@ -6885,6 +6943,7 @@
 	<e><p><l>ruski<s n="adj"/></l><r>руски<s n="adj"/></r></p></e>
 	<e><p><l>sarajevski<s n="adj"/></l><r>сараевски<s n="adj"/></r></p></e>
 	<e><p><l>svjetski<s n="adj"/></l><r>светски<s n="adj"/></r></p></e>
+	<e><p><l>svjetski<s n="adv"/></l><r>светски<s n="adv"/></r></p></e>
 	<e><p><l>sjevernoamerički<s n="adj"/></l><r>северноамерикански<s n="adj"/></r></p></e>
 	<e><p><l>sjevernokorejski<s n="adj"/></l><r>севернокорејски<s n="adj"/></r></p></e>
 	<e><p><l>seoski<s n="adj"/></l><r>селски<s n="adj"/></r></p></e>
@@ -9417,13 +9476,22 @@
         <e><p><l>automatski<s n="adj"/></l><r>автоматски<s n="adj"/></r></p></e> 
         <e><p><l>surađivati<s n="vblex"/></l><r>соработува<s n="vblex"/></r></p><par n="_imperf_iv_ref_to_imperf_iv_"/></e>
         <e><p><l>diskutirati<s n="vblex"/></l><r>дискутира<s n="vblex"/></r></p><par n="_perf_imperf_iv_tv_to_imperf_iv_tv_"/></e>
+        <e><p><l>kontaktirati<s n="vblex"/></l><r>контактира<s n="vblex"/></r></p></e>
+        <e><p><l>podupirati<s n="vblex"/></l><r>потпира<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>sudjelovati<s n="vblex"/></l><r>учествува<s n="vblex"/></r></p></e>
         <e><p><l>djelovati<s n="vblex"/></l><r>дејствува<s n="vblex"/></r></p></e>
         <e r="RL"><p><l>usuglašavati<s n="vblex"/></l><r>согласува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_iv_"/></e>
         <e><p><l>rezultirati<s n="vblex"/></l><r>резултира<s n="vblex"/></r></p><par n="_perf_imperf_iv_to_perf_tv_"/></e>
         <e><p><l>interesirati<s n="vblex"/></l><r>интензивира<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_perf_tv_"/></e>
+        <e><p><l>skrenuti<s n="vblex"/></l><r>обрне<s n="vblex"/></r></p></e>
+        <e><p><l>smatrati<s n="vblex"/></l><r>смета<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
+        <e><p><l>sučeliti<s n="vblex"/></l><r>соочи<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_tv_"/></e>
+        <e><p><l>sučeljavati<s n="vblex"/></l><r>соочува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
+        <e><p><l>svađati<s n="vblex"/></l><r>кара<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
         <e><p><l>ovisiti<s n="vblex"/></l><r>зависи<s n="vblex"/></r></p></e>
         <e><p><l>vrijediti<s n="vblex"/></l><r>важи<s n="vblex"/></r></p></e>
+        <e><p><l>pokušati<s n="vblex"/></l><r>обиде<s n="vblex"/></r></p></e>
+        <e><p><l>produljiti<s n="vblex"/></l><r>продолжи<s n="vblex"/></r></p><par n="_perf_tv_ref_to_perf_iv_tv_"/></e>
         <e><p><l>saopćiti<s n="vblex"/></l><r>соопшти<s n="vblex"/></r></p></e>
         <e><p><l>emitirati<s n="vblex"/></l><r>емитува<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>nominirati<s n="vblex"/></l><r>номинира<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
@@ -9546,7 +9614,7 @@
         <e><p><l>komandovati<s n="vblex"/></l><r>командува<s n="vblex"/></r></p><par n="_imperf_iv_to_imperf_tv_"/></e>
         <e><p><l>krunisati<s n="vblex"/></l><r>крунисува<s n="vblex"/></r></p><par n="_perf_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>posmatrati<s n="vblex"/></l><r>набљудува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_iv_tv_"/></e>
-        <e><p><l>odgajati<s n="vblex"/></l><r>одгледува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
+        <e r="RL"><p><l>odgajati<s n="vblex"/></l><r>одгледува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>publikovati<s n="vblex"/></l><r>публикува<s n="vblex"/></r></p><par n="_perf_imperf_tv_to_imperf_tv_"/></e>
         <e><p><l>upoređivati<s n="vblex"/></l><r>споредува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>čuvstvovati<s n="vblex"/></l><r>чувствува<s n="vblex"/></r></p></e>
@@ -10326,7 +10394,6 @@
         <e><p><l>odbrojavati<s n="vblex"/></l><r>одбројува<s n="vblex"/></r></p></e>
         <e><p><l>odvlačiti<s n="vblex"/></l><r>одвлекува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e r="RL"><p><l>odgajati<s n="vblex"/></l><r>одгледува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
-        <e><p><l>odgajati<s n="vblex"/></l><r>одгледува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>oduživati<s n="vblex"/></l><r>оддолжува<s n="vblex"/></r></p><par n="_imperf_ref_to_imperf_tv_"/></e>
         <e><p><l>odmrzavati<s n="vblex"/></l><r>одмрзнува<s n="vblex"/></r></p><par n="_imperf_tv_ref_to_imperf_tv_"/></e>
         <e><p><l>ozdravljivati<s n="vblex"/></l><r>оздравува<s n="vblex"/></r></p><par n="_imperf_iv_tv_ref_to_imperf_tv_"/></e>
