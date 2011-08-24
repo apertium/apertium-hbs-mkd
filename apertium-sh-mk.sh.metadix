@@ -31008,7 +31008,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ubijediti"><i>ub</i><par n="e_ije__yat"/><i/><par n="perf_tv_izra/diti__vblex"/></e><!--Note: only in serbian and bosnian-->
 <e lm="ubijediti"><i>ub</i><par n="e_ije__yat"/><i/><par n="perf_ref_izra/diti__vblex"/></e><!--Note: only in serbian and bosnian-->
 <e lm="osuditi"><i>osu</i><par n="perf_tv_izra/diti__vblex"/></e>
-<e lm="osuditi"><i>osu</i><par n="perf_iv_izra/diti__vblex"/></e>
 <e lm="pogoditi"><i>pogo</i><par n="perf_tv_izra/diti__vblex"/></e>
 <e lm="pogoditi"><i>pogo</i><par n="perf_iv_izra/diti__vblex"/></e>
 <e lm="tvrditi"><i>tvr</i><par n="imperf_tv_ra/diti__vblex"/></e>

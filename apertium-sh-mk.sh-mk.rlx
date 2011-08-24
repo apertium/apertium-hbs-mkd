@@ -270,7 +270,7 @@ SELECT:imatiAcc Acc (-1 ("imati"i) OR ("nemati"i)) (-2 PersPron + (p3)) ;
 
 # Normally, if it's a transitive verb, it's accusative by definition
 SELECT:tvAcc Acc (-1C V + Transitive ); 
-SELECT:tvAcc Acc (-2C V + Transitive) (-1 ("<niti>"i) + CC) ;
+SELECT:tvAcc Acc (-2C V + Transitive) ;
 
 REMOVE:notVoc Voc IF (NOT -1 Voc OR Cm);
 REMOVE:notVoc Voc IF (NOT 1 Voc OR Cm);

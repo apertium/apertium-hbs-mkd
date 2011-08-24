@@ -1592,14 +1592,14 @@
 
 <rule comment="regla: vbmod infinitive">
 <pattern><!-- može usporediti -> може да спореди -->
-      <pattern-item n="vbmod"/>
+      <pattern-item n="verb"/>
       <pattern-item n="vbinf"/>
 </pattern>
 <action>
     <call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
     <call-macro n="verb_adapter"><with-param pos="2"/></call-macro>    
     <out>
-        <chunk name="vbmod_inf" case="caseFirstWord">
+        <chunk name="verb_inf" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="SV"/></tag>
              <tag><clip pos="1" side="tl" part="prs"/></tag>
