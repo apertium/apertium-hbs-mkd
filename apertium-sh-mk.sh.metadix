@@ -4977,7 +4977,8 @@ after prepositions-->
 	<e><i/><par n="tvoj__prn"/></e>
 	<e><i/><par n="svoj__prn"/></e>
 	<e><i/><par n="njegov__prn"/></e>
-	<e><i/><par n="njen__prn"/></e><e lm="njezin"><i/><par n="njezin__prn"/></e>
+	<e><i/><par n="njen__prn"/></e>
+<e lm="njezin"><i/><par n="njezin__prn"/></e>
 	<e><i/><par n="naš__prn"/></e>
 	<e><i/><par n="vaš__prn"/></e>
 	<e><i/><par n="njihov__prn"/></e>
@@ -7559,44 +7560,15 @@ after prepositions-->
 <!--Infinitive-->
 <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><p><l>c</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><p><l>d</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><p><l>č</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<e><p><l>d</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
 <!--Imperfect-->
-<e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><p><l>đa</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
 <!--Participles-->
-    <e><p><l>ći</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-  <e><p><l>kući</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="imperf_iv_i/ći__vblex">
-<!--Infinitive-->
-<e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
-<!--Imperative-->
-<e><p><l>c</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
-<!--Present-->
-<e><p><l>č</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
-<!--Aorist-->
-<!--Participles-->
-    <e><p><l>ći</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-  <e><p><l>kući</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="imperf_tv_i/ći__vblex">
-<!--Infinitive-->
-<e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__imperf"/></e>
-<!--Imperative-->
-<e><p><l>c</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
-<!--Present-->
-<e><p><l>č</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>ko</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
-<!--Aorist-->
-<!--Participles-->
-    <e><p><l>ći</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-   <e><p><l>čen</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-  <e><p><l>kući</l><r>ći<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><p><l>ša</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
+  <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="perf_iv_povu/ći__vblex">
@@ -7713,6 +7685,7 @@ after prepositions-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="perf_ref_do/ći__vblex">
 <!--Infinitive-->
 <e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__ref__vblex__perf"/></e>
@@ -7730,24 +7703,6 @@ after prepositions-->
 <!--Participles-->
     <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_ao__sfx"/></e>
   <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="perf_iv_do/ći__vblex">
-<!--Infinitive-->
-<e><p><l></l><r></r></p><par n="inf_ći+fiiI__sfx__iv__vblex__perf"/></e>
-<!--Imperative-->
-<e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
-<!--Present-->
-<e><p><l>đ</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Aorist-->
-<e><p><l>đoh</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
-<e><p><l>đe</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>đosmo</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>đoste</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
-<e><p><l>đoše</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
-<!--Participles-->
-    <e><p><l>š</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_ao__sfx"/></e>
-  <e><p><l>šavši</l><r>ći<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="perf_tv_do/ći__vblex">
@@ -9712,6 +9667,7 @@ after prepositions-->
     <e><p><l>za</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
   <e><p><l>žući</l><r>zati<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="perf_tv_di/zati__vblex">
 <!--Infinitive-->
 <e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
@@ -9719,61 +9675,27 @@ after prepositions-->
 <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
 <e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
 <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
     <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
    <e><p><l>zan</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="perf_tv_di/zati__vblex">
-<!--Infinitive-->
-<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
-<!--Imperative-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
-<!--Present-->
-<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
-<!--Aorist-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
-<!--Participles-->
-    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="perf_iv_di/zati__vblex">
-<!--Infinitive-->
-<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
-<!--Imperative-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
-<!--Present-->
-<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
-<!--Aorist-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
-<!--Participles-->
-    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
-</pardef>
-<pardef n="perf_iv_di/zati__vblex">
-<!--Infinitive-->
-<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
-<!--Imperative-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
-<!--Present-->
-<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
-<!--Imperfect-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
-<!--Aorist-->
-<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
-<!--Participles-->
-    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-  <e><p><l>žući</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+  <e><p><l>zavši</l><r>zati<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
+<pardef n="perf_iv_di/zati__vblex">
+<!--Infinitive-->
+<e><p><l>za</l><r>za</r></p><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<!--Imperative-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<!--Present-->
+<e><p><l>ž</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__em__vblex"/></e>
+<!--Aorist-->
+<e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<!--Participles-->
+    <e><p><l>za</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
+  <e><p><l>zavši</l><r>zati<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+</pardef>
 
 <pardef n="imperf_iv_pi/sati__vblex">
 <!--Infinitive-->
@@ -24311,7 +24233,8 @@ after prepositions-->
     <e><p><l>ku</l><r>k<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>kom</l><r>k<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ci</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ka</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e><e r="LR"><p><l>kâ</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ka</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>kâ</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>cima</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ke</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ci</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -24327,7 +24250,8 @@ after prepositions-->
     <e><p><l>ku</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>kom</l><r>k<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ci</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ka</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e><e r="LR"><p><l>kâ</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ka</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>kâ</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>cima</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ke</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ci</l><r>k<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -26973,21 +26897,21 @@ after prepositions-->
         <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
           <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
 </pardef>
-<pardef n="dijete__n"><!--This one is a handful, therefore the paradigm is as raw as can be-->
+<pardef n="dijete__n">
             <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>teta</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>teta</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
            <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
            <e><i>d</i><par n="e_ije__yat"/><p><l>te</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>ca</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>ce</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>cu</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>co</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
-           <e><i>d</i><par n="e_je__yat"/><p><l>com</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>tetu</l><r>te<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>ca</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>ce</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>cu</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>co</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>ci</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
+           <e><i>d</i><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>com</l><r>te<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="ždrijebe__n"><!--Also raw, if needed I'll turn it into a more general paradigm-->
            <e><i>ždr</i><par n="e_ije__yat"/><p><l>be</l><r>be<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -27199,7 +27123,36 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l/><r><s n="num"/><s n="f"/><s n="loc"/></r></p></e>
     <e><p><l/><r><s n="num"/><s n="f"/><s n="ins"/></r></p></e>
 </pardef>
-
+<pardef n="numeros_con_inflexion">
+    <e><p><l></l><r><s n="num"/><s n="f"/><s n="nom"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="f"/><s n="acc"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="f"/><s n="voc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="dat"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="loc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="f"/><s n="ins"/></r></p></e>
+    <e><p><l>ju</l><r><s n="num"/><s n="f"/><s n="gen"/></r></p></e>    
+    <e><p><l></l><r><s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
+    <e><p><l>ju</l><r><s n="num"/><s n="nt"/><s n="gen"/></r></p></e>   
+    <e><p><l></l><r><s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
+    <e><p><l>ju</l><r><s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
+    <e><p><l></l><r><s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
+    <e><p><l>ma</l><r><s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
+    <e><p><l>ju</l><r><s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
+</pardef>
     <pardef n="numeros"><!--TODO: this is just an incomplete sketch, other cases need to be added, possibly just an adjectival paradigm appended at the end-->
       <e>        <re>[0-9]+([., ][0-9]+)?</re>        <p>          <l></l>          <r><s n="num"/></r></p></e>
       <e><re>[0-9][0-9].</re><p><l>-/</l><r>\</r></p><re>[0-9][0-9].</re><p><l>-/</l><r>\</r></p><re>[0-9][0-9][0-9][0-9]</re><p><l></l><r><s n="num"/></r></p></e>
@@ -27298,7 +27251,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <!--end Collective numerals-->
     
     <e><i>tri</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>tri</i><par n="numeros_con_inflexion"/></e>
     <e><i>četiri</i><par n="numeros_sin_inflexion"/></e>
+    <e><i>četiri</i><par n="numeros_con_inflexion"/></e>
     <e><i>pet</i><par n="numeros_sin_inflexion"/></e>
     <e><i>šest</i><par n="numeros_sin_inflexion"/></e>
     <e><i>sedam</i><par n="numeros_sin_inflexion"/></e>
@@ -27406,6 +27361,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><p><l>jednim</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
  <e r="LR"><p><l>jednima</l><r>jedan<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
 
+    <!--Aquellos sin inflexion-->
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
@@ -27413,7 +27369,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
-    
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
@@ -27421,7 +27376,13 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
     <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
-            
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="dat"/></r></p></e>	    
@@ -27429,35 +27390,35 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
 	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>			
-
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
-	<e><p><l>triju</l><r>tri<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
-	<e><p><l>triju</l><r>tri<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
-	<e><p><l>triju</l><r>tri<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="dat"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="f"/><s n="ins"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
-	<e><p><l>triju</l><r>tri<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
-	<e><p><l>tri</l><r>tri<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
-	<e><p><l>trima</l><r>tri<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
+    <!--Los con inflexion-->	
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="nom"/></r></p></e>
+    <e><p><l>dvaju</l><r>dva<s n="num"/><s n="mi"/><s n="gen"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="dat"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="acc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="mi"/><s n="voc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="loc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="mi"/><s n="ins"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="nom"/></r></p></e>
+    <e><p><l>dvaju</l><r>dva<s n="num"/><s n="ma"/><s n="gen"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="dat"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="acc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="ma"/><s n="voc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="loc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="ma"/><s n="ins"/></r></p></e>    
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="nom"/></r></p></e>
+    <e><p><l>dvaju</l><r>dva<s n="num"/><s n="nt"/><s n="gen"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="dat"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="acc"/></r></p></e>
+    <e><p><l>dva</l><r>dva<s n="num"/><s n="nt"/><s n="voc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="loc"/></r></p></e>
+    <e><p><l>dvama</l><r>dva<s n="num"/><s n="nt"/><s n="ins"/></r></p></e>
+	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="nom"/></r></p></e>
+	<e><p><l>dviju</l><r>a<s n="num"/><s n="f"/><s n="gen"/></r></p></e>
+	<e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="dat"/></r></p></e>	    
+	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="acc"/></r></p></e>
+	<e><i>dv</i><par n="e_ije_left__yat"/><p><l></l><r>a<s n="num"/><s n="f"/><s n="voc"/></r></p></e>
+	<e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="loc"/></r></p></e>
+	<e><i>dv</i><par n="e_je_left__yat"/><p><l>ma</l><r>a<s n="num"/><s n="f"/><s n="ins"/></r></p></e>			            
 
     <e><p><l>milion</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>miliona</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -29868,6 +29829,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="preko"><i>preko</i><par n="preposition__pr"/></e>
 <e lm="prije"><i>pr</i><par n="e_ije__yat"/><par n="preposition__pr"/></e>
 <e lm="kasnije"><i>kasnije</i><par n="danas__adv"/></e>
+<e lm="objeručke"><i>ob</i><par n="e_je__yat"/><i>ručke</i><par n="danas__adv"/></e>
 <e lm="prvi put"><i>prvi<b/>put</i><par n="danas__adv"/></e>
 <e lm="prvi puta"><i>prvi<b/>puta</i><par n="danas__adv"/></e>
 <e lm="protiv"><i>protiv</i><par n="preposition__pr"/></e>
@@ -30371,6 +30333,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pomišljati"><i>pomišlj</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="popričati"><i>poprič</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="porazgovarati"><i>porazgovar</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="smatrati"><i>smatr</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="smatrati"><i>smatr</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="posmatrati"><i>posmatr</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="posmatrati"><i>posmatr</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="postupati"><i>postup</i><par n="imperf_iv_bir/ati__vblex"/></e>
@@ -31584,15 +31548,15 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="povezivati"><i>povez</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="unaprijeđivati"><i>unaprijeđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="unaprijeđivati"><i>unaprijeđ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="pokrivati"><i>pokr</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="pokrivati"><i>pokr</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="pokrivati"><i>pokriv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="pokrivati"><i>pokriv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="zaprečivati"><i>zapreč</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="posjećivati"><i>posjeć</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="ukazivati"><i>ukaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="ukazivati"><i>ukaz</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="utvrđivati"><i>utvrđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="utvrđivati"><i>utvrđ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="izazivati"><i>izaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="izazivati"><i>izaziv</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="preporučivati"><i>preporuč</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="preporučivati"><i>preporuč</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="presuđivati"><i>presuđ</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
@@ -31616,23 +31580,23 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="produživati"><i>produž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="potpisivati"><i>potpis</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="potpisivati"><i>potpis</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="izbivati"><i>izb</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
+<e lm="izbivati"><i>izbiv</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="pojavljivati"><i>pojavlj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="uživati"><i>už</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="uživati"><i>uživ</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="zahvaljivati"><i>zahvalj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="zahvaljivati"><i>zahvalj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="vezivati"><i>vez</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="vezivati"><i>vez</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="počivati"><i>poč</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
-<e lm="snivati"><i>sn</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="snivati"><i>sn</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
+<e lm="počivati"><i>počiv</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="snivati"><i>sniv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="snivati"><i>sniv</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="uperivati"><i>uper</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="upisivati"><i>upis</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="upisivati"><i>upis</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="urezivati"><i>urez</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="ocjenjivati"><i>ocjenj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="ocjenjivati"><i>ocjenj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="sazivati"><i>saz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="sazivati"><i>saziv</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="smirivati"><i>smir</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="smirivati"><i>smir</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="umirivati"><i>umir</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31654,8 +31618,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="namjenjivati"><i>namjenj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="napušivati"><i>napuš</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="napušivati"><i>napuš</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="nazivati"><i>naz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="nazivati"><i>naz</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="nazivati"><i>naziv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="nazivati"><i>naziv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="upućivati"><i>upuć</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="upućivati"><i>upuć</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="ograđivati"><i>ograđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31690,8 +31654,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ukorjenjivati"><i>ukorjenj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="zaduživati"><i>zaduž</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="zaduživati"><i>zaduž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="zamaglivati"><i>zamagl</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="zamaglivati"><i>zamagl</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="zamagljivati"><i>zamaglj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="zamagljivati"><i>zamaglj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="zaleđivati"><i>zaleđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="zaleđivati"><i>zaleđ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="zasluživati"><i>zasluž</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31707,8 +31671,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="nagrađivati"><i>nagrađ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="nasljeđivati"><i>nasljeđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="oporezivati"><i>oporez</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="odgajivati"><i>odgaj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="odgajivati"><i>odgaj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="odgajati"><i>odgaj</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="odgajati"><i>odgaj</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="oduživati"><i>oduž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="ozdravljivati"><i>ozdravlj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="ozdravljivati"><i>ozdravlj</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
@@ -31731,8 +31695,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="posvećivati"><i>posveć</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="posluživati"><i>posluž</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="posluživati"><i>posluž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="podrivati"><i>podr</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="podrivati"><i>podr</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="podrivati"><i>podriv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="podrivati"><i>podriv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="potpaljivati"><i>potpalj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="podcjenjivati"><i>podcjenj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="podcjenjivati"><i>podcjenj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
@@ -31790,7 +31754,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="obrađivati"><i>obrađ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="opterećivati"><i>optereć</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="opterećivati"><i>optereć</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="opozivati"><i>opoz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="opozivati"><i>opoziv</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="pomlađivati"><i>pomlađ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="pomlađivati"><i>pomlađ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="potkrepljivati"><i>potkreplj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31810,8 +31774,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="preispitivati"><i>preispit</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="preispitivati"><i>preispit</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="prerađivati"><i>prerađ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="razotkrivati"><i>razotkr</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="razotkrivati"><i>razotkr</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="razotkrivati"><i>razotkriv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="razotkrivati"><i>razotkriv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="raspoređivati"><i>raspoređ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="raspoređivati"><i>raspoređ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="razrađivati"><i>razrađ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31837,7 +31801,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="isplaćivati"><i>isplać</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="otplaćivati"><i>otplać</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="doplaćivati"><i>doplać</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="isplaćivati"><i>isplać</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="naplaćivati"><i>naplać</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="otkupljivati"><i>otkuplj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="otkupljivati"><i>otkuplj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
@@ -31846,7 +31809,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="dočekivati"><i>doček</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="pretplaćivati"><i>pretplać</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="pretplaćivati"><i>pretplać</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="otpočivati"><i>otpoč</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
+<e lm="otpočivati"><i>otpočiv</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="predskazivati"><i>predskaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="samooptuživati"><i>samooptuž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="samozaštićivati"><i>samozaštić</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
@@ -31854,21 +31817,21 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="samoopredjeljivati"><i>samoopredjelj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="obezbjeđivati"><i>obezbjeđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="obezbjeđivati"><i>obezbjeđ</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="plivati"><i>pl</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
-<e lm="šivati"><i>š</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="šivati"><i>š</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
+<e lm="plivati"><i>pliv</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="šivati"><i>šiv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="šivati"><i>šiv</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="otkazivati"><i>otkaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="otkrivati"><i>otkr</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="otkrivati"><i>otkr</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="otkrivati"><i>otkriv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="otkrivati"><i>otkriv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="objavljivati"><i>objavlj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="osnaživati"><i>osnaž</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="osnaživati"><i>osnaž</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="potvrđivati"><i>potvrđ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="zbivati"><i>zb</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="umivati"><i>um</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="umivati"><i>um</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
-<e lm="pozivati"><i>poz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
-<e lm="pozivati"><i>poz</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="zbivati"><i>zbiv</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="umivati"><i>umiv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="umivati"><i>umiv</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
+<e lm="pozivati"><i>poziv</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="pozivati"><i>poziv</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="pohvaljivati"><i>pohvalj</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="pohvaljivati"><i>pohvalj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="izrađivati"><i>izrađ</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31884,7 +31847,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="smjenjivati"><i>smjenj</i><par n="imperf_ref_odluč/ivati__vblex"/></e>
 <e lm="produživati"><i>produž</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="produživati"><i>produž</i><par n="imperf_iv_odluč/ivati__vblex"/></e>
-<e lm="dobivati"><i>dob</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
+<e lm="dobivati"><i>dobiv</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="odlučivati"><i>odluč</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="kazivati"><i>kaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
 <e lm="pokazivati"><i>pokaz</i><par n="imperf_tv_odluč/ivati__vblex"/></e>
@@ -31949,29 +31912,46 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="gladovati"><i>glad</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="emitovati"><i>emit</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="emitovati"><i>emit</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="žrtvovati"><i>žrtv</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="žrtvovati"><i>žrtv</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="žrtvovati"><i>žrtv</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="žrtvovati"><i>žrtv</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="imenovati"><i>imen</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="imenovati"><i>imen</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="imenovati"><i>imen</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="imenovati"><i>imen</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="nominovati"><i>nomin</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="nominovati"><i>nomin</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="nominovati"><i>nomin</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="nominovati"><i>nomin</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="žrtvovati"><i>žrtv</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="žrtvovati"><i>žrtv</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="žrtvovati"><i>žrtv</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="žrtvovati"><i>žrtv</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="imenovati"><i>imen</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="imenovati"><i>imen</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="imenovati"><i>imen</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="imenovati"><i>imen</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="nominovati"><i>nomin</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="nominovati"><i>nomin</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="nominovati"><i>nomin</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="nominovati"><i>nomin</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="linčovati"><i>linč</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="linčovati"><i>linč</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="školovati"><i>škol</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="školovati"><i>škol</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="školovati"><i>škol</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="školovati"><i>škol</i><par n="imperf_ref_tr/ovati__vblex"/></e>
 <e lm="bolovati"><i>bol</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="nazadovati"><i>nazad</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="negodovati"><i>negod</i><par n="imperf_iv_tr/ovati__vblex"/></e>
-<e lm="oblikovati"><i>oblik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="oblikovati"><i>oblik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="oblikovati"><i>oblik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="oblikovati"><i>oblik</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="obrazovati"><i>obraz</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="obrazovati"><i>obraz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="obrazovati"><i>obraz</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="obrazovati"><i>obraz</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="odlikovati"><i>odlik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="odlikovati"><i>odlik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="odlikovati"><i>odlik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="odlikovati"><i>odlik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="oblikovati"><i>oblik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="oblikovati"><i>oblik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="oblikovati"><i>oblik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="oblikovati"><i>oblik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="obrazovati"><i>obraz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="obrazovati"><i>obraz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="obrazovati"><i>obraz</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="obrazovati"><i>obraz</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="odlikovati"><i>odlik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="odlikovati"><i>odlik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="odlikovati"><i>odlik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="odlikovati"><i>odlik</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="pomilovati"><i>pomil</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="rizikovati"><i>rizik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="rizikovati"><i>rizik</i><par n="imperf_iv_tr/ovati__vblex"/></e>
-<e lm="rizikovati"><i>rizik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="rizikovati"><i>rizik</i><par n="perf_iv_tr/ovati__vblex"/></e>
-<e lm="savjetovati"><i>savjet</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="savjetovati"><i>savjet</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="savjetovati"><i>savjet</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="savjetovati"><i>savjet</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="rizikovati"><i>rizik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="rizikovati"><i>rizik</i><par n="imperf_iv_tr/ovati__vblex"/></e>
+<e lm="rizikovati"><i>rizik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="rizikovati"><i>rizik</i><par n="perf_iv_tr/ovati__vblex"/></e>
+<e lm="savjetovati"><i>savjet</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="savjetovati"><i>savjet</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="savjetovati"><i>savjet</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="savjetovati"><i>savjet</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="strahovati"><i>strah</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="obilovati"><i>obil</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="komandovati"><i>komand</i><par n="imperf_iv_tr/ovati__vblex"/></e>
@@ -31984,58 +31964,85 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="štrajkovati"><i>štrajk</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="posredovati"><i>posred</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="posredovati"><i>posred</i><par n="perf_iv_tr/ovati__vblex"/></e>
-<e lm="komplikovati"><i>komplik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="komplikovati"><i>komplik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="komplikovati"><i>komplik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="komplikovati"><i>komplik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
 <e lm="konfiskovati"><i>konfisk</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="konfiskovati"><i>konfisk</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="modifikovati"><i>modifik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="modifikovati"><i>modifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="modifikovati"><i>modifik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="modifikovati"><i>modifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="modifikovati"><i>modifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="modifikovati"><i>modifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="modifikovati"><i>modifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="modifikovati"><i>modifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="otsustvovati"><i>otsustv</i><par n="imperf_iv_tr/ovati__vblex"/></e>
-<e lm="posavjetovati"><i>posavjet</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="posavjetovati"><i>posavjet</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="posavjetovati"><i>posavjet</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="posavjetovati"><i>posavjet</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="praktikovati"><i>praktik</i><par n="imperf_iv_tr/ovati__vblex"/></e>
-<e lm="preimenovati"><i>preimen</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="preimenovati"><i>preimen</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="preimenovati"><i>preimen</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="preimenovati"><i>preimen</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="ratifikovati"><i>ratifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="ratifikovati"><i>ratifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="kvalifikovati"><i>kvalifik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="kvalifikovati"><i>kvalifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="kvalifikovati"><i>kvalifik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="kvalifikovati"><i>kvalifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="kvalifikovati"><i>kvalifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="kvalifikovati"><i>kvalifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="kvalifikovati"><i>kvalifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="kvalifikovati"><i>kvalifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="gazdovati"><i>gazd</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="šefovati"><i>šef</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="falsifikovati"><i>falsifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="falsifikovati"><i>falsifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="identifikovati"><i>identifik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="identifikovati"><i>identifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="identifikovati"><i>identifik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="identifikovati"><i>identifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="diskvalifikovati"><i>diskvalifik</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="diskvalifikovati"><i>diskvalifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="diskvalifikovati"><i>diskvalifik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="diskvalifikovati"><i>diskvalifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="identifikovati"><i>identifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="identifikovati"><i>identifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="identifikovati"><i>identifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="identifikovati"><i>identifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="diskvalifikovati"><i>diskvalifik</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="diskvalifikovati"><i>diskvalifik</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="diskvalifikovati"><i>diskvalifik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="diskvalifikovati"><i>diskvalifik</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="nakupovati"><i>nakup</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="povjerovati"><i>povjer</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="povjerovati"><i>povjer</i><par n="perf_iv_tr/ovati__vblex"/></e>
+<e lm="povjerovati"><i>povjer</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="povjerovati"><i>povjer</i><par n="perf_iv_tr/ovati__vblex"/></e>
 <e lm="proputovati"><i>proput</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="deblokovati"><i>deblok</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="deblokovati"><i>deblok</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="deblokovati"><i>deblok</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="deblokovati"><i>deblok</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="odblokovati"><i>odblok</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="odblokovati"><i>odblok</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="deblokovati"><i>deblok</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="deblokovati"><i>deblok</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="deblokovati"><i>deblok</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="deblokovati"><i>deblok</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="odblokovati"><i>odblok</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="odblokovati"><i>odblok</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="nakupovati"><i>nakup</i><par n="perf_tv_tr/ovati__vblex"/></e>
 <e lm="izdejstvovati"><i>izdejstv</i><par n="perf_iv_tr/ovati__vblex"/></e>
 <e lm="isposlovati"><i>isposl</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="iskritikovati"><i>iskritik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="iskritikovati"><i>iskritik</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="iskritikovati"><i>iskritik</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="iskritikovati"><i>iskritik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="iskritikovati"><i>iskritik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="iskritikovati"><i>iskritik</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="iskritikovati"><i>iskritik</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="iskritikovati"><i>iskritik</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="prodiskutovati"><i>prodiskut</i><par n="perf_tv_tr/ovati__vblex"/></e>
 <e lm="saučestvovati"><i>saučestv</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="saučestvovati"><i>saučestv</i><par n="perf_iv_tr/ovati__vblex"/></e>
 <e lm="sudjelovati"><i>sudjel</i><par n="imperf_iv_tr/ovati__vblex"/></e>
-<e lm="reorganizovati"><i>reorganiz</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="reorganizovati"><i>reorganiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="reorganizovati"><i>reorganiz</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="reorganizovati"><i>reorganiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
-<e lm="dezorganizovati"><i>dezorganiz</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="dezorganizovati"><i>dezorganiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="dezorganizovati"><i>dezorganiz</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="dezorganizovati"><i>dezorganiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="reorganizovati"><i>reorganiz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="reorganizovati"><i>reorganiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="reorganizovati"><i>reorganiz</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="reorganizovati"><i>reorganiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="dezorganizovati"><i>dezorganiz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="dezorganizovati"><i>dezorganiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="dezorganizovati"><i>dezorganiz</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="dezorganizovati"><i>dezorganiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="finalizovati"><i>finaliz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="finalizovati"><i>finaliz</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="realizovati"><i>realiz</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="realizovati"><i>realiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="realizovati"><i>realiz</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="realizovati"><i>realiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="realizovati"><i>realiz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="realizovati"><i>realiz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="realizovati"><i>realiz</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="realizovati"><i>realiz</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="apelovati"><i>apel</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="apelovati"><i>apel</i><par n="perf_iv_tr/ovati__vblex"/></e>
-<e lm="harmonizovati"><i>harmoniz</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="harmonizovati"><i>harmoniz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="harmonizovati"><i>harmoniz</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="harmonizovati"><i>harmoniz</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="harmonizovati"><i>harmoniz</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="harmonizovati"><i>harmoniz</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="harmonizovati"><i>harmoniz</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="harmonizovati"><i>harmoniz</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="garantovati"><i>garant</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="garantovati"><i>garant</i><par n="perf_tv_tr/ovati__vblex"/></e>
-<e lm="prezentovati"><i>prezent</i><par n="imperf_tv_tr/ovati__vblex"/></e><e lm="prezentovati"><i>prezent</i><par n="imperf_ref_tr/ovati__vblex"/></e>
-<e lm="prezentovati"><i>prezent</i><par n="perf_tv_tr/ovati__vblex"/></e><e lm="prezentovati"><i>prezent</i><par n="perf_ref_tr/ovati__vblex"/></e>
+<e lm="prezentovati"><i>prezent</i><par n="imperf_tv_tr/ovati__vblex"/></e>
+<e lm="prezentovati"><i>prezent</i><par n="imperf_ref_tr/ovati__vblex"/></e>
+<e lm="prezentovati"><i>prezent</i><par n="perf_tv_tr/ovati__vblex"/></e>
+<e lm="prezentovati"><i>prezent</i><par n="perf_ref_tr/ovati__vblex"/></e>
 <e lm="poslovati"><i>posl</i><par n="imperf_iv_tr/ovati__vblex"/></e>
 <e lm="dugovati"><i>dug</i><par n="imperf_tv_tr/ovati__vblex"/></e>
 <e lm="pristići"><i>pristi</i><par n="perf_iv_le/ći__vblex"/></e>
@@ -32046,22 +32053,31 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="dostići"><i>dosti</i><par n="perf_tv_le/ći__vblex"/></e>
 <e lm="stići"><i>sti</i><par n="perf_iv_le/ći__vblex"/></e>
 <e lm="izbjeći"><i>izbje</i><par n="perf_tv_le/ći__vblex"/></e>
-<e lm="istaći"><i>ista</i><par n="perf_tv_ista/ći__vblex"/></e><e lm="istaći"><i>ista</i><par n="perf_ref_ista/ći__vblex"/></e>
+<e lm="istaći"><i>ista</i><par n="perf_tv_ista/ći__vblex"/></e>
+<e lm="istaći"><i>ista</i><par n="perf_ref_ista/ći__vblex"/></e>
 <e lm="postići"><i>posti</i><par n="perf_tv_le/ći__vblex"/></e>
-<e lm="naći"><i>na</i><par n="perf_tv_do/ći__vblex"/></e><e lm="naći"><i>na</i><par n="perf_ref_do/ći__vblex"/></e>
-<e lm="pronaći"><i>prona</i><par n="perf_tv_do/ći__vblex"/></e><e lm="pronaći"><i>prona</i><par n="perf_ref_do/ći__vblex"/></e>
+<e lm="naći"><i>na</i><par n="perf_tv_do/ći__vblex"/></e>
+<e lm="naći"><i>na</i><par n="perf_ref_do/ći__vblex"/></e>
+<e lm="pronaći"><i>prona</i><par n="perf_tv_do/ći__vblex"/></e>
+<e lm="pronaći"><i>prona</i><par n="perf_ref_do/ći__vblex"/></e>
 <e lm="odbjeći"><i>odbje</i><par n="perf_iv_le/ći__vblex"/></e>
-<e lm="doreći"><i>dore</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="doreći"><i>dore</i><par n="perf_ref_povu/ći__vblex"/></e>
-<e lm="izreći"><i>izre</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="izreći"><i>izre</i><par n="perf_ref_povu/ći__vblex"/></e>
+<e lm="doreći"><i>dore</i><par n="perf_tv_povu/ći__vblex"/></e>
+<e lm="doreći"><i>dore</i><par n="perf_ref_povu/ći__vblex"/></e>
+<e lm="izreći"><i>izre</i><par n="perf_tv_povu/ći__vblex"/></e>
+<e lm="izreći"><i>izre</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="odreći"><i>odre</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="iznaći"><i>izna</i><par n="perf_tv_do/ći__vblex"/></e>
-<e lm="pomoći"><i>pomo</i><par n="perf_iv_le/ći__vblex"/></e><e lm="pomoći"><i>pomo</i><par n="perf_ref_le/ći__vblex"/></e>
-<e lm="potpomoći"><i>potpomo</i><par n="perf_tv_le/ći__vblex"/></e><e lm="potpomoći"><i>potpomo</i><par n="perf_ref_le/ći__vblex"/></e>
-<e lm="podići"><i>podi</i><par n="perf_tv_le/ći__vblex"/></e><e lm="podići"><i>podi</i><par n="perf_ref_le/ći__vblex"/></e>
+<e lm="pomoći"><i>pomo</i><par n="perf_iv_le/ći__vblex"/></e>
+<e lm="pomoći"><i>pomo</i><par n="perf_ref_le/ći__vblex"/></e>
+<e lm="potpomoći"><i>potpomo</i><par n="perf_tv_le/ći__vblex"/></e>
+<e lm="potpomoći"><i>potpomo</i><par n="perf_ref_le/ći__vblex"/></e>
+<e lm="podići"><i>podi</i><par n="perf_tv_le/ći__vblex"/></e>
+<e lm="podići"><i>podi</i><par n="perf_ref_le/ći__vblex"/></e>
 <e lm="presjeći"><i>presje</i><par n="perf_tv_povu/ći__vblex"/></e>
 <e lm="presjeći"><i>presje</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="teći"><i>te</i><par n="imperf_iv_vu/ći__vblex"/></e>
-<e lm="privući"><i>privu</i><par n="perf_tv_povu/ći__vblex"/></e><e lm="privući"><i>privu</i><par n="perf_ref_povu/ći__vblex"/></e>
+<e lm="privući"><i>privu</i><par n="perf_tv_povu/ći__vblex"/></e>
+<e lm="privući"><i>privu</i><par n="perf_ref_povu/ći__vblex"/></e>
 <e lm="reći"><i>re</i><par n="perf_tv_povu/ći__vblex"/></e>
 <e lm="ući"><i>u</i><par n="perf_iv_do/ći__vblex"/></e>
 <e lm="uleći"><i>ule</i><par n="perf_ref_le/ći__vblex"/></e>
@@ -32081,39 +32097,61 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="definisati"><i>defini</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="potresati"><i>potres</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="potresati"><i>potres</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="pisati"><i>pi</i><par n="imperf_iv_pi/sati__vblex"/></e><e lm="pisati"><i>pi</i><par n="imperf_tv_pi/sati__vblex"/></e>
-<e lm="plesati"><i>ple</i><par n="imperf_iv_pi/sati__vblex"/></e><e lm="plesati"><i>ple</i><par n="imperf_tv_pi/sati__vblex"/></e>
-<e lm="potpisati"><i>potpi</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="potpisati"><i>potpi</i><par n="perf_ref_pi/sati__vblex"/></e>
-<e lm="zapisati"><i>zapi</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="zapisati"><i>zapi</i><par n="perf_ref_pi/sati__vblex"/></e>
-<e lm="krunisati"><i>kruni</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="krunisati"><i>kruni</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="krunisati"><i>kruni</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="krunisati"><i>kruni</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="pisati"><i>pi</i><par n="imperf_iv_pi/sati__vblex"/></e>
+<e lm="pisati"><i>pi</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="plesati"><i>ple</i><par n="imperf_iv_pi/sati__vblex"/></e>
+<e lm="plesati"><i>ple</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="potpisati"><i>potpi</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="potpisati"><i>potpi</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="zapisati"><i>zapi</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="zapisati"><i>zapi</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="krunisati"><i>kruni</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="krunisati"><i>kruni</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="krunisati"><i>kruni</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="krunisati"><i>kruni</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="zatalasati"><i>zatalas</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="zatalasati"><i>zatalas</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="zatalasati"><i>zatalas</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="redefinisati"><i>redefini</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="redefinisati"><i>redefini</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="redefinisati"><i>redefini</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="redefinisati"><i>redefini</i><par n="perf_ref_pi/sati__vblex"/></e>
-<e lm="dezinformisati"><i>dezinformi</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="dezinformisati"><i>dezinformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="dezinformisati"><i>dezinformi</i><par n="perf_iv_pi/sati__vblex"/></e><e lm="dezinformisati"><i>dezinformi</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="redefinisati"><i>redefini</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="redefinisati"><i>redefini</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="redefinisati"><i>redefini</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="redefinisati"><i>redefini</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="dezinformisati"><i>dezinformi</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="dezinformisati"><i>dezinformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="dezinformisati"><i>dezinformi</i><par n="perf_iv_pi/sati__vblex"/></e>
+<e lm="dezinformisati"><i>dezinformi</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="dopisati"><i>dopi</i><par n="perf_tv_pi/sati__vblex"/></e>
 <e lm="napisati"><i>napi</i><par n="perf_tv_pi/sati__vblex"/></e>
-<e lm="popisati"><i>popi</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="popisati"><i>popi</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="popisati"><i>popi</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="popisati"><i>popi</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="propisati"><i>propi</i><par n="perf_tv_pi/sati__vblex"/></e>
-<e lm="kontrolisati"><i>kontroli</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="kontrolisati"><i>kontroli</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="eliminisati"><i>elimini</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="eliminisati"><i>elimini</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="eliminisati"><i>elimini</i><par n="perf_ref_pi/sati__vblex"/></e><e lm="eliminisati"><i>elimini</i><par n="perf_ref_pi/sati__vblex"/></e>
-<e lm="regulisati"><i>reguli</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="regulisati"><i>reguli</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="regulisati"><i>reguli</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="regulisati"><i>reguli</i><par n="perf_ref_pi/sati__vblex"/></e>
-<e lm="reformisati"><i>reformi</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="reformisati"><i>reformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="reformisati"><i>reformi</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="reformisati"><i>reformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="kontrolisati"><i>kontroli</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="kontrolisati"><i>kontroli</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="eliminisati"><i>elimini</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="eliminisati"><i>elimini</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="eliminisati"><i>elimini</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="eliminisati"><i>elimini</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="regulisati"><i>reguli</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="regulisati"><i>reguli</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="regulisati"><i>reguli</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="regulisati"><i>reguli</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="reformisati"><i>reformi</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="reformisati"><i>reformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="reformisati"><i>reformi</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="reformisati"><i>reformi</i><par n="imperf_ref_pi/sati__vblex"/></e>
 <e lm="izglasati"><i>izglas</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="koordinisati"><i>koordini</i><par n="imperf_tv_pi/sati__vblex"/></e><e lm="koordinisati"><i>koordini</i><par n="imperf_ref_pi/sati__vblex"/></e>
-<e lm="koordinisati"><i>koordini</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="koordinisati"><i>koordini</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="koordinisati"><i>koordini</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="koordinisati"><i>koordini</i><par n="imperf_ref_pi/sati__vblex"/></e>
+<e lm="koordinisati"><i>koordini</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="koordinisati"><i>koordini</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="tolerisati"><i>toleri</i><par n="imperf_tv_pi/sati__vblex"/></e>
 <e lm="tolerisati"><i>toleri</i><par n="perf_tv_pi/sati__vblex"/></e>
-<e lm="disati"><i>di</i><par n="imperf_iv_pi/sati__vblex"/></e><e lm="disati"><i>di</i><par n="imperf_tv_pi/sati__vblex"/></e>
+<e lm="disati"><i>di</i><par n="imperf_iv_pi/sati__vblex"/></e>
+<e lm="disati"><i>di</i><par n="imperf_tv_pi/sati__vblex"/></e>
 <e lm="udisati"><i>udi</i><par n="imperf_tv_pi/sati__vblex"/></e>
 <e lm="udisati"><i>udi</i><par n="imperf_iv_pi/sati__vblex"/></e>
-<e lm="opisati"><i>opi</i><par n="perf_tv_pi/sati__vblex"/></e><e lm="opisati"><i>opi</i><par n="perf_ref_pi/sati__vblex"/></e>
+<e lm="opisati"><i>opi</i><par n="perf_tv_pi/sati__vblex"/></e>
+<e lm="opisati"><i>opi</i><par n="perf_ref_pi/sati__vblex"/></e>
 <e lm="skresati"><i>skre</i><par n="perf_tv_pi/sati__vblex"/></e>
 <e lm="ubrzati"><i>ubrz</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="ubrzati"><i>ubrz</i><par n="perf_iv_bir/ati__vblex"/></e>
@@ -32123,27 +32161,43 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="stizati"><i>sti</i><par n="imperf_tv_di/zati__vblex"/></e>
 <e lm="postizati"><i>posti</i><par n="imperf_tv_di/zati__vblex"/></e>
 <e lm="pristizati"><i>pristi</i><par n="imperf_iv_di/zati__vblex"/></e>
-<e lm="dokazati"><i>doka</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="dokazati"><i>doka</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="iskazati"><i>iska</i><par n="perf_tv_di/zati__vblex"/></e><e lm="iskazati"><i>iska</i><par n="perf_ref_di/zati__vblex"/></e>
-<e lm="kazati"><i>ka</i><par n="perf_tv_di/zati__vblex"/></e><e lm="kazati"><i>ka</i><par n="perf_iv_di/zati__vblex"/></e>
-<e lm="pokazati"><i>poka</i><par n="perf_tv_di/zati__vblex"/></e><e lm="pokazati"><i>poka</i><par n="perf_ref_di/zati__vblex"/></e>
-<e lm="ukazati"><i>uka</i><par n="perf_tv_di/zati__vblex"/></e><e lm="ukazati"><i>uka</i><par n="perf_ref_di/zati__vblex"/></e>
+<e lm="dokazati"><i>doka</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="dokazati"><i>doka</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="iskazati"><i>iska</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="iskazati"><i>iska</i><par n="perf_ref_di/zati__vblex"/></e>
+<e lm="kazati"><i>ka</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="kazati"><i>ka</i><par n="perf_iv_di/zati__vblex"/></e>
+<e lm="pokazati"><i>poka</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="pokazati"><i>poka</i><par n="perf_ref_di/zati__vblex"/></e>
+<e lm="ukazati"><i>uka</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="ukazati"><i>uka</i><par n="perf_ref_di/zati__vblex"/></e>
 <e lm="otkazati"><i>otka</i><par n="perf_tv_di/zati__vblex"/></e>
-<e lm="vezati"><i>ve</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="vezati"><i>ve</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="vezati"><i>ve</i><par n="perf_tv_di/zati__vblex"/></e><e lm="vezati"><i>ve</i><par n="perf_tv_di/zati__vblex"/></e>
-<e lm="obavezati"><i>obave</i><par n="perf_tv_di/zati__vblex"/></e><e lm="obavezati"><i>obave</i><par n="perf_ref_di/zati__vblex"/></e>
-<e lm="podizati"><i>podi</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="podizati"><i>podi</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="zatezati"><i>zate</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="zatezati"><i>zate</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="izdizati"><i>izdi</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="izdizati"><i>izdi</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="podizati"><i>podi</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="podizati"><i>podi</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="vezati"><i>ve</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="vezati"><i>ve</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="vezati"><i>ve</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="vezati"><i>ve</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="obavezati"><i>obave</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="obavezati"><i>obave</i><par n="perf_ref_di/zati__vblex"/></e>
+<e lm="podizati"><i>podi</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="podizati"><i>podi</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="zatezati"><i>zate</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="zatezati"><i>zate</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="izdizati"><i>izdi</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="izdizati"><i>izdi</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="podizati"><i>podi</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="podizati"><i>podi</i><par n="imperf_ref_di/zati__vblex"/></e>
 <e lm="pretskazati"><i>pretska</i><par n="perf_tv_di/zati__vblex"/></e>
-<e lm="zakazati"><i>zaka</i><par n="perf_tv_di/zati__vblex"/></e><e lm="zakazati"><i>zaka</i><par n="perf_iv_di/zati__vblex"/></e>
-<e lm="rezati"><i>re</i><par n="imperf_tv_di/zati__vblex"/></e><e lm="rezati"><i>re</i><par n="imperf_ref_di/zati__vblex"/></e>
+<e lm="zakazati"><i>zaka</i><par n="perf_tv_di/zati__vblex"/></e>
+<e lm="zakazati"><i>zaka</i><par n="perf_iv_di/zati__vblex"/></e>
+<e lm="rezati"><i>re</i><par n="imperf_tv_di/zati__vblex"/></e>
+<e lm="rezati"><i>re</i><par n="imperf_ref_di/zati__vblex"/></e>
 <e lm="povezati"><i>pove</i><par n="imperf_tv_di/zati__vblex"/></e>
 <e lm="povezati"><i>pove</i><par n="imperf_iv_di/zati__vblex"/></e>
 <e lm="povezati"><i>pove</i><par n="imperf_ref_di/zati__vblex"/></e>
-<e lm="švercati"><i>šverc</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="švercati"><i>šverc</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="micati"><i>mi</i><par n="imperf_tv_mi/cati__vblex"/></e><e lm="micati"><i>mi</i><par n="imperf_ref_mi/cati__vblex"/></e>
+<e lm="švercati"><i>šverc</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="švercati"><i>šverc</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="micati"><i>mi</i><par n="imperf_tv_mi/cati__vblex"/></e>
+<e lm="micati"><i>mi</i><par n="imperf_ref_mi/cati__vblex"/></e>
 <e lm="skakati"><i>ska</i><par n="imperf_iv_ska/kati__vblex"/></e>
 <!--e lm="vikati"><i>vi</i><par n="imperf_iv_ska/kati__vblex"/></e>
 <e lm="vikati"><i>vi</i><par n="imperf_tv_ska/kati__vblex"/></e-->
@@ -32152,79 +32206,117 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="istjecati"><i>istje</i><par n="imperf_iv_mi/cati__vblex"/></e>
 <e lm="otjecati"><i>otje</i><par n="imperf_iv_mi/cati__vblex"/></e>
 <e lm="protjecati"><i>protje</i><par n="imperf_iv_mi/cati__vblex"/></e>
-<e lm="isticati"><i>isti</i><par n="imperf_tv_mi/cati__vblex"/></e><e lm="isticati"><i>isti</i><par n="imperf_ref_mi/cati__vblex"/></e>
-<e lm="poticati"><i>poti</i><par n="imperf_tv_mi/cati__vblex"/></e><e lm="poticati"><i>poti</i><par n="imperf_ref_mi/cati__vblex"/></e>
+<e lm="isticati"><i>isti</i><par n="imperf_tv_mi/cati__vblex"/></e>
+<e lm="isticati"><i>isti</i><par n="imperf_ref_mi/cati__vblex"/></e>
+<e lm="poticati"><i>poti</i><par n="imperf_tv_mi/cati__vblex"/></e>
+<e lm="poticati"><i>poti</i><par n="imperf_ref_mi/cati__vblex"/></e>
 <e lm="utjecati"><i>utje</i><par n="imperf_iv_mi/cati__vblex"/></e>
 <e lm="izricati"><i>izri</i><par n="imperf_tv_mi/cati__vblex"/></e>
 <e lm="odricati"><i>odri</i><par n="imperf_ref_mi/cati__vblex"/></e>
 <e lm="potjecati"><i>potje</i><par n="imperf_iv_mi/cati__vblex"/></e>
-<e lm="presjecati"><i>presje</i><par n="imperf_tv_mi/cati__vblex"/></e><e lm="presjecati"><i>presje</i><par n="imperf_ref_mi/cati__vblex"/></e>
-<e lm="pomicati"><i>pomi</i><par n="imperf_tv_mi/cati__vblex"/></e><e lm="pomicati"><i>pomi</i><par n="imperf_ref_mi/cati__vblex"/></e>
+<e lm="presjecati"><i>presje</i><par n="imperf_tv_mi/cati__vblex"/></e>
+<e lm="presjecati"><i>presje</i><par n="imperf_ref_mi/cati__vblex"/></e>
+<e lm="pomicati"><i>pomi</i><par n="imperf_tv_mi/cati__vblex"/></e>
+<e lm="pomicati"><i>pomi</i><par n="imperf_ref_mi/cati__vblex"/></e>
 <e lm="proistjecati"><i>proistje</i><par n="imperf_iv_mi/cati__vblex"/></e>
-<e lm="blokirati"><i>blokir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="blokirati"><i>blokir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="blokirati"><i>blokir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="blokirati"><i>blokir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="blokirati"><i>blokir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="blokirati"><i>blokir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="blokirati"><i>blokir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="blokirati"><i>blokir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="zagarantirati"><i>zagarantir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="definirati"><i>definir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="definirati"><i>definir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="definirati"><i>definir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="definirati"><i>definir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="diskutirati"><i>diskutir</i><par n="imperf_iv_bir/ati__vblex"/></e><e lm="diskutirati"><i>diskutir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-<e lm="diskutirati"><i>diskutir</i><par n="perf_iv_bir/ati__vblex"/></e><e lm="diskutirati"><i>diskutir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="definirati"><i>definir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="definirati"><i>definir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="definirati"><i>definir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="definirati"><i>definir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="diskutirati"><i>diskutir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="diskutirati"><i>diskutir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="diskutirati"><i>diskutir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="diskutirati"><i>diskutir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="eksplodirati"><i>eksplodir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="eksplodirati"><i>eksplodir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="ekstradirati"><i>ekstradir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="ekstradirati"><i>ekstradir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="investirati"><i>investir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="investirati"><i>investir</i><par n="imperf_iv_bir/ati__vblex"/></e>
-<e lm="investirati"><i>investir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="investirati"><i>investir</i><par n="perf_iv_bir/ati__vblex"/></e>
-<e lm="informirati"><i>informir</i><par n="imperf_iv_bir/ati__vblex"/></e><e lm="informirati"><i>informir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="informirati"><i>informir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="informirati"><i>informir</i><par n="perf_iv_bir/ati__vblex"/></e><e lm="informirati"><i>informir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="informirati"><i>informir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="kandidirati"><i>kandidir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="kandidirati"><i>kandidir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="kandidirati"><i>kandidir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="kandidirati"><i>kandidir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="kritizirati"><i>kritizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="kritizirati"><i>kritizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="informirati"><i>informir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="kandidirati"><i>kandidir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="kandidirati"><i>kandidir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="kandidirati"><i>kandidir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="kandidirati"><i>kandidir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="kritizirati"><i>kritizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="kritizirati"><i>kritizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="nadzirati"><i>nadzir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-<e lm="negirati"><i>negir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="negirati"><i>negir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="negirati"><i>negir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="negirati"><i>negir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="organizirati"><i>organizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="organizirati"><i>organizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="organizirati"><i>organizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="organizirati"><i>organizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="negirati"><i>negir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="negirati"><i>negir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="negirati"><i>negir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="negirati"><i>negir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="organizirati"><i>organizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="organizirati"><i>organizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="organizirati"><i>organizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="organizirati"><i>organizir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="planirati"><i>planir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-<e lm="promovirati"><i>promovir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="promovirati"><i>promovir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="promovirati"><i>promovir</i><par n="perf_iv_bir/ati__vblex"/></e><e lm="promovirati"><i>promovir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="promovirati"><i>promovir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="promovirati"><i>promovir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="promovirati"><i>promovir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="promovirati"><i>promovir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="rangirati"><i>rangir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="rangirati"><i>rangir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="ratificirati"><i>ratificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="ratificirati"><i>ratificir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="financirati"><i>financir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="financirati"><i>financir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="fokusirati"><i>fokusir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="fokusirati"><i>fokusir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="fokusirati"><i>fokusir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="fokusirati"><i>fokusir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="fokusirati"><i>fokusir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="fokusirati"><i>fokusir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="fokusirati"><i>fokusir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="fokusirati"><i>fokusir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="funkcionirati"><i>funkcionir</i><par n="imperf_iv_bir/ati__vblex"/></e>
-<e lm="citirati"><i>citir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="citirati"><i>citir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="citirati"><i>citir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="citirati"><i>citir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="citirati"><i>citir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="citirati"><i>citir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="citirati"><i>citir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="citirati"><i>citir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="diskutirati"><i>diskutir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="diskutirati"><i>diskutir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="eksplodirati"><i>eksplodir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="eksplodirati"><i>eksplodir</i><par n="perf_iv_bir/ati__vblex"/></e>
-<e lm="investirati"><i>investir</i><par n="imperf_iv_bir/ati__vblex"/></e><e lm="investirati"><i>investir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-<e lm="investirati"><i>investir</i><par n="perf_iv_bir/ati__vblex"/></e><e lm="investirati"><i>investir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="investirati"><i>investir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="inzistirati"><i>inzistir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="inzistirati"><i>inzistir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="protestirati"><i>protestir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="protestirati"><i>protestir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="rezultirati"><i>rezultir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="rezultirati"><i>rezultir</i><par n="perf_iv_bir/ati__vblex"/></e>
-<e lm="formirati"><i>formir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="formirati"><i>formir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="formirati"><i>formir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="formirati"><i>formir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="formirati"><i>formir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="formirati"><i>formir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="formirati"><i>formir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="formirati"><i>formir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="kompletirati"><i>kompletir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="kompletirati"><i>kompletir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="implementirati"><i>implementir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="implementirati"><i>implementir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="interesirati"><i>interesir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="interesirati"><i>interesir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="interesirati"><i>interesir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="interesirati"><i>interesir</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="umirati"><i>umir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="obamirati"><i>obamir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="emitirati"><i>emitir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="emitirati"><i>emitir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="nominirati"><i>nominir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="nominirati"><i>nominir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="nominirati"><i>nominir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="nominirati"><i>nominir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="riskirati"><i>riskir</i><par n="imperf_iv_bir/ati__vblex"/></e><e lm="riskirati"><i>riskir</i><par n="imperf_tv_bir/ati__vblex"/></e>
-<e lm="riskirati"><i>riskir</i><par n="perf_iv_bir/ati__vblex"/></e><e lm="riskirati"><i>riskir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="nominirati"><i>nominir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="nominirati"><i>nominir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="nominirati"><i>nominir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="nominirati"><i>nominir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="riskirati"><i>riskir</i><par n="imperf_iv_bir/ati__vblex"/></e>
+<e lm="riskirati"><i>riskir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="riskirati"><i>riskir</i><par n="perf_iv_bir/ati__vblex"/></e>
+<e lm="riskirati"><i>riskir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="duplicirati"><i>duplicir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="duplicirati"><i>duplicir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="komandirati"><i>komandir</i><par n="imperf_iv_bir/ati__vblex"/></e>
@@ -32237,65 +32329,91 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="komplicirati"><i>komplicir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="konfiscirati"><i>konfiscir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="konfiscirati"><i>konfiscir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="modificirati"><i>modificir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="modificirati"><i>modificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="modificirati"><i>modificir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="modificirati"><i>modificir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="modificirati"><i>modificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="modificirati"><i>modificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="modificirati"><i>modificir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="modificirati"><i>modificir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="prakticirati"><i>prakticir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="prakticirati"><i>prakticir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="ratificirati"><i>ratificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="ratificirati"><i>ratificir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="kvalificirati"><i>kvalificir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="kvalificirati"><i>kvalificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="kvalificirati"><i>kvalificir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="kvalificirati"><i>kvalificir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="kvalificirati"><i>kvalificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="kvalificirati"><i>kvalificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="kvalificirati"><i>kvalificir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="kvalificirati"><i>kvalificir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="falsificirati"><i>falsificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="falsificirati"><i>falsificir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="identificirati"><i>identificir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="identificirati"><i>identificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="identificirati"><i>identificir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="identificirati"><i>identificir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="diskvalificirati"><i>diskvalificir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="diskvalificirati"><i>diskvalificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="diskvalificirati"><i>diskvalificir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="diskvalificirati"><i>diskvalificir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="identificirati"><i>identificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="identificirati"><i>identificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="identificirati"><i>identificir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="identificirati"><i>identificir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="diskvalificirati"><i>diskvalificir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="diskvalificirati"><i>diskvalificir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="diskvalificirati"><i>diskvalificir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="diskvalificirati"><i>diskvalificir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="deblokirati"><i>deblokir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="deblokirati"><i>deblokir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="isplanirati"><i>isplanir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="nadirati"><i>nadir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="odblokirati"><i>odblokir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="defokusirati"><i>defokusir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="defokusirati"><i>defokusir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="defokusirati"><i>defokusir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="defokusirati"><i>defokusir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="redefinirati"><i>redefinir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="redefinirati"><i>redefinir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="redefinirati"><i>redefinir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="redefinirati"><i>redefinir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="defokusirati"><i>defokusir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="defokusirati"><i>defokusir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="defokusirati"><i>defokusir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="defokusirati"><i>defokusir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="redefinirati"><i>redefinir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="redefinirati"><i>redefinir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="redefinirati"><i>redefinir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="redefinirati"><i>redefinir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="izrecitirati"><i>izrecitir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="kofinancirati"><i>kofinancir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="kofinancirati"><i>kofinancir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="reinvestirati"><i>reinvestir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="reinvestirati"><i>reinvestir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="prodiskutirati"><i>prodiskutir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="dezinformirati"><i>dezinformir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="dezinformirati"><i>dezinformir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="dezinformirati"><i>dezinformir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="dezinformirati"><i>dezinformir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="reorganizirati"><i>reorganizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="reorganizirati"><i>reorganizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="reorganizirati"><i>reorganizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="reorganizirati"><i>reorganizir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="dezorganizirati"><i>dezorganizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="dezorganizirati"><i>dezorganizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="dezinformirati"><i>dezinformir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="dezinformirati"><i>dezinformir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="dezinformirati"><i>dezinformir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="dezinformirati"><i>dezinformir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="reorganizirati"><i>reorganizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="reorganizirati"><i>reorganizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="reorganizirati"><i>reorganizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="reorganizirati"><i>reorganizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="dezorganizirati"><i>dezorganizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="dezorganizirati"><i>dezorganizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="dezorganizirati"><i>dezorganizir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="samofinancirati"><i>samofinancir</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="samofinancirati"><i>samofinancir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="kontrolirati"><i>kontrolir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="kontrolirati"><i>kontrolir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="kontrolirati"><i>kontrolir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="kontrolirati"><i>kontrolir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="kontrolirati"><i>kontrolir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="kontrolirati"><i>kontrolir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="kontrolirati"><i>kontrolir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="kontrolirati"><i>kontrolir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="eliminirati"><i>eliminir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="eliminirati"><i>eliminir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="regulirati"><i>regulir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="regulirati"><i>regulir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="reformirati"><i>reformir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="reformirati"><i>reformir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="koordinirati"><i>koordinir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="koordinirati"><i>koordinir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="koordinirati"><i>koordinir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="koordinirati"><i>koordinir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="koordinirati"><i>koordinir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="koordinirati"><i>koordinir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="koordinirati"><i>koordinir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="koordinirati"><i>koordinir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="bojkotirati"><i>bojkotir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="bojkotirati"><i>bojkotir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="dominirati"><i>dominir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="dominirati"><i>dominir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="datirati"><i>datir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="datirati"><i>datir</i><par n="perf_iv_bir/ati__vblex"/></e>
-<e lm="bazirati"><i>bazir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="bazirati"><i>bazir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="bazirati"><i>bazir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="bazirati"><i>bazir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="bazirati"><i>bazir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="bazirati"><i>bazir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="bazirati"><i>bazir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="bazirati"><i>bazir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="finalizirati"><i>finalizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="finalizirati"><i>finalizir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="realizirati"><i>realizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="realizirati"><i>realizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="realizirati"><i>realizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="realizirati"><i>realizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="realizirati"><i>realizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="realizirati"><i>realizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="realizirati"><i>realizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="realizirati"><i>realizir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="apelirati"><i>apelir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="apelirati"><i>apelir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="tolerirati"><i>tolerir</i><par n="imperf_tv_bir/ati__vblex"/></e>
@@ -32304,22 +32422,32 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="aplicirati"><i>aplicir</i><par n="perf_iv_bir/ati__vblex"/></e>
 <e lm="lobirati"><i>lobir</i><par n="imperf_iv_bir/ati__vblex"/></e>
 <e lm="lobirati"><i>lobir</i><par n="perf_iv_bir/ati__vblex"/></e>
-<e lm="inicirati"><i>inicir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="inicirati"><i>inicir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="inicirati"><i>inicir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="inicirati"><i>inicir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="harmonizirati"><i>harmonizir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="harmonizirati"><i>harmonizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="harmonizirati"><i>harmonizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="harmonizirati"><i>harmonizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="inicirati"><i>inicir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="inicirati"><i>inicir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="inicirati"><i>inicir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="inicirati"><i>inicir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="harmonizirati"><i>harmonizir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="harmonizirati"><i>harmonizir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="harmonizirati"><i>harmonizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="harmonizirati"><i>harmonizir</i><par n="perf_ref_bir/ati__vblex"/></e>
 <e lm="donirati"><i>donir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="donirati"><i>donir</i><par n="perf_tv_bir/ati__vblex"/></e>
 <e lm="garantirati"><i>garantir</i><par n="imperf_tv_bir/ati__vblex"/></e>
 <e lm="garantirati"><i>garantir</i><par n="perf_tv_bir/ati__vblex"/></e>
-<e lm="prezentirati"><i>prezentir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="prezentirati"><i>prezentir</i><par n="imperf_ref_bir/ati__vblex"/></e>
-<e lm="prezentirati"><i>prezentir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="prezentirati"><i>prezentir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="okarakterizirati"><i>okarakterizir</i><par n="perf_tv_bir/ati__vblex"/></e><e lm="okarakterizirati"><i>okarakterizir</i><par n="perf_ref_bir/ati__vblex"/></e>
-<e lm="masirati"><i>masir</i><par n="imperf_tv_bir/ati__vblex"/></e><e lm="masirati"><i>masir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="prezentirati"><i>prezentir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="prezentirati"><i>prezentir</i><par n="imperf_ref_bir/ati__vblex"/></e>
+<e lm="prezentirati"><i>prezentir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="prezentirati"><i>prezentir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="okarakterizirati"><i>okarakterizir</i><par n="perf_tv_bir/ati__vblex"/></e>
+<e lm="okarakterizirati"><i>okarakterizir</i><par n="perf_ref_bir/ati__vblex"/></e>
+<e lm="masirati"><i>masir</i><par n="imperf_tv_bir/ati__vblex"/></e>
+<e lm="masirati"><i>masir</i><par n="imperf_ref_bir/ati__vblex"/></e>
 <e lm="željeti"><i>žel</i><par n="imperf_tv_žel/jeti__vblex"/></e>
 <e lm="poželjeti"><i>požel</i><par n="perf_tv_požel/jeti__vblex"/></e>
-<e lm="voljeti"><i>vol</i><par n="imperf_tv_žel/jeti__vblex"/></e><e lm="voljeti"><i>vol</i><par n="imperf_ref_žel/jeti__vblex"/></e>
-<e lm="zavoljeti"><i>zavol</i><par n="perf_tv_požel/jeti__vblex"/></e><e lm="zavoljeti"><i>zavol</i><par n="perf_ref_požel/jeti__vblex"/></e>
+<e lm="voljeti"><i>vol</i><par n="imperf_tv_žel/jeti__vblex"/></e>
+<e lm="voljeti"><i>vol</i><par n="imperf_ref_žel/jeti__vblex"/></e>
+<e lm="zavoljeti"><i>zavol</i><par n="perf_tv_požel/jeti__vblex"/></e>
+<e lm="zavoljeti"><i>zavol</i><par n="perf_ref_požel/jeti__vblex"/></e>
 <!--e lm="tresti"><i>tre</i><par n="imperf_tv_tre/sti__vblex"/></e>
 <e lm="tresti"><i>tre</i><par n="imperf_ref_tre/sti__vblex"/></e-->
 <e lm="potresti"><i>potre</i><par n="perf_tv_potre/sti__vblex"/></e>
@@ -32339,11 +32467,14 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--e lm="pomesti"><i>pome</i><par n="perf_iv_pome/sti__vblex"/></e-->
 <!--e lm="pomesti"><i>pome</i><par n="perf_tv_pome/sti__vblex"/></e-->
 <e lm="uvoditi"><i>uvo</i><par n="imperf_tv_ra/diti__vblex"/></e>
-<e lm="dovoditi"><i>dovo</i><par n="imperf_tv_ra/diti__vblex"/></e><e lm="dovoditi"><i>dovo</i><par n="imperf_ref_ra/diti__vblex"/></e>
-<e lm="navoditi"><i>navo</i><par n="imperf_tv_ra/diti__vblex"/></e><e lm="navoditi"><i>navo</i><par n="imperf_ref_ra/diti__vblex"/></e>
+<e lm="dovoditi"><i>dovo</i><par n="imperf_tv_ra/diti__vblex"/></e>
+<e lm="dovoditi"><i>dovo</i><par n="imperf_ref_ra/diti__vblex"/></e>
+<e lm="navoditi"><i>navo</i><par n="imperf_tv_ra/diti__vblex"/></e>
+<e lm="navoditi"><i>navo</i><par n="imperf_ref_ra/diti__vblex"/></e>
 <e lm="predvoditi"><i>predvo</i><par n="imperf_tv_ra/diti__vblex"/></e>
 <e lm="slijediti"><i>slije</i><par n="imperf_tv_ra/diti__vblex"/></e>
-<e lm="suditi"><i>su</i><par n="imperf_tv_ra/diti__vblex"/></e><e lm="suditi"><i>su</i><par n="imperf_iv_ra/diti__vblex"/></e>
+<e lm="suditi"><i>su</i><par n="imperf_tv_ra/diti__vblex"/></e>
+<e lm="suditi"><i>su</i><par n="imperf_iv_ra/diti__vblex"/></e>
 <e lm="slijediti"><i>slije</i><par n="imperf_tv_ra/diti__vblex"/></e>
 <e lm="vrijediti"><i>vrije</i><par n="imperf_iv_ra/diti__vblex"/></e>
 <e lm="dogoditi"><i>dogo</i><par n="imperf_ref_ra/diti__vblex"/></e>
@@ -32356,9 +32487,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="slijediti"><i>slije</i><par n="imperf_tv_ra/diti__vblex"/></e>
 <e lm="izvoditi"><i>izvo</i><par n="imperf_tv_ra/diti__vblex"/></e>
 <e lm="prevoditi"><i>prevo</i><par n="imperf_tv_ra/diti__vblex"/></e>
-<e lm="privoditi"><i>privo</i><par n="imperf_tv_ra/diti__vblex"/></e><e lm="privoditi"><i>privo</i><par n="imperf_ref_ra/diti__vblex"/></e>
+<e lm="privoditi"><i>privo</i><par n="imperf_tv_ra/diti__vblex"/></e>
+<e lm="privoditi"><i>privo</i><par n="imperf_ref_ra/diti__vblex"/></e>
 <e lm="proizvoditi"><i>proizvo</i><par n="imperf_tv_ra/diti__vblex"/></e>
-<e lm="rasporediti"><i>raspore</i><par n="imperf_tv_ra/diti__vblex"/></e><e lm="rasporediti"><i>raspore</i><par n="imperf_ref_ra/diti__vblex"/></e>
+<e lm="rasporediti"><i>raspore</i><par n="imperf_tv_ra/diti__vblex"/></e>
+<e lm="rasporediti"><i>raspore</i><par n="imperf_ref_ra/diti__vblex"/></e>
 <e lm="preduprediti"><i>predupre</i><par n="imperf_tv_ra/diti__vblex"/></e>
 <e lm="izjaviti"><i>izjav</i><par n="perf_tv_isplov/iti__vblex"/></e>
 <e lm="izjaviti"><i>izjav</i><par n="perf_iv_isplov/iti__vblex"/></e>
@@ -34299,7 +34432,9 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 
 <e lm="dug"><i>du</i><par n="du/g__pst__adj"/></e>
 <e lm="dug"><i>du</i><par n="du/g__comp__adj"/></e>
+<e lm="dug"><i>du</i><par n="tup__comp__adj"/></e>
 <e lm="dug"><p><l>najdu</l><r>du</r></p><par n="du/g__sup__adj"/></e>
+<e lm="dug"><p><l>najdu</l><r>du</r></p><par n="tup__sup__adj"/></e>
 <e lm="dug"><p><l>predu</l><r>du</r></p><par n="du/g__ssup__adj"/></e>
 
 <e lm="strog"><i>stro</i><par n="du/g__pst__adj"/></e>
@@ -41108,6 +41243,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="padobran"><i>padobran</i><par n="program__n"/></e>
 <e lm="upis"><i>upis</i><par n="program__n"/></e>
 <e lm="program"><i>program</i><par n="program__n"/></e>
+<e lm="problem"><i>problem</i><par n="program__n"/></e>
+<e lm="kamion"><i>kamion</i><par n="program__n"/></e>
 <e lm="prijem"><i>prijem</i><par n="program__n"/></e>
 <e lm="sud"><i>sud</i><par n="program__n"/></e>
 <e lm="parlament"><i>parlament</i><par n="program__n"/></e>
@@ -41179,6 +41316,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="okrug"><i>okru</i><par n="ute/g__n"/></e>
 <e lm="uteg"><i>ute</i><par n="ute/g__n"/></e>
 <e lm="teg"><i>te</i><par n="ute/g__n"/></e>
+<e lm="dijalog"><i>dijalo</i><par n="ute/g__n"/></e>
 <e lm="stol"><i>st</i><par n="st/ol__n"/></e>
 <e lm="val"><i>val</i><par n="val__n"/></e>
 <e lm="znak"><i>zna</i><par n="zna/k__n"/></e>
@@ -41188,6 +41326,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="čovjek"><i></i><par n="čovjek__n"/></e>
 <e lm="premijer"><i>premijer</i><par n="lupež__n"/></e>
 <e lm="učenik"><i>učeni</i><par n="učeni/k__n"/></e>
+<e lm="dužnosnik"><i>dužnosni</i><par n="učeni/k__n"/></e>
 <e lm="predstavnik"><i>predstavni</i><par n="učeni/k__n"/></e>
 <e lm="zvaničnik"><i>zvanični</i><par n="učeni/k__n"/></e>
 <e lm="službenik"><i>službeni</i><par n="učeni/k__n"/></e>
@@ -41282,11 +41421,14 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="kamen"><i>kamen</i><par n="kamen__n"/></e>
 <e lm="patrijarh"><i>patrijar</i><par n="monar/h__n"/></e>
 <e lm="čelik"><i>čeli</i><par n="čajni/k__n"/></e>
+<e lm="jezik"><i>jezi</i><par n="čajni/k__n"/></e>
+<e lm="udžbenik"><i>udžbeni</i><par n="čajni/k__n"/></e>
 <e lm="mjesec"><i>m</i><par n="e_je__yat"/><i>se</i><par n="mjese/c__n"/></e>
 <e lm="slučaj"><i>slučaj</i><par n="slučaj__n"/></e>
 <e lm="instruktor"><i>instruktor</i><par n="crv__n"/></e>
 <e lm="doživljaj"><i>doživljaj</i><par n="medium__n"/></e>
 <e lm="muškarac"><i>muškar</i><par n="muškar/ac__n"/></e>
+<e lm="albanac"><i>alban</i><par n="muškar/ac__n"/></e>
 <e lm="prosinac"><i>prosin</i><par n="prosin/ac__n"/></e>
 <e lm="studeni"><i>studen</i><par n="studen/i__n"/></e>
 <e lm="talac"><i>ta</i><par n="ta/lac__n"/></e>
@@ -41327,6 +41469,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="ožujak"><i>ožuj</i><par n="naglas/ak__n"/></e>
 <e lm="četvrtak"><i>četvrt</i><par n="naglas/ak__n"/></e>
 <e lm="petak"><i>pet</i><par n="naglas/ak__n"/></e>
+<e lm="korak"><i>kora</i><par n="čajni/k__n"/></e>
 <e lm="naglasak"><i>naglas</i><par n="naglas/ak__n"/></e>
 <e lm="sastanak"><i>sastan</i><par n="naglas/ak__n"/></e>
 <e lm="napredak"><i>napred</i><par n="naglas/ak__n"/></e>
@@ -41365,7 +41508,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="municija"><i>municij</i><par n="žen/a__n"/></e>
 <e lm="veljača"><i>veljač</i><par n="žen/a__n"/></e>
 <e lm="šansa"><i>šans</i><par n="žen/a__n"/></e>
-<e lm="prilika"><i>prilik</i><par n="žen/a__n"/></e>
+<e lm="prilika"><i>prili</i><par n="sli/ka__n"/></e>
 <e lm="gomila"><i>gomil</i><par n="žen/a__n"/></e>
 <e lm="hrpa"><i>hrp</i><par n="žen/a__n"/></e>
 <e lm="skupina"><i>skupin</i><par n="žen/a__n"/></e>
@@ -41376,7 +41519,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="godišnjica"><i>godišnjic</i><par n="žen/a__n"/></e>
 <e lm="veličina"><i>veličin</i><par n="žen/a__n"/></e>
 <e lm="šuma"><i>šum</i><par n="žen/a__n"/></e>
-<e lm="dojka"><i>dojk</i><par n="žen/a__n"/></e>
+<e lm="dojka"><i>doj</i><par n="sli/ka__n"/></e>
 <e lm="izgradnja"><i>izgradnj</i><par n="žen/a__n"/></e>
 <e lm="desetica"><i>desetic</i><par n="žen/a__n"/></e>
 <e lm="dužina"><i>dužin</i><par n="žen/a__n"/></e>
@@ -41423,7 +41566,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="infiltracija"><i>infiltracij</i><par n="žen/a__n"/></e>
 <e lm="restauracija"><i>restauracij</i><par n="žen/a__n"/></e>
 <e lm="certifikacija"><i>certifikacij</i><par n="žen/a__n"/></e>
-<e lm="biljka"><i>biljk</i><par n="žen/a__n"/></e>
+<e lm="biljka"><i>bilj</i><par n="sli/ka__n"/></e>
 <e lm="vaška"><i>vašk</i><par n="žen/a__n"/></e>
 <e lm="veza"><i>vez</i><par n="žen/a__n"/></e>
 <e lm="obveza"><i>obvez</i><par n="žen/a__n"/></e>
@@ -41434,29 +41577,29 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="priprema"><i>priprem</i><par n="žen/a__n"/></e>
 <e lm="potparolkinja"><i>potparolkinj</i><par n="žen/a__n"/></e>
 <e lm="šiba"><i>šib</i><par n="žen/a__n"/></e>
-<e lm="šipka"><i>šipk</i><par n="žen/a__n"/></e>
-<e lm="zapreka"><i>zaprek</i><par n="žen/a__n"/></e>
-<e lm="prepreka"><i>preprek</i><par n="žen/a__n"/></e>
+<e lm="šipka"><i>šip</i><par n="sli/ka__n"/></e>
+<e lm="zapreka"><i>zapre</i><par n="sli/ka__n"/></e>
+<e lm="prepreka"><i>prepre</i><par n="sli/ka__n"/></e>
 <e lm="provjera"><i>provjer</i><par n="žen/a__n"/></e>
 <e lm="procjena"><i>proc</i><par n="e_je__yat"/><i>n</i><par n="žen/a__n"/></e>
 <e lm="suradnja"><i>suradnj</i><par n="žen/a__n"/></e>
 <e lm="saradnja"><i>saradnj</i><par n="žen/a__n"/></e>
 <e lm="stopa"><i>stop</i><par n="žen/a__n"/></e>
-<e lm="fabrika"><i>fabrik</i><par n="žen/a__n"/></e>
+<e lm="fabrika"><i>fabri</i><par n="sli/ka__n"/></e>
 <e lm="tvornica"><i>tvornic</i><par n="žen/a__n"/></e>
 <e lm="članica"><i>članic</i><par n="žen/a__n"/></e>
 <e lm="zemlja"><i>zem</i><par n="zem/lja__n"/></e>
 <e lm="milja"><i>milj</i><par n="žen/a__n"/></e>
 <e lm="kuna"><i>kun</i><par n="žen/a__n"/></e>
 <e lm="obveznica"><i>obveznic</i><par n="žen/a__n"/></e>
-<e lm="briga"><i>brig</i><par n="žen/a__n"/></e>
+<e lm="briga"><i>bri</i><par n="knji/ga__n"/></e>
 <e lm="uvreda"><i>uvred</i><par n="žen/a__n"/></e>
 <e lm="pratnja"><i>pratnj</i><par n="žen/a__n"/></e>
 <e lm="desetgodišnjica"><i>desetgodišnjic</i><par n="žen/a__n"/></e>
 <e lm="krivica"><i>krivic</i><par n="žen/a__n"/></e>
 <e lm="praksa"><i>praks</i><par n="žen/a__n"/></e>
 <e lm="mržnja"><i>mržnj</i><par n="žen/a__n"/></e>
-<e lm="podrška"><i>podršk</i><par n="žen/a__n"/></e>
+<e lm="podrška"><i>podrš</i><par n="sli/ka__n"/></e>
 <e lm="obala"><i>obal</i><par n="žen/a__n"/></e>
 <e lm="palica"><i>palic</i><par n="žen/a__n"/></e>
 <e lm="batina"><i>batin</i><par n="žen/a__n"/></e>
@@ -41464,6 +41607,10 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="jetra"><i>jetr</i><par n="žen/a__n"/></e>
 <e lm="cigara"><i>cigar</i><par n="žen/a__n"/></e>
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
+<e lm="škola"><i>škol</i><par n="žen/a__n"/></e>
+<e lm="crta"><i>crt</i><par n="žen/a__n"/></e>
+<e lm="klupa"><i>klup</i><par n="žen/a__n"/></e>
+<e lm="poteškoća"><i>poteškoć</i><par n="žen/a__n"/></e>
 <e lm="premijera"><i>premijer</i><par n="žen/a__n"/></e>
 <e lm="bludnost"><i>bludno</i><par n="ma/st__n"/></e>
 <e lm="čestitost"><i>čestito</i><par n="ma/st__n"/></e>
@@ -41538,8 +41685,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zemlja"><i>zemlj</i><par n="žen/a__n"/></e>
 <e lm="pista"><i>pist</i><par n="žen/a__n"/></e>
 <e lm="policija"><i>policij</i><par n="žen/a__n"/></e>
-<e lm="ruka"><i>ruk</i><par n="žen/a__n"/></e>
-<e lm="noga"><i>nog</i><par n="žen/a__n"/></e>
+<e lm="ruka"><i>ru</i><par n="sli/ka__n"/></e>
+<e lm="noga"><i>no</i><par n="knji/ga__n"/></e>
 <e lm="osoba"><i>osob</i><par n="žen/a__n"/></e>
 <e lm="besjeda"><i>bes</i><par n="e_je__yat"/><i>d</i><par n="žen/a__n"/></e>
 <e lm="trudnoća"><i>trudnoć</i><par n="žen/a__n"/></e>
@@ -41553,7 +41700,6 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="kvaliteta"><i>kvalitet</i><par n="žen/a__n"/></e>
 <e lm="regija"><i>regij</i><par n="žen/a__n"/></e>
 <e lm="činjenica"><i>činjenic</i><par n="žen/a__n"/></e>
-<e lm="točka"><i>točk</i><par n="žen/a__n"/></e>
 <e lm="ekipa"><i>ekip</i><par n="žen/a__n"/></e>
 <e lm="ulica"><i>ulic</i><par n="žen/a__n"/></e>
 <e lm="ručni rad"><i/><par n="RučniRad__n"/></e>
@@ -41563,7 +41709,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="medalja"><i>medalj</i><par n="žen/a__n"/></e>
 <e lm="putovnica"><i>putovnic</i><par n="žen/a__n"/></e>
 <e lm="sezona"><i>sezon</i><par n="žen/a__n"/></e>
-<e lm="isporuka"><i>isporuk</i><par n="žen/a__n"/></e>
+<e lm="isporuka"><i>isporu</i><par n="sli/ka__n"/></e>
 <e lm="zgrada"><i>zgrad</i><par n="žen/a__n"/></e>
 <e lm="kriza"><i>kriz</i><par n="žen/a__n"/></e>
 <e lm="agora"><i>agor</i><par n="žen/a__n"/></e>
@@ -42091,39 +42237,39 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="frekvencija"><i>frekvencij</i><par n="žen/a__n"/></e>
 <e lm="centralizacija"><i>centralizacij</i><par n="žen/a__n"/></e>
 <e lm="jurisdikcija"><i>jurisdikcij</i><par n="žen/a__n"/></e>
-<e lm="azbuka"><i>azbuk</i><par n="žen/a__n"/></e>
-<e lm="banka"><i>bank</i><par n="žen/a__n"/></e>
-<e lm="bionika"><i>bionik</i><par n="žen/a__n"/></e>
-<e lm="botanika"><i>botanik</i><par n="žen/a__n"/></e>
-<e lm="brojka"><i>brojk</i><par n="žen/a__n"/></e>
-<e lm="buka"><i>buk</i><par n="žen/a__n"/></e>
-<e lm="vojska"><i>vojsk</i><par n="žen/a__n"/></e>
+<e lm="azbuka"><i>azbu</i><par n="sli/ka__n"/></e>
+<e lm="banka"><i>ban</i><par n="sli/ka__n"/></e>
+<e lm="bionika"><i>bioni</i><par n="sli/ka__n"/></e>
+<e lm="botanika"><i>botani</i><par n="sli/ka__n"/></e>
+<e lm="brojka"><i>broj</i><par n="sli/ka__n"/></e>
+<e lm="buka"><i>bu</i><par n="sli/ka__n"/></e>
+<e lm="vojska"><i>vojs</i><par n="sli/ka__n"/></e>
 <e lm="davačka"><i>davačk</i><par n="žen/a__n"/></e>
 <e lm="kandidatkinja"><i>kandidatkinj</i><par n="žen/a__n"/></e>
-<e lm="kritika"><i>kritik</i><par n="žen/a__n"/></e>
-<e lm="majka"><i>majk</i><par n="žen/a__n"/></e>
+<e lm="kritika"><i>kriti</i><par n="sli/ka__n"/></e>
+<e lm="majka"><i>maj</i><par n="sli/ka__n"/></e>
 <e lm="ministerka"><i>ministerk</i><par n="žen/a__n"/></e>
 <e lm="ministrica"><i>ministric</i><par n="žen/a__n"/></e>
-<e lm="muzika"><i>muzik</i><par n="žen/a__n"/></e>
+<e lm="muzika"><i>muzi</i><par n="sli/ka__n"/></e>
 <e lm="glazba"><i>glazb</i><par n="žen/a__n"/></e>
-<e lm="nabavka"><i>nabavk</i><par n="žen/a__n"/></e>
-<e lm="nauka"><i>nauk</i><par n="žen/a__n"/></e>
-<e lm="obuka"><i>obuk</i><par n="žen/a__n"/></e>
-<e lm="odluka"><i>odluk</i><par n="žen/a__n"/></e>
-<e lm="ostavka"><i>ostavk</i><par n="žen/a__n"/></e>
-<e lm="podrška"><i>podršk</i><par n="žen/a__n"/></e>
-<e lm="politika"><i>politik</i><par n="žen/a__n"/></e>
-<e lm="poruka"><i>poruk</i><par n="žen/a__n"/></e>
-<e lm="preporuka"><i>preporuk</i><par n="žen/a__n"/></e>
+<e lm="nabavka"><i>nabav</i><par n="sli/ka__n"/></e>
+<e lm="nauka"><i>nau</i><par n="sli/ka__n"/></e>
+<e lm="obuka"><i>obu</i><par n="sli/ka__n"/></e>
+<e lm="odluka"><i>odlu</i><par n="sli/ka__n"/></e>
+<e lm="ostavka"><i>ostav</i><par n="sli/ka__n"/></e>
+<e lm="podrška"><i>podrš</i><par n="sli/ka__n"/></e>
+<e lm="politika"><i>politi</i><par n="sli/ka__n"/></e>
+<e lm="poruka"><i>poru</i><par n="sli/ka__n"/></e>
+<e lm="preporuka"><i>preporu</i><par n="sli/ka__n"/></e>
 <e lm="predsjedateljica"><i>predsjedateljic</i><par n="žen/a__n"/></e>
 <e lm="predsjedateljka"><i>predsjedateljk</i><par n="žen/a__n"/></e>
-<e lm="puška"><i>pušk</i><par n="žen/a__n"/></e>
-<e lm="razlika"><i>razlik</i><par n="žen/a__n"/></e>
-<e lm="rijeka"><i>rijek</i><par n="žen/a__n"/></e>
-<e lm="republika"><i>republik</i><par n="žen/a__n"/></e>
-<e lm="statistika"><i>statistik</i><par n="žen/a__n"/></e>
-<e lm="stoka"><i>stok</i><par n="žen/a__n"/></e>
-<e lm="trka"><i>trk</i><par n="žen/a__n"/></e>
+<e lm="puška"><i>puš</i><par n="sli/ka__n"/></e>
+<e lm="razlika"><i>razli</i><par n="sli/ka__n"/></e>
+<e lm="rijeka"><i>rije</i><par n="sli/ka__n"/></e>
+<e lm="republika"><i>republi</i><par n="sli/ka__n"/></e>
+<e lm="statistika"><i>statisti</i><par n="sli/ka__n"/></e>
+<e lm="stoka"><i>sto</i><par n="sli/ka__n"/></e>
+<e lm="trka"><i>tr</i><par n="sli/ka__n"/></e>
 <e lm="potvrda"><i>potvrd</i><par n="žen/a__n"/></e>
 <e lm="droga"><i>drog</i><par n="žen/a__n"/></e>
 <e lm="knjiga"><i>knji</i><par n="knji/ga__n"/></e>
@@ -42136,7 +42282,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="usluga"><i>uslu</i><par n="knji/ga__n"/></e>
 <e lm="cenzura"><i>cenzur</i><par n="žen/a__n"/></e>
 <e lm="diskusija"><i>diskusij</i><par n="žen/a__n"/></e>
-<e lm="djevojka"><i>djevojk</i><par n="žen/a__n"/></e>
+<e lm="djevojka"><i>djevoj</i><par n="sli/ka__n"/></e>
 <e lm="šansa"><i>šans</i><par n="žen/a__n"/></e>
 <e lm="čaša"><i>čaš</i><par n="žen/a__n"/></e>
 <e lm="visina"><i>visin</i><par n="žen/a__n"/></e>
@@ -42147,18 +42293,19 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="prodavnica"><i>prodavnic</i><par n="žen/a__n"/></e>
 <e lm="prodavaonica"><i>prodavaonic</i><par n="žen/a__n"/></e>
 <e lm="beneficija"><i>beneficij</i><par n="žen/a__n"/></e>
-<e lm="greška"><i>grešk</i><par n="žen/a__n"/></e>
-<e lm="trojka"><i>trojk</i><par n="žen/a__n"/></e>
+<e lm="greška"><i>greš</i><par n="sli/ka__n"/></e>
+<e lm="trojka"><i>troj</i><par n="sli/ka__n"/></e>
 <e lm="rođakinja"><i>rođakinj</i><par n="žen/a__n"/></e>
 <e lm="radiodifuzija"><i>radiodifuzij</i><par n="žen/a__n"/></e>
 <e lm="ambasadorka"><i>ambasadork</i><par n="žen/a__n"/></e>
 <e lm="veleposlanica"><i>veleposlanic</i><par n="žen/a__n"/></e>
-<e lm="retorika"><i>retorik</i><par n="žen/a__n"/></e>
-<e lm="slika"><i>slik</i><par n="žen/a__n"/></e>
+<e lm="retorika"><i>retori</i><par n="sli/ka__n"/></e>
+<e lm="slika"><i>sli</i><par n="sli/ka__n"/></e>
+<e lm="oznaka"><i>ozna</i><par n="sli/ka__n"/></e>
 <e lm="sudbina"><i>sudbin</i><par n="žen/a__n"/></e>
 <e lm="površina"><i>površin</i><par n="žen/a__n"/></e>
 <e lm="klauzula"><i>klauzul</i><par n="žen/a__n"/></e>
-<e lm="snimka"><i>snimk</i><par n="žen/a__n"/></e>
+<e lm="snimka"><i>snim</i><par n="sli/ka__n"/></e>
 <e lm="katastrofa"><i>katastrof</i><par n="žen/a__n"/></e>
 <e lm="brigada"><i>brigad</i><par n="žen/a__n"/></e>
 <e lm="straža"><i>straž</i><par n="žen/a__n"/></e>
@@ -42173,7 +42320,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="laboratorija"><i>laboratorij</i><par n="žen/a__n"/></e>
 <e lm="banda"><i>band</i><par n="žen/a__n"/></e>
 <e lm="readmisija"><i>readmisij</i><par n="žen/a__n"/></e>
-<e lm="publika"><i>publik</i><par n="žen/a__n"/></e>
+<e lm="publika"><i>publi</i><par n="sli/ka__n"/></e>
 <e lm="arbitraža"><i>arbitraž</i><par n="žen/a__n"/></e>
 <e lm="galerija"><i>galerij</i><par n="žen/a__n"/></e>
 <e lm="rafinerija"><i>rafinerij</i><par n="žen/a__n"/></e>
@@ -42188,7 +42335,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="glasina"><i>glasin</i><par n="žen/a__n"/></e>
 <e lm="kamera"><i>kamer</i><par n="žen/a__n"/></e>
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
-<e lm="noga"><i>nog</i><par n="žen/a__n"/></e>
+<e lm="noga"><i>no</i><par n="knji/ga__n"/></e>
 <e lm="pilotkinja"><i>pilotkinj</i><par n="žen/a__n"/></e>
 <e lm="pista"><i>pist</i><par n="žen/a__n"/></e>
 <e lm="klasa"><i>klas</i><par n="žen/a__n"/></e>
@@ -42505,10 +42652,12 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Bugarska"><i>Bugar</i><par n="Hrvat/ska__n"/></e>
 <e lm="Finska"><i>Fin</i><par n="Hrvat/ska__n"/></e>
 <e lm="Francuska"><i>Francu</i><par n="Hrvat/ska__n"/></e>
-<e lm="Švicarska"><i>Švicar</i><par n="Hrvat/ska__n"/></e><e lm="Švicarska"><i>Švajcar</i><par n="Hrvat/ska__n"/></e><!--TODO: group these into modules-->
+<e lm="Švicarska"><i>Švicar</i><par n="Hrvat/ska__n"/></e>
+<e lm="Švicarska"><i>Švajcar</i><par n="Hrvat/ska__n"/></e><!--TODO: group these into modules-->
 <e lm="Švedska"><i>Šved</i><par n="Hrvat/ska__n"/></e>
 <e lm="Rumunjska"><i>Rumunj</i><par n="Hrvat/ska__n"/></e>
-<e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__n"/></e><e lm="Španija"><i>Špan</i><par n="Srb/ija__n"/></e><!--TODO: group these into modules-->
+<e lm="Španjolska"><i>Španjol</i><par n="Hrvat/ska__n"/></e>
+<e lm="Španija"><i>Špan</i><par n="Srb/ija__n"/></e><!--TODO: group these into modules-->
 <e lm="Srbija"><i>Srb</i><par n="Srb/ija__n"/></e>
 <e lm="Rumunija"><i>Rumun</i><par n="Srb/ija__n"/></e>
 <e lm="Bosna"><i>Bosn</i><par n="Bosn/a__n"/></e>
@@ -42524,7 +42673,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Albanija"><i>Alban</i><par n="Srb/ija__n"/></e>
 <e lm="Makedonija"><i>Makedon</i><par n="Srb/ija__n"/></e>
 <e lm="Belgija"><i>Belg</i><par n="Srb/ija__n"/></e>
-<e lm="Nizozemska"><i>Nizozem</i><par n="Hrvat/ska__n"/></e><e lm="Holandija"><i>Holand</i><par n="Srb/ija__n"/></e>
+<e lm="Nizozemska"><i>Nizozem</i><par n="Hrvat/ska__n"/></e>
+<e lm="Holandija"><i>Holand</i><par n="Srb/ija__n"/></e>
 <e lm="Rusija"><i>Rus</i><par n="Srb/ija__n"/></e>
 <e lm="Slovenija"><i>Sloven</i><par n="Srb/ija__n"/></e>
 <e lm="Italija"><i>Ital</i><par n="Srb/ija__n"/></e>
@@ -42535,7 +42685,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="Moldavija"><i>Moldav</i><par n="Srb/ija__n"/></e>
 <e lm="Estonija"><i>Eston</i><par n="Srb/ija__n"/></e>
 <e lm="Australija"><i>Austral</i><par n="Srb/ija__n"/></e>
-<e lm="Litva"><i>Litv</i><par n="Bosn/a__n"/></e><e lm="Litvanija"><i>Litvan</i><par n="Srb/ija__n"/></e>
+<e lm="Litva"><i>Litv</i><par n="Bosn/a__n"/></e>
+<e lm="Litvanija"><i>Litvan</i><par n="Srb/ija__n"/></e>
 <e lm="Dalmacija"><i>Dalmac</i><par n="Srb/ija__n"/></e>
 <!--e lm="Nikozija"><i>Nikoz</i><par n="Srb/ija__n"/></e-->
 <!--e lm="Letonija"><i>Leton</i><par n="Srb/ija__n"/></e-->
@@ -43445,7 +43596,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="sunce"><i>sun</i><par n="sun/ce__n"/></e>
 <e lm="momče"><i>momč</i><par n="tel/e__n"/></e>
 <e lm="jaje"><i>jaj</i><par n="tel/e__n"/></e>
-<e lm="dijete"><i>d</i><par n="e_ije__yat"/><i>t</i><par n="tel/e__n"/></e>
+<e lm="dijete"><i/><par n="dijete__n"/></e>
 <e lm="uže"><i>už</i><par n="tel/e__n"/></e>
 <e lm="siroče"><i>siroč</i><par n="tel/e__n"/></e>
 <e lm="ime"><i>ime</i><par n="rame__n"/></e>
@@ -43469,6 +43620,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="medij"><i>medij</i><par n="medij__n"/></e>
 <e lm="medij"><p><l>medij</l><r>medij:1</r></p><par n="medium__n"/></e>
 <e lm="medij"><p><l>medijum</l><r>medij:1</r></p><par n="medium__n"/></e>
+<e lm="obitelj"><i>obitelj</i><par n="noć__n"/></e>
+<e lm="rad"><i>rad</i><par n="snop__n"/></e>
 <!--end Neuter nouns -->
 <!--end Nouns -->
 
@@ -43492,7 +43645,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zmaj"><i>zmaj</i><par n="zmaj__n"/></e>
 <e lm="plač"><i>plač</i><par n="plač__n"/></e>
 <e lm="snop"><i>snop</i><par n="snop__n"/></e>
-<e lm="rad"><i>rad</i><par n="snop__n"/></e>
+
 <e lm="duh"><i>du</i><par n="du/h__n"/></e>
 <e lm="konj"><i>konj</i><par n="konj__n"/></e>
 <e lm="hmelj"><i>hmelj</i><par n="namještaj__n"/></e>
@@ -43589,7 +43742,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="falsifikacija"><i>falsifikacij</i><par n="žen/a__n"/></e>
 <e lm="financija"><i>financij</i><par n="žen/a__n"/></e>
 <e lm="ilegalnost"><i>ilegalno</i><par n="ma/st__n"/></e>
-<e lm="isprika"><i>isprik</i><par n="žen/a__n"/></e>
+<e lm="isprika"><i>ispri</i><par n="sli/ka__n"/></e>
 <e lm="ljubomora"><i>ljubomor</i><par n="žen/a__n"/></e>
 <e lm="ljubopitnost"><i>ljubopitno</i><par n="ma/st__n"/></e>
 <e lm="nespokojnost"><i>nespokojno</i><par n="ma/st__n"/></e>
@@ -43732,7 +43885,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="svijest"><i>sv</i><par n="e_ije__yat"/><par n="ma/st__n"/></e>
 <e lm="posvećenost"><i>posvećeno</i><par n="ma/st__n"/></e>
 <e lm="mudrost"><i>mudro</i><par n="ma/st__n"/></e>
-<e lm="obitelj"><i>obitelj</i><par n="noć__n"/></e>
+
 <e lm="kokoš"><i>kokoš</i><par n="kost__n"/></e>
 <e lm="poštenje"><i>poštenj</i><par n="polj/e__n"/></e>
 <e lm="računalo"><i>računal</i><par n="koljen/o__n"/></e>

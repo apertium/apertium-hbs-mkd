@@ -94,10 +94,10 @@
      <cat-item tags="prn"/>
      <cat-item tags="prn.*"/>
   </def-cat>
-  <def-cat n="prn"><!--Not demonstrative-->
+  <def-cat n="prn"><!--Not demonstrative, and not reflexive possesive se-->
      <cat-item tags="prn.pers.*"/>
      <cat-item tags="prn.pos.*"/>     
-     <cat-item tags="prn.ref.*"/>
+     <cat-item tags="prn.ref.pos.*"/>
      <cat-item tags="prn.itg"/>     
      <cat-item tags="prn.itg.*"/>          
      <cat-item tags="prn.rel"/>              
@@ -107,7 +107,7 @@
      <cat-item tags="prn.neg"/>     
      <cat-item tags="prn.neg.*"/>                             
      <cat-item tags="prn.tot"/>          
-     <cat-item tags="prn.tot.*"/>     
+     <cat-item tags="prn.tot.*"/>          
   </def-cat>
   <def-cat n="prn_rel">
      <cat-item tags="prn.rel.*"/>
@@ -2960,7 +2960,7 @@
        <pattern-item n="nom"/>       
      </pattern>
      <action>
-       <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>       
+       <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
        <call-macro n="prn_adapter"><with-param pos="1"/></call-macro>
        <call-macro n="noun_adapter"><with-param pos="2"/></call-macro>                     
        <let><clip pos="1" side="tl" part="def"/><lit-tag v="def"/></let>
