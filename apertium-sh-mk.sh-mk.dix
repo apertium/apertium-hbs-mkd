@@ -548,7 +548,8 @@
      <e><p><l>niti<s n="cnjcoo"/></l><r>ниту<s n="cnjcoo"/></r></p></e>
      <e><p><l>ali<s n="cnjcoo"/></l><r>но<s n="cnjcoo"/></r></p></e>
      <e><p><l>da<s n="cnjsub"/></l><r>дека<s n="cnjsub"/></r></p></e>
- 	 <e><p><l>već<s n="cnjcoo"/></l><r>туку<s n="cnjcoo"/></r></p></e>
+ 	 <e><p><l>već<s n="cnjcoo"/></l><r>туку<b/>и<s n="cnjcoo"/></r></p></e>
+ 	 <e><p><l>već<b/>i<s n="cnjcoo"/></l><r>туку<b/>и<s n="cnjcoo"/></r></p></e> 	 
  	 
  	 <e><p><l>dakle<s n="cnjcoo"/></l><r>така<s n="adv"/></r></p></e> <!--TODO: check-->
 
@@ -5924,9 +5925,9 @@
      <e><p><l>Petar<s n="np"/></l><r>Петар<s n="np"/></r></p></e>
      
       <e><p><l>Dragiša<s n="np"/></l><r>Драгиша<s n="np"/></r></p></e>
-     <e><p><l>Aleksandar<s n="np"/></l><r>Александар<s n="np"/></r></p></e>
-     <e><p><l>Bajram<s n="np"/></l><r>Бајрам<s n="np"/></r></p></e>
-     <e><p><l>Fatlum<s n="np"/></l><r>Фатлум<s n="np"/></r></p></e>
+     <e><p><l>Aleksandar<s n="np"/><s n="ant"/><s n="ma"/></l><r>Александар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+     <e><p><l>Bajram<s n="np"/><s n="ant"/><s n="ma"/></l><r>Бајрам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+     <e><p><l>Fatlum<s n="np"/><s n="ant"/><s n="ma"/></l><r>Фатлум<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
      <e><p><l>Hasan<s n="np"/></l><r>Хасан<s n="np"/></r></p></e>
 
      <e><p><l>Sadik<s n="np"/></l><r>Садик<s n="np"/></r></p><par n="cog_contract_to_mfn"/></e>

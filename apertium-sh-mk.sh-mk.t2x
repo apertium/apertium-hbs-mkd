@@ -45,6 +45,8 @@
       <cat-item tags="SN.*.*.ins.*"/>
       <cat-item tags="SA.*.*.ins.*"/>      
       <cat-item tags="SV.*.*.ins.*"/>      
+      <cat-item tags="SPrn.*.ins"/>
+      <cat-item tags="SPrn.*.ins.*"/>      
     </def-cat>    
     <def-cat n="SAccDef">
       <cat-item tags="SN.*.*.acc.def"/>
@@ -392,6 +394,21 @@
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
+          </chunk>
+         </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SIns">
+    <!--Instrumental with a preposition needs not a 'со' preposition -->
+      <pattern>
+        <pattern-item n="PR"/>                
+        <pattern-item n="SIns"/>        
+      </pattern>
+      <action>
+         <out>
+          <chunk>
+            <clip pos="2" part="whole"/>
           </chunk>
          </out>
       </action>

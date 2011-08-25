@@ -27522,6 +27522,21 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
     <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
     <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>milionima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
+    
+    <e><p><l>milijun</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>milijuna</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>milijun</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>milijune</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><p><l>milijunu</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><p><l>milijunu</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>milijunom</l><r>milion<s n="num"/><s n="mfn"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><p><l>milijuni</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>milijuna</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e><p><l>milijune</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+    <e><p><l>milijuni</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>milijunima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+    <e><p><l>milijunima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>milijunima</l><r>milion<s n="num"/><s n="mfn"/><s n="pl"/><s n="ins"/></r></p></e>
 
       
 <!--Ordinal numbers-->
@@ -29953,6 +29968,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="no"><i>no</i><par n="coordinating__cnj"/></e>
 <e lm="nego"><i>nego</i><par n="coordinating__cnj"/></e>
 <e lm="već"><i>već</i><par n="coordinating__cnj"/></e>
+<e lm="već i"><i>već<b/>i</i><par n="coordinating__cnj"/></e><!--Note: Compatibility reasons-->
 <!--e lm="kad li"><i>kad<b/>li</i><par n="coordinating__cnj"/></e>
 <e lm="kad ono"><i>kad<b/>ono</i><par n="coordinating__cnj"/></e>
 <e lm="kad to"><i>kad<b/>to</i><par n="coordinating__cnj"/></e>
