@@ -7791,7 +7791,7 @@ after prepositions-->
 <!--Imperative-->
 <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e>
+<e><p><l></l><r>ati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__am__vblex"/></e>
 <!--Imperfect-->
 <e><p><l>a</l><r>ati<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->

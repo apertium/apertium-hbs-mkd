@@ -323,9 +323,9 @@
 </section-def-attrs>
 
 <section-def-vars>
-  <def-var n="numero"/>
-  <def-var n="genNom"/><def-var n="genGen"/><def-var n="genDat"/><def-var n="genAcc"/>  <def-var n="genVoc"/>  <def-var n="genLoc"/>   <def-var n="genIns"/>
-  <def-var n="persona"/>  
+  <def-var n="numero" v="&lt;sg&gt;"/>
+  <def-var n="genere"/>
+  <def-var n="persona" v="&lt;p3&gt;"/>  
   <def-var n="conditional"/>    
 </section-def-vars>
 
