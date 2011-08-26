@@ -77,7 +77,7 @@ dev/n/pending_nouns.txt -text
 dev/n/uncategorised.txt -text
 dev/np/bidix_np.txt -text
 dev/np/prezimenic.monodix.txt -text
-dev/np/prezimenić.txt -text
+dev/np/prezimenic.txt -text
 dev/np/prezimenov.monodix.txt -text
 dev/np/prezimenov.txt -text
 dev/np/prezimenski.monodix.txt -text
