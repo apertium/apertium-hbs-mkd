@@ -523,7 +523,7 @@
 
      <!-- SECTION: abbreviation -->
 	<e><p><l>km/h<s n="abbr"/></l><r>км/ч<s n="abbr"/></r></p></e>
-	<!--e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e-->
+	<e><p><l>km<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
 	<e><p><l>EU<s n="abbr"/></l><r>ЕУ<s n="abbr"/></r></p></e>
 	<e><p><l>EK<s n="abbr"/></l><r>ЕК<s n="abbr"/></r></p></e>	
 	<e><p><l>OEBS<s n="abbr"/></l><r>ОБСЕ<s n="abbr"/></r></p></e>
@@ -555,7 +555,8 @@
 
   	 <e><p><l>baš<s n="adv"/></l><r>токму<s n="adv"/></r></p></e>
    	 <e r="RL"><p><l>baš<s n="adv"/></l><r>баш<s n="adv"/></r></p></e>
- 	 
+   	 <e><p><l>uglavnom<s n="adv"/></l><r>главно<s n="adv"/></r></p></e>
+   	 
   	 <e><p><l>tokom<s n="adv"/></l><r>со<b/>текот<b/>на<s n="adv"/></r></p></e>
    	 <e><p><l>tijekom<s n="adv"/></l><r>со<b/>текот<b/>на<s n="adv"/></r></p></e>
   	  	 
