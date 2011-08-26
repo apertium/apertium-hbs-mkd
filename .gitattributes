@@ -30,6 +30,7 @@ dev/adj/done.txt -text svneol=unset#application/octet-stream
 dev/adj/fer__adj -text
 dev/adj/garantni.par -text
 dev/adj/kraen__adj -text
+dev/adj/nizok__adj -text
 dev/adj/paradigme.adj -text
 dev/adj/pending_adjectives.txt -text
 dev/adj/pending_adjectives_BS.txt -text
@@ -47,7 +48,6 @@ dev/adj/каменен__adj -text
 dev/adj/кревок__adj -text
 dev/adj/летачки__adj -text
 dev/adj/местен__adj -text
-dev/adj/низок__adj -text
 dev/adj/тежок__adj -text
 dev/adj/топол__adj -text
 dev/adv/prilozi.nepromjenjivi.bidix.txt -text
