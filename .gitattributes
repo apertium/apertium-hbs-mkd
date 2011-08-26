@@ -30,6 +30,7 @@ dev/adj/done.txt -text svneol=unset#application/octet-stream
 dev/adj/fer__adj -text
 dev/adj/garantni.par -text
 dev/adj/inakov__adj -text
+dev/adj/kamenen__adj -text
 dev/adj/kraen__adj -text
 dev/adj/krevok__adj -text
 dev/adj/letachki__adj -text
@@ -49,7 +50,6 @@ dev/adj/topol__adj -text
 dev/adj/visok__adj -text
 dev/adj/vodeći.par -text
 dev/adj/инвентивен__adj -text
-dev/adj/каменен__adj -text
 dev/adv/prilozi.nepromjenjivi.bidix.txt -text
 dev/adv/prilozi.nepromjenjivi.monodix.txt -text
 dev/adv/prilozi.nepromjenjivi.txt -text
