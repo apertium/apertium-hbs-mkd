@@ -727,12 +727,17 @@ after prepositions-->
 	 <e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>	 
 <e r="LR"><p><l>sveg</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
 	<e><p><l>svega</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+     <e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+	 <e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="voc"/></r></p></e>	 
+<e r="LR"><p><l>svog</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>svoga</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>svo</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
 	 <e><p><l>sve</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
 <e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
 	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
 <e r="LR"><p><l>svem</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 	<e><p><l>svemu</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+	<e r="LR"><p><l>svomu</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
   	<e><p><l>svim</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
  <e r="LR"><p><l>svime</l><r>sav<s n="prn"/><s n="tot"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>		
 
@@ -3400,6 +3405,16 @@ after prepositions-->
 	<e><p><l>svojem</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>svojemu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
 	<e><p><l>svojim</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+	<e><p><l>svog</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>svoga</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+ 	<e><p><l>svog</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+<e r="LR"><p><l>svoga</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
 <!--Inanimate-->  
 	  <e><p><l>svoj</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
 	<e><p><l>svojeg</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -3410,6 +3425,15 @@ after prepositions-->
 	<e><p><l>svojem</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>svojemu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
 	<e><p><l>svojim</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+		<e><p><l>svog</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>svoga</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e><p><l>svoj</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+	<e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+	<e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
 <!--Feminine-->
          <e><p><l>svoja</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
          <e><p><l>svoje</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -3427,6 +3451,15 @@ after prepositions-->
         <e><p><l>svojem</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>svojemu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
         <e><p><l>svojim</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>svog</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>svoga</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+         <e><p><l>svo</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>svom</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svomu</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>svome</l><r>svoj<s n="prn"/><s n="ref"/><s n="pos"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
 <!--Plural--><!--A lot of redundancy here-->
 <!--Masculine-->
 <!--Animate-->
@@ -13945,7 +13978,6 @@ after prepositions-->
          <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
          <e><p><l>a</l><r><s n="nt"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
 </pardef>
-
 <pardef n="zdrav__comp__sfx">
 <!-- Comparative --><!--Note: I've switched the definiteness marker here with <comp>, since definiteness is relevant only for positive, but I'm not sure if this is practical -->
 <!--Masculine-->
@@ -22250,6 +22282,7 @@ after prepositions-->
 <!--No comparative-->
 <!--No superlative-->
 <!--end 'mnog/i'-->
+
 <!--adjective paradigm 'garantn/i'-->
 <pardef n="garantn/i__pst__sfx">
 <!--No indefinite aspect-->
@@ -33266,9 +33299,8 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="pun"><p><l>prepun</l><r>pun</r></p><par n="zdrav__ssup__adj"/></e>
 
 <e lm="nemoguć"><i>nemoguć</i><par n="zdrav__pst__adj"/></e>
-<e lm="nemoguć"><i>nemoguć</i><par n="zdrav__comp__adj"/></e>
-<e lm="nemoguć"><p><l>najnemoguć</l><r>nemoguć</r></p><par n="zdrav__sup__adj"/></e>
-<e lm="nemoguć"><p><l>prenemoguć</l><r>nemoguć</r></p><par n="zdrav__ssup__adj"/></e>
+
+<e lm="moguć"><i>moguć</i><par n="zdrav__pst__adj"/></e>
 
 <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__pst__adj"/></e>
 <e lm="dvostruk"><i>dvostruk</i><par n="zdrav__comp__adj"/></e>

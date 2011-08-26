@@ -762,7 +762,6 @@
      <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
      <e><p><l>zašto<s n="prn"/><s n="itg"/></l><r>зошто<s n="prn"/><s n="itg"/></r></p></e>
      <e><p><l>koliko<s n="prn"/></l><r>колку<s n="prn"/></r></p></e><!--TODO: This is ambiguous how much == koliko, how large (nt) == koliko-->
-     <e><p><l>kako<s n="prn"/></l><r>како<s n="prn"/></r></p></e><!--TODO: chech if/when this means 'how' or 'like' -->
      <e><p><l>gdje<s n="prn"/></l><r>каде<s n="prn"/></r></p></e>
 
 
@@ -7609,7 +7608,7 @@
 	<e><p><l>dolje<s n="adv"/></l><r>долу<s n="adv"/></r></p></e> <!--TODO: This needs to be added to the mk monodix, and the mk-bg monodix (phps mk-en monodix)-->
 	<e><p><l>ne<s n="adv"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
 	<e><p><l>ne<s n="part"/><s n="neg"/></l><r>не<s n="adv"/></r></p></e><!--TODO: This is a particle in sh, and in the mk monodix analysed as adverb (which it apparently is)-->
-	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e><!--TODO: add this to the sh monodix--> <!--TODO: in translation from macedonian; kako and kao have distinct meanings, needs to be handled in transfer-->
+	<e r="LR"><p><l>kao<s n="adv"/></l><r>како<s n="adv"/></r></p></e>
     <e><p><l>kada<s n="adv"/></l><r>кога<s n="adv"/></r></p></e>
     <e><p><l>dobro<s n="adv"/></l><r>добро<s n="adv"/></r></p></e>     
     <e><p><l>loše<s n="adv"/></l><r>лошо<s n="adv"/></r></p></e>         
