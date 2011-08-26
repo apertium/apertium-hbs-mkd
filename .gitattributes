@@ -26,6 +26,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/adj/done.txt -text svneol=unset#application/octet-stream
+dev/adj/fer__adj -text
 dev/adj/garantni.par -text
 dev/adj/paradigme.adj -text
 dev/adj/pending_adjectives.txt -text
@@ -49,7 +50,6 @@ dev/adj/местен__adj -text
 dev/adj/низок__adj -text
 dev/adj/тежок__adj -text
 dev/adj/топол__adj -text
-dev/adj/фер__adj -text
 dev/adv/prilozi.nepromjenjivi.bidix.txt -text
 dev/adv/prilozi.nepromjenjivi.monodix.txt -text
 dev/adv/prilozi.nepromjenjivi.txt -text
