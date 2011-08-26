@@ -31,6 +31,7 @@ dev/adj/fer__adj -text
 dev/adj/garantni.par -text
 dev/adj/inakov__adj -text
 dev/adj/kraen__adj -text
+dev/adj/krevok__adj -text
 dev/adj/nizok__adj -text
 dev/adj/paradigme.adj -text
 dev/adj/pending_adjectives.txt -text
@@ -47,7 +48,6 @@ dev/adj/visok__adj -text
 dev/adj/vodeći.par -text
 dev/adj/инвентивен__adj -text
 dev/adj/каменен__adj -text
-dev/adj/кревок__adj -text
 dev/adj/летачки__adj -text
 dev/adj/местен__adj -text
 dev/adv/prilozi.nepromjenjivi.bidix.txt -text
