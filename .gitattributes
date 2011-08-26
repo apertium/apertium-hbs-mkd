@@ -40,6 +40,7 @@ dev/adj/pending_adjectives_unknown.txt -text
 dev/adj/pridjevi.adj -text
 dev/adj/pridjevski.par -text
 dev/adj/sve.adj -text
+dev/adj/tezhok__adj -text
 dev/adj/visok__adj -text
 dev/adj/vodeći.par -text
 dev/adj/инаков__adj -text
@@ -48,7 +49,6 @@ dev/adj/каменен__adj -text
 dev/adj/кревок__adj -text
 dev/adj/летачки__adj -text
 dev/adj/местен__adj -text
-dev/adj/тежок__adj -text
 dev/adj/топол__adj -text
 dev/adv/prilozi.nepromjenjivi.bidix.txt -text
 dev/adv/prilozi.nepromjenjivi.monodix.txt -text
