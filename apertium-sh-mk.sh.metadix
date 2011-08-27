@@ -34015,6 +34015,11 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="lijep"><p><l>najl</l><r>l</r></p><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><i>p</i><par n="mek__sup__adj"/></e>
 <e lm="lijep"><p><l>prel</l><r>l</r></p><par n="e_ije__yat"/><i>p</i><par n="mek__ssup__adj"/></e>
 
+<e lm="visok"><i>visok</i><par n="mek__pst__adj"/></e>
+<e lm="visok"><p><l>vi</l><r>visok</r></p><par n="mek__comp__adj"/></e>
+<e lm="visok"><p><l>najvi</l><r>visok</r></p><par n="mek__sup__adj"/></e>
+<e lm="visok"><p><l>previsok</l><r>visok</r></p><par n="mek__ssup__adj"/></e>
+
 <e lm="lak"><i>lak</i><par n="mek__pst__adj"/></e>
 <e lm="lak"><i>lak</i><par n="mek__comp__adj"/></e>
 <e lm="lak"><p><l>najlak</l><r>lak</r></p><par n="mek__sup__adj"/></e>
@@ -41010,6 +41015,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="zrak"><i>zr</i><par n="viš/ak__n"/></e>
 <!-- -o declension -->
 <e lm="video"><i>vide</i><par n="vide/o__n"/></e>
+<e lm="video"><i>d</i><par n="e_je__yat"/><i>l</i><par n="vide/o__n"/></e>
 <e lm="biro"><i>bir</i><par n="vide/o__n"/></e>
 <e lm="euro"><i>eur</i><par n="vide/o__n"/></e>
 <e lm="evro"><i>evr</i><par n="vide/o__n"/></e>
@@ -41144,6 +41150,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="žena"><i>žen</i><par n="žen/a__n"/></e>
 <e lm="iskaznica"><i>iskaznic</i><par n="žen/a__n"/></e>
 <e lm="albanka"><i>albank</i><par n="žen/a__n"/></e>
+<e lm="vladavina"><i>vladavin</i><par n="žen/a__n"/></e>
 <e lm="škola"><i>škol</i><par n="žen/a__n"/></e>
 <e lm="crta"><i>crt</i><par n="žen/a__n"/></e>
 <e lm="klupa"><i>klup</i><par n="žen/a__n"/></e>

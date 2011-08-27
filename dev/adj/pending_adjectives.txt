@@ -1,3 +1,0 @@
-vladin:владин
-nevladin:невладин
-crn:црн
