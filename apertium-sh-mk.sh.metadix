@@ -5006,33 +5006,33 @@ after prepositions-->
 
 <!-- Pronoun collective entries-->
 <pardef n="possesive__pronouns__prn">
-	<e><i/><par n="moj__prn"/></e>
-	<e><i/><par n="tvoj__prn"/></e>
-	<e><i/><par n="svoj__prn"/></e>
-	<e><i/><par n="njegov__prn"/></e>
-	<e><i/><par n="njen__prn"/></e>
+	<e><par n="moj__prn"/></e>
+	<e><par n="tvoj__prn"/></e>
+	<e><par n="svoj__prn"/></e>
+	<e><par n="njegov__prn"/></e>
+	<e><par n="njen__prn"/></e>
 <e lm="njezin"><i/><par n="njezin__prn"/></e>
-	<e><i/><par n="naš__prn"/></e>
-	<e><i/><par n="vaš__prn"/></e>
-	<e><i/><par n="njihov__prn"/></e>
+	<e><par n="naš__prn"/></e>
+	<e><par n="vaš__prn"/></e>
+	<e><par n="njihov__prn"/></e>
 </pardef>
 <pardef n="interrogative__pronouns__prn">
-	<e><i/><par n="tko__itg__prn"/></e>
-	<e><i/><par n="što__itg__prn"/></e>
+	<e><par n="tko__itg__prn"/></e>
+	<e><par n="što__itg__prn"/></e>
 	<e><p><l>zašto</l><r>zašto<s n="prn"/><s n="itg"/></r></p></e>
-	<e><i/><par n="koji__itg__prn"/></e>
-	<e><i/><par n="kakav__itg__prn"/></e>
-	<e><i/><par n="čiji__itg__prn"/></e>
-	<e><i/><par n="koliki__itg__prn"/></e>
+	<e><par n="koji__itg__prn"/></e>
+	<e><par n="kakav__itg__prn"/></e>
+	<e><par n="čiji__itg__prn"/></e>
+	<e><par n="koliki__itg__prn"/></e>
 	<e><p><l>koliko</l><r>koliko<s n="prn"/><s n="itg"/></r></p></e>
 </pardef>
 <pardef n="relative__pronouns__prn">
-	<e><i/><par n="tko__rel__prn"/></e>
-	<e><i/><par n="što__rel__prn"/></e>
-	<e><i/><par n="koji__rel__prn"/></e>
-	<e><i/><par n="kakav__rel__prn"/></e>
-	<e><i/><par n="čiji__rel__prn"/></e>
-	<e><i/><par n="koliki__rel__prn"/></e>
+	<e><par n="tko__rel__prn"/></e>
+	<e><par n="što__rel__prn"/></e>
+	<e><par n="koji__rel__prn"/></e>
+	<e><par n="kakav__rel__prn"/></e>
+	<e><par n="čiji__rel__prn"/></e>
+	<e><par n="koliki__rel__prn"/></e>
 	<e><p><l>koliko</l><r>koliko<s n="prn"/><s n="rel"/></r></p></e>
 </pardef>
 <pardef n="indefinite__pronouns__prn"><!--TODO: the suffix -god, it's for now implemented as a particle-->
@@ -5086,21 +5086,21 @@ after prepositions-->
 	<e><i>sva</i><par n="sva/kakav__tot__prn"/></e>
 	<!--e><i>sva</i><par n="sva/čiji__tot__prn"/></e-->
 	<!--e><i>sva</i><par n="sva/koliki__tot__prn"/></e-->
-	<e><i/><par n="sav__tot__prn"/></e>
-	<e><i/><par n="sve__tot__prn"/></e>
+	<e><par n="sav__tot__prn"/></e>
+	<e><par n="sve__tot__prn"/></e>
 </pardef>
 <pardef n="demonstrative__pronouns__prn">
-	<e><i/><par n="ovaj__dem__prn"/></e>
-	<e><i/><par n="ovakav__dem__prn"/></e>
-	<e><i/><par n="ovolik__dem__prn"/></e>
+	<e><par n="ovaj__dem__prn"/></e>
+	<e><par n="ovakav__dem__prn"/></e>
+	<e><par n="ovolik__dem__prn"/></e>
 
-	<e><i/><par n="taj__dem__prn"/></e>
-	<e><i/><par n="takav__dem__prn"/></e>
-	<e><i/><par n="tolik__dem__prn"/></e>
+	<e><par n="taj__dem__prn"/></e>
+	<e><par n="takav__dem__prn"/></e>
+	<e><par n="tolik__dem__prn"/></e>
 
-	<e><i/><par n="onaj__dem__prn"/></e>
-	<e><i/><par n="onakav__dem__prn"/></e>
-	<e><i/><par n="onolik__dem__prn"/></e>
+	<e><par n="onaj__dem__prn"/></e>
+	<e><par n="onakav__dem__prn"/></e>
+	<e><par n="onolik__dem__prn"/></e>
 </pardef>
 <!--end Pronoun collective entries-->
 <!--Adverbs and adverb paradigms-->
@@ -5159,12 +5159,12 @@ after prepositions-->
 </pardef>
 <!--Note: just to help with some irregularities-->
 <pardef n="pres__sfx__e_ije_m__vblex">
-      <e><i/><par n="e_ije_left__yat"/><p><l>m</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-       <e><i/><par n="e_ije_left__yat"/><p><l>š</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><i/><par n="e_ije_left__yat"/><p><l></l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>mo</l><r><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-     <e><i/><par n="e_ije_left__yat"/><p><l>te</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e><i/><par n="e_i_left__yat"/><p><l>ju</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><par n="e_ije_left__yat"/><p><l>m</l><r><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><par n="e_ije_left__yat"/><p><l>š</l><r><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><par n="e_ije_left__yat"/><p><l></l><r><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>mo</l><r><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e><par n="e_ije_left__yat"/><p><l>te</l><r><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e><par n="e_i_left__yat"/><p><l>ju</l><r><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
 <!--end suffixes for present-->
 
@@ -5250,42 +5250,42 @@ after prepositions-->
     <e><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="lp_iti__sfx">
-    <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> 
+    <e><par n="e_je_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
     <!--This is also the form for optative-->    
-     <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+     <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><par n="e_je_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="lp_ijeti__sfx">
-    <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_ije_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="lp"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e> 
+    <e><par n="e_ije_left__yat"/><p><l>li</l><r><s n="lp"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>le</l><r><s n="lp"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="lp"/><s n="nt"/><s n="pl"/></r></p></e>
     <!--This is also the form for optative-->    
-     <e><i/><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+     <e><par n="e_i_left__yat"/><p><l>o</l><r><s n="opt"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e> 
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>lo</l><r><s n="opt"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>li</l><r><s n="opt"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>le</l><r><s n="opt"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><p><l>la</l><r><s n="opt"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="lp_ao__sfx">
     <e><p><l>ao</l><r><s n="lp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6773,16 +6773,16 @@ after prepositions-->
 
 <pardef n="perf_ref_razum/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
 <!--Imperative-->
 <e><i></i><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="imperf_ref_razum/jeti__vblex"><!--TODO: This is severely broken, I think. -->
@@ -6793,65 +6793,65 @@ after prepositions-->
 <!--Present-->
 <e><i></i><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="imperf_iv_razum/jeti__vblex">
 <!--Infinitive-->
 <e><i></i><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="imperf_tv_razum/jeti__vblex">
 <!--Infinitive-->
 <e><i></i><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_iv_razum/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
 <!--Imperative-->
 <e><i></i><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_tv_razum/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
 <!--Imperative-->
 <e><i></i><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__j__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__e_ije_m__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 
@@ -8009,157 +8009,157 @@ after prepositions-->
 
 <pardef n="imperf_iv_živ/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Imperfect-->
 <e><par n="e_je_right__yat"/><p><l>lja</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je_right__yat"/><p><l>eći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je_right__yat"/><p><l>eći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="imperf_tv_živ/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Imperfect-->
 <e><par n="e_je_right__yat"/><p><l>lja</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je_right__yat"/><p><l>eći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_i_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je_right__yat"/><p><l>eći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="perf_iv_proživ/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_ref_proživ/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_tv_proživ/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_o__sfx"/></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="imperf_iv_žel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="imperf_ref_žel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="imperf_tv_žel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__imperf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Imperfect-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="imperf__sfx__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
     <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-    <e><i/><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_e_left__yat"/><par n="e_je_right__yat"/><p><l>ći</l><r>ti<s n="vblex"/><s n="imperf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="perf_iv_požel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__iv__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_ref_požel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__ref__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_iti__sfx"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="ref"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 <pardef n="perf_tv_požel/jeti__vblex">
 <!--Infinitive-->
-<e><i/><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
+<e><par n="e_je__yat"/><par n="inf_ti+fiiI__sfx__tv__vblex__perf"/></e>
 <!--Imperative-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="imp__sfx__i__vblex"/></e>
 <!--Present-->
-<e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
+<e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pres__sfx__im__vblex"/></e>
 <!--Aorist-->
-<e><i/><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
+<e><par n="e_je__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="aor__sfx__vblex"/></e>
 <!--Participles-->
-    <e><i/><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
+    <e><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="lp_iti__sfx"/></e>
     <e><p><l>jen</l><r></r></p><par n="e_je_right__yat"/><p><l></l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/></r></p><par n="pp__sfx__vblex"/></e>
-    <e><i/><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+    <e><par n="e_je__yat"/><p><l>vši</l><r>ti<s n="vblex"/><s n="perf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
 </pardef>
 
 
@@ -22143,6 +22143,23 @@ after prepositions-->
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
+    <pardef n="sv/ijet__n"><!--Shortening of yat in plural-->
+    <e><par n="e_ije__yat"/><p><l>t</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><par n="e_ije__yat"/><p><l>ta</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><par n="e_ije__yat"/><p><l>tu</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>
+    <e><par n="e_ije__yat"/><p><l>t</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>    
+    <e><par n="e_ije__yat"/><p><l>te</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><par n="e_ije__yat"/><p><l>tu</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><par n="e_ije__yat"/><p><l>tom</l><r>t<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><par n="e_je__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><par n="e_je__yat"/><p><l>tova</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>    
+    <e r="LR"><i/><par n="e_je__yat"/><p><l>tovâ</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>    
+    <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><par n="e_je__yat"/><p><l>tove</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><par n="e_je__yat"/><p><l>tovi</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><par n="e_je__yat"/><p><l>tovima</l><r>t<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
     <pardef n="program__n">
     <e><p><l></l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -22153,7 +22170,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
-<e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e><!--TODO: Eventually add this, when there's an ambiguity, sometimes in texts the caret is used above a to note the phonemic length-->         
+<e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22243,6 +22260,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22258,7 +22276,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22274,7 +22293,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22330,6 +22350,7 @@ after prepositions-->
     <e r="LR"><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e r="LR"><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>    
     <e r="LR"><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e r="LR"><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22338,6 +22359,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22353,7 +22375,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22370,7 +22393,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>evâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>evima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22387,6 +22411,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22402,7 +22427,8 @@ after prepositions-->
       <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
       <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
       <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
       <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22419,6 +22445,7 @@ after prepositions-->
       <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
       <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
       <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
       <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22436,6 +22463,7 @@ after prepositions-->
       <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>                 
       <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
       <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
       <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22451,7 +22479,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22467,7 +22496,8 @@ after prepositions-->
       <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
       <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
       <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
       <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
       <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
       <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22530,7 +22560,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22547,6 +22578,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22562,7 +22594,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22578,7 +22611,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22595,6 +22629,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+  <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22627,7 +22662,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22679,21 +22715,21 @@ after prepositions-->
     <e r="LR"><p><l>cima</l><r>k<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="b/ijeg__n">
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>ga</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>že</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>ga</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>že</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
     <e r="LR"><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="voc"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
-    <e><i/><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gom</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>gova</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>      
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>gove</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
-    <e><i/><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gu</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><par n="e_ije_left__yat"/><par n="e_ije_right__yat"/><p><l>gom</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>gova</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>      
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>gove</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govi</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><par n="e_je_left__yat"/><par n="e_ije_right__yat"/><p><l>govima</l><r>g<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="ro/g__n">
     <e><p><l>g</l><r>g<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -22743,7 +22779,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22779,7 +22816,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>                       
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22796,8 +22834,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -22904,8 +22944,10 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>evâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>evima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -22928,18 +22970,20 @@ after prepositions-->
     <e r="LR"><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>                
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
-    <e r="LR"><p><l>ee</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e r="LR"><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
-    <e r="LR"><p><l>eima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
+    <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="kum__n">
     <e><p><l></l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -22950,7 +22994,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22966,7 +23011,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22983,6 +23029,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -22999,8 +23046,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23021,7 +23070,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23038,8 +23088,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23077,7 +23129,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23095,7 +23148,9 @@ after prepositions-->
     <e><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23139,7 +23194,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>evâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>evima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23155,7 +23211,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eva</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>evâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>evima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>eve</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>evi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23172,7 +23229,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23190,6 +23248,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23205,7 +23264,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23221,7 +23281,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23238,6 +23299,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23254,6 +23316,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23386,8 +23449,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>    
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>  
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23441,6 +23506,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23457,6 +23523,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23472,7 +23539,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>    
-    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>                  
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23489,6 +23557,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>    
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23505,8 +23574,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>    
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>    
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>    
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e> 
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23528,8 +23599,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>  
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23551,8 +23624,10 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e r="LR"><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+          <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>ovima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>  
     <e><p><l>ove</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23624,8 +23699,10 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e r="LR"><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>           
     <e><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23664,7 +23741,9 @@ after prepositions-->
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>evi</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e r="LR"><p><l>eva</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>evâ</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e r="LR"><p><l>evima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>  
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
@@ -23771,7 +23850,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>                    
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23787,7 +23867,8 @@ after prepositions-->
     <e><p><l>u</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
-    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ova</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+	<e r="LR"><p><l>ovâ</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
     <e><p><l>ovima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>ove</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>ovi</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23804,6 +23885,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>             
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23859,6 +23941,32 @@ after prepositions-->
     <e><p><l>scima</l><r>zak<s n="n"/><s n="mi"/><s n="pl"/><s n="loc"/></r></p></e>
     <e><p><l>scima</l><r>zak<s n="n"/><s n="mi"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
+<pardef n="o/tac__n"><!--With fleeting a--><!--TODO: This paradigm has more variants which are archaic/poetic, and unlikely to occur in targeted texts-->
+    <e><p><l>tac</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>ca</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>cu</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e><p><l>ca</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e><p><l>če</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>        
+    <e><p><l>cu</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e><p><l>cem</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
+    <e r="LR"><p><l>tca</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>tcu</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="dat"/></r></p></e>    
+    <e r="LR"><p><l>tca</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="acc"/></r></p></e>
+    <e r="LR"><p><l>tče</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="voc"/></r></p></e>        
+    <e r="LR"><p><l>tcu</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="loc"/></r></p></e>
+    <e r="LR"><p><l>tcem</l><r>tac<s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>    
+    <e><p><l>čevi</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>čeva</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>čevâ</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>          
+    <e><p><l>čevima</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
+    <e><p><l>čeve</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
+    <e><p><l>čevi</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
+    <e><p><l>čevima</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="loc"/></r></p></e>
+    <e><p><l>čevima</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="ins"/></r></p></e>    
+    <e r="LR"><p><l>ci</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e r="LR"><p><l>taca</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>tacâ</l><r>tac<s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>          
+</pardef>
 <pardef n="trenu/tak__n"><!--With fleeting a-->
     <e><p><l>tak</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>tka</l><r>tak<s n="n"/><s n="mi"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -23887,6 +23995,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -23903,6 +24012,7 @@ after prepositions-->
     <e><p><l>om</l><r><s n="n"/><s n="mi"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>     
+      <e r="LR"><p><l>â</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="gen"/></r></p></e>               
     <e><p><l>ima</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="mi"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -24008,6 +24118,7 @@ after prepositions-->
     <e r="LR"><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -24024,6 +24135,7 @@ after prepositions-->
     <e><p><l>em</l><r><s n="n"/><s n="ma"/><s n="sg"/><s n="ins"/></r></p></e>
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>â</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="gen"/></r></p></e>             
     <e><p><l>ima</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>e</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="acc"/></r></p></e>    
     <e><p><l>i</l><r><s n="n"/><s n="ma"/><s n="pl"/><s n="voc"/></r></p></e>
@@ -24129,6 +24241,7 @@ after prepositions-->
    <e><p><l>ije</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ije</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ija</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>ijâ</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ijama</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ijama</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>ijama</l><r>ija<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24145,6 +24258,7 @@ after prepositions-->
    <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>â</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24161,8 +24275,10 @@ after prepositions-->
    <e><p><l>lje</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>lje</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>alja</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>aljâ</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>lji</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>lja</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>ljâ</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>ljama</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ljama</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>ljama</l><r>lja<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24196,6 +24312,7 @@ after prepositions-->
    <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>â</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>ama</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24212,6 +24329,7 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24246,6 +24364,7 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24282,6 +24401,7 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24298,6 +24418,7 @@ after prepositions-->
        <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
        <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
        <e><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
      <e><p><l>-kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
      <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24315,6 +24436,7 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>aka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><p><l>akâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24334,13 +24456,15 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>akâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>aka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
 </pardef>
 <pardef n="bilješ/ka__n"><!--With and without sibilarization --><!--Fleeting a --><!--Three possibilities for genitive pl-->
-   <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+   <e><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e><!--TODO: there's a case missing, but a sound change is involved so more work-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
    <e><p><l>ku</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>   
    <e r="LR"><p><l>ci</l><r>ka<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -24354,6 +24478,8 @@ after prepositions-->
    <e><p><l>ke</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>ki</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>kâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e><p><l>akâ</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>aka</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>kama</l><r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24374,6 +24500,8 @@ after prepositions-->
    <e><p><l>pke</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>pki</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>pka</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>pkâ</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>bakâ</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>baka</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>pkama</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>pkama</l><r>pka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24394,6 +24522,8 @@ after prepositions-->
    <e><p><l>tke</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>tki</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>tka</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>tkâ</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>dakâ</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>      
    <e><p><l>daka</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>tkama</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>tkama</l><r>tka<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24412,6 +24542,8 @@ after prepositions-->
    <e><p><l>če</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>či</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ča</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>čâ</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>ačâ</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ača</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24430,6 +24562,8 @@ after prepositions-->
    <e><p><l>re</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>ri</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>ra</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>râ</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>arâ</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ara</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>rama</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>rama</l><r>ra<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24448,6 +24582,8 @@ after prepositions-->
    <e><p><l>ve</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>vi</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>va</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>vâ</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>avâ</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ava</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>vama</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>vama</l><r>va<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24466,6 +24602,8 @@ after prepositions-->
    <e><p><l>breskve</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>breskvi</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>breskva</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>breskvâ</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>bresakâ</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>bresaka</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>breskvama</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>breskvama</l><r>breskva<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24484,6 +24622,8 @@ after prepositions-->
    <e><p><l>be</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>bi</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ba</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>bâ</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>abâ</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e> 
    <e><p><l>aba</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>bama</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>bama</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24502,6 +24642,7 @@ after prepositions-->
    <e><p><l>be</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>bi</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ba</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>bâ</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>bama</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>bama</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>bama</l><r>ba<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24519,6 +24660,7 @@ after prepositions-->
    <e><p><l>če</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>či</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ča</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>čâ</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>čama</l><r>ča<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24536,6 +24678,7 @@ after prepositions-->
    <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>câ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24553,6 +24696,7 @@ after prepositions-->
    <e><p><l>de</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>di</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>da</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>dâ</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>dama</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>dama</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>dama</l><r>da<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24570,6 +24714,7 @@ after prepositions-->
    <e><p><l>fe</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>fi</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>fa</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>fâ</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>fama</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>fama</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>fama</l><r>fa<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24587,6 +24732,7 @@ after prepositions-->
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>gi</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ga</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>gâ</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24604,6 +24750,7 @@ after prepositions-->
    <e><p><l>ne</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ni</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>na</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>nâ</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24621,6 +24768,7 @@ after prepositions-->
    <e><p><l>pe</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>pi</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>pa</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>pâ</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>pama</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>pama</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>pama</l><r>pa<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24638,6 +24786,7 @@ after prepositions-->
    <e><p><l>se</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>si</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>sa</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>sâ</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>sama</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>sama</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>sama</l><r>sa<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24655,6 +24804,7 @@ after prepositions-->
    <e><p><l>še</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ši</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ša</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>šâ</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>šama</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>šama</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>šama</l><r>ša<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24672,6 +24822,7 @@ after prepositions-->
    <e><p><l>te</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ti</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ta</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>tâ</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24690,6 +24841,8 @@ after prepositions-->
    <e><p><l>ti</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ata</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ta</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>atâ</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>tâ</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>tama</l><r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24707,6 +24860,7 @@ after prepositions-->
    <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>li</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>la</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>lâ</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24724,6 +24878,8 @@ after prepositions-->
    <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>câ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>acâ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>aca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24742,7 +24898,9 @@ after prepositions-->
    <e><p><l>ce</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ci</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>ca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>câ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>aca</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>acâ</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>cama</l><r>ca<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24760,6 +24918,8 @@ after prepositions-->
    <e><p><l>le</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>li</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>la</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>lâ</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>alâ</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>   
    <e><p><l>ala</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>lama</l><r>la<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24778,6 +24938,8 @@ after prepositions-->
    <e><p><l>ne</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>ni</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>na</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>nâ</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>anâ</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ana</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>nama</l><r>na<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24796,6 +24958,8 @@ after prepositions-->
    <e><p><l>nje</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>nji</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>nja</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>njâ</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>anja</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>anja</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>njama</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>njama</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -24813,7 +24977,7 @@ after prepositions-->
    <e><p><l>trešnje</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>trešnje</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>trešnji</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
-   <e r="LR"><p><l>trešnja</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>trešnjâ</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>trešnjama</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>trešnjama</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>trešnjama</l><r>trešnja:1<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24831,6 +24995,7 @@ after prepositions-->
    <e><p><l>nje</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e r="LR"><p><l>nji</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e r="LR"><p><l>nja</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>njâ</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>njama</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>njama</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>njama</l><r>nja<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24847,6 +25012,7 @@ after prepositions-->
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ga</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>gâ</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24865,6 +25031,7 @@ after prepositions-->
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ga</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>gâ</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24881,6 +25048,7 @@ after prepositions-->
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>ge</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ga</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>gâ</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>gama</l><r>ga<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24897,6 +25065,7 @@ after prepositions-->
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ha</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>hâ</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24915,6 +25084,7 @@ after prepositions-->
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ha</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>hâ</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24931,6 +25101,7 @@ after prepositions-->
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>he</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>ha</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e r="LR"><p><l>hâ</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>hama</l><r>ha<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -24947,6 +25118,7 @@ after prepositions-->
     <e><p><l>matere</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>matere</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
     <e><p><l>matera</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>materâ</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
        <e><p><l>ama</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
        <e><p><l>ama</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
        <e><p><l>ama</l><r>mati<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -25202,6 +25374,7 @@ after prepositions-->
    <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>â</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>ima</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>ima</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>ima</l><r>a<s n="n"/><s n="f"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -25225,7 +25398,9 @@ after prepositions-->
    <e><p><l>krvna<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><p><l>krvna<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><p><l>krvnih<b/>srodstva</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><p><l>krvnih<b/>srodstvâ</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>   
 <e r="LR"><p><l>krvnih<b/>srodstava</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+<e r="LR"><p><l>krvnih<b/>srodstavâ</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
    <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
    <e><p><l>krvnim<b/>srodstvima</l><r>krvno<b/>srodstvo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -26002,7 +26177,8 @@ after prepositions-->
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
@@ -26019,7 +26195,8 @@ after prepositions-->
     <e><p><l>ra</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>ra</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>ra</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>ara</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ara</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>arâ</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e><p><l>rima</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>rima</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>rima</l><r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
@@ -26036,7 +26213,8 @@ after prepositions-->
     <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>va</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>ava</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ava</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>avâ</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>vima</l><r>vo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
@@ -26054,6 +26232,7 @@ after prepositions-->
     <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>la</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
     <e><p><l>ala</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e r="LR"><p><l>alâ</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>         
     <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>lima</l><r>lo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
@@ -26070,7 +26249,8 @@ after prepositions-->
     <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>ma</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>ama</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ama</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>amâ</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>mima</l><r>mo<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
@@ -26087,7 +26267,8 @@ after prepositions-->
     <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>na</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>ana</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ana</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>anâ</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>    
     <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>nima</l><r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>    
@@ -26105,7 +26286,8 @@ after prepositions-->
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>â</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>ima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
@@ -26122,7 +26304,8 @@ after prepositions-->
     <e><p><l>eta</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>eta</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>eta</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>eta</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>eta</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>etâ</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>etima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     <e><p><l>etima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>etima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
@@ -26138,7 +26321,8 @@ after prepositions-->
     <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
     <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
     <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
-    <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+    <e><p><l>ka</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>kâ</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>              
     <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
     <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
     <e><p><l>čima</l><r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
@@ -26156,9 +26340,11 @@ after prepositions-->
            <e><p><l>ha</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
   <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
   <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>šesâ</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
   <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
   <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
            <e><p><l>ha</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
+           <e r="LR"><p><l>hâ</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>                
 <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
 <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>šesima</l><r>ho<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
@@ -26176,10 +26362,12 @@ after prepositions-->
           <e><p><l>om</l><r>o<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
            <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
            <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+           <e><p><l>â</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>           
            <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
            <e><p><l>a</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
   <e r="LR"><p><l>esa</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
   <e r="LR"><p><l>esa</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>esâ</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>  
   <e r="LR"><p><l>esa</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
   <e r="LR"><p><l>esa</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>esima</l><r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -26200,6 +26388,7 @@ after prepositions-->
         <e><p><l>em</l><r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
         <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
         <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>â</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>        
         <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
         <e><p><l>a</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
         <e><p><l>ima</l><r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -26218,7 +26407,9 @@ after prepositions-->
            <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
            <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
           <e><p><l>aca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+          <e r="LR"><p><l>acâ</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>          
     <e r="LR"><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>câ</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
          <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
          <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>    
          <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>        
@@ -26233,6 +26424,7 @@ after prepositions-->
         <e><p><l>em</l><r>a<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
          <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
          <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e><p><l>â</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>         
          <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
          <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
 <e r="LR"><p><l>iju</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>     
@@ -26272,7 +26464,9 @@ after prepositions-->
 <e r="LR"><p><l>cetom</l><r>ce<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
           <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
    <e r="LR"><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>câ</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
          <e><p><l>aca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+         <e r="LR"><p><l>acâ</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>         
           <e><p><l>ca</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
         <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
         <e><p><l>cima</l><r>ce<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -26335,6 +26529,7 @@ after prepositions-->
   <e><p><l>nom</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
   <e><p><l>na</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
   <e><p><l>na</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>nâ</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
   <e><p><l>na</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
 <e><p><l>nima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
 <e><p><l>nima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -26351,6 +26546,7 @@ after prepositions-->
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>menom</l><r>me<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>mena</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>mena</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+   <e r="LR"><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>menâ</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>mena</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>mena</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
    <e><i>vr</i><par n="e_e_left__yat"/><par n="e_ije_right__yat"/><p><l>menima</l><r>me<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -26369,6 +26565,7 @@ after prepositions-->
   <e><p><l>vom</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
   <e><p><l>va</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
   <e><p><l>va</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>vâ</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
   <e><p><l>va</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
 <e><p><l>vima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
 <e><p><l>vima</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -26386,6 +26583,7 @@ after prepositions-->
   <e><p><l>om</l><r>a<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r></p></e>
   <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
   <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="LR"><p><l>â</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>  
   <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r></p></e>
   <e><p><l>a</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r></p></e>
 <e><p><l>ima</l><r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -26425,6 +26623,7 @@ after prepositions-->
     <e><p><l>ši</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
     <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
     <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    <e r="LR"><p><l>šesâ</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
     <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/></r></p></e>
     <e r="LR"><p><l>šesa</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r></p></e>
     <e><p><l>šiju</l><r>ho<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>     
@@ -40786,6 +40985,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <e lm="član"><i>član</i><par n="test__n"/></e>
 <e lm="član"><i>član</i><par n="lav__n"/></e>
 <e lm="sin"><i>sin</i><par n="lav__n"/></e>
+<e lm="otac"><i>o</i><par n="o/tac__n"/></e>
 <e lm="test"><i>test</i><par n="test__n"/></e>
 <e lm="ispit"><i>ispit</i><par n="program__n"/></e>
 <e lm="odnos"><i>odnos</i><par n="program__n"/></e>
@@ -43180,6 +43380,7 @@ However, veče is used only in Nominative, Accusative and Vocative. The rest of 
 <!--The following are nouns which do not have a pair in the mk monodix-->
 
 <e lm="Škot"><i>Škot</i><par n="Škot__n"/></e>
+<e lm="svijet"><i>sv</i><par n="sv/ijet__n"/></e>
 <e lm="gram"><i>gram</i><par n="program__n"/></e>
 <e lm="prkos"><i>prkos</i><par n="program__n"/></e>
 <e lm="opoziv"><i>opoziv</i><par n="program__n"/></e>

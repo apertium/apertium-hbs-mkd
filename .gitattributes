@@ -26,6 +26,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-sh-mk.sh.metadix -text
+dev/frequency.unknown.txt -text
 dev/generateAdapterParadigms.py -text
 dev/generation-summary.sh-mk.txt -text
 dev/generation-test.py -text
