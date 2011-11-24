@@ -3,11 +3,11 @@
 /COPYING -text
 /ChangeLog -text
 GCI/check.sh -text
+GCI/freq.txt -text
 GCI/glagoli.check.tmp -text
 GCI/glagoli.leme.txt -text
 GCI/imenice.leme.txt -text
 GCI/pridjevi.leme.txt -text
-GCI/tasks.txt -text
 /Makefile.am -text
 /Makefile.old -text
 /NEWS -text
