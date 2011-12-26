@@ -6,8 +6,8 @@ GCI/100glagola.txt -text
 GCI/100imenica.txt -text
 GCI/200pridjeva.txt -text
 GCI/400imenica.txt -text
+GCI/check.sh -text
 GCI/freq.txt -text
-GCI/glagoli.check.tmp -text
 GCI/glagoli.leme.txt -text
 GCI/imenice.leme.txt -text
 GCI/pridjevi.leme.txt -text
