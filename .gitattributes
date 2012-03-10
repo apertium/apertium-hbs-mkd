@@ -48,6 +48,11 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nouns.ost.txt -text
+dev/partitive_possesive/cartesian.py -text
+dev/partitive_possesive/extract_candidates.sh -text
+dev/partitive_possesive/nominative_genitive_pairs.txt -text
+dev/partitive_possesive/notes.txt -text
+dev/partitive_possesive/quantity_nouns.txt -text
 dev/testvoc-summary.mk-sh.txt -text
 dev/testvoc-summary.sh-mk.txt -text
 dev/testvoc.sh -text
