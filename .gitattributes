@@ -60,7 +60,6 @@ dev/verbAlign.py -text
 freerbmt2012/Makefile -text
 freerbmt2012/apertium-sh-mk.bib -text
 freerbmt2012/apertium-sh-mk.tex -text
-freerbmt2012/apertium-sh-mk.toc -text
 freerbmt2012/avm.sty -text
 freerbmt2012/bilieske.txt -text
 freerbmt2012/chapterbib.sty -text
@@ -94,7 +93,6 @@ freerbmt2012/import.sty -text
 freerbmt2012/lingmacros.sty -text
 freerbmt2012/natbib.sty -text
 freerbmt2012/tree-dvips.sty -text
-freerbmt2012/čekd.txt -text
 /lexchoicebil.xsl -text
 midterm/article.mk.original.txt -text svneol=unset#application/octet-stream
 midterm/article.sh-mk.2011-07-12.txt -text
