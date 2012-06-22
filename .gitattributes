@@ -103,6 +103,7 @@ midterm/obradi.sh -text
 /mk-sh.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text
+personal-nouns/p-nouns-sh-mk -text
 /regression-tests.sh -text
 /sh-mk-unsupervised.make -text
 /sh-mk.prob -text svneol=unset#unset
