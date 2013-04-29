@@ -21,6 +21,7 @@ GCI/pridjevi.leme.txt -text
 /README -text
 /TODO -text
 /alt.xsl -text
+/apertium-sh-mk.mk-sh.lrx -text
 /apertium-sh-mk.mk-sh.rlx -text
 /apertium-sh-mk.mk-sh.t1x -text
 /apertium-sh-mk.mk-sh.t2x -text
@@ -29,7 +30,7 @@ GCI/pridjevi.leme.txt -text
 /apertium-sh-mk.post-mk.dix -text
 /apertium-sh-mk.post-sh.dix -text
 /apertium-sh-mk.sh-mk.dix -text
-/apertium-sh-mk.sh-mk.lex -text
+/apertium-sh-mk.sh-mk.lrx -text
 /apertium-sh-mk.sh-mk.rlx -text
 /apertium-sh-mk.sh-mk.t1x -text
 /apertium-sh-mk.sh-mk.t2x -text
