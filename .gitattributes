@@ -54,8 +54,8 @@ dev/partitive_possesive/extract_candidates.sh -text
 dev/partitive_possesive/nominative_genitive_pairs.txt -text
 dev/partitive_possesive/notes.txt -text
 dev/partitive_possesive/quantity_nouns.txt -text
-dev/testvoc-summary.mk-sh.txt -text
-dev/testvoc-summary.sh-mk.txt -text
+dev/testvoc-summary.hbs-mkd.txt -text
+dev/testvoc-summary.mkd-hbs.txt -text
 dev/testvoc.sh -text
 dev/verbAlign.py -text
 freerbmt2012/Makefile -text
