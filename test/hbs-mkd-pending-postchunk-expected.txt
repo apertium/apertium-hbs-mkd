@@ -1,0 +1,14 @@
+[-lhB3aUn5u4N#0] ^маса<n><f><sg><nom><prx>$ ^има<vbhaver><pres><p3><sg>$ ^маса<n><f><sg><nom><ind>$ ^нога<n><f><sg><nom><ind>$^.<sent>$
+[/-lhB3aUn5u4N]
+[0B8zNtb2tZs9#0] ^Не<adv>$ ^clitic<prn><pers><clt><p3><m><sg><acc>$ ^познае<vblex><perf><tv><pres><p1><sg>$ ^човек<n><m><sg><nom><def>$^.<sent>$
+[/0B8zNtb2tZs9]
+[68eJi-5_Tdzj#0] ^Возење<n><nt><sg><nom><ind>$ ^со<pr>$ ^авион<n><m><sg><nom><ind>$ ^бие<vblex><imperf><tv><aor><p3><sg>$ ^решавачки<adj><mfn><pl><nom><def>$^.<sent>$
+[/68eJi-5_Tdzj]
+[F3J8QdLxCotm#0] ^Не<adv>$ ^clitic<prn><pers><clt><p3><f><sg><acc>$ ^види<vblex><perf><tv><aor><p1><sg>$ ^жена<n><f><sg><nom><dst>$^.<sent>$
+[/F3J8QdLxCotm]
+[YIg8DsNyk7c5#0] ^Free<prn><pers><p1><mfn><sg><nom>$ ^сам<adj><m><sg><nom><ind>$^.<sent>$
+[/YIg8DsNyk7c5]
+[g8HwGr8qFUtA#0] ^clitic<prn><pers><clt><p3><nt><sg><acc>$ ^види<vblex><perf><tv><aor><p2><sg>$ ^ли<part>$ ^мој<prn><pos><nt><sg><def>$ ^видео<n><nt><sg><nom><ind>$^?<sent>$
+[/g8HwGr8qFUtA]
+[pS8goGXwQhlH#0] ^Кој<prn><itg><nt><sg><nom>$ ^е<vbser><pres><p3><sg>$ ^дете<n><nt><sg><nom><prx>$^?<sent>$
+[/pS8goGXwQhlH]

@@ -1,0 +1,14 @@
+[-lhB3aUn5u4N#0] ^n_def<SN><f><sg><nom><prx>{^маса<n><f><sg><nom><prx>$}$ ^verb<SV><pres><p3><sg>{^има<vbhaver><pres><p3><sg>$}$ ^nom<SN><f><sg><acc><ind>{^маса<n><f><sg><nom><5>$}$ ^nom<SN><f><sg><acc><ind>{^нога<n><f><sg><nom><5>$}$^default<default>{^.<sent>$}$
+[/-lhB3aUn5u4N]
+[0B8zNtb2tZs9#0] ^ne_part<Part>{^Не<adv>$}$ ^verb<SV><pres><p1><sg>{^познае<vblex><perf><tv><pres><p1><sg>$}$ ^n_def<SN><m><sg><acc><def>{^човек<n><m><sg><nom><def>$}$^default<default>{^.<sent>$}$
+[/0B8zNtb2tZs9]
+[68eJi-5_Tdzj#0] ^nom<SN><nt><sg><nom><ind>{^Возење<n><nt><sg><nom><5>$}$ ^nom<SN><m><sg><ins><ind>{^авион<n><m><sg><nom><5>$}$ ^vblex_lp_vbser_past<SV><p3><sg>{^бие<vblex><imperf><tv><aor><p3><sg>$}$ ^adj<SA><mfn><pl><nom><def>{^решавачки<adj><mfn><pl><nom><def>$}$^default<default>{^.<sent>$}$
+[/68eJi-5_Tdzj]
+[F3J8QdLxCotm#0] ^ne_part<Part>{^Не<adv>$}$ ^vbser_past_vblex_lp<SV><p1><sg><m>{^види<vblex><perf><tv><aor><p1><sg>$}$ ^n_def<SN><f><sg><acc><dst>{^жена<n><f><sg><nom><dst>$}$^default<default>{^.<sent>$}$
+[/F3J8QdLxCotm]
+[YIg8DsNyk7c5#0] ^prn_adj<SPrn><p1><mfn><sg><nom>{^Free<prn><pers><p1><mfn><sg><nom>$ ^сам<adj><m><sg><nom><ind>$}$^default<default>{^.<sent>$}$
+[/YIg8DsNyk7c5]
+[g8HwGr8qFUtA#0] ^vbser_past_emph_li_part_vb_lp<SV><p2>{^види<vblex><perf><tv><aor><p2><sg>$ ^ли<part>$}$ ^prn_n<SN><nt><sg><acc><def>{^мој<prn><pos><nt><sg><def>$ ^видео<n><nt><sg><nom><ind>$}$^default<default>{^?<sent>$}$
+[/g8HwGr8qFUtA]
+[pS8goGXwQhlH#0] ^prn<SPrn><nt><sg><nom>{^Кој<prn><itg><nt><sg><nom>$}$ ^verb<SV><pres><p3><sg>{^е<vbser><pres><p3><sg>$}$ ^n_def<SN><nt><sg><nom><prx>{^дете<n><nt><sg><nom><prx>$}$^default<default>{^?<sent>$}$
+[/pS8goGXwQhlH]

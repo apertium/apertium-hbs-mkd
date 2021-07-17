@@ -174,3 +174,6 @@ apertium_hbs_mkd_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 install-data-local: install-modes
 
 CLEANFILES = -r $(TARGETS_COMMON) 
+
+test: all
+	apertium-regtest test

@@ -1,0 +1,10 @@
+{
+    "hbs-mkd-pending": {
+        "input": "hbs-mkd-pending-input.txt",
+        "mode": "hbs-mkd"
+    },
+    "hbs-mkd-regression": {
+        "input": "hbs-mkd-regression-input.txt",
+        "mode": "hbs-mkd"
+    }
+}

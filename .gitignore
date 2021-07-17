@@ -19,3 +19,9 @@
 /missing
 /modes
 /stamp-h1
+/test/*-output.txt
+/ap_include.am
+/apertium-hbs-mkd.hbs.dix
+/apertium-hbs-mkd.hbs_BS.dix
+/apertium-hbs-mkd.hbs_HR.dix
+/apertium-hbs-mkd.hbs_SR.dix

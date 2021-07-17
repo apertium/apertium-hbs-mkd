@@ -1,0 +1,30 @@
+[2Pc1nWikqFbo#0] ^Free<prn><pers><p1><mfn><sg><nom>/Free<prn><pers><p1><mfn><sg><nom>$ ^biti<vbser><pres><p1><sg>/е<vbser><pres><p1><sg>$^.<sent>/.<sent>$
+[/2Pc1nWikqFbo]
+[CPa4R9VHuSqa#0] ^Free<prn><pers><p3><m><pl><nom>/Free<prn><pers><p3><m><pl><nom>$ ^biti<vbser><pres><p3><pl>/е<vbser><pres><p3><pl>$^.<sent>/.<sent>$
+[/CPa4R9VHuSqa]
+[Cu71VwCGAZLS#0] ^Free<prn><pers><p3><m><pl><nom>/Free<prn><pers><p3><m><pl><nom>$ ^biti<vbser><clt><pres><p3><pl>/е<vbser><pres><p3><pl>$^.<sent>/.<sent>$
+[/Cu71VwCGAZLS]
+[EYQ3T0DnaB7A#0] ^Free<prn><pers><p1><mfn><pl><nom>/Free<prn><pers><p1><mfn><pl><nom>$ ^biti<vbser><pres><p1><pl>/е<vbser><pres><p1><pl>$^.<sent>/.<sent>$
+[/EYQ3T0DnaB7A]
+[GWbaXNm3ffRB#0] ^Free<prn><pers><p2><mfn><sg><nom>/Free<prn><pers><p2><mfn><sg><nom>$ ^clitic<prn><ref><pers><mfn><sp><dat>/clitic<prn><ref><pers><mfn><sp><dat>$^.<sent>/.<sent>$
+[/GWbaXNm3ffRB]
+[GasO73fe1oNO#0] ^Free<prn><pers><p3><nt><sg><nom>/Free<prn><pers><p3><nt><sg><nom>$ ^biti<vbser><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/GasO73fe1oNO]
+[KKCeq49Sw2wi#0] ^Free<prn><pers><p3><f><sg><nom>/Free<prn><pers><p3><f><sg><nom>$ ^biti<vbser><clt><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/KKCeq49Sw2wi]
+[MGQM8Q0fH29U#0] ^Free<prn><pers><p2><mfn><pl><nom>/Free<prn><pers><p2><mfn><pl><nom>$ ^biti<vbser><pres><p2><pl>/е<vbser><pres><p2><pl>$^.<sent>/.<sent>$
+[/MGQM8Q0fH29U]
+[U1Mgv-lM3K-H#0] ^Free<prn><pers><p1><mfn><pl><nom>/Free<prn><pers><p1><mfn><pl><nom>$ ^biti<vbser><clt><pres><p1><pl>/е<vbser><pres><p1><pl>$^.<sent>/.<sent>$
+[/U1Mgv-lM3K-H]
+[Yf352pA0XTy6#0] ^Free<prn><pers><p3><f><sg><nom>/Free<prn><pers><p3><f><sg><nom>$ ^biti<vbser><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/Yf352pA0XTy6]
+[ku5nN_BmHBuc#0] ^Free<prn><pers><p2><mfn><pl><nom>/Free<prn><pers><p2><mfn><pl><nom>$ ^biti<vbser><clt><pres><p2><pl>/е<vbser><pres><p2><pl>$^.<sent>/.<sent>$
+[/ku5nN_BmHBuc]
+[oC6Ev1SsOozN#0] ^Free<prn><pers><p2><mfn><sg><nom>/Free<prn><pers><p2><mfn><sg><nom>$ ^biti<vbser><pres><p2><sg>/е<vbser><pres><p2><sg>$^.<sent>/.<sent>$
+[/oC6Ev1SsOozN]
+[oyxYNaSceynp#0] ^Free<prn><pers><p3><m><sg><nom>/Free<prn><pers><p3><m><sg><nom>$ ^biti<vbser><clt><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/oyxYNaSceynp]
+[vPTwf4W8MXXA#0] ^Free<prn><pers><p3><nt><sg><nom>/Free<prn><pers><p3><nt><sg><nom>$ ^biti<vbser><clt><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/vPTwf4W8MXXA]
+[xg1EsbvftD61#0] ^Free<prn><pers><p3><m><sg><nom>/Free<prn><pers><p3><m><sg><nom>$ ^biti<vbser><pres><p3><sg>/е<vbser><pres><p3><sg>$^.<sent>/.<sent>$
+[/xg1EsbvftD61]

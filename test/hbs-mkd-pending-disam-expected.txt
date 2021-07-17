@@ -1,0 +1,14 @@
+[-lhB3aUn5u4N#0] ^Ovaj<prn><dem><mi><sg><nom>$ ^stol<n><mi><sg><nom>$ ^imati<vbhaver><imperf><tv><pres><p3><sg>$ ^stol<n><mi><sg><acc>$ ^noga<n><f><sg><acc>$^.<sent>$
+[/-lhB3aUn5u4N]
+[0B8zNtb2tZs9#0] ^Ne<part><neg>$ ^poznavati<vblex><imperf><tv><pres><p1><sg>$ ^taj<prn><dem><ma><sg><acc>$ ^čovjek<n><ma><sg><acc>$^.<sent>$
+[/0B8zNtb2tZs9]
+[68eJi-5_Tdzj#0] ^Vožnja<n><f><sg><nom>$ ^zrakoplov<n><mi><sg><ins>$ ^biti<vblex><imperf><tv><lp><f><sg>$ ^biti<vbser><clt><pres><p3><sg>$ ^odlučujući<adj><pst><nt><pl><nom><def>$^.<sent>$
+[/68eJi-5_Tdzj]
+[F3J8QdLxCotm#0] ^Ne<part><neg>+biti<vbser><clt><pres><p1><sg>$ ^vidjeti<vblex><perf><tv><lp><m><sg>$ ^onaj<prn><dem><f><sg><acc>$ ^žena<n><f><sg><acc>$^.<sent>$
+[/F3J8QdLxCotm]
+[YIg8DsNyk7c5#0] ^Free<prn><pers><p1><mfn><sg><nom>$ ^sam<adj><pst><ma><sg><nom><ind>$^.<sent>$
+[/YIg8DsNyk7c5]
+[g8HwGr8qFUtA#0] ^Biti<vbser><pres><p2><sg>$ ^li<part><itg>$ ^vidjeti<vblex><perf><tv><lp><m><sg>$ ^moj<prn><pos><mi><sg><acc>$ ^video<n><mi><sg><acc>$^?<sent>$
+[/g8HwGr8qFUtA]
+[pS8goGXwQhlH#0] ^Čiji<prn><itg><nt><sg><nom>$ ^biti<vbser><clt><pres><p3><sg>$ ^ovaj<prn><dem><nt><sg><nom>$ ^dijete<n><nt><sg><nom>$^?<sent>$
+[/pS8goGXwQhlH]
