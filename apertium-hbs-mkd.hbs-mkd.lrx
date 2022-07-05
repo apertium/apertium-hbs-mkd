@@ -1,43 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rules>
-  <rule comment="Poletjeh sa piste → Полетав од писта">
+  <rule c="Poletjeh sa piste → Полетав од писта">
     <match lemma="s" tags="pr"><select lemma="од" tags="pr"/></match>
     <or>
       <match tags="*.*.*.gen"/>
       <match tags="*.*.*.*.gen"/>
     </or>
   </rule>
-  <rule comment="51"><match lemma="sirijski"><select lemma="сириски"/></match></rule>
-	<rule comment="101"><match lemma="siguran"><select lemma="сигурен"/></match></rule>
-	<rule comment="22"><match lemma="zakazan"><select lemma="закажан"/></match></rule>
-	<rule comment="135"><match lemma="blizak"><select lemma="близок"/></match></rule>
-	<rule comment="80"><match lemma="investicijski"><select lemma="инвестиционен"/></match></rule>
-	<rule comment="1"><match lemma="anatolijski"><select lemma="анатолски"/></match></rule>
-	<rule comment="10"><match lemma="registarski"><select lemma="регистарски"/></match></rule>
-	<rule comment="243"><match lemma="strateški"><select lemma="стратешки"/></match></rule>
-	<rule comment="4"><match lemma="transilvanijski"><select lemma="трансилваниски"/></match></rule>
-	<rule comment="106"><match lemma="poljoprivredni"><select lemma="земјоделски"/></match></rule>
-	<rule comment="759"><match lemma="financijski"><select lemma="финансиски"/></match></rule>
-	<rule comment="637"><match lemma="služben"><select lemma="официјален"/></match></rule>
-	<rule comment="201"><match lemma="susjedni"><select lemma="соседен"/></match></rule>
-	<rule comment="38"><match lemma="opozicijski"><select lemma="опозициски"/></match></rule>
-	<rule comment="101"><match lemma="naredni"><select lemma="следен"/></match></rule>
-	<rule comment="4"><match lemma="kazahstanski"><select lemma="казахстански"/></match></rule>
-	<rule comment="1"><match lemma="divovski"><select lemma="џиновски"/></match></rule>
-	<rule comment="135"><match lemma="slovenski"><select lemma="словенечки"/></match></rule>
-	<rule comment="68"><match lemma="računalni"><select lemma="компјутерски"/></match></rule>
-	<rule comment="229"><match lemma="osoban"><select lemma="личен"/></match></rule>
-	<rule comment="858"><match lemma="ostali"><select lemma="друг"/></match></rule>
-	<rule comment="27"><match lemma="okružni"><select lemma="окружен"/></match></rule>
-	<rule comment="808"><match lemma="sljedeći"><select lemma="следен"/></match></rule>
-	<rule comment="2"><match lemma="oceanografski"><select lemma="океанографски"/></match></rule>
-	<rule comment="14"><match lemma="biometrijski"><select lemma="биометрички"/></match></rule>
-	<rule comment="75"><match lemma="kratak"><select lemma="кус"/></match></rule>
-	<rule comment="12"><match lemma="indijski"><select lemma="индиски"/></match></rule>
-	<rule comment="170"><match lemma="riječ"><select lemma="збор"/></match></rule>
-	<rule comment="3"><match lemma="atlantski"><select lemma="атлански"/></match></rule>
-	<rule comment="2668"><match lemma="velik"><select lemma="голем"/></match></rule>
-	<rule comment="1645"><match lemma="drugi"><select lemma="друг"/></match></rule>
-	<rule comment="25"><match lemma="hladan"><select lemma="студен"/></match></rule>
+  <rule c="51"><match lemma="sirijski"><select lemma="сириски"/></match></rule>
+	<rule c="101"><match lemma="siguran"><select lemma="сигурен"/></match></rule>
+	<rule c="22"><match lemma="zakazan"><select lemma="закажан"/></match></rule>
+	<rule c="135"><match lemma="blizak"><select lemma="близок"/></match></rule>
+	<rule c="80"><match lemma="investicijski"><select lemma="инвестиционен"/></match></rule>
+	<rule c="1"><match lemma="anatolijski"><select lemma="анатолски"/></match></rule>
+	<rule c="10"><match lemma="registarski"><select lemma="регистарски"/></match></rule>
+	<rule c="243"><match lemma="strateški"><select lemma="стратешки"/></match></rule>
+	<rule c="4"><match lemma="transilvanijski"><select lemma="трансилваниски"/></match></rule>
+	<rule c="106"><match lemma="poljoprivredni"><select lemma="земјоделски"/></match></rule>
+	<rule c="759"><match lemma="financijski"><select lemma="финансиски"/></match></rule>
+	<rule c="637"><match lemma="služben"><select lemma="официјален"/></match></rule>
+	<rule c="201"><match lemma="susjedni"><select lemma="соседен"/></match></rule>
+	<rule c="38"><match lemma="opozicijski"><select lemma="опозициски"/></match></rule>
+	<rule c="101"><match lemma="naredni"><select lemma="следен"/></match></rule>
+	<rule c="4"><match lemma="kazahstanski"><select lemma="казахстански"/></match></rule>
+	<rule c="1"><match lemma="divovski"><select lemma="џиновски"/></match></rule>
+	<rule c="135"><match lemma="slovenski"><select lemma="словенечки"/></match></rule>
+	<rule c="68"><match lemma="računalni"><select lemma="компјутерски"/></match></rule>
+	<rule c="229"><match lemma="osoban"><select lemma="личен"/></match></rule>
+	<rule c="858"><match lemma="ostali"><select lemma="друг"/></match></rule>
+	<rule c="27"><match lemma="okružni"><select lemma="окружен"/></match></rule>
+	<rule c="808"><match lemma="sljedeći"><select lemma="следен"/></match></rule>
+	<rule c="2"><match lemma="oceanografski"><select lemma="океанографски"/></match></rule>
+	<rule c="14"><match lemma="biometrijski"><select lemma="биометрички"/></match></rule>
+	<rule c="75"><match lemma="kratak"><select lemma="кус"/></match></rule>
+	<rule c="12"><match lemma="indijski"><select lemma="индиски"/></match></rule>
+	<rule c="170"><match lemma="riječ"><select lemma="збор"/></match></rule>
+	<rule c="3"><match lemma="atlantski"><select lemma="атлански"/></match></rule>
+	<rule c="2668"><match lemma="velik"><select lemma="голем"/></match></rule>
+	<rule c="1645"><match lemma="drugi"><select lemma="друг"/></match></rule>
+	<rule c="25"><match lemma="hladan"><select lemma="студен"/></match></rule>
 
   <rule c="1 2: 3" weight="3.0">
     <match tags="num"/>

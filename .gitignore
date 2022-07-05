@@ -25,3 +25,8 @@
 /apertium-hbs-mkd.hbs_BS.dix
 /apertium-hbs-mkd.hbs_HR.dix
 /apertium-hbs-mkd.hbs_SR.dix
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/*-*.prob

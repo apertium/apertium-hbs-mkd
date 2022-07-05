@@ -70,10 +70,12 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 	cg-comp $(BASENAME).$(PREFIX2).rlx $@
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
-	lrx-comp $(BASENAME).$(PREFIX1).lrx $@
+	apertium-validate-lrx $<
+	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
-	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
+	apertium-validate-lrx $<
+	lrx-comp $< $@
 
 $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
